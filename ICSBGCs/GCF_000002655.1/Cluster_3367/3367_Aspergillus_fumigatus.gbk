@@ -1,0 +1,406 @@
+LOCUS       413mF-Z3                8139 bp    DNA     linear   UNC 18-JAN-2022
+DEFINITION  GCF_000002655.1 results based on the annotation PF05141 and  inputs.
+ACCESSION   GCF_000002655.1
+VERSION     1
+KEYWORDS    .
+SOURCE      ICSCreator.py written by Grant Nickles (gnickles@wisc.edu)
+ORGANISM    GCF_000002655.1
+FEATURES             Location/Qualifiers
+     gene            complement(1..710)
+                     /db_xref="GeneID:3512311"
+                     /note="*Name AFUA_3G13660"
+                     /note="*end_range: 3604947,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="AFUA_3G13660"
+                     /old_locus_tag="Afu3g13660"
+                     /partial
+                     /note="*start_range: .,3604238"
+     mRNA            complement(1..710)
+                     /db_xref="GeneID:3512311"
+                     /db_xref="Genbank:XM_749165.1"
+                     /note="*Name XM_749165.1"
+                     /note="*Note transcript AFUA_3G13660A"
+                     /note="*end_range: 3604947,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_3G13660"
+                     /partial
+                     /product="Ctr copper transporter family protein"
+                     /note="*start_range: .,3604238"
+                     /note="*transcript_id: XM_749165.1"
+     exon            complement(187..710)
+                     /db_xref="GeneID:3512311"
+                     /db_xref="Genbank:XM_749165.1"
+                     /note="*Note transcript AFUA_3G13660A"
+                     /note="*end_range: 3604947,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_3G13660"
+                     /partial
+                     /product="Ctr copper transporter family protein"
+                     /note="*transcript_id: XM_749165.1"
+     exon            complement(1..133)
+                     /db_xref="GeneID:3512311"
+                     /db_xref="Genbank:XM_749165.1"
+                     /note="*Note transcript AFUA_3G13660A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_3G13660"
+                     /partial
+                     /product="Ctr copper transporter family protein"
+                     /note="*start_range: .,3604238"
+                     /note="*transcript_id: XM_749165.1"
+     CDS             join(complement(187..710),complement(1..133))
+                     /db_xref="GeneID:3512311"
+                     /db_xref="Genbank:XP_754258.1"
+                     /note="*Name XP_754258.1"
+                     /note="*Note encoded by transcript AFUA_3G13660A~similar
+                     to GB:CAC83067.1: low-affinity copper transporter
+                     {Podospora anserina;}"
+                     /db_xref="GeneID:3512311"
+                     /db_xref="Genbank:XP_754258.1"
+                     /note="*Name XP_754258.1"
+                     /note="*Note encoded by transcript AFUA_3G13660A~similar
+                     to GB:CAC83067.1: low-affinity copper transporter
+                     {Podospora anserina;}"
+                     /note="*gbkey: CDS"
+                     /locus_tag="AFUA_3G13660"
+                     /product="Ctr copper transporter family protein"
+                     /protein_id="XP_754258.1"
+     gene            1648..3490
+                     /db_xref="GeneID:3512310"
+                     /note="*Name AFUA_3G13670"
+                     /note="*end_range: 3607727,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="AFUA_3G13670"
+                     /old_locus_tag="Afu3g13670"
+                     /partial
+                     /note="*start_range: .,3605885"
+     mRNA            1648..3490
+                     /db_xref="GeneID:3512310"
+                     /db_xref="Genbank:XM_749164.1"
+                     /note="*Name XM_749164.1"
+                     /note="*Note transcript AFUA_3G13670A"
+                     /note="*end_range: 3607727,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_3G13670"
+                     /partial
+                     /product="siderochrome-iron transporter, putative"
+                     /note="*start_range: .,3605885"
+                     /note="*transcript_id: XM_749164.1"
+     exon            1648..1856
+                     /db_xref="GeneID:3512310"
+                     /db_xref="Genbank:XM_749164.1"
+                     /note="*Note transcript AFUA_3G13670A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_3G13670"
+                     /partial
+                     /product="siderochrome-iron transporter, putative"
+                     /note="*start_range: .,3605885"
+                     /note="*transcript_id: XM_749164.1"
+     exon            1942..3490
+                     /db_xref="GeneID:3512310"
+                     /db_xref="Genbank:XM_749164.1"
+                     /note="*Note transcript AFUA_3G13670A"
+                     /note="*end_range: 3607727,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_3G13670"
+                     /partial
+                     /product="siderochrome-iron transporter, putative"
+                     /note="*transcript_id: XM_749164.1"
+     CDS             join(1648..1856,1942..3490)
+                     /db_xref="GeneID:3512310"
+                     /db_xref="Genbank:XP_754257.1"
+                     /note="*Name XP_754257.1"
+                     /note="*Note encoded by transcript AFUA_3G13670A"
+                     /db_xref="GeneID:3512310"
+                     /db_xref="Genbank:XP_754257.1"
+                     /note="*Name XP_754257.1"
+                     /note="*Note encoded by transcript AFUA_3G13670A"
+                     /note="*gbkey: CDS"
+                     /locus_tag="AFUA_3G13670"
+                     /product="siderochrome-iron transporter, putative"
+                     /protein_id="XP_754257.1"
+     gene            complement(4281..5669)
+                     /db_xref="GeneID:3512309"
+                     /note="*Name AFUA_3G13680"
+                     /note="*end_range: 3609906,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="AFUA_3G13680"
+                     /old_locus_tag="Afu3g13680"
+                     /partial
+                     /note="*start_range: .,3608518"
+     mRNA            complement(4281..5669)
+                     /db_xref="GeneID:3512309"
+                     /db_xref="Genbank:XM_749163.1"
+                     /note="*Name XM_749163.1"
+                     /note="*Note transcript AFUA_3G13680A"
+                     /note="*end_range: 3609906,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_3G13680"
+                     /partial
+                     /product="conserved hypothetical protein"
+                     /note="*start_range: .,3608518"
+                     /note="*transcript_id: XM_749163.1"
+     exon            complement(4281..5669)
+                     /db_xref="GeneID:3512309"
+                     /db_xref="Genbank:XM_749163.1"
+                     /note="*Note transcript AFUA_3G13680A"
+                     /note="*end_range: 3609906,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_3G13680"
+                     /partial
+                     /product="conserved hypothetical protein"
+                     /note="*start_range: .,3608518"
+                     /note="*transcript_id: XM_749163.1"
+     CDS             complement(4281..5669)
+                     /db_xref="GeneID:3512309"
+                     /db_xref="Genbank:XP_754256.1"
+                     /note="*Name XP_754256.1"
+                     /note="*Note encoded by transcript AFUA_3G13680A"
+                     /note="*gbkey: CDS"
+                     /locus_tag="AFUA_3G13680"
+                     /product="conserved hypothetical protein"
+                     /protein_id="XP_754256.1"
+     gene            6416..8139
+                     /db_xref="GeneID:3512308"
+                     /note="*Name AFUA_3G13690"
+                     /note="*end_range: 3612376,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="AFUA_3G13690"
+                     /old_locus_tag="Afu3g13690"
+                     /partial
+                     /note="*start_range: .,361065"
+                     /note="*backbone: True"
+     mRNA            6416..8139
+                     /db_xref="GeneID:3512308"
+                     /db_xref="Genbank:XM_749162.1"
+                     /note="*Name XM_749162.1"
+                     /note="*Note transcript AFUA_3G13690A"
+                     /note="*end_range: 3612376,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_3G13690"
+                     /partial
+                     /product="pyoverdine/dityrosine biosynthesis family
+                     protein, putative"
+                     /note="*start_range: .,3610653"
+                     /note="*transcript_id: XM_749162.1"
+     exon            6416..6755
+                     /db_xref="GeneID:3512308"
+                     /db_xref="Genbank:XM_749162.1"
+                     /note="*Note transcript AFUA_3G13690A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_3G13690"
+                     /partial
+                     /product="pyoverdine/dityrosine biosynthesis family
+                     protein, putative"
+                     /note="*start_range: .,3610653"
+                     /note="*transcript_id: XM_749162.1"
+     exon            6840..7201
+                     /db_xref="GeneID:3512308"
+                     /db_xref="Genbank:XM_749162.1"
+                     /note="*Note transcript AFUA_3G13690A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_3G13690"
+                     /partial
+                     /product="pyoverdine/dityrosine biosynthesis family
+                     protein, putative"
+                     /note="*transcript_id: XM_749162.1"
+     exon            7261..8002
+                     /db_xref="GeneID:3512308"
+                     /db_xref="Genbank:XM_749162.1"
+                     /note="*Note transcript AFUA_3G13690A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_3G13690"
+                     /partial
+                     /product="pyoverdine/dityrosine biosynthesis family
+                     protein, putative"
+                     /note="*transcript_id: XM_749162.1"
+     exon            8075..8139
+                     /db_xref="GeneID:3512308"
+                     /db_xref="Genbank:XM_749162.1"
+                     /note="*Note transcript AFUA_3G13690A"
+                     /note="*end_range: 3612376,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_3G13690"
+                     /partial
+                     /product="pyoverdine/dityrosine biosynthesis family
+                     protein, putative"
+                     /note="*transcript_id: XM_749162.1"
+     CDS             join(6416..6755,6840..7201,7261..8002,8075..8139)
+                     /db_xref="GeneID:3512308"
+                     /db_xref="Genbank:XP_754255.1"
+                     /note="*Name XP_754255.1"
+                     /note="*Note encoded by transcript AFUA_3G13690A~similar
+                     to Pyoverdine/dityrosine biosynthesis protein PvcA
+                     (GI:3212172) [Pseudomonas aeruginosa] PUBMED = 10383985"
+                     /note="*Note 8704959 similar to SP:P21623: Spore wall
+                     maturation protein DIT1 [Saccharomyces cerevisiae]"
+                     /db_xref="GeneID:3512308"
+                     /db_xref="Genbank:XP_754255.1"
+                     /note="*Name XP_754255.1"
+                     /note="*Note encoded by transcript AFUA_3G13690A~similar
+                     to Pyoverdine/dityrosine biosynthesis protein PvcA
+                     (GI:3212172) [Pseudomonas aeruginosa] PUBMED = 10383985"
+                     /note="*Note 8704959 similar to SP:P21623: Spore wall
+                     maturation protein DIT1 [Saccharomyces cerevisiae]"
+                     /db_xref="GeneID:3512308"
+                     /db_xref="Genbank:XP_754255.1"
+                     /note="*Name XP_754255.1"
+                     /note="*Note encoded by transcript AFUA_3G13690A~similar
+                     to Pyoverdine/dityrosine biosynthesis protein PvcA
+                     (GI:3212172) [Pseudomonas aeruginosa] PUBMED = 10383985"
+                     /note="*Note 8704959 similar to SP:P21623: Spore wall
+                     maturation protein DIT1 [Saccharomyces cerevisiae]"
+                     /db_xref="GeneID:3512308"
+                     /db_xref="Genbank:XP_754255.1"
+                     /note="*Name XP_754255.1"
+                     /note="*Note encoded by transcript AFUA_3G13690A~similar
+                     to Pyoverdine/dityrosine biosynthesis protein PvcA
+                     (GI:3212172) [Pseudomonas aeruginosa] PUBMED = 10383985"
+                     /note="*Note 8704959 similar to SP:P21623: Spore wall
+                     maturation protein DIT1 [Saccharomyces cerevisiae]"
+                     /note="*gbkey: CDS"
+                     /locus_tag="AFUA_3G13690"
+                     /product="pyoverdine/dityrosine biosynthesis family
+                     protein, putative"
+                     /protein_id="XP_754255.1"
+ORIGIN
+        1 CTAATGATGA CATGCGTCAT CCTGCCATCC TAATGAAGGC TGTGCATAGC GCCCCAAGAG
+       61 CAATTCGCCC ACTACAATGC CTCCCACCAC CGCGCAGAGC ACCCCCACAT TGAACGTCAT
+      121 CACGGCCAGC ATTCTAAACG GTTCAGTGAT GGACATGAAC AGTCGGGCAG AGCGCTGGGA
+      181 ACTTACAATG CGTAACCCAC CAGAGCCCGG AGTCCCTCGA GAAGCGAGCC CGTTCCATCC
+      241 CGTCGCCAAC TCCAGCGTCT GTACACGTTC CACCAACGAC GCGTGCCCAA GGGGCCTTGC
+      301 GGCTCCTGAA TCAAGTCGGA AGGAAACTCA TGGCGTGTGT GTTCCGCATC CGACTCCAGG
+      361 AACTGAGCCG ACGAGAAAGG CGCCTCATCC TCGGTATCGG TTTCGGCAAC CTGCATGTAT
+      421 CGAGGCTGGG GACTCAAGCG GGCCTTGGGA ATGGCATGTC GGCGTCGCGC TCTGGGCTGC
+      481 TGTAGCTTGG GAACTCTGCC CTCCGTCGGT TGGGTGTGCT TTACGTCGAG CTGGAACTTT
+      541 AGCACGCCCA GGAAGCGGTT GAACACGGCC AGGGCGAAGA GGAAGAGTAA CGTAAGACTG
+      601 TACGAGGCTG CTGTGGTAGT CGTCCAACCT TGGAAGAAAA GTGTAATCTC GGTGCTGGTG
+      661 TCGAAGACCA TTGACATGGG CATCCCGTTG CTGTGGTCGT TGTGGTGCAT CCGGTCGACA
+      721 TTGTGATCTC AATGAGGATA CAGGGCTACG ATGGCACCTA GATATCACAT TCAGCTGTGG
+      781 TAGATCGCCT GCCATGTCAC CCGAGCCGTA TGATGATCCA TCAGTCCCTT GAACACTTGG
+      841 CTAACAGACG TCGGCGCGGC AGTTTGAGCA GATTCTTGTC CAGACAGCTG AGAGCCAAGT
+      901 TGTAATGCTC CTTTCGGTCC GATTCTCCCT CCATGCTCTG CTCCGTCGTG AGATCATATA
+      961 GAAGCTTTTC CTGTACCTGA CTCTCAACTC GGGCTTTTCA TCTACAACGC CTCCGTCCGC
+     1021 TTGGCGAGAC GCTTTTGAAA CTGCACTGCA GTATTATCTC GACAACACTG AAAATAACCA
+     1081 TGTAGCATCC AGCTCTTAGT CGAGGGGCTT TCCGACTCGC CAACTTGACC TAGACCCACT
+     1141 TGAGAGAAAT GCGCTCACAT CCTTGCACCA GACTTAATAT AGGACGGTAT TATGCATGAT
+     1201 CTGTGGACCA GTGTATGGCG GGCTAATCAA TCATCGGCCC AGTCTGTTGA TTCACAGAAG
+     1261 AAGGACACCT GCGGATCTTG CCTGCACCAC TAGCATAGGT GGTCTGATAG GACTGCTTGG
+     1321 TACAGCTTGC ACATGGACGT CGCTCTGATG GCGCTGCAGT CCCCCAGCTA CAGTTCTGAC
+     1381 TGCATAAAAT GCGCAGATTT GAGCATGTTA CTAGACCTAA ATGGATTCAC GCTGCACTTG
+     1441 TCTCCTGCCA ATCGAGCATC GAGCGCTTGG CTCGACGGCT GTAATAGACA GCAAGGATTT
+     1501 GACTCAGGAC AGTCCGTTGC TTTCCGGACA TTCTGCTCTC GGATCGTTGC CGAGGAAATG
+     1561 ATTTATTCAG TCTATTCCCT TTGTACGTGA CATCCTTGGA GAAGGCCGTC CTTGACCTTG
+     1621 ACCTTGACAG CACCGCACTG CTGAACAATG GCGGCAACTA CTGAAAAGGA CCTCACTGCT
+     1681 CGAACAACAG CCAACATCGA GGCCGCCTCC GACACAGTGA GTCTGGAGGA AAAGAGCGAG
+     1741 CGAGAAATCC TCGAACGTCC CAATGAGATT ACACAAGATG CCCAGATTGG AGTGCAAAAA
+     1801 GCCGAAGCCA CGGCCCTCGT ATGGTCCAAG ACGGCCTTGT ATGCCACATA TGCCTGGTGA
+     1861 GTAACAGCAA TCGACCTTCT ACCAGGAAGA CTATAAAGAT GGACAAGAAT GACAGCGATT
+     1921 GCTAATGGAT ACGGTGAACA GGATCTGGGT GTGTTTCTTC ATTCTAAACC TGCAGTTTTC
+     1981 CATCAGCAAC AATATGATCT ATTACGCTTA TGCGGGCTTC TCATCGGCTC CCCAGATCTC
+     2041 CCAGGCGTAT ATTCTCTCGA CTATCATCGG GGGAGTGCTA CAGCTGCCTA TCGCCAAAAC
+     2101 CCTCAATCTC TGGGGCCGAG CCGAGGGCTT TCTGGTTTTC GTCGGGGTCT TGATCGTCGG
+     2161 GATTATCGTG ATCGCCTCTT GCAATGGCCC CAATGGCTTC GCAGCCGGAT ACACGCTGTA
+     2221 CTGGATTGGC TACACGGCCG TCAACTTCAT CCTGGTTGTC TTTGTCGCGG ACGCGTCCGG
+     2281 GCTGCGCAAT CGGGCATTTG CCTACGCATT CATTGGCACC CCGACCATCT GTACAGCCTT
+     2341 TGTTGGCCCG CTCGCTGCGC AGGCGTTCTA TGCCCATTCC ACGTGGCGGT GGGCCTACGG
+     2401 CTGTTTCGCC ATCGTCATCT TCTTCACCTT TGTGCCTCTC GCGCTGGTCT TCAAGTTCTA
+     2461 CCAGCGCAAG GCCGAGAAGA CGGGCGTGTT TGTCCGGGAC CCCAGCGGCC GGACGCCTCT
+     2521 CCAGTCCTTC CGGCATTACT TTCGCGAGTT CGACCTCGTC GGCGCCTTTC TCCTCATGGC
+     2581 TGCCTTTGTC CTGTTTCTCT TGCCCTTCAG CCTCGAGACG TACGGCTTCA GCGGCTACTC
+     2641 CTCGGCCACC TTTATCAGCA TGGTCGTCAT CGGCGTGCTG CTCTTCCCCG TCTTCGCGAT
+     2701 ATGGGAGAGA TTCTTCGCCC CGACCGCTTT CATCAAGTGG CAGCTCTTCA AGAACCGGAC
+     2761 GGTGCTCGGG GCCTGCATTT TGGCTGCGGT CATTTTCTTC AACTATTACA CCTGGGACCA
+     2821 GTACTACTAC TACTACCTCC AGGTCGTCTA CAACCTGAAC ACCGCCAACA CCGGCTACAT
+     2881 GACACAGATC TACAGCGTCG GCTCGACCCT CTGGGCCGTC CTCTTCGGCA TCTGGATCCG
+     2941 CCAGACCAAA CACTTCCAGA AAACCTGCCT GTATTTCGGC GCCCCGCTGA TGCTCCTCGG
+     3001 CGCCGGCCTC ATGATCCACT TCCGCGGCGC CGAGAGCAAG ATCGGGTATC TCGTGATGTG
+     3061 CCAGATCTTC ATCGCCTTTG GCGGCGGCAC GCTCGTGATC GGGGACGAGA TGGCCGTCAT
+     3121 GGCGGCCGCG GACCGCGACG GCGTGCCCAT GATGATCGCC ATGATCAGCC TGGCCGGCAG
+     3181 TTTCGGCGGG GCGATCGGCT ACGCGGTTGC CGGGGCCATC TACGCCAACA CCTTCCCACA
+     3241 GGCGTTGCTC CGAGGGCTCC CGGACGACCT GAAAGGCGAT TCTGCGACTG TCTACCTGGG
+     3301 GGGCTCGACG GCGCAGGTGA TGTACCCGCC CGGCAGTGCG GCCCGGAATG CAATCAACCA
+     3361 TGCATGGACG GAGAGTCAGA AGTATGAGTG TATCACGGCG ACGGCGGTTG TGGTTCTGGC
+     3421 GTTCCCGGCG ATTGCCATGT GGAAGAACTA CAACGTGGAT CGGAAACAGG TCAAGGGGAC
+     3481 GGTCATCTAG TTGGATCCGA ATTGTCAATT GTCAACTGCT GTAATCGCAT GGCTATATTA
+     3541 GACAGGTAAT AACCGAATTC ACTGGTACGC CAAAGAATCA AAGAACCTGT ACTCCATAAA
+     3601 GGACCGTGGG AGGACGAGGA GGAATGAGCG CTGGCCACGC CATGAGCTAA CTGCACTCTG
+     3661 TATGCGTCTC ATGCACGCCC ATCTTAGCGT ACAATAACCT GCTCAAACCC GCTCACAGGA
+     3721 TCCTATAGTT GGATCTGCAT CGCTTAGCTC TGTCTCAGCC ACTGCCCTCG TGTCTCAAGT
+     3781 CATCCAACAC CGGGAGAAGG ACCTTGACGT CTAGCCTACC ATTTCTAGCG TAGGAGGAAT
+     3841 AATAGCGCAG AGTGTGTCGA CGCCTCCAGA TTCAGCCCTT CCTATCCTAG CCCCAGCTGC
+     3901 ATCCTTCTCC TCGGCCAATC CGGCTTCAGT CAATGGCTGC ATGACCAATA GCACAAGGGC
+     3961 TGTGGCTAAT CCCGAGGGAG AAACAAGGAG TGAGTTGAGA AATGCACCTC AATGTCAAAC
+     4021 ACCCCACCAC ACCTTCAAAG TGAATACCCC CGCTTTCCGG TAAGACATGC GCCTGCGCAA
+     4081 TACGATTCGT CTTTGCTCGC CGAACGGGGA CTCCCGGGGC CAGGAATCCA GTGGGTGCTG
+     4141 GGAAGCAGGA ATAGCCCTGG TCGGCGGGGG AGGGTGGTTA CCGGCGGGAA GAACCGACAG
+     4201 GATGAAGCCG TTGGCGGCGC CGTCAGACCT GGGCCAAACG CTACGAGTGC TTGAGGTAAG
+     4261 ACAGGTCCTA TTGTCTCTGG CTACGATTGA TACTTCTCAA AGTACTTCCA CACCCCCTGT
+     4321 CGGACCCTGT GCATGAAGCC ATCCTCGACA ACACCCTCCT GCCAGCTGAA ACCAAGCGCC
+     4381 ATAGTCCCAT CCCTACCGGT GACGACACTA ACAGTGACCG CAGCCCCGGG TACAGCAGCA
+     4441 CTGCGGCTGA GCAGCACGTT CCCTGCTTTC CAGCGAGAAG GCCTGCGAAT TGCGGCCGGC
+     4501 GGGAAGAGTC CCACATTCGT GACCTCGAAC GCCGCATCGC GGGGTTTTCC GAGCGTAGAA
+     4561 CGGAAGACGG CAGACACATC GGGGACGGTC TTGAAGGCTG CAACGGACGT GTACGGCTCG
+     4621 CCAGACGGCG AGACATCGCA GAGGTAGGCA TTGATTGATC GGGAGACTTG CCGAGCTCCA
+     4681 CACCATATAC CCACCGGACT TGGATCCTGG GAGCGCTGCT CGGCCCGTGT GAGGCGCACG
+     4741 CGGAGGGCGT CGAAGTACGT TCCAATTGCA TTGTCGATGA CTTGGGGAGG GAGCTTGAGC
+     4801 CATGGACGTA CGCTGACTGG GATAATGCAG GTGAGAGCCT CCACGCGGGA TGGGAGGTTG
+     4861 TCGAATAGGA CTGCGGCGAC GACTGACGAC AGAGCAGAGG TGACAGAGAG TTTCATCTCT
+     4921 TTGCACTCCT GGACGAAGGC GTTGGAGGCG CTCGGCGAGA TGTACAAAGA CGCCCAGCGG
+     4981 GACTTGCACG GGAGGTGGAT GGAGGCACCC GTCCACTCTT TGGGGCTTGC TGTTGGGAGG
+     5041 GGAGGCTGGC GCGGGCTGAT TGGCATGGGA TGCAATTCTT CCAGAGGAGG AAGAACCACT
+     5101 GTGTTCTCAT CCGGCCGGAT GATGTTCTCA GCCCTGTCGG TAGGCAAAGT AGAGGAAGAG
+     5161 GCAGCTTCCA GAGCGTTACA GAACGCCTTG TGGAAAGCGA GACCCGAGAC CCCATCGCCA
+     5221 ATGGCATGGT GGTAGATGAA GGAGGCTGTG AAATCGTTTC TTCCCTTGGA TCGTAGGATA
+     5281 ATCAGGCGCC AAAACGGCAA AGTGCCGTAG TCAGTCTGGA AGTCGATGTT GTGCTGCTCC
+     5341 TCGAGGATTG CGTCCAGCTC TTTGTCTTGC TCTTCGGCCG CACTGGCTAA CGGTACAGAT
+     5401 CGTTCGAGAA AGGCAATGCT CCGACGGAGA TCTATCCAAG GTAGACAGGC GAAGTGAGGA
+     5461 TTCGGAGTGC CTTCATTCAC GGGAATGGCG AATAATATGC GATGCTTACG GAGCAGATCT
+     5521 CCCGCCGCAG CGTAGACGAG ACCACGCAGG TCGGCTACAG CTGGAGACGA GGACTCGGAC
+     5581 AGCTTGTAGT GGGCTGAGAG GCCGGCATTG TTGAAGAATC CGAGATGGTG ACAAGCAGCC
+     5641 GAGACCTGCT CGAGTTTCCC TTTACTCATT AGACGAGGGC ATTGATCCCA GACGAGGTAA
+     5701 TACCTAATGG CCGCAACTGT TTGAGCTCAT GTATGTCTGC CATCCCGCTG AGATGGTCTA
+     5761 CCTCCGTACG CAAGGCTCTC GATATCACCC TAAGGGAACT GAACCCGACC TTTTCGGAGC
+     5821 TGGGCATAAG TCCCTTGATA GCGGATGGGC AAGATGGCCG ACTCAGTCGA CTGCCCGATG
+     5881 TCCAGTTCAC AGTCGCCCGG TGATTCCCGG TCCTCACGAG CTTGGGTGGA TAGCCCTGCC
+     5941 AGGCCATTTG GACCCGGTCC GGTCCCAACC GCTGATAATG GCCTCAAATA TGCTCAATCC
+     6001 TTGACATTCA CATCGGGATA GGGCCGTGAC TCCACTGGCT CCACTCTCGC GCATATCTCA
+     6061 TGCCTCCTCA CCTCGTACTC GGAGATATCT GCAGGTCTTG AATTGCGGCG CAGGGTCGAT
+     6121 ATGAAATGAC ATGCTCACTC CCTCACGCCA GCGGGTATCG TTCGCTTCTT TTGGTTCATC
+     6181 TCCTTGTGGC TCGGGTTCAC TAGGAGCATT GAGTCAATTG GAAAGAAGAC TCCCATACGA
+     6241 GTCTAGTCGG CTTGATATCG GTTGCTTTCC CAGTCATTTT GCGCATTGCC AACTTGTCTG
+     6301 CAGCACGTCC CGAACTTGAT CCCAACTGGC CTACGTTAGA TCGGCCTTGC ATTGAAGATT
+     6361 CAGATCGCAA TTGGAGGCCC CATCACAGTG CAGTACCATG CATCACTCCG ACAGAATGTT
+     6421 TCACAAGGAA GCAGGGATCT CTCATCTCAT CCTGGATATC ATCCTCGAGC ATGCGCTCAA
+     6481 CAAGTTTGAC CCTGCACCGG ACCGATTGCA GGGAGCTGCG AAGAACTTCC TGCCGATTAT
+     6541 TGAACGATTC GTCGCTGCAG GCACGCGGAT AGAGGCTTGT CTCCCCGCAT TCCCGTTCAA
+     6601 GTCGGCGAAC AAAGTATACA AGGTGCTCGG TAGCCTGCCG GATAAAGCTG AAGAGCTGGC
+     6661 TCTTGACCGT CTGAATACCA TGTGCGCGCG TGTTCGCGAA GTATACCCGC CTGGCCTTCA
+     6721 AGTGGCGATT ATCTCGGACG GCATCACATA CAATGGTAGG TTCTGACTCG GTTCGATCAG
+     6781 GATCATAGCT AACCAGTCGA GCCGTGCGCC CTTAGACTTG CTCTGCATCT CCGATCAAGA
+     6841 CACGTGGGCG TACGGAGAGG CTCTACGCCA GATGGCCGCT CAGAAGCAGT TCATGTACAT
+     6901 TGTCTTCTCC AGAATCAAAG ACCTGCTCGA TATCCCCCTG CCAGAACAGA TGAGTGAAAT
+     6961 CGTCTACGTC GCTAACTGTA CCACTTTCCG CCGATTGCTC CTCAACAAGT ACGAGAGAGC
+     7021 CGACCTTGAC ATCGACCACG AGATTGCCTC GAATCCTGAT ACCAAGCTGA CCTACCTCGG
+     7081 GTACAGGAGG TTCCTGGAGT CTGATCTCAA GTATATCTTC CCTCGAGGGG CGCATCGGTC
+     7141 TGCCCACAGC TACAAGCGAG ATTGCAAGTA TCTTGCCAAA CAGATGCTGA TACGAGGTGA
+     7201 TGTGGGTGAA GCGACCATGC AGTTATCTTG GCTTGCTCTC TGATGTTCTT TGCTCGACAG
+     7261 GCGTTTGCAC AGGCAATCAA GACCTCGTAT CCGAATCATT TGCGGCTTTC CATTCACGAG
+     7321 TCAGTGGCCG GCACCAAGCT ATCGATCTCC CTGCTGAACA CCAAGACTGG CTTCACCACT
+     7381 CCATGGCACT GCAGCGTCGC TCAGCTGGCG AACGGGGAGT GGATCAGTGC TCCGATGGGC
+     7441 GAATTCCGCA AGGACGACAG GCTGGAGCTC GTGTACGCGG ACGGCCGGCC CAGTCACTTT
+     7501 AGGGAGAAGC CACGAGAGGG GGACGCTTTC GGCATCAGCG AGAGCACCGC GAGCTACCTC
+     7561 CAACGGCCCA AACGACTCCG CGCCAGTGAA TATCTCGGTG CGACTTTGCC ATCCGTTCCC
+     7621 GTCTCACCTG GCATGTCCTC CCCCAGTGCT GCTTCCACCT CCTCATCCGG TGCGAGCATG
+     7681 CAAGGCAGCG CAGCAACTAC ACCAGAAACC CACTCTCCTC CCACTTTCAC GTGGAGCGGT
+     7741 TTGGAGATAG TCGCGGAGGA CAATTCGAAC AATGCTTCAG TGCCATACGG CAGAAGGCTC
+     7801 ATCCCTCAGA TCATGGACAG CCTGGCTGCC ACCGAGCCAG AACGCATTGT CTTCTCACTG
+     7861 GCGACGTTTT CTGGCGATTC ACTTGAGTTC AGGCCCATTT CTGCTCGCAC TTTTGCCAAC
+     7921 GCAATTGACA AGACCGCTTG GTGGCTTCAT AACCAGGTTG GCAGACCAGA CTCTATCCAG
+     7981 CCTGTGGGCT ACATCGGACC ACGTAAGTCG GAAAAGACCG CCTGGCATGT TGGGCATCGT
+     8041 TTGCGACAGA GTACTAACTT GGAGATTTGA AAAGATGATC TACGACACGT CCTGCTTACT
+     8101 TACGCATGTG TCAAAGCTGG TTACGCAGTA AGTTCTTGA
+//

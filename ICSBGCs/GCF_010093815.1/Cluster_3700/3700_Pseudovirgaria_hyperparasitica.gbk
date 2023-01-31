@@ -1,0 +1,111 @@
+LOCUS       2391mF-Z5               2196 bp    DNA     linear   UNC 16-DEC-2021
+DEFINITION  GCF_010093815.1 results based on the annotation PF05141 and  inputs.
+ACCESSION   GCF_010093815.1
+VERSION     1
+KEYWORDS    .
+SOURCE      ICSCreator.py written by Grant Nickles (gnickles@wisc.edu)
+ORGANISM    GCF_010093815.1
+FEATURES             Location/Qualifiers
+     gene            complement(1..2196)
+                     /db_xref="GeneID:54489912"
+                     /note="*Name EJ05DRAFT_526208"
+                     /note="*end_range: 309694,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="EJ05DRAFT_526208"
+                     /partial
+                     /note="*backbone: True"
+     mRNA            complement(1..2196)
+                     /db_xref="GeneID:54489912"
+                     /db_xref="Genbank:XM_033748858.1"
+                     /note="*Name XM_033748858.1"
+                     /note="*end_range: 309694,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="EJ05DRAFT_526208"
+                     /note="*orig_protein_id: gnl|WGS:JAAEJS|EJ05DRAFT_526208"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAAEJS|EJ05DRAFT_mRNA526208"
+                     /partial
+                     /product="Clavaminate synthase-like protein"
+                     /note="*transcript_id: XM_033748858.1"
+     exon            complement(1794..2196)
+                     /db_xref="GeneID:54489912"
+                     /db_xref="Genbank:XM_033748858.1"
+                     /note="*end_range: 309694,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="EJ05DRAFT_526208"
+                     /note="*orig_protein_id: gnl|WGS:JAAEJS|EJ05DRAFT_526208"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAAEJS|EJ05DRAFT_mRNA526208"
+                     /partial
+                     /product="Clavaminate synthase-like protein"
+                     /note="*transcript_id: XM_033748858.1"
+     exon            complement(1..1743)
+                     /db_xref="GeneID:54489912"
+                     /db_xref="Genbank:XM_033748858.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="EJ05DRAFT_526208"
+                     /note="*orig_protein_id: gnl|WGS:JAAEJS|EJ05DRAFT_526208"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAAEJS|EJ05DRAFT_mRNA526208"
+                     /partial
+                     /product="Clavaminate synthase-like protein"
+                     /note="*transcript_id: XM_033748858.1"
+     CDS             join(complement(1794..2196),complement(242..1743))
+                     /db_xref="InterPro:IPR003819"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="JGIDB:Psehy1_526208"
+                     /db_xref="GeneID:54489912"
+                     /db_xref="Genbank:XP_033601987.1"
+                     /note="*Name XP_033601987.1"
+                     /db_xref="InterPro:IPR003819"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="JGIDB:Psehy1_526208"
+                     /db_xref="GeneID:54489912"
+                     /db_xref="Genbank:XP_033601987.1"
+                     /note="*Name XP_033601987.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="EJ05DRAFT_526208"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAAEJS|EJ05DRAFT_mRNA526208"
+                     /product="Clavaminate synthase-like protein"
+                     /protein_id="XP_033601987.1"
+ORIGIN
+        1 CGGATGATTG CGCCCAAGAC TGTAAGTGAT CTCATGAAGG ACTCTAGGCT TGAATTGATT
+       61 GTAAAGATAC CGGAAAATTC TTGATACTCG AGTCAGAAAG ATTTTACAAC GCAATAAACA
+      121 CACTTTTCCA GTACAAGAAA AACCAACCCT ATAAACACAA CGAAACTGTG CAACTAAAAT
+      181 TAGAACCCAT ATTCTACATC CGTCATGATA CGATGCCACA GCTGTCAGCT CTGAGATTCC
+      241 ATTAATCGAC ATGAATCCTC CACAGCTCTC GATCCGCGCC CGACTTGAAG GAGCTTCTGG
+      301 TATGCATCAT TCCAACATTG TCACTAATCA GCAGATCGCC CTGTTGCCAC GAGTGTCGAT
+      361 AGCATACTCT ACGATCATGC AGTAGACTTT CCAGGATGTC GCAAGTAGAT TGAGGTCCGT
+      421 TGTCAATTGT GACGATGGTT GGATCGAACC GCGTCTTCTC TTGTGGCCAC CGCTCATGGT
+      481 ATTGCAAGCA TGGTAGTCCA GTCTCTGGGT GTCTAGTCAC AAGCTTGAGT CCCTGCATGA
+      541 CAGTCTGATC GAATGACTTT GTTGACACCG ACCACGTCAA TCGCTCCAAC TGCTCCAGTG
+      601 AAATCTCAGC TGGGAGATTT TGGAACAGCA ACCGCGATGC GGAAAAGAGA GTAAAGCCGG
+      661 TGTTTTTTGG TGAGGGCGTG ACAGCCGTGA AGAATTGAAA CTTCGGCGGT TGTGGAACGA
+      721 CTCGCAGAGT TCCGTCAGGT TCTTCCACCT TTTCGGTCTT GAACAAGCCA TCGAAGTGGA
+      781 ATGGCATCCA TTCTTGCGAT AAAACGTTGT TCAATCCTCC ACTCTCCGAT CCTTTGTCCT
+      841 TGACCTCAAG CACCAGACCA AATTTCCACT TTTGTGGCTT GCCAATTTCG GACGCTTTAT
+      901 CAACAAAGAG ATCCCGGTTT CGTGTTCCAT TGAAGCCTCG AACAATCACA GGAGAGTTCT
+      961 GCTCAGCTAG CTTGCGCAAC TTCAGCCCTG GGACATCTTG CATTGATAGC TTGGCACCTG
+     1021 TAGTAGGTCG GATGATGAGG CCACACGGAT ATTGATGTTC GAACACCACC TTGGCGGTCC
+     1081 CCCAATCGTA CAATGGTGAC TTTTGGCGGA AATGTGACAG GTGTCCAGCT TCCTCAACCA
+     1141 ATTCAAGATC TGGATCTTGC TCAAAGCTAT GTCGAGGACC AGCCCGAATC GAGCCATCTA
+     1201 CGTTTATAGC AATGCAAGTG TGCCATGGTG TTACTGTAGT CGTCGTCAAG GGAAGTGTGT
+     1261 TGATCGAAAT TTTGTCCTCT CCAGTCGACG GATGGATAGA AAGTCGAATG TGCTGGGGGA
+     1321 AGTTCTCTCG GACAGCTTTG GCAAAGGCCT CACCTCTCCT CAACATAGCC TTTGCGATCT
+     1381 TCTCGATTCC TTTCTTATAT CTACTCTTGC TCAAGTTTTC GCCAACCACA TGCTGCGTGG
+     1441 CCAGATCTGT CTGTAAGAAT TTCAGATACC CGCAATATGT CAATAGCCTG TTCTCATCTT
+     1501 CTTTCAACGA CTCCGGTTTC AAGTTCTCCC AGGCCGGACG GCCGAACTTG TTCATTAAAG
+     1561 CCAAGCGGAC ACTTGACGCT GTTGCTTGAT ATGACATCTC GTCCATGTCC TCTTCTAGTA
+     1621 TGTCCATGCC CAAGAGATCC TTCAGTCGAG CAAATTCGAT GTTGGTGTAC CCGCGACTTG
+     1681 CAGCGATGGC TCTCAAGTGC TGCCCATATG ACCACACAGT CTTGTCTGGT ACTCCCAACA
+     1741 GATCTATGGT CGATTAGCGA TGGTATATTA TGACAGTAGT ATATCCTACT TACCATTGTA
+     1801 GACAAGACCA TCAGACACTA TGGAAAGCTT TGCGCCAGGC TCGTGGATAT CGGCAATGGC
+     1861 ATCACACATC CCATTGAGAT GAGCCAGAGC AAGCTCCTCT CCTTTATCTG GAAGAACACC
+     1921 CAAAACTTTG CTCTCACTGT TGGGGGACTT GAATGGAAAT GCCGGAAGTG CGAGAGCGAT
+     1981 AGGTTTGTTG TGTTTGATGT ATCGATATAT GATGGATAAG AATGTCAAAG CTCCTTCATC
+     2041 GCTCCTATCT TCCACGTTCG AAGAAAGCGG GCATCTATAC CGATAGATGA TATCGAGGAT
+     2101 TGCTTTTGCT TTGGAGAAGA GGTCATCGGA AAAGGTACCT GTCTGCGGAC TTGGCGAGTC
+     2161 CTGTACAGCT AATTCTGAAC TGATGAGACC CGGCAT
+//

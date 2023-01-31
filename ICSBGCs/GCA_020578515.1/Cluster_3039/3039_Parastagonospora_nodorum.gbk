@@ -1,0 +1,1610 @@
+LOCUS       2171mF-Z24             39053 bp    DNA     linear   UNC 18-JAN-2022
+DEFINITION  GCA_020578515.1 results based on the annotation PF05141 and  inputs.
+ACCESSION   GCA_020578515.1
+VERSION     1
+KEYWORDS    .
+SOURCE      ICSCreator.py written by Grant Nickles (gnickles@wisc.edu)
+ORGANISM    GCA_020578515.1
+FEATURES             Location/Qualifiers
+     gene            1..795
+                     /note="*Name HBI65_141030"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="HBI65_141030"
+     mRNA            1..795
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141030"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141030A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141030A"
+                     /product="hypothetical protein"
+     exon            1..795
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141030"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141030A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141030A"
+                     /product="hypothetical protein"
+     CDS             1..795
+                     /db_xref="NCBI_GP:KAH6093275.1"
+                     /note="*Name KAH6093275.1"
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: CDS"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141030"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141030A"
+                     /product="hypothetical protein"
+                     /protein_id="KAH6093275.1"
+     gene            complement(6977..7116)
+                     /note="*Name HBI65_141100"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: tRNA"
+                     /locus_tag="HBI65_141100"
+     tRNA            complement(6977..7116)
+                     /note="*Note anticodon GTA"
+                     /note="*gbkey: tRNA"
+                     /inference="profile:tRNAScan-SE:2.0.3"
+                     /locus_tag="HBI65_141100"
+                     /product="tRNA-Tyr"
+     exon            complement(7025..7116)
+                     /note="*Note anticodon GTA"
+                     /note="*gbkey: tRNA"
+                     /inference="profile:tRNAScan-SE:2.0.3"
+                     /locus_tag="HBI65_141100"
+                     /product="tRNA-Tyr"
+     exon            complement(6977..7012)
+                     /note="*Note anticodon GTA"
+                     /note="*gbkey: tRNA"
+                     /inference="profile:tRNAScan-SE:2.0.3"
+                     /locus_tag="HBI65_141100"
+                     /product="tRNA-Tyr"
+     gene            complement(7502..9617)
+                     /note="*Name HBI65_141110"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="HBI65_141110"
+     mRNA            complement(7502..9617)
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141110"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141110A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141110A"
+                     /product="NADH-ubiquinone reductase"
+     exon            complement(7574..9617)
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141110"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141110A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141110A"
+                     /product="NADH-ubiquinone reductase"
+     exon            complement(7502..7518)
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141110"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141110A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141110A"
+                     /product="NADH-ubiquinone reductase"
+     CDS             join(complement(7574..9617),complement(7502..7518))
+                     /db_xref="NCBI_GP:KAH6093240.1"
+                     /note="*Name KAH6093240.1"
+                     /db_xref="NCBI_GP:KAH6093240.1"
+                     /note="*Name KAH6093240.1"
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: CDS"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141110"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141110A"
+                     /product="NADH-ubiquinone reductase"
+                     /protein_id="KAH6093240.1"
+     gene            complement(10024..12172)
+                     /note="*Name HBI65_141120"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="HBI65_141120"
+     mRNA            complement(10024..12172)
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141120"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141120A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141120A"
+                     /product="mitochondrial division protein"
+     exon            complement(12059..12172)
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141120"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141120A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141120A"
+                     /product="mitochondrial division protein"
+     exon            complement(10352..12004)
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141120"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141120A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141120A"
+                     /product="mitochondrial division protein"
+     exon            complement(10024..10302)
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141120"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141120A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141120A"
+                     /product="mitochondrial division protein"
+     CDS             join(complement(12059..12172),complement(10352..12004),
+                     complement(10024..10302))
+                     /db_xref="NCBI_GP:KAH6093442.1"
+                     /note="*Name KAH6093442.1"
+                     /db_xref="NCBI_GP:KAH6093442.1"
+                     /note="*Name KAH6093442.1"
+                     /db_xref="NCBI_GP:KAH6093442.1"
+                     /note="*Name KAH6093442.1"
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: CDS"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141120"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141120A"
+                     /product="mitochondrial division protein"
+                     /protein_id="KAH6093442.1"
+     gene            12486..13380
+                     /note="*Name HBI65_141130"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="HBI65_141130"
+     mRNA            12486..13380
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141130"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141130A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141130A"
+                     /product="chorismate mutase"
+     exon            12486..12556
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141130"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141130A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141130A"
+                     /product="chorismate mutase"
+     exon            12603..13254
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141130"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141130A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141130A"
+                     /product="chorismate mutase"
+     exon            13303..13380
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141130"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141130A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141130A"
+                     /product="chorismate mutase"
+     CDS             join(12486..12556,12603..13254,13303..13380)
+                     /db_xref="NCBI_GP:KAH6093332.1"
+                     /note="*Name KAH6093332.1"
+                     /db_xref="NCBI_GP:KAH6093332.1"
+                     /note="*Name KAH6093332.1"
+                     /db_xref="NCBI_GP:KAH6093332.1"
+                     /note="*Name KAH6093332.1"
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: CDS"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141130"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141130A"
+                     /product="chorismate mutase"
+                     /protein_id="KAH6093332.1"
+     gene            complement(13981..15549)
+                     /note="*Name HBI65_141140"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="HBI65_141140"
+     mRNA            complement(13981..15549)
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141140"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141140A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141140A"
+                     /product="hypothetical protein"
+     exon            complement(15342..15549)
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141140"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141140A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141140A"
+                     /product="hypothetical protein"
+     exon            complement(15169..15275)
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141140"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141140A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141140A"
+                     /product="hypothetical protein"
+     exon            complement(15063..15115)
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141140"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141140A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141140A"
+                     /product="hypothetical protein"
+     exon            complement(14467..14997)
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141140"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141140A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141140A"
+                     /product="hypothetical protein"
+     exon            complement(13981..14410)
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141140"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141140A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141140A"
+                     /product="hypothetical protein"
+     CDS             join(complement(15342..15549),complement(15169..15275),
+                     complement(15063..15115),complement(14467..14997),
+                     complement(13981..14410))
+                     /db_xref="NCBI_GP:KAH6093434.1"
+                     /note="*Name KAH6093434.1"
+                     /db_xref="NCBI_GP:KAH6093434.1"
+                     /note="*Name KAH6093434.1"
+                     /db_xref="NCBI_GP:KAH6093434.1"
+                     /note="*Name KAH6093434.1"
+                     /db_xref="NCBI_GP:KAH6093434.1"
+                     /note="*Name KAH6093434.1"
+                     /db_xref="NCBI_GP:KAH6093434.1"
+                     /note="*Name KAH6093434.1"
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: CDS"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141140"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141140A"
+                     /product="hypothetical protein"
+                     /protein_id="KAH6093434.1"
+     gene            16346..17976
+                     /note="*Name HBI65_141150"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="HBI65_141150"
+     mRNA            16346..17976
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141150"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141150A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141150A"
+                     /product="hypothetical protein"
+     exon            16346..16405
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141150"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141150A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141150A"
+                     /product="hypothetical protein"
+     exon            16455..17027
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141150"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141150A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141150A"
+                     /product="hypothetical protein"
+     exon            17082..17216
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141150"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141150A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141150A"
+                     /product="hypothetical protein"
+     exon            17266..17976
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141150"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141150A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141150A"
+                     /product="hypothetical protein"
+     CDS             join(16346..16405,16455..17027,17082..17216,17266..17976)
+                     /db_xref="NCBI_GP:KAH6093397.1"
+                     /note="*Name KAH6093397.1"
+                     /db_xref="NCBI_GP:KAH6093397.1"
+                     /note="*Name KAH6093397.1"
+                     /db_xref="NCBI_GP:KAH6093397.1"
+                     /note="*Name KAH6093397.1"
+                     /db_xref="NCBI_GP:KAH6093397.1"
+                     /note="*Name KAH6093397.1"
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: CDS"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141150"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141150A"
+                     /product="hypothetical protein"
+                     /protein_id="KAH6093397.1"
+     gene            22175..22822
+                     /note="*Name HBI65_141200"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="HBI65_141200"
+     mRNA            22175..22822
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141200"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141200A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141200A"
+                     /product="hypothetical protein"
+     exon            22175..22822
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141200"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141200A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141200A"
+                     /product="hypothetical protein"
+     CDS             22175..22822
+                     /db_xref="NCBI_GP:KAH6093288.1"
+                     /note="*Name KAH6093288.1"
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: CDS"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141200"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141200A"
+                     /product="hypothetical protein"
+                     /protein_id="KAH6093288.1"
+     gene            23045..24244
+                     /note="*Name HBI65_141210"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="HBI65_141210"
+     mRNA            23045..24244
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141210"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141210A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141210A"
+                     /product="hypothetical protein"
+     exon            23045..23247
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141210"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141210A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141210A"
+                     /product="hypothetical protein"
+     exon            23295..24071
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141210"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141210A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141210A"
+                     /product="hypothetical protein"
+     exon            24124..24244
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141210"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141210A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141210A"
+                     /product="hypothetical protein"
+     CDS             join(23045..23247,23295..24071,24124..24244)
+                     /db_xref="NCBI_GP:KAH6093364.1"
+                     /note="*Name KAH6093364.1"
+                     /db_xref="NCBI_GP:KAH6093364.1"
+                     /note="*Name KAH6093364.1"
+                     /db_xref="NCBI_GP:KAH6093364.1"
+                     /note="*Name KAH6093364.1"
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: CDS"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141210"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141210A"
+                     /product="hypothetical protein"
+                     /protein_id="KAH6093364.1"
+     gene            complement(25387..27341)
+                     /note="*Name HBI65_141230"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="HBI65_14123"
+                     /note="*backbone: True"
+     mRNA            complement(25387..27341)
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141230"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141230A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141230A"
+                     /product="hypothetical protein"
+     exon            complement(26942..27341)
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141230"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141230A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141230A"
+                     /product="hypothetical protein"
+     exon            complement(25387..26894)
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141230"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141230A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141230A"
+                     /product="hypothetical protein"
+     CDS             join(complement(26942..27341),complement(25387..26894))
+                     /db_xref="NCBI_GP:KAH6093399.1"
+                     /note="*Name KAH6093399.1"
+                     /db_xref="NCBI_GP:KAH6093399.1"
+                     /note="*Name KAH6093399.1"
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: CDS"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141230"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141230A"
+                     /product="hypothetical protein"
+                     /protein_id="KAH6093399.1"
+     gene            28169..29526
+                     /note="*Name HBI65_141240"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="HBI65_141240"
+     mRNA            28169..29526
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141240"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141240A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141240A"
+                     /product="hypothetical protein"
+     exon            28169..28293
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141240"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141240A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141240A"
+                     /product="hypothetical protein"
+     exon            28353..29526
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141240"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141240A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141240A"
+                     /product="hypothetical protein"
+     CDS             join(28169..28293,28353..29526)
+                     /db_xref="NCBI_GP:KAH6093274.1"
+                     /note="*Name KAH6093274.1"
+                     /db_xref="NCBI_GP:KAH6093274.1"
+                     /note="*Name KAH6093274.1"
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: CDS"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141240"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141240A"
+                     /product="hypothetical protein"
+                     /protein_id="KAH6093274.1"
+     gene            30335..32287
+                     /note="*Name HBI65_141250"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="HBI65_141250"
+     mRNA            30335..32287
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141250"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141250A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141250A"
+                     /product="hypothetical protein"
+     exon            30335..30419
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141250"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141250A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141250A"
+                     /product="hypothetical protein"
+     exon            30519..30737
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141250"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141250A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141250A"
+                     /product="hypothetical protein"
+     exon            30795..31215
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141250"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141250A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141250A"
+                     /product="hypothetical protein"
+     exon            31262..31398
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141250"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141250A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141250A"
+                     /product="hypothetical protein"
+     exon            31476..32287
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141250"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141250A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141250A"
+                     /product="hypothetical protein"
+     CDS             join(30335..30419,30519..30737,30795..31215,31262..31398,
+                     31476..32287)
+                     /db_xref="NCBI_GP:KAH6093377.1"
+                     /note="*Name KAH6093377.1"
+                     /db_xref="NCBI_GP:KAH6093377.1"
+                     /note="*Name KAH6093377.1"
+                     /db_xref="NCBI_GP:KAH6093377.1"
+                     /note="*Name KAH6093377.1"
+                     /db_xref="NCBI_GP:KAH6093377.1"
+                     /note="*Name KAH6093377.1"
+                     /db_xref="NCBI_GP:KAH6093377.1"
+                     /note="*Name KAH6093377.1"
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: CDS"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141250"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141250A"
+                     /product="hypothetical protein"
+                     /protein_id="KAH6093377.1"
+     gene            32526..33092
+                     /note="*Name HBI65_141260"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="HBI65_141260"
+     mRNA            32526..33092
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141260"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141260A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141260A"
+                     /product="hypothetical protein"
+     exon            32526..32594
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141260"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141260A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141260A"
+                     /product="hypothetical protein"
+     exon            32638..32957
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141260"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141260A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141260A"
+                     /product="hypothetical protein"
+     exon            32999..33092
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141260"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141260A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141260A"
+                     /product="hypothetical protein"
+     CDS             join(32526..32594,32638..32957,32999..33092)
+                     /db_xref="NCBI_GP:KAH6093272.1"
+                     /note="*Name KAH6093272.1"
+                     /db_xref="NCBI_GP:KAH6093272.1"
+                     /note="*Name KAH6093272.1"
+                     /db_xref="NCBI_GP:KAH6093272.1"
+                     /note="*Name KAH6093272.1"
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: CDS"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141260"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141260A"
+                     /product="hypothetical protein"
+                     /protein_id="KAH6093272.1"
+     gene            complement(33114..33593)
+                     /note="*Name HBI65_141270"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="HBI65_141270"
+     mRNA            complement(33114..33593)
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141270"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141270A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141270A"
+                     /product="hypothetical protein"
+     exon            complement(33114..33593)
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141270"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141270A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141270A"
+                     /product="hypothetical protein"
+     CDS             complement(33114..33593)
+                     /db_xref="NCBI_GP:KAH6093283.1"
+                     /note="*Name KAH6093283.1"
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: CDS"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141270"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141270A"
+                     /product="hypothetical protein"
+                     /protein_id="KAH6093283.1"
+     gene            complement(33894..34634)
+                     /note="*Name HBI65_141280"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="HBI65_141280"
+     mRNA            complement(33894..34634)
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141280"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141280A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141280A"
+                     /product="hypothetical protein"
+     exon            complement(33894..34634)
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141280"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141280A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141280A"
+                     /product="hypothetical protein"
+     CDS             complement(33894..34634)
+                     /db_xref="NCBI_GP:KAH6093346.1"
+                     /note="*Name KAH6093346.1"
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: CDS"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141280"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141280A"
+                     /product="hypothetical protein"
+                     /protein_id="KAH6093346.1"
+     gene            35364..35933
+                     /note="*Name HBI65_141290"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="HBI65_141290"
+     mRNA            35364..35933
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141290"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141290A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141290A"
+                     /product="hypothetical protein"
+     exon            35364..35473
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141290"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141290A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141290A"
+                     /product="hypothetical protein"
+     exon            35573..35933
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141290"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141290A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141290A"
+                     /product="hypothetical protein"
+     CDS             join(35364..35473,35573..35933)
+                     /db_xref="NCBI_GP:KAH6093343.1"
+                     /note="*Name KAH6093343.1"
+                     /db_xref="NCBI_GP:KAH6093343.1"
+                     /note="*Name KAH6093343.1"
+                     /note="*gbkey: CDS"
+                     /inference="ab initio prediction:GeMoMa:1.6.1"
+                     /locus_tag="HBI65_141290"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141290A"
+                     /product="hypothetical protein"
+                     /protein_id="KAH6093343.1"
+     gene            36957..39053
+                     /note="*Name HBI65_141310"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="HBI65_141310"
+     mRNA            36957..39053
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141310"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141310A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141310A"
+                     /product="hypothetical protein"
+     exon            36957..37218
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141310"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141310A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141310A"
+                     /product="hypothetical protein"
+     exon            37268..37429
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141310"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141310A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141310A"
+                     /product="hypothetical protein"
+     exon            37482..37698
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141310"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141310A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141310A"
+                     /product="hypothetical protein"
+     exon            37749..37917
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141310"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141310A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141310A"
+                     /product="hypothetical protein"
+     exon            37987..38334
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141310"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141310A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141310A"
+                     /product="hypothetical protein"
+     exon            38388..39053
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: mRNA"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141310"
+                     /note="*orig_protein_id: gnl|WGS:JAIRIV|HBI65_141310A"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141310A"
+                     /product="hypothetical protein"
+     CDS             join(36957..37218,37268..37429,37482..37698,37749..37917,
+                     37987..38334,38388..39053)
+                     /db_xref="NCBI_GP:KAH6093255.1"
+                     /note="*Name KAH6093255.1"
+                     /db_xref="NCBI_GP:KAH6093255.1"
+                     /note="*Name KAH6093255.1"
+                     /db_xref="NCBI_GP:KAH6093255.1"
+                     /note="*Name KAH6093255.1"
+                     /db_xref="NCBI_GP:KAH6093255.1"
+                     /note="*Name KAH6093255.1"
+                     /db_xref="NCBI_GP:KAH6093255.1"
+                     /note="*Name KAH6093255.1"
+                     /db_xref="NCBI_GP:KAH6093255.1"
+                     /note="*Name KAH6093255.1"
+                     /experiment="coordinates:RNA-Seq transcript for same
+                     species [DOI:10.1038/s41598-019-52444-7]"
+                     /note="*gbkey: CDS"
+                     /inference="alignment:Spaln:2.3.3"
+                     /locus_tag="HBI65_141310"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAIRIV|mrna.HBI65_141310A"
+                     /product="hypothetical protein"
+                     /protein_id="KAH6093255.1"
+ORIGIN
+        1 ATGCAACATA CTTTGATATT GCAGAAAAAA GCGCGATTTG ACAGCTATAG TAAATTTCGG
+       61 GTGCAGAATT ACACATCCTG CCTGTGTGTA GACAGCTGTA CTTTAGTCCG TCTTGAGAAA
+      121 AATCAAAAGA CTGCGTGGAG GTATTCGCAG CTTTCTCTAA CTTTTCTCTC TTTATTCTTA
+      181 AACTATTGTC GCAGTCTAGC AGTACTAGTT ACTCCTCACT CCTTCTGCCA CTTGAGAGAA
+      241 ACGTCTACTA TTGATATTCC ACATACCGCT CATCACCAAA TTCGACCAAA AAAATACCCC
+      301 CTACGGTGCA TTTCGGCCAG CCAGAGAACG CCAATCAACC CAGCAAAAAA GATAGTTGTT
+      361 TTCTCCGCTC CCAGAATCGA ACTAGGGACC TTTCGATTAC AAAGTAACAT TACAGTCGAA
+      421 CGTGATAAAG AGGTGAAGGA TCGCTTGAGG GAAGATGGTG AGTACATCGC GGCTGAGAAA
+      481 GCCCACGCTG CGCTCTTGGA CGAGGCCAGC GCTAAGCTTG CCGAGCTGCA GGAAGCTGGC
+      541 ATGATTTCTG GCAGGACCAT TATCCCCGCT GGCTACTCCG CTCACAAAGG CGCGAAGATT
+      601 ACCGAACTTC TCATGCAGTC TGGAGAGAAT GAGCTGGTAG AAAAGATACG CGATGGTCTT
+      661 AAGCAGCGCA CGCTTCTTCT CAAGCGTATT CGTCACCGGC TGCAGATTGA GATACGTGAA
+      721 CGCAAGAGCA AAGAGCACCG CGCTCTTCTC ATTCCATACA CAGTACCGAT AGAGATGATG
+      781 ATAATGAAAC TCTGATTTGA GTAATTCTTT GCAGGTCGTT GAGGCTTAAT TTAATGTTGT
+      841 TTTACACATG CGACACGAAT TGGATGAATT TGCTTAGCCA TGACATCGAA CATCGATCAC
+      901 TGGCTACTCA TCAATCACAC AAATCTACTT ACTTGCCATG GCCCTTTCTT GCATACATTT
+      961 GCGCTTCATG GGTACAGCCA CGACGAGTCC GAGTGGCTGA ACCATTGACG ATGAACCAAA
+     1021 CGGCCAAGTC TTCCGTGCCA TTGCGAGAGT TTTTTCTTAC ATATTTGCGC TTCCTGGGTA
+     1081 CAGCCACAAC GAGTCCGTTT GGCTGATTGA TTGACGAATA ATCAAGGAGG CATGTCTTGC
+     1141 GTATCATTGC GAGGATCTCA AAGACTTTTT TTTTTGGTAC AGCTTAGTCA GAGCCTTTGG
+     1201 GGCTCGGGCT GGCGGATCCG GATGCTCATT TCATTCCCAA TAATTATTAT GTTACCTATT
+     1261 TCCTTATTCT CCAATCAATA AAAGTCTTTA TTCTATCCTT GTCTCCACAT CCACAACTGA
+     1321 CATCGAATAC TTCAAGCGTG AATCTTTCTC ACAGCTGTGC GAATATCGTG CATTGCTTTT
+     1381 CTTACCTTAG GGTTAGCGAG CGTAAGTAGA AATACCCATT CTATCAATCT TTTAATTTTC
+     1441 ACCAGCCGCT CATATTCGCA GTGGCTGTAG ACGGAGTCAG ATATATTTCG AATCTACATA
+     1501 TTTACCTTTA ACCACTTGTC TACACAACAG CCACGCAGCT ATACCTCAGG CTGCACAATA
+     1561 TTCGCACTTG TTCTATGATA AATCATATTC TGACGAATCG AAGCCAACGT GGTCACGGCT
+     1621 TCCCGCCATA GCATAGGTGG ATGGCTGGCT AAGTCAAAAT TCCTTGAATT AAAGTGCCTT
+     1681 CTGGCGTCAT CGTAATGTCT GTAATGATTA CACATTATCC TCAATACGAG GTCTACatag
+     1741 ctttctatat tcGCCATCTT GACGTTCTTC ACTTTCTCCC TCCTGCTTTT ACCCGAGTTT
+     1801 CGAAAACCTG TAGCCAGCCT CTGACGGAAG CTATGGCTGC GAGCCAACGT AGTGGAGCGG
+     1861 GCCAGACTTC CACTGTCAAC TTTCCATACA GCCATATACA TGTGGACTAG GCTGCTCGGC
+     1921 AAAGGAGCAC GACATAATCA CTCGGACATC TGGCATGATA TATAATGCGT CGAAACACTT
+     1981 CGCGTACCGC CATGATGACG ATGTACGGCT GTTGCGTCAT GAAGCAAAGC ATGATCAGCC
+     2041 AGATGTCCGG CGTGAAAATG TCACTTCTTA GACTATCATC TACCGCCATG ACCCTAACGT
+     2101 ACGGCTGTTA CAACATGAAG CGAAGCATGA TCCATCGGAT GTCCGGCGGG AATAATAACA
+     2161 CATCTTAACC TATCATTCAC CGCCATGATC ACAATGCGCG GCTGTTGAAC CACCTGCGAG
+     2221 ATCAAGACAT TGACATCACC CATCAGACGT ATTGCATGAA TGATGAGTCG TCCATCTATG
+     2281 ATGCGCAGCC ATGATCCGAA CGTATGGCTG TTGAATCACT TGCGAGATCA AAGACAGCGA
+     2341 CATGATCTAT CAGATATATG GCGTGAATGA TGAGTCGTCC ATCTATCATG CGCAGCCATG
+     2401 ATCCCAGCGT GCGGCTGTTT TAAGTAATAA ACTAAAGGAA TCACACAACC TCTATGATAA
+     2461 TTCTCAGTTT GTGCTTTACA GCCATCATCC CGGCTCATGG CGGGTCACGG TGTGAATAAT
+     2521 GACGGTTCTC AACCTACCAT ATACCGCCAT GATCACAAGT TACGGCTGTT GGGAAACGAA
+     2581 TTAAAGGAAT CACATGATCT TCATAATAAT TTTCAAGTTG TAATTTACAG CCATGGTCCC
+     2641 GGCTCATGGC GGTTGACGCA CGAAACTTAG CACGCATGGA CTTTCATACC AGCATGTCTG
+     2701 AACGTGAATT ACATTGACTA AGTATCAGCC ACGAACTATT GAGACGGCTG TCATGCTACC
+     2761 AACAGTATCG TACTCGTCTA ACATACCATG TCTCTACCGC ATCACACTAT ACAGCCATAT
+     2821 CTTGGCCTCC CGGCTGTTCC TCTCGAAGCA TATTCCATGT CGACAAAGGC TAGTACATTC
+     2881 TCGTATACCT CAGAAGCACT ATCCAATGCA GCCGTAGATG AAGGCGATGG CTTTTCTTAC
+     2941 GGTGACACAG CAGACTGCAA CCCGAGCTTC AGCTTCTTAA ATTGGCGTTC AATGGACATA
+     3001 GGCGTACCGC CACGACCCAA TCTATTGGCT GTCAGAGCCA GAGAACAGTA CAAAATCTTG
+     3061 GCTCGTGCTT TGTCTTTTCT CACTCATGCC GACAGAGGGC CACAGCCGCA CTATCATCTT
+     3121 ATGGCTGTTC ATCTAGCAGT ACAATACATT CTTGCTGACC CTTGATTATT CCTCACTATG
+     3181 GCAAGGTGAT TTTCTTGCAC AGCCATTCAT GAGTAAGATA GCTGACAATT TAGCAATTAC
+     3241 TCTTGCTCTC TCTGACGTAG TGCACAATTG CTGGGTTGCA GTGCACAGCC GCTCAGGTTA
+     3301 TCAACCGCTG TAGTATCAGT GTGTAGATGG AAATTTGTGC CGTGTAGCAT GAAGTCTCCA
+     3361 GCTTACATGC ATTCGATGAA ATGCTAGTCG CGTAAAGCCA TGCATTTAAC ACTTGGTTGT
+     3421 CCATATCCGT ACCCGGCTCG TAAGCATCTT TTTGAATACC CTTGGTTTAA TGCAGAAGTA
+     3481 AGTTTTTCTT TGAATGGTTA TGGACCACAA AATTACCAAG AGTCGTATTT GTTTACTCTA
+     3541 GACACACGTG CTGTGCAGCC GCTGTGACCG TCGTAGGCTG TAACATAGAG AGCTAATCTC
+     3601 AACCACTAGT ACGCCACGAA CTCACACCGC AAATTCAAGT GCGTCTGTTC ACAGCCGCCG
+     3661 TCTAACCGTG TGGCTGGTAA TTCTCGGGGT AAATCAGACA ACAGAGTGCA ATGCCACAAT
+     3721 CTCCATTCGG TTTCTTTTTG TTGCATCGAC GCAATCAATA GCCCTGCTCA GCCGGAGCAA
+     3781 CATTGCTTGG CTGCGTCTGC TACATGCTGT AAATGAAAAA GATTGATCTA CATTGTATAT
+     3841 GCACATGCAT GAAGTACCAC GATACAGCCA GGTTCGCACT GCATGGCTTT TTTTGCATTG
+     3901 ACGCAGCCAA AAGCTATGCA CGGCCGGAGC AACTTTACTT GGCTGCGTCT GCTGCATGCT
+     3961 GGAAACGAAA AAATACAACC TACGTTGTAT ATAAACATTC GTGAAATCTC CCAATGCAGC
+     4021 CAAGTTTGCA CTGCATGGCT GCAGTTCGTT GATCGGGTGT CCCAAGGATG TTTGCGTAGT
+     4081 GTTTGGTCAA CCATTCGCAA GTAACAGATC TGCAGCCAAT AGATCAGGCC TACGGCTGCA
+     4141 ACTTGTTCAA GCACTTCATA TTGACTCATA CACATACTTC CAGACCTGCA CTCTTAGTTA
+     4201 GGGCAGGTAC AGCCACGGTA GCATTGGATG GCTGTAACTC TGAAAAGGCG AGTGCTCTAG
+     4261 CTTTTCAGTG AATTGCCCAT CAACGCCGCC AGTAAACTGC TACATGGCTG TGAGTTCATC
+     4321 AACACAATGA ACTGGTAGTC CTGGTGTCTG GCTATCAACA TCAGTGGAAT GGCAATCCTG
+     4381 ATGTCTTATT GGTACACACT CTTTGCGACT GGGCAGAATC AGGACACCGC CACAACATGA
+     4441 TTTCAGGGCG GTGATATGGG GTGGGACTTG GATCTCACCA TGGCAAGAAT ATCTATGTTC
+     4501 TTTTGGGACC TCATTCTGGG TAACGTAGAG CACAGCCATG ATATACTTGG ACGGCTGTTA
+     4561 CCTCAAATGC GGTAGTCGGA TGAGTATATG TCGTAGCATG GTTATAGCTT CACTTTACAC
+     4621 GACTGGTTAC AGCCATGAAA AACTGAGTAT GGCTGGGAAA ACGCTGAGCT GTTCAGGTTC
+     4681 TGAGCAAGAG GGCCCAGAAT GGTTCATATG GAATGCAGTC GGTCTGACAG CCATGCTTTG
+     4741 AGTCCAAGGC TGCCAACCCA ACTTGTAGTA CGTCATAACT TCATGGCATA TATCTGGTTT
+     4801 GCGTATCGCA AGTGGTTTAG TGTACCGCCA TAGGCCCAAT ATGATGGCTG CGAAACGACC
+     4861 AATGAATATT CGATGATTGC CGTTATTACC AGGACAAGCT GTCTGTGAAA TCATGCATAC
+     4921 CGCTCGTCGA ACAGCCATAC TATCGTAGCA TGGCTGCTCC ATGTACTTCC AGGCTCTGAA
+     4981 AAGGGTTCCA TTCTTCTTTG CTCTCGCAAG ATAAGTCCGA CATGAAAATC CAGCTTCATA
+     5041 CTGAGCAGCA GTACACTAAC AGCCAATACG TATGTGCTTG GCTGCTTCGC CACCTCGGTG
+     5101 TCGTGCCATG TAACTTTACT ATGGGTTCAA ATATTCAGAC CCTAAAATGA TCTTCTGCAA
+     5161 TCTCACCTCG TCTGTCACAT GCCATCAACA CACCTCGACC CGTTACTCTC ACTTCCACGC
+     5221 ACAAGGCTGG ACTCAAACAG CCATTATGAG GGAGCATGGC TGCTCCATCA GCAAGTACCG
+     5281 GCATTCACAT ATTCACTTTT TTCATCATTC CCCCAAAATG ACTTCCGACC GTTGGACATT
+     5341 GGAGCAGTCT CATTACAGCC ACACCTTTGT TGGAACAGCT GTTTCGCCCT GTCAGTACAC
+     5401 CAACTTTCTT ACGTCTTGAA ATTGTCTTTT CTCTTTTGAA AATCGACGGA GAGCTGGCTC
+     5461 ACAGCCGGTT GACATAATTG TGGCTGCTTG CGGATCAAAA AATGAGTTCG AGCTTCCAAG
+     5521 GTTTTTCTCA TCTTATCGTA TATGTTAACA ATACAGAACC AATTATCATC CGAGGCACAG
+     5581 CCAGCATACA CAATCATGGC GGTAATCCAA AGTTGGGCTC AGCTAGCGAG GACAACGTTG
+     5641 GCGGGACATG TTCGTGTAGC AACACTTCAT GCAAGAAGTA TGGGGCATCA TTTGATAGAC
+     5701 TTCCAGCGAA CTTGGCACAG CCAGTGGGCC ACCTTATTGG CGGGGTCACT GCGATATTAA
+     5761 GTCGCCCAGA AAATTTTGGG CTGAGAATCT AACGACTTGA CCACAGCTAG TGAACGTCTC
+     5821 ATTGGCGGGG TTATAGGACA TGTATCTGGC AAGAAGAAAT TAGGTTGAGA ACGTGATGGA
+     5881 TCATGAACCG CCACTACTCG TCTGACTGGC GGGCTTATCG CGACACAAAT CCATCAGCAA
+     5941 AAATTCGGGC TAAGAATGTA ACAACTTAGC CACAGCCAAT GAACGTCTCA TTGGCAGTGT
+     6001 TATTAGGACA TAAATCTGAC AAGAAGAAAC CGGACTGAGA ACGTTATAAA ACGTGAACAG
+     6061 CCAGTTAATC GTGTGACTGG CGGAACTACA CAGCGACACA AATTCTTCAT GAAAAATTTA
+     6121 GCTAGAGAGA ATATACATAT TTGAAATGCG CGCAGCCAGT AATGTGGGCA CTGGCGGGGT
+     6181 TACGGCGATG TAAAATTAGT AAGAAGAAAT GAGGTTAGGA GAAAAGATGA CTTGTGCGCA
+     6241 GCCAGTGATT AAGTAACTAG CGGGGCCGCT GTGATGCCAA ATCACGAAGA AGAATTTAGT
+     6301 CAGAGGGAAT ATATGAGAGG TGCGCAGCCA GTGAGGTAAG TACTGGCGGG TTTAAGGCGG
+     6361 TGTGAAATCA GTAGGAAGAA ATGAAGTTAA GAGAAAGGAT AACTTCTGCG CAGCCACGAG
+     6421 CCAGCTCGCT GGCAGGATGA GACATGCACA CATCTGGAGT AGGTATGCAA Tccacgatga
+     6481 tgaagatatT ACGATGTCAG CCAGAAGTCG TATTGATGGC GGTACACGCG ATGTTGAAAT
+     6541 AGCACATTGG CATTCAGAGC ACATTTAATT TATTATCATT TAGCACATGC TAGCACTAAG
+     6601 CAAAAAGATA GAAACATATG TAACCAGCTA CACACGGTAT TGGTGGCTGC CTAGTGTTTT
+     6661 ATTGAAAAGA CAATGTACTC TTAATAGTGG GTACAATATT TAATACTTGT CGAGGTTGTC
+     6721 AGAAGGCATC ACATCTGAAT CTACATATTA AGTAATAGCA TACTTTTGAT ACTACGAAAC
+     6781 TAGCGAAGAT ATAATTAGCT TTCTAGGTAC TAAGAAGCAA GAAGTAATCT TGTCTGTAAG
+     6841 CATAGATTAG AATAGAAAAG TGCTGAAAAA AGTGCAAAAA AAATGGCCCT AGTTTGTGCT
+     6901 GAAAGAACGT CCTAAAAAAA CACCGAAAAA AAAACCCGCC GGAAAAAGGG GCACAAAGAA
+     6961 GACGAGCAAA AAAATATCTC CGCTTCCAGA ATCGAACTAG AGACCTTTCG ATTACAAAGT
+     7021 AAGATTACAG TCGAACGTGA TAACTTTTGT TAAATTAGAC ACTGATTAAA TTTGAGTGTT
+     7081 GAACACCGAA ACTTACACCA ACTACACCAA GCGGAGGAAA GACTCGTTGT GAGACGAGGC
+     7141 TTGGGTTGTT TGATGACGTA AGGCCGAATT GAACAATATA TATTCATAAC CTCAAAGTGG
+     7201 AAGCGATGGG GTGGCAAGGC AAAGCCGAGA CGGTGGAGAT GACGATGGTG GGGCGAAGAA
+     7261 AATGCAGAGT GCCGGCTTCG CTAGGCGCAT ATGTGGAGAA CCAGTCAGGT GTGCGTGTGT
+     7321 TGACCGGTAT CTCCGGATGA TCATGAGGTG GATTGATGTA CATTTGGCTA CTGAGTAGCT
+     7381 TCAATAGTGC TGTCTACAGA ACCGCTGAAA TGGAAGAAAT GGAAAAAGTT GTCTAGGTGT
+     7441 TCGCCTTGAG GAAGATCGAC CAGCCGCCCA ATTGCTATGC TATGCAGCCA AGCGCGCGCA
+     7501 TCTAAAAGTT CATCAAATCT GCGGAAAGTT AGCAAAAGGC CTCCGTGGCT TGTCAAGGGT
+     7561 AGTGTAAACT CACCACGTCC AAAGAGCGCC CGTTTTGTCC AATCCATGGC CAAAAGCGCC
+     7621 CTCGTCCTGA AACTCACGCT CTGCGCGAAA TACACTCCTC GCCAGAGATA CACCGCCAAC
+     7681 AGCCCTCCAC TAAGTCCATA CCCATTGTAG TCAAAAATTG CCGCGTTGCC TACATATGCC
+     7741 AAACTACCGA GATGATGGTA CTCAAATGCC TTGTAAACCG CGTCGTCAAT ATCGCCGTAG
+     7801 TCCACGTCAT TGAGCGCCAT GCCCGGCGCC GCTTGAGCAA TCTTGTTGAA TTTCCTTCCG
+     7861 AGGTATTGGC CCTGTTGGTT TGCGCGTTGG GCGGTGGCGG GCAGGGAGGT TAGTTTGCTG
+     7921 TCGATTTGGT GCAGGAGTTC TCTAAGCTCG CCGAAGTCTA GGGTGCCGGA TTTGTCGGTG
+     7981 TCGTATTGCT CAAACAGCTT GTCAAGACGG CGCAAGTGGT TGGCGGCTTG TGGGAAGCGC
+     8041 TGCTTGACGC GCTTTGCAAT ACCGCGCCAG TCTGCGTAAG AGATTTGCAG TTTCTCCGGG
+     8101 TCCTTGCCTT TCTCCCACGC GGTTGTGCGG AGGAAGTTGA CAATATGGTC TGAGACGTTG
+     8161 TTTTGTACAG TTGCGCAGTC GCCGATGGCG TAAACGTCGC CGAGAGGTGA GCCGCTCAGA
+     8221 CGAAGGTGAG TATCGGTTTC GAGAGCATGC TTGTTGTTCT GCCCGTCAAG TTTCGCTGCG
+     8281 AGACGCTTGC AAAAGTCTGT CTGTGCAACG CCCGTCGACC AAAGACAGAA GCCCATGGGG
+     8341 ATCTCTTTGG TGATGACctt gccatcttca tcctttTGCG AGAACAAGAT CCTGTCCGAC
+     8401 TTGACCTCCT TCACGCGGGA GTTTGTCTGA ATATCGATCG AATCGTGTGC AAAGCGCTGT
+     8461 TCCGCGTACT GTGAGAGCGC CTCGTCGTAT GTATTGAGGA TGTGGCTTCT CGACTGGATA
+     8521 ACGTGTACGG AGATTTCGTT TCGCAGGAGT CGAGGGAAAA GCTTGCACAA ATCCTCATTC
+     8581 AGCATGTCGA ACAGTTCGGC GGCGAATTCA ACTCCAGTCG GTCCTCCACC ACAGACCACA
+     8641 AAAGACAGCA GTCTCCGCct ctcctcgtca tctgtGGTAG GTAGACAGGC AGTCTCGAGG
+     8701 TTGCGGACGA CGGCATTGCG GATGGTCCTA GCGTCGCTGA TGTCTTTGAG AAAGTGGCAG
+     8761 TGCTCAAGAC CGCTGACGCC GTGAGGGTTG GTGACGGAGC CCACACCCAC GACTAGCTTG
+     8821 TCGTATGGCA CATAGAAGCG CTGTTCCTTG CCGTGCGCAT CCACCGCCGA GCACTCAATC
+     8881 AGCTTCTCGG AGAACTCGAC ATCTTCAGCC TTTGCCTTCA AAAAGTGACC ATGTACCCTT
+     8941 CTGACGATCT TGCGTACAGG TTCGACCAGC GACCTCAGTT CCAGCGTGCC CACAGTCGCA
+     9001 GACGGCAGCA TAGGCGTGAA CAGGAAGGTA TTCGACGGCG AGATGACGGT AACGTGGTAT
+     9061 TCCTTGGGGT TCAACTGCTT CAACAGCGCC ACGCTTCCCC ATCCTGTGCC CAGTATAACC
+     9121 AGCTTTGGCT TGTGCTTGAC TTCCTTGTTG TCTGCGcagt cgtcatcgtc gacgaaGTGG
+     9181 TCGGCGATGG GCAAGTTCTT CGGTCCGCCT CTCCGTGGAG TCAGGGCGAG CTGTGATACG
+     9241 GGGATGTCGG TCGCGATGGG CTCGTCGTTG TATGTGGTTG CGTCGTAGAT GAAAAATGCG
+     9301 ACGACGAGAC CGCCCGAGAC AGCTACGAAT GTGCCGAGGA CTGCTGCCGT GCGATAGGCA
+     9361 TACCGAAGGA GCCGTGACTT TGGTGCTGGG AGAGGTTTTG TTGATACCCC GCGTATTAAT
+     9421 GCTGAGCTGC TCTTATTCAC TTGGGGTGGG TGTAGGGATG CTGAACCGGC GCGTTTCGAC
+     9481 GCAATTGCCG GGCTGCCATT GCTGAAGGAT GTGCGGAGTT GGTAGTTTGA AGTTGGAGGC
+     9541 AGTCTTCTGC ATAAGAGAGA AGGTCTAGAT GTGACGTTGT AGGCGCGCGA TAGCGACGCC
+     9601 GCCTGTCGCG GGAGCATGGC GTAGGATGAG CGCAGCTTCA CAGGTGGAAG CAATCGGATA
+     9661 CGTTGGGACC AAGAAGCGGG ACCAATTGCG CTCTTTAGGA TGCACAATGG CAATTTACTG
+     9721 AGATAATACC TCGAAAGATA GATGTTGGGT ATGGTAAAAG CGCATAGGGA ATAAGGTTTG
+     9781 TGCGACGTTA GGGAATGTTT ATCGTGTTCA GCTTTACGTC ACCAGTCGAG CTTGCGCGGG
+     9841 CGATCGCAAC CAAGCTTTAC AGATTGCGGG CCCTGAACCA CAGAAATGCT TACAACGCGC
+     9901 ATCCGGCGAT TCCATCTAGC TTAGCCATGT ACTAAAATAT TGAATGTTCA GCGCCATATG
+     9961 TGTTGTTACA GAGTTTCATT GGAGATGCAA TCGTGGACGT TGTTTTACAT TATGTACAGT
+    10021 TCTTCAACAC GACCATACAC CCACAGTGCC ATCCCTGCGG CCTTCAACAA GATAGCCATC
+    10081 TTTTATCCTG ACACGCTCGA TCATGGCATG TGAAGtgttg tcgtcttcat cagcgCCGAC
+    10141 GCCAGGACCG CAATTCCAGT GGCGGCCGTC CGTCTTGTCG TAGACTTTGA CAACACTTTC
+    10201 GCCGGCTGCG GAAACGATGC GGCGCGAGTC GAACATCATG CTGGTGACGG GGTTGTCGTA
+    10261 GGCGTAGGCG TCGTAAATGG AGCCAGTTCG GAGATCCCAG ATCTGTAATG CATTAGTAGC
+    10321 TGTCAATGGC CTGTTGGTTG ATATGACTTA CTCGTATACT CCTGTCTGCG CTGCCAGTGA
+    10381 CGAGATGGAC ATCGTCGAAC TGGAGCGCAG TAACGGGTCC AGTGTGTCCG ACAAGGCTGC
+    10441 GGTGCACCTG TCCGCTTCGC AGATCCCACA ATCGCACCAT GCCATCTGCA GTGCCACAAG
+    10501 CCAACGCGGC ATCAAAGACC TGAATGGCTC CAACAAAGTC GGCAGATGCA TCCATAGAAC
+    10561 GCCCTGTCGG CCGCCATTCA GAACTGGCGT TGTTTGTGGC AGTCGCCTGA GCTGCGGCCC
+    10621 ATAATACATC GAGTGTCTGC ACACAACGTC CTTTGACCAG ATCCCATTGT CTCAGCGTCT
+    10681 TGTCGGCGGA ACCAGAGACG AGAGTGTCGC CCTTGAAGTG AATTGCAGTG ATTTCGTCAA
+    10741 CATGAGACTC GAGAGTGAAG AGTGGCACGT CTTGCATGAT GGTTGGCGGC GGTGCGGGAG
+    10801 GAGCGTCAGA CGAGTTCTCG AAAGCCAggc catcttcgtc ctcctgTGCA TCACCGtcgc
+    10861 cctcaccctc accctcgccg ccgCGCTTGT TGACGCGGTT GTCCTGAGGT GCATATTCGG
+    10921 CTCTGCTCAA ATCCCATAGC CGGATGGTAG CGTCCATGGA ACCAGTTGCG ACAATACTCT
+    10981 CCTCCACTTG GAGGCAGCGT ACCGACGACA GATGGCCTTC GAGCATTCCT ATACAGCGTC
+    11041 CAGCGTTAAG ATCCCACACG CGGACAGTGT CGTCCAGAGA AGCTGTGACT AGTGTTCCCC
+    11101 AGGGCGCGTC AAAGTCCATG GCTGTGATTG AGTCGTTGTG GGCGGGTagc tccttgatct
+    11161 tggacCCGGA TTCCAGGTGT TCGTGAAGCA CTCGCATCGA CGGTCTCCGT ATGGGCTTCT
+    11221 TCCCCCTGTT CTTCGACTTG GGCGAGATCT TCTGGTATAT CGACTCTGAC ATGAAGGTCT
+    11281 CGGAGACCGC CTCGCTGCCC GACGTGGTGG GTCGCGAGTC CTCCTTCGGT GGTGCAAGGG
+    11341 CGGCAGCAtc gtccagctct tcttgaaGGT CCTCAATCTC GTTGTCCACG CCGAGCAGGT
+    11401 CTTGTGCAAG CTCCTCCTCT TGTATCTCGA GCCCAGCCAG GCGGTCTAGC ACCATCTTGC
+    11461 GCATGGTGTT GAGATTTGCA ATCTTGTTGT CGATTTCGTG AATCTCAGCC ACGCACATGT
+    11521 GTTTCCGCAC GCCCATCATC TCGAATTGGT GGCTCATGCt gtgcttctgc ttctgcagGC
+    11581 GTTGCATAGA CGGCGGAAGC TTGGAGTAct cgtcatcctc gagcTCTCCG CCTATCAGCC
+    11641 GTTGCCCTCT GGCGTTGTGC gtctttccct tcttctttAT CGTCTCAGGC TCGTCTGGTA
+    11701 ATGTGGCCTG GAAGCCTTGG AATAGTGAGA ACTCATTGTT GTCTTCGGGT ATGTTGGCGA
+    11761 GCATGTCGTC GGGTACGTAT GCGAGGGCCC GCTGCTGGAT CTCGGGGACG GATATGCGCG
+    11821 AGCGCACAAT TTCTCGCGGG GTGGTCTGGG CAAAAGAAAA GACGGATCGT TGAAGCATTG
+    11881 GGCGCCGCAG TTCGCGGTGC AGCTCACCCA GGGCGTTTTG GTAGTGCTGG CCGACACCCT
+    11941 CGGTGCCTAT CAAGCTTCCA GCAGTGGCGG TGACTTTTCG ACCAAAAGCT TGCAGCTGGC
+    12001 GGGTCTGCAG CAGGGATTAG CATCACTAGG CCACAAGTCG AGGTGAGGTG AAAACTACAT
+    12061 CAGGTAGGCC GTCCATCAAG CTCGCTTCAA GACTCTCCTC GGGTATTCGA GGCCGAGGAC
+    12121 TGGTAGAGCG CCCTCTGGAT GGCGAGCCAT CGCGGGCAAA TGACGAGGCC ATGCGCGCAG
+    12181 TTGCGAAGGG CTAGAGCGGG GACCGGACAC AGTGGAGGGT GCCTTATGTC ATCATGGTAC
+    12241 GCAGATGCAG AGAAAGCTCG CAGTCGATGG AAGGGTGGGC CAAAGCGCAG CTGTCGCGTG
+    12301 GCGATGTTGG TGAATGCTGG TGTTTTGGTG TTGGACGCTC AGACTTCGGC AATGGCACAT
+    12361 GCGCCCTGCG TCATCCGCCA TTAGTTGGTG TGCTTCTCCG AGACCGCTGC AAGGAACATG
+    12421 CGCTGACAGT CATGGCTGCA TTCACTCCCC TACAGTACAC TCGAACCGTG TGGACTTGAG
+    12481 ATACAATGGA TGCGGTGATT GACCTCTCGG ATGCCTCCAG GGCATTGGAC CTTGCAAATA
+    12541 TTCGCTCCCA ACTCATGTAC TATTCACTCG GCCTCGTGTA AGCAAGAGCT GACAAGCAGC
+    12601 AGTCGCATGG AGGACAGCAT AACCTTCCAC TTGATAGAGC GAGTCCAGTT CCCCCTCAAC
+    12661 AAGACCATCT ACGTCCCCGG TTCCCTCAAC ATTGGTGAAA GCAAGCTCAG CCTCTTTGAT
+    12721 TGGATGCTGC GCGAGCAGGA GCGCCTGCAG TCCCTCGTCC GCCGCTACCA GTCCCCCGAC
+    12781 GAATACCCAT TCTTCCCCGA GGTCCTCCAA GAACCCATCC TGCAGCCCCT CAGCTACCCG
+    12841 AAGATCCTCC ACGACAACGA CGTGGTAGTC AACGGCAAGC TAAAAGACTG CTACATCAAC
+    12901 CACATCCTCC CCGCAGCATG TTTACAAAAG GCCGGCGGGG ACAAGGGCGA GTCGCAAGAA
+    12961 AACTACGGCT CGGCAGCGAC ATGCGATGTT CTCACAATAC AGTCGCTGTC ACGTAGGATA
+    13021 CACTTTGGCA AATTTGTCGC CGAGTCCAAG TTCCGGACCG AGACGGAACG CTTTGTGAAG
+    13081 CTGATCAAGG CCGAGGATAG ACAAGGAATT GACGAGGCTA TCACAAATGC CGCGGTAGAG
+    13141 AAGAAGGTCT TGGAGAGACT AAGACTAAAG GCCAATACCT ACGGCACGGA CCCTGATTCT
+    13201 GGTGCCGATG GGTCCTCCAA GGTCAATGCG GACGCGGTGG TGGCCATGTA CAAGGTGGGT
+    13261 TCCACCAACA TTGTACAGTC GTACATTGCT GACATATAAC AGGACTGGGT CATTCCGCTC
+    13321 ACGAAAGAGG TCGAGGTTGA ATACTTGATG CAGCGACTCA AGGGCACCGA GTGGGAATAG
+    13381 AGGCCGGCAT AGATACCCGC AGAGACCAAT AAACCACCTA CATACCTCTG CACGGGCGAA
+    13441 TTTTAGCATG ACTCACTCTC CCACCAAGGG GTGCGACCTG TGCTTGGGAG ATGAGAAACA
+    13501 TGATGCAAGA CACGGCGTCG CGCAATTGGA CGCGCACAAT TACACCCCTA ATTGACTCTA
+    13561 CTCACTACTA CACAGTGCTC TCGACGTTCT GTTTTGCAGT CACAATCACC ATGTAGCGAG
+    13621 TACTGTGCAG TTCCGCACTA TTATGCACAT ATATTGCTCA AAGAAAGATT GTTTGCTTGC
+    13681 AATCACCAGC TGAGTAGAAC TGATCCGTCT AGGCCAGAAG GCCCCTTAAC TGTAGTAAAA
+    13741 ATAGGCTATG CACCTCTTTC CCCCCTGAAG GAGTAGAATC CCCATCTCAA TGCTCTTTTA
+    13801 CTCCCATGAG CAATCTTAAT CTTTCTTTCT TATCAACACA ATTCCTCATG TAAAACAGGT
+    13861 CGGATGCTTG CAAGACTTGA TAGATTGCAG AACCAATATG CATTTTCGCT GATTATAATT
+    13921 TGGAGAGTAT CGCTCCAGTA ACAGCTACCA AACATCTCCC TGAAATTATT TTCTCTCACT
+    13981 TCATACTTTG GCGACCAGTT TCCTCCCCAC CAACGCCTGC CTCGACGCCA CCGCAAGCCC
+    14041 CGTGCCCACT AATAACCCAA TACCCGAAAA GATAATTAAT CCCTGATACC CACCGTTCTG
+    14101 CCTATTAATG ATAACCCCGG CAGTCGGACT TCCAATGAGC GCCCCGACAG CAGAAACCGC
+    14161 ATACAAACAC CCCACTCTAG CTCCCAGTTT GCGAACGTCG GATATGCTCG CCACCATGGC
+    14221 TGggatgatg gagaaggtgc agCCTGAGAC AAAGCCGTAG AGAATGCTGA ACATAATGAC
+    14281 GGGGGCGTTG GAGTGCGAGG GTAGCCAGAC TGCTAGGACA AAGACGCCGC AGAAGAAGGT
+    14341 GTTGAGGATC ATGACGTTAA AGACGCCGTA GCGGTCGCCA AAGTAGGCGG GGATGATACG
+    14401 GCCGAATGTA CTGCAGTGTG TTAACCTTAC GCTATGCTGA AGGTAGACAA AGGACGCAAA
+    14461 ACCTACGAAG CGCCATTCAA TATCGAAACG AGATATCCCG CCAACGCCGT ACTCATCCCC
+    14521 TCATTCCTCG CCTGCAGAAT GACAAAAGTA AACGGCAGGA AGCCGCCCAG ATAGATGAAG
+    14581 AAACTGCTCG CGGTGAGCAG CGCGAACGGC ACCTCGGTCA GTGGCGTAAC GAAGTCGACC
+    14641 AGGTGAAAGT GTCTCTTGGG CGGCGGGAGA CGAGCCTTGA TCAGAATGTT TCCGATGACA
+    14701 AGCAGGCCCA GGATCAAAAA CGCAAGGCTG CGCATCGCCC AGCCGAAGCC AACTCTCGGG
+    14761 ATCAGCCGGT CGACCATGAT GGGCAGGATT ACGCCGCCGA TGGAGGAGCC CGAGACGGCG
+    14821 ATGCCGAGAG CCAGAGCGCG GTGTTTCGAG AAGTACTGTC CAATGGCAGC TAGTGTGGGG
+    14881 AAGAACAGGA AACTGCAGCC CGCAGCACTG ACGACGCTTT GCGCGAGGAA GATCTGGTAG
+    14941 TATTCGTATG AAATGGACGT CATCATGAGG CCGAAGACGT GCAGGAAAGA GCCGAGTCTA
+    15001 GATATCGGCA TACGATGTCA GTGTATGAAT CTTACACTTT TTCCAGACTG GGATTTGCTC
+    15061 ACAGGATAGG AAAGCGTGGA CCGTATGTAT CTCCTAGAAT GCCAGTAATC GGGCCCTGTA
+    15121 ATGTTCATAT TAGCACCCCT ATCTTTTTCC CGTGTGAGCC AAACGTACGC AAAAGAACAT
+    15181 GATAAAAGTT TCAGTAGATG GTATCCATGC GACGGTACTC GGCGAGTACG ACGCAAGCTG
+    15241 GTCGGTCTGG TAGTAGTTCT GAAAGATGCC TATGCCTGAT AGCGGGTTAG TTGTCGGTGC
+    15301 ATCTATATGT GAGGGCCTTC GGGCTGCAGG ATCGTGCGTA CAATTTATCC ATCCGAAACT
+    15361 TGCAAACACG GTGCAGAAGC CTCCTAGAAC TACGAGCCAT GCTTGCAAGC CACCATCTGG
+    15421 TGGCGGGCTT GGAGCGGGTT CTGTGAGGTT TGCTTTAGGC ACAGCCTTCT CAGGATCGGT
+    15481 GTCTGTTGGT TCAGGCTTGG GCGTTGACGG TCTGGAAGAT TGTAACGATT CATCGTGCGG
+    15541 TTGCGACATC GTGGCGATGA GGTATGTGTT GTTGGAGTAA CGAGCTTGTG TTGCAGAGTT
+    15601 CGTGTTGTTG AGGGCGTTCC TTCTTTTATG AGGTCTGAAA GTATTTAATC GCGACTTCCT
+    15661 TACATTGGCG CATTGACCCG AACAGTGTTT GTCATCAACA GATGTGCGCT CGAAAAATGG
+    15721 TTCCCAATCG GGGATAACCG TGAAGAGCTA ATATGCGGAG TCTCTGCGTG GCTGACAGAA
+    15781 TGCTCAGTCA CTATCAACAC GCCTTGAAAA GACTACCATG AATAGAAGAG CTTGGATATA
+    15841 TCTACGAATG AGAATCGTTT CGCTGTGACA TTGAAAAAGC GGTGTATAGC TTCACGGTAC
+    15901 GTTATCGAAC GTAGTTTCGT AGAGTGACGT CTGTAAAAGT ATTCTGTCGC GTAGGAACGG
+    15961 CACAGCACTG TCGCAAAAAT GTTCTGAGAT GCAGCAAAAC TCTGATGATA CAGCCAAATT
+    16021 GGAAGGACGA TGTATAAATG AAGTGAGTGA TAGCAGAAGA TGATAAGATC ATAGCACAAT
+    16081 CACCTGGGAC AGTTCATAGG AAGACGACAT CCCCATTGTa cgaggcgaag atgatgagtc
+    16141 GAAGACCCTT GCGACGGCTG CTCGAAAAAT GATACCTGTT TGGCCTAGTG TCGAATCACT
+    16201 AGCTCGTTAT CTATCTCCAT CTGACCCGAT CGCTTCGTTG CTCCATTGAC ATGGCGTTAA
+    16261 TCAATTCTGT TTCTCAAACT GTGCTTCTCG CTCCATTCGG GAATATCATT CGAGAAGCGA
+    16321 CAAATGAACA CCCAAAAGCC TCATAATGGT GGGTGTCGCA GGGAAGTCTC GAGCGTGTCA
+    16381 TGACTGCAAG CGACGAAGAG TCAAGGTAAG TGTAACAACC CCTGTCTACA CCTCTTTCTG
+    16441 ACACAATCAA ACAGTGCGAC TTCCAGAAAC CTTCATGTAT GAGGTGCGAA AAGGCTGGCC
+    16501 GAGCTTGTCC AGGCTACGAC AGAGCTTCCA TCTTTGTCAA TCGCACATTG TCCGAATTCA
+    16561 CCACCACAGC ACGAGTAGCG ATAGCAGAAG CGACATCGCT CCAGGTTCAA ATTTCTATGA
+    16621 AACATTCCTC GAGATTGTTG CAGACCTTTG AACAACTGCA GGCGAACATA ACAGTCCCCC
+    16681 AAGCTCCTTT CCCAGGCACA TTTCGCCTCG GCGCTTGGGA CATACTTCGA GAACTGTACC
+    16741 TCCCACGTAC GCGTTCCACA GACGAATGTG AGGTCACAGC TACCTCATGC TACTCATGGG
+    16801 TCCACGCTGT CTGCCACATG GTACCTAAAA GCAATGTTTT GAATCAAGCA TTGCTGGCAT
+    16861 TCTGCGCAAT TCAAGTCTAT CTTGCAGAGC CATGGAGCAT TTCTGAAGAG CGAGCACAGA
+    16921 GTCTATATGG TGAAGCTGTT AAGAAGTTGA TCGAAAGTCT CGAAGAATCT GATGTGGAAA
+    16981 GAAGAGACGA CACCCTAGCA GCGATAGTTG TTCTGTCAAC TTGCGAGGTA AAGCAGCTTT
+    17041 GGCGGACGTC CACTATGCAC CAATCATGCT GAACATCCTA GCTTTTCATA CTCCAGGGCC
+    17101 ATGAGAGTTG GCATGCTCAT GCTCACGGAA TATCCGAGCT CCTGCGAGAG CGTACAGACA
+    17161 TCAATGACCA ATCCCAATTA TGGCGAAGAT TATGCTCGCG GTTACGTCTA ATTTGTGTAC
+    17221 GTCCCCTATC TATCAAACAC GACACAACTC ACCGTCTTTG CACAGGTAAT CATCGCCTTA
+    17281 GTAAAAGGCC AAAGACTCGT CCTCAACCCA ACCACATGGC GCCTACTCGT CCCAGCTGAC
+    17341 CACAATTTCA AGTCCCTCGA AACACTCATG GACATGGTTA CCGACGTGCC ACATCTTTTG
+    17401 GCAAAGCCGG ACAAGATGGC CAGCTCAGAT ACAAACCACA TCTGGGCACT ACTGAGCACC
+    17461 TACCAAAAGA TCGCAACATG GCAACACTGC TGCAAAACCA Actctccaac accatcataT
+    17521 TGGGCTATTC CATCGCGCGC ACACAACCCT TCAGATGACG CTTACGCCAC CCCACTCTTC
+    17581 CCGTTCGCTC TCGAGTACGA GAGTCTGAAC ATCGCTATAC TTTTCATCTT CAGTTCGGCA
+    17641 ATCATGCTGC AACTTCTCTC CACCGCGCTC TTGATCAGCA CAGCTACAAG CGTGAACGAT
+    17701 CTTACACAAG TCGAATCCAA TGAACCATGG TCTTTATCGC AAATCCGCCA TGAAGCCGAC
+    17761 AAAGTCGCAC GGTTTCTCTG CCAAAGCACA GAATTCTGCT TCAGGCTGGA AATGGGGACA
+    17821 GTTGGCGTAC AGGCCATGTG TCACGCGCGA TACGTAATGC GGAATTACTT CTCCCAGGTA
+    17881 GGTTTGGAGA GGGAATTGGC GTGGTGTCTG GGGATTAGCG ACATTGGAGG GCCAGGCTTA
+    17941 AGGAGAGGCA TTAGGATGAT GTTATTTGAG GGGTGAGGGT GAAACATGTG GATGGATGAA
+    18001 AAGTGGCGGC AGCGGCGAGA AGCTTGCTCA AATGAATATT GAGGGACAGA TGCAACTTGG
+    18061 ACGACACTGT GATACATGAT GGGGCAGACG TTACGTCGCC GGTCGCATCT TCCATGGAAG
+    18121 TAGGTAGCGG GTATTGATAC ATGTAGCTGG TAACGTGACA GTGCATCCCT GTTGATTTAC
+    18181 CGATTGTCGC AGAAGCTCGG GTGGGTGCCT AGAGCTGAGT CCTCTCTGCC TTTCCGACTC
+    18241 GAAATCCTAG CGCTATTACT CGCTGTAACT AATCATTGAA TTCACACACC ACTCTGCAGC
+    18301 GCGCCATAAC ATACAATGCC AACACAAACG AGACGTTCAG GTTCGGGTGT AAGCATATCA
+    18361 AGCAGTGAAG AAGCTTTAAG TTGCGGCCTC TACGGCAGTA TTGATCCGGC ATGGAGAAGA
+    18421 GATAGAAATT GGCCAAATTG TAGGATTTGT TTAGACCTTA ATCCGCGCTT TTATTGGACG
+    18481 ACCGACCTGA ACACGTTGTT GTGGTCATCA AGAACTTGTC CAGCTTGTGA TTTGCTGTGC
+    18541 ATTGTACTCG AGTCATACAT CATACGCTTA AACGCAGGCC CAGTCCCGAT CGGCATTGAG
+    18601 TTAGTTAACG GAAAGCTGCA AATGGACTTC TACGTGTCGG AATTCGGATC ACAGAATTAC
+    18661 CAATcgtctc cacctccatc caGACAAAGT GATATGCACA GTACCGGAAA AGCACTCACA
+    18721 GTTCCCGTCG AGCACCATGT TTTGAGCTTC TTTGTCAAGG CTGGTACGCT ATACATGCGC
+    18781 TTTCATGGTT TCATTGATCG AACTGATGCG GTCATTCTTA CAGAAACAAC TCCTGTAAGG
+    18841 AACGACCCAT TAGGCGAATG GACTGCAGGA ATCATCAGAC TAAAAGCTCG ATTTGTGCCA
+    18901 GGCATATTCG AGAACACTAA AAATCTTCCG AGCAATCTCT TAGTGGCATG TAGGACCAGT
+    18961 CTTGTGACGA CCACTTGGCT CCCGGATGGT AAAAGCCGCA GTTACAGGAA CTTGGATGGT
+    19021 GTACCAATCC TCATGGGAGA TGATCATAAA TGTGCGACCT ATCTTGTTTT GAGAGAGGTT
+    19081 GCATGTGGGA TCGCAGGCTG GGCATCACTC AACACTACTA CAGCAAACGG GACACGAATG
+    19141 CGCCAAACAT TGAGTTCGAA GAAACAAACC CCTATCGATC AGGCGAATAT GGAAGTTGGG
+    19201 TTGAAAGTAT GAATCATCAA GAGCTCACTA TCATTTGAGA ACACCAGTgc gcgaagagga
+    19261 agagagaaAT TGTCCACTTA CATCCCATTG ATCTCCGCTG CACCAACAGT AGTCCAGCAA
+    19321 ATGTCCATCA CGCAAACACG TCTCGAAGCA GTACAACGCA TCACTCCTCA CCATCAAACC
+    19381 TTATCCCTCA GATCTCCATC CACGTGGCCA TTCCTCCAGC CGAACATGCC CGCCCGCAAC
+    19441 CCGCACGTAT CCCTCTAGCT TACCCACTTG ACGGAACTTG CCAAGGTCCT TCCTCAAAAG
+    19501 GTCCAGAGCA GCGTAAAATG GATAGTTAGC TTTTGTGGTA ACGTACACGC AATCGAGCCA
+    19561 AGCGGTGAGC TTGCTTTTGG GGCTACGAGA GCGAGGCGGT AGTGTGGGGA TCGACGCACT
+    19621 GGTTCGGGTT CGCATCATTG TGATTGGCGT GCGGATTGGA TGGCGGTATG TTGGGCCGAG
+    19681 ACATGTCGTA TCGGAGGTTT TGTGGGGAAA AGACGATGTG TGGTGAAGGA AGGGGTGATG
+    19741 GAAAAGCAAA TAATATGCGT GAAGAATTTT TGACAGGTAG AACGTTGCGA CGACTTTCGA
+    19801 TACGAGCGAG AATAAATCAG CTTACGCAGC CCACTTTCAC ACGTCAGAAT TCACATGCTC
+    19861 GCGGCGCAAT ACGATGACAG CTGCTGAGAA ATTCCCGGTG CCATGCCCGT GGGTTTGGTG
+    19921 TTGCGCCATG TTAAGCCACA TTTGGTCGCA ACAGCATTCC AGAACCGTGG TCGAGAGATG
+    19981 CTCGCCGATT GCATTTGGAC ACGTAGGATG CTAGATTGCG GCCTACTACG GCTAATACTG
+    20041 TCCGAAGGCT GCTTTTTCGT CATGGCATCG CGGATCGCAG TGCTTCCGGA ATACAAATGA
+    20101 ATGCTCAGGT GGACTTGATG TTGGGGAATC GAGTGGAtgg tgagaagaag gaaacaGAGC
+    20161 AGAGCCCTTG GCAACAAGGG TTCCACATTT GATGCTTATC ACAGGGAGCG ACTCGAAACG
+    20221 GGTTGATAGC TCTAGTATCA TGGCGTATAC CCAAACGCAA GAGCATCATC GGCCTCAGGG
+    20281 ATGGGAAGAT CATATCTGAG GCATCTTGGA GACATATAAG CGACACTTGC GAAGACCCCG
+    20341 AAGTTGCCAT GTCATGGACT ACAGGCTGCC TAACAGAAAG ACTCGGTAAA GATACTCATC
+    20401 GTGTACGCCT CGGCTCGGAC ACTGACCAGG TGAAGATGCG TGGCACGCAG TGCAGGCTAG
+    20461 AGGGTTTGAG AATCACTGGG TGATGGATCC TGGATGAGGC ATGGGGTGCG GATAGGAACA
+    20521 AGGCGTGGCT GTGGGGCAGC GCGTAGAGAT ATTCCCTGAA ATTGGGCATT GTTTCATGAT
+    20581 CGCCTTCTTT GTGTCACTGA AGGTCATCGG CGGCCGGACG GAAGTGCCGA AGCGGCACGT
+    20641 TGGTGCGGAT GTTGATGCTT TTATTCTCCA CAGCTGGCCG CAATGCCGGC GATCATGACC
+    20701 AAACAAGTAG GTACTGACTG AGCCCGCGGC ATGACTCGTC ACTCTTAGGG CACCAGGGCC
+    20761 CGTGTGGGAT CGAAGCATGG ATATTTTATC TTGCTCAACG GTCGATCCAC ATGCGCGGTG
+    20821 AGACCTTGGT GTGGCGCTGG CTGCCTTGAT GCGTGTCTGA ATGCTTACAG TGTTGGAACA
+    20881 TTTGGCTTCG ATGAATTCGT CTGGCAGTCT TACTGGAGGG CTCAATGAAA TGAGTTCTCG
+    20941 AACGTTATGG CCTCTCTGCC ATGTTGCCTT CTGCCTGCAT GTCTTCTTAC GGACCCCGTG
+    21001 TGTCTCGACA GATCATTTGT AGACTGGACT CGTGTTCACA AGCTAGACAG TCCCTTTTCG
+    21061 ATCATGTCAT TATCAGCTGA ATATGGATGC CACCGTCCGA AGCGTAGGGA AATATCACCA
+    21121 TGGCCATATA GACACACAAG ACCAGATTAG GCACATGTAG TCTCCGCGCT CTAAACTGTA
+    21181 GCAATTTCGG CTTGAGTGCT GGCAATCCGG GCTTTGAATA TAAGCACCAA TTGATGTCGC
+    21241 ATCGACATGT TGCAGCGCTC TACTGTCGCC CTGCAGCTTA GATCCCAGTC GCCTCGGTTG
+    21301 CGAACAGTCA GGAACGGCAA ATTCCGCCAG TGGAGCTTCG CAGTTGGCTT CATCTGCCGG
+    21361 CCGGCGGAGG ACCGGAGTAG ATCCGAGTAG TTGACAGGTT CTTGGGTTTC TAATACTGAC
+    21421 TTTTTGCTGT ACGCCTAATA GACAACGCAC ACCGTGGCGC GCATGGCTGA TACCATCTCT
+    21481 GATCAGATTG GAACGACTAG GCCCATATGT GAGGGTATTA ACTTTGAATC AAGGAACACC
+    21541 GTAAGCGACG ACAGGGGCGT GCATCCACTA CGTCCAGGTC ACCGGATTTG ACAGTGCCCA
+    21601 GATGGACCTT GTCACCGCGG AACGGGGTTG GGATAGGCTG CATCAACAAC ACACAACCGT
+    21661 AAGTTTGGTC GACTGATGGT CGCTAGCTTC ATACCTTTAG CTAGGGCTGA GCTTGACTGA
+    21721 GTGTAAACCG TTCTTGAAAC TGCTGTTGGG TAGTAATGCA TCCTACAGCT AGTCAAGTAA
+    21781 AGCCGAAGCA GGTCGTCGAA GTCGCCCGCA TTACTGATGC CTAACAATGC TGGGCGAAGA
+    21841 CGTTGGCAGC CGACAGCAGC ATATGTAGAT GCGATGCATG GTCAGGACAT GAAGCCGTAC
+    21901 GTAGCGATGC AGCCCGTTTC ACTGTGAAAA TCACCCGCAA CGCGCCATGT CCCAACAGTG
+    21961 CCAGTGCGAC GTGATCATGC GATTCTAGCG TTGCAAGCCT TTCGCACCGT AGATAGAGTC
+    22021 AATATAAAAC GCGGAATTAT GATAAGACGG GCAATGGGCT GCCCGTTGAT TTGCCGGATA
+    22081 ATAGTTATGG GTGCACGGCT TGCAGCGTAA CAAAAGATCG AAGCGTAACG CCTCAATCAG
+    22141 ACGATCCCCG GCTGCACGTT GACATTGCCT GGCCATGGGA ATTTTGAAAG ACTTGAGAAA
+    22201 CTTGATGTTC TCCCATGCTC GCCCAGTCGA GCTTTCAAGA GTCCGGAACA CGGACAGGAC
+    22261 GTGTCGCGGA GACGGGAGAC CGCCCAGCTC TGGTGTGGCG TCCGCAAAAC GGAAAAAGCC
+    22321 CGAGAGTGTG ATCTGGGCAC TGCGCCGTCT CGATTCCGCC TCACGGCACA AAATCCACAC
+    22381 ATCTCAGCAA TGGGGTGATT GCACAGCCAT GCAGTCGTGT AATCGCACTG CTGGCACTGT
+    22441 GCGGCGCTGC ACAAGTCGTT GCTGCAGTGT TGCAATAAAC CCATGCGATC AGACACCTTT
+    22501 GCCGCAGTCA GCCGGGTGCA TGCCAGTCCT GTGCGCCTGG GCCCATAAAT TTCAGCAGGC
+    22561 AATACCCCAT TTTTGTAGCC GGGCCAGCTG CAAAGAACGG GCCGCGCTGT CTTTCCTAGC
+    22621 GACGCTTGTG CGTAGTTTGG GGTCAATACC AGCACGCTGG CACGACTGGG AACCTGGGTC
+    22681 CTGGCCTGAG GAGCCTTTCG TCCATACATA TTGGGCATCC GCCACTGCTC CTTTGCTGCA
+    22741 CCTCGAACGC CAAACATCGC CGGACGTCTC TGACAACATA GTTCTTACTT TCAGCATCCT
+    22801 TCTGGAGTCG TGGGAGTCGT GAATCACTAG CCCGTGATTG CAGCCGCCAG AGTGCATATA
+    22861 GCCAGACAGT CGGAGTTCCC GGGAGATTCA GCTCCAACGG CCAGACCTTG GGAATTGCGG
+    22921 AGCGCATGCA TATCTGACCC TCGCCGCGCT TCACCCCCAT CCACAACGTC TTGTTCCTTG
+    22981 GAGGATCCTC TCGACCTGAA GCACAAGGTA GTGACGGGTA AAGGCCGGAA TTGCCGAAGT
+    23041 CACAATGTCA ACTCCAGCTG AGTCGGGAAA GGCGGAGGCG AAAAATATGG ATCGACGCAT
+    23101 GAGCCTGGGG AAGTACGTGA AGAGGATGAG CAGTGTTTTC AAGAGGGAGA AGTCGAACAA
+    23161 GACTGTTGAG TTGGCCGCGC CGGTTGTACC TTCCGTGCGC GAGGCCGAAC AACAAAGCGC
+    23221 AAAGAAAGAG GAAGCCGCGC CCGTTGTGTA AGTAAGCAGT CATGACCCCA GGAGTCAACA
+    23281 CTGACGTATT CCAGTACTGC AACGCCGGAA GAATCTCTCG CTGTGCCAGC TGCTACCACC
+    23341 GCCACCATTT CGCAGCCAAC ATCTGCGATT GTGACGAAAC AGCTTGATCG ACATGCCATG
+    23401 CAGCAGGAAC GCGCACGTGC ACTCTTTGCA AAATATGGAC TCACTCTGGA CACCACAGAC
+    23461 TGGATTGCCA CTCCCGCTCC GATGCCCACT GTGCAACGCG TAGAGAAGTC TATCCGCATG
+    23521 CGCGTTCATC GCAGTTGTCA TCACTGCGGA ACTATATATG GAGCCGACAA GCAATGCTTG
+    23581 CAGTGTGAGC ACAAGCGGTG CAAGAAGTGC CCTCGCTACC CCAAAAAGAG GCTTTCTGct
+    23641 gagaaagaga aagaaaagac AACCGAGGAG AAgccaagga agaagagggt cCTGACAGTC
+    23701 ACGACGAGAG GAGGAAATGA ATTGGCATAT CAGCCATCAA AGCAAAGAGT CAGGCGCTCC
+    23761 TGCCACAAGT GCGAGACACT ATTTGTGCCT CCGACGGCTA CCATCTGTGA ACAGTGTCGA
+    23821 CACATACGAT GCACCAAATG CCCACGCGAC CCGGCAAAGC TGCAAAAGTG GCCTGAAGGC
+    23881 TACCCTGGGG ACATGGACGC GGACAGCGAC TCCGAAGTCG AGAAACAGCT GGAGAAGTTC
+    23941 AGGCGCACTT GGAGGAAGCC TCGCCAGAGA GTTCGATGGG AATGCGAGCA GTGCAATTCT
+    24001 GCCTTCATCA GCGGCTCGCC ACAATGTCCT GGATGCGGCC ATGAGCGATG TGAGAAATGT
+    24061 ACCCGATCAC CGTAAGTTTT CACCAGACGA TGCTCGCCAT TGAGCCTCCC TAACAACAGT
+    24121 CAGGATCAAA AGGAcaaaga aggaggagaa cTTTGACCCA AAGCTTGTAG CTGCCGTCGA
+    24181 AGCGAAACTG AAAGCGCTCG ACGTCGACAG CGATGTCCCC ACTTCAGGAG TCGAAGCTAC
+    24241 TTGACGTCAG AACGCGGACA GATTCTCTAT CTAATGCTTG TATTCCGAGG CTGCATCCCT
+    24301 TCTGGGACTC CACTGGCGGT GTGCCGGCTC TATTTTACGC TCGCTGTTTC CAGGATGCCC
+    24361 TTCAACCGGC ATCGACCGCA AATATTGCGA ATATAACAAG CTTTTTTCTC ACTTCACCCT
+    24421 TCCATTTCTT CGACCATGCC ATCTTCGGCC CATGCAAATC ATCCTACGCT TGTTTGATCT
+    24481 TGGCATTGAA CTCTGATCAT GCGCAATTAC TAGATGCATC CTGCATCTTT ACTTTCTGGT
+    24541 CTCGCATAGA CATCGGCTAG TAGCTCAAAA TTCTTTTCCA TGGCTGACAC ATGTGACAGG
+    24601 AAAGCTCCTC GGTTCCACAA ATAAAAAGGA GGTCCATGAT GCTGTGTAAC CTGCGCTTAT
+    24661 ATCCACCCGC TCGAACTGCG TACTCGTACG ATAACAAGCA GGCTGGTGGT ACAAATGGGC
+    24721 GTTTGCAGCG TGATCTTAGT GCCTCATGGG TCGCACGCTG CTCCTGTACG ACCACAAATG
+    24781 TCAGAGTCTG ACCATCGGGA ATTTTAAGGC TGGTCTGGGA TTCGCCCCGC AGATGTACCT
+    24841 CACATCGCTC AGCATATGTA CCTCTTTGCT CACGCCATCC CTGTCGGAGG AGAGGATACG
+    24901 GTGAGGCCCA ATGGTGAAGC AATAGCATGT CGTTTGCTGT CATTGCAGCT GTACTGCGCA
+    24961 GGACGACAAG CACGTACCCT TCTCATCGCG ACATCACAGC TTCCGTACAA CCTGCAAAAT
+    25021 CCATGGCCTG CATTGATCTA TATTGCGCCA GACGATCGAC CGAATTCACA TTCACATGTA
+    25081 TTGTTCAGAG ATGGAGCATT TTCGATGCTT GGAAAGACTC CGCAGCGGCC ACAGGCCGAT
+    25141 ACATGGCTAT CGACTAGCGT TGCTCGCTTG CGAACACATT ATcccttcct cttcgacaGA
+    25201 TCTGCATTGT CTCGCGAAAA GCTCAGGTAC TCTGAAGTTC TGATCGGACA TCCGGCGTCC
+    25261 GCCCGGAACG ACTGCAGTGC TAGTGCCGAA ACGGCGACAT TCTATTACTT CTGAGTACAC
+    25321 GGCGAAATAC CTAGCAGAAA CCTGCGCCAA AAACTATATG CCTCTACATT ACGAAGGCAA
+    25381 GAACGATCAG TCGAAATGAA TGCGCCATAA TTCTCGATCG ATGCCTGCTT CAAACGAACT
+    25441 CCTCGTGTGC AGCATGGAGA TGTTGTCATT GATGACGAga tctccttctt gccatgAGTG
+    25501 CCAATAGCAT ACTCGGCGGT CATGCAACAA TTCCTCTAGT GTGTCACATA CGCTATGGTC
+    25561 GCCATTTCCT ATCTCTACTT CCGTGGGATC AAATCGTGTC TTTTCTTGCG GCCATCGCTC
+    25621 GTGGTACCTG AGGCATGGTT GAGCTGTGGA TGGATGTTGA GTAACAAGTG GTATGCCATC
+    25681 AATGAACGAC TGATCGAAAG AAGTTGTCCT GACTGACCAC TTCAGAGACT CCAGATACTC
+    25741 CAAGGAGTGG TGTTTTGGGA GATGGCTGAA CACGAGTCTT GAACTCGCAA AGAGCGTGTA
+    25801 TCCAGTGCTC TTGGGGCTAG GTGTGACAGC CACAAAGATT TGGAAACGAG GAGGATTTGG
+    25861 TACTAAGTGT GTGCTCCCAT CCTCACGAAT ATGCTTTTCT GTCTTGAACA GGCCGTCGAA
+    25921 ATGGAATGGC ATCCATTCTT GACTCAATAC ATTGTTGAGG CCCTGACCTT CGTTGCCGCG
+    25981 ATCTCTGACT TCGAGTATGA GCCCAAACTT CCATGGCGTT GGGATGCCTA GCTCGTGAGA
+    26041 CTTGGCAAGG AATGCATCTC GGTTCTTCGT CCGCGCGAAC CCTCGCAGAA TCACGGGTGA
+    26101 GTTGTGTTGG GCGAGCTCAC GCACTTTGTG CGCATCCACA TCTTCGATCG TTAACGTTTT
+    26161 CGCATTCTCA GAAGGTCGGA TCAGCACTCC ACAAGGGTAC AATGGCTCGA AAGTTACGGC
+    26221 ACGCGAGCAA TCCCACTGGT ACAGTGGCGA TCTTTCTCGA AAGTAGCTGG GCCTGCCATC
+    26281 TTCGTACACC AGTTCCATGT TTGGATCCTC TTCAAACTTC CTGCGCTGTC CTGCCATGAC
+    26341 AGTACCATTG ACAGTAACTG CTACTGCGCT GTGCCACGGG GTGATGACTT TCTGGATAGG
+    26401 GAGGATGTTG ATAGAGATCT TATCTTCGCC TGTACTTGGA TGGATCGATA ACCTAACATG
+    26461 GTCAGGATAG TTCTCCTTCA CGGCTTTCGC GAACGCCTCT CCACGCTTGA GCATGCTCTT
+    26521 TGCAATTATC TCGACGCCCT TCTTGAAAGC GCTCTTCGTT CGCCCAGGTC CAATAGGGTA
+    26581 GATGCTCGCA AGGTCCGACG TGAGGAACTT GAGATATCCG CAATACGTGA GGCGCTTATT
+    26641 TTCGTCGTTG TTGACGTACG AATCTCCGAA TCCAGCGTCC CAGTTGAAGT TCCCGTAGCG
+    26701 ATGCATCAGT GCAAGTCGTA TCGAGGGAGC GACAGCGGCA TACGTCATGG CGTTCATCTC
+    26761 GTCACTGAGG TTTGGAATGC CGAGGAGGTC TTTGAGTCGT GCGAACTCGA TATGACTGTA
+    26821 CCCTTTGTCT TTGGTGAGCT GCCGTAACGA ATGGCCGTAT GTCCACACAA CGTGTTCTGG
+    26881 CACACCGAGG AGGTCTACGC GTGTTAGAAT GGTAAGTATA CGAAAAGAGA CGGGAACGAA
+    26941 CCGTTGTACA CCAAGCCATC GGAAACGATA GTCAGAATCG CGCCAGGAGG GTACATATCC
+    27001 TTGACCGCGG CGCAAAGTCC ATTCAGATGC GCCAGAGCTA TTTCTTCCGC TTTGTCGGGA
+    27061 AGAGTACCCA GTACCTTGGT GTCGCTGTTC GGGCTCTTGA AAGGGAAAGC TGGTAATACC
+    27121 ATACGCACTG GCTCATTATT CTTGACGGAT CGGTAAATAA GGGCCAGGAA ATGCAGTGCT
+    27181 CCCTCATCAC TGCGATCTTG CGCATCCAGA GGTAGCGGCG ATCTGTAACG CGATATCACC
+    27241 CCGAGTATTC GCTGTGATAG TGTCATCGCA TCAAGACGAA GATGGCTCCC AAGGGCGGTG
+    27301 TCGGAGCCTT CATAGTCGTT TGTACCAAGG AAATGAGGCA TGTCGAAGAT GATTGACTTA
+    27361 TGGTTGACAG TATCAGATGG ACAGTAAAGA ACGACGCAGA ATGCTGATGG TGGATTCAAT
+    27421 CCGTTCCCAC GTTGCTAATA TGTCCGGAAG CACAAATCTC GGACTGATCT TGATCTGATA
+    27481 AATCAAGACT GGGGCGCGTT ATACATTCAC CCAAGCGTCC TCCGCTTCCT TCGTTTCACT
+    27541 CTAGCATGTT CTGGTTTTGC GCCACTCTTC TCCGGGCAAA AGGACCGCAT GGCGGGCCTT
+    27601 GATACGAAGT TTTCACAGAG CTTTGCGTGC CGACGCAACA CTTTTTGGGT TTCTTTCTGG
+    27661 GCATTCGAAC AGCCGAAGGG TCATTCGCCA CCACAGGGTA GGAACATCCA GCAGCAGGGC
+    27721 AAACCTCTGA GTCCCGATAC GCAGGTGTCT ATCTGCCGGA CAAACCACAA CTAGGAAGCG
+    27781 ATATTGATAC ACCCACATTT ACGGCAGCCT TCCTAATGCG CGGTTGTAGC CGTTTCATGC
+    27841 GGTCCACACA TGTTCTTGGA AGCGCTGCAG TATCCTTGCA TGCCCCAGAA ATCACAACTT
+    27901 CGCGCCATCG GCGCCTTGAC CTGATGAGGC AACGCCGAGA TGTGCGATTG CTTCTGCCGA
+    27961 GGTCTTGCCA ACTTTTCTTC CACATAACTT TACTGATACG AAGATTAGGA TGTAGCTTTC
+    28021 CGCTTATCAA GATGCTAATG CGATTTTTGT GGCTTGCTGG GTCCATTTCG CGACATCACA
+    28081 ATTTACATGG GACAGGGCGG GAAGACTCAG TCTACAACAC TCCCCTTCAA CTACAACAGT
+    28141 GTCAACAAAG ATTGCTCTCT CATCAGTTAT GCCGGTGGCC GTCGAGAAGT CTGGTGCAAA
+    28201 TGGCGGTTTG CATAACGACT CGTGCAAAAT GGCTTCGAAT GCTACATGTT GGCTTCAGGT
+    28261 GCTggctggc ttcttcttga tgttCAACTC TTGGTAATTT TCCCGCCCCA TGCCTTAAAG
+    28321 CCAAGAGCTT TGTGACTGAC TCTTCTGCGT AGGGGACTTG TAAGCGCTTT TGGCGTGTTC
+    28381 CAAGAGTACT ACTCTTCACT CGACCCAACA CTGGCTGAGC AATCTTCACT TTCATGGATC
+    28441 GGCTCCCTAC AGATTTTCCT CATGCTAGCA TGCGGATCTG CAACCGGCTC ATACGTCGAT
+    28501 AGAGGCCATG CGAAGCTCAT GTCATTTGGA GGTTGCGCAC TCGTCACTCT TGGCTTGCTA
+    28561 TTCACATCCT TCAGCGGAGA GTTTACAGGT GCTCAACGTC CATTGTACTA CCAGATTCTG
+    28621 CTATCCCAGG GCATCCTTTC TGGACTGGGT ATGAGCTTAC TTCTGGTTCC GTCGACGGCA
+    28681 ATTGTACCCA CGTACTTCGT TGACAAACGT ACCCTCGCTG TCGGACTTGC CAATACTGGT
+    28741 GCATCGATCG GTGGTGTGAT CTACCCCATT ATCATCCGGC GCATGCTAGC TAACCTGGGT
+    28801 TTCCACTGGA CCATGCGAGC GGCAGCATTG ATCGTGCTTG TCACAACAGG CTTCGGCGCC
+    28861 CTACTTGTGC GCCAACGGGA AGAATTGACG CGGAATCCCG CCAAACGCAC ACTCTACGAT
+    28921 TTCAGTTGCT TAAAAGAATT GCAAtacgcc atcttcgccg gaGGTGTTTT CTTCACTTTC
+    28981 GCTGGCATAT ACATACCGTA CTTCTACATC AGCTCTTGGG TACGTGATAC CAACTTTCCA
+    29041 GTAAACGGCC TGCACCCGTA CTACCTCCTC AGCATCCTCA ACGCTGGTGG ACTGGTTGGG
+    29101 CGCATAATTC CGAGTTTCTG CGCGGACAAA TTCGTTGCCG GGCCCGTGCT GGTTCAGGCA
+    29161 CTGGCAGCGA TTATATGTGG TTGCTTAGCA GCAGGTTGGA CGTTTATCGA CACATCTTTA
+    29221 GCTGGCCTCA TCGTATGGAC TTTCGCATAC GGCTTCTTCA GTGGTAGCGT GATCAGTGTG
+    29281 ATTCCGTCTA GTGCGGCTAC ATTGACTAAG AATATGAGTC GATTGGGTGG AAGACTTGGT
+    29341 ATCGTCTTCG CGGGCAATGC GTTTGCATCT TTGATAGGCA ATCCAGTTGC AGGTGCTATT
+    29401 TTACGAGATA CTAGCTCTGG GTGGCGCGGG CTTGCGAGCT ATTGTGCCGT CTTGAACATG
+    29461 GCTGGGGGAT GTTTGCTGAC GATCTGCTGG GTCATGCATG TGCGCAATTT GAGGAGCATG
+    29521 TCTTGAGTTG TAGACCTTAG AAAATAGCCA TGCATACACA TGCTAAATAT CCAAGACATC
+    29581 CTCGAAAACA TACTCATGCC ATTTGGCTTC CAGTGAGAAC CTGTATGATA AGTGAAATGC
+    29641 AACATTTCAA GGCATCAAAG AAGCACAAGC CGTCTCAAGA TGATCTAATA GTCGATGAAT
+    29701 CACGCTCTGC ATGAACGGCG GAGAATATCG ATCGTGGTGC AGTGCAGATT TTCGGCCTTG
+    29761 AATCAGGTCA CTGCACTTAC ATGCCCTATG ACAATTGAAT TGGCAGTAGA CCTTGAATTG
+    29821 AAAACTCTAA TCGGCCCTGA Gacgatctct tcttcgtgtA TGCGCATGTC ATTGCCACCA
+    29881 AGTTCCCGAA CAGGCCTTCG CCGCGTTCCT GCTTATGCCC TTGCAAGTCT CCGCATGGGT
+    29941 TCCACCGTAC CCCTGCACTG CAACTCTACC TACTCTTTCC GGTTTGTGGA GCTGTTGGCA
+    30001 TCTTGTCACG AGTACCATAT CGCCCCGGCC CGCTCCGTGT TGCACTCCTA GGCATTGGCC
+    30061 AAGATGACGA CTTCTCGGAA GACAGGCACA AGTGTTGCAA CATCAGTCGG GGCGGGACAA
+    30121 TCTGAGGAAA TAGTCCGATG TCGTGATTGC TACACGTGCG ATTTTACTAG GCGTGTGCCA
+    30181 TGCTAGAGAC TTCGCACATG ATAGCGGCGA GATCAACGGC TTTTTCGGCA TTAACATTCT
+    30241 CGCCACTACC CGAATACATC TTGGAGACTA CAGCTCCCCG TGAGAGCTCG ACAAGCGTTT
+    30301 GCGGAAAGGC TCTCACACCG TTGACCTGCT TGTTATGGCG ATTTCTGGAA GACCTAGCGA
+    30361 CAATTCCGAT CTAGGGAAGC CTGTACTTGG AGAAGATGTA GATCTGGTCA TTGTAGGAGG
+    30421 TCAGTCCGTT CTAAACTGTT GTTTACTGGC TCTTGGCGAT GCATTACAGC AGCTGGACAT
+    30481 TGCATTTACT AATGAACGGT ATGCTAATGT TAATGCAGCT GGACCAACAG GTCTTCTGTC
+    30541 AGCACTCCTT GCTCGCCAAC TTGGTCTTAG TGTCTGTATA CTGGATGCGA AGCGCGGCCC
+    30601 ATTGCAAGTG GGCGGTGCGG ATGCTATAAC GGCACGAACT CAACAGTATT TGGAAGTAGC
+    30661 AAGTAATCCA AAGGGCCAGG ATTCTAAGCC CTTAGGAATT CTTGATGGCT TGCTGAGCAG
+    30721 AGGCGTGAAG TGTAACAGTA TGTCCCACCA AACTTTGATT GATCACTGCT CAGACTGATG
+    30781 ATGGCACGAA ACAGCCAGTA CAACCTATGT AGATGGCGAG TTCACATCTC GACAAAGCAA
+    30841 ATGGTGGAAC AGCATTGAGC ACACCTTCTA CAACAACCTT CTCATGATTG GTCAACCATT
+    30901 CATTGAACGC CACCTTGCCT CCTTCATCGA TGTACCAACT CATTACTCTG AGCCGGCGCT
+    30961 TTCGTTCTCA CAAGTCGCAT CACCTCTTGG AGTTTCCGTC CGAACGGAAA AGCGTACCGT
+    31021 GAATGCGAGG TACTGTCTTG CCGCTGATGG CGCACGCAGT TTCATGCGAA ATGAGCTGGG
+    31081 CATTGGTTGG ACAGGCACGA AGCCGAATAT GATCTGGGCA GTTCTGGATT GTTGGATTGA
+    31141 GACCACATTC CCCATTGCGA GAGAGATTGT CACACTTCAA GTTGATGGTG AATCGAGGGT
+    31201 GGCATGGATT CCCCGGTGGG TGTGAGTTAG AAATCGTGAG GAAAACGCTG ATGGTGAAAA
+    31261 GGGAACGCGG CATGCAAAGA TTCTATGTCC TTCTTGAAGG CGAGATCACG CAGCTGAAAA
+    31321 CTGAAGCCTC GATTAGAAGA CATATGGCTC CACACGCTGT CGAGTTCACG CATATTGAAT
+    31381 GGTTCAGTAA ATTTGAAAGT AAGTTCATCG TCCGAAGTAG CGCTAATTCC GTTCCTACGC
+    31441 ACTGGATGTA CATGTCAGCG CTAACATTTG CATAGTCAAA GAACGTGTGG CAGAGAAGTT
+    31501 TCTTTATCCT ACCCCTGTCG GACCGTTCAT ACTTGCAGGC GATGCTGCAC ATGTACACTC
+    31561 CGTCAATGGC GGCCAGGGTA TGAACACGGG CCTCTCGGAT GCCTTCAACC TAGTTTGGCG
+    31621 CTTGTATTTC CTCCTCAAAT ACAACCAATC GCCCTCTAAA CACCCTCAGC TACCACCTCG
+    31681 CTCAGCTGAA TCCATCCTCG AAAGTTATGA CATAGAGAGA AGAGCGACTG CAAATCACGT
+    31741 CATTGATGTT GCAGCCAAAC TGGTCAGAAG CACGACAGCA GAAGCAAAGG AGTACGTCGG
+    31801 GCTTATTGAA AAGAACTCCA GCTTTATAAC CGGTATGGGA GTGCAATACT CGAATCTCGA
+    31861 ATCCCCATTA GTACGGGAAT CTGAGAAGGG TGTGTGGAAG GCGGGTCATC GGGCTCCGGA
+    31921 TTTGTGGCTG CATGACAAAA AGACGCAGGA TTCGATTCGT TTATATCAGA AGATGACCTA
+    31981 CGGCCGATAT ATGTTTATAC TAGTGCAGAG CACCAAGATG ATCAAAGTAA CACGACCGGA
+    32041 GTTTATGACG ATGGTCAGAT TGGACAGTTT GAGGAGCATG GGCGTGGGGA TGGAAAGAGA
+    32101 AGCTGAAAAG GATGAAGGAA AAACAACCCT TGCCAAGGAG GCGCTCGGAT GCGCATTGAT
+    32161 CAAGAAGGGA GAGGAGTACG CTGTGTTGGT TAGGCCAGAT TGCTATGTGG AATTTGTGGG
+    32221 CGAAGTGGAC GAGGGGATCA CGTACATTGC TCAACGCCTC CCGGGACTCT TATGTGTCGG
+    32281 GTCATAGCGA CCTACCACAT GAAGTATCAA AAAGTCACCG TCCATGGCAT ATGGAATGCT
+    32341 GATTTGCACA TGTATGCAAG CCCAATACCC CAGGTTCTCA CAACCTGAAA CCGTAGCACG
+    32401 TCCTGCagat catcaacaac gcaTGAAAAG TGCGACCCGG CTTTTCAAAT CCGATGATTT
+    32461 AAGCATCGGA GAATTGCGCA AGCGTTTAGG CACTTCTCAT GGCCAAAAAA ATTTGACGTG
+    32521 CGTCAATGCG AAAGCCTGCC CTCTCAAGTC CAGAATTCAG CAACCAGGTT CACGGTACAG
+    32581 AAACGGCAAG ACATGTTCTA GGTACATTCA AACTCCAGGG TGCTTTTTTG TTTGAAGAGT
+    32641 GGGAGCACAA GTGGCGGCCG CCTACTAATC ATCGCCACTG CACCGAAAGC GCATCAAGAT
+    32701 GAGGATACCT TGCAGCGATA CGCCTTTGCC ACCTCCTTGT ACCCGCGTCT CCTTATCGAA
+    32761 CCTCGTACTT CTGCCTTATG CGCCCACGCA GCAAAAAGCA ACTCCAACGG CTATCAGCAG
+    32821 ACATGCTCGA TGCCGCATGT TGCCGGCAGA ATAGAGAGCT TTTGCCAGTC ACGCTGCGAG
+    32881 TATTTAATGC GCAATCTCTA TTTTGCCTGG TGGCGTAGTC GCTTCGCAAG CCCAGAGGGT
+    32941 CGGTTACAGC AATCCTTGTA TGAGGATCGA GGGGCGCTTG CGAAATATGC CGTGAAAGTG
+    33001 CAACACTTGT GCTCGCGAAT TTGGGGTCGG GCGGAACATT GCCGCTTCTC GTCGGAAGAA
+    33061 TAAATCGTGA TATACATAGA GGTGATGGCT GAGGTGACAC AGCAACACGT ATCTCACCAC
+    33121 GCAGCTCCTG TCTTTCCTAC ATTCGCTCGC GCTTTGAGGA TCGCACCTCG CAATTTCTCG
+    33181 GTCGAGGAAC TATCGAGGAA CTCGACTATT CTTTCAATCT TACCGTCTTC ATTCACGTCT
+    33241 AGAAGGAACA TGTACTCGTT GGTGTAATTC CATTCTTCTG CTGGTGTTGC GCCCATGGCT
+    33301 TCTTTCTTGA ATTCTGGTTT CCCAACTGCC CAGATGGTAA TTTGTCGACC CGCCTCGTTG
+    33361 ACGTGAGTCT CTTTAGCTGC GACAGGGAAG CGCTCAAGCA GTGGAAGTAG GTTGTTGGTA
+    33421 ATGTGTGCGG CGAAGGTAGC GTTTGTCTTG GGTGATATGT TGAGCGACGA AGGAGCGAAG
+    33481 ATGTGAGTGC ACAATGGTGC GCGGAGAGCG ATGTGATCGT CAACAGAAAG GTTGTCAAAG
+    33541 GCAAAGAGGA AGGAAGTCGC GATCCTTTCG AGTGAGCTCT TAGTAAGAGA CATTGTGAAG
+    33601 AGTTGATGCA AAAACAGTTC TGATTAAATT GAGTTGAATT AAGAACAAGC CTGAATTAGC
+    33661 AATGTGAGGT CAAGCTGATA ACACATGTGC CATTTCTGTA TCTGATTCAA GTCAATGCAT
+    33721 TGCTATCTAG GTAAAGTCCG TTAACACCGA AGGGTATGAC GAAAAGGTGG TGCGCCTAAC
+    33781 GGACCCTTTG ACTCGTTCGC CTCTGCTCGC AAAGCCACCA AGAGTATCAC GCGCACACTG
+    33841 TTGAAATGCG AACGCGTCTA TAACCCATCA ATCCTTTCTA GATGTTGTGC TGCTCACCGA
+    33901 GACGCGCGAC CATATCGACG ATCCTTTCCT GACAGCCAGC GCCTAATGCG ACTAATCTTC
+    33961 GATACCTTCT TGAGCGGAAT AGTGGGCAGC TTGTGCAACC CTCCATGAGC CGGGTCGAAC
+    34021 TCGTCAGCGC CCATGTTAGG GATCTTAGCC TGTGCAGGAT TATGAACTAC CCTGCCGTTT
+    34081 TCCGCAGACT CGGAGCGCTT TGGTTCTGGC CCGACTTTGA GGAGTTTTGA CGGCTGAGTG
+    34141 GTAGCGATAG TGTCTCGACG ACTCATATCC GAATGGGTGG AATGTGTGGA GGAGTCAGGG
+    34201 AAGTAACGGA AGTAAGAGTC CGGCTCAATC ATTGGGAGAG TTTGATCCTC GGCATGTTCT
+    34261 TCGATGGGCT CGATGATATC GAGATGTTGA TCTGCTTCAA CGATCTTGAC AGGAGGGGCG
+    34321 GAGAAAGTAC GCTGGGGATG AAGGAAGTCT TCAGCTACTG GCTGCCGAAT CGACTCTGTC
+    34381 CGGTGGAAGC GGTCTCCACT GACAAGATCG ATCATGTGTG GCTGCTCGAC AGGGTATGTC
+    34441 TCGTGAAGAG GATATGGAGC GCCACCTGTG AAGGAAACCA ATCTGAATGG CATATTATGT
+    34501 ATGCTCACCG AACCGTCTCC CATTCGCTCT TGGTCGTGTC CATGATATTG TTGAGACATG
+    34561 GGTGGGTGGT CTAAGAGATC GGCAGGGTCA TCGGCAGGGT ACCATGAAGT ATGGGGCGGC
+    34621 ATTTCGGTTG TCATTTTGGG TTGGCGATTA AAGAGAGTGT CAAAGAGCGG CTCAGGTCAG
+    34681 GAGTTGAACG TGGGAAGGTC TTTTAGTAAG TTGACGCGTA GCCTTTGTTG TGAAGAGTAT
+    34741 TGTATATGCC CGAGGGATTA CCCGATAAAG TAGTCCAACA ATGTGTCAGT GAGTCGCAAT
+    34801 GGTTGCATGC CTAATTGCAG TTCTGCCGTG TATTCACAAT GTATCAATGC GTTGACTGAC
+    34861 AAGAATGTGA AGCGATTCAG TAGCGTGATA GTGTCGTTTG AGTCACTCTC GAGGCAAGCT
+    34921 ACGCGCTGTC AGACCTTCTC AGTCTTCACA ACGTAAGACT CGCAATCTCA CCCTCGGGAT
+    34981 ACACGGTTCC GGTTCACCCA TACACTACTA GGAATGATGC CTAGAGTGTG CACATTGTAA
+    35041 AATCCCTGGA CCGAGGGAAC GTGGGGAAAA CTATTGTTGT TCATGCTTTT CGAGCACACT
+    35101 TCGAGTGGCA GTTATGGTTG AACATATATA ACTGTGCGCA ATTGCCTGAT AGTCATCCTC
+    35161 CCAAGTGAAG CCAGGAAAGA GCTAAATGGA GTTGGTACAT ACGCGGGGCA TGCATTGTGT
+    35221 AGAATATGAC GGCCCCTGTG ATAGCAAGCA GGGCCTCCAT TCCATTCGAG ACGTCACGTG
+    35281 TTGCTATGTT GAATCTCGGC AGGCTATGGA CTAGTCTTTC CTAACTTCGT ATCTCTTGTA
+    35341 CCTGGTAACA GAAATCTGCG GATATGGTAC ACAAGACCTG GTGGCTGAGA TGGCACTGCA
+    35401 TCACCAGAGC ACAGTTCCTG GCACGGCGTT GCCGACTCTG TCATCTTCTC ATCTTTACGC
+    35461 TCCAACAGGG CAAGTACATC CTACGCGTGA AGAGATAATG CGCTGGTGTT ACTCATACTT
+    35521 CTCTGGACAA GAGCGTGTCT GACAGTCTGC TAATAGAGCC ATTCACCGAC AGGGATGCCG
+    35581 ACCTCAGCCG AGCTGTCGCG CGGCCTATCT CCAAAGCCAT CGGAGTGACT GCAGACAAGT
+    35641 ACGAAGATAG AACTGATGCT CCTGTGCTGA CCAATCTTAG CGTAAAGATC GTTCGCCCCA
+    35701 GAGGCCGCTC CCTACGCATC GATTACGAGG TGGTCGATGC AGCCAAATTC ACTCACGCGT
+    35761 TCGGCGAGGG CGTGAAAGTG CGTTTCGTGT CTGCTAGGCC AAAGGACATG CCGGGTCTCC
+    35821 TCGTGCAGGG CGCCCTCGAT GGCACGGTGA CTTACAGCAT TGTCATGAAC GACTTCCCGA
+    35881 CTGTAGCAAA ACTTGTTGTT CCAGTGCCAG CACCGGACAT CTCGCTCGCG TGACCGCAGA
+    35941 GAAGCCTGCG CGCATTGTGG TCGAGCATCA GCCCATGGCG CGAGAGCATC TTGACAGCCT
+    36001 TGGAGGTACA TTCAGCAAAT TTGAACCTAG AATGATGGTG TAAATCAACG GGTAATGCGA
+    36061 GCAGACGTTT AGAAAGGAAG TCAAGCGGCA GAGATGGATA TTGATTGAAA AGAAAATGAT
+    36121 CTTTTATCAT TTTCAAGTAC CAGCCTCACA CGCGGAGCGG AGCTGTTGGA AAGATATAAT
+    36181 TTATGTTTGC GACCTAGTTA GTCGAGAAGA ATGTAAGCAC TGAGCGGCAC GTGGCGGTAG
+    36241 ATGCACAGCC CAACGACGCA GAATCCCACG GTCACCATCA ACTTGTTTTT TCCGTTTCGA
+    36301 ACCTCAGGCA GCCTGCTATG TCTCTCTCAT TAATTCTGTG AAGCGCTACT CTGTTCTTGA
+    36361 GTGTTACGAC TCTCCAAGTT GTTTTGCAGC TCTTGTCTAA TACTTCTTTC TTTTCCAAAC
+    36421 CCATTAAACA ATCAGCGGTG GGCAGCATAG TTATGCGAAT CACTTCGCGA TGAAATTTGG
+    36481 CGAGGCAGAT TGCCGCGCAT GATCACACAC AGGCTGACAT CTGTCTCCAG TATTTTGAGG
+    36541 CGTATGTGAT TTCTACTCAG TGGCGCACAA TGGCATTTGC GTGGAGCTTG GCCTCTTCAT
+    36601 GGCAGCCCTT GGCGGCATCT GCATTTGGCG GTTTCCTTGT GGCTATAACA TTCGGTATCA
+    36661 CTCGGCGCCA ACCGAAACCC CGCAATTCAT CACCAAAAGA TAGCAACTAG CGTAACATGG
+    36721 TCAGACTTCA TCACGGGATG GAACTTGGAC ATTCCTGGGC GTGCACGCAG TTGCGGCCCT
+    36781 TTGGTGGCGc cgagaagacg aaggaagAGC TTGTCGTTCC AACTGCTATC ACGACTTTAC
+    36841 TCCATGAGGC AGCTGGAAGA ACTCATATGG AAACCAACAG AATGTAGAAA TGTATAAGAT
+    36901 CTGTGCTGTC GTCAGACTGA CACGAAAGGC TGGTATTGCT TTTATCACCT CTCAGCATGT
+    36961 CTTCCGGTGC TCCTCTCGAG ATTGTGGACG TCGCCGCGGC ACACGTACCA GACTCGAAGG
+    37021 ACGAGCACAT TTTTGAAAAG CGCGAGTCAC TCAGCTCTAC CAAAGACGAT CTGGTTGGCC
+    37081 CTAATGGCGA GCTGTATCCC ACGGATGAAG AGTGGGCTTC GCTCCGCCGA GTGTATGGCA
+    37141 AAGTGAATTG GATGATCTAT ATCATCGGTA TTGTAGAGAT GTGCGAACGA TTCGCCTACT
+    37201 ATGGCACCAC CGCTGTTTGT AAGTGTAACT TGAGGCTAGA AGCTATGGTT CCGCTAACAC
+    37261 GTCGTAGTTG TCAACTTCAT CCAACAATCT CTACCAACCG ACGGACCATT CCCCGaagct
+    37321 ggtgctgctg gcaccaATGG TCAACCAGGA GCTCTGGGTA TGGGACAAAG AGCCTCAACC
+    37381 GGACTTGTGC AGTTCAATCa gttcttctct tatatCATGC CTATGATTGG TGAGACGTCG
+    37441 TACGAGATCC CAAAACCGAT CAGGACTGAC ATTTTTCCTA GGCGGGTGGC TTGCTGATGA
+    37501 ATATTGGGGA AAGTTTAAAA CTATTTACGT CGCAATCGTC GTGGCCACGT TTGGACATAT
+    37561 CCTCATTCTC ATCGCTGCTA TCCCACAAGT AATTGCTTCA CCGAAAGGAG CTCTCGCCTC
+    37621 GTTTATCCTT GGCCTCATAC TCTTCGGTAC AGGCGTGGGA TTCTTCAAGG CTTGCATTTC
+    37681 GCCGCTTATC GCTGAACAGT GCGTTGCCTT TCGCACTTCT GATTTGAAGA CTGCTGAAAA
+    37741 TGCTCTAGAT ACGAAGCTTC GCACCCCAGA GCATATATCA GGACCGAAGC TAATGGCGAG
+    37801 CGTGTCATCG TCGATCCAGG GATCACGTAC TCTCGCATCT ACATGCGCTA CTACCTACTG
+    37861 ATCAACGTCG GAGCTTTGGT CGGTCAGATT TCTATGGTGT ATGCTGAAAA ATACGTGGTA
+    37921 CGTCTTCTCG CCTTGAAGAA TGTTTGTTCC TGGCTACACC CGCTAATTTC TGGCGCAACT
+    37981 ATATAGGGTT TCTGGCTGTC TTACCTCCTA CCGACcattc tcttcatctt ctgtCCCATT
+    38041 CTTATGATGG CCTTCAGTAA GCATTATGTC AAGAAGCCGC CGCAGGGAGA CGTCGCCATC
+    38101 AAGTCTTTGC GTCTCTATGG GCTTGCACTG AAGGGCCAAT TCTCGCTCAA CCCCATCCGC
+    38161 ACTTGGAAGA ACCTCTCCTC TCCTGATCTT TGGGAGAATG TCAAACCCAG CAGGGTCTCA
+    38221 AACAAACCCA AGTGGATGAC TTTTGACGAT GCTTGGGTGG ATGAAGTGCG TCGTGGTTTC
+    38281 AAAGCTTGTT ATgtcttcct ctggcttccA ATCTTCTGGC TTCCGTACGG ACAAGTAAGG
+    38341 ACCCGAAGAC ATACTTGTGT AGAAAATTTG CTAATTCAAT GCCATAGATG ACTTCCAATC
+    38401 TCGTCTCGCA AGCGTCGACA ATGGAACTCA ACGGCGTCCC AAACGATATC ATCCACAACC
+    38461 TGAACCCCAT CACGCTTCTC ATCATGATCC CAATCTTCGA CAAATTCATC TACCCGGCGA
+    38521 TAGCCCGTGC AGGTCTCAAC TTCACGCCGC TTAAGAAGAT CTCAGCTGGA TTTGTGTTCG
+    38581 CGATGTTCAG TATGATTGCA GCTGCAGTCA TTCAACATTC CATCTACCAG AAGTCGCCCT
+    38641 GTGGAAAGTA CCCAGGCACA TGCGATGAGC CACCGAACCT ATCGGTGTGG GTGCAGACTC
+    38701 CGGCTTATGT CATGATTGCC TTTTCAGAAA TCTTTGCTTC CATCACCGGT CTAGAATACG
+    38761 CCTACACCAA GGCGCCCAAA AACATGCGCT CGCTGGTAAC GGGTGTATTC TGGTTCACTC
+    38821 ACGCGTTTTC CTCAGCCATC GCTCAGGCAT TTGTTCCACT GGCCGATGAT CCGCTTTTGG
+    38881 TCTGGCTCTA CGTCTCCATT ACTATCTTGA CTTTCATTGG CTGGGTTGGC TTTTCGTGGA
+    38941 CTTTCAGGTC TTTAGACAAG GAAAATGATG CGCTCGACAA GTTGCCTGAG GGAGATTTCC
+    39001 AGTCAGGATC GGAGAGCGCC TCGGCGAATA ATGTTGTGGT GAACAAGGCG TGA
+//

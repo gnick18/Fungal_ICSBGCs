@@ -1,0 +1,104 @@
+LOCUS       2986mF-Z216             2045 bp    DNA     linear   UNC 16-DEC-2021
+DEFINITION  GCA_002894205.1 results based on the annotation PF05141 and  inputs.
+ACCESSION   GCA_002894205.1
+VERSION     1
+KEYWORDS    .
+SOURCE      ICSCreator.py written by Grant Nickles (gnickles@wisc.edu)
+ORGANISM    GCA_002894205.1
+FEATURES             Location/Qualifiers
+     gene            complement(1..2045)
+                     /note="*Name TGAMA5MH_00340"
+                     /note="*end_range: 228299,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="TGAMA5MH_00340"
+                     /partial
+                     /note="*start_range: .,22625"
+                     /note="*backbone: True"
+     mRNA            complement(1..2045)
+                     /note="*end_range: 228299,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TGAMA5MH_00340"
+                     /note="*orig_protein_id: gnl|WGS:MTYH|TGAMA5MH_00340"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:MTYH|TGAMA5MH_00340.T1"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,226255"
+     exon            complement(1628..2045)
+                     /note="*end_range: 228299,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TGAMA5MH_00340"
+                     /note="*orig_protein_id: gnl|WGS:MTYH|TGAMA5MH_00340"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:MTYH|TGAMA5MH_00340.T1"
+                     /partial
+                     /product="hypothetical protein"
+     exon            complement(531..1566)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TGAMA5MH_00340"
+                     /note="*orig_protein_id: gnl|WGS:MTYH|TGAMA5MH_00340"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:MTYH|TGAMA5MH_00340.T1"
+                     /partial
+                     /product="hypothetical protein"
+     exon            complement(1..472)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TGAMA5MH_00340"
+                     /note="*orig_protein_id: gnl|WGS:MTYH|TGAMA5MH_00340"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:MTYH|TGAMA5MH_00340.T1"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,226255"
+     CDS             join(complement(1628..2045),complement(531..1566),
+                     complement(1..472))
+                     /db_xref="NCBI_GP:PNP48649.1"
+                     /note="*Name PNP48649.1"
+                     /db_xref="NCBI_GP:PNP48649.1"
+                     /note="*Name PNP48649.1"
+                     /db_xref="NCBI_GP:PNP48649.1"
+                     /note="*Name PNP48649.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="TGAMA5MH_00340"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:MTYH|TGAMA5MH_00340.T1"
+                     /product="hypothetical protein"
+                     /protein_id="PNP48649.1"
+ORIGIN
+        1 TTAATCAAAG TGAATTCTCC ACAACTCTCT CTCGGCACCT CCCTGGAAGT CACTGCGAGT
+       61 GTGCATGGCC AGGATGTTGT CGCTGACCAG CATGTCGCCC TTCTGCCAGG CGTGGTAATA
+      121 TGCGACACGT CGGTCGTGCA AAAGAAGATC TAGCTCGCGG GTGATAGCCT CAGAGACCTC
+      181 GGGTGTCTGG CCATCAATTG TGATGTTGGT GGCCTCGAAA CTGGTCTTGT TTTCGGGCCA
+      241 GGGCTCGTGA TACCTCAAGC ATGGCTTTCC AGTCACGGGG TGGTCCACGA TCAGAGGCAG
+      301 GTTGTCCAAC TTGGTCGACT CAAATGAACT GGTTCGCACA GACCACGTAA GGTTCTTCAA
+      361 GGTCTccaga gggagagaag aaggcagGTG CTTCAGAACA AACGTAgagg tggagaagag
+      421 agtgaacCCT GTGTCAGAGG GAGAAGGCGT GACAGCAGTG AACAGTTGGA ATCTAGAAAC
+      481 TCAGTTAGAC TTGCACGTTG ATGGTAATAT TAGATGATAC GATTACTTAC CGTGGTGGGT
+      541 TGGGAAGCTT GTATACGGTT CCATCCTCTC GGGTGTGGTC CAGCGTCTTG AACAGACCAT
+      601 CGAAGTGGAA GGGCATCCAC TCGGCGGACA GAACATTGTT CAGGCCGCGA GTGTCTGCGC
+      661 CGCGGTCCTT GACCTCGAGC AGAATGCCGA ACTTCCACGG AAGCGGGGTT CCAAACTCCG
+      721 AGGCCTTCTC AATGTACTTC TCGCGGTTCT TAGTGCCGGA GAAACCGCGC AGAATGACGG
+      781 GGGAGTTGAT CTCCGAAAGT GCGCGGACCT TCTTAGCATC AATGTCTTGC ATTGAGAGCT
+      841 TGTTGGGTCC CTCAGCGGGC GAAATGGTAA CACCGCAAGG ATAGTTGGGA GTGACGGTGA
+      901 TGGCGCCGGA GGCCCAAGAA TATAGGTCGC TCTTCTCGCG GAAATATGAT GGCCTGCCAT
+      961 CCTCGTAGGC GAGCTCCCAG TTGGGGTCGT CCCAGAATGT CTGAGCAAGA CCAGAGGTGA
+     1021 TGGTTCCGTC TTGTCGAACG GCCACAGCGC AGTGCCATGG AGTGGTGTAT GTAGAATCAG
+     1081 TCGGGAGAGT GCTGACGGAA ACCTTGTTGT GTCCAGTGGA GGGGTGAATA GACAAACGAA
+     1141 CGTGGTTTGA GAACTTGTCA CGAACTGCGC GGGCAAATGC CTGACCGCGG ATAAGCATTT
+     1201 GCTTAGCAAT GCTCTCAATG CCCTTCTTGT ACTTCGACTT GGTGAAGGTG TCTGAAATGG
+     1261 GATATGTATC AGCAAGATCG GTCTGAAGGA ATCTAAGGTA GCCTCGATAT GTCAAGCAAA
+     1321 TATCCTCGTC AGATGTGATC TTCTCGTTGA CATCCCAGTC CTTGCTTCTG AAGTTGTTGA
+     1381 TGAGCGCAAT GCGGAAGttg gtggcattgg caacATATGA AACCTCGTCC AAAACTGCAG
+     1441 GTACCTCCGT AGGCACAAGG TCTGAGAGTC GTGAAAAGCG GATGTGGGTA AAGCcctttg
+     1501 tcttggccaa gTTTCGGAGA GTCTCTCCGT ATCTCCAGAC GTCCAAGTCT GAGACACTCA
+     1561 AGAGGTCTAA GTGTCACATA ATGTTAGCca cagctgcttc ttgtttgctC GCAAAGCAGG
+     1621 TACTAACCAT TGTATACGAT ACCATCAGAA ATGATGGTCA GCTCCGCTCC AGGGCTGTAT
+     1681 ACATCCTTGA TAGCCGCGCA AAGGCCGTTC AGATGGGCCA GAGCAAACTC CTCAGCCTTG
+     1741 TCTGGGACGC GTCCAaggac cttgaccttg gtGTTGGGAG ACTTGAAGGG GAAGGCGGGA
+     1801 AGGCACATCT TGATAGGTTG GTTGGCCTTC ACATGGCTGT ATGCCTGCGC CAAACCAGCG
+     1861 AGCAGACCAA TATCCGACTC AATACCCTCG CTGCCGGCAC GCTTGTTCTG ATACCTGTAG
+     1921 ATAACCTCAA TGATCTTTGC GGCCATGTCA ATGTGAGAGT GATCGAGAAT GCGGCCTGAT
+     1981 AAAGGCAGGA CGACGTGGTC TGGAGTGCCT CGGAGGGCAG ACTCCATCGG TACCGGGTCC
+     2041 ATCAT
+//

@@ -1,0 +1,714 @@
+LOCUS       414mF-Z5               15192 bp    DNA     linear   UNC 16-DEC-2021
+DEFINITION  GCA_000002655.1 results based on the annotation PF05141 and  inputs.
+ACCESSION   GCA_000002655.1
+VERSION     1
+KEYWORDS    .
+SOURCE      ICSCreator.py written by Grant Nickles (gnickles@wisc.edu)
+ORGANISM    GCA_000002655.1
+FEATURES             Location/Qualifiers
+     gene            1..1475
+                     /note="*Name AFUA_5G02610"
+                     /note="*end_range: 687128,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="AFUA_5G02610"
+                     /old_locus_tag="Afu5g02610"
+                     /partial
+                     /note="*start_range: .,685654"
+     mRNA            1..1475
+                     /note="*Note transcript AFUA_5G02610A"
+                     /note="*end_range: 687128,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02610"
+                     /partial
+                     /product="cytochrome P450, putative"
+                     /note="*start_range: .,685654"
+     exon            1..118
+                     /note="*Note transcript AFUA_5G02610A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02610"
+                     /partial
+                     /product="cytochrome P450, putative"
+                     /note="*start_range: .,685654"
+     exon            193..1475
+                     /note="*Note transcript AFUA_5G02610A"
+                     /note="*end_range: 687128,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02610"
+                     /partial
+                     /product="cytochrome P450, putative"
+     CDS             join(1..118,193..1475)
+                     /db_xref="NCBI_GP:EAL86043.1"
+                     /note="*Name EAL86043.1"
+                     /note="*Note encoded by transcript AFUA_5G02610A"
+                     /db_xref="GO:0008152"
+                     /db_xref="GO:0016491"
+                     /db_xref="NCBI_GP:EAL86043.1"
+                     /note="*Name EAL86043.1"
+                     /note="*Note encoded by transcript AFUA_5G02610A"
+                     /db_xref="GO:0008152"
+                     /db_xref="GO:0016491"
+                     /note="*gbkey: CDS"
+                     /note="*go_function: oxidoreductase activity|0016491||"
+                     /note="*go_process: metabolic process|0008152||"
+                     /locus_tag="AFUA_5G02610"
+                     /product="cytochrome P450, putative"
+                     /protein_id="EAL86043.1"
+     gene            complement(1677..3360)
+                     /note="*Name AFUA_5G02620"
+                     /note="*end_range: 689013,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="AFUA_5G02620"
+                     /old_locus_tag="Afu5g02620"
+                     /partial
+                     /note="*start_range: .,687330"
+     mRNA            complement(1677..3360)
+                     /note="*Note transcript AFUA_5G02620A"
+                     /note="*end_range: 689013,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02620"
+                     /partial
+                     /product="P450 family sporulation-specific
+                     N-formyltyrosine oxidase Dit2, putative"
+                     /note="*start_range: .,687330"
+     exon            complement(2269..3360)
+                     /note="*Note transcript AFUA_5G02620A"
+                     /note="*end_range: 689013,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02620"
+                     /partial
+                     /product="P450 family sporulation-specific
+                     N-formyltyrosine oxidase Dit2, putative"
+     exon            complement(1677..2201)
+                     /note="*Note transcript AFUA_5G02620A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02620"
+                     /partial
+                     /product="P450 family sporulation-specific
+                     N-formyltyrosine oxidase Dit2, putative"
+                     /note="*start_range: .,687330"
+     CDS             join(complement(2269..3360),complement(1677..2201))
+                     /db_xref="NCBI_GP:EAL86042.1"
+                     /note="*Name EAL86042.1"
+                     /note="*Note encoded by transcript AFUA_5G02620A~similar
+                     to N-formyltyrosine oxidase"
+                     /note="*Note sporulation-specific microsomal enzyme
+                     required for spore wall maturation"
+                     /note="*Note involved in the production of a soluble
+                     LL-dityrosine-containing precursor of the spore wall"
+                     /note="*Note homologous to cytochrome P-450s; Dit2p
+                     (GI:6320610) [Saccharomyces cerevisiae]"
+                     /db_xref="GO:0003824"
+                     /db_xref="GO:0016491"
+                     /db_xref="GO:0007152"
+                     /db_xref="GO:0008152"
+                     /db_xref="GO:0008372"
+                     /db_xref="NCBI_GP:EAL86042.1"
+                     /note="*Name EAL86042.1"
+                     /note="*Note encoded by transcript AFUA_5G02620A~similar
+                     to N-formyltyrosine oxidase"
+                     /note="*Note sporulation-specific microsomal enzyme
+                     required for spore wall maturation"
+                     /note="*Note involved in the production of a soluble
+                     LL-dityrosine-containing precursor of the spore wall"
+                     /note="*Note homologous to cytochrome P-450s; Dit2p
+                     (GI:6320610) [Saccharomyces cerevisiae]"
+                     /db_xref="GO:0003824"
+                     /db_xref="GO:0016491"
+                     /db_xref="GO:0007152"
+                     /db_xref="GO:0008152"
+                     /db_xref="GO:0008372"
+                     /note="*gbkey: CDS"
+                     /note="*go_component: cellular component
+                     unknown|0008372||"
+                     /note="*go_function: catalytic
+                     activity|0003824||,oxidoreductase activity|0016491||"
+                     /note="*go_process: spore wall assembly (sensu
+                     Saccharomyces)|0007152||,metabolic process|0008152||"
+                     /locus_tag="AFUA_5G02620"
+                     /product="P450 family sporulation-specific
+                     N-formyltyrosine oxidase Dit2, putative"
+                     /protein_id="EAL86042.1"
+     gene            3586..4325
+                     /note="*Name AFUA_5G02630"
+                     /note="*end_range: 689978,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="AFUA_5G02630"
+                     /old_locus_tag="Afu5g02630"
+                     /partial
+                     /note="*start_range: .,689239"
+     mRNA            3586..4325
+                     /note="*Note transcript AFUA_5G02630A"
+                     /note="*end_range: 689978,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02630"
+                     /partial
+                     /product="conserved hypothetical protein"
+                     /note="*start_range: .,689239"
+     exon            3586..3658
+                     /note="*Note transcript AFUA_5G02630A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02630"
+                     /partial
+                     /product="conserved hypothetical protein"
+                     /note="*start_range: .,689239"
+     exon            3718..4325
+                     /note="*Note transcript AFUA_5G02630A"
+                     /note="*end_range: 689978,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02630"
+                     /partial
+                     /product="conserved hypothetical protein"
+     CDS             join(3586..3658,3718..4325)
+                     /db_xref="NCBI_GP:EAL86041.1"
+                     /note="*Name EAL86041.1"
+                     /note="*Note encoded by transcript AFUA_5G02630A"
+                     /db_xref="NCBI_GP:EAL86041.1"
+                     /note="*Name EAL86041.1"
+                     /note="*Note encoded by transcript AFUA_5G02630A"
+                     /note="*gbkey: CDS"
+                     /locus_tag="AFUA_5G02630"
+                     /product="conserved hypothetical protein"
+                     /protein_id="EAL86041.1"
+     gene            4892..6380
+                     /note="*Name AFUA_5G02640"
+                     /note="*end_range: 692033,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="AFUA_5G02640"
+                     /old_locus_tag="Afu5g02640"
+                     /partial
+                     /note="*start_range: .,690545"
+     mRNA            4892..6380
+                     /note="*Note transcript AFUA_5G02640A"
+                     /note="*end_range: 692033,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02640"
+                     /partial
+                     /product="O-methyltransferase, putative"
+                     /note="*start_range: .,690545"
+     exon            4892..5279
+                     /note="*Note transcript AFUA_5G02640A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02640"
+                     /partial
+                     /product="O-methyltransferase, putative"
+                     /note="*start_range: .,690545"
+     exon            5331..5454
+                     /note="*Note transcript AFUA_5G02640A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02640"
+                     /partial
+                     /product="O-methyltransferase, putative"
+     exon            5503..5612
+                     /note="*Note transcript AFUA_5G02640A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02640"
+                     /partial
+                     /product="O-methyltransferase, putative"
+     exon            5661..6042
+                     /note="*Note transcript AFUA_5G02640A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02640"
+                     /partial
+                     /product="O-methyltransferase, putative"
+     exon            6089..6380
+                     /note="*Note transcript AFUA_5G02640A"
+                     /note="*end_range: 692033,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02640"
+                     /partial
+                     /product="O-methyltransferase, putative"
+     CDS             join(4892..5279,5331..5454,5503..5612,5661..6042,
+                     6089..6380)
+                     /db_xref="NCBI_GP:EAL86040.1"
+                     /note="*Name EAL86040.1"
+                     /note="*Note encoded by transcript AFUA_5G02640A~similar
+                     to SP:P55790: Sterigmatocystin 7-O-methyltransferase
+                     [Aspergillus flavus]"
+                     /db_xref="GO:0008171"
+                     /db_xref="NCBI_GP:EAL86040.1"
+                     /note="*Name EAL86040.1"
+                     /note="*Note encoded by transcript AFUA_5G02640A~similar
+                     to SP:P55790: Sterigmatocystin 7-O-methyltransferase
+                     [Aspergillus flavus]"
+                     /db_xref="GO:0008171"
+                     /db_xref="NCBI_GP:EAL86040.1"
+                     /note="*Name EAL86040.1"
+                     /note="*Note encoded by transcript AFUA_5G02640A~similar
+                     to SP:P55790: Sterigmatocystin 7-O-methyltransferase
+                     [Aspergillus flavus]"
+                     /db_xref="GO:0008171"
+                     /db_xref="NCBI_GP:EAL86040.1"
+                     /note="*Name EAL86040.1"
+                     /note="*Note encoded by transcript AFUA_5G02640A~similar
+                     to SP:P55790: Sterigmatocystin 7-O-methyltransferase
+                     [Aspergillus flavus]"
+                     /db_xref="GO:0008171"
+                     /db_xref="NCBI_GP:EAL86040.1"
+                     /note="*Name EAL86040.1"
+                     /note="*Note encoded by transcript AFUA_5G02640A~similar
+                     to SP:P55790: Sterigmatocystin 7-O-methyltransferase
+                     [Aspergillus flavus]"
+                     /db_xref="GO:0008171"
+                     /note="*gbkey: CDS"
+                     /note="*go_function: O-methyltransferase
+                     activity|0008171||"
+                     /locus_tag="AFUA_5G02640"
+                     /product="O-methyltransferase, putative"
+                     /protein_id="EAL86040.1"
+     gene            complement(6644..7297)
+                     /note="*Name AFUA_5G02650"
+                     /note="*end_range: 692950,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="AFUA_5G02650"
+                     /partial
+                     /note="*start_range: .,692297"
+     mRNA            complement(6644..7297)
+                     /note="*Note transcript AFUA_5G02650A"
+                     /note="*end_range: 692950,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02650"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,692297"
+     exon            complement(7211..7297)
+                     /note="*Note transcript AFUA_5G02650A"
+                     /note="*end_range: 692950,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02650"
+                     /partial
+                     /product="hypothetical protein"
+     exon            complement(6929..7143)
+                     /note="*Note transcript AFUA_5G02650A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02650"
+                     /partial
+                     /product="hypothetical protein"
+     exon            complement(6644..6812)
+                     /note="*Note transcript AFUA_5G02650A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02650"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,692297"
+     CDS             join(complement(7211..7297),complement(6929..7143),
+                     complement(6644..6812))
+                     /db_xref="NCBI_GP:EBA27256.1"
+                     /note="*Name EBA27256.1"
+                     /note="*Note encoded by transcript AFUA_5G02650A"
+                     /db_xref="NCBI_GP:EBA27256.1"
+                     /note="*Name EBA27256.1"
+                     /note="*Note encoded by transcript AFUA_5G02650A"
+                     /db_xref="NCBI_GP:EBA27256.1"
+                     /note="*Name EBA27256.1"
+                     /note="*Note encoded by transcript AFUA_5G02650A"
+                     /note="*gbkey: CDS"
+                     /locus_tag="AFUA_5G02650"
+                     /product="hypothetical protein"
+                     /protein_id="EBA27256.1"
+     gene            9457..10534
+                     /note="*Name AFUA_5G02655"
+                     /note="*end_range: 696187,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="AFUA_5G02655"
+                     /partial
+                     /note="*start_range: .,695110"
+     mRNA            9457..10534
+                     /note="*Note transcript AFUA_5G02655A"
+                     /note="*end_range: 696187,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02655"
+                     /partial
+                     /product="conserved hypothetical protein"
+                     /note="*start_range: .,695110"
+     exon            9457..9568
+                     /note="*Note transcript AFUA_5G02655A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02655"
+                     /partial
+                     /product="conserved hypothetical protein"
+                     /note="*start_range: .,695110"
+     exon            9632..10147
+                     /note="*Note transcript AFUA_5G02655A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02655"
+                     /partial
+                     /product="conserved hypothetical protein"
+     exon            10206..10534
+                     /note="*Note transcript AFUA_5G02655A"
+                     /note="*end_range: 696187,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02655"
+                     /partial
+                     /product="conserved hypothetical protein"
+     CDS             join(9457..9568,9632..10147,10206..10534)
+                     /db_xref="NCBI_GP:EBA27255.1"
+                     /note="*Name EBA27255.1"
+                     /note="*Note encoded by transcript AFUA_5G02655A"
+                     /db_xref="NCBI_GP:EBA27255.1"
+                     /note="*Name EBA27255.1"
+                     /note="*Note encoded by transcript AFUA_5G02655A"
+                     /db_xref="NCBI_GP:EBA27255.1"
+                     /note="*Name EBA27255.1"
+                     /note="*Note encoded by transcript AFUA_5G02655A"
+                     /note="*gbkey: CDS"
+                     /locus_tag="AFUA_5G02655"
+                     /product="conserved hypothetical protein"
+                     /protein_id="EBA27255.1"
+     gene            complement(11061..13396)
+                     /note="*Name AFUA_5G02660"
+                     /note="*end_range: 699049,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="AFUA_5G02660"
+                     /old_locus_tag="Afu5g02660"
+                     /partial
+                     /note="*start_range: .,69671"
+                     /note="*backbone: True"
+     mRNA            complement(11061..13396)
+                     /note="*Note transcript AFUA_5G02660A"
+                     /note="*end_range: 699049,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02660"
+                     /partial
+                     /product="pyoverdine/dityrosine biosynthesis protein,
+                     putative"
+                     /note="*start_range: .,696714"
+     exon            complement(12634..13396)
+                     /note="*Note transcript AFUA_5G02660A"
+                     /note="*end_range: 699049,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02660"
+                     /partial
+                     /product="pyoverdine/dityrosine biosynthesis protein,
+                     putative"
+     exon            complement(11061..12583)
+                     /note="*Note transcript AFUA_5G02660A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02660"
+                     /partial
+                     /product="pyoverdine/dityrosine biosynthesis protein,
+                     putative"
+                     /note="*start_range: .,696714"
+     CDS             join(complement(12634..13396),complement(11061..12583))
+                     /db_xref="NCBI_GP:EAL86038.2"
+                     /note="*Name EAL86038.2"
+                     /note="*Note encoded by transcript AFUA_5G02660A~similar
+                     to pyoverdine biosynthesis protein PvcA (GI:39574163)
+                     [Bdellovibrio bacteriovorus HD100] PMID: 14752164"
+                     /db_xref="GO:0003824"
+                     /db_xref="GO:0007152"
+                     /db_xref="GO:0008372"
+                     /db_xref="NCBI_GP:EAL86038.2"
+                     /note="*Name EAL86038.2"
+                     /note="*Note encoded by transcript AFUA_5G02660A~similar
+                     to pyoverdine biosynthesis protein PvcA (GI:39574163)
+                     [Bdellovibrio bacteriovorus HD100] PMID: 14752164"
+                     /db_xref="GO:0003824"
+                     /db_xref="GO:0007152"
+                     /db_xref="GO:0008372"
+                     /note="*gbkey: CDS"
+                     /note="*go_component: cellular component
+                     unknown|0008372||"
+                     /note="*go_function: catalytic activity|0003824||"
+                     /note="*go_process: spore wall assembly (sensu
+                     Saccharomyces)|0007152||"
+                     /locus_tag="AFUA_5G02660"
+                     /product="pyoverdine/dityrosine biosynthesis protein,
+                     putative"
+                     /protein_id="EAL86038.2"
+     gene            complement(14482..15192)
+                     /note="*Name AFUA_5G02670"
+                     /note="*end_range: 700845,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="AFUA_5G02670"
+                     /old_locus_tag="Afu5g02670"
+                     /partial
+                     /note="*start_range: .,700135"
+     mRNA            complement(14482..15192)
+                     /note="*Note transcript AFUA_5G02670A"
+                     /note="*end_range: 700845,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02670"
+                     /partial
+                     /product="ThiJ/PfpI family protein"
+                     /note="*start_range: .,700135"
+     exon            complement(14482..15192)
+                     /note="*Note transcript AFUA_5G02670A"
+                     /note="*end_range: 700845,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="AFUA_5G02670"
+                     /partial
+                     /product="ThiJ/PfpI family protein"
+                     /note="*start_range: .,700135"
+     CDS             complement(14482..15192)
+                     /db_xref="NCBI_GP:EAL86037.1"
+                     /note="*Name EAL86037.1"
+                     /note="*Note encoded by transcript AFUA_5G02670A~contains
+                     a ThiJ/PfpI domain"
+                     /note="*gbkey: CDS"
+                     /locus_tag="AFUA_5G02670"
+                     /product="ThiJ/PfpI family protein"
+                     /protein_id="EAL86037.1"
+ORIGIN
+        1 ATGCCGACTC CCATTCCTCT CCCGTCAGGT CTTCCGATCC TGGGAAATTT GCTTTCTATT
+       61 AGCCCAGGCA ATACTTGGGG TTCTTTCAAT AAACTAGCGG TGAATAATAA GAATTTCTGT
+      121 GTGTTTCTCG TGCATTTACG GATACCAGTT GCAGGAATCA CCACAAAGCC TACTGACACT
+      181 ATTCTTTAAC AGACCCAATT TTCAAAATCA CGATCCTTGG ACACGACATT GTCTTCATCA
+      241 CCAGCGCAAA ACTGCTCGAG GAGATTTGCG ATGAGAAACG GTTCCGCAAA TGTGTGACCG
+      301 GCCCCATTGT CGAAATCCGT GAGGCGGTCC ACGACAGTCT GTTTACTGCG TACCACGATG
+      361 AGGAAAGCTG GGGTATTGCC CACCGTATCA TGGCCCCTTT GATGACTCCA GAGGCTGTGA
+      421 TCGACGCTTT TGCTGGAATG CGCGAGACCG CCACAGATCT GGTTAAGAAA TGGACTGCGG
+      481 GCCCCCGGCA GCGAATTAAC GTCAGCAATG ACATGGACCG TCTGAACCAT GCCGCCAACA
+      541 TGCTCTGCTT CTTTGACCAG CGGATCCACT GCCTCGAGGG ACCAGAGCCT TCGGTCCTCC
+      601 AGGCCATGGA GGCTGCCACG TTCGAAGCCC TGCGTCGCCC CACCCGCCCC AAGGTGTTGA
+      661 AATGGCTCAT CTACCAGCGT CGCTTCGACA GATACATCAA GACGATGCGC GACTATGCCG
+      721 CCGAGATTGT CGCTAAGCGT CGCGCTGCTC CGACCGAGAA GAAGGACATG CTTCATGCTA
+      781 TTATGCACGG CACGGACCCC CAGACCGGCA AAGCCCTCAC GGAGAGCCAG TACCTGGACG
+      841 AGATCATCAA CCTCTTCATT GGAAGCGCCA CGGCTGCCAA TCTCGTCTCC TTTGCGTTGT
+      901 ACTATCTCAT GAAGAACCCG CACGAAATCG CCCGCGCTCG CGAGGAGATC GATGCCGTGG
+      961 TTGGCGGGCC GGCCGCCCAG CTCGAGCATG AGCATCTCGC CCGCCTGCCT TACTGCGAAG
+     1021 CCATCCTGCG TGAGTCGCTG CGTCTGTCGG CTACCGCGCC AGGCTTCAAC ATCGAGCCCA
+     1081 TTCCAGATCT GGAGCAGCCC GTCCTCCTCG CAGGTGGCGA GTACCAGGTC CCCAATAAGC
+     1141 AGCCGCTCAT TGCACTGCTG GCGGCCGTCA ACCGCGACCC GGAGGTCTTT GAGGACCCCG
+     1201 ATGCGTTCAA GCCCGAGCGT ATGGTCGGCG AGAAGTACGA CAGGCTTCCA TCCGGCGTGA
+     1261 AGAAGGGTTT CGGCAACGGC AAGCGTGAGT GCTTCGGAAA GCGCTACGCC TGGGAATGGT
+     1321 CGTTTATGAT TTTGGTCACA ATCATGAAGG ACGTAGACTT TGTGCTCGCC GATAAAAATT
+     1381 ACAAGACGGA AGTTGGAGGA GTCAATTACA ACGGAGCGTT CAGCACCAAG CCGTTGGGGT
+     1441 TGTTTGCGTT GACGGGACCT CGACAGAGTG TGTGATGGGA GGGGCAAATT GATGCGCTAC
+     1501 GATACCACGG TTTCAGCTAA CAGTATGCGG TTGTTTGTAT GTCGTCAAAT CTTATACCTA
+     1561 GTCTATGCTT TCACCTGAAT TCTTGTGTCT ATCAGCTCCT CTGCTCAGCC TTGTCAGCTC
+     1621 TCCTTGACCT CGCTCAGGAT CACGCGGCAT CCCAAAGGCG CCAGAATCCC GCCCTGTCAT
+     1681 GCATCAGTAC TCTTCCTCCC GGATTCCAGA AAATAACTTA CTGGCGTCAT CTTCAACCGA
+     1741 TAGCCCGGGT CCACCGTCCA TTCGATCCGT CTCAGTACCT CAAACAGCAG AATCTTCATT
+     1801 TGCAGCAACA CAAACCCCTG CCCGAGACAC TTCCTCGAAT GCGCATTGAA AGGGATATAC
+     1861 GTGCCGCGCA CCGTCTCCCG GCGAAACCGC GCATGCATCT CACCCACCGT CCGGCCCCAT
+     1921 CGCTCCGGCT TGAATTCGTT TGCGTCGGGA CCCCAGATCG CCGGGTTGAC GTGCACTCCG
+     1981 TATGCATTCC AGCCGACAAA CGTGCCTGCA GGAATGGGGA TCTCGTTACC GAGCATGGCG
+     2041 GGGCGGACCG TGACGCGGTT GATGAGCTGC GAGACGGGAG GGTAGAGACG CAGAAGCTCG
+     2101 TAGACGACGG CTGTGAGATA GGGGAGGGCG TTGACAACTT CGGAGGTTGG CGTTGTGGTG
+     2161 TTTGTCGAGA GGATTTCGGC GCGGAGGCGT GTTTGGACTT CCTTCAATCA TGTCACCAGG
+     2221 TCAGATCGCG TTGGCTAGGA AGATGCTTAA GAAGGGAAAA GGGCATACGT TATTCTTGCC
+     2281 AATCTCCCAA AACATCGAGT TAACCAGCTG CTGGGCGTTC TCGTGCGCCG TCAGAAACAC
+     2341 AATCTTGAGA TTATCCTTGA ACTGCTTCTC GGTCAGTCTG CCGTCGCGGT AGGCATCGAC
+     2401 CAGCATATGC ACGACCATCT CCTCGGCGGG CTTGATGCCT TTCTCGCGGT CGCTGTCGAT
+     2461 GCGACCCAGC ACTGTCGCCA TGAGTGTATC CCCGAACTCG TGCATGATCT CGTACGCACG
+     2521 CTGCCGCGAC TTGATCAGCC ACGCGAATTG GTCTAGATCG GGAAAATTGA AGAACAGCGG
+     2581 CCGGAACAGC ATCAGCTTGA TCACAGACTG GATGGCTTCG AGGCGCACCG TGCCGTGCGG
+     2641 CTTCTCCAGG CTCTGCAGGT CCAGATCCAG AAAGCTCATC CCCATGACAT CCACCGCCCA
+     2701 CTGCTGGACA AACGTGTTCA CCAGGATGCC CGTGCCGCGA CCGGCAGAGT TCTGCTCCGC
+     2761 CAGAATCTCA TCCACGAACC GCCGCGACTT GAGCAGCAGC GGCGCGGTAT CAAAGTTCTT
+     2821 CTTCTGCAGC CCGGGCTTCA TGATCCCCGT GTACAGCTTC CAGGTGTCGC CGTGCGAATT
+     2881 GATGATGTTG TCGCCGACCA GTGTTGCGAT CACCGACCAG GGGATCTTCT TCTGGCTGCC
+     2941 TGCTTTTGCG TAGAGGTCCT CGTTCCGAAA CATGTCTGTT AGCAGGTCTG GGCGCGTGAC
+     3001 GAGAATGCTC CATCGGCCGG CGAACCAGAT TAGGACGGCC CCGTGGGCTT CAAGGGGTTT
+     3061 GCGCAGCCAG CGCTCGTAGA TCTCGTCTTG GCCCATCGAG CTCCAGAGAC CGAGGATGGA
+     3121 AACGTAGAAG GGGATTCGCG GGAGTGAGGG CAGGTCCCAC GGGACGTGGA GGTACCATGC
+     3181 CAGATAGCAG ATGATGGCGA GGGGGATTGA GGCGAGGTAA TAGAGAATCA TCTTTGCTTT
+     3241 GGCTGTCTTT TCGACTTTTT TTGCTTGAAA GAACTCGAGT GGATGGATCG ATAGTGGTGG
+     3301 TCCTCGCGGT CTCTTGTATG TACGATTTTG GCAACGAGGC ATCACTCGCA TCCAAGTCAT
+     3361 GACCTAAGAC TTGACGTGGC TGATCGTACT CAGTGATGGG TGCAGTAGCG TATGCATCCC
+     3421 AAGTCAGCAA ATCCGAGCTG ATGTCATCTC AACGACTATC CAAGTCATCG CGAAGTGTAG
+     3481 CAAATGTCAT ATATATCCAT ATTGACCTCG AAAACAGACG GACTGACAAA TAGCAAGCAC
+     3541 TAAGGACATC ATCTTTGCCC CGTAACCAAA TCGACGTCTA GCAACATGGC AACCGAAGCT
+     3601 CTACACATGC ACAAAGACCG TCTCTCAGCT GAGGACCTCG ATCTCAAAGA TCCCCACGGT
+     3661 AGTTCTAGCC TCCATCCTCT CTCTCTAGCA AACAAGCTCC TAAGTGAAAT GAAACAGTCT
+     3721 CCTCCAGCCT CGCCCTCTTC GCCATCCACA ACCTCATCCG CCGCAACCTC AAGGCCTGCG
+     3781 CAGAACACGC AATCACAGTG CAACCAGCGA ACATCGACGC CTTCGTCACC TACGCAAAGT
+     3841 ACACCCTCCA CGTCCTCCGC GACCAACTCA CCTCCGTCGA CGAGATCTGG TTCCCCGTCT
+     3901 TCGCGGAGCA CGATCCCCGC TTCCTAGCAC AAAAGGACGC ACACGATGCC CTGTACCAGA
+     3961 GAATCACCGC GGTGGACGCG CAGCTAGCCA CTCCCCCAGC GGAGCTAGGC CAGAATGAGC
+     4021 TCCTCTCTGC GGAGATAGCA GCAGCCTTTG CTGAGCTGCA CGAGCTAACT GACAAGCAGT
+     4081 ACGATCTCGA AGAGGACCTC ATCAACCAGC TAGGCCGCAA GGTGCCTATG GACACTATAC
+     4141 GCGGCCTGGA GAAGAAACAG GAGGAGAGAA GGAGAGCTGA TGTCAAGGTG TATGGGCATT
+     4201 TGTGGACGGC TGTGTATCTT CTGCGGGGCC TTGACCCGAA GGAGAGGGCG ATTTTCCCGC
+     4261 CGGGGATTCC GAAGTTGATT GCCGGGGGGA TGTTGACGGC GGGGGCAATG CAGTTTCGGA
+     4321 GGTGAGTTAC TGTCTTTACA TGGGTGCTTG AAGGGTGTGG CTGACTGGTT GGAAAGAGAG
+     4381 CTGCAGTTTA CGCCGAGATT TTGATAAAGG TTGAGGTGGT TGGGTGGTGG GAACGAGGTT
+     4441 GGATTGGATT CCACAGGGGA TTGTTACTGT TGTTGTTCAG GTGTGGTCTG CATATCAGAA
+     4501 TTGTAGATAT GTCATTTGTC AACGAATTGA CTAAGTTAAT TATATTGTTC ACTGTGTCAG
+     4561 CAGAGTACGA GTTACGACCA ATGCTGACTG TAGCTGGCCC GGTGTGTCAG CACAGTGTGT
+     4621 ACAGACGCCA TCTTGTATGC GGATGCACGA TTTATCCTCA GCAATCCATG TCAGCCGTAG
+     4681 GTCTAATCGC AATGCAGCTG ACAATGAAGA AATTGTCCCA ATAAGCAGGA GTGACGGTGA
+     4741 CGGCTTTGAC TCTACTTGCA GATCCTCTGT GGATAGCCAA TATCCCTCCA GAGGGTATAA
+     4801 GAAAGTTAAC AAGGTTTCTT ACTCGGGAGC CAAAGACATC ATCAATAATC GTAACAGAAA
+     4861 GATAGCCCAT CGTACGACGT GAACCAACGC CATGTCCACA CAGCACGGCC CCAAGTCCAC
+     4921 CCGTACAAAC GACCTGTACG AGCTCGCCGT CAACATCTCC AGCACGGTAG AGGCCTTTGT
+     4981 CGGAAGGCTG GACGCAATCG GCGCCGAACG ACCCAACCTA GACAATCCCT TTCCAGAGAT
+     5041 CATCCAAGAT GAAGGCGCGC AGCTGGCCCG GCTAAAGATT CTGCGTCTCT GCGAACGGCT
+     5101 GATGGCTCTG GTCCAGGGTC CGGTCCAATG GCTCATGTTC CAGAATATGG CGTTCCTCGA
+     5161 TGCCGCCTGC GTCGGGGCGA TTCTGGACAT GGGGATCCAC GACATCATTG CGCCTGGACC
+     5221 CGAACCAACG TCGCTGGATC AGATTGTAGA GGCGACGGGG GCCTCGAAGG ATATTCTAAG
+     5281 TACGCGACGC CGGCTATCTA GTATGCAAAG ATCGAGCTGA CAACACTCAG AGCGAATCAT
+     5341 GCGTGTTTGC ACGCAGAGAT TGGTTTTCGA TGAGATTGCA CCAGAGCAGT TTATTCATAA
+     5401 CGGAGTGTCG TTGCAGTTCC TTGCGCCTCC GGTGCAAGCG CTCATCAGTC ATGCGTGAGT
+     5461 AGCGTGGTCT TGTAAGGTGG ACGATTGAGC TGATACCGCT AGATGTGACG ATGGACTGCG
+     5521 CATGGCAGCG CATTTCACTG ATTCTCTCAA GAAGACAGAT TGGAAGGGAA GCGATGATCC
+     5581 AGAAAATACG GCTTTTAGCC TGGCTTTCAA CAGTGAGTAT CCCCCCAACT CGTCATACAA
+     5641 TTCGTGCTAA ATCCTCGCAG CAAACAAGGG TCTTTTCGAC TACTTCTACA CCGAGGATCT
+     5701 CGCCCGTGGT CAGCGTTTCG CCCTCGGTAT GGCAGGCAGT GAGATCATGA AGACCCTCAC
+     5761 GGAGGACATG TTCCCCTTCG AGTCTCTGCC GCAGGGCGCA AAAGTGGTGG ACGTCGGAGG
+     5821 CGGCCGGGGC CATGTCAGCG TACGCATCGC AGAGAAGGTT CCTGGTCTGA ACTTCGTCGT
+     5881 CCAAGACGAT GAGTCCATGC TAGAGGCTGG TCAGGCAGAA GGTGTCCCCA AAGCAGTCAA
+     5941 AGATCGGATC GAGTTCATGC CGCATGATTT CTTCAATGAG CAGCCCGTCA AGGGGGCAGA
+     6001 TGTGTATCTC TTGCGGTTCA TCCTGCATGA TCATTCGGAC AGGTTAGTTT TGCCAACAGG
+     6061 AAGGAAGAAG TATGGCTAAT AGTCCCAGTC GCTGTGCGAA GATTCTGTCG AACATCGTCG
+     6121 ATGCAATGGA GCCGGGAAAG TCGCGGATTC TCATCGACGA TGCGATTGTT CCCAGCTTCT
+     6181 TGGGTCCGGA GAGTTCTCGG TTCTTTAACT TGCTGGATCT CTACATGCTG GCTGGTTTGA
+     6241 ATGGAAAGGA GAGGACTTTG GAGCAGTGGA ACTACTTGAT CCAGATGGTT AGTCCCAAGT
+     6301 TGGTGCTGGA GAAGGTTTGG AAAACGCCAA ACGGCGGGCC TGAATCGGGG ACTATCCTGG
+     6361 AACTGCGACT GCAGGAATGA TTCGCCGATA TGTGTTGATT GGGGCCAAAG ATAGATTCAC
+     6421 TACTCAATTC TACAATGGAT TGTTGCAGAA GAATTTGGGT TGTCCTTCCG CAGATCTAAC
+     6481 CGCAGTTGCT GAGACCATTC GATAAAGAAA GAGTTGCGAT TGTTGCATTC ATGCTTTAGT
+     6541 CAAAGTATAT ATACAAGGGT AGTTAAGTGA TTTGTGACAC CTCGATCATG ACCAAAGACC
+     6601 ATCCGATGAA CACACAGATC ACCAGTCTAC GGAAGTGATG GGCTTACAAC CCATTCAGAA
+     6661 GGCTCGACGA CAATGTAAAC CCATACCAAA CGGTTGCAAC AAGAGCAATC GCATTCAGAT
+     6721 GGATCGACAT AGCGTGATTG CGGGAAAATG TTTTGTTGGC CTGTTGGATC TTCGCTGGAT
+     6781 CCGTCGTGCT AGAGTTATCT TCATTCATGG CACTTTCTAT TTGCAGAGTC AGCTGCCATC
+     6841 GGGTGAGATA TGGCTAAGAA CACGAAGCCT ACCGTGAAGC GCTCTCCTAA TAAAAGCAGT
+     6901 CTTCGTAGTC CGGGGACCAA AAACGAACCA ATTCAGGGCC CCGGTGACAC CCACCGCGAT
+     6961 TAAAGGAACA GAGTCCCATA TATGTTGCGA GAACGAGAGT ATGCTGTAAG GCGGCCGAGT
+     7021 GACCGCAGTC AAAACGACCA ATCCCACTTG ACAGCGAAAG TACGCTGGGA AGACGCGTTT
+     7081 CTGGAGAGCG AGAAACTCTT TCATAGGAAG GGCTTGGTAG CAGATTTTAG TGTTGACAAA
+     7141 GCTCTAAGCG AACAACGTGT CACTTCGAAT TCATAATCAG GAGGGACACG AGGGAGTTCT
+     7201 GCGCTCTCAC CTGAAAGAGT TCTGTCCCCA GAAGAGCTCC ATATGAAAGG AGATGATACG
+     7261 GAAGCAGATT ACTGACAGTC TCAAGGATCG CCTGCATGTC TTCTCGTAGT GCCAGAGATC
+     7321 TTGCTTATAA TGTGACTGCT TGGAGCCTGG GAATAGTGTC GATTGATTCA GAGGGAAACA
+     7381 GTCACTCTTC AACGGTTAAC AAAGCAGACA GAGATGGCGA GACTGGAGCC TGTACAGTAA
+     7441 GAAAGTCAGC CCAGAGATAA GTGATTTGGC AGCCACAGAC AAATATGGCT GCCTTAAGGC
+     7501 AGGGGCCCTG TAAGAACCTT TTCTTTGTCC TGTCACAACT CCTCTTTCTG CACCCTTCTC
+     7561 AGCATCAACC AGAACTAATC CTACCATCCA TACATACTAT TACTGCCCTT GAATTCATCT
+     7621 CATACACATC ACTCAGCATC TACAATTCGC TTACGACCTG TTACTGATGA CCAAAGGATC
+     7681 GCAGGATACG AGAAGTAGGG TGAGATACAA TTCCAAGACA GGCTCTTTTC TCCTTCAGCT
+     7741 CTTGGCTGCT AGAGACATAC TCGTGTCAGC TTCTCATCAT CAGCTGGTAA CACGAGTGCC
+     7801 CCTCACATGT GCCCCTCACG CAGATTCGTG TTCCACTGCC AAGATCGATT GTAGTCCGAG
+     7861 CTGTTCAAGC CTCGACCGAT TACTTGCATC TATGGTGGGC AGATTCCCGC CACCTTATCC
+     7921 AGCTTTTACT GTCGGAAAGC AGCGGATTTC CCGGAGATGG TCCTTCAGAG GCGCTTCTTA
+     7981 ACCAATATGG CTCATGCATC CAAACCATTG AGTTCGCATT GCCATGTACC TACTGACGCG
+     8041 TCTCGTGTAT GTGACTGACC AACGAACGAA CACGAGGATG TTAGCTGACG GGAGATTGCC
+     8101 TGCTAGCTGC GCTAATTGGT TGATCTCCTC GCACCCTGGT AAATCCTGTC AGATACTGTT
+     8161 GGAGGGCATC CCGTTTGGGC TGTTCAAGGC CTCGTACTTT TTAAGAGGCT TCTCGACTGC
+     8221 GGCACTGTTG CCTGGCCGCG GCACGAACCT GGATTTTCCA GCTTAACCAA TATTCTTCCA
+     8281 GCCGCGCCTT GGGTATACGA GGTATTTGAT GGTATTCCAG TGAGCCTCGT AGCCATACCC
+     8341 CAGACGATAT TCAACAGGTG ATGTCAGATT CAATGCTCCG ACCATTCTCT GTGTTACATG
+     8401 ATAACCTTGG AAGAGAACCA AACCTTTACG ATACAAGTGT CGTATTTACT TCGAGCTGCA
+     8461 GGATGCTTGT CTATGGTTTA CCAGGGGTGC TCTGCATGTC ACACCGTCAT GCGGACGCGC
+     8521 GTCAAGGATG CATCGCTCAA TGAAGACCAC CGGATCATTG ACTTCTCGGA CCACACCGAG
+     8581 AAGGGCGCCT TTTCGGCGGA TCTGCAGCCT CGAACCGGCC GTATTGAAAT GAGGGAAAAA
+     8641 AAAAAAAGAA GAAAAAAAAA AAAGAAAGGA AGGAAGAAAA AATCTTCCTG ACAATCTTCA
+     8701 GGAGGACAGA TGAGGGAGAC TGGTGTGATG ATCATGCGTC ACCACAAGCC TAGAGTGGAG
+     8761 CATCCGCGTT CTTAGTCGTC GATACTTTCA GAGTTTACAA TGGTTGAACA TCAGACCCCA
+     8821 GATCTATAGT CCCTATGGGG TAATGCAACT GCACTAGTCT CGGCTCCGAT ATACGACAAT
+     8881 GGACGACGTT GCATTGGCCA GAGAGAAACA CGAACTCGCG TGGCCTCGCG GGCCCTTGAC
+     8941 TACTTTAGCT CTGCAGTGCA TTATCAGTAA TCCTGGCCGG TGATATTAAT AGGGTCGATA
+     9001 TGACTCGTCT GTAAATGGAT GAGGTAATGC CAAACCTCAC CTGTATCGCC CCTTCTGTGA
+     9061 TTGAGATAAC CTACCGAGCC AATGATCGCT CCTAGCACGT CGCATCAGTC AAGACCCCAG
+     9121 GGAGCGTCTT ACTTCCAAGA TGACTAGTGT TGACTTGTCG ACTACATAGC CCGGCTCGCA
+     9181 TTGGAAACTT AATAGGTGCG TCAGCGAGAT TCCTGTCAGG CAGCTATAAA TGAATGCAGT
+     9241 AACGGCAGGG AAGCCCTTGA TCCTTTTGAT GATCAACTTG GCGCGGCTGA TCATCGCTGA
+     9301 GTGCTGAGGC TTTCTGCGTA ATCCTCCTTC CAGAGGACAG GGCCTGTTCA ACATAGGTGG
+     9361 GCCTGTATAG AAACCTCGGG CTAAACTTCC TGCCTCGAAA CTTGCCTCAT CAAAAGAAAC
+     9421 CAAAGTTACA AGGCCAAAAG GCCATTATCA GCAGCGATGC ATTCACAGAC TACAAAGGAC
+     9481 GAGCAGTCCA AAGATGACTC CTCAAACGAG AAGCAAGACG CTATTGAACG CAGGAGACTT
+     9541 CAAAATCGGC TATCCCAGAG AAATCATCGT CAGTGGAACC GGTGTCTTGT TAATCCCATT
+     9601 CTCCTCAATC ACTCACTCAC CCAGTGAATA GGCCGCAAGA TCCGGGACAG GATCGCCAAA
+     9661 CTTCAAGAAC GTGTTATCGC TAGTGAGCTC AGAGCTGTCG CAACTTTGAA TGGATGGGAC
+     9721 CAAGCGAGTC CACCAGCTGC GTCGATGATG GAATCCAAGC CGCAAGGTGA CTTTGATAGC
+     9781 AACCCGTTGG CTTCTGTTTC GGAAGATCCA GCGATCTCGA ATCCTCCCCA ACGGAACGTC
+     9841 TCCTCCAACC TCTGTCGTTC GTGCTGTAGT CTACTCAACC AGATGCCCAG TTCGTCCTCT
+     9901 CTGCCTTCTC CAACTTCACC TCTGCCGTTT GACCTCGGTC TCACCAACGG GGTGGACTCC
+     9961 ACCAACTCAT CACCCTCTAC TCTCCTGAAC TCTTCTCCCT CATCGTCACA GCTTAGTCCT
+    10021 TTCAGCCTAG ACACATCTTT AAGCATGACG GGGCTTCAAT CTCAGAATGA ATTCAGCTTC
+    10081 CCGCCATATC CTGACCCTCC AGGCTCCCAA CAATATCCAC ACTGCCCACA GTATTATGTA
+    10141 GCAACAGGTG AGGCCACTGT CTCAATATCA AAGGACAACG GACTAACCAC TGTATCCCGC
+    10201 TTTAGAGGCC TCCCTACCGC ATATCATGCA AAGATTGGGT AGTGCAACCT CGCATCCCAA
+    10261 GGCCATCATC TTGATACCGC ATGGGCATGG ATATGCCCCA GCGCCATTCA CAGGAGCAAA
+    10321 CGCGGCAGAC TCCACAGGCC TCAGAAGCGC GTTGAACGGA AATTTAAATC TGCAAAACCC
+    10381 AGGACGCCAC TGCCTAAGAC CAGACCGCAG TGCCAAATCT TCGGACCTAG GAACATCCGG
+    10441 AGATTGGATG ACCGCGCCGT CCTCGACTCC GTTTTGTCCG CTACATCCTT CACAGTCGTC
+    10501 ATCGTTGGAC AATTACCAGT CCATGATGCT TTGAGTCATA TATTCCAACT TAAATTCTAT
+    10561 GCTTCTTATG TGTCTATGTT TCTGTGATGT TATTTATGAA AATTTGGCCG GATGAGGTAT
+    10621 ATAGTATAGA CCACACATGG TGTGACAAGG CCCTGGCCCT GATGATTGTA TCGGAATGCT
+    10681 TACTACTTTC TTGTATGAAT GTTGAAATGA ATACTTTCTT CTTTTACGAT CATTTCATCT
+    10741 CTACGGTTTC AGAGCATCCT GTAGTCCCTC TGAGCACAAG GCAATTCTAA ATTTGACACT
+    10801 CGATTTGACT TCCAATAGTT GCCATAACAC ACTACAGGTT ATTTGACTGT CTGAGAATAG
+    10861 ATATAAGGAG AAGGTGCCTG TAGACCTTTG CAGACATTGG TTCTAAGTAC CTAAGGAGCG
+    10921 TAGAACAATA TACGTGACTG CTTAATGCAA TAAGAACTTG ATGCGAAATG AGAAGGGAAC
+    10981 GAAGCAAATC AGCAAAGGCG ATAACTTCGA GAGCCAGTGA TTGTACAGAA GCAACCTGGC
+    11041 TCCAACAGAT CAGTTGAGAA TTAGTCAAAG TGGATTCTCC ACAGCTCCCG CTCACAATTC
+    11101 GTCTTGTACC CCGTCCGGGT ATGCAGCATG GCTGTATTAT CACTGACGAG CAGATCACCC
+    11161 TGCTCCCAAG AGAAGCGCAG ACAGACGCGG TAGTCATACG TCAGGTCATC CACCACCGAG
+    11221 GCCAGCTCCT GCTCGTCGTT CTCGATCGTG ACCGCACAGG TCGAGAACTT GGTCTTGGTG
+    11281 GAATCCCACG GCTGGTGCCA GCGCATGCAC GGCAGCCCGG TGACCGGGTG CGGCACCACC
+    11341 AGGGGCAGAT TCTTCAGCTT GGCGTCCCAG AAGCCGTCGT TGTCCATGCC CCAGGTCACC
+    11401 TTCTGCAGCC GCTCGGTGGT CCACGGCAGA GGCAGGTAGC GGAAGAAGAG CCGGGAGCTG
+    11461 GCGAAGAGGG TGTACCCGCT GCCCTTGGGC GCGGTGGCCG GACAGGTGAA GAACTGGTAT
+    11521 CCCGGGGGCT TTTGGACGCG CTTAACCTCC CCTGTGACGG GGTCTGTCTC CTCTTCGAAC
+    11581 TTGAACATGC CGTCGTAGTG CATTGGCATT GCCTCGTTGG AGGTGACGTT GTTGCCGAGC
+    11641 TTGTCGGTGC GGCCGGCGTC GCGCACCTTT TGGATGATGC CGAAGCTCCA GGGGAGGATG
+    11701 GTGCCGAGCT CGGATGCTTT CTGGACGTAT AGCTCTTCTT TGAGGGTTTC GCGGAAGCCG
+    11761 CGCAGAACGA CCGGGGAGAG TCCCGTAGAG AGCTGGCGGA CTTTGTGCAT TGGCAGGTGG
+    11821 CTGATGGATG GAGGGGGTCG CGAGTCGTCA ATGTCGCTGG GCCGGATGAT GAGGCCGCAG
+    11881 GGGTACAGGG GCTCGAACTT GACCCGCAGG CCATCCTCGA CCCAGTCGAA GAGCTTGGAC
+    11941 TTCTCCCGGA AGTAGTATGG CTGGCCGTTC TTGTAGACTA GCTCGTGCGT CTCACGCACA
+    12001 TCCTCGGCGT GAACTGCGCG GAGTGTGCCG TCAGCGTCGA CTGCAATCGA CGAATGCCAT
+    12061 GGTGTGTACC CGAGGACGCC TCGGACCTGT GGGACGAGCG AGATGGACAG TTTCCTTGCC
+    12121 CCGTTTGACT CGTGGATGGA GAGACGGACA TAATCGGCAC GGTTGGCCTT GATGGCGGCA
+    12181 GCAAACATCT TTCCGCGGAC GATCATGCTA CGAGCAATCT GGGCGATATG AGCTGCTCTG
+    12241 GCCTTTTTAC TCGTATACTG CGTGTCCATT TGAGGAGCCA GGTCCTTGGT CAGGAACTTG
+    12301 ATGTACCCGC GATATGTGAG GCAGGTATCA TTGTCACTGC GGATAGCCGC ATCAGCGTCG
+    12361 AAGCTGCGGT CCTCAAACCG GTACATCAAC TCTCTTCGGA GGCATTGCGC ATGCGCCAGG
+    12421 TAATATGACT TGGCTTGTTC AGCGCTGGTC AGAGGAATCC AGGGGTGTTC GAGAAGCTCA
+    12481 AACAGTCGGA TAAACTTGAC ATGATGAAGC TCCTTCTCGA CGGCCATCCT GCGGAGGGCT
+    12541 TCTCCATATT CCCAGACAGT CTCGTCAGGT ACTCCGAGGA TATCTATTAT TGGTTAGCAC
+    12601 GGTGAAACCG TGGTGAGTGC AGGAGAGACT TGCCATTGTA TACGAGTCCA TCCGAGCTGA
+    12661 TATATACATC TGCACCCGGT TCGTAGACTC TTCCAATGTT CTCGCACAGG CCATTCAAAT
+    12721 GATATAACGC GAGCTCCTCT CCGAGATCTG GCATCACACC CAAGACCTTG TCTCGAGCAT
+    12781 TGGGGGACTT GAACGGGAAA GCCGGGAGGA TCATCCGAAC AGCTTCCCGC TTTTTGACTT
+    12841 GCTCAACCAC GGTGGGAATG AACGAGGTCA GGCCCTGCCA GGACTCGCCA GTCTTCTCAA
+    12901 AGTTCACCCC ATAACGTTCG ATGACTTTCA GGACAGCAAT CGCTGTTGCT TCGTCTTCGG
+    12961 AGATGGGACT GTTCTCCTCT CCGTTGGTGG TTTCGAGGGC CTCGGTTAGG AGGTGCGAGG
+    13021 GGTCAGCCTT GGTCCCTTTG CCCTCGTCTT TGAACGTGAC TGGGACTGCC TCCTTTGATT
+    13081 CAACAAGCGG ATTGTCGCTA CTTTGGGGGG TGGAGACGGT TACAGGAGGA ATGTCCAACC
+    13141 CGGACCGTGT GTTGTCGCTT GCGGCAGGCT GCTCGTGCCG ATCAACTTCG CTCAATGGCT
+    13201 GCTGCAGAGA GGCCTCATTG CGATGGTGCT CCTCAGCGAG GTCTTCAGGA GCTTCAGAGG
+    13261 AGGACGAGGA AGCAGCGATT TCACTCGTCT CAACGTTCGG GGCTTTTGTT TCATACGAGC
+    13321 CAAGTAGGTT ATGCTCTTGT GGCTCCCCGG AATATGAGAT GGCAGCGTTC TGTGGGTTCT
+    13381 GCAGTACGGC AATCATATCG ACGAAGAAAG AAAGAAAAAA AAAATGTGAA GAATGACACT
+    13441 TTATGTAAAG ACTGGTGATG TTCCTTTCTC AGTTGGTATG TTATGTACTG TGTTGTGTAC
+    13501 TTCCGAGGGT GACTTCGTCC TATCCCCATC CGTCGGTATG CACGGTTTTA TATCTTTCTA
+    13561 GAAAGGAAGA GACGAGGCCA GACATAGTGA GGAAAACGAA GCCTCGTCAG CTATTACATC
+    13621 AATGACGTCG AAAGAGCTGA AGATCCCAAC TGTTGTGACA TTGTTGACTA ACAAGCAACC
+    13681 TCACTGTATG CTGCCATACG CTACAAATAC ACCCTCTCTG CTTGAATTTT GGCAGTCAGC
+    13741 ATGATCCACA GCTGAATAAT CCCAGTGATA GAAGGATCTA CCGGGAGGCT GGTCAGTCTC
+    13801 CATGTCTTCT GTACCTGGGC CATGGCCGTG AAGCTGAACC TGATTCCGAT AGAAGCCTTG
+    13861 AAAGAGAACA CGAGGTAGCT GACACGGAGC CTTGGGAGAT GACAAGACCT GCAGCTGCTT
+    13921 AGGCAGATAT CCTCGGCTCT GACAAACGAG ATATCTATCA GTGCCTTCGA GCCACATCCA
+    13981 TGTGCGCGTC GTCTCACGGC ACCCAATGTA GAGCCAAGCA CCTTGGAGGG GGTCTGGGTC
+    14041 ACAGTCAGGT CCAATATCAC ATTGAACGCT TCAGCTGCTG TGGACGGCCC AGTCAGCAGA
+    14101 CATGCTGCAG ATTCGTGGAA CGGCTGGAAC TGTCTGTGGG GTTACACGTT CGCCACGTTC
+    14161 TCTACGAGCA CAGCATCCAG GGCGAGGTTC TTGGCCAGGG TGTCGGGCTG TGGCCCCATG
+    14221 TAGTAACAGA TACGCAAAGA CTGTCTCTCG AGAGCACGGT CTCACTGTCT TACTGGAGAG
+    14281 AGGCTGTACC AAGATCTAGG GTCGATCCTG TAGAAATGTG ACTCAGGCTG ACTCTACAGA
+    14341 ACAGGCCGAA GGAAGCTTTT CAGACAAAAA TTGAATTTGC ACAGACAATA AAGGAGGGTC
+    14401 GAGAACGCAT CGAACCCATC CCTTACCAAA AGAACTCTCA GCTAGCTTGT AGCAAGTGAG
+    14461 ATCGCCTCTT TGGGAGATCC CTTACTCAGA AAGCTGCCCT TTCCAGTCAT ATTCCATCAC
+    14521 GCGCGAGATG AATGCCGACA TATCAAGGGA AGTCAACTGA CTAACAAGAT ACAAGGATGC
+    14581 ATCCAAGCAG CTGCTCACTC CTGCCGCCGT CAGTAGCCTG GCGGAACCAA CTTTTAGAAC
+    14641 ACCTGCATCT ATGTAGCGCT TGTGCGACAC CTCAGGAGGG GAAGCCCCTT CTCCGTTTAC
+    14701 TCGGATGCAG AACTCCCGAA GTTTCTCAAT GGCACGATGG TGAGTCGTGA CCGAAACCCC
+    14761 AGTAAGAAGC CCTGCCGCTC CAACTAGAAA CGCGCCAGTG CAAATTGAGA AAAGCACACG
+    14821 CGGTTCATCT GGCGTCTTGG GAGGGAGTGT GGCAAAGCTG CGAATAAGCT CTACCTCCCG
+    14881 GGGGTTGGAC GCGACGAGTG CATTGAGAAG AGATGGTGGC CCACCAGGGA CTACCATAAT
+    14941 GTCGAAATCC GCAAGGCCCT GCATGGCGTC CTCAAGCAAG AGATCCGTCT GGACCGTGAG
+    15001 GGCCTTCTTG GCGTTCACTG TTCGTGATCG AGCAATAGTG TTGATCTGGA AAACCCTGTC
+    15061 CGGGTTATCC GGGTTTCGAT TGTGGGATGT ATGAGTGAAA ACTTCCATAG GGGCCGTGAA
+    15121 ATCAAGGATG TCCACTCCTT CGAAGAGTAA AACGGCCACC TTGTAGTACT TCTTTGGCGG
+    15181 GGTAGAAGAC AT
+//

@@ -1,0 +1,481 @@
+LOCUS       1674mF-Z1083           10190 bp    DNA     linear   UNC 16-DEC-2021
+DEFINITION  GCA_007825345.1 results based on the annotation PF05141 and  inputs.
+ACCESSION   GCA_007825345.1
+VERSION     1
+KEYWORDS    .
+SOURCE      ICSCreator.py written by Grant Nickles (gnickles@wisc.edu)
+ORGANISM    GCA_007825345.1
+FEATURES             Location/Qualifiers
+     gene            1..1276
+                     /note="*Name DIT1"
+                     /note="*gbkey: Gene"
+                     /gene="DIT1"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="LSUE1_G00503"
+                     /note="*backbone: True"
+     mRNA            1..1276
+                     /note="*gbkey: mRNA"
+                     /gene="DIT1"
+                     /locus_tag="LSUE1_G005037"
+                     /note="*orig_protein_id: gnl|WGS:QGMK|LSUE1_T005037"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QGMK|LSUE1_T005037_mrna"
+                     /product="Spore wall maturation protein DIT1"
+     exon            1..791
+                     /note="*gbkey: mRNA"
+                     /gene="DIT1"
+                     /locus_tag="LSUE1_G005037"
+                     /note="*orig_protein_id: gnl|WGS:QGMK|LSUE1_T005037"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QGMK|LSUE1_T005037_mrna"
+                     /product="Spore wall maturation protein DIT1"
+     exon            842..932
+                     /note="*gbkey: mRNA"
+                     /gene="DIT1"
+                     /locus_tag="LSUE1_G005037"
+                     /note="*orig_protein_id: gnl|WGS:QGMK|LSUE1_T005037"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QGMK|LSUE1_T005037_mrna"
+                     /product="Spore wall maturation protein DIT1"
+     exon            1004..1276
+                     /note="*gbkey: mRNA"
+                     /gene="DIT1"
+                     /locus_tag="LSUE1_G005037"
+                     /note="*orig_protein_id: gnl|WGS:QGMK|LSUE1_T005037"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QGMK|LSUE1_T005037_mrna"
+                     /product="Spore wall maturation protein DIT1"
+     CDS             join(1..791,842..932,1004..1276)
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="PFAM:PF05141"
+                     /db_xref="NCBI_GP:TVY73421.1"
+                     /note="*Name TVY73421.1"
+                     /note="*Note Similar to DIT1: Spore wall maturation
+                     protein DIT1 (Saccharomyces cerevisiae (strain ATCC
+                     204508/S288c))"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="PFAM:PF05141"
+                     /db_xref="NCBI_GP:TVY73421.1"
+                     /note="*Name TVY73421.1"
+                     /note="*Note Similar to DIT1: Spore wall maturation
+                     protein DIT1 (Saccharomyces cerevisiae (strain ATCC
+                     204508/S288c))"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="PFAM:PF05141"
+                     /db_xref="NCBI_GP:TVY73421.1"
+                     /note="*Name TVY73421.1"
+                     /note="*Note Similar to DIT1: Spore wall maturation
+                     protein DIT1 (Saccharomyces cerevisiae (strain ATCC
+                     204508/S288c))"
+                     /note="*gbkey: CDS"
+                     /gene="DIT1"
+                     /locus_tag="LSUE1_G005037"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QGMK|LSUE1_T005037_mrna"
+                     /product="Spore wall maturation protein DIT1"
+                     /protein_id="TVY73421.1"
+     gene            complement(2523..4034)
+                     /note="*Name FAD12_2"
+                     /note="*gbkey: Gene"
+                     /gene="FAD12_2"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="LSUE1_G005038"
+     mRNA            complement(2523..4034)
+                     /note="*gbkey: mRNA"
+                     /gene="FAD12_2"
+                     /locus_tag="LSUE1_G005038"
+                     /note="*orig_protein_id: gnl|WGS:QGMK|LSUE1_T005038"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QGMK|LSUE1_T005038_mrna"
+                     /product="Delta(12) fatty acid desaturase"
+     exon            complement(3152..4034)
+                     /note="*gbkey: mRNA"
+                     /gene="FAD12_2"
+                     /locus_tag="LSUE1_G005038"
+                     /note="*orig_protein_id: gnl|WGS:QGMK|LSUE1_T005038"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QGMK|LSUE1_T005038_mrna"
+                     /product="Delta(12) fatty acid desaturase"
+     exon            complement(2523..3094)
+                     /note="*gbkey: mRNA"
+                     /gene="FAD12_2"
+                     /locus_tag="LSUE1_G005038"
+                     /note="*orig_protein_id: gnl|WGS:QGMK|LSUE1_T005038"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QGMK|LSUE1_T005038_mrna"
+                     /product="Delta(12) fatty acid desaturase"
+     CDS             join(complement(3152..4034),complement(2523..3094))
+                     /db_xref="InterPro:IPR005804"
+                     /db_xref="PFAM:PF00487"
+                     /db_xref="NCBI_GP:TVY73420.1"
+                     /note="*Name TVY73420.1"
+                     /note="*Note Similar to Delta(12) fatty acid desaturase
+                     (Mortierella alpina)"
+                     /db_xref="InterPro:IPR005804"
+                     /db_xref="PFAM:PF00487"
+                     /db_xref="NCBI_GP:TVY73420.1"
+                     /note="*Name TVY73420.1"
+                     /note="*Note Similar to Delta(12) fatty acid desaturase
+                     (Mortierella alpina)"
+                     /note="*gbkey: CDS"
+                     /gene="FAD12_2"
+                     /locus_tag="LSUE1_G005038"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QGMK|LSUE1_T005038_mrna"
+                     /product="Delta(12) fatty acid desaturase"
+                     /protein_id="TVY73420.1"
+     gene            5565..6227
+                     /note="*Name LSUE1_G005039"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="LSUE1_G005039"
+     mRNA            5565..6227
+                     /note="*gbkey: mRNA"
+                     /locus_tag="LSUE1_G005039"
+                     /note="*orig_protein_id: gnl|WGS:QGMK|LSUE1_T005039"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QGMK|LSUE1_T005039_mrna"
+                     /product="hypothetical protein"
+     exon            5565..5583
+                     /note="*gbkey: mRNA"
+                     /locus_tag="LSUE1_G005039"
+                     /note="*orig_protein_id: gnl|WGS:QGMK|LSUE1_T005039"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QGMK|LSUE1_T005039_mrna"
+                     /product="hypothetical protein"
+     exon            6007..6227
+                     /note="*gbkey: mRNA"
+                     /locus_tag="LSUE1_G005039"
+                     /note="*orig_protein_id: gnl|WGS:QGMK|LSUE1_T005039"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QGMK|LSUE1_T005039_mrna"
+                     /product="hypothetical protein"
+     CDS             join(5565..5583,6007..6227)
+                     /db_xref="NCBI_GP:TVY73419.1"
+                     /note="*Name TVY73419.1"
+                     /db_xref="NCBI_GP:TVY73419.1"
+                     /note="*Name TVY73419.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="LSUE1_G005039"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QGMK|LSUE1_T005039_mrna"
+                     /product="hypothetical protein"
+                     /protein_id="TVY73419.1"
+     gene            6321..7433
+                     /note="*Name LSUE1_G005040"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="LSUE1_G005040"
+     mRNA            6321..7433
+                     /note="*gbkey: mRNA"
+                     /locus_tag="LSUE1_G005040"
+                     /note="*orig_protein_id: gnl|WGS:QGMK|LSUE1_T005040"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QGMK|LSUE1_T005040_mrna"
+                     /product="hypothetical protein"
+     exon            6321..6646
+                     /note="*gbkey: mRNA"
+                     /locus_tag="LSUE1_G005040"
+                     /note="*orig_protein_id: gnl|WGS:QGMK|LSUE1_T005040"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QGMK|LSUE1_T005040_mrna"
+                     /product="hypothetical protein"
+     exon            6706..6954
+                     /note="*gbkey: mRNA"
+                     /locus_tag="LSUE1_G005040"
+                     /note="*orig_protein_id: gnl|WGS:QGMK|LSUE1_T005040"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QGMK|LSUE1_T005040_mrna"
+                     /product="hypothetical protein"
+     exon            6992..7433
+                     /note="*gbkey: mRNA"
+                     /locus_tag="LSUE1_G005040"
+                     /note="*orig_protein_id: gnl|WGS:QGMK|LSUE1_T005040"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QGMK|LSUE1_T005040_mrna"
+                     /product="hypothetical protein"
+     CDS             join(6321..6646,6706..6954,6992..7433)
+                     /db_xref="InterPro:IPR025533"
+                     /db_xref="PFAM:PF14388"
+                     /db_xref="NCBI_GP:TVY73418.1"
+                     /note="*Name TVY73418.1"
+                     /db_xref="InterPro:IPR025533"
+                     /db_xref="PFAM:PF14388"
+                     /db_xref="NCBI_GP:TVY73418.1"
+                     /note="*Name TVY73418.1"
+                     /db_xref="InterPro:IPR025533"
+                     /db_xref="PFAM:PF14388"
+                     /db_xref="NCBI_GP:TVY73418.1"
+                     /note="*Name TVY73418.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="LSUE1_G005040"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QGMK|LSUE1_T005040_mrna"
+                     /product="hypothetical protein"
+                     /protein_id="TVY73418.1"
+     gene            8203..10190
+                     /note="*Name aphA_1"
+                     /note="*gbkey: Gene"
+                     /gene="aphA_1"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="LSUE1_G005041"
+     mRNA            8203..10190
+                     /note="*gbkey: mRNA"
+                     /gene="aphA_1"
+                     /locus_tag="LSUE1_G005041"
+                     /note="*orig_protein_id: gnl|WGS:QGMK|LSUE1_T005041"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QGMK|LSUE1_T005041_mrna"
+                     /product="Acid phosphatase"
+     exon            8203..8558
+                     /note="*gbkey: mRNA"
+                     /gene="aphA_1"
+                     /locus_tag="LSUE1_G005041"
+                     /note="*orig_protein_id: gnl|WGS:QGMK|LSUE1_T005041"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QGMK|LSUE1_T005041_mrna"
+                     /product="Acid phosphatase"
+     exon            8611..9287
+                     /note="*gbkey: mRNA"
+                     /gene="aphA_1"
+                     /locus_tag="LSUE1_G005041"
+                     /note="*orig_protein_id: gnl|WGS:QGMK|LSUE1_T005041"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QGMK|LSUE1_T005041_mrna"
+                     /product="Acid phosphatase"
+     exon            9364..9790
+                     /note="*gbkey: mRNA"
+                     /gene="aphA_1"
+                     /locus_tag="LSUE1_G005041"
+                     /note="*orig_protein_id: gnl|WGS:QGMK|LSUE1_T005041"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QGMK|LSUE1_T005041_mrna"
+                     /product="Acid phosphatase"
+     exon            9842..10190
+                     /note="*gbkey: mRNA"
+                     /gene="aphA_1"
+                     /locus_tag="LSUE1_G005041"
+                     /note="*orig_protein_id: gnl|WGS:QGMK|LSUE1_T005041"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QGMK|LSUE1_T005041_mrna"
+                     /product="Acid phosphatase"
+     CDS             join(8203..8558,8611..9287,9364..9790,9842..10190)
+                     /db_xref="InterPro:IPR004843"
+                     /db_xref="InterPro:IPR015914"
+                     /db_xref="InterPro:IPR025733"
+                     /db_xref="PFAM:PF00149"
+                     /db_xref="PFAM:PF14008"
+                     /db_xref="PFAM:PF16656"
+                     /db_xref="NCBI_GP:TVY73422.1"
+                     /note="*Name TVY73422.1"
+                     /note="*Note Similar to aphA: Acid phosphatase
+                     (Aspergillus ficuum)"
+                     /db_xref="InterPro:IPR004843"
+                     /db_xref="InterPro:IPR015914"
+                     /db_xref="InterPro:IPR025733"
+                     /db_xref="PFAM:PF00149"
+                     /db_xref="PFAM:PF14008"
+                     /db_xref="PFAM:PF16656"
+                     /db_xref="NCBI_GP:TVY73422.1"
+                     /note="*Name TVY73422.1"
+                     /note="*Note Similar to aphA: Acid phosphatase
+                     (Aspergillus ficuum)"
+                     /db_xref="InterPro:IPR004843"
+                     /db_xref="InterPro:IPR015914"
+                     /db_xref="InterPro:IPR025733"
+                     /db_xref="PFAM:PF00149"
+                     /db_xref="PFAM:PF14008"
+                     /db_xref="PFAM:PF16656"
+                     /db_xref="NCBI_GP:TVY73422.1"
+                     /note="*Name TVY73422.1"
+                     /note="*Note Similar to aphA: Acid phosphatase
+                     (Aspergillus ficuum)"
+                     /db_xref="InterPro:IPR004843"
+                     /db_xref="InterPro:IPR015914"
+                     /db_xref="InterPro:IPR025733"
+                     /db_xref="PFAM:PF00149"
+                     /db_xref="PFAM:PF14008"
+                     /db_xref="PFAM:PF16656"
+                     /db_xref="NCBI_GP:TVY73422.1"
+                     /note="*Name TVY73422.1"
+                     /note="*Note Similar to aphA: Acid phosphatase
+                     (Aspergillus ficuum)"
+                     /note="*gbkey: CDS"
+                     /gene="aphA_1"
+                     /locus_tag="LSUE1_G005041"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QGMK|LSUE1_T005041_mrna"
+                     /product="Acid phosphatase"
+                     /protein_id="TVY73422.1"
+ORIGIN
+        1 ATGGATGTAT CGTCATTGTC TTTAGCATCA CTTTCATCAG CCAACACAGA AGACTTCCGA
+       61 CTTAGCGAAA CTGGTGCCAG TCCCGTGTGG TCTCCCCGTA TAAAGCCAGT GCAAAACAAT
+      121 CCTCCCAAGA ACAAATCGGA AATCCTCAAG CCCCTCAATT CTAAAGTGGG CGACCTCGAT
+      181 ATCACATCGC GCATCATGAC TATCATACAA GGATACGGAC AGAACGAAGA GAACAGTTCC
+      241 GGGGATGCCT GGCTGGGACG CTTCAAATTT GAGGCTAGAG TTCGCAAAGC CGTCGATCAT
+      301 AATACGCCTA TCTTGCTCGT CCTTCCAGCA TTCCCGTGGA AGAGCGTCAA CAAAGTGGAA
+      361 AAGGTCTTGG GCGCGCTCCC GGATCTAGGG GAAGTCCTTG CCCTTGGCCG ACTCAATAAC
+      421 CTTTGCGAGG ATATCGAACA AATCTACGAG CCTGGAGCCA GAGTCACCAT CACCTCTGAT
+      481 GGTCTTGTGT ATAATGACCT TCTGGGAATT CCCGACGAAG AAGTTTACGA GTACGGTGCG
+      541 GCTCTTCGCC GAATTCCAGC CGAGAAAGAA TACGTGAATA TCGACTTCAT TCGGATCATG
+      601 AACTTATTGG GCCTCACGGA TCAGATTTCT ATGACTAAAG AGGAATATCT ACAGACTGTT
+      661 GGTGGGGTTC GCGAGACACT TGTTGAGAGA TTTCTCGACC CAACTTTCAT CGCAACGGAT
+      721 GCCATTGAGG AGGATAGAGA TATCAATCTT ACATATTGCG GCTACCTGAA ATTTCTTGCT
+      781 AAAGATCTAA AGTACTGCAG CTTTTCCTCA CATCAATGTA CATCGACTAA AGTTCCTGCA
+      841 GATATAGTCC TGTCACTGCT GGAGTCATTG GAAAGAATGA GTATCGACGG GCTGTCAAAC
+      901 GCGTGGCGCA GGATATGATC ATTCGTGGCA AGGTACATCT TACTATATCA CTTCACCTAC
+      961 TCAATTCCAA CCGATTTTGC GACTAACTTT CGTTGAAATA TAGGCttttg cagctgcgat
+     1021 cGACTGGGCC CTTCCTGATC ACGTTCGCTT GTCCATCCAC CGTTCAACGG GCCTCAACAA
+     1081 GCTTTCTTTC CCCCTGGTTC CCCAAATAAA TCACTTTTCA ATGACTCCGT GGCATTGCTG
+     1141 TATTGCTGTT ACTGCAAAAG GAGAGTTCCG TACCGCTCAC AAGACAGCGT TGGTTGACAC
+     1201 TCACGATCTT GTTGAGCACG AAGGACGCCC GTCCTATTTC CGAGATCGAT CTAGTCCTGC
+     1261 GGAGATTCTC GATTAATAGA TCGTACGAAG GAAGATAGTG GGCGACAGAA ATTGCGAATA
+     1321 GACAAAACTC GTTACCTCTT CCAGAAAATT ATAGAAGCAG ACTGAAGTTT ATACAACGCC
+     1381 AGCTTCCAGT AAAGCAAACG CAGGCTTGTA TTATAAATCT AGGCCAGGAG GGAGAGGTTA
+     1441 CAGCCTCAAC GCCTGCAGAT CCTCGACGTC AGAATCACAG GGGCCACCAC CCTGAACATG
+     1501 ATCAAAATGG CACTTCCACA CTGTAGATGA AGCTTCCCAG TTTATGCAAG CTCTAAATAT
+     1561 CAATACACTA GCATGTCTGA TGAGCCTCAA AAACGCACGC AATAACAGAT TGAAGTGTTG
+     1621 GTTGGGCCCT CGAGACTTGT AGTCCGCACG GCATGGCTCC CGGTTCAAGC GTTCTGTAGC
+     1681 AGATAACATG AGTTCTAGCA AGATGATAAC TGCCTGGAAA CGGTTCTGCG AGTTGTCACT
+     1741 TGTGGAGGAT AGGAATATAT ATAACACCCA CTGTGAACTT TGGCGGGGTA CAATACCAAC
+     1801 CCTGCTTTTC CCCGACCCCC GCTGCAAACC AAATGAATAG CCACAGCGAA ATATGCCAAA
+     1861 CCAAGAAATG CATTTCTCCA AAATGGAATT GCCAGAAATC TCGATCGAGG CCTGCCACTC
+     1921 GTAAtaaaaa caagcttttt gcTATACTTT ATGTAAACCC ATCGCCTGAA TGCTAGACCG
+     1981 CAAAAAGCGC AGATAGGTTA GTTTTGACTC TGCGGTTATA AGCATCTGTA TGCTACTGCG
+     2041 TGGTGAGAAG TATAACTGTA CCAAAAGCAC ACGGAACAAG TGTCTAGTTC ACTAGGACTC
+     2101 TACGGGAAAT TGTGGAATAA AACATGAATT GAGCTGAAAT GGAAATTGTG GGCACCTCAA
+     2161 TTGGCGGTGA CCGGATGTGG AAGTGAGGGG GTGCGACGCA GCAAATGCTA TAGCGACACT
+     2221 TGTCTTTCAC TGAAAATAGT AACCCCGTGT CTCATAATGC GAAACCTGCC AAACAGCACA
+     2281 TGGTGATGTG ATCACAACCG AACCCCGCAC ATCAAGCCAG AACACACGTA CATGTACAAC
+     2341 CATCGCTCGG AAGGGGTAAA GAAAGGCTCG AAGAAATCTT GCGCTTTTGT ATTTGTGGTA
+     2401 TCTTCTGAAG AAAAGCATCT ATCTATCAAC AAGTCTAATG AGAAATAGAC CAAATGTAAC
+     2461 CCAACAAACG TTAACGCCAG ATCTATCTAT ATCCATATCT ACTGCCCTTA TTCCAAAAAC
+     2521 CCTTACGCAT CCGAGAGCAG GGGCATGGCA CGCAATTGTG CGGATTGCGA GAGACGGCGA
+     2581 CGGGCTTCTA GGTTGCGCGA GGAGGACATG GCGGTGGCCA TGGCAGAGGG AGGGATGGTA
+     2641 GTCTTGGTGG GGTAGTGACC GCCGGTCTGG CTCTCGACGT TGCGGCCGTT CTTGTCGGTT
+     2701 CCGACGAGGT TCTGCGGTTG GGTCTCGCCT TCTCTATTGT ACAGGTTGCG GTACATGTAC
+     2761 ACGCCGCTGC CCTCTGCGCC AGCTGTCTCC TCAATGAACT TGCAGGTGCG CTGGTTGTTC
+     2821 CAGAACGCGG TCCAGAAGGG CGTCTCTAGA TCAGCCGCGT AGTGCTTGCC CATGACCTTC
+     2881 TTGATGTGTA AGGAGGCCTC GCCGGCGTGG TAGAAGGGGA TTGTGGAGAC GAGGTGGTGG
+     2941 CAGACGTGTG TGCCGATGAT GTCGTGGAAG AGGTGAGTGT CGATGAAGCC GAGATCGCGG
+     3001 TCGATGGTTG CGGTGGCGCC GCGGGCGAAG TTCCAGGTCT TGTTGTCGTA GTGAGGCATG
+     3061 GAACCGTCGG tgtgttggag gaaggtgaTG GCCACTGCAC AGTGTTAGTA GGTTTATCCT
+     3121 CCAATCTTCG AGTTGCAATG ATGGAACTTA CCAATCCAGT TGTTCACCCA CAACCACGGC
+     3181 ACTCCCCACA GCACAATAAC GTTCCAGCTC CCAAACATCT GTCCTGCAAC CACCAAGCAA
+     3241 GCAATCATCG CCAAAACGCC AACGTCAGAC AGCATGATCA AACCTAATTC AGCGGGCTTG
+     3301 TAGAATACGC TGTCCTCGCC AAAGTAGAAA TGGCTGATCC GCATGCCCTT GGCTCCCCCG
+     3361 TATTCCTGTC CGGTCAAATT GGCCAGCAGA TATCCAGGCC ATCCAAACAG CTGGTGGATT
+     3421 ATGCAATTGA ACAAGACGGA AATGGGCGAG TCCTCCGCGA GCTCTGCGAA TTCCACCATA
+     3481 TTTGCTGAGG CCTTGGCTCC AAAGTTCCGC TTGACCCAGG TCTCCCTCGA GTGTGGCACG
+     3541 AACGCCGTAT CCTTCTCGAT GTTCCCCGTC GCCTTGTGGT GCTGGCTGTG GCTAATTCGC
+     3601 CACGAGTGGA AGGGGACCAG CAGGAAGGAG TGCATGATCA GGCCCATGGT GTAGTTAAgc
+     3661 atcttgttct tggagaaggc gcCGTGGCCG CACTCATGTG CCAGGATCCA GATACCGGTG
+     3721 AAGACGAAGC CTGCCACAGT AGTCCACGCC ACCCACGCAG CGAATCGCAG GTAGACATTG
+     3781 GGCAGCATGG GGATGAAGGT GACGCCGAGG TAAAGGAGGG TCGCATAGTA GAAGTAGTCG
+     3841 CGCACGACGT AGGCCATGGA GCGGAGGATG GAGGGCTTGA AGCAATGGGC GGGAATAGCA
+     3901 TCGTGAATTT GCTTCATGGT AAAGGTGGGC AGCTCGAAGA CATTTCCGTT GAGGTCGAGA
+     3961 TGCTGGCCAT TTTTGGCGTC AGCAGAAGGG GCAGGAGCAG CCATGGTGAC ggtcttggtg
+     4021 gaggagacTG CCATTGTGTG TGTGTTGCAG TATGgcagac agacagacag acagacagac
+     4081 acAAATgcaa aggaagaaga attgaaaaat ATATCAAGAC CAGAGAAAAG ACCTACCTGC
+     4141 GGGAGCGAGC AGGACGGTTC TTTATTCACC GCTGGCGCGG TCCCCTATCT GGGGAGTGAA
+     4201 CCATGGGTCC GTCGTTCAGG GGTCCCATTT AAATTTCTCA ACCCTTTTGG GGGACACGGG
+     4261 CCATAAGATG GACGCCCAGC CTGAGGACCA GACGCCGTTG GAGGAACCAT GAAACGGGAT
+     4321 GTCTGGCGTC GTTTTGGAGT TTTTAGCATG TGTCTGGATC GGCAGATTTA TATAGGAGTC
+     4381 AGGGGCGAGC AGATTGAGAG TCATAAACAT AAACATGAGA TAGTATGATG CCGCATCGat
+     4441 atctgcatct tgcatTGAAT TCTATGTCGA TTTCACATGC CACGAGCCGC ACAGTGGGAG
+     4501 TGGGCAAAAT GCCAAAAGAC ACAGCtctgg gctgggctgg gctgcATGAA GGGTCTACGC
+     4561 TGCAACGTTC TTGACTCgtt tggggttttg gttggGTCGC CTACCGAAAT AGCATCGAAT
+     4621 AGCATCGAAT AGCCCCCCCG CCGTTGTTGG AGCCAGTGCC TAGGTAGATC GGAATCTGAC
+     4681 ATGCGCCAGC AGCGCGGACT CGGGCCAGAT CGCATGTGGG TCGCGGGGCG GCAGTTTTTT
+     4741 TGATCCTCAT TTTATAAAAC CACCACGTTT CCCCTGAATA TCATTCTGTT GTTGGGAGAG
+     4801 GTTTACGTGG CGAAATATGT ATGCTTGATC AGTGTCCATT GCTATATAAA CCTTTACCAG
+     4861 TGTACCACTC ATGGCACCTA GCACCTGAAT CAATCATTCG AGAAAAGTTT CCTCGCGCTC
+     4921 GGAGACCAAA GTCCCTCCGA TTCAGTACCA AACTTTGTTT TTAAACCCGT TCGTTGTTCC
+     4981 GTTTGCACGT ATTAGTACCG ATTAATCCCG ATAATTGCGT GGGCGAATCT TAGGATTAAA
+     5041 TACGTGGATT GACACGTGAA AATCGTTGCG AGTATTTGCT TTGATCCCGA TCCTCAATAT
+     5101 AATCCTAATA AATCACTACC AATCTTATCT CGTGAGGTTT CCTTTGTCAG AACATCAGAA
+     5161 TTCGGTCCCA GTATCGTGCA GTCTCGATCA TAGGGCAGGG AAAGCGAAGT TGCACGAGTA
+     5221 CGGTATTATA GCCTTTAAAA AGAAGTATCT TGTTCCTTTG GAATAGCTCT TTGATGTTCC
+     5281 TTTTGCCTAA GTGGGAATAT GCCGTTGCCA CCATGCCTCG CGTACATTTC GTACTTCGTC
+     5341 TTCAGCTGAC GGGTAGAAAT GCGATGCTCT AACAAAATTT AAACGGGAGT CCTATTTATT
+     5401 TAGTCTACTA TCAGTATTTC AATctatctt gatcttcttg tcGTCGTTCT TGCTCCTCAA
+     5461 TTCAGGGGTT GCAAGACTGC CAGAAGGATC ACGTGCATAG GCTACTTGAC TTGGTCACAT
+     5521 GACTATTAGA TTCGGATGAA GTCTCATGCT AGCAGTACTT CAAAATGATT GACGTTTCTG
+     5581 ATGGTAAGTC TTGGTTCTAA ATTTGGGGAA GTTTCTGTCC CTTCCTTTGC CGACTTGTGA
+     5641 TTTAAGTATG AGGAAACTTA TACCTTCAGC ATATATAACG AGCCTGGCAT AGTACAATGA
+     5701 TGCAATCGCC ATTGGTTAAG CGTCCCGAAG TTGGGTATTT TCACCGTTCT GACATTGTTT
+     5761 TTACGTTGTT TTTAACGCGG AAGCTAATGA ACAAGTTCCC TTCCGAACCA CATAAATCCG
+     5821 AATTTAGACT GGCCGACTGA CTCGCTCCGC CGCAGTCTAG AGAAAGTATA TAGGTGCTCA
+     5881 ATTTGAATTT CAGTCTTGAT ACTTTATCCT CTACATGTTT CGGGCTAGCA CTTAACTCCT
+     5941 AACATATCTC CTATACGGAA CACTCTGCCC ATCAAACAAC CATGCCTCCC ACCGTCTTCC
+     6001 TCGCAGGCCG TCCATCCGAA GTCGTCGATG GAGATAAGAA GGCACATAGA GGATACCTCC
+     6061 CCGAGGATGA TTGGACAGTC CTCGAAAGAG TCCATAGCCC CGAACAGCTG CTGAAAAAGT
+     6121 CGGCCGTCAC ACTACGAGAC AAACTCGGCG ACTACCTCCA GTCGTCTTGC ACCGCCGATT
+     6181 TCGCCGATGC AGCTGTGCAG AAGACAATCC ACAGCGCACC CAATTGACTG ATACTCTCCT
+     6241 GCGTCAGAGC GTATTTCGAG CATCTCCATC TAGTCATCCG CCCCAAAGAT GTCTGGCTTG
+     6301 CCATTCTGAC TCAACTCAAT ATGTACATCC AGAAGAACTC CGAAGCGCTT AGTTCTAAGT
+     6361 TTGTCGCTCA CGAGGGCATG ATGTCTCTTC AAGTCAGTAT AGAAGGCGCG TCTGCGACGT
+     6421 CAGGAAAGCC TTGCACTTTG GGGTTTGCTC AATTCGCACT GGCCATGGCC GACGAGCTAC
+     6481 AAAAACATAT AATCGACGAA GATCTGAAAG AATGGGTCAT GCCAGACTTC ACAACAACGA
+     6541 CGGAGCATGA CAAAGTCGTG GCGAGCATTG TGTTCATGGG ATCTATGAGC AAGTATTTTT
+     6601 TCATGGAGGG TGCCACGGGC TGTGGATTAC CTTCAGTCAC TTTACTGTAA GTTATCTACA
+     6661 TCGTcctttc caaactcttc TATCAGTCGA TGCTGACTTT CGCAGGGGAA Ccaaagaaga
+     6721 ctgggagaGA ATGCTACAAA AATTTGACAA AATCCCATCT CTTGGCGAAG AGCCCACAAA
+     6781 GTGGCATGCT CTACTCGTAC CCGTCTTGAA AAGATTCGTA GAGACTTTCA CCAGCCCAGA
+     6841 TTCGCAGAGA CAAAAGATTT CTGGCAAAAG ATCGTCCACC ACAGCGGCGG ATCCGGCCAG
+     6901 CCAGATCACT ACTCAGGCTG GGTCACAGCA TTCTCATTCT GGAGCGAAGA CGGAGTATGC
+     6961 CTGAATAAAT CCGGGACGTT GACGACGAGA GTGACGAGGA GCATTACGCG ACTTTCTGGG
+     7021 ACGAGCTACC ATCAGAGAAC CTGTGCTTCG ATGGCTCCAT CTACCCCCGA ATCGAGACAG
+     7081 CTCGTCTCGT GCCAGGGTAC GTTGACGTGA ACGTCCAAAT CGATGACACG TATAACGGAA
+     7141 ATGGCATCTA CATGGTCAAG ATGATTGCCG GAAGCGTCGG GATGGAGTTT ACGGCGAGCG
+     7201 GCGACCATGG AGATGGTCTT GACACGGTGA TTCCGAGGAC TGGCTGGTGG GCTtatttgg
+     7261 aaaaggaaga caAGGGAAAG CCAGGCTATA TTTCACCCTT GGCAGAGGAA CAAAGAGATG
+     7321 ATAAGGACCC GCAGGCTGAA GCGCTCGTGA TCTCAAGGAG GAGTATATGG TCTGAAATGG
+     7381 TGGCTGGGAC TGGGACGCTG GCTAGCCTTG GTGAGATTAC CGTTACCGCG TAACAAATCT
+     7441 GGCACAAGTA AGAACTATTG ATAGAAATTG CAGTATGAGA ACTAAGTCAT AAAGAAATTT
+     7501 AGGATactca aaatcaaaat accttctcga ccttgacATC TGGCAGGAAA CCCAGAAAGT
+     7561 ATCTTCAATT TGAGTGGTCA TGTCACAAAT AACCATCTCT GCCAATCTGG GTTCAAGAGG
+     7621 CCATACGGCT GCGCTCGTAC TCTGTACTTT CGAGGGGAGC agtggagggg cagaaggTGG
+     7681 GGGTGGGGCA CGTGATACTT AGAACGTGAC CCTTGGACTC AAGATGTGTT TCTGCCAGCT
+     7741 TTCTGTGTTC TGCTTTGTCC ACTGAATTTT GCTTGGGTAT ATTTCACGAA ACAAATTATG
+     7801 TTTCCTTGGG CAACTCTCCA CGCCTACAGT GACGCagttt tgatttggag gccaGTGGAT
+     7861 GTTCCCTCTT CGTTTAAGCG AATGGAACGA ATCCCACGTG CTCTCTTAAC ACGCACCGAT
+     7921 TAGGGGCTCT CTTGTGCAAA GACATGTGCT AGAGAAGGTC GTTCCTGATT Aaacaacccc
+     7981 gccatttcAC TATCGTCCAA TACGCTGCCA AGACTTCGAA TGTGCGGCTC AGGCAGCTCA
+     8041 TGCACCTTCC TAAACAGGAA GGTCTCCCAT AGTGGCGGGA ACGCACTGCA AGGGCAGCAA
+     8101 CATGAAATCT TGCGAAGTCC CATTCTTGCA ATGTTGTCAA TCCAACTGGT CCCTCTTAGT
+     8161 AGTCCGCTCA GTATTTTGTT TTCCATACGA AAGCGGTGAA ATATGAGGTT AAACACAACG
+     8221 TTGTCGTTTG CACTGGTGCC AGTGATTATC TTCGTCAAAG CTTCACCGGT TTCCGACGAG
+     8281 CGATATCCAT ACACCGGTCC AGCCATTCCC ATTGGTGATT GGGTAGATCC AACTGCCAAT
+     8341 GGCAATGGGA AGGGGTTTCC TCGTCTTGTA GAGCCTCCTG CGGTCAAACC GGCGAAAAAG
+     8401 AAACCCTcca acaatatcaa tgtGATATCC TTGGCGTACA TTCCAGGTGG GATCAATATC
+     8461 CATTACCAGA CGCCATTTGG CTTGGGAGTT GCTCCTTCCG TCAAATGGGG GACTTCTCGC
+     8521 GCAGACTTGG ACTACCACAC AACTGGATAC ACTCATACGT ACGATTATAt attccttctc
+     8581 caaaaatTTT ACAACGCTGA TTTGAACTAG TTACGACCGT ACGCCTCCTT GCTCTATAGT
+     8641 AGCTGTGACG CAATGCAGTC AGTTCTTCCA TGAAGTCCAG ATCGGGACAG TGAAACCAGG
+     8701 CACCAAGTAC TACTACCAAA TCCCAGCTGC AAACGGAACC ACTGCCTCAG AAGTCCTAAG
+     8761 TTTCACTACC GCACACGCAG CTGGCGACCC GAAAGAGTTC ACTGCAGCTA TTCTCGTTGA
+     8821 CATGGGCTAT ACCAACGCGC ACGGCACCTA CAAATATTTA AACGAGGCCG TGAAAGATGG
+     8881 TGCCGCATTT GCGTGGCATG GTGGAGATCT CAGTTACGCC GATGATTGGT ACTCTGGAAT
+     8941 CCTACCCTGC GAGGATGACT GGCCTGTATG CTACAACGGC ACATCGACTG AGTTGCCGGG
+     9001 TGGTGGTCCA ATCCCGGCCG AATATGATGT CCCACTTCCT GCTGGAGAGA TCGCGAACCA
+     9061 GGGTGGGCCT CAAGGTGGTG ATATGAGCGT GTTATACGAG TCCAACTGGG ATCTTTGGCA
+     9121 ACAGTGGATG GTCAATGTTA CCGCGAAGAT CCCATACATG GTTATGCCTG GGAATCACGA
+     9181 AGCCACGTGC AGCGAGTTTG ATGGCCCGGG TAATGTCTTG ACGGCGTATC TCGATGACGA
+     9241 TGTCTCCAAT GGCACCGCAC CAACGTCAAA TCTTACGTAT TATAGCTGTC CGCCATCTCA
+     9301 AAGGTAAAGT TTTTCGGTTC TCATTTCATT TTAATGTAAT TAACAAGAAC AGAAACTTCA
+     9361 CAGCTTACCA GCATCGATTC CGAATGCCGG GAGACGAAGT AGGCGGTGTT GGCAACATGT
+     9421 GGTATTCGTT CGACTACGGC TTAGCCCACT TCATCTCCCT GGACGGGGAA ACAGATTTTG
+     9481 CCTATAGTCC CGAATGGCCC TTTGCTCGCG ACGTCAAAGG CAACGAGACT CTACCTACCG
+     9541 AAGACGAAAC CTACGTAACA GACAGCGGCC CTTTCGGCTC TGTGGGCAAT TACAAAGATA
+     9601 CCAAGACCTA TGCTCAATAC CAATGGCTGG AAAAGGATCT CGCCAGCGTC AACCGAACTA
+     9661 AAACCCCTTG GATTCTTGTC ATGTCTCATC GCCCAATGTA TAGCTCGCAA GTTTCCTCTT
+     9721 ACCAATCAGA TCTTCGTGAG GCTTTTGAGG ATCTTTTACT GCAGAACGGA GTTGATGTTT
+     9781 ACTTGGCCGG GTAAGTCCCA CTCTTATAAC CTCGATCTTC TCCCCCACTG ACCTCGTGCA
+     9841 GTCATATCCA CTGGTACGAG CGTCTCTGGC CTCTCGGCAA GAACGGCACT ATAGACAGCC
+     9901 CTTCCATCGT AAACAATAAC ACCTACTACA CCAACCCCGG CGTCTCCATG ACCCATCTCA
+     9961 TCAACGGCAT GGCCGGAAAT GTTGAAAGTC ACAGTACGCT GGGTACAGGT GATGACGTCC
+    10021 TGCCGATCAC TTCAGTTCTT GATTTTCAGA ACTATGGATT CAATAAACTC AGAGTCATCA
+    10081 ATGCAACAGC CATCTCGTTC TCTTTCGTAA AAGGAAGTGA TGGTtctgtt gaagatgagc
+    10141 ttACGCTACT CAAGCACAAA TCTTCTAATC AGACTACGAC GGGACTTTGA
+//

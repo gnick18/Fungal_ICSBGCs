@@ -1,0 +1,160 @@
+LOCUS       607mF-Z33               3111 bp    DNA     linear   UNC 16-DEC-2021
+DEFINITION  GCA_000721765.1 results based on the annotation PF05141 and  inputs.
+ACCESSION   GCA_000721765.1
+VERSION     1
+KEYWORDS    .
+SOURCE      ICSCreator.py written by Grant Nickles (gnickles@wisc.edu)
+ORGANISM    GCA_000721765.1
+FEATURES             Location/Qualifiers
+     gene            complement(1..1418)
+                     /note="*Name M436DRAFT_86586"
+                     /note="*end_range: 31723,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="M436DRAFT_86586"
+                     /partial
+                     /note="*start_range: .,3030"
+                     /note="*backbone: True"
+     mRNA            complement(1..1418)
+                     /note="*end_range: 31723,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="M436DRAFT_86586"
+                     /note="*orig_protein_id: gnl|jgi|M436DRAFT_86586"
+                     /note="*orig_transcript_id: gnl|jgi|M436DRAFT_mRNA86586"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,30306"
+     exon            complement(1026..1418)
+                     /note="*end_range: 31723,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="M436DRAFT_86586"
+                     /note="*orig_protein_id: gnl|jgi|M436DRAFT_86586"
+                     /note="*orig_transcript_id: gnl|jgi|M436DRAFT_mRNA86586"
+                     /partial
+                     /product="hypothetical protein"
+     exon            complement(791..946)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="M436DRAFT_86586"
+                     /note="*orig_protein_id: gnl|jgi|M436DRAFT_86586"
+                     /note="*orig_transcript_id: gnl|jgi|M436DRAFT_mRNA86586"
+                     /partial
+                     /product="hypothetical protein"
+     exon            complement(1..102)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="M436DRAFT_86586"
+                     /note="*orig_protein_id: gnl|jgi|M436DRAFT_86586"
+                     /note="*orig_transcript_id: gnl|jgi|M436DRAFT_mRNA86586"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,30306"
+     CDS             join(complement(1026..1418),complement(791..946),
+                     complement(1..102))
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="JGIDB:Aurpu_var_nam1_86586"
+                     /db_xref="NCBI_GP:KEQ68216.1"
+                     /note="*Name KEQ68216.1"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="JGIDB:Aurpu_var_nam1_86586"
+                     /db_xref="NCBI_GP:KEQ68216.1"
+                     /note="*Name KEQ68216.1"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="JGIDB:Aurpu_var_nam1_86586"
+                     /db_xref="NCBI_GP:KEQ68216.1"
+                     /note="*Name KEQ68216.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="M436DRAFT_86586"
+                     /note="*orig_transcript_id: gnl|jgi|M436DRAFT_mRNA86586"
+                     /product="hypothetical protein"
+                     /protein_id="KEQ68216.1"
+     gene            1975..3111
+                     /note="*Name M436DRAFT_58936"
+                     /note="*end_range: 33416,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="M436DRAFT_58936"
+                     /partial
+                     /note="*start_range: .,32280"
+     mRNA            1975..3111
+                     /note="*end_range: 33416,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="M436DRAFT_58936"
+                     /note="*orig_protein_id: gnl|jgi|M436DRAFT_58936"
+                     /note="*orig_transcript_id: gnl|jgi|M436DRAFT_mRNA58936"
+                     /partial
+                     /product="DAO-domain-containing protein"
+                     /note="*start_range: .,32280"
+     exon            1975..3111
+                     /note="*end_range: 33416,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="M436DRAFT_58936"
+                     /note="*orig_protein_id: gnl|jgi|M436DRAFT_58936"
+                     /note="*orig_transcript_id: gnl|jgi|M436DRAFT_mRNA58936"
+                     /partial
+                     /product="DAO-domain-containing protein"
+                     /note="*start_range: .,32280"
+     CDS             1975..3111
+                     /db_xref="InterPro:IPR006076"
+                     /db_xref="JGIDB:Aurpu_var_nam1_58936"
+                     /db_xref="NCBI_GP:KEQ68217.1"
+                     /note="*Name KEQ68217.1"
+                     /db_xref="GO:16491"
+                     /note="*gbkey: CDS"
+                     /note="*go_function: oxidoreductase activity |16491||"
+                     /locus_tag="M436DRAFT_58936"
+                     /note="*orig_transcript_id: gnl|jgi|M436DRAFT_mRNA58936"
+                     /product="DAO-domain-containing protein"
+                     /protein_id="KEQ68217.1"
+ORIGIN
+        1 TCATACGCCA GGGCGCTTGC ACTGGTCTGC AGTGCAGTCG GCCTTGGATT CCTCCGACTG
+       61 CATGTTCGGG TTTCTGCCAG GGTGTCCTGC TTCTTCTTTG TCCTGCCAAA CATCAGCCGG
+      121 GAATCTGCCA CAATCCTTTG GGAAATCGTG CCAGGGCACC GCCCATCCCA ATCAGCTCAT
+      181 GTCGCTAGCC GGAGCTCGGG TTTGACCGCG GCGCCGAAAA CCAATAAAGC AGTGCAAGTG
+      241 GCTATCTCGT GATTGGCTGA CTTCGACCCA GAGCAGTGGG CGTCAAACAC CATCCCGATC
+      301 GGGAAAATGA TGATGTACGA CGAGAAAGAA ACCAACGTCC AGCTCGGAGA AGTGCATGAA
+      361 GCAGATACCA TAGTCAGGCC GTCGCATGTT GACTTTCCGA GCTAAAGATC AAGCATGTCA
+      421 GACGCAGTTT TGAGTGAGGC GGTGTGGTTG GTAAAAGCTT TGGTAGTATT GACGGGTCCA
+      481 AACGTCGTTC TGCTTTGCAA CCTGCAGGCT GCAGCTCATC ACATCGGCTT GCGCTCGAGC
+      541 TTCGTGCAGT TCGACGAAAA TGCATCATGC AGGTGAATTT GACCCTTCAC TGAACGACCC
+      601 GATAGACAGG CAGATGTTCT TGGTCTGGTA CGGTTAATGC AAGTGGTCCT GCTATGTTCA
+      661 CCGCTCGTAG CAGTAAGATT CCGCTTTTGA AGCAGGTTCT GGCCTAATCG AACAGGCGAC
+      721 AACACCTCGC AAAGGGACCT CACGTTGTTC TTTTGAAGTG TCATAGAAAA TAGTTGCGCC
+      781 TTGTCTTTAC CAAAAACATG AAGACCGTGA CATTACACGA TAGCGAATTG CCCAAAGCCT
+      841 GTTTGTAAAC CTTTGCCACG TCTTCGGCCA TCGCATTCAG ACGGCACAGT GCAAATTCCT
+      901 CGCCAAGATC AGGCAGGTGA CCTAGCACTT TGTTCTCGCG GTTCGACTAG AGAATACAGA
+      961 ATCAGCTTCT CAATCTGCAG CGATGCTCAC TCGACTTTGG GTTCGAATAA AGATGGTTCA
+     1021 CCTACACTCT TGCAAGGAAA TGCCGGCATA GTAAGCTGGA CTGGCGTAGA CCGGGAGATG
+     1081 TGATGGTAGA CGTGAGGCAA GAAACGAAGC TTTCCACTCC ACATCGCAAG ACTTCCGTCC
+     1141 GTAGTGGTGG CTTGATGGCC AACGTGTGTG CCGTACTGCT CCAGGACATT GAGAACCTCG
+     1201 AACGACAAGC AGAAGTACTC AGCTTCGGCG CCGAATGCGT GGACGCCTGG AGGTGAAGGG
+     1261 ACCGAAGTAG AAGATGTGGA TAACTCAGAG TCGGATTGAG ATTCATCACC CAGCTCCGTC
+     1321 ACAGTGATGT GAGCTTGAGA AAGGCCCTTA TGGTTGAGAC ACAAGGCTTT CTCGCCAGGA
+     1381 ATGTTCTCAG ACGAGAAGGT GATCTTTGTT GGAGCCATTG TCTTTGAAGC AAGAAGTCGA
+     1441 TGGGATCAGG TAGAAAAGAG CTCTGTAGTC TTGCAGGCAG TTTCTTGAGG ATGTATTGCT
+     1501 ATTGGGGAGC GAAGTCCTCC TGATATTTTT GGCACTCTTA TAGGCCTACA CCACGACTAA
+     1561 TTAGAGAAGC CCAATAACTG CCCAGTCCAG TGCATCAATT ACGAAACGCG TAGCTGTATT
+     1621 GTCTGCTCAG CCTTCGAAGT GGCTGCAAAG GAGCTATGTC CTAATCAGGC AAATAGTTCT
+     1681 TCTACAATCT CACGTTGGCT GTAACACCAT GTCACACTCT TCGAATGCCA AGGATCTCCT
+     1741 GCACCATAAC GTAAGTCTGC TATGAAACTG ACAGCTAACA TTGGATGCAC AGCTCGATTG
+     1801 GGGGTCGACT AGTGTCCCCG GAGGATTTCT TCTTGTCATG AATCCTCTTA TACAAGGGCC
+     1861 TCTCCCTCAC ATGTAATAGA ACCGAATGCC TTCGGATTAT ACGGCCTTTT CAGAGGCCAC
+     1921 GAATCGTAGT CAGAGAACCC ACTCTTGTCT GAAAACGGGT TCCAGGACAT CAAAATGCCT
+     1981 TCCCGCAACG ACACTCCAGA GTCGCCGTTT GCAGCGTTGC GAGACCTCAA GCCTGCACTT
+     2041 CCGTACTCGA ACTCTGCGAT CTCCTATTGG CACCGCACAA CTCGAGCATT TGCACATCTC
+     2101 AGGGCTAACG AGACTAGCCC ACTACCTGTC TCTACCAAAT ACACAATCAT CGGCTCTGGT
+     2161 CTCTCTGGAT CGCTCACAGC GTTCGAGCTC ATCAAGTCTG GCATCCCGGC TGAGCAAATC
+     2221 CTCATACTCG AGGCAAGAGA AGCTGTTTCA GGCTCAAGTG GTCGCAATGC AGGTCACGTT
+     2281 CGTCCTGACC CTTGCAGTGA ATTCAGCGGC TATGCTATAG TCCATGGGTC AGACAAAGCT
+     2341 CTCGAAATCG TCAAACACGA AATGGTCGTA CTTGATCTTG TTCAAGAATT CGTCAAGACC
+     2401 CACAACATCG ACTGCGAGTT TCGACCCAAG CAAACTTTCG ATGTTTGCCT CACACGAGAA
+     2461 ATCGCTGAGA GCGAAATGCG CAACGTAGAG CAGTATGTCA GTGCTGGTGG AAGCCTCGAC
+     2521 CACATCAGGT ACCATGAAGG TAATGATGCA AAGGAACGTA CTGGCGTCCA TGATGCACTC
+     2581 AGTGCATGGG AATGGCCGGC TGCTACGATC CATCCTGTCA AGCTCGCTCA GTGGCTACTC
+     2641 TCGAGCTCGA TCGACAAAGG CTGCAAGCTG TTCACCCACT GCCCAGTCAT TCAGATCACC
+     2701 CAAAACGAAG ATGAGACTTG GAACATGCAC ACGAATCGAG GCATGGTGTC TACCAACAAG
+     2761 GTCATCCATT GCACAAACGC GTATGCTGGT AGTCTGCTTC CTCAACTTTC TGCGATGCTG
+     2821 CTCACCCCGA TCAAAGTGCA AATGCATTCC TTGATCCCAG ACCAAGCTTT CTCTGGCGGC
+     2881 AACATGTTGC AGGCGTCGAT GGCTCTGAGA TACGAGGAAC ATCGCTACTA TGCTTTGACC
+     2941 CAGATGGAGA AAGACGGAAC CATTATATTC GGTGTCGCAA AGCCATCGGG TTTTACATTT
+     3001 GATGACACTT CGTACACGGA TGAGTTGGTG ATCGAGGGGC TGGAGAAGTT TGAGGAGTCC
+     3061 CACGACCGCC CGAGCCACTA CAGCCTATCG GTCTTGCATA CCATCGGTTG A
+//

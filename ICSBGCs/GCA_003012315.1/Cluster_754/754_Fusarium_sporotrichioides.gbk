@@ -1,0 +1,82 @@
+LOCUS       1456mF-Z83              1561 bp    DNA     linear   UNC 16-DEC-2021
+DEFINITION  GCA_003012315.1 results based on the annotation PF05141 and  inputs.
+ACCESSION   GCA_003012315.1
+VERSION     1
+KEYWORDS    .
+SOURCE      ICSCreator.py written by Grant Nickles (gnickles@wisc.edu)
+ORGANISM    GCA_003012315.1
+FEATURES             Location/Qualifiers
+     gene            1..1561
+                     /note="*Name FSPOR_6050"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="FSPOR_605"
+                     /note="*backbone: True"
+     mRNA            1..1561
+                     /note="*gbkey: mRNA"
+                     /locus_tag="FSPOR_6050"
+                     /note="*orig_protein_id: gnl|WGS:PXOF|FSPOR_6050"
+                     /note="*orig_transcript_id: gnl|WGS:PXOF|mrna.FSPOR_6050"
+                     /product="hypothetical protein"
+     exon            1..673
+                     /note="*gbkey: mRNA"
+                     /locus_tag="FSPOR_6050"
+                     /note="*orig_protein_id: gnl|WGS:PXOF|FSPOR_6050"
+                     /note="*orig_transcript_id: gnl|WGS:PXOF|mrna.FSPOR_6050"
+                     /product="hypothetical protein"
+     exon            759..1135
+                     /note="*gbkey: mRNA"
+                     /locus_tag="FSPOR_6050"
+                     /note="*orig_protein_id: gnl|WGS:PXOF|FSPOR_6050"
+                     /note="*orig_transcript_id: gnl|WGS:PXOF|mrna.FSPOR_6050"
+                     /product="hypothetical protein"
+     exon            1217..1561
+                     /note="*gbkey: mRNA"
+                     /locus_tag="FSPOR_6050"
+                     /note="*orig_protein_id: gnl|WGS:PXOF|FSPOR_6050"
+                     /note="*orig_transcript_id: gnl|WGS:PXOF|mrna.FSPOR_6050"
+                     /product="hypothetical protein"
+     CDS             join(1..673,759..1135,1217..1561)
+                     /db_xref="NCBI_GP:RGP67292.1"
+                     /note="*Name RGP67292.1"
+                     /note="*Note related to abc1 transport"
+                     /db_xref="NCBI_GP:RGP67292.1"
+                     /note="*Name RGP67292.1"
+                     /note="*Note related to abc1 transport"
+                     /db_xref="NCBI_GP:RGP67292.1"
+                     /note="*Name RGP67292.1"
+                     /note="*Note related to abc1 transport"
+                     /note="*gbkey: CDS"
+                     /locus_tag="FSPOR_6050"
+                     /note="*orig_transcript_id: gnl|WGS:PXOF|mrna.FSPOR_6050"
+                     /product="hypothetical protein"
+                     /protein_id="RGP67292.1"
+ORIGIN
+        1 ATGCCTCATC AGACTCCAGA CCATCTGGAT ACTTCAcagg aagaaaacaa agcGACGAAA
+       61 ATTACCAAAA CTATGAATAC CACGGAAGAA ATCAACACAA TGGAGCACAC TGTTGTTATA
+      121 GCCCACCATG AACCTTCTAT CAACACAACA TATGTTTCAT CAGACCATGC CAATGTCTCT
+      181 GGACCCGACT TCTTGAAGTT AAAGACACCG ACTATCAACA TAGCTGCATC AGACGTCTCG
+      241 TTCGACGACA CCATGTCAAC AAgatcctcc agctccagcc tCGCGACCGA GATGACGGGC
+      301 CCTCCCGTCG CAGACGACAA AACGGAAGAC CCTAGCGAAG CCAAAATCTC GAAGACATCT
+      361 GAGAGGATTT TGGACGTCAT ACTGGAATAC TCCCTCAACA AATTTGACAG CACCGCGGAA
+      421 CTCCACAGCA AAGGCAGGCC GAAGtttctt gccatcatct cACGCTTTGT CAGGGCCCGA
+      481 CAAACGGTGG TTATGTGTCT GCCAGCATTC CCGTTCAAGT CGGCGAACAA GATCGAAAAG
+      541 GTGTTAGGCA ATCTCCCCGA CAAAGCCGAG GAGTTATCAC TCGCTAGACT TAACTCCATG
+      601 TGTGCCACCA TTGGCCGTTT CTACGAGCCG GGGGCTGAGT TGACCATCAT CTCAGACGGC
+      661 CTGGTTTACA ATGGTTTGTT CAATCTCTTC AGCCATCACT TCAGATAAGA TGGCAAATTA
+      721 CTGACATGTC GCTTTCAATC GTCAACTAGA CTTGTTAGAC ATTTCCGACC TCGAGACCTG
+      781 GCGCTACGGT TCAGAGCTAC GAGCCATGGC CGAGCGCAAG GACTTCTCCA ACCTCGCATT
+      841 CTCACGTCTT CAGGATTTGG TTGCAGTAAA GGGCCTCCCC AACGAACTCA ACGAGCTCAC
+      901 GTACGTTGCC AACGCAACCA ACTTCCGTCG GACCCTTTTC AACAAATACG GCCGTGACGG
+      961 CGATTTGGAT ATTGACCATG AAATCGCTAC GAATATGGAT ACGCTCGGGA CGTATAAGGG
+     1021 GTACTGTCGC TTCCTTAAGT CTGACTTGCA GCACATCTAC GGCCCAGCCA AGAGCTCCGC
+     1081 AAAGTACAGG AAAGATGTCA AATATCTTGC TAAACAGCTT CTGATCCGCG GCTATGTAAG
+     1141 TTTCCTAATC ATTACTCTAG CCAGTTATAT CGATACGCTG TGAAGATCCT ATAGCTAACC
+     1201 GGAGTTCTTT GATCAGGCCT TTGCGGGAGC TGTTAAGGCG CGCTTCCCAG ACCATTTACG
+     1261 TCTCAGTATC CATCAGTCTA CCGGAGAGCA CAAAATTTCC ctcagccttc tcaacaCTAA
+     1321 AAGCGGCTTC ACGACGCCGT GGCATTGTAG CGTTGCGTTG ATGGAAGATG GGGAATGGCT
+     1381 CAGCGGCCTT GCGATCGACT TCAAAGCCGA TCGGCTATTG GAACTCGTCG AGGAGGATGG
+     1441 AAGGCCGAGT TACTTTAGGG AGGTCGCCCG TCAGCGACCG TACCTAACGG AGAGTGCGAA
+     1501 ACCGCGTATA GTTGTCAAGC AGGAACCACA GGCTCATAGA CCCAGGATAC GAGCGCCGTA
+     1561 G
+//

@@ -1,0 +1,590 @@
+LOCUS       3002mF-Z88             12797 bp    DNA     linear   UNC 16-DEC-2021
+DEFINITION  GCF_000170995.1 results based on the annotation PF05141 and  inputs.
+ACCESSION   GCF_000170995.1
+VERSION     1
+KEYWORDS    .
+SOURCE      ICSCreator.py written by Grant Nickles (gnickles@wisc.edu)
+ORGANISM    GCF_000170995.1
+FEATURES             Location/Qualifiers
+     gene            complement(1..1204)
+                     /db_xref="GeneID:25792624"
+                     /note="*Name TRIVIDRAFT_28177"
+                     /note="*end_range: 2992046,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="TRIVIDRAFT_28177"
+                     /partial
+                     /note="*start_range: .,299084"
+                     /note="*backbone: True"
+     mRNA            complement(1..1204)
+                     /db_xref="GeneID:25792624"
+                     /db_xref="Genbank:XM_014101736.1"
+                     /note="*Name XM_014101736.1"
+                     /note="*end_range: 2992046,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TRIVIDRAFT_28177"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,2990843"
+                     /note="*transcript_id: XM_014101736.1"
+     exon            complement(497..1204)
+                     /db_xref="GeneID:25792624"
+                     /db_xref="Genbank:XM_014101736.1"
+                     /note="*end_range: 2992046,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TRIVIDRAFT_28177"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*transcript_id: XM_014101736.1"
+     exon            complement(1..426)
+                     /db_xref="GeneID:25792624"
+                     /db_xref="Genbank:XM_014101736.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TRIVIDRAFT_28177"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,2990843"
+                     /note="*transcript_id: XM_014101736.1"
+     CDS             join(complement(497..1204),complement(1..426))
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="JGIDB:TriviGv29_8_2_28177"
+                     /db_xref="GeneID:25792624"
+                     /db_xref="Genbank:XP_013957211.1"
+                     /note="*Name XP_013957211.1"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="JGIDB:TriviGv29_8_2_28177"
+                     /db_xref="GeneID:25792624"
+                     /db_xref="Genbank:XP_013957211.1"
+                     /note="*Name XP_013957211.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="TRIVIDRAFT_28177"
+                     /product="hypothetical protein"
+                     /protein_id="XP_013957211.1"
+     gene            3606..4874
+                     /db_xref="GeneID:25789546"
+                     /note="*Name TRIVIDRAFT_191602"
+                     /note="*end_range: 2995716,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="TRIVIDRAFT_191602"
+                     /partial
+                     /note="*start_range: .,2994448"
+     mRNA            3606..4874
+                     /db_xref="GeneID:25789546"
+                     /db_xref="Genbank:XM_014101737.1"
+                     /note="*Name XM_014101737.1"
+                     /note="*end_range: 2995716,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TRIVIDRAFT_191602"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,2994448"
+                     /note="*transcript_id: XM_014101737.1"
+     exon            3606..4301
+                     /db_xref="GeneID:25789546"
+                     /db_xref="Genbank:XM_014101737.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TRIVIDRAFT_191602"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,2994448"
+                     /note="*transcript_id: XM_014101737.1"
+     exon            4356..4874
+                     /db_xref="GeneID:25789546"
+                     /db_xref="Genbank:XM_014101737.1"
+                     /note="*end_range: 2995716,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TRIVIDRAFT_191602"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*transcript_id: XM_014101737.1"
+     CDS             join(3606..4301,4356..4874)
+                     /db_xref="InterPro:IPR011701"
+                     /db_xref="JGIDB:TriviGv29_8_2_191602"
+                     /db_xref="GeneID:25789546"
+                     /db_xref="Genbank:XP_013957212.1"
+                     /note="*Name XP_013957212.1"
+                     /db_xref="InterPro:IPR011701"
+                     /db_xref="JGIDB:TriviGv29_8_2_191602"
+                     /db_xref="GeneID:25789546"
+                     /db_xref="Genbank:XP_013957212.1"
+                     /note="*Name XP_013957212.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="TRIVIDRAFT_191602"
+                     /product="hypothetical protein"
+                     /protein_id="XP_013957212.1"
+     gene            complement(5312..6327)
+                     /db_xref="GeneID:25796036"
+                     /note="*Name TRIVIDRAFT_60168"
+                     /note="*end_range: 2997169,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="TRIVIDRAFT_60168"
+                     /partial
+                     /note="*start_range: .,2996154"
+     mRNA            complement(5312..6327)
+                     /db_xref="GeneID:25796036"
+                     /db_xref="Genbank:XM_014101738.1"
+                     /note="*Name XM_014101738.1"
+                     /note="*end_range: 2997169,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TRIVIDRAFT_60168"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,2996154"
+                     /note="*transcript_id: XM_014101738.1"
+     exon            complement(6290..6327)
+                     /db_xref="GeneID:25796036"
+                     /db_xref="Genbank:XM_014101738.1"
+                     /note="*end_range: 2997169,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TRIVIDRAFT_60168"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*transcript_id: XM_014101738.1"
+     exon            complement(6003..6232)
+                     /db_xref="GeneID:25796036"
+                     /db_xref="Genbank:XM_014101738.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TRIVIDRAFT_60168"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*transcript_id: XM_014101738.1"
+     exon            complement(5312..5940)
+                     /db_xref="GeneID:25796036"
+                     /db_xref="Genbank:XM_014101738.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TRIVIDRAFT_60168"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,2996154"
+                     /note="*transcript_id: XM_014101738.1"
+     CDS             join(complement(6290..6327),complement(6003..6232),
+                     complement(5312..5940))
+                     /db_xref="InterPro:IPR002198"
+                     /db_xref="JGIDB:TriviGv29_8_2_60168"
+                     /db_xref="GeneID:25796036"
+                     /db_xref="Genbank:XP_013957213.1"
+                     /note="*Name XP_013957213.1"
+                     /db_xref="InterPro:IPR002198"
+                     /db_xref="JGIDB:TriviGv29_8_2_60168"
+                     /db_xref="GeneID:25796036"
+                     /db_xref="Genbank:XP_013957213.1"
+                     /note="*Name XP_013957213.1"
+                     /db_xref="InterPro:IPR002198"
+                     /db_xref="JGIDB:TriviGv29_8_2_60168"
+                     /db_xref="GeneID:25796036"
+                     /db_xref="Genbank:XP_013957213.1"
+                     /note="*Name XP_013957213.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="TRIVIDRAFT_60168"
+                     /product="hypothetical protein"
+                     /protein_id="XP_013957213.1"
+     gene            complement(7690..9623)
+                     /db_xref="GeneID:25792682"
+                     /note="*Name TRIVIDRAFT_28724"
+                     /note="*end_range: 3000465,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="TRIVIDRAFT_28724"
+                     /partial
+                     /note="*start_range: .,2998532"
+     mRNA            complement(7690..9623)
+                     /db_xref="GeneID:25792682"
+                     /db_xref="Genbank:XM_014101739.1"
+                     /note="*Name XM_014101739.1"
+                     /note="*end_range: 3000465,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TRIVIDRAFT_28724"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,2998532"
+                     /note="*transcript_id: XM_014101739.1"
+     exon            complement(9493..9623)
+                     /db_xref="GeneID:25792682"
+                     /db_xref="Genbank:XM_014101739.1"
+                     /note="*end_range: 3000465,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TRIVIDRAFT_28724"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*transcript_id: XM_014101739.1"
+     exon            complement(8653..9420)
+                     /db_xref="GeneID:25792682"
+                     /db_xref="Genbank:XM_014101739.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TRIVIDRAFT_28724"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*transcript_id: XM_014101739.1"
+     exon            complement(8468..8564)
+                     /db_xref="GeneID:25792682"
+                     /db_xref="Genbank:XM_014101739.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TRIVIDRAFT_28724"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*transcript_id: XM_014101739.1"
+     exon            complement(8171..8406)
+                     /db_xref="GeneID:25792682"
+                     /db_xref="Genbank:XM_014101739.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TRIVIDRAFT_28724"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*transcript_id: XM_014101739.1"
+     exon            complement(7808..8121)
+                     /db_xref="GeneID:25792682"
+                     /db_xref="Genbank:XM_014101739.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TRIVIDRAFT_28724"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*transcript_id: XM_014101739.1"
+     exon            complement(7690..7748)
+                     /db_xref="GeneID:25792682"
+                     /db_xref="Genbank:XM_014101739.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TRIVIDRAFT_28724"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,2998532"
+                     /note="*transcript_id: XM_014101739.1"
+     CDS             join(complement(9493..9623),complement(8653..9420),
+                     complement(8468..8564),complement(8171..8406),
+                     complement(7808..8121),complement(7690..7748))
+                     /db_xref="InterPro:IPR001138"
+                     /db_xref="InterPro:IPR007219"
+                     /db_xref="JGIDB:TriviGv29_8_2_28724"
+                     /db_xref="GeneID:25792682"
+                     /db_xref="Genbank:XP_013957214.1"
+                     /note="*Name XP_013957214.1"
+                     /db_xref="InterPro:IPR001138"
+                     /db_xref="InterPro:IPR007219"
+                     /db_xref="JGIDB:TriviGv29_8_2_28724"
+                     /db_xref="GeneID:25792682"
+                     /db_xref="Genbank:XP_013957214.1"
+                     /note="*Name XP_013957214.1"
+                     /db_xref="InterPro:IPR001138"
+                     /db_xref="InterPro:IPR007219"
+                     /db_xref="JGIDB:TriviGv29_8_2_28724"
+                     /db_xref="GeneID:25792682"
+                     /db_xref="Genbank:XP_013957214.1"
+                     /note="*Name XP_013957214.1"
+                     /db_xref="InterPro:IPR001138"
+                     /db_xref="InterPro:IPR007219"
+                     /db_xref="JGIDB:TriviGv29_8_2_28724"
+                     /db_xref="GeneID:25792682"
+                     /db_xref="Genbank:XP_013957214.1"
+                     /note="*Name XP_013957214.1"
+                     /db_xref="InterPro:IPR001138"
+                     /db_xref="InterPro:IPR007219"
+                     /db_xref="JGIDB:TriviGv29_8_2_28724"
+                     /db_xref="GeneID:25792682"
+                     /db_xref="Genbank:XP_013957214.1"
+                     /note="*Name XP_013957214.1"
+                     /db_xref="InterPro:IPR001138"
+                     /db_xref="InterPro:IPR007219"
+                     /db_xref="JGIDB:TriviGv29_8_2_28724"
+                     /db_xref="GeneID:25792682"
+                     /db_xref="Genbank:XP_013957214.1"
+                     /note="*Name XP_013957214.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="TRIVIDRAFT_28724"
+                     /product="hypothetical protein"
+                     /protein_id="XP_013957214.1"
+     gene            11000..12797
+                     /db_xref="GeneID:25792693"
+                     /note="*Name TRIVIDRAFT_28823"
+                     /note="*end_range: 3003639,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="TRIVIDRAFT_28823"
+                     /partial
+                     /note="*start_range: .,3001842"
+     mRNA            11000..12797
+                     /db_xref="GeneID:25792693"
+                     /db_xref="Genbank:XM_014101740.1"
+                     /note="*Name XM_014101740.1"
+                     /note="*end_range: 3003639,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TRIVIDRAFT_28823"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,3001842"
+                     /note="*transcript_id: XM_014101740.1"
+     exon            11000..11153
+                     /db_xref="GeneID:25792693"
+                     /db_xref="Genbank:XM_014101740.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TRIVIDRAFT_28823"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,3001842"
+                     /note="*transcript_id: XM_014101740.1"
+     exon            11211..11493
+                     /db_xref="GeneID:25792693"
+                     /db_xref="Genbank:XM_014101740.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TRIVIDRAFT_28823"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*transcript_id: XM_014101740.1"
+     exon            11549..11693
+                     /db_xref="GeneID:25792693"
+                     /db_xref="Genbank:XM_014101740.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TRIVIDRAFT_28823"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*transcript_id: XM_014101740.1"
+     exon            11745..12797
+                     /db_xref="GeneID:25792693"
+                     /db_xref="Genbank:XM_014101740.1"
+                     /note="*end_range: 3003639,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="TRIVIDRAFT_28823"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*transcript_id: XM_014101740.1"
+     CDS             join(11000..11153,11211..11493,11549..11693,11745..12797)
+                     /db_xref="InterPro:IPR011701"
+                     /db_xref="JGIDB:TriviGv29_8_2_28823"
+                     /db_xref="GeneID:25792693"
+                     /db_xref="Genbank:XP_013957215.1"
+                     /note="*Name XP_013957215.1"
+                     /db_xref="InterPro:IPR011701"
+                     /db_xref="JGIDB:TriviGv29_8_2_28823"
+                     /db_xref="GeneID:25792693"
+                     /db_xref="Genbank:XP_013957215.1"
+                     /note="*Name XP_013957215.1"
+                     /db_xref="InterPro:IPR011701"
+                     /db_xref="JGIDB:TriviGv29_8_2_28823"
+                     /db_xref="GeneID:25792693"
+                     /db_xref="Genbank:XP_013957215.1"
+                     /note="*Name XP_013957215.1"
+                     /db_xref="InterPro:IPR011701"
+                     /db_xref="JGIDB:TriviGv29_8_2_28823"
+                     /db_xref="GeneID:25792693"
+                     /db_xref="Genbank:XP_013957215.1"
+                     /note="*Name XP_013957215.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="TRIVIDRAFT_28823"
+                     /product="hypothetical protein"
+                     /protein_id="XP_013957215.1"
+ORIGIN
+        1 CTAAGCGAAA CCTAGGGGAA TAACTGGGGA GAATCCTTTG CTCAGCTGCT TAATCTTGGC
+       61 CAATTCATTG GGGCCAATAG TTGGCGCAGC TTCACCCTCA ACTGGCTTTG CTCTGACATA
+      121 GAGTCCCCGA GGATAGAAAA CCTCAAACTC GACAGGCACA TCCCACTTCC ACACGTCGGA
+      181 GCGGTCTCGG TAATAGTAGG GTCGTCCTTC CTGCTCGATG ACATCAAACG ACTCACGCAG
+      241 TTCTACAGCA TGGGCGGTGC GGAACTGGCC CTTGGAAGTG ACAGCAAGGC AACAATGCCA
+      301 CGGGGTCATG GAGAAATGAC TCGGCTGGGG AAccagaggg aaagagagct TGTTGGCACC
+      361 GGTGGAACGA TGGATGGACA AACGAACGTG ATCCGGAAAG TTggcgtcaa tggcagcagc
+      421 aaaggcctAT GAGAGGTTAG TTGAATAAGC TCATGTAACG TAACTAGTGC TGGGGGGTCC
+      481 GATTGAGAGT TCATACCTTG CCGCGGGTAA TCATGTCGCT AGCTACTCGC TTGACGGTTC
+      541 TCTTGTACTC TCCCTTGGTG GTAACATTGG CTGTAACAGG GCTGTATTTC AAATCCTTGT
+      601 TCAAGAAGAT GATATAGCCG CAATATGTGA GATTGATATC CGGGTCGTTG GAGATTGCCT
+      661 CGCGAGCATC AAAATCCTTG GGCATATACT TCTCCACGAG CATCTTGCGG GACTCGTCGA
+      721 CGCGACTGAC ATATTCCTCC TTTGTTAATT GGATGCTGTC ACTAACACCA ACCAGGTTCA
+      781 TGATTCGCAT AAACTTGAGA CGGTCATAGC CTTTTGTCTC AGCCATGCGT CGTAGGTTCA
+      841 AGCCGTATTC AAAGACTTCC TCACTCGAAA TCCCAACCAG GTCACTATAG ACCAGACCGT
+      901 CTGAAGTAAT CGTCACGTAA GCTCCAGGGG GGTAAATTTC TTGAATATCC TCGCAGAGAT
+      961 TCTGGAGACG GCCCAGGGCC AGCTCCTCAC CCAAATCAGG CAAAGCTCCA AGTACTTTTT
+     1021 CTACCTTGTT CACACTCTTC CAGGGGAAAG CAGGAAGAAC GAGCTCAATT GGTGCATTGC
+     1081 TATCGACATG CTTTTGAACA CGAGGAACAA ATTTTGCACG ACCCACCCAC TGCTCGCCTT
+     1141 CAGCATTCTC TTCGTTGTGG CCATATCCTT GAATGATAGT CAGGATGCGT GATGTCATGT
+     1201 CCATATCTGG CTTCTTTGCT GGGAGATTAT TCCTTGCTAC AGCTTTTGAA GGCTTGATAG
+     1261 CGTCTGCGTT CGATACgggg ggaggaagaa gatccCGGGT ATCGAGGGAC AGCTCTGAAG
+     1321 AGAGAGTATC AGAATCTGAT CCAGAATCTA AATCGCTAGA TGAACCGGAA ACAACCGCTG
+     1381 GGCTAACTGA TCTCTTCCAT TGTGTAAGCT CTTTAACTTG AGCTTCTAGA AGGGCCAGAC
+     1441 GGTTGAAACC TCCATGTTGA GGCTCGACGG CAAATCCATG GCCGTCTTGC ACATCAacaa
+     1501 tgttgatggc aatggttTTT GAAGCTAGGA TAGACATTGT AGAAATATTG CAGAAAGACA
+     1561 AAAGTAAATG ATGAAAAAGA GCTCGAATAG TCGAGTTGGA AATTATGTTA CTGTAAGAGA
+     1621 TGTTTATttg gatgaaagaa gaaaaaaatg tgAAAGACTT TGAAGTCAAT ATATATATCG
+     1681 TGAAAGGATA GTTGAATTGA TAGTCTTAAT GATTCATAGC AAGCAATATA CTACAACACA
+     1741 ATAGTGAAAA CACTATTTAT AGTCATAGAT GCGAATGAAG TATATTATCG ATTATATAAG
+     1801 ACGGACGATA GACTTTGTCA CCAGCGTTTT GTTTATGCCC CCACCAAATG GGCTGCTGCA
+     1861 TTAGGAAAGA GATTGTTTTA AGCCCTCGCC AGATGGTCTA AACTAATTCG CCCGACTCAG
+     1921 CTACCGACAG CGAAGGATCG AGCTATCCCA TCTACCTACC TGCTTTGGCT GGCGAGAGTG
+     1981 TATACCTGTA TTGGCCAGAG TCCATGGCAT CAGCAACGTT TACTCCAATG GTGTGACAGA
+     2041 AAAGTGACGA GATTGAAATT AAAAGTGGAA CATAATGTTC AAAAGGTCTC GTGAAAACAC
+     2101 AGATCTTGTT TGTGTACAAA GCATGTGGCC Agcttacttt tcttttcttg attCAGCCTT
+     2161 TCCAAGATCT ACAAAAGGAG TTCGCTGAGT CGTCTATGCC CCACAGCTCG TAAAATCCTT
+     2221 CGGGAAAATA ATACACCGCA TAAAATTTCG TATTACTGTA CTCCATATAC TACTAACCCT
+     2281 ATGGTACGCA AGTAAGACAT ACTAGTATCA AGTAAGCAAG CAACTTGACA TCGTACGATA
+     2341 CAACTAGGAT TCCAGACAAC ATGTCTCCAC GGTTCGAAAC CGGTTACTGA GAATGAGGAA
+     2401 CGACTACTGG AACAATCAAT TATAGGCAAG TGCCGCGTCA AAGAATACTA ATTATTAGCC
+     2461 TAGTGCTGCT TAAAGTCCGA ATCTCTGCTT TAGTCGACGG CTCGATCCGT TGGCGGAAGC
+     2521 GGGAGCAGCG GTATTAGTTG CCGCACCTCG TCGTTGTGCT TTTCAAATAG TGTGTCTGGT
+     2581 GGCTTTCGCC AAGTTCCAGC CCTGCAAGCG GTGTGCATCT AACTGCAACG GTGTGTGTAG
+     2641 ATCCAGTTCG AGCCAGAATC AATTCTAGCA TCTGGTGTGT CATTGCTTGC TAAGATTTGC
+     2701 GACTCCACGA CTCCAACTGC CGATTGAGCC CAGGAACCCT TGGCCAGATT CAGATGACTA
+     2761 GCTCCACTAT AAGCACATTA AACCCTGGCA CCTTTGAGGT TATTGTAAAA TAGCCCATCT
+     2821 TGTAGCCCAG ATGCAACGTT CGATGTTCGA ATCGTGTTCT CTTTAACTCT TTGTAACTGC
+     2881 CATATTAGGC CAAGAATCTG CCTTTGATCT TTTGATTCAT TCAGGGGTTT ACATCTCTCG
+     2941 CTTGGCTATG GATGGGCCTC TTGCGCAGGA ACGCCATGGT TAGTCATATT GTGACTAAGG
+     3001 CTTTTTAGAT TCGCTTTGGG CAGCCAGCAT AAGATCGGGT TACCTATCAG AGACGCTAAG
+     3061 ATGCGACCTG ACTCAATATC GGCCTTCTCT TTCTGGATGG ATGTTGCTTT TCCGGTCGTT
+     3121 TTCCGAATAT ATTTCCGTTT TAGCTCTCCT TAGTACTGCT TCGCCATCTA GACAGACACC
+     3181 AATATTTGCG TAATACAGCG CCAGCCTTGT GAATAGACGT ATACGATTTC CAGGTTGACA
+     3241 AATTAATCCT GGGCACCAAG GAGAAAAGCA ACCTGCCTTA CTGAGCATCG CCGCTGACTT
+     3301 GGATCTCTGA CAAGCATTAG TGGCTGATGC GGCTACTAAT TAAAAATTTC CTGCCTTTCT
+     3361 AGGATTATGA TCTGCAAATC TACTATACGA AGTAGGCGCG GATAATATCT AACCTCAGCT
+     3421 GAATGTAAAA CACGAAGTTA TGCCTGTATT GTTTTTCAAA AGTTCattaa gaagaaaaat
+     3481 agagaagaga gacaagggag aaaagaaaaa cgtAAAGAGA AATGGACAGC TTGGTTGTTG
+     3541 ACGCCGAAAA GACCGATCCT GTCGAGTCCT CGGAAGAAAC GTTCCCAAGT CCCCCATCCC
+     3601 CAGCGATGGA CCCAACATCT CCTTCCAGAT GGACTGCCTA TCTCCAAATC TTGGCCGGTC
+     3661 ACTTGATGAT CTTTGATACA TTTGGCTACA TTGGATCTTG GGGTCTATTC CAATCCTATT
+     3721 ACATATCTAC CTTGGGTCGT TCTCAGTCCG ACATATCTTG gattggcagc atccaacTTT
+     3781 TACTCGTCTT TTTCGTCGGT ACCTTTTCTG GGCGCAGCCT TGATGCAGGA TATCTCCGTA
+     3841 TCACATTAGC CATCGGTTGC GCCCTCCAGA TCCTAGGAAT ATTCGCGGCG GCTTCTGCCA
+     3901 CCACATACTG GCAACTCTTA CTAGCGCAAG GCATCTGCGt tggccttgga gatggactcA
+     3961 TCTTTTGTCC CATGATCTCT CTCATCAGCA CATACTACGA TGACAAGAAT CGGGCTCTGG
+     4021 CCGTTtcatt tgctgctgcc ggcgctgctA CTGGTGGGAT GGTGTTCCCT GCTATTGCCA
+     4081 AACAGCTGCT CCCCCGTCTA GGTGAGCCTT GGTCGGTGCG CGTGATGGGA TTTGTTTTTG
+     4141 TATTCAACTC AGCAATTACT CTGCTTGTTG TGAGGCCTCG GGTAGCAGCA CGGAAATCTG
+     4201 GGCCACTGGT TGAATGGACG GCTTTTAAGG AGCTTCCCTA CTCACTATac gccattggca
+     4261 tcttTCTAAC TCTCTGGGGT CTCTATTTTG CCTATTACTA TGCAAGTATC TCCCATTTCT
+     4321 CCAACATACA GTTGTCTAAT TATTTGCGCG CGCAGATTTC AATCTTCGGC TCCCACATCA
+     4381 TCCACGTTCC ACCCGCTCAG TCCTTTTacc tcatcattgc catcaacgGT ATCGGAATCC
+     4441 CGGGACGAAT CTTCCCAGCG TGGCTCGCAG CTCGCGTCAT CGGAAATGCA CTACATGTGC
+     4501 TGATTCCTCT TACATTTGGC GCGGGAGTAC TTCTATACTT GTGGAGGCTG GTACACTCAT
+     4561 ACTCGGGTCT GCTTGCATGG ATTATTGTCT ACGGCTTCTT TGCAAATGCC GTGCAGAGTC
+     4621 TCTTTGTAGG CAGCGTAGGT AGTTTGACCA AAGACCGCCA AAAGATGGGC GTCCGGGTTG
+     4681 GCATGATTTT CACTATTGTC AGCTTTGCTT GTCTCACTGG CCCGCCTATT GCTGGTGCAT
+     4741 TGATTGATCT GCGTGGTGGG GATTTCCTAT ATGCTCAGAT CTTTGGAGGA ACTGCGGTGG
+     4801 TTTTTGGAGC ATGCGTTCTT GCGGCAGCTG CTATTATCAG TAACAGTGAA ATCAGCTTGA
+     4861 ATCAAAAGAC GTAATTCGAC ACCGAAAGAG CAATTTAACC GTCACGTCTT GTTTTGGCAG
+     4921 CGTTGCTAAC AATTCCGGTT GTATGCAAAC CTTCTATTGT ATATATGACT AAAGACAGAT
+     4981 GGCATGCGTG TATTTAATGG AGCCCAACTC ATTGTAGTGC TTGAAGTAAG ATTTTGATAA
+     5041 CTAGCTCCCT TGGTGGACGt tgaataaaaa aataagtaAA TGCACCCGCA GCATGTCCAA
+     5101 GTTATGGTAA CTGATAAGGC tgacgatgct gagaaggcgA ACTCTCTGCT GTGTCCTAGG
+     5161 Ctatgaaatg aagaaagaaa aagctaGCTG caaacaagag caaaagagaa gtGGCCTTGA
+     5221 CCAAGGAATG GTCGCAGAGA TCCATGTGAC AACACAGCAG TAGCCACTAA GCTTAATATC
+     5281 CGTGGATTCT CTATTCCAAG ACAGCAGCCG CTCAAGCGCT CTTTGTGGCC CGATCTTGTC
+     5341 CCAACTTGAA GATGCTCGAC TTGACCTCAG CTGTGTCTAA GCcagctctc ttcatcaaag
+     5401 tGTTGTCAAA TACGGTTCTC GGCCCCACTG CGTTAAGCAA CCAGATAAGA AACGCGTTTG
+     5461 AACCCTTCCA GACGAATGTT GTTTTGCCAT CATTCACCGT GCCGACAACC TGGCGAGCAA
+     5521 ATTCTGCTGG GCGCATTGCA TCCTCGACGC GAGTGGCGGT CCTCGCCTTG ATGGACTCTT
+     5581 CTACGTCCCG GTACAAGCTG TCGGGGCCGA AGTTGATGGT TTCGCCTGAT ATCATCGGTG
+     5641 TAGAGACTTC GCCCATGAAT AATGTCACTA CTCTTATACC AAGGGGTTGA ACTTCGAGTC
+     5701 GGAGCGTATC AGAGTATAAT GCAACCGCTG CTTTGCTCGC GTTGTAGGCG GACGTGAACA
+     5761 GATTTGGTAG GCGCGCCAAA ACCGATGCAA CGTTGACAAT GGTCGGCACG TTGTTTGGAG
+     5821 CTACGGAGGC TAAAAGGAGA GGCGTGAAGG CGGTGACCAT CTCCATGAGC CCAAACACAT
+     5881 TGGTATCAAA GATACTGCGG ACGCGAGATG GATCCGCCTC AACAGCTGGT GCTTTGTATG
+     5941 CTGTAGCTGG TCAGTGTTCC AGCCCGTAAT AACAGAAGGG GGTGTTAATG AGGGCTATCC
+     6001 ACATATGCCA GCATTGTTGT ATAATATGTC TAGGCGGCCT TGTGTGCGAG TCGTAATTTC
+     6061 TTCCACGAGG GTTCGAATGC TTTCGGCGCT TGTGATATCT AAAACAAGAG TCTCGATGCC
+     6121 TTTCTCCCGA AGATTGTCCA GAGTCTTCTG GGAACGCGCA GTCGCAAAGA CACGGAACCC
+     6181 TTTGGACGCG AATTCCAGGG CCAGTGCGTT GCCAGCACTA CCCTGGGAGC ATCTATCACC
+     6241 AGCAATGATT AGCCAGAAGG GAATGGAGGC GCTTGTTATG AATACGTACC CAGTAATTAG
+     6301 GACAGATCTT TTCGTTTGAT TAGACATTGA ATTGGTATCA AAGGTCGAAT GGGATTGGTG
+     6361 CCGAGTCTGG GCTGATGGAA AGTTCTCTTC ATTTATAGAC TTTGGGCTGT TACCTGCACT
+     6421 TTCTCGGTTG CAACCAAACC TCTAGTTAAA TAAAGAAGAC TAGACGTAGA GTGGCAGCTA
+     6481 CTCTGAACCC GGACCCCTTA TGAGACGAGC TCATGACAAA TCGTTCCATC TAGTGACGCG
+     6541 ACATTGCAGC TTAGAAAGCT GGAGTAATAA TTAGACCGAT TTCGAAACTT GTCTTCTAAA
+     6601 ATTGGCCCCT TGCTTCTCGT GCATTTACTA ACCCGATTCC GACTATCAAA CTGTGGGTAG
+     6661 ACTCCGACGG TAATCTCGAC GGGTTAAGTA ACCTACGAGC AGGTACTGTT TTTGGGAAGT
+     6721 AAGTGAGTGG TCACGTTTGA TAACAAGTGA TGGACTTAAA TTGAAGCGTG TTTAAAACTA
+     6781 CACTATCTAG TCACACCTTG ACATTCACCG AGTACTGCTC TAATTAACTC TGTGCTTAAC
+     6841 GTGCTTGAAA CTTCGTCTTA GGCAACAAAG AGGGTTACAG GAGATATAAA CATGCCAAGG
+     6901 GTGAAAAATA AATGGGATAT CTGGCTTCTA GATAGAAGTC CTATATTCTC ATTCCCCAAC
+     6961 AGCCAAGAGT ATAACCCAGG GTATGATCAT TTAGGTTATA TGTTCTCAAG CTTAAGGGAT
+     7021 GATACTCCAG CTAGGCTGGA GCCGTAAACT CTACGATGAG CTGGACTCAC CCTAGTTCAT
+     7081 GCAAGTAAGC CATTGATTAA TGCAATTGTT TTTATATTAG CTTCCTTATG AGGATTGACA
+     7141 GATAGCCGAA TATATGGTTA TAAATCAAGT AGATTTGAGA GAACTTGATA GAAGAACGCT
+     7201 GTCCGAGTCT CTCCGAGACG AAAGAGGTGT AGGAATCTAA GAATGTCCAA GTCTGCGGCA
+     7261 ACGGATCTCG CGCCCATCGG CTGCTCATAG TCTATATGTA GTGTCCGCCT GATCTCCACT
+     7321 CAAATGCCCG CCCGATCCCC CCGAACGCCC GCCCGATCCC TATTGCCTAG ACGTCCGCCT
+     7381 ATCTCAGCAT CTCTCCAATC ACCTACAATC ACGAGGACAT ATATTGCCAG GACTAACCTG
+     7441 TCGCCCAGCC AACGCTGACA TAAGAAAACA GCTCGGCACA GAAACGAGCA GACCGTGCCC
+     7501 GTAATCTTAG ACTTAAAATC TTCCGCTCTA ATATCAACTC TTTGTACATA ATATCATTCC
+     7561 AGGACATACT GTGCTGAGAC GCGTTTCCTG CTCAGTCGGG TGTTAATGGG GAAATTTGGC
+     7621 TGTGTATACC CTGGACGCAT GACTGAACGG TATAAAGGAT TGTTACAGTT ACGCCTATTA
+     7681 TAACTACAAC TATGGAGTTT GTATCAGGGA AAATACCTCC TGTCTCTTTG CAAGCAAGag
+     7741 ataggtacct gtaaCTTTGT AAGCGGTCTT TCATATAAAA CGGCCAAGTT CGTGCATTCA
+     7801 AGCATACCGG CCACCAGCCA TCGACTCCTA AATCGCTCCA ACGCCAGCTT CAGCGCTTGG
+     7861 ATATTCAGTA CAATATGCGG CCCAGCGGCA GGGTCATGTT TCATTCTCAA ATACGCCATC
+     7921 AACGCCCTGT ACAGCATGTG GAGTAGGAAG GGCGAAAGTG TGTCGCAGTC TTGCGCAATG
+     7981 GACTCGAAAT ACTCCTGCGC CATGACCTTG AGTGCATGCT CAAGAGCAGA TATAGTTTCG
+     8041 GGCGATATGA AGTCCTCTAT TGGCTGCGCA TGGTCCTGCG TACCCGATCG CGAGGATGCG
+     8101 TTATCGAGGA CAAATACTGC GCTTCAACAA ATTAATGGTA CGAAACCCAC ATGGAGTTGG
+     8161 GAGCCAATAC ATGTAACTAA CCGCATTCAG CGTGCAGAAC AATACTCTAT TTGTCAACCC
+     8221 TTCTGTCTCT CCGAGACTTA TCAGGGAGAG AATAGTACGT CGCAGCTGCG CAGTGTTTTG
+     8281 CGGATCTTCA TGTGCCCTAG AAAGGGCCTG GCTGAAGAGA GGCACTGCAT GTGCAAACCG
+     8341 AGCAAATCTT CCAATGTGAA CTTGGGAAGA TAAGCGCAGT GTCACTGCAT CTTCAGGCTT
+     8401 TGAAAACTAC CGTCTGCTGT tagcgagaga gaagcatAGT TAAAGGAGAC ATGCCCCTGC
+     8461 TGCTTACTCC GCTGTCCCAA TCTCCATCGT CTACCGGTAG GTAACTCTCA GGGTCTGGAT
+     8521 CTGCCGTAAC CAGGTATCGC TTAGGATAAC AAAGGTTCAT AAATCTACGA CGGATGACGT
+     8581 GTTAAAATTT AGGTGACGAT AGAAGAGTAG TTGGTTGGTC CCAGACATTG ATTCAGATTT
+     8641 AATTGCACGT ACCTATCAAG TATTATAATC GCCCACCAAA CTCGACGACG TTCTTCCAGC
+     8701 TCGATCCATG GGCCTCTGGA AATAAAATCC CAAGTATTCA GAGACCGGTC TATACCGATA
+     8761 ATGGTACCGA TGCGAGCACA GTTTGCAACC GAAATAATTG CCGCGGGATA TATCCCATGG
+     8821 CCGATCTCGT ATATCGCAAT CAGGACTGAA GCTTGGAGGG TCTGGATAGA GAGTCTCCCT
+     8881 GAGGACTCTA TATCAAAATA CAATTGCTTC ACAGTTCGAT AGAGCATTGA TTTCGCTACC
+     8941 GTTACACGTG ATGAACAAAG CTTCATGGCC AGCACTAGTA AAAAGAATTC AGCTCTTCGA
+     9001 AAAGCTAACC TCTGCAGTAA ATAGTCCTGG AACTGCTTCT TGGACACAAT CGGCATCCAA
+     9061 ACATGGATTG TTTCGAAGAA AACTTGGGCG GTGGCCTGAA TGTCGCTAAC GCTACCTACC
+     9121 AAGTCGGCAA CCGACTTTGT AATACCCACA TCTTTCTTTT GGGTTTCCAG TTGTGCCAAT
+     9181 ATGAAATGAT CGGGATCCAG AAAGCTTGCG GCTAGAAAAT CGAGCTCGTC CAATTCAGAG
+     9241 AGCTGATGGT GGGCGTTCTC CTGTCCTAGC CGGCTAGGCA ATTTATGCAG GCTTTTATCC
+     9301 GTAGCGACAG TTCGAGATGA TTGATGACTG GTGGATGGAG AGACTTCATC TGGGGTATCT
+     9361 CGATCTCCAC GTCGAACTCT TTCTTTCCTA TGGTGGGGAT AATCGCATGC CACTCCCCTC
+     9421 CTGGCGAGTT GCTCGCACCG TCAACTCTAC ACTGACACGA CCTATGACGC GATTGACAAA
+     9481 GCTATAACTT ACAGATGGCA GAGCGTGCAA TATGGATATT GGCGATCACA GCGCTTCTTC
+     9541 AAACGCCGAC ACCGATGGCA AGAGAGCGGC GACTTCACAC CATCTTGTTG ACGCTTTGTA
+     9601 GTGTCGGACT GACGCGGCGG CATATTCGTG TGATGTATGG GCGGAGGAGT GGACAAATGG
+     9661 TTGATATTGC CGCCTGTTTT GCGGCTCTGG GTGGAATATG GTGATGAATT ACGCGACTCA
+     9721 ATTTCGCATC CTATCTAGAA GCTAGATGGA AGATGAACGT CAGGTCGTTG TTGCAGTTCG
+     9781 TAAAGCCGCC TGCGAAACCC CGATCTTAAG AGCCCGATCT CAAGAGTCCG ACCTTAAGAG
+     9841 TCCGCTTTAA AAGTCCGCTC TAAAAGTCCG ACCGGCATAC TCGTTGCCGC TCCAGAGCTC
+     9901 TGCTTTCTAA TACATTGCTT GCATTAAGTT GTGAGACAAT TTCTGATTAG TGATCACGTA
+     9961 AAGGTCTAAG CTCGACGGCG CGTCTTGCAA GTTAACTTGT CCCTATACAT ACAAGCACCG
+    10021 TAATAAATTC AAGGGAGTAA GGAAGTGCTT CTCGCCAGGG GTCCATGTCT CATTGCCGGA
+    10081 CTGCTCGTCG TACCAATGCT TGGCTAGCTT TGGTCAGTTT GCCTGCTTTG CCCTAGGGTA
+    10141 GCCGTGCAAT TAACCTGCGT ACTATTACCA CCCTATTTCT CTTCATAACG CTTTAGTAGA
+    10201 AGCGTTGAGT GTATTCCTGC CTTGAACCAT GGCATTAAAA CTCGTGTGCA ATACCATTAC
+    10261 TCCTTACTTG ACTTGAGTGG GTAGGAGAAG AAAGTCATAG AAAGCAGGAC CCGTCATAAA
+    10321 AGCTCTTATA GAACGATGAT ACAGGTTCCC TTTGTACATT AGAAATATTC GATTACAATG
+    10381 CAGGTTAACT CAATGCAAAG TTGGTATCTG GGACGATTTG GTGCTCCTCG TAAGACATAA
+    10441 TGGTAACCCA GCCAACTTTC GGAAATCGGC AATGTTGAGA TTTGCGTTAA TCTTGTCAGC
+    10501 AAACAACGAA CTCACACTTC ACAACCTTGC ACACGCCACT CCAAGTTCCG TTTCGAGTAA
+    10561 TTAAATTCTC CGTGAGCTTG GGCAAATCCT GCCAGCACCA ATTTCTAAGC CAGCGCAAGT
+    10621 CACCTCAAGA ATATCAACAG CGTGGTTATG GAACcgacaa aaaaaagtat aGCCTCCGCG
+    10681 GTAAAGCTCT CCACCCGTGG ACAGTGCACG GCTGGCAAGA CGTTGACGAC ACGCCCCTGA
+    10741 GTTATTAGCG CTGATACCAT AACCAAGGCG CGGAAGTGAC TGGTTTATAA GCTCAGGGAC
+    10801 GGAGGACGGA GCCACCTTAT CCATCCGATC AACGGCATGT CGTAAACTCT TCTAGAGAGT
+    10861 CAGCCCCAgg gatatatata tgtgtgtaga ATCGCCGGAT GGCTATATAG AGGCGCGCCC
+    10921 GTTTAACCTA AACATGTGTT AGCCAAGCTC CTCCTTGCAC GACATCTACT CTTTTCCAAA
+    10981 TTCATCTTAT ACCCAAATAA TGGAAAAGAC ATCAGGCAAT TCATCCAGCG ATGTGGAAGC
+    11041 CAATAGCGAG GAACTCATTA ATAATGATCA AAATGTGAAT CCAAGAGATG GCATAAAGAA
+    11101 TTGGCAATGG ATCCTCACAT GCGTTGTCCT ATACTTGGGA GCTCTTCTTT ATGGTAGAGG
+    11161 CTCCTCAGAC ACTCGCTCCT GGGAATGTGA CAAGTACTGA CATTTGTAAG GCTTGGATAC
+    11221 CACGATCGCC GCCGACGTCC AAGCGCCAGT ATACGAGGCG TTGGGACATA TCGAGAAACT
+    11281 GCCGTGGGTT GGGCTTGGAT TTCCAATGGC ATCAGTCGCG ACAATCCTCC CCTTTGGTCG
+    11341 GGCATACGCG CTGTTCAACA TAAAGGTATT GCTTATTTCA agcatcgtca tctttgAAGT
+    11401 TGGTAGTGCC ATTTGTGGTG CTGCGCCGAC TTCTGACGCC TTGATTATTG GTCGAGCCAT
+    11461 TGCGGGCATT GGCGGAGCTG GAATGTATCT GGGGTGAGTA GGGAGTAGTA CTGTGGGAAT
+    11521 AGTTGAGCAG AGCACTTATG GTACATAGGG CACTTACTTA TTCAGCTACC TTCACGACAA
+    11581 AAACGGAAGC CCCTATATAT AATGCTTTGA CCGGCTTAAG CTGGGGCGTG GGCTCAATTC
+    11641 TTGGACCGGT TATTGGTGGT GCATTCTCTG TCAGCAGTGC AACATGGCGT TGGGTAGTAC
+    11701 AACCCCCCCT TTCTACTTGA AGCtcatatt aatattttat ctAGGCTTTT TACATCAATC
+    11761 TCCCGGCTGC TGGTATTCTA TTACCTGTTT ATCTCTTTGT AGTCCCATCC AGGAACCCTC
+    11821 GGCCGGATCT GACTATTAAA CAAAAGTTCG CTGACATCGA CTGGATTGGC GCCATTATTT
+    11881 ACGGAGCAAT TTTTATACTG TTTGTGATTG TCGTTACCTT TGGCGGTTCA ACCTTTGCTT
+    11941 GGAACTCTAC CACATCCATC GTGCTTTGGG TAGTTTTTGG ACTCTGCTTC ATTGCCTTTG
+    12001 TCCTACAACA AGTTCTCAAA ATCTTTACGA CAGACGAACA CAGGATCTTC CCCATACACT
+    12061 TTCTCAAATC ACGCAGCCTC GTCTTGCTCT ATATTGCTAC GGGCAGTGCT GGTGCCGCAC
+    12121 AAGGCGTTGT GCTCTACTAC ACACCACTAT TCTTCCAATT CACAAAGGGG GATAGCTCTT
+    12181 TGCAGGCTGC TGTCCGCCTT TTACCGTTCA TCTGCGTCTT CATAGCCTCC GTCATGTGCG
+    12241 CTGGTGCCAC GCTCCCTATC GTCGGCCGAT ACAACCTTTA CTACTTTGCC GGCGGCTGTT
+    12301 TCATCTTAAT CGGAGGCGCC TTGCTTTGTA CGATCGATGA AACTACATCC ACTAGCAAGA
+    12361 TCTATGGGTA CGAAGCTCTC ACAGGAATCG GAATCGGTCT ACTTTTCCAA ATAGGCTATG
+    12421 CAGTCGGTGT TGCCAAAGCA CCTCCCAAAG ATGAGCCGAA AGCGATCGGC TTTATCAACG
+    12481 TTGCCCAACT TGGCACTCTT GCTATTTGCC TTGCAATTGC AGGATCGCTA TTTCAAAATG
+    12541 TTGGCTTTAA CGAACTCAAG AGCGCTTTCG CCGGCCGAAG TCTCCCGGAT GATTATATCC
+    12601 GGTCGGCTTT GGCGGGCACC CTGTCTCCTG TCTTCTCCTC cggtgatgaa gagattATTC
+    12661 ATgtcgctgt tgttgctgta gcAGAAACGA TTCGAAAAAT CTACATCACT GTTGCGACGG
+    12721 CTGGAGCACT AGTGGTGGTA AGCTCACTGC TAATGCGATT CGAGAAACTA GACTTGAGCA
+    12781 TTGTCGCTGG TGGTTAA
+//

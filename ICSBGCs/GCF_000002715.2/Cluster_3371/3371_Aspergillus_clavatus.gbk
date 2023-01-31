@@ -1,0 +1,749 @@
+LOCUS       121mF-Z113             13968 bp    DNA     linear   UNC 16-DEC-2021
+DEFINITION  GCF_000002715.2 results based on the annotation PF05141 and  inputs.
+ACCESSION   GCF_000002715.2
+VERSION     1
+KEYWORDS    .
+SOURCE      ICSCreator.py written by Grant Nickles (gnickles@wisc.edu)
+ORGANISM    GCF_000002715.2
+FEATURES             Location/Qualifiers
+     gene            1..2215
+                     /db_xref="GeneID:4708598"
+                     /note="*Name ACLA_002490"
+                     /note="*end_range: 639975,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="ACLA_002490"
+                     /partial
+                     /note="*start_range: .,63776"
+                     /note="*backbone: True"
+     mRNA            1..2215
+                     /db_xref="Genbank:XM_001276263.1"
+                     /db_xref="GeneID:4708598"
+                     /note="*Name XM_001276263.1"
+                     /note="*Note transcript ACLA_002490A"
+                     /note="*end_range: 639975,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002490"
+                     /partial
+                     /product="pyoverdine/dityrosine biosynthesis protein,
+                     putative"
+                     /note="*start_range: .,637761"
+                     /note="*transcript_id: XM_001276263.1"
+     exon            1..640
+                     /db_xref="Genbank:XM_001276263.1"
+                     /db_xref="GeneID:4708598"
+                     /note="*Note transcript ACLA_002490A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002490"
+                     /partial
+                     /product="pyoverdine/dityrosine biosynthesis protein,
+                     putative"
+                     /note="*start_range: .,637761"
+                     /note="*transcript_id: XM_001276263.1"
+     exon            693..2215
+                     /db_xref="Genbank:XM_001276263.1"
+                     /db_xref="GeneID:4708598"
+                     /note="*Note transcript ACLA_002490A"
+                     /note="*end_range: 639975,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002490"
+                     /partial
+                     /product="pyoverdine/dityrosine biosynthesis protein,
+                     putative"
+                     /note="*transcript_id: XM_001276263.1"
+     CDS             join(1..640,693..2215)
+                     /db_xref="Genbank:XP_001276264.1"
+                     /db_xref="GeneID:4708598"
+                     /note="*Name XP_001276264.1"
+                     /note="*Note encoded by transcript ACLA_002490A~predicted
+                     by EVM2"
+                     /db_xref="Genbank:XP_001276264.1"
+                     /db_xref="GeneID:4708598"
+                     /note="*Name XP_001276264.1"
+                     /note="*Note encoded by transcript ACLA_002490A~predicted
+                     by EVM2"
+                     /note="*gbkey: CDS"
+                     /locus_tag="ACLA_002490"
+                     /product="pyoverdine/dityrosine biosynthesis protein,
+                     putative"
+                     /protein_id="XP_001276264.1"
+     repeat_region   2657..2677
+                     /note="*Note microsatellite"
+                     /note="*gbkey: repeat_region"
+                     /rpt_type=tandem
+                     /rpt_unit_seq="ta"
+     gene            complement(2706..3234)
+                     /db_xref="GeneID:4708599"
+                     /note="*Name ACLA_002500"
+                     /note="*end_range: 640994,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="ACLA_002500"
+                     /partial
+                     /note="*start_range: .,640466"
+     mRNA            complement(2706..3234)
+                     /db_xref="Genbank:XM_001276264.1"
+                     /db_xref="GeneID:4708599"
+                     /note="*Name XM_001276264.1"
+                     /note="*Note transcript ACLA_002500A"
+                     /note="*end_range: 640994,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002500"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,640466"
+                     /note="*transcript_id: XM_001276264.1"
+     exon            complement(3102..3234)
+                     /db_xref="Genbank:XM_001276264.1"
+                     /db_xref="GeneID:4708599"
+                     /note="*Note transcript ACLA_002500A"
+                     /note="*end_range: 640994,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002500"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*transcript_id: XM_001276264.1"
+     exon            complement(2706..3049)
+                     /db_xref="Genbank:XM_001276264.1"
+                     /db_xref="GeneID:4708599"
+                     /note="*Note transcript ACLA_002500A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002500"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,640466"
+                     /note="*transcript_id: XM_001276264.1"
+     CDS             join(complement(3102..3234),complement(2706..3049))
+                     /db_xref="Genbank:XP_001276265.1"
+                     /db_xref="GeneID:4708599"
+                     /note="*Name XP_001276265.1"
+                     /note="*Note encoded by transcript ACLA_002500A~predicted
+                     by EVM2"
+                     /db_xref="Genbank:XP_001276265.1"
+                     /db_xref="GeneID:4708599"
+                     /note="*Name XP_001276265.1"
+                     /note="*Note encoded by transcript ACLA_002500A~predicted
+                     by EVM2"
+                     /note="*gbkey: CDS"
+                     /locus_tag="ACLA_002500"
+                     /product="hypothetical protein"
+                     /protein_id="XP_001276265.1"
+     gene            6285..6953
+                     /db_xref="GeneID:4708600"
+                     /note="*Name ACLA_002510"
+                     /note="*end_range: 644713,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="ACLA_002510"
+                     /partial
+                     /note="*start_range: .,644045"
+     mRNA            6285..6953
+                     /db_xref="Genbank:XM_001276265.1"
+                     /db_xref="GeneID:4708600"
+                     /note="*Name XM_001276265.1"
+                     /note="*Note transcript ACLA_002510A"
+                     /note="*end_range: 644713,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002510"
+                     /partial
+                     /product="conserved hypothetical protein"
+                     /note="*start_range: .,644045"
+                     /note="*transcript_id: XM_001276265.1"
+     exon            6285..6371
+                     /db_xref="Genbank:XM_001276265.1"
+                     /db_xref="GeneID:4708600"
+                     /note="*Note transcript ACLA_002510A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002510"
+                     /partial
+                     /product="conserved hypothetical protein"
+                     /note="*start_range: .,644045"
+                     /note="*transcript_id: XM_001276265.1"
+     exon            6434..6704
+                     /db_xref="Genbank:XM_001276265.1"
+                     /db_xref="GeneID:4708600"
+                     /note="*Note transcript ACLA_002510A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002510"
+                     /partial
+                     /product="conserved hypothetical protein"
+                     /note="*transcript_id: XM_001276265.1"
+     exon            6781..6953
+                     /db_xref="Genbank:XM_001276265.1"
+                     /db_xref="GeneID:4708600"
+                     /note="*Note transcript ACLA_002510A"
+                     /note="*end_range: 644713,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002510"
+                     /partial
+                     /product="conserved hypothetical protein"
+                     /note="*transcript_id: XM_001276265.1"
+     CDS             join(6285..6371,6434..6704,6781..6953)
+                     /db_xref="Genbank:XP_001276266.1"
+                     /db_xref="GeneID:4708600"
+                     /note="*Name XP_001276266.1"
+                     /note="*Note encoded by transcript ACLA_002510A"
+                     /db_xref="Genbank:XP_001276266.1"
+                     /db_xref="GeneID:4708600"
+                     /note="*Name XP_001276266.1"
+                     /note="*Note encoded by transcript ACLA_002510A"
+                     /db_xref="Genbank:XP_001276266.1"
+                     /db_xref="GeneID:4708600"
+                     /note="*Name XP_001276266.1"
+                     /note="*Note encoded by transcript ACLA_002510A"
+                     /note="*gbkey: CDS"
+                     /locus_tag="ACLA_002510"
+                     /product="hypothetical protein"
+                     /protein_id="XP_001276266.1"
+     gene            complement(7209..8783)
+                     /db_xref="GeneID:4708601"
+                     /note="*Name ACLA_002520"
+                     /note="*end_range: 646543,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="ACLA_002520"
+                     /partial
+                     /note="*start_range: .,644969"
+     mRNA            complement(7209..8783)
+                     /db_xref="Genbank:XM_001276266.1"
+                     /db_xref="GeneID:4708601"
+                     /note="*Name XM_001276266.1"
+                     /note="*Note transcript ACLA_002520A"
+                     /note="*end_range: 646543,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002520"
+                     /partial
+                     /product="O-methyltransferase, putative"
+                     /note="*start_range: .,644969"
+                     /note="*transcript_id: XM_001276266.1"
+     exon            complement(8378..8783)
+                     /db_xref="Genbank:XM_001276266.1"
+                     /db_xref="GeneID:4708601"
+                     /note="*Note transcript ACLA_002520A"
+                     /note="*end_range: 646543,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002520"
+                     /partial
+                     /product="O-methyltransferase, putative"
+                     /note="*transcript_id: XM_001276266.1"
+     exon            complement(8192..8315)
+                     /db_xref="Genbank:XM_001276266.1"
+                     /db_xref="GeneID:4708601"
+                     /note="*Note transcript ACLA_002520A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002520"
+                     /partial
+                     /product="O-methyltransferase, putative"
+                     /note="*transcript_id: XM_001276266.1"
+     exon            complement(8025..8134)
+                     /db_xref="Genbank:XM_001276266.1"
+                     /db_xref="GeneID:4708601"
+                     /note="*Note transcript ACLA_002520A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002520"
+                     /partial
+                     /product="O-methyltransferase, putative"
+                     /note="*transcript_id: XM_001276266.1"
+     exon            complement(7590..7971)
+                     /db_xref="Genbank:XM_001276266.1"
+                     /db_xref="GeneID:4708601"
+                     /note="*Note transcript ACLA_002520A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002520"
+                     /partial
+                     /product="O-methyltransferase, putative"
+                     /note="*transcript_id: XM_001276266.1"
+     exon            complement(7209..7530)
+                     /db_xref="Genbank:XM_001276266.1"
+                     /db_xref="GeneID:4708601"
+                     /note="*Note transcript ACLA_002520A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002520"
+                     /partial
+                     /product="O-methyltransferase, putative"
+                     /note="*start_range: .,644969"
+                     /note="*transcript_id: XM_001276266.1"
+     CDS             join(complement(8378..8783),complement(8192..8315),
+                     complement(8025..8134),complement(7590..7971),
+                     complement(7209..7530))
+                     /db_xref="Genbank:XP_001276267.1"
+                     /db_xref="GeneID:4708601"
+                     /note="*Name XP_001276267.1"
+                     /note="*Note encoded by transcript ACLA_002520A~predicted
+                     by EVM2"
+                     /db_xref="Genbank:XP_001276267.1"
+                     /db_xref="GeneID:4708601"
+                     /note="*Name XP_001276267.1"
+                     /note="*Note encoded by transcript ACLA_002520A~predicted
+                     by EVM2"
+                     /db_xref="Genbank:XP_001276267.1"
+                     /db_xref="GeneID:4708601"
+                     /note="*Name XP_001276267.1"
+                     /note="*Note encoded by transcript ACLA_002520A~predicted
+                     by EVM2"
+                     /db_xref="Genbank:XP_001276267.1"
+                     /db_xref="GeneID:4708601"
+                     /note="*Name XP_001276267.1"
+                     /note="*Note encoded by transcript ACLA_002520A~predicted
+                     by EVM2"
+                     /db_xref="Genbank:XP_001276267.1"
+                     /db_xref="GeneID:4708601"
+                     /note="*Name XP_001276267.1"
+                     /note="*Note encoded by transcript ACLA_002520A~predicted
+                     by EVM2"
+                     /note="*gbkey: CDS"
+                     /locus_tag="ACLA_002520"
+                     /product="O-methyltransferase, putative"
+                     /protein_id="XP_001276267.1"
+     gene            complement(9397..10225)
+                     /db_xref="GeneID:4708529"
+                     /note="*Name ACLA_002530"
+                     /note="*end_range: 647985,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="ACLA_002530"
+                     /partial
+                     /note="*start_range: .,647157"
+     mRNA            complement(9397..10225)
+                     /db_xref="Genbank:XM_001276267.1"
+                     /db_xref="GeneID:4708529"
+                     /note="*Name XM_001276267.1"
+                     /note="*Note transcript ACLA_002530A"
+                     /note="*end_range: 647985,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002530"
+                     /partial
+                     /product="conserved hypothetical protein"
+                     /note="*start_range: .,647157"
+                     /note="*transcript_id: XM_001276267.1"
+     exon            complement(10153..10225)
+                     /db_xref="Genbank:XM_001276267.1"
+                     /db_xref="GeneID:4708529"
+                     /note="*Note transcript ACLA_002530A"
+                     /note="*end_range: 647985,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002530"
+                     /partial
+                     /product="conserved hypothetical protein"
+                     /note="*transcript_id: XM_001276267.1"
+     exon            complement(9492..10089)
+                     /db_xref="Genbank:XM_001276267.1"
+                     /db_xref="GeneID:4708529"
+                     /note="*Note transcript ACLA_002530A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002530"
+                     /partial
+                     /product="conserved hypothetical protein"
+                     /note="*transcript_id: XM_001276267.1"
+     exon            complement(9397..9424)
+                     /db_xref="Genbank:XM_001276267.1"
+                     /db_xref="GeneID:4708529"
+                     /note="*Note transcript ACLA_002530A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002530"
+                     /partial
+                     /product="conserved hypothetical protein"
+                     /note="*start_range: .,647157"
+                     /note="*transcript_id: XM_001276267.1"
+     CDS             join(complement(10153..10225),complement(9492..10089),
+                     complement(9397..9424))
+                     /db_xref="Genbank:XP_001276268.1"
+                     /db_xref="GeneID:4708529"
+                     /note="*Name XP_001276268.1"
+                     /note="*Note encoded by transcript ACLA_002530A~predicted
+                     by EVM2"
+                     /db_xref="Genbank:XP_001276268.1"
+                     /db_xref="GeneID:4708529"
+                     /note="*Name XP_001276268.1"
+                     /note="*Note encoded by transcript ACLA_002530A~predicted
+                     by EVM2"
+                     /db_xref="Genbank:XP_001276268.1"
+                     /db_xref="GeneID:4708529"
+                     /note="*Name XP_001276268.1"
+                     /note="*Note encoded by transcript ACLA_002530A~predicted
+                     by EVM2"
+                     /note="*gbkey: CDS"
+                     /locus_tag="ACLA_002530"
+                     /product="hypothetical protein"
+                     /protein_id="XP_001276268.1"
+     gene            10594..12390
+                     /db_xref="GeneID:4708530"
+                     /note="*Name ACLA_002540"
+                     /note="*end_range: 650150,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="ACLA_002540"
+                     /partial
+                     /note="*start_range: .,648354"
+     mRNA            10594..12390
+                     /db_xref="Genbank:XM_001276268.1"
+                     /db_xref="GeneID:4708530"
+                     /note="*Name XM_001276268.1"
+                     /note="*Note transcript ACLA_002540A"
+                     /note="*end_range: 650150,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002540"
+                     /partial
+                     /product="sporulation-specific N-formyltyrosine oxidase
+                     Dit2, putative"
+                     /note="*start_range: .,648354"
+                     /note="*transcript_id: XM_001276268.1"
+     exon            10594..11172
+                     /db_xref="Genbank:XM_001276268.1"
+                     /db_xref="GeneID:4708530"
+                     /note="*Note transcript ACLA_002540A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002540"
+                     /partial
+                     /product="sporulation-specific N-formyltyrosine oxidase
+                     Dit2, putative"
+                     /note="*start_range: .,648354"
+                     /note="*transcript_id: XM_001276268.1"
+     exon            11271..11654
+                     /db_xref="Genbank:XM_001276268.1"
+                     /db_xref="GeneID:4708530"
+                     /note="*Note transcript ACLA_002540A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002540"
+                     /partial
+                     /product="sporulation-specific N-formyltyrosine oxidase
+                     Dit2, putative"
+                     /note="*transcript_id: XM_001276268.1"
+     exon            11765..12244
+                     /db_xref="Genbank:XM_001276268.1"
+                     /db_xref="GeneID:4708530"
+                     /note="*Note transcript ACLA_002540A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002540"
+                     /partial
+                     /product="sporulation-specific N-formyltyrosine oxidase
+                     Dit2, putative"
+                     /note="*transcript_id: XM_001276268.1"
+     exon            12325..12390
+                     /db_xref="Genbank:XM_001276268.1"
+                     /db_xref="GeneID:4708530"
+                     /note="*Note transcript ACLA_002540A"
+                     /note="*end_range: 650150,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002540"
+                     /partial
+                     /product="sporulation-specific N-formyltyrosine oxidase
+                     Dit2, putative"
+                     /note="*transcript_id: XM_001276268.1"
+     CDS             join(10594..11172,11271..11654,11765..12244,12325..12390)
+                     /db_xref="Genbank:XP_001276269.1"
+                     /db_xref="GeneID:4708530"
+                     /note="*Name XP_001276269.1"
+                     /note="*Note encoded by transcript ACLA_002540A~predicted
+                     by EVM2"
+                     /db_xref="Genbank:XP_001276269.1"
+                     /db_xref="GeneID:4708530"
+                     /note="*Name XP_001276269.1"
+                     /note="*Note encoded by transcript ACLA_002540A~predicted
+                     by EVM2"
+                     /db_xref="Genbank:XP_001276269.1"
+                     /db_xref="GeneID:4708530"
+                     /note="*Name XP_001276269.1"
+                     /note="*Note encoded by transcript ACLA_002540A~predicted
+                     by EVM2"
+                     /db_xref="Genbank:XP_001276269.1"
+                     /db_xref="GeneID:4708530"
+                     /note="*Name XP_001276269.1"
+                     /note="*Note encoded by transcript ACLA_002540A~predicted
+                     by EVM2"
+                     /note="*gbkey: CDS"
+                     /locus_tag="ACLA_002540"
+                     /product="sporulation-specific N-formyltyrosine oxidase
+                     Dit2, putative"
+                     /protein_id="XP_001276269.1"
+     gene            complement(12513..13968)
+                     /db_xref="GeneID:4708531"
+                     /note="*Name ACLA_002550"
+                     /note="*end_range: 651728,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="ACLA_002550"
+                     /partial
+                     /note="*start_range: .,650273"
+     mRNA            complement(12513..13968)
+                     /db_xref="Genbank:XM_001276269.1"
+                     /db_xref="GeneID:4708531"
+                     /note="*Name XM_001276269.1"
+                     /note="*Note transcript ACLA_002550A"
+                     /note="*end_range: 651728,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002550"
+                     /partial
+                     /product="cytochrome P450, putative"
+                     /note="*start_range: .,650273"
+                     /note="*transcript_id: XM_001276269.1"
+     exon            complement(13860..13968)
+                     /db_xref="Genbank:XM_001276269.1"
+                     /db_xref="GeneID:4708531"
+                     /note="*Note transcript ACLA_002550A"
+                     /note="*end_range: 651728,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002550"
+                     /partial
+                     /product="cytochrome P450, putative"
+                     /note="*transcript_id: XM_001276269.1"
+     exon            complement(12513..13786)
+                     /db_xref="Genbank:XM_001276269.1"
+                     /db_xref="GeneID:4708531"
+                     /note="*Note transcript ACLA_002550A"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ACLA_002550"
+                     /partial
+                     /product="cytochrome P450, putative"
+                     /note="*start_range: .,650273"
+                     /note="*transcript_id: XM_001276269.1"
+     CDS             join(complement(13860..13968),complement(12513..13786))
+                     /db_xref="Genbank:XP_001276270.1"
+                     /db_xref="GeneID:4708531"
+                     /note="*Name XP_001276270.1"
+                     /note="*Note encoded by transcript ACLA_002550A~predicted
+                     by EVM2"
+                     /db_xref="Genbank:XP_001276270.1"
+                     /db_xref="GeneID:4708531"
+                     /note="*Name XP_001276270.1"
+                     /note="*Note encoded by transcript ACLA_002550A~predicted
+                     by EVM2"
+                     /note="*gbkey: CDS"
+                     /locus_tag="ACLA_002550"
+                     /product="cytochrome P450, putative"
+                     /protein_id="XP_001276270.1"
+ORIGIN
+        1 ATGATTGCCC CATTGCAGAA GCCCGAAGAG TCAACCGTCT CGTTCCCTGG AGAAGCACAA
+       61 GAGAACAGCT CAGTCAATGT ATATCACACA AAAGCGGCAG CCATCACTAC AACCGAGATT
+      121 GCCGCTTCAT CTTCGTCCTC CGATTCAGAG GGAGCCGAAG ATGTTCTCGT TGAGCGATCA
+      181 ACCAGTGTGA CCGACGAGGT TCATGCTGAA AACGGAAAGA CTGTGCCTGA GGCTGCAACG
+      241 ACCGAACACC GCGACGATGC CTCGTATCTC CCAGTGACCA ACGGTATCTA CGTGCAAGAG
+      301 GAGAGTCCGA TCTCTGATGA TGAAGCAACA GCTATTGCCG TGCTGAAAGT CATTGAGACA
+      361 TATGGGGTGA ACTATGAGAA GACTGGTGCG TCCTGGCAAG GACTCACCTC GTTCATTCCC
+      421 ACAGTCGTCA ACCAAATCCA AAAGAAAGAG CCGGTTCGGA TGATCCTCCC TGCTTTCCCT
+      481 TTCAAGTCTC CCAACGGCCG AGACAAGGTT TTGGGTATCC TCCCTGACCT GGGAGAGGAG
+      541 CTGGCCTTGC ACCATCTGAA TGGGCTATGT GAGAACATTC AGAGTGTATA TGAACCCGGT
+      601 GCAGACGTAT ACATCAGCTC TGACGGCCTC GTATACAACG GTAGGTCTTC TCTCAACCCA
+      661 GTCAATGCTT GACCCCCTGC TAACCCGGAC AGATATTCTG GGAGTTCCGG ATGAAACTGT
+      721 GTGGGAATAC GGCGAAGCCC TGCGCAAGTT GGCAGTCGAA AAGGAACTTC ACCATATCAA
+      781 GTTCATTCGA CTCTTCGAGC TGCTCGAGCA TCCTTGGATC CCTCTGACCA GCCCCGAGCA
+      841 AGCAAAATCC TTCTATCTGG CACACGCTCA GTGTCTCCGC CGAGAGCTCA TGTTCCGCTT
+      901 CGAAGACCGC AGCTTCGATG CCGACGAGGC CATCCGAAAC GACGTTGATA CGTGTCTCAC
+      961 GTACCGCGGG TACATCAAGT TCCTGACCAA GGATCTTGCC CCGCAGATGG ACCTCCACTT
+     1021 TACTTCGAAA AAGGCCAGAG CGGCTCATGT TGCGCGGGTT GCCCGCAGCA TGATTGTCCG
+     1081 CGGCAAGATG TTTGCTGCTG CCATCAAGGC CAACCGGGCC GACTACGTCC GTCTGTCCAT
+     1141 CCATGATTCC AACGGGGCGA AGAAACTATC CATCTCCCTC ATCCCTCAGA CCCGGGGGGC
+     1201 TCTTGGGTAT ACCCCCTGGC ATGCTTCCGT CGCGGTTGGC CTGGACGGAA CATACCGCAC
+     1261 AGTCCATGCG GAGGATGTGC GCGAGACGCA CGACCTGATC TACAAGAACG GGCAGCCATA
+     1321 CTACTTCCGC GAGAAATCCA AGGCATTCGA CTGGACCGAA GACGGCCTAT GTGTCAAGTT
+     1381 TGAGCATCTC TATCCATGCG GTCTTATTAT CCGACCTAGC GATATCGACG ACTCGCGGCC
+     1441 GCCCCCTTCA ATCCGCGACC TGCCGATGCA AAAGGTCCGT GAGCTCTCGC ACGGGTTGTC
+     1501 TCCCGTGGTC CTACGCGGCT TCCGAGAGAC GCTGGAGGAG GAGATATACG TCCAGAAGGC
+     1561 ATCCGAAATG GGTACCATCC TCCCCTGGAG CTTCGGCATT ATCCAGAAAG TGCGAGACGC
+     1621 AGGCCGCAAT GACAAGATGG GCAACAACGT CACCTCCAAC GAGGCGATGC CCATGCACTT
+     1681 CGACGGAATG TTCAAGTTCG TGGACGAAAC CGACCCCGTC ACCGGCGAGG TCAAGAAAGT
+     1741 CCAGAAACCC CCGGGCTTCC AATTCTTCAC ATGTCCCGCC ACCGCCCCCA AGGGAAGCGG
+     1801 TTACACGCTC TTCGCCAGCT CCCGGCTCTT CTTCCGCTAC CTGCCGCTGC CCTGGACGTC
+     1861 CGAGCGCCTG CAGAAGATCA CCTGGGCCAT GGACAACGAC GGCTTCTGGG ACGCCAAGAT
+     1921 GGAAAATCTG CCCCTGGTCG TGACGCATCC CGTCACCGGG CTGCCCTGCA TGCGCTGGCA
+     1981 TCAGCCCTGG GACTCCACCA AGACCAAGTT CTCGACCTGT GATGTCCGCA TCGAGAACGA
+     2041 CGAGCAGAGC CTTATCCCGA TCGTTGACCG GTTGACGTAC GACTACCGCA TTTGCCTGCG
+     2101 GTTCTCGTGG GAGAGGGGCG ATATGCTCGT GAGTGATAAC ACGTCCATGC TGCATACCCG
+     2161 CACCGGGTAT AAGACCGACT GTGACCGCGA GCTGTGGAGA ATTCATTTTG ACTGAGTGTC
+     2221 TGGTAATCGG GTTAGAGGAT GATGTTATGT CTTTGCCTAG CTGCTTTGAG CCAGCAGGTT
+     2281 GTTAATCGTG TTATTTCTTT TCGAGGTAAT TGAATGAAAG TGTTTTGATC TAATGGAGCA
+     2341 GGAAAATATA CTCAAATCTC CCTTTCTGTT CAGAAGGTTG ATACATTTAT TCGTCACATG
+     2401 AATAGTAATC CTTTTATCAT ACACCATATC TGGATTTCAT GGACGCATAT CAGCGAGAAT
+     2461 CCTAACTATA TATATACCGA AACATGCAGA GTCGAAAAAT CCAACAGTCA ACTCGAGTAA
+     2521 GCTTCAGCTT AATAAAATAC TGCACATGAA AAGATAGACT TCGCTCCCCT GCTCGCCAAG
+     2581 TATACTAAGC CCTGCCAATA ACAACACCAG GTGTGCAATT TGGTCCTTCC GGGCGCATAT
+     2641 AGAAAGAGGG AGGGAAATAT ATATATATAT ATATATAATA TGAAGGACTG GGTGCAGTCC
+     2701 CAACCTCACA GCAACATTCT TTGGAACTGA TCCAGTGGCT GCGGCTGCGC CTGTGCCTGT
+     2761 GGCTGCATGG AATGCAAGGG ACAGTACGAA GGAGGTGAAG ATGAGCTTAT CCACTCCGCC
+     2821 GGGGCCCCTA GATCGGGCGT CCGCGCTCCA TTATCCTGCA TGGAACAATG ACATCCTGGG
+     2881 TTCTGCACGG CGGAGGATCC TCTGAGGACT GCGGGGTCAC CAGCGACCGC GCCGCTGAAA
+     2941 TGTGTGGAGG TAGGACCTTC GGGTAGATGA CCATGCGGTA TTAGGATGAT GGCCTTTGGT
+     3001 CTCGAGGGGC CGTGGCCCAA GGTTTGCATG ATTTGTGGGA GGGACGCTTC TGTGTATTTT
+     3061 GATTAGGCTT GACACTTGAA CGGTTTGGGT AGGGTACTGA CCTGTTGCTA CGTAGTACTG
+     3121 AGGGCTTTGC TGGTGTGGTT GGGTGCCTGG AGGCTCGGGG TATTGTGGAA AATTGATGTC
+     3181 ATTCTCAAGC TGATTCCCGA GGTGAAGCCT TGTTGTGCCC AGGACTGCGT CCATGTTGAA
+     3241 CGGGTTGACT TGGGACGAGG GAGCGCAAGA AGATGATAAC AGAGTGGATG ACGACGAGCT
+     3301 GCTGCTGCTA GATTCGAGAC CGTTTACGAG CCCAAGGTCA AACGGAGAGG GCGAAGGGGG
+     3361 CCATGTAGCT ATGGGGGGTA TCTGACCGAG CATGCTGTTG CAGGATGGAC AAAGTCGGGT
+     3421 AGAGGAACTT CGATGATGCA AGGCACGGAG TGGAAGTGAA GTTTCTGACC CAGGCGATGG
+     3481 TGAGTTGGCC TCAAAGCCTC GTGGTTGAGG CTCGACAGTC GACATTGTTA AAGGACTTGT
+     3541 TTGATCCCAG CCATTCAGAC TTGCGGCAGC TTTGAGTTCG CTAGCAATGA CTCGTTCCTG
+     3601 GAGTTTGGCA ATTCTGTCAC GGATTTTGCG ACCTACTTAG CCGGTGAGTA CACTCCCAAG
+     3661 GTGAACCGAC ATGATAGTCC CAAACTGACG ATGATTCCTC TGAGAGAGCC GATTCTGAAG
+     3721 CCTCCTACGC TCGATGGGAT CTTGCGTCTG ACCTGAAGTC TCCTCTTTCG ACTGCTCCTC
+     3781 TCTTGTATTT GGTGACCGCA TCGTTGAATT AATAATGGTC CTTGACGTTT CTGCTTCCTT
+     3841 TTTCGACTCT GTCATTGCAC GTTTGTAACA ATCTGGACGC TGGAGGAGGA CGCCTAAGAG
+     3901 CAAAGTGACT ATATTCCAAT ACGAAGCTTA CTCATATCAA ATGGGCAGTG CAGGCCAGCC
+     3961 GTGGATGTAA GAGAACAGAA TCAATGCAGA ACAATGATCT GTAGCCAGTG ATAGTGTTGC
+     4021 TATACTTCGT GGGTCTCATG CAAGTCTCTC TGAGGCTTTC ATGTCACCCA AGAAGCATTT
+     4081 ATACCTATTT TGAGACAGGT TCTTGCTATT CCACCTATTG GAAGATCGAT GGCAAGTAAA
+     4141 TCCCTGTCTC CGACGCCCCA ATCGATTTTG GAACGCCATG AGTACGGTTT TCTGGGACTT
+     4201 GTACGGAGTA GGTCGTATAA TCATGGCTGG AGCAACCATA CCTTCAGCAC GTATCGCAAA
+     4261 CGAGCAAGGG GCCCGCTCAG GTCGGAACTG GCATTATCTC GTCGCTTACT GGACGAGTTA
+     4321 TCTCTCGGAT CATCTTCAGA GCAAAGCCGC TAGAAGTGGG AGCCTGCAAT GCTGCAGGAC
+     4381 CGCTCGAACT AGAGACCTAG TAGGCCACGC GATGATATGC TCCTCCAAAT CCTGAATGCA
+     4441 ACGCCATGCG CGAAGTCCCA ATATTGTGAA TTTGTGATCG GTGGAATGGC CTAGTAGTAG
+     4501 CTTTTGAGTT CGGAAGGAGG AGCCTGTCTC AGACTAGCCT CGGTAAGTGT CCCAACCAAC
+     4561 AGCTGCCAGA GAGAAAAGCC TTGATGCTCT AGACTACTGC TCGGCCGGGC TGGTTCTAGC
+     4621 CTCGAAATGG CGCACAAATT ACTATCAAGA TAGGCTCTGC GAAGACTCAT ATCTGAGGTC
+     4681 GGTGGCCTAT TCGAGTGACG GACGTGTGGC ATGCAGTGCC CATTTACGAT GATTCGAGGG
+     4741 TCAGCTTAGC GGCTTCATCC GAACACGGTC TCGATTGCGA TTCCATGCCG CCCGAACCTG
+     4801 AAGGTGGTGG CAACCTGCTT TGGTCGAAAT CGGCCCCATC CGAAGAATCA AGGATGCCGT
+     4861 CGCCTTCATT GAGTGGTTCA TCCTTGTGCT TTGCTCACAT GAGGCCGACT AACATTAGTA
+     4921 CAGGACGCCC TTATCCCTGC GATACTGCTA GATAAGCCCA TGCAGCTTGC AGGAAGAAGG
+     4981 CTCTCCAACA GATACAAGCT GAGTCATGGC GGCGAGACTC TTTTGAATAA CTAATCATGC
+     5041 TCCAACGTAT GTCGATCTGA CATCATTTTC TGGACAGCAT CTGGGGTACA GTGCTGGGTG
+     5101 ACTCCGATTG CCACTACGTG AGATTGAATA TAAAATCTCT CGTGTATCCA AGACTAAGCC
+     5161 CCAGCCTAAT CGCGTTGTTC ACGAGTCACG AGTAAGCTCT AGGCAAACAA CAGGACCGAC
+     5221 GTGGAGCTGA AGGTAAAAGG TACCCATTCT TGGACTGCCC AAAAAGGATG CCTTACGACA
+     5281 ACTTCTTACG GCCGTACCTA AAGTCCCATA AGGTCGACCA ATCCCGAAGT TTAGCGGGCA
+     5341 ATCTGCCGTC AGCCCCAGAT CATTGGGGGG CCGGGGCTAA TTAAAATTGG CCAATCAACC
+     5401 AAACCCAGGC TAGCATCGAG CCTTTTTAGT GGCACTTGGA AAGAAGTTGA AAGGAATTCC
+     5461 TTGAAGCGCT AGCCCCACGT GTCGAACAAT AGTTCTCGAT GCTAAGTAGA GTTATCTTCT
+     5521 CGCTCACTCC GTAGACTCCG ACGTTGTCCG ATGCCAAGTG GGATGAAATG GAGGGGCCAA
+     5581 ATCTGTTGAT GGCTTGATGC AGCTAATCAA CAACTCTCAT GTCGAGTCGA GCCTGCAGCC
+     5641 AATCTTGGCT GTCAGACAAG AGAGTTACTC CCAGAACTTG TGTCACGAGC TGGTAATAAT
+     5701 ATGGAAAAAT CGGATATGCA AGAGAGTCTT CGGAGGGATT GAGAGCTGAA ATCGACAAGA
+     5761 ATAAATGCTG CTGAAGCTGA GACTTTTACA GCTTCTGGCC TTCTCAGTGT GACGCTCTCA
+     5821 CCACGAGAGC CCTATACTTG GTTTGAATGG AATAAGATTT TGTGACCAGT CCAGCCTACC
+     5881 ATCACTATCG TGACACAGGA AGGCAAAAAA GAAACTAAAA TAAAAAAAAC TTGATGGTCA
+     5941 ACTGTATTTG GTGGATGAAT TGTGTGGGTG TCAAGTAGAT GGTAAGTAGC AAAAGGTGTG
+     6001 GGTGTTGTCA AGAGACAAAG AGACAAAAAG ATGCAGGGGA GTTGGGCTCA GGCAGCCATG
+     6061 TTGGCCTGTG GCACCGGCAC TGGCACCAAC CAGAGTTGTC TCATTCTCAG CTTACTCTCG
+     6121 TCACTTCGTC AGATCTCTCA ATCTCTCACA CCATTATTCC CTTTCTCTCC CTTTCGACTC
+     6181 TTCTGTCTTG ACCCCAGAGT GGTAGCTCAG TCTGATCAAC TTTCAATCTT CCCCGTATCC
+     6241 ATACTCCCTC GACCTGTGAA CGCTAGGATT TCCAATCACC CATAATGCAG TCAATCCTGG
+     6301 ATGCTGTCAG CGATCCGCTG CCATACCATT TGCTCTCATT TGGGGCTCTT TTGGGGACGG
+     6361 AAATCTTCCA GGTAAAGCAG TCTTTCATGC TCAGGGGGTC TTGGAACTCC GATTAACGTC
+     6421 CGTCATCCAC TAGACTTTCG TCAACACGAA AGTGTGCTAT AAAGCTCTGC CTATGCGGGA
+     6481 GTTCCTCGCC CTCCAAAAGC GCCTTTTTCC AGCATATTTC CAGTCTCAAG TTGGGCTCCT
+     6541 TGTTTTGACT GCGGTCACGC GCCCTCCACA CAGCCTTCTG TCCTTCTCGA AACATGGTTG
+     6601 GGACACTGTT CCACTGTTTG TTGTCGCTGT TACTGGAGCG CTGAATTGGT TTGTCTTTGG
+     6661 CCCACGAACC ACAACAACCG CTTTCATCCG GCGGGCACTG CATGGTACGT CCGCGGATCT
+     6721 CTTGTTATGG AATCTTTGTG CAATGGGTTT AGAAAGATTT TGCTGACTGT ATGCGCGCAG
+     6781 AGAGTGCCAT GAATGAAGAC AGCGCTAATC CACCGGATCA AGCGAAGATT CAACAGGCAA
+     6841 ACAAGGCTTT CACCCGTAAC CATGTGATGT CCATTCATCT GAATGCAATG TCCTTGGTGG
+     6901 CGACGGTATG GTATGCCTTT TCGTTGACTT CAAGCCTTAC GAAGGGCCTG TAAGATATAT
+     6961 CATCTTGTGC CTCGAACAAG TCCCAATTGA AGAAGGAAAG CCGGGTTCGA CGATGTCTTG
+     7021 ATAGTATCTA AGGATGTCTG GAGTACTATT CTTGTATAAT CCTATAGTTA ACGGGGATGA
+     7081 ACATGGAAAA AATCGCTACT TCTACTGGTG TGCATTTCAG GACGAAAGCA AGAGAAAAAT
+     7141 ACTGTGGATT TCCCACTCAT TCAAGTATCC TTGAACCAAC CTGTGGTCAG CTCCTCCTCT
+     7201 AACTAGAGCT ACTGCTGATC ATGCGCGCTA TTTACTTCTT CTGCCCGCAG CCGAAGTTCC
+     7261 AAGACAGTAC CCGATTCAGG CCCGCTGCCT GGCTTCTTCC AAATCTTCTC CAACACCAAC
+     7321 CTGGGACTGA CCATCTTGAT CAACTGATTC CAATGCTCCA GCGTCCTTTC CTTTCCATTC
+     7381 AGAGAGAAGA GCATATAGAG GTCAAGGAGA TTGAAAAACC GAGAACTTTC AGGGCCCAGG
+     7441 AAACTCGGCA CAATCGCGTC ATCGATCAGA ATTCGGGATT TCTCTGGGTC CATTACGTCC
+     7501 ACAATATGGG ACAGAATCTT CGCGCAGACA CTGGTATTGT CGGATTTCGT CAGCGATTCT
+     7561 TCTTCTTAAA TTTGAGAGGT AAGACTAACC TATCGGGATG GTCGTGTAGG ATAAAGCGCA
+     7621 AAAGGTACGC ATCGGCTCCT TTGACCGGCT GCTCCTTGAA GAAGTCATGC GGCATGAACT
+     7681 CGATGCGCTC CTTAACAGCC GAGGGAATTC CTTCTGCCTG GCCAGCTTCG AGGATTGCAG
+     7741 CATCGTCTTG TACGACGAAG TTCAAGCCCG GGATCTTCTC AGCAATGCGC ACACTGACGT
+     7801 GACCACGACT GCCCCCGACA TCTACCACCG TCGCACCGTG AGGAAGGCTG TCGAATGGGT
+     7861 ACATGTCTTC AGTGAGGGAC TTCATGATCT CGCTACCTGC CATGCCGAGT CCGAAGCGTT
+     7921 GTCCGCGAGC AATGTCCTCG GTGTAGAAAT AGTCGAAGAG ACCTTTGTTT GCTATTCGAG
+     7981 GTTTATTTAG TATGGAAATT CAGCAGAAGC GATGGGTAAC CCACTCTCAA AGGCCAGGCT
+     8041 AAAGGCCGTA TCTTGCGGTC TATCGCTGCC CTTCAGATTT GTCTTCTTGA GGGCGTCAGA
+     8101 GAATCGGGAC GCAATGCGCA GGCCATCATC ACAGCTATTT GGCAATTAGA TTTCGGTGAT
+     8161 CTTTCACGCT CATTGAGCGG CCTCGACTTA CGCGTGACTG ATCAGTGCCT GGACAGGAGG
+     8221 TGCAAGAAAC TGCATGGATA CGCCATTATG AACAAATTGT TCTGGTGCAA TCTCATCGAA
+     8281 GACCAATCGT TGGGTGCAGA CACGCATAAC CCGCTCTATG AATACAATTA TCAGCCCCTA
+     8341 TATAGAACAA TCCGGAGTTA AGCCGAATTT CACATACTCA GGATATCTTT TGAGGCGCCA
+     8401 GTAGCTTCAA CAATCTCATC CAGGGACGTT GGTTCAGGAC CGGGAGCAAT GATCTCATGG
+     8461 ATCCCCATGT CTAGAATCGC CCCAACACAA GCGGGATCGA TAAACGACAT GGTTTGAAAC
+     8521 ATGAGCCATT GGACTGGGCC CTGAACCAGT GCCATGAGGC GCTCGCACAA GCGGAGAATC
+     8581 CTCAATCGAG CGAGCTGAGC TCCTTCATCG TGAATAAGCT CGGGGAATGG ATCGTCCAGC
+     8641 GTAGGCCGTT CGGCTCCGAC TGCATCCAGT CGTCCGAGAT ATGTCTCCAC CGCACTAGAG
+     8701 ATATTGACTG AGAGCTCGTA GAGGTTGTCT GTCTGCTTCC GCTGGTGGCC GTCCACTTCC
+     8761 GACTCGGTGT TGTTGAGCTT CATGGTGCGC AGACTGATGT ATAGCCTAGT GTGTTCTAAC
+     8821 GAATGGTTTA ATTGACGATA GATCTGAAGA GTAGTAGTAT CAACGACACC AAAACTCCGG
+     8881 GTATGTCTTA TATAGAACAC TCGCCATTGT AGAGACTATG CCTCCTTTTT GGGGGGACGC
+     8941 CATCAGGGTC AAACAAAGCT GATCGAGCCT TGGGATTCTG CAGGTACAGT CAGAGCAGTC
+     9001 ATCGTGAGGT GATCATTTCA CTCGCTTGAC GAACTATAGA CTCTATTTTG CAAAGGAACA
+     9061 AGGCTAGCTG TGATCGAGGC GCAATGCACA CTTGGTGACA TCCGTGTACA CAGCAGCTGA
+     9121 CGCCACCTTA CAGTCAGCAT AGTTCGTGTA ACTCGTACTT ATTGATATCA AAGTCATTTG
+     9181 CTGACATACT AGGCAGGAGG ATATAGTGAT TGGAGGATAC GAGAGAAAAA AAAATCCCAA
+     9241 AGGACTTCAC GTGGAACCAG TTCAGTTCGA TTCAATCAGT GGATACTATC TGTACCATGT
+     9301 GGACTAACGC AGAAATCCCG ATCCTCAGCT TCTTCAATCC AGCAACCAGC CTACTCCGTA
+     9361 TTCGCCTCCC CCCCCCCACT TCCCTACGGT TCCTCCCTAG AATCTCGGTG TGAACTGCAG
+     9421 CTCCCTACTG AAAGTTAGTC TACATTACAA CAAAACCAAG CTTACCAAAG CATGCAGCGT
+     9481 GCCATTCTCA CCTGCGAAAC TGCAACGCTC CCGCCGTCAG CATCCCATTC AAGACCAGCT
+     9541 TCGGGATCCC CGGGGGGAAA ATGGCTCTCT CCTTCGGCGC CAGGCCGCGG AGGAGATACA
+     9601 CTGCCGTCCA GAGCTGCCCA TAGACCTTGA CATCTTGTCG GCGGCGCTGC TCTTGTTGCT
+     9661 TCTCCAGGCC TCGGATAGTC TTGATGGGGA TCTTGCTCCC AAGCTCGTTA ACCAGTGCCT
+     9721 CTTCTACCTC ATACTGTTTA TCAACGAGCT CATGCAGCTG CTGAAACCCG TCCGCAACTT
+     9781 CGGTACGGAG ACTCTGCTCG AGCGAAGCCG GTTCTCCGTT GAGCAGGCTC TCCAGCTCGG
+     9841 CGATTCTCTT ATAGAGGGGT TCATGCGCGG TCGTCTGGTC GGTGAAACGG TTATCGTGCT
+     9901 CCGAGAAGAC GGGGAACCAG ATGTGGTCGA CAGATTCGAG CTGGTCCTGC ACGACATGCA
+     9961 GTGTGTATTT GGCGTAGTAG ACGAACGGCT CGATGTTCGC GGCGTCTACT GATTTGGCGT
+    10021 GCTCTGCGCA GGCCGTCAGG TTGCGCCGGA CTACATTGTG AATGGCGAAG AGGGCCAGGC
+    10081 TGGAGGAGAC TGGGGGTGAA TTCACCAGTT AGAACAGACA AAATGACTGA TTAGGATCAC
+    10141 ATAACTACCT ACCATATGGA TCCTTGAGAT TGAGCTCGTC CGCGGACAGA CGGTCTCTGT
+    10201 GTAGCTGAAG AACTTCGGAT GCCATGGTTG AGCAGTGGGC TAGTACAGTG TAACCGATAT
+    10261 GCAGACCGAC GGTTGAGATC TTAACGTGCA ATTCTGATCG TCATTCTCCT CCTCTTCGAA
+    10321 GTCATTTTTA TATGATTCCG AACCTGGAGC CCTTGACGCA GGTGACATCA GCCCGTGTTT
+    10381 GCTGACTTGG AATGCATAAG CCATGTCTGA TTACACAACA TACAAACCTG ATGCTGAGTC
+    10441 CGCGGATGAG ATTGACTCGA CTTAATATAT CGTCTCCCTA CTCTTCATCC GAATTCGCCT
+    10501 GGTAAACCCT CCTATCCCAC TCCTCCTCCG CCGCCGCCGC CGCCTCCTCC TCCTCACCAC
+    10561 TCTCCATAGC ACACACACAC CACCAAAACC ACAATGTCTC TTTTCTACAT ATTCGCCGTT
+    10621 CCCCTCTCCC TCATCATTCT ATACCTCGCC TGGTACCTGC ACGTCCCATG GAATCTCCCC
+    10681 CGCCTCCCCC GGATCCCCTT CTACGTCTCC ATCCTCGGTC TCTGGAGCGA CATGGGCCAA
+    10741 GACGAGATCT ACGAGCGCTG GCTGCGCGCC CCGCTCGAGA AGCACGGCGC CGTGCTGATC
+    10801 TGGTTCGCCG GCCGCTGGAG TATCCTCGTC ACTCGCCCGG ACCTGCTCAC AGACATGTTC
+    10861 CGCAACGAGG ACCTGTACGC GAAAGCCGGC AGCCAGAAGA AAATCCCCTG GTCCGTGATC
+    10921 GCGACGCTGG TCGGTGATAA CATCATCAAC TCGCACGGTG ACACTTGGAA GCTGTACACG
+    10981 TCCATCATGA AGCCCGGGTT GCAGAAGAAG ACCTTCGATT CGCGGCCGCT ACTGGTGAAA
+    11041 TCGAGGCGGT TCGTGGATAA GATCCTCGAG GATCAGGCGA CTGCGGGCAA GCAGGGAATC
+    11101 CTTGTCAATG CGTATGTGCA GAAGTGGGCG GTGGATGTGA TGGGAGTGAG CTTTTTGGAT
+    11161 ATGGATCTAC AGGTAGAAAC AATTTACCCT GCCCCCTATC CTGGCCTTCA CCTCCTACAT
+    11221 CGCCCGGGAT CTTGTGAACC TTCGAGTAAA AGAGCTAACT GGCCCGAAAG TCTCTCGAGA
+    11281 AGCCTCACGG CGCAGTTCGC CTCGAATCCA TCCAATCCGT CATCAAAATG ACGCTTTTCA
+    11341 GACCCCTGTT CTTCAACTTC CCGGACCTCG ATCAGTTCGC CTGGCTGCTG AGCTCGCGCA
+    11401 AGCGCGCCTA CGAGATCATG CACGAGTTCG GCGACACCCT CGCGGATAAG GTGCTCGCGC
+    11461 AGATGGACGA CGCAACCGCC AAGGGCCAGA AGCCCGAGGA GGAACAGGTC GTGCACATGC
+    11521 TCGTCGCCGC GTACCGCGAC GGGCGGCTCA CCCAGAAGCA GTTCAAGGAT AATCTGAAGA
+    11581 TCGTGTTTCT GACCGCGCAC GAGAACGCGC AGCAGCTGGT GAATTCGATG TTCTGGGAGA
+    11641 TTGGGAAGAA TACTGCACGT CCCCCCCCCC TCCTCCCCAA CCCCTTCCTC CTCTTTTCTT
+    11701 TCGTCAGCTT TTTTATTTTG TGATAAGAGA ACAATGAGAC TAATACAATA GGGTGTTCTT
+    11761 GTAGGAGGTA CAAACCCGTC TTCGCGCCGA GATCCTCGCC ACGGGGACCT CCAATCCCAC
+    11821 CGCCGACATC GTCAACCCCC TGCCATATCT CACCTCAGTC ATCTACGAGC TCATGCGTCT
+    11881 CTACCCGCCC GTCTCCCAGC TCATCAACCG CGTCACGACG GCCCCGGCGA TGCTGGGCGG
+    11941 GCAGATCCCC ATCCCTGCGC GGACGTTTGT CGGCTGGAAT TCCTACGGGG TGCATGTCAA
+    12001 CCCGCAGGTC TGGGGTGCGG ACGCGCAGGA GTTCGTGCCT GAGCGCTGGG GCAGCACGGT
+    12061 GAGTGAGATG CATGCGCGGT TCCGCCGGGA GACGGTGCGC GGGACGTATA TCCCGTTCAA
+    12121 TGCGCATTCG CGGAAGTGTC TTGGGCAAGC GTTTGTCTTG TTGCAGATGA AGATTCTGAT
+    12181 GTTTGAGTTG TTGAGGAGGG TGGAGTGGAG GGTTGATCCG GGGTATAAGT TGAAGATGAC
+    12241 ACCGGTGAGT TCACACTCTT CTTTTTGTTT TGTTTTTTTT TATTATGTTG CTTGCGAGGT
+    12301 ATAGTTGCTG ATTGCGGTTA TCAGGGCGGA ATCTTGGCTC CATTGGGCTG TCGGGTGATT
+    12361 CTCACTGAGA TCCAAGAGAA GGAAAAGTGA TGGTAAAAGC CAATGGACAG GCTGTTTTGA
+    12421 GTAGGCATAG GAAAAAAGTT CAAATTAGAA AATACAACCG ACATACTAAG TTCCACCCCA
+    12481 TGGTATCACA ACGCATCCGT CCAGATCATA GGTCATAACC TCTGTCGAGG CCCGGTAACA
+    12541 GCAAAGAGTC CCAGCGGCTT CGTACTAAAG GCTCCGTTGT AATTGATCCC CTCCACTGCA
+    12601 GTCTGGTACT GCTTATCCGC CAGATCAAAG TTCACCTCCC TGAGGATCGT GACGAGGACC
+    12661 ATAAAGCACC ATTCCCACGC AAAGCGCGTG CCGAAGCACT GGCGCTTGCC GTTGCCAAAT
+    12721 CCTTTCTTGA CGCCGGCCGG CAGCCGTTCG TAATTCTCAC CCACCATCCG CTCGGGGATG
+    12781 AACGCGTCCG GTTCCTCGAA TACCTCGGGG TCCCGGTTCA CAGCGGACAG CAGTGCGATC
+    12841 ATCGGCTGCT TGTTGGGGAT CTGATACTCG CCGCCAGCCA GCAGGACCGG TTCCTCCTGG
+    12901 CCGGGGATGG GCTCGATGTT GAACCCTGGC GCGGTGGCGC AGAGTCGCAG CGACTCACGC
+    12961 AGGATGGCTT CGCAGTAGGG CAGAGAGGCG AGATGCCTGT GTTCCAGCTG GTCGATGACG
+    13021 ACGCCATCGA TCTCCTCGCG CGCGCGGGTA ATTTCCTGCG GGTGCTTCAT GAGGTAGTAT
+    13081 AGGGCGAAGG AGACGAGATT GGGGGACGTC GCACTTCCAA TAAAGATGTT GATAATCTCA
+    13141 TCGAGGTGCT GGCTGTCCGT GAGGGCCAGG CCCGTCTGCG GGTCCTTGCC GTGCAGGAGG
+    13201 GCATCCAGCA GGTCCTTCTT GTCGGTCGGA TAGGCACGAC GCTGGGCGAC AATCTCGGCG
+    13261 GCGTAGTCGC GCATAGTTCG GTTGTAGGCG TTGAAGCGAC GCTGGTAGAT GAGCCAGTTG
+    13321 AGGAGCTTGG GGCGGGCAGC TCGGCGCATG GCTTCATTTG TCGCGGCATC CATGGCCTTG
+    13381 ATAACCGACG GCTCCTGTCC CTCGAGGCAG TGGATGCGCT GGTCAAAGAA ACAGAGCATG
+    13441 TTGGCGGCAT GGTTCAGTCG GTCCAGGTCG TTGCAGACGT TGACCCGTTG TCGCGGGCCG
+    13501 GCCGTCCATT TCTGGATGAG ATCTTTAGTG GTCTCGCGCA TGCCTGCAAA GGCCTCCGCG
+    13561 ACAGCGTCGG GGGAGACCAG CGGTGCCATG ATACGGTGTG CAATGCCCCA GCTTTCTTCA
+    13621 TTGTGGTACG CTGTGAACAG ACTGTCGTGG ACAGCCTGGC GGATCTCGAC GATGGGACCC
+    13681 GTTACACATT TACGGAAGCG CTTCTCATCG CAGATCTCCT CGAGAAGCTT CGCACTGGTA
+    13741 ACGAAGACGA TGTCGTGGCC GACGACGCTG ATTTTGAAGA TGGGACCTGT ACAGTAGTCC
+    13801 TGTTAGCCTT GGTTCCTACT TCCCAAGCAT TGCTCGCCAG CCACGTCAGG AAAACATACG
+    13861 ATACTTGACC GCTAATTTGT TGAAGGAACC CCAAGTATTG CCCGGTTTGA GATCGAACAG
+    13921 ATTACCCAAG ATCGGGAGAC CTGGTGGTTG CGGAATCGGC GTCGGCAT
+//

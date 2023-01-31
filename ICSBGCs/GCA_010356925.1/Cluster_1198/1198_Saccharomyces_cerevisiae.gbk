@@ -1,0 +1,833 @@
+LOCUS       2609mF-Z4              19887 bp    DNA     linear   UNC 16-DEC-2021
+DEFINITION  GCA_010356925.1 results based on the annotation PF05141 and  inputs.
+ACCESSION   GCA_010356925.1
+VERSION     1
+KEYWORDS    .
+SOURCE      ICSCreator.py written by Grant Nickles (gnickles@wisc.edu)
+ORGANISM    GCA_010356925.1
+FEATURES             Location/Qualifiers
+     gene            complement(1..1470)
+                     /db_xref="GeneID:852011"
+                     /note="*Name DIT2"
+                     /note="*end_range: 1279631,."
+                     /note="*gbkey: Gene"
+                     /gene="DIT2"
+                     /note="*gene_biotype: protein_coding"
+                     /gene_synonym="CYP56,YDR402C"
+                     /locus_tag="GI527_G0001339"
+                     /partial
+     mRNA            complement(1..1470)
+                     /db_xref="GeneID:852011"
+                     /note="*Note R64_transcript_id: NM_001180710.1"
+                     /note="*end_range: 1279631,."
+                     /note="*gbkey: mRNA"
+                     /gene="DIT2"
+                     /locus_tag="GI527_G0001339"
+                     /note="*orig_protein_id: gnl|WGS:JAAEAL|T0001339_1_prot"
+                     /note="*orig_transcript_id: gnl|WGS:JAAEAL|T0001339"
+                     /partial
+                     /product="putative cytochrome P450"
+     exon            complement(1..1470)
+                     /db_xref="GeneID:852011"
+                     /note="*Note R64_transcript_id: NM_001180710.1"
+                     /note="*end_range: 1279631,."
+                     /note="*gbkey: mRNA"
+                     /gene="DIT2"
+                     /locus_tag="GI527_G0001339"
+                     /note="*orig_protein_id: gnl|WGS:JAAEAL|T0001339_1_prot"
+                     /note="*orig_transcript_id: gnl|WGS:JAAEAL|T0001339"
+                     /partial
+                     /product="putative cytochrome P450"
+     CDS             complement(1..1470)
+                     /db_xref="GeneID:852011"
+                     /db_xref="SGD:S000002810"
+                     /db_xref="NCBI_GP:KAF1910467.1"
+                     /note="*Name KAF1910467.1"
+                     /note="*Note R64_protein_id: NP_010690.1~N-formyltyrosine
+                     oxidase; sporulation-specific microsomal enzyme involved
+                     in the production of N"
+                     /note="*Note N-bisformyl dityrosine required for spore
+                     wall maturation"
+                     /note="*Note homologous to cytochrome P-450s; SWAT-GFP and
+                     mCherry fusion proteins localize to the endoplasmic
+                     reticulum and vacuole respectively"
+                     /note="*end_range: 1279631,."
+                     /experiment="EXISTENCE:direct assay:GO:0003959 NADPH
+                     dehydrogenase activity [PMID:29365103],EXISTENCE:direct
+                     assay:GO:0005783 endoplasmic reticulum
+                     [PMID:29365103],EXISTENCE:direct assay:GO:0030476
+                     ascospore wall assembly [PMID:8183942],EXISTENCE:mutant
+                     phenotype:GO:0030476 ascospore wall assembly
+                     [PMID:8183942]"
+                     /note="*gbkey: CDS"
+                     /gene="DIT2"
+                     /locus_tag="GI527_G0001339"
+                     /note="*orig_transcript_id: gnl|WGS:JAAEAL|T0001339"
+                     /partial
+                     /product="putative cytochrome P450"
+                     /protein_id="KAF1910467.1"
+     gene            2369..3979
+                     /db_xref="GeneID:852012"
+                     /note="*Name DIT1"
+                     /note="*gbkey: Gene"
+                     /gene="DIT1"
+                     /note="*gene_biotype: protein_coding"
+                     /gene_synonym="YDR403W"
+                     /locus_tag="GI527_G0001340"
+                     /partial
+                     /note="*start_range: .,128053"
+                     /note="*backbone: True"
+     mRNA            2369..3979
+                     /db_xref="GeneID:852012"
+                     /note="*Note R64_transcript_id: NM_001180711.1"
+                     /note="*gbkey: mRNA"
+                     /gene="DIT1"
+                     /locus_tag="GI527_G0001340"
+                     /note="*orig_protein_id: gnl|WGS:JAAEAL|T0001340_1_prot"
+                     /note="*orig_transcript_id: gnl|WGS:JAAEAL|T0001340"
+                     /partial
+                     /product="Dit1p"
+                     /note="*start_range: .,1280530"
+     exon            2369..3979
+                     /db_xref="GeneID:852012"
+                     /note="*Note R64_transcript_id: NM_001180711.1"
+                     /note="*gbkey: mRNA"
+                     /gene="DIT1"
+                     /locus_tag="GI527_G0001340"
+                     /note="*orig_protein_id: gnl|WGS:JAAEAL|T0001340_1_prot"
+                     /note="*orig_transcript_id: gnl|WGS:JAAEAL|T0001340"
+                     /partial
+                     /product="Dit1p"
+                     /note="*start_range: .,1280530"
+     CDS             2369..3979
+                     /db_xref="GeneID:852012"
+                     /db_xref="SGD:S000002811"
+                     /db_xref="NCBI_GP:KAF1910468.1"
+                     /note="*Name KAF1910468.1"
+                     /note="*Note R64_protein_id:
+                     NP_010691.1~Sporulation-specific enzyme required for spore
+                     wall maturation; involved in the production of a soluble
+                     LL-dityrosine-containing precursor of the spore wall;
+                     transcripts accumulate at the time of prospore enclosure"
+                     /experiment="EXISTENCE:direct assay:GO:0003824 catalytic
+                     activity [PMID:8183942],EXISTENCE:direct assay:GO:0030476
+                     ascospore wall assembly [PMID:8183942],EXISTENCE:mutant
+                     phenotype:GO:0030476 ascospore wall assembly
+                     [PMID:8183942]"
+                     /note="*gbkey: CDS"
+                     /gene="DIT1"
+                     /locus_tag="GI527_G0001340"
+                     /note="*orig_transcript_id: gnl|WGS:JAAEAL|T0001340"
+                     /partial
+                     /product="Dit1p"
+                     /protein_id="KAF1910468.1"
+                     /note="*start_range: .,1280530"
+     gene            complement(4279..5132)
+                     /db_xref="GeneID:852013"
+                     /note="*Name RPB7"
+                     /note="*gbkey: Gene"
+                     /gene="RPB7"
+                     /note="*gene_biotype: protein_coding"
+                     /gene_synonym="YDR404C"
+                     /locus_tag="GI527_G0001341"
+     mRNA            complement(4279..5132)
+                     /db_xref="GeneID:852013"
+                     /note="*Note R64_transcript_id: NM_001180712.3"
+                     /note="*gbkey: mRNA"
+                     /gene="RPB7"
+                     /locus_tag="GI527_G0001341"
+                     /note="*orig_protein_id: gnl|WGS:JAAEAL|T0001341_1_prot"
+                     /note="*orig_transcript_id: gnl|WGS:JAAEAL|T0001341"
+                     /product="DNA-directed RNA polymerase II subunit RPB7"
+     exon            complement(4279..5132)
+                     /db_xref="GeneID:852013"
+                     /note="*Note R64_transcript_id: NM_001180712.3"
+                     /note="*gbkey: mRNA"
+                     /gene="RPB7"
+                     /locus_tag="GI527_G0001341"
+                     /note="*orig_protein_id: gnl|WGS:JAAEAL|T0001341_1_prot"
+                     /note="*orig_transcript_id: gnl|WGS:JAAEAL|T0001341"
+                     /product="DNA-directed RNA polymerase II subunit RPB7"
+     CDS             complement(4421..4936)
+                     /db_xref="GeneID:852013"
+                     /db_xref="SGD:S000002812"
+                     /db_xref="NCBI_GP:KAF1910469.1"
+                     /note="*Name KAF1910469.1"
+                     /note="*Note R64_protein_id: NP_010692.3~RNA polymerase II
+                     subunit B16; forms dissociable heterodimer with Rpb4p;
+                     Rpb4/7 dissociates from RNAPII as Ser2 CTD phosphorylation
+                     increases; Rpb4/7 regulates cellular lifespan via mRNA
+                     decay process; involved in recruitment of 3'-end
+                     processing factors to transcribing RNA polymerase II
+                     complex"
+                     /note="*Note export of mRNA to cytoplasm under stress
+                     conditions; also involved in translation initiation"
+                     /note="*end_range: 1283097,."
+                     /experiment="EXISTENCE:direct assay:GO:0000932 P-body
+                     [PMID:17875743],EXISTENCE:direct assay:GO:0003697
+                     single-stranded DNA binding
+                     [PMID:11087726],EXISTENCE:direct assay:GO:0003727
+                     single-stranded RNA binding
+                     [PMID:11087726],EXISTENCE:direct assay:GO:0003968
+                     RNA-directed 5'-3' RNA polymerase activity
+                     [PMID:18004386],EXISTENCE:direct assay:GO:0005634 nucleus
+                     [PMID:17056745],EXISTENCE:direct assay:GO:0005665 RNA
+                     polymerase II, core complex
+                     [PMID:1331084|PMID:2183013|PMID:2186966],EXISTENCE:direct
+                     assay:GO:0005737 cytoplasm
+                     [PMID:17056745],EXISTENCE:direct assay:GO:0006367
+                     transcription initiation from RNA polymerase II promoter
+                     [PMID:11087726],EXISTENCE:genetic interaction:GO:0000291
+                     nuclear-transcribed mRNA catabolic process, exonucleolytic
+                     [PMID:17875743],EXISTENCE:genetic interaction:GO:0006366
+                     transcription by RNA polymerase II
+                     [PMID:10082533],EXISTENCE:mutant phenotype:GO:0003697
+                     single-stranded DNA binding
+                     [PMID:11087726],EXISTENCE:mutant phenotype:GO:0003727
+                     single-stranded RNA binding
+                     [PMID:11087726],EXISTENCE:mutant phenotype:GO:0045948
+                     positive regulation of translational initiation
+                     [PMID:21074047],EXISTENCE:mutant phenotype:GO:0060213
+                     positive regulation of nuclear-transcribed mRNA poly(A)
+                     tail shortening [PMID:17875743],EXISTENCE:physical
+                     interaction:GO:0031369 translation initiation factor
+                     binding [PMID:21074047]"
+                     /note="*gbkey: CDS"
+                     /gene="RPB7"
+                     /locus_tag="GI527_G0001341"
+                     /note="*orig_transcript_id: gnl|WGS:JAAEAL|T0001341"
+                     /partial
+                     /product="DNA-directed RNA polymerase II subunit RPB7"
+                     /protein_id="KAF1910469.1"
+     gene            5329..6312
+                     /db_xref="GeneID:852014"
+                     /note="*Name MRP20"
+                     /note="*gbkey: Gene"
+                     /gene="MRP20"
+                     /note="*gene_biotype: protein_coding"
+                     /gene_synonym="uL23m,YDR405W"
+                     /locus_tag="GI527_G0001342"
+     mRNA            5329..6312
+                     /db_xref="GeneID:852014"
+                     /note="*Note R64_transcript_id: NM_001180713.3"
+                     /note="*gbkey: mRNA"
+                     /gene="MRP20"
+                     /locus_tag="GI527_G0001342"
+                     /note="*orig_protein_id: gnl|WGS:JAAEAL|T0001342_1_prot"
+                     /note="*orig_transcript_id: gnl|WGS:JAAEAL|T0001342"
+                     /product="mitochondrial 54S ribosomal protein YmL41"
+     exon            5329..6312
+                     /db_xref="GeneID:852014"
+                     /note="*Note R64_transcript_id: NM_001180713.3"
+                     /note="*gbkey: mRNA"
+                     /gene="MRP20"
+                     /locus_tag="GI527_G0001342"
+                     /note="*orig_protein_id: gnl|WGS:JAAEAL|T0001342_1_prot"
+                     /note="*orig_transcript_id: gnl|WGS:JAAEAL|T0001342"
+                     /product="mitochondrial 54S ribosomal protein YmL41"
+     CDS             5413..6204
+                     /db_xref="GeneID:852014"
+                     /db_xref="SGD:S000002813"
+                     /db_xref="NCBI_GP:KAF1910470.1"
+                     /note="*Name KAF1910470.1"
+                     /note="*Note R64_protein_id: NP_010693.3~Mitochondrial
+                     ribosomal protein of the large subunit"
+                     /experiment="EXISTENCE:curator inference:GO:0032543
+                     mitochondrial translation [PMID:9151978],EXISTENCE:direct
+                     assay:GO:0003735 structural constituent of ribosome
+                     [PMID:1544898|PMID:9151978],EXISTENCE:direct
+                     assay:GO:0005739 mitochondrion
+                     [PMID:16823961|PMID:24769239],EXISTENCE:direct
+                     assay:GO:0005762 mitochondrial large ribosomal subunit
+                     [PMID:1544898|PMID:9151978],EXISTENCE:mutant
+                     phenotype:GO:0032543 mitochondrial translation
+                     [PMID:1544898]"
+                     /note="*gbkey: CDS"
+                     /gene="MRP20"
+                     /locus_tag="GI527_G0001342"
+                     /note="*orig_transcript_id: gnl|WGS:JAAEAL|T0001342"
+                     /partial
+                     /product="mitochondrial 54S ribosomal protein YmL41"
+                     /protein_id="KAF1910470.1"
+                     /note="*start_range: .,1283574"
+     gene            6827..11691
+                     /db_xref="GeneID:852015"
+                     /note="*Name PDR15"
+                     /note="*gbkey: Gene"
+                     /gene="PDR15"
+                     /note="*gene_biotype: protein_coding"
+                     /gene_synonym="YDR406W"
+                     /locus_tag="GI527_G0001343"
+     mRNA            6827..11691
+                     /db_xref="GeneID:852015"
+                     /note="*Note R64_transcript_id: NM_001180714.1"
+                     /note="*gbkey: mRNA"
+                     /gene="PDR15"
+                     /locus_tag="GI527_G0001343"
+                     /note="*orig_protein_id: gnl|WGS:JAAEAL|T0001343_1_prot"
+                     /note="*orig_transcript_id: gnl|WGS:JAAEAL|T0001343"
+                     /product="ATP-binding cassette multidrug transporter
+                     PDR15"
+     exon            6827..11691
+                     /db_xref="GeneID:852015"
+                     /note="*Note R64_transcript_id: NM_001180714.1"
+                     /note="*gbkey: mRNA"
+                     /gene="PDR15"
+                     /locus_tag="GI527_G0001343"
+                     /note="*orig_protein_id: gnl|WGS:JAAEAL|T0001343_1_prot"
+                     /note="*orig_transcript_id: gnl|WGS:JAAEAL|T0001343"
+                     /product="ATP-binding cassette multidrug transporter
+                     PDR15"
+     CDS             6977..11566
+                     /db_xref="GeneID:852015"
+                     /db_xref="SGD:S000002814"
+                     /db_xref="NCBI_GP:KAF1910471.1"
+                     /note="*Name KAF1910471.1"
+                     /note="*Note R64_protein_id: NP_010694.1~Plasma membrane
+                     ATP binding cassette (ABC) transporter; multidrug
+                     transporter and general stress response factor implicated
+                     in cellular detoxification; regulated by Pdr1p"
+                     /note="*Note Pdr3p and Pdr8p; promoter contains a PDR
+                     responsive element; PDR15 has a paralog"
+                     /note="*Note PDR5"
+                     /note="*Note that arose from the whole genome duplication"
+                     /experiment="EXISTENCE:direct assay:GO:0071944 cell
+                     periphery [PMID:26928762],EXISTENCE:mutant
+                     phenotype:GO:0042493 response to drug [PMID:17881724]"
+                     /note="*gbkey: CDS"
+                     /gene="PDR15"
+                     /locus_tag="GI527_G0001343"
+                     /note="*orig_transcript_id: gnl|WGS:JAAEAL|T0001343"
+                     /partial
+                     /product="ATP-binding cassette multidrug transporter
+                     PDR15"
+                     /protein_id="KAF1910471.1"
+                     /note="*start_range: .,1285138"
+     gene            complement(11836..15705)
+                     /db_xref="GeneID:852016"
+                     /note="*Name TRS120"
+                     /note="*end_range: 1293866,."
+                     /note="*gbkey: Gene"
+                     /gene="TRS120"
+                     /note="*gene_biotype: protein_coding"
+                     /gene_synonym="YDR407C"
+                     /locus_tag="GI527_G0001344"
+                     /partial
+     mRNA            complement(11836..15705)
+                     /db_xref="GeneID:852016"
+                     /note="*Note R64_transcript_id: NM_001180715.1"
+                     /note="*end_range: 1293866,."
+                     /note="*gbkey: mRNA"
+                     /gene="TRS120"
+                     /locus_tag="GI527_G0001344"
+                     /note="*orig_protein_id: gnl|WGS:JAAEAL|T0001344_1_prot"
+                     /note="*orig_transcript_id: gnl|WGS:JAAEAL|T0001344"
+                     /partial
+                     /product="Trs120p"
+     exon            complement(11836..15705)
+                     /db_xref="GeneID:852016"
+                     /note="*Note R64_transcript_id: NM_001180715.1"
+                     /note="*end_range: 1293866,."
+                     /note="*gbkey: mRNA"
+                     /gene="TRS120"
+                     /locus_tag="GI527_G0001344"
+                     /note="*orig_protein_id: gnl|WGS:JAAEAL|T0001344_1_prot"
+                     /note="*orig_transcript_id: gnl|WGS:JAAEAL|T0001344"
+                     /partial
+                     /product="Trs120p"
+     CDS             complement(11836..15705)
+                     /db_xref="GeneID:852016"
+                     /db_xref="SGD:S000002815"
+                     /db_xref="NCBI_GP:KAF1910472.1"
+                     /note="*Name KAF1910472.1"
+                     /note="*Note R64_protein_id: NP_010695.1~Component of
+                     transport protein particle (TRAPP) complex II; TRAPPII is
+                     a multimeric guanine nucleotide-exchange factor for the
+                     GTPase Ypt1p"
+                     /note="*Note regulating intra-Golgi and endosome-Golgi
+                     traffic"
+                     /note="*end_range: 1293866,."
+                     /experiment="EXISTENCE:direct assay:GO:0005769 early
+                     endosome [PMID:16314430],EXISTENCE:direct assay:GO:0005802
+                     trans-Golgi network [PMID:16314430],EXISTENCE:direct
+                     assay:GO:1990071 TRAPPII protein complex
+                     [PMID:11239471],EXISTENCE:mutant phenotype:GO:0006891
+                     intra-Golgi vesicle-mediated transport
+                     [PMID:11239471],EXISTENCE:mutant phenotype:GO:0017112 Rab
+                     guanyl-nucleotide exchange factor activity
+                     [PMID:17041589],EXISTENCE:mutant phenotype:GO:0034498
+                     early endosome to Golgi transport
+                     [PMID:16314430],EXISTENCE:mutant phenotype:GO:0043087
+                     regulation of GTPase activity [PMID:17041589]"
+                     /note="*gbkey: CDS"
+                     /gene="TRS120"
+                     /locus_tag="GI527_G0001344"
+                     /note="*orig_transcript_id: gnl|WGS:JAAEAL|T0001344"
+                     /partial
+                     /product="Trs120p"
+                     /protein_id="KAF1910472.1"
+     gene            complement(15813..16901)
+                     /db_xref="GeneID:852017"
+                     /note="*Name ADE8"
+                     /note="*gbkey: Gene"
+                     /gene="ADE8"
+                     /note="*gene_biotype: protein_coding"
+                     /gene_synonym="YDR408C"
+                     /locus_tag="GI527_G0001345"
+     mRNA            complement(15813..16901)
+                     /db_xref="GeneID:852017"
+                     /note="*Note R64_transcript_id: NM_001180716.3"
+                     /note="*gbkey: mRNA"
+                     /gene="ADE8"
+                     /locus_tag="GI527_G0001345"
+                     /note="*orig_protein_id: gnl|WGS:JAAEAL|T0001345_1_prot"
+                     /note="*orig_transcript_id: gnl|WGS:JAAEAL|T0001345"
+                     /product="phosphoribosylglycinamide formyltransferase"
+     exon            complement(15813..16901)
+                     /db_xref="GeneID:852017"
+                     /note="*Note R64_transcript_id: NM_001180716.3"
+                     /note="*gbkey: mRNA"
+                     /gene="ADE8"
+                     /locus_tag="GI527_G0001345"
+                     /note="*orig_protein_id: gnl|WGS:JAAEAL|T0001345_1_prot"
+                     /note="*orig_transcript_id: gnl|WGS:JAAEAL|T0001345"
+                     /product="phosphoribosylglycinamide formyltransferase"
+     CDS             complement(15982..16626)
+                     /db_xref="GeneID:852017"
+                     /db_xref="SGD:S000002816"
+                     /db_xref="NCBI_GP:KAF1910473.1"
+                     /note="*Name KAF1910473.1"
+                     /note="*Note R64_protein_id:
+                     NP_010696.3~Phosphoribosyl-glycinamide transformylase;
+                     catalyzes a step in the 'de novo' purine nucleotide
+                     biosynthetic pathway"
+                     /note="*end_range: 1294787,."
+                     /experiment="EXISTENCE:direct assay:GO:0005634 nucleus
+                     [PMID:14562095],EXISTENCE:direct assay:GO:0005737
+                     cytoplasm [PMID:14562095],EXISTENCE:genetic
+                     interaction:GO:0004644 phosphoribosylglycinamide
+                     formyltransferase activity [PMID:4581491],EXISTENCE:mutant
+                     phenotype:GO:0004644 phosphoribosylglycinamide
+                     formyltransferase activity [PMID:4581491],EXISTENCE:mutant
+                     phenotype:GO:0006164 purine nucleotide biosynthetic
+                     process [PMID:4581491],EXISTENCE:mutant
+                     phenotype:GO:0006189 'de novo' IMP biosynthetic process
+                     [PMID:4581491],EXISTENCE:mutant phenotype:GO:0046084
+                     adenine biosynthetic process [PMID:17247984]"
+                     /note="*gbkey: CDS"
+                     /gene="ADE8"
+                     /locus_tag="GI527_G0001345"
+                     /note="*orig_transcript_id: gnl|WGS:JAAEAL|T0001345"
+                     /partial
+                     /product="phosphoribosylglycinamide formyltransferase"
+                     /protein_id="KAF1910473.1"
+     gene            17173..19887
+                     /db_xref="GeneID:852018"
+                     /note="*Name SIZ1"
+                     /note="*gbkey: Gene"
+                     /gene="SIZ1"
+                     /note="*gene_biotype: protein_coding"
+                     /gene_synonym="ULL1,YDR409W"
+                     /locus_tag="GI527_G0001346"
+                     /partial
+                     /note="*start_range: .,1295334"
+     mRNA            17173..19887
+                     /db_xref="GeneID:852018"
+                     /note="*Note R64_transcript_id: NM_001180717.3"
+                     /note="*gbkey: mRNA"
+                     /gene="SIZ1"
+                     /locus_tag="GI527_G0001346"
+                     /note="*orig_protein_id: gnl|WGS:JAAEAL|T0001346_1_prot"
+                     /note="*orig_transcript_id: gnl|WGS:JAAEAL|T0001346"
+                     /partial
+                     /product="SUMO ligase SIZ1"
+                     /note="*start_range: .,1295334"
+     exon            17173..19887
+                     /db_xref="GeneID:852018"
+                     /note="*Note R64_transcript_id: NM_001180717.3"
+                     /note="*gbkey: mRNA"
+                     /gene="SIZ1"
+                     /locus_tag="GI527_G0001346"
+                     /note="*orig_protein_id: gnl|WGS:JAAEAL|T0001346_1_prot"
+                     /note="*orig_transcript_id: gnl|WGS:JAAEAL|T0001346"
+                     /partial
+                     /product="SUMO ligase SIZ1"
+                     /note="*start_range: .,1295334"
+     CDS             17173..19887
+                     /db_xref="GeneID:852018"
+                     /db_xref="SGD:S000002817"
+                     /db_xref="NCBI_GP:KAF1910474.1"
+                     /note="*Name KAF1910474.1"
+                     /note="*Note R64_protein_id: NP_010697.3~SUMO E3 ligase;
+                     promotes attachment of small ubiquitin-related modifier
+                     sumo (Smt3p) to primarily cytoplasmic proteins; regulates
+                     Rsp5p ubiquitin ligase activity and is in turn itself
+                     regulated by Rsp5p; required for sumoylation of septins
+                     and histone H3 variant Cse4p"
+                     /note="*Note a prerequisite for STUbL-mediated
+                     Ub-dependent degradation; localizes to the septin ring;
+                     acts as an adapter between E2"
+                     /note="*Note Ubc9p and substrates; tends to compensate for
+                     survival of DNA damage in absence of Nfi1p"
+                     /experiment="EXISTENCE:direct assay:GO:0000790 nuclear
+                     chromatin [PMID:16204216],EXISTENCE:direct
+                     assay:GO:0005940 septin ring
+                     [PMID:11587849],EXISTENCE:direct assay:GO:0016925 protein
+                     sumoylation [PMID:23443663|PMID:26960795],EXISTENCE:direct
+                     assay:GO:0019789 SUMO transferase activity
+                     [PMID:11577116|PMID:26960795],EXISTENCE:direct
+                     assay:GO:0031397 negative regulation of protein
+                     ubiquitination [PMID:23443663],EXISTENCE:genetic
+                     interaction:GO:0016925 protein sumoylation
+                     [PMID:26960795],EXISTENCE:genetic interaction:GO:1990683
+                     DNA double-strand break attachment to nuclear envelope
+                     [PMID:27056668],EXISTENCE:mutant phenotype:GO:0007059
+                     chromosome segregation [PMID:16204216],EXISTENCE:mutant
+                     phenotype:GO:0016925 protein sumoylation
+                     [PMID:11587849],EXISTENCE:mutant phenotype:GO:0019789 SUMO
+                     transferase activity
+                     [PMID:11577116|PMID:11587849],EXISTENCE:mutant
+                     phenotype:GO:0031397 negative regulation of protein
+                     ubiquitination [PMID:23443663]"
+                     /note="*gbkey: CDS"
+                     /gene="SIZ1"
+                     /locus_tag="GI527_G0001346"
+                     /note="*orig_transcript_id: gnl|WGS:JAAEAL|T0001346"
+                     /partial
+                     /product="SUMO ligase SIZ1"
+                     /protein_id="KAF1910474.1"
+                     /note="*start_range: .,1295334"
+ORIGIN
+        1 TTATTCCATT ATATTCTCGT TAAATTTTAA CTTTAAATTA AGAGGGCAAA GAGGCCCAGC
+       61 GGGAGTTAAT TTTTCTTCCC ATTCAGGGTC AAGACTCCAT CGAAACTGTT TCAACATTTC
+      121 AGCCAAAGAA ATTCTCATTT CTGTTAGGGC TAGTTTTTCC CCTAGGCATG CTCTTCGGCC
+      181 TCCATGGAAC CCAGTCACAG CACATCTGTT TTTCGCCATT CTCCAGTTTT TCCTTATGGT
+      241 TTCGATATCT GAACCCCATC TTTCTGGTTT AAAATCATCT GCTGTTGTGC CCCAAGTTTT
+      301 GGGATCGTGT GAGGTTCCAA AGTTGTTGTA CCCGACATAT ACGCCCTTGG GTATAACAAT
+      361 TTCCGCCCCC AACTTGCACG TTTTGGTAGT ACATCTATTA ATAATTGTGC TCAAAGGAGG
+      421 ATACATTCTT ACTACTTCGA AGAGAAAAGC ATTTAATAAG GGTAAATCTG CTAAGCCTTT
+      481 TGGATCAGTG ATGCCGTTTA CTTCCTTCCT GAGTTTCTCT TGCCATTCAT TTGAATATTT
+      541 GGCTAGAAGG TAGAGTGAAC TATTAAATAG CAACTGCGGG TTTTCATGGC CAGCGACAAG
+      601 GATAATGACG ATATTATCGG TCAACTGTTT GTAGTCGATT ATTTCGTTAT TGTGAGCACG
+      661 AATTAGATCA CTGGCAGCAA AAGTAGTTTG TTCAAATTTG TAATTATTGA CTAATTCATC
+      721 TTGAACTCTT TTAACGAGAA GTTCTCTAAA ACTAACAACA TCCTTGAAGG CTTTTTTTCT
+      781 TGAAGGAATA GGAAGAACAT CAAGGAATGG AAAAGTTAAA AAGAATGGAT GAAATATTTG
+      841 CTTTTTAATA CGAATCAAAT GCTCGTGGAA AGCATTTTTT TCATGTGTTA GAGCACCAAA
+      901 ATCAAATCCA AGGGCAACCT GTGAAATGTT ATCCAATGCC ATTCTCTGGG ATAAAGGTCC
+      961 CATAGGGATC GAAGTTTGTC CTTCTAGGAG TCTGTTTTTT ATCAAAGTGC ATAAAATTTT
+     1021 TGCATTTTTG AATATAGGTG CATCGTCAAA ATGTTGGAGC CCGTTTGTCA CAGCATTTCT
+     1081 GTAGTTTCTC CAAACTGCAC CATACGCGCT AATGACATTG TCCCCTGTGT AAGCGGCAAG
+     1141 AGCACTGTAT GGGATTTTCT TTTGATTACC GCTCTTCGCA AAAGTATCTT CATCTTTGAA
+     1201 TATTTGTGCT AGATACTCAG AACGAGAAAC GAGAATATTC CACCGTGAAC CAAAGAAAAA
+     1261 TTTTACAGCA CCGTATTTTT CCATTGATTC CCTAATATAA AGATCGTATA GCTCCGTTTG
+     1321 ATCAATGGGA AATATTACTG GTAAAAATAC TACATAAAAT GGGATGGTGG GTATATTTTT
+     1381 GGGAAAGTTT AGAGGTGGGA CAATGATTGC AAAGGCGACA TAGGAAAGAG TAAGAAATAA
+     1441 AATCAAACAC AGAAGCTTTA ACAACTCCAT TTTTAATGCT TTTTTCGATT TATTCTCTTA
+     1501 GTCTGAATCA AATACCATTT TGAAAAAACG AAAATATTTC AAGAAAATTA ATGTATTTTT
+     1561 TTGCACTACC TAATATACTA TTCGCATCAG GATGACCAGT CATTCCTCTT GTGGTCCGTG
+     1621 GCTTGTAATT TTCGGGAAAG ATAGAAATCA CTGCATTCAT CGAAAGAAGT GAAAATAAAT
+     1681 TGTATCGGGG AAGTAATGAG GGGTGGAATA CGTAATTGCT TCTCAATTTG ATAATACAAG
+     1741 TTACAGTCTT TTTATTGAGA GTCCCTGGAA GGAAAATTAT TGATGTTTAC CTTTTTTTGC
+     1801 GACGCGCGTC TGGCCATAAA TAAAAGGGTT CTCTTGCCAA GAAAAAATAA AAAGGCGCCT
+     1861 TAAGGGACCT TCTATGACAA ATATGGTGAG GTATGCAACC TCAATGAAGA GCAATGAGAA
+     1921 AATTTAAGGG GTAAGTAAGC ATCGGAATTT GTTGTTTCCT AACAATTTGT CTAATTTACT
+     1981 CAATAATATC AGGAGAATTG ATCGAAAAAA GCAAACCAGG AACCCCTCAC AAATAAGGGA
+     2041 ACATAAAGTA ATTGCTCGTC TTTACATACA TGGCACTCAA TCCCAGACGT CGCGTGCTAA
+     2101 AAATCCTTAT ATTATTGGCC CCTCAGGAGT TTATTTGAAT TTTGATTGCA TTGCTTTCAG
+     2161 TGGACAGTAT ATCATAAAAT TTGCAAGGGC ATAGTGCCTG CCCTACGATG TTGTAAAACA
+     2221 ATTTCTGAAA ATAGGTTCAG AATCAAAAAT GATGTATAAA TATTGAAATA AATTTTCACA
+     2281 TAAATTGTGC TCCTCCGCAA AGTCTTGACT AAATAAACAA TTTGTTAATA TCCTAATTCG
+     2341 GTAAAGCTTT GTCGAGACAT TAACAAAAAT GACATTTACT AGCAACTTGC CCTCAAGCTC
+     2401 CGAGCAGTCA ATATCACCAC CTGCCTCTTC ATTTTCTTCA TCGACTGATA CGTTGAAAGA
+     2461 TATTGATATT CCCCATAATG GGGCCGATTT GTCTACATAT AGTAAATTTC TGGCCCTGTA
+     2521 TTGCAGAAGC GACAAATGTG ACGATTTTTA CTCTTTAGAG GAAAAACAGA ATTGTAAATT
+     2581 TGGAGACCAA TGGCTCGACT TTATCAACAC TATTCACAAT CTGGACTTTT CTGAATCCGA
+     2641 AGTAAGTGGA CGGGTTTCTG AAAGAATTTT GCCAGCTTCT TTAGCAAATA AATTTACCAA
+     2701 TAATTTAGGA GTGGCAATAA AGATTTCTGA ATATACACGC GATGACGAAC GCCAGATTCG
+     2761 TGGGTGTGTT ACAACAGTTG AGAATGAAAA TTCTTTCAAT AACTGGTTCG TATATCATAT
+     2821 TTTAGACCAA TCTCAATTAT CTCTAAGTGA ACATCCAATT GTAACCAAAG AAGTTAAGTA
+     2881 TCACGAATTA TTTGCAGATT TTTTTGAGAA AAATTTGAAA AACACAATAG TTAATGATCA
+     2941 ATGGAATTTT GGTGGCCGTG ATTATTTTAT TGAACGTTCA AGATATTTTA CCGATCGATA
+     3001 TTTGAGAATT GAATGCATCT TGCCAGCGTT TCCATGTAAG TCATCTAATG AGCAAAAAGT
+     3061 GTACGGTTCC GTTCCTGACA AAGGCGAAGA ACTCGCTTTG AAAAGATTAA TAAAAGCCAC
+     3121 ACAAGACCTT GTCAAGATAT ATCCACCGGG TATGAAAATT TGGATAGTTA GTGATGGCCA
+     3181 TGTTTTCTCC GATTGTATTG GGGTCGATGA TGACGTCGTG AGTACTTACA CGACCAAATT
+     3241 GCACGAACTG TATAAAAGAG TGGCTATACC TGGTGTTGAC GCCATTGGCT TTTGTGGATT
+     3301 GAACGATTTA TTTTTTAGCG GTGCAGCTAG TAAAGTTTTC GATCCAAAGT GGGTTAGTGA
+     3361 TGTTGAAGTT GCACACTACA CAGGAACTCA AATCTGTCCT AAGTCCGATT TGTCGAGACA
+     3421 GATTTTGATG AAAGGCTGTG ATACAGATGC AGGTCGTTTG AGAAAGCAGA TTGCAATAGA
+     3481 AGGACATCCA AGATTGCATC TGTATAGGGG CTTTTCACGT TTTATGATGG AAGATTTATC
+     3541 TCTACTGGAA CATTTCCAAA GTTATTCCAG AAAAAAATTC AAGAAAATCA TTTCAATGAT
+     3601 CGCTTTTAAC ATGATTAAGA GAAATGACGC GTATTCGAAC TTAGTGGAAT TGATATTCCC
+     3661 TCATCATTTG AGAATTTCTA TTCATGCGCA CACTAACAGC GGGCCCAAAT TTGGTATAAA
+     3721 AGTAATCTCC AACGAACAGT GTTCTATTGT TAGTTCGTTA GAAGACCTTG ATGAACCCAA
+     3781 ATTTGAAGAT TTTTTACATA TTCCCACACC TTGGCATAAT TGTGTCGTGA AGGTTGAGGA
+     3841 TGAAAAGGAG AAATACTTTT TGACAAAATC AAAAGTAGTC AAGGAGGCTC TCGAAAAGGG
+     3901 TATGTATGAT GGTGTATGGA AAGATACTCG TTTCGATATT GGAGAAGGAG GACATTTCGT
+     3961 TATCAAGAAA ATCTCTTAAT AAAGTAAGAG CGCTACATTG GTCTACCTTT TTGTTCTTTT
+     4021 ACTTAAACAT TAGTTAGTTC GTTTTCTTTT TCTCATTTTT TTATGTTTCC CCCCCAAAGT
+     4081 TCTGATTTTA TAATATTTTA TTTCACACAA TTCCATTTAA CAGAGGGGGA ATAGATTCTT
+     4141 TAGCTTAGAA AATTAGTGAT CAATATATAT TTGCCTTTCT TTTCATCTTT TCAGTGATAT
+     4201 TAATGGTTTC GAGACACTGC AATGGCCCTA GTTGTCTAAG AGGATAGATG TTACTGTCAA
+     4261 AGATGATATT TTGAATTTCA ATTGACGTAA TTAATGATAC TATTAATAAT ACAGAGCGTA
+     4321 TATGAAGTAT TGCAAATAAC ATGCACAGTT CTTTTGGGAT GAGAATGATA ATGAAAGGCG
+     4381 AAGGCGGGCG TTCAGAAAAG CGTTGCGGAG TAACAAGTGA TTAAATAGCA CCCAAATAAT
+     4441 CTTCTTTGAT ACTACCGATT GCGTGAATAG AACTCACTTG ACTGATACAA CCTTCAATTT
+     4501 TAACTCTAAT TCTACTTTTT ATGGTGATGA CATCCTCGGA ACTTTGGTAT GATGGTGGGT
+     4561 TTGAACCCGC ATTAAAGGTT AAATCTTGAG GCATCAGATG CTTTGTCACA AATACTTTCA
+     4621 TTGGACCTAC TTGCACTTCG AACCCGTGCT GAGAACATGA AACGACTGTG CCGTCCACTA
+     4681 CTTCCCCTTT AAATGGTTTG AAAACTACAG CTCTATATTT CACGTTGAAC TCGGCGGACC
+     4741 CATCTGTGGG CAATATTCTC CCACGTTGAA TATCTATATT ATCATAGTCT AGGACACAAA
+     4801 GAATATATCC GAATTTACCC GTACACGAAC CTTCAACCTC TTCCAATAGT TTTGTCTTTA
+     4861 GATATTGCTT CATTCGAGGA CCGAAAAAGG ACGGATGAAG GGTAATATTA AGCGAAAGGT
+     4921 CTTTAATAAA AAACATTCTC AGAAATTGAG TTATTTATAC AGTGGTTGAA ATGTGAATCT
+     4981 ATTCTTGGAC TTTCCCACTG TCTAATCGCA AAGGAGAATG GTGTAGGAGG AGAAACGGAA
+     5041 AAAGAAAGGC TATGATATTC TGGGAGAAGA GATAGGTGGA CAGACCTGAT CGACCCAATG
+     5101 TTAGAGAATA AATCGACGAA GTGAGCTTGT CTACGTTATT GGCATTTTCA CTGGGATATA
+     5161 GGAATACCGC ATTTATTTTC CTTGTATTTT TCAAAATAGC CGTTGAAACC CACAGAAGAT
+     5221 CACTTAATAC GTAATCGCGT TATACGAATT TTCTCGATGA AAAAGGGAAA ACGATGGTAT
+     5281 TAGAACTTGA AATGTACATA CATTTCTTGT GGAGAACGTA ACGCTACTAA CAAATAATGT
+     5341 GCTTTGATTA GCAGGCTCCA ACAGAAAAAA AAATAAAATA AAAATAAAAA GTACGCAACA
+     5401 CCAACACAGA ATATGCCACG ATTGACGGTT GGAACGAAGA ATATGTTGTA TCCTTTGCAA
+     5461 AAAACACTTG CAGTAGGAAG TTGCAAGCCA GAGCAGGTTC CAATAAGATC ACTAGCCTCA
+     5521 GTGGTGGAGA GTTCCTCCAA AATACTCGAC AAAAGCGGCA GCGATCGCGA AGTAGATATA
+     5581 AACGTAAGCG AGAAGATTTA TAAGTGGACA AAGGCGGGCA TAGAGCAGGG AAAGGAGCAT
+     5641 TTCAAAGTTG GAGGTAACAA AGTCTACTTT CCCAAGGCCA GGATCATCCT CTTGAGGCCC
+     5701 AACGCGAAGC ACACACCGTA TCAAGCAAAA TTCATCGTCC CAAAATCGTT CAACAAACTG
+     5761 GATCTCAGAG ACTATCTTTA TCATATCTAC GGCTTAAGAG CAATGAACAT TACGACGCAG
+     5821 CTGCTTCATG GGAAGTTTAA CCGTATGAAC CTACAGACGA CGCGGTTTAG AGAACCGCAG
+     5881 ATCAAGAAAA TGACTATCGA GATGGAAGAA CCCTTCATTT GGCCCGAAGA ACCCCGTCCG
+     5941 GACGAAAACT CCTTCTGGGA CAGCACCACG CCTGACAACA TGGAAAAGTA CCGTGAAGAA
+     6001 AGACTTAACT GCTTGGGCTC AGACGCCAAC AAACCCGGCA CAGCATTCGA CGGAGTCGTG
+     6061 GGGCCTTACG AACGGGTGGC CCAGCCTTTT ATACCTCGCT TCTTAAAACG AGAGATAGAC
+     6121 AATAAGCGAG AGCGTCACGC CGCCGAACTG CAGCGCGCAG ATAAACTAAT TGCCCTGAAC
+     6181 AGGTACATAG AAGATCTACA TTAGAAGGTT TCCCATTCCA CCCCTTCGTT AACCCACACG
+     6241 CAAATACCCA GATAAGCATC TTGCACCCCT CACACTTGTA TATACGGAGC AAACTACATA
+     6301 ATCTCTAAAC AGAAAAAAAA AAAAAGAAAG AAAATTAAGA ACATTACTTT TTCCGAGCAA
+     6361 CAAACGCAAA AATATATGAA GTGGCTGTAG AACATGCCTT ACGGAAGAAA AGAATGATGA
+     6421 TGGCATCCCC TTCCCCTGCC CTGGAAGGTG GCCTGTATTT CTGTTCTTTT TTTATTTTTG
+     6481 TTCGCGCAAA GAGCAAGAAC ATTGGTTGCT TTACTTATTA TTTTCAGGGT CGCTTCCGCG
+     6541 GGATGCCATG CACGGATGCC TGCGGAGACA GTGGCGCGGA GCCGTCCGCA TGCTCGTTCC
+     6601 GCGGAGAGTC TCGAGCGGGT CCGCGAGGGG CGGATCTGCA ACGCACGGTG CCGGGGTTAA
+     6661 GGTATGGCAC GATGGTAAGA CGATGAGGGA AAAGAATACT GCTACTGCTG TGCGAGACTT
+     6721 TGGTAGTAGG GATCGGAAAG GGAGCATGTA CATCTGAGGA ATATATAAGC AGGAGCTCTC
+     6781 TACCTGGACC AAATTGCCTT CTTATGTTGC TGTAAAGAGA TTTGCTAGTC TTGTTGTAGA
+     6841 TACGTCATAT GCAGTATTCA AGTATACTAC TGTTAAGAAC ATCACATCAC TAATACTATT
+     6901 AGCGTATAAC AGTTACTATA CGAATATATA AACACACACA CACACAAGCA AACACACTTA
+     6961 TAATTATCAA AAACCTATGT CATCAGATAT CAGAGACGTA GAGGAACGAA ATTCGCGGAG
+     7021 CTCGAGCTCA AGCTCGAGCT CGAACTCTGC CGCCCAATCC ATTGGACAGC ATCCATACCG
+     7081 CGGTTTCGAC AGCGAAGCCG CGGAAAGGGT GCATGAGTTG GCTAGAACAC TCACATCGCA
+     7141 GAGTTTACTA TACACTGCTA ACTCAAACAA TAGCTCTTCC AGCAACCATA ATGCGCACAA
+     7201 TGCGGACTCG AGATCCGTAT TTTCTACGGA CATGGAAGGT GTGAACCCGG TGTTCACTAA
+     7261 CCCGGACACC CCGGGATACA ATCCCAAATT GGACCCTAAC AGTGATCAAT TCTCCAGTAC
+     7321 GGCGTGGGTA CAGAACATGG CAAATATTTG TACTTCGGAC CCGGATTTCT ATAAACCATA
+     7381 CTCACTCGGT TGTGTATGGA AGAATCTAAG CGCCTCCGGA GACTCCGCCG ATGTGTCATA
+     7441 CCAGTCAACT TTCGCTAACA TCGTACCAAA GCTGCTTACG AAAGGGCTCA GATTACTGAA
+     7501 GCCCAGTAAA GAAGAGGACA CTTTTCAGAT CCTGAAACCC ATGGATGGTT GTCTTAATCC
+     7561 CGGTGAACTG TTGGTTGTTC TTGGGAGACC AGGGTCAGGT TGTACTACGC TGCTAAAATC
+     7621 CATATCTTCT AATTCGCACG GGTTCAAGAT CGCAAAAGAC TCCATTGTCT CTTACAACGG
+     7681 TTTGTCAAGC TCGGATATCA GGAAACATTA CCGTGGTGAA GTCGTTTACA ATGCGGAATC
+     7741 AGATATTCAT TTACCGCATC TTACCGTATA CCAGACGCTT TTCACCGTGG CAAGGATGAA
+     7801 AACGCCGCAA AATCGTATCA AGGGTGTTGA TAGAGAAGCG TACGCCAATC ACGTGACAGA
+     7861 AGTTGCAATG GCCACATATG GTCTTTCGCA TACAAGGGAC ACCAAGGTCG GAAACGATCT
+     7921 AGTCAGAGGT GTTTCTGGTG GTGAAAGAAA GCGTGTATCC ATTGCGGAAG TCGCAATCTG
+     7981 CGGCGCCAGA TTTCAATGTT GGGATAATGC CACCAGAGGT TTGGACTCTG CTACTGCTTT
+     8041 AGAATTCATC CGTGCTTTAA AAACCCAGGC TGACATTGGA AAGACCGCGG CTACTGTGGC
+     8101 CATCTATCAA TGTTCTCAGG ATGCTTATGA TCTTTTTGAT AAGGTCTGTG TCCTGGATGA
+     8161 TGGTTACCAG CTTTATTTTG GGCCCGCTAA GGATGCAAAG AAATATTTCC AAGACATGGG
+     8221 CTACTATTGT CCTCCCAGAC AGACCACTGC AGATTTTTTA ACTTCAATTA CAAGTCCTAC
+     8281 TGAAAGAATT ATTAGCAAAG AATTTATCGA AAAAGGTACT AGAGTGCCTC AAACGCCAAA
+     8341 GGATATGGCC GAATATTGGC TACAATCAGA AAGCTACAAA AATTTAATCA AGGATATAGA
+     8401 CTCTACATTA GAGAAAAACA CAGATGAAGC ACGCAATATT ATCAGGGATG CTCACCACGC
+     8461 TAAACAGGCA AAAAGGGCAC CACCTTCCTC TCCATACGTT GTCAACTACG GAATGCAAGT
+     8521 CAAATACTTG TTGATTAGAA ATTTCTGGAG AATGAAGCAA AGTGCTAGTG TTACTTTGTG
+     8581 GCAAGTCATC GGTAACTCTG TCATGGCTTT CATCTTGGGT TCTATGTTTT ATAAAGTGAT
+     8641 GAAGAAAAAC GATACTTCCA CTTTCTATTT CCGTGGTGCT GCAATGTTTT TTGCTATTTT
+     8701 ATTTAATGCA TTTTCGTGTC TTTTGGAAAT CTTTAGTTTG TATGAAACAA GACCTATAAC
+     8761 TGAAAAACAC AGAACTTATT CCTTGTATCA TCCAAGCGCT GACGCATTTG CGTCTGTTTT
+     8821 GTCAGAAATG CCGCCAAAAT TGATCACTGC TGTCTGCTTC AACATCATCT TTTATTTCCT
+     8881 AGTTGATTTC AGGAGAAACG GTGGTGTCTT TTTCTTTTAT TTTTTAATTA ATGTCATTGC
+     8941 CACATTCACT TTATCCCATT TATTTAGATG CGTGGGCTCC TTGACCAAAA CATTACAGGA
+     9001 GGCCATGGTC CCCGCTTCAA TGTTATTATT GGCAATTTCT ATGTATACAG GGTTTGCCAT
+     9061 CCCTAAAACG AAGATTTTAG GTTGGTCCAT TTGGATTTGG TATATCAACC CGCTAGCCTA
+     9121 CCTGTTTGAA TCTTTAATGA TCAATGAATT CCATGACCGT AGATTCCCTT GTGCCCAATA
+     9181 CATCCCTGCT GGCCCTGCTT ATCAGAACAT CACAGGTACT CAACGCGTCT GTTCCGCAGT
+     9241 TGGTGCTTAT CCAGGTAACG ACTATGTGTT GGGTGATGAC TTCTTGAAGG AAAGTTACGA
+     9301 TTATGAGCAC AAACATAAGT GGCGTGGGTT CGGTATTGGT ATGGCATATG TTGTTTTCTT
+     9361 TTTCTTTGTT TATCTAATTC TTTGTGAGTA TAATGAAGGT GCTAAACAAA AGGGTGAAAT
+     9421 GGTTGTGTTC CTAAGATCTA AGATCAAGCA ATTGAAAAAG GAAGGTAAAT TACAAGAAAA
+     9481 GCATAGGCCT GGAGATATTG AAAATAATGC AGGCAGTTCT CCAGATTCCG CTACAACAGA
+     9541 AAAAAAAATA CTAGATGATA GTTCTGAGGG ATCGGATAGC TCTTCAGATA ATGCCGGATT
+     9601 AGGACTTTCC AAATCTGAAG CAATTTTCCA CTGGCGTGAT TTATGCTATG ATGTTCCTAT
+     9661 AAAAGGAGGT CAAAGACGTA TCTTAAATAA CGTAGATGGT TGGGTAAAAC CAGGCACTTT
+     9721 GACTGCCTTA ATGGGGGCGT CAGGTGCAGG TAAAACAACT TTACTGGATT GTTTGGCTGA
+     9781 AAGAGTCACC ATGGGTGTTA TTACTGGTAA TATTTTTGTC GATGGTCGTC TCCGTGACGA
+     9841 ATCATTCCCT AGATCTATTG GTTATTGTCA ACAACAGGAT TTACATTTGA AAACGGCTAC
+     9901 AGTAAGAGAA TCTTTGAGAT TTTCAGCTTA TTTACGTCAG CCTTCGTCAG TTTCTATTGA
+     9961 AGAAAAAAAT AGGTACGTGG AAGAAGTTAT CAAAATTTTG GAAATGCAAC AATATTCAGA
+    10021 TGCTGTTGTT GGTGTTGCAG GTGAAGGTCT AAATGTCGAA CAAAGAAAAA GACTTACTAT
+    10081 TGGTGTTGAA CTAGCGGCAA GGCCTAAACT TTTGGTTTTT TTGGATGAAC CAACTTCAGG
+    10141 CCTGGATTCA CAAACTGCTT GGGACACTTG CCAACTTATG AGGAAACTAG CTACCCACGG
+    10201 TCAAGCAATT TTGTGTACTA TCCATCAACC TTCTGCTATA TTAATGCAGC AGTTTGATAG
+    10261 ATTATTATTT TTACAGAAAG GGGGCCAAAC TGTATATTTC GGCGATTTAG GTGAAGGGTG
+    10321 CAAAACTATG ATCGATTATT TTGAAAGTAA AGGAGCTCAC AAATGTCCAC CTGATGCAAA
+    10381 CCCTGCCGAA TGGATGTTAG AGGTTGTAGG TGCCGCTCCT GGTTCTCACG CTACGCAAGA
+    10441 TTATAATGAA GTCTGGAGAA ACTCAGATGA ATACAAAGCT GTTCAGGAAG AATTGGATTG
+    10501 GATGGAAAAG AATTTACCAG GCAGGTCAAA AGAACCAACT GCAGAAGAAC ATAAACCTTT
+    10561 TGCTGCATCT TTATACTACC AATTTAAAAT GGTTACCATT CGTTTGTTCC AACAATACTG
+    10621 GAGATCACCA GATTATTTAT GGTCGAAATT TATTTTGACT ATTTTCAACC AAGTTTTTAT
+    10681 TGGGTTCACT TTTTTCAAGG CTGACAGAAG TTTACAGGGA CTACAAAACC AAATGTTATC
+    10741 AATATTCATG TATACGGTTA TTTTCAATCC TATACTACAA CAGTATCTAC CATCTTTCGT
+    10801 GCAGCAAAGG GATTTGTATG AGGCAAGAGA ACGTCCTTCA AGAACATTTT CGTGGCTTGC
+    10861 GTTTTTCCTC TCTCAAATCA TTGTTGAAAT CCCATGGAAT ATTTTAGCGG GTACGATTGC
+    10921 TTATTGTATT TACTATTACG CGGTTGGATT TTATGCGAAC GCCTCAGCTG CTGGTCAACT
+    10981 CCATGAGAGA GGTGCTTTGT TTTGGTTATT TTCTATTGCC TTCTACGTCT ACATTGGTTC
+    11041 GATGGGTTTG TTAATGATTT CTTTCAATGA AGTTGCTGAA ACAGCGGCAC ATATGGGAAC
+    11101 GCTATTGTTC ACGATGGCAT TATCTTTCTG TGGTGTTATG GCTACCCCTA AGGTTATGCC
+    11161 AAGATTTTGG ATCTTTATGT ATAGAGTGTC ACCCCTAACT TATATGATCG ATGCATTATT
+    11221 AGCCCTTGGT GTGGCTAATG TGGACGTTAA GTGTTCAAAT TATGAAATGG TAAAATTTAC
+    11281 TCCACCATCT GGAACCACCT GCGGTGACTA TATGGCATCA TATATCAAGT TGGCCGGAAC
+    11341 AGGCTACTTG AGTGACCCGT CTGCAACAGA TATATGTAGT TTCTGTGCGG TATCCACCAC
+    11401 CAATGCCTTT TTGGCCACTT TCAGTTCTCA TTATTACAGA AGATGGAGAA ATTACGGTAT
+    11461 TTTTATCTGC TATATTGCTT TTGATTATAT CGCTGCAACA TTCTTGTATT GGTTATCCAG
+    11521 GGTACCCAAG AAGAACGGTA AGATTTCCGA AAAACCCAAG AAGTGATGAC GTTATTTTCC
+    11581 TTTTTTTTAG TTATATTATC TTTTTATTAT ATTCTATTCT CTCTACTGGG GAGAAATTAC
+    11641 TTAATTTTCA TTTATATTAA AATAATACCT ACTGTTTCAT ACTTTCACTT TAACCACCAT
+    11701 TTCTTTAAGC TAAAGTTTAG GAACGCTAAA CATATCATTG TTTACTTTTC GAGGAAACAT
+    11761 AACTTTCAAC ATCAGGCTCT TTTCGTTTTA TATTATCTAT ATTCTATATA GTAGTTTATA
+    11821 GAAATGCATT TAACACTAAA TAACAGACAA GATAACGTTT TCAGAGTCGA ACTGGATTAT
+    11881 TCCATCTTGG TTGTTTGATT TGGAGATGCA AACGCTAAAC TCGTACCGGC CTTTTTCAAT
+    11941 TGGAATAATT TCTAAGTTAA TTTCAGAAAC TTTGGTTGTA CTGATTGGTT TAGTTAACGA
+    12001 ACCATTATAC AAAATTCGTC TGTTCGATCT TGGTAATATT TTTGATGTCT TGCTGTCGAA
+    12061 AATCACGATG TCCAAAAAAT TTACAGTAGA ATTTTGTTTT CTTCTACATG TACTAGTCGG
+    12121 CTCTGTTATT ATCTTCAAGT TTATTATTTC CCCTACTTTG ACTTTTGGCT CATCAAGCAA
+    12181 TAGCTGCACT CCGTAAAATA ATCTCCCGGG GTATATCGTG TAGACCATCT TGTGATCAAA
+    12241 CTTTTCTATG AACTTATTGA AATCCACCGA ACCTGTTACA GATTGGTCTG TGGTTAATTT
+    12301 CCAGTTACAT TTAAGCTTTG AAATGATATG TTCGCGACAC CAAAATTTTT GTCTCATTTC
+    12361 TATAGTCTGT TCTTCGTTTA AACCACTTTG AATAAATTGT CGGCCTGGAT AGATTCTTGG
+    12421 TATAGGTGTA TTCTCAAAAT TATACTTTTT GTAATCAATT TTTTTAATAG GAACAATAAT
+    12481 TCTCGAGGTA TGGCTTGCCT CTACATGATA CTCATTACTA GTGAAATCTT CAAATTGAAC
+    12541 ATTCAATTTT ATTCCGTCAA TCCAAGAATT TCTGAAGTCT AATAATAACA ATATAAAATC
+    12601 TCTAGAGTGG AGGTTAGATT CTGCACGTAT TTTGCTCATT ACATACTCAA TCCAATCAAC
+    12661 ATTTTCAACT TGCGAGCTGA AGAGTTCATT TAGCGGTATG ATGTCCATAC TTGGTACTTC
+    12721 AATTGTTCTT CTCAATGTTA CTTCATATGG TATTGATAAC TTTTTTAAAT AAATGCAGGA
+    12781 TTCATCAGTA GCGCTCATAC CGTATTCGAT CAATAAGTCA AATCCGGTGA AATTAAATGG
+    12841 AACAGCAGTA TTATCTAATT CCAAATCAAA TGTGATGGTT TCATTTGGCT TGATTACCGT
+    12901 TGGTAATTTA ATAATACGTA CACAAGACTT AGAGAGCCAA TCTAGCTGTT TTTCCATGAT
+    12961 GTACAAGTCA TCTGGTGGCA TTTTTTTCCA ATAATCAGGT TTCAACATTT GCTCAATATT
+    13021 ATTCATTGGT ATGATCTTAA TATGATTTAT TGCACAGCTC AGTGATTTAT TTCTCACCGT
+    13081 TATATGAAAA TCAGTTTTGG TACCATCCAG CATCATCCAT GAGTTTCTTG TCATCTTGGA
+    13141 AGTACTCAAT AGTTCTAATT GTGGTTGTTC AGGCAGGATT TTAATTTTTA ATTTTCCGTA
+    13201 TATACATTTA CTGTATTCTG CCTCTTCTTC AACAGGATTC GATCTTCTAG AATCGTTTAT
+    13261 AATATCGAAT TTCTGAAGCG GTAGTTTTAG GATAGAGATT TTTAGGCATG AAATCTCGTA
+    13321 GATTTTTTTG TATGTTGGCT TTTTAATAAT CAAAGGCAAT GTGATGGATC TTATTGACTC
+    13381 GGCTTTAACA TTATATGGCC CTGAATAACT TACAGCTTTT CTATCAATCT CACAAAATTC
+    13441 AGATATTTCC TCATCTAGTT GAATATCATT GATCGTAAAA TCAAATTTGA AAGGATTTTG
+    13501 AACCCTGCAG GTGAATTCAG CCTTATCGCC AACTAAAAAT ACTAAAATAG GAACTTTGGT
+    13561 GCTGTTATTA GAAACAAAAG AAGTTGGTTG AACCCGTTTG AAAGGGTTGA AAACTTCCTG
+    13621 CGGATTAATA TCCTGTGTCT TTTGTCTATT TTCTAGGCTT TCAAGGCTGC TAACATCTGA
+    13681 CTCTAATGGG ATTTCGTTTG AAGTGGGGTC ACTATCCAAT ATTCTATTTA TAACAACTTC
+    13741 CCTCAGAATG AAGGGATCCC AATAACTTGT GATAGACTCG TTGGTAATTG ATGGTTGAAT
+    13801 ATATTCTTTA AACAAGGCAT CTTGTTCCGA CTGATTTAAC AGATGCGTAT ATTTCGTAAT
+    13861 TAGTATCGAG CTAAATTTAG CGACATATTC GAAGTCATTG ATTTTTCTTG AAACTTTAAT
+    13921 GCATAGTTGT AGGATCTTTT TCTGTAGGAT CAACCAAGTA GATTGAGACG GATCATCTAC
+    13981 ATTGATTTTG GCCTCGCTTT CATTGATGTT GAGGAGTTCT ATGATGGTAT CTATCAAGGT
+    14041 CCTGTAGTCA GGATGCCATG CTATCTTATT CGGAGTCGCC AAAAGAGCAA CCATCAGCAA
+    14101 TCTTAACACG AATAATTGCT TTCTTTTGTA TCCCAAAAGG CGATAAACTT CCGCCATAGT
+    14161 AGAGTATATT TTAATTTGAG CCTCAACTTG CATTTCCTTC AATTGTAATT CGAACAATTT
+    14221 ATTGCTATAG AAATAAACTT CAAACCTTGG GAACATCGGA CTATTAGGGA TATCTGACAA
+    14281 GGCCCTGTGT TGGTTTTTCA CAATATTGTC CAGAACGTCC TTTGAAAACT CTGAACTCTT
+    14341 ATAACACGAT GTCATGAAAG TTAAAGTCTT CAGTAAAAAC TCGCAATAAA CCACTTGCGG
+    14401 AGCATATTCA CTATTGTGCA TCAAACTTAA ATCATAATAA TACAAGACTT TGTCAGATAT
+    14461 GCATTTAATT AATAACGGGA GGTTGATGTT TTCTACATCA ATATTTAATG CTGGGGCAGA
+    14521 TAAAGACATA ATGGAATTTC TAGGTGACTG CATAGCAGCT ATAGATATGC TGTTCCTTGG
+    14581 TGTGCTTGAC GCCGTCGTGC TTGCTGTGGC TTTACTATTG GAATCTACAG GCGAAATCCC
+    14641 CGTTGAGCTA GATTCAAAAT TGAGCTTCTC CACAGGACAA ATGAGACTCA CAATTTGTGG
+    14701 AATCTGGTAT GACAAACCGA GATAAGATAG AAGTAAAAAG CAGATCGAAA TACCGTCAAG
+    14761 AGCAGAACCC AACCATAAGT AGTCACGCAC TTTGTACAAA GTTGTGATCG CATCAACAAA
+    14821 GCTGTTCAAC GCATCAACGT ACCTTCCTGC CAGCAATTGG AAATTGCCCA AAATTTTCAT
+    14881 TTGTCTGCCC AATGATTTTT GTTGAGACCT ATTCTCAGAT GTGGAAAGCG TGGTAGCTAG
+    14941 CTTTAGAGAA GCGGATCTCT TTAAACTATT GGTAGTCATC TCAAAGGAAG ATAACCTCTT
+    15001 AGAAGCAGTA GTAACTGAGC CTGCCTTCGA TGAACTTGAG ACGGAAGATT GTACCGCTGA
+    15061 CATGGGTGTG CTGGATGACG AAGATGTGTA ACTGTTCTGT CTTATTAGAG TTGTTTTCAA
+    15121 TACCGCATTC CCACCAATCG CACCCGGCGA CCTCAAAGTA ACATGTTTAT AGGAAGAGTA
+    15181 ATAGCTGTTC AATGCGGTTA AAAAGTTCCT TGCTATGTCG CACATAATCG TTTCTATGTT
+    15241 TTTCTGCATA TCTGGAGAAG ATGCGAATAC ATTTTCCATC GTATCTATGG TTTGCTCAAG
+    15301 CTCTTTAGTG GGTGTAGATG AAGCGTACAC CAAATTCGGT GAAATCAAAG TTGGATACTT
+    15361 CTCCTTCATG AAATTCAAAT TGGTCAAGGG GTCACTGTAA TCGTTTACCA GCCCAATAAT
+    15421 GACAAATGTT TTCCGAAATG GCTCAAAATC ATACAGAAAC AACTCCAATG CATCGTCATG
+    15481 ATCTATGGTC AAGAAGTCGA AAAATAACTT CCCATGTGGA AAGCCTTGCG GTGTGAAGAT
+    15541 AGGGCTGTCA ATGGGGGTTA CATCAGACAG ATGAATTTCG TTGAATTCAG AAAGTTTCTG
+    15601 TACCGCATTA TTAAACTCTT TTCGCGTCCA ATGGCCAATT GGTATCACTA AGGTCCTAAT
+    15661 CTTAGATGGG CCAACATAGC TTGGGAAATG CTTAAGAATA TTCATGGTTT TTGTCTCCCT
+    15721 GTAACAGGTT GTGAGCCGCA CCTTAAACCA GTTATACTAG AACCGTTTAA ACTACAATCT
+    15781 GGCCTGATTT TAGTTTTGCA ATAACACGAT TAAGCGTTTA CACATGCACA TTCATATATA
+    15841 AGTATACGTA TTTACACACA TTTTATTCGA AACCTTTAAG ATCGTTTTGT CACAATCCAT
+    15901 GATCATGATT TACGACGCGA GATGTTTCGC GCCTCACTTT GAAGAATGCC AAATATAAAA
+    15961 GTATAAATAT GGGAACTATT CTTATTTGTG AAGCTGCTGT AAAACCTTAT ATGTAGCTTC
+    16021 TACAATCGCG ATGTGCTCAG CATCGTGTAC CCTTTGCTCG TACTGCTCTA GTGTTTCTTC
+    16081 GCCAGGTATG ATTTCTAGCT TTTTTACCAC CAATGGCTCA CCCTTGTCGA CCTCCTCGAT
+    16141 GACATAGTGC ACCATGCATC CGGCCGTCAG AGGCTTGTTC TCGTCCTGAC ATTTGCGCCA
+    16201 TGCCATTTCA ATTGCGTGTG TGGTACCATC GAAACAACCT GGTAGCGCTG GATGCAGATT
+    16261 TAATATCGGC ACAGATTGCA GTTGGCTCAA GAAAGTAGAT CCAAGGATCA ATAACCAGCC
+    16321 CGCGCAGATG ATAACGTCAG GCTTTTCCTC GAGCACTAGT TTTGCGAGGT CGTTCTCAAA
+    16381 CTGGGATCTT GCCTTGGCCC TTGCGGCTTT GTCCTCCTTC GCAATACCCT TTGTATATGG
+    16441 GTATAGCGAA CAAACCTTTG TGGGGATATT ATTGTCCGCT GCCCTAGTTA ACCCGTATGC
+    16501 CTTCTTGCTG GAAGATATGA CAGAGACAAT ATGAGCATCC TCGCCTAATT GGCCCTGCTT
+    16561 TTGGGCATCG ATCAAGGCTT GCAAGTTGGA ACCTGAGCCC GAAATTAATA CGACAATTCT
+    16621 GGCCATAGCT TTTGGAAAGA TTATTGATGT GTGTTGGCTC TCACCTGCGC TTGCTGCAAG
+    16681 TTAAATCATC AACCTTGAGG CTAGGAGCGT TATTCAACTT TAGAAGTGTC TTCTCTTCAT
+    16741 AAACTACTCT ATATAACTTT CCTCTTGCTG GAATAAAAAA CAGGTCAGAG TCACTAGCAA
+    16801 CGAGTCACTC ATTCGAATCC TTGCTGACGC TTTTAGTCTT TATGCTGAAA TCTATCTTCG
+    16861 AAGTCGGAAG GAAAATGCAT TTTTAAACTA TCACTAGAAC TACCATTTTA GAGCGAGCAG
+    16921 AAGGTTCCTC TTTTCTTAAA CAAGTATAAT TTTCCTTTTT GGATTGTACT TTATATTCTT
+    16981 ACACTAAACG GCCCCTAGAT GTCACCTGAG CTGTAGTCAA TGTATACACC CATTCACCGC
+    17041 ACCAGATAGT AAGTTGAAAA GTGTATCATC TTTAATATGA ATATGAAAGA ATGAAGTGGA
+    17101 GTTCATCCAT ATTTCACAAG AAAAGAAGAC TCCAACTCAA ACAGTTGAGT GTTCCATATA
+    17161 CATTCTGTTT CAATGATAAA TTTAGAGGAT TACTGGGAAG ATGAAACGCC TGGGCCTGAT
+    17221 AGGGAACCGA CTAATGAACT AAGAAACGAG GTGGAGGAAA CCATCACTCT GATGGAACTG
+    17281 CTGAAAGTGT CCGAATTGAA GGATATTTGC AGGTCTGTAT CTTTCCCGGT TTCCGGTCGC
+    17341 AAGGCCGTTC TACAGGACCT TATCAGGAAT TTCTTGCAGA ACGCTTTAGT AGTAGGCAAG
+    17401 TCTGATCCTT ATAGAGTTCA AGCCGTTAAA TTTCTGATAG AACGGATCAG AAAGAATGAA
+    17461 CCTTTGCCTG TTTATAAAGA TCTTTGGAAC GCTTTAAGAA AGGGTACCCC ATTGAGTGCT
+    17521 ATCACAGTAC GTTCTATGGA GGGGCCTCCC ACGGTGCAGC AGCAATCACC TTCCGTTATT
+    17581 AGGCAGTCTC CCACTCAACG GCGGAAAACG TCTACCACAT CTTCCACATC TCGTGCACCA
+    17641 CCACCTACAA ATCCAGATGC CTCTTCTTCT TCATCATCTT TTGCTGTACC GACAATTCAT
+    17701 TTTAAAGAGT CTCCATTTTA CAAAATACAA AGGCTAATCC CTGAATTAGT GATGAACGTG
+    17761 GAAGTCACAG GCGGAAGAGG TATGTGCTCT GCGAAATTTA AATTGTCCAA AGCAGACTAT
+    17821 AATCTATTAA GTAACCCGAA TAGCAAACAC AGGCTATACT TATTTTCTGG GATGATTAAT
+    17881 CCATTAGGAT CCCGAGGTAA TGAACCCATC CAATTTCCAT TCCCAAATGA ATTAAGGTGC
+    17941 AATAATGTTC AAATCAAAGA TAATATAAGA GGTTTCAAGA GTAAGCCGGG CACAGCTAAG
+    18001 CCGGCGGATT TAACGCCTCA TCTCAAACCT TATACTCAAC AAAACAATGT GGAGCTGATA
+    18061 TATGCCTTCA CCACGAAGGA ATACAAGCTA TTTGGGTACA TTGTAGAAAT GATCACTCCG
+    18121 GAGCAACTCC TGGAAAAAGT ATTACAGCAT CCAAAAATTA TTAAACAAGC CACGTTACTT
+    18181 TACTTGAAAA AAACACTTCG GGAGGATGAA GAAATGGGCT TGACTACCAC ATCTACTATC
+    18241 ATGAGTCTGC AATGTCCAAT TTCGTACACA AGAATGAAAT ACCCTTCAAA ATCAATAAAT
+    18301 TGTAAGCATC TGCAATGTTT TGATGCATTA TGGTTCCTAC ACTCCCAACT ACAAATTCCT
+    18361 ACGTGGCAAT GCCCAGTATG TCAAATTGAT ATAGCTTTGG AAAATTTAGC AATTTCCGAA
+    18421 TTTGTTGATG ACATTTTACA GAACTGTCAA AAAAACGTTG AACAGGTAGA ACTTACTTCT
+    18481 GATGGTAAGT GGACAGCCAT ATTGGAAGAC GATGATGACA GCGACAGTGA CAGCAATGAT
+    18541 GGTAGTAGAA GCCCAGAAAA AGGTACTTCA GTATCGGATC ATCATTGTTC TTCTTCACAT
+    18601 CCAAGTGAAC CGATTATCAT AAATCTCGAT AGTGATGATG ACGAACCAAA TGGAAATAAT
+    18661 CCTCATGTTA CTAATAATCA TGATGATAGC AACAGGCATA GTAATGATAA CAATAATAAT
+    18721 AGTATCAAAA ATAATGATAG TCATAATAAA AATAATAATA ATAATAATAA TAACAATAAT
+    18781 AATAATAATG ATAATAATAA TAGTATCGAA AATAATGATA GTAATAGTAA TAATAAACAT
+    18841 GATCATGGTA GTCGCAGTAA TACTCCCAGT CATAATCATA CTAAAAATTT AATGAACGAT
+    18901 AATGATGACG ATGATGATGA TCGACTTATG GCGGAAATAA CTAGCAATCA CCTTAAAAGT
+    18961 ACTAATACAG ATATTCTAAC TGAAAAAGGT TCAAGTGCAC CCTCGAGAAC CCTGGATCCA
+    19021 AAAAGTTATA ACATAGTTGC TTCAGAAACT ACTACTCCGG TGACAAACAG GGTTATTCCT
+    19081 GAGTACCTCG GAAACAGTTC CAGTTATATT GGTAAACAAT TGCCGAACAT TCTGGGAAAA
+    19141 ACGCCTTTAA ATGTGACTGC TGTTGATAAT TCATCCCACT TAATCTCTCC AGATGTTAGC
+    19201 GTATCATCCC CAACGCCAAG AAACACCGCT TCAAATGCAA GTTCGAGCGC TCTCAGTACC
+    19261 CCTCCCTTAA TAAGAATGAG TTCATTAGAT CCCAGGGGAT CCACTGTTCC CGATAAAACA
+    19321 ATAAGGCCTC CCATAAATTC CAACAGTTAT ACTGCATCGA TATCAGATTC ATTTGTCCAG
+    19381 CCTCAAGAAT CTTCAGTTTT TCCACCACGT GAACAGAATA TGGATATGTC CTTTCCTTCC
+    19441 ACCGTGAACT CAAGATTTAA TGATCCACGT TTGAATACCA CAAGATTCCC TGATTCAACA
+    19501 TTGCGTGGGG CAACTATTTT GTCGAATAAT GGGCTTGATC AAAGGAATAA CTCTCTACCA
+    19561 ACAACAGAAG CAATCACGAG GAATGACGTC GGGCGACAAA ATTCTACGCC TGTACTTCCC
+    19621 ACGTTGCCCC AGAACGTCCC AATTCGTACA AACTCTAACA AGTCTGGGCT TCCTTTGATA
+    19681 AACAATGAAA ACAGTGTCCC CAATCCTCCC AACACTGCAA CCATACCGTT GCAGAAGTCC
+    19741 AGACTCATTG TAAATCCATT CATTCCAAGG AGGCCTTACT CTAATGTACT GCCCCAAAAA
+    19801 AGACAACTTT CTAATACATC CTCAACTTCA CCCATAATGG GTACATGGAA AACGCAAGAT
+    19861 TATGGAAAGA AATACAACAG TGGTTAA
+//

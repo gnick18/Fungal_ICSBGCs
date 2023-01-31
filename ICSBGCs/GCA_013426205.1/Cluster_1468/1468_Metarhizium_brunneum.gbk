@@ -1,0 +1,564 @@
+LOCUS       1778mF-Z1              14291 bp    DNA     linear   UNC 16-DEC-2021
+DEFINITION  GCA_013426205.1 results based on the annotation PF05141 and  inputs.
+ACCESSION   GCA_013426205.1
+VERSION     1
+KEYWORDS    .
+SOURCE      ICSCreator.py written by Grant Nickles (gnickles@wisc.edu)
+ORGANISM    GCA_013426205.1
+FEATURES             Location/Qualifiers
+     gene            complement(1..1770)
+                     /note="*Name MFS2_0"
+                     /note="*gbkey: Gene"
+                     /gene="MFS2_0"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="G6M90_00g009820"
+     mRNA            complement(1..1770)
+                     /note="*gbkey: mRNA"
+                     /gene="MFS2_0"
+                     /locus_tag="G6M90_00g009820"
+                     /note="*orig_protein_id: gnl|ncbi|G6M90_00g009820.m01"
+                     /note="*orig_transcript_id:
+                     gnl|ncbi|G6M90_00g009820.m01_mrna"
+                     /product="MFS siderochrome iron transporter 1"
+     exon            complement(1..1770)
+                     /note="*gbkey: mRNA"
+                     /gene="MFS2_0"
+                     /locus_tag="G6M90_00g009820"
+                     /note="*orig_protein_id: gnl|ncbi|G6M90_00g009820.m01"
+                     /note="*orig_transcript_id:
+                     gnl|ncbi|G6M90_00g009820.m01_mrna"
+                     /product="MFS siderochrome iron transporter 1"
+     CDS             complement(1..1770)
+                     /db_xref="GO:0016021"
+                     /db_xref="GO:0055085"
+                     /db_xref="GO"
+                     /db_xref="InterPro:IPR011701"
+                     /db_xref="PFAM:PF07690"
+                     /db_xref="NCBI_GP:QLI65847.1"
+                     /note="*Name QLI65847.1"
+                     /note="*gbkey: CDS"
+                     /gene="MFS2_0"
+                     /locus_tag="G6M90_00g009820"
+                     /note="*orig_transcript_id:
+                     gnl|ncbi|G6M90_00g009820.m01_mrna"
+                     /product="MFS siderochrome iron transporter 1"
+                     /protein_id="QLI65847.1"
+     gene            complement(2471..7670)
+                     /note="*Name crmA"
+                     /note="*gbkey: Gene"
+                     /gene="crmA"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="G6M90_00g00983"
+                     /note="*backbone: True"
+     mRNA            complement(2471..7670)
+                     /note="*gbkey: mRNA"
+                     /gene="crmA"
+                     /locus_tag="G6M90_00g009830"
+                     /note="*orig_protein_id: gnl|ncbi|G6M90_00g009830.m01"
+                     /note="*orig_transcript_id:
+                     gnl|ncbi|G6M90_00g009830.m01_mrna"
+                     /product="Isocyanide synthase-NRPS hybrid"
+     exon            complement(7253..7670)
+                     /note="*gbkey: mRNA"
+                     /gene="crmA"
+                     /locus_tag="G6M90_00g009830"
+                     /note="*orig_protein_id: gnl|ncbi|G6M90_00g009830.m01"
+                     /note="*orig_transcript_id:
+                     gnl|ncbi|G6M90_00g009830.m01_mrna"
+                     /product="Isocyanide synthase-NRPS hybrid"
+     exon            complement(6779..7164)
+                     /note="*gbkey: mRNA"
+                     /gene="crmA"
+                     /locus_tag="G6M90_00g009830"
+                     /note="*orig_protein_id: gnl|ncbi|G6M90_00g009830.m01"
+                     /note="*orig_transcript_id:
+                     gnl|ncbi|G6M90_00g009830.m01_mrna"
+                     /product="Isocyanide synthase-NRPS hybrid"
+     exon            complement(5966..6719)
+                     /note="*gbkey: mRNA"
+                     /gene="crmA"
+                     /locus_tag="G6M90_00g009830"
+                     /note="*orig_protein_id: gnl|ncbi|G6M90_00g009830.m01"
+                     /note="*orig_transcript_id:
+                     gnl|ncbi|G6M90_00g009830.m01_mrna"
+                     /product="Isocyanide synthase-NRPS hybrid"
+     exon            complement(5841..5893)
+                     /note="*gbkey: mRNA"
+                     /gene="crmA"
+                     /locus_tag="G6M90_00g009830"
+                     /note="*orig_protein_id: gnl|ncbi|G6M90_00g009830.m01"
+                     /note="*orig_transcript_id:
+                     gnl|ncbi|G6M90_00g009830.m01_mrna"
+                     /product="Isocyanide synthase-NRPS hybrid"
+     exon            complement(5364..5786)
+                     /note="*gbkey: mRNA"
+                     /gene="crmA"
+                     /locus_tag="G6M90_00g009830"
+                     /note="*orig_protein_id: gnl|ncbi|G6M90_00g009830.m01"
+                     /note="*orig_transcript_id:
+                     gnl|ncbi|G6M90_00g009830.m01_mrna"
+                     /product="Isocyanide synthase-NRPS hybrid"
+     exon            complement(2471..5290)
+                     /note="*gbkey: mRNA"
+                     /gene="crmA"
+                     /locus_tag="G6M90_00g009830"
+                     /note="*orig_protein_id: gnl|ncbi|G6M90_00g009830.m01"
+                     /note="*orig_transcript_id:
+                     gnl|ncbi|G6M90_00g009830.m01_mrna"
+                     /product="Isocyanide synthase-NRPS hybrid"
+     CDS             join(complement(7253..7670),complement(6779..7164),
+                     complement(5966..6719),complement(5841..5893),
+                     complement(5364..5786),complement(2471..5290))
+                     /db_xref="GO:0003824"
+                     /db_xref="GO"
+                     /db_xref="GO:0008152"
+                     /db_xref="GO:0016747"
+                     /db_xref="GO"
+                     /db_xref="InterPro:IPR000873"
+                     /db_xref="InterPro:IPR003480"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="InterPro:IPR009081"
+                     /db_xref="PFAM:PF00501"
+                     /db_xref="PFAM:PF00550"
+                     /db_xref="PFAM:PF02458"
+                     /db_xref="PFAM:PF05141"
+                     /db_xref="NCBI_GP:QLI64307.1"
+                     /note="*Name QLI64307.1"
+                     /db_xref="GO:0003824"
+                     /db_xref="GO"
+                     /db_xref="GO:0008152"
+                     /db_xref="GO:0016747"
+                     /db_xref="GO"
+                     /db_xref="InterPro:IPR000873"
+                     /db_xref="InterPro:IPR003480"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="InterPro:IPR009081"
+                     /db_xref="PFAM:PF00501"
+                     /db_xref="PFAM:PF00550"
+                     /db_xref="PFAM:PF02458"
+                     /db_xref="PFAM:PF05141"
+                     /db_xref="NCBI_GP:QLI64307.1"
+                     /note="*Name QLI64307.1"
+                     /db_xref="GO:0003824"
+                     /db_xref="GO"
+                     /db_xref="GO:0008152"
+                     /db_xref="GO:0016747"
+                     /db_xref="GO"
+                     /db_xref="InterPro:IPR000873"
+                     /db_xref="InterPro:IPR003480"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="InterPro:IPR009081"
+                     /db_xref="PFAM:PF00501"
+                     /db_xref="PFAM:PF00550"
+                     /db_xref="PFAM:PF02458"
+                     /db_xref="PFAM:PF05141"
+                     /db_xref="NCBI_GP:QLI64307.1"
+                     /note="*Name QLI64307.1"
+                     /db_xref="GO:0003824"
+                     /db_xref="GO"
+                     /db_xref="GO:0008152"
+                     /db_xref="GO:0016747"
+                     /db_xref="GO"
+                     /db_xref="InterPro:IPR000873"
+                     /db_xref="InterPro:IPR003480"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="InterPro:IPR009081"
+                     /db_xref="PFAM:PF00501"
+                     /db_xref="PFAM:PF00550"
+                     /db_xref="PFAM:PF02458"
+                     /db_xref="PFAM:PF05141"
+                     /db_xref="NCBI_GP:QLI64307.1"
+                     /note="*Name QLI64307.1"
+                     /db_xref="GO:0003824"
+                     /db_xref="GO"
+                     /db_xref="GO:0008152"
+                     /db_xref="GO:0016747"
+                     /db_xref="GO"
+                     /db_xref="InterPro:IPR000873"
+                     /db_xref="InterPro:IPR003480"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="InterPro:IPR009081"
+                     /db_xref="PFAM:PF00501"
+                     /db_xref="PFAM:PF00550"
+                     /db_xref="PFAM:PF02458"
+                     /db_xref="PFAM:PF05141"
+                     /db_xref="NCBI_GP:QLI64307.1"
+                     /note="*Name QLI64307.1"
+                     /db_xref="GO:0003824"
+                     /db_xref="GO"
+                     /db_xref="GO:0008152"
+                     /db_xref="GO:0016747"
+                     /db_xref="GO"
+                     /db_xref="InterPro:IPR000873"
+                     /db_xref="InterPro:IPR003480"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="InterPro:IPR009081"
+                     /db_xref="PFAM:PF00501"
+                     /db_xref="PFAM:PF00550"
+                     /db_xref="PFAM:PF02458"
+                     /db_xref="PFAM:PF05141"
+                     /db_xref="NCBI_GP:QLI64307.1"
+                     /note="*Name QLI64307.1"
+                     /note="*gbkey: CDS"
+                     /gene="crmA"
+                     /locus_tag="G6M90_00g009830"
+                     /note="*orig_transcript_id:
+                     gnl|ncbi|G6M90_00g009830.m01_mrna"
+                     /product="Isocyanide synthase-NRPS hybrid"
+                     /protein_id="QLI64307.1"
+     gene            8481..9982
+                     /note="*Name G6M90_00g009840"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="G6M90_00g009840"
+     mRNA            8481..9982
+                     /note="*gbkey: mRNA"
+                     /locus_tag="G6M90_00g009840"
+                     /note="*orig_protein_id: gnl|ncbi|G6M90_00g009840.m01"
+                     /note="*orig_transcript_id:
+                     gnl|ncbi|G6M90_00g009840.m01_mrna"
+                     /product="hypothetical protein"
+     exon            8481..8511
+                     /note="*gbkey: mRNA"
+                     /locus_tag="G6M90_00g009840"
+                     /note="*orig_protein_id: gnl|ncbi|G6M90_00g009840.m01"
+                     /note="*orig_transcript_id:
+                     gnl|ncbi|G6M90_00g009840.m01_mrna"
+                     /product="hypothetical protein"
+     exon            8580..9982
+                     /note="*gbkey: mRNA"
+                     /locus_tag="G6M90_00g009840"
+                     /note="*orig_protein_id: gnl|ncbi|G6M90_00g009840.m01"
+                     /note="*orig_transcript_id:
+                     gnl|ncbi|G6M90_00g009840.m01_mrna"
+                     /product="hypothetical protein"
+     CDS             join(8481..8511,8580..9982)
+                     /db_xref="InterPro:IPR010828"
+                     /db_xref="PFAM:PF07247"
+                     /db_xref="NCBI_GP:QLI66151.1"
+                     /note="*Name QLI66151.1"
+                     /db_xref="InterPro:IPR010828"
+                     /db_xref="PFAM:PF07247"
+                     /db_xref="NCBI_GP:QLI66151.1"
+                     /note="*Name QLI66151.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="G6M90_00g009840"
+                     /note="*orig_transcript_id:
+                     gnl|ncbi|G6M90_00g009840.m01_mrna"
+                     /product="hypothetical protein"
+                     /protein_id="QLI66151.1"
+     gene            10686..11729
+                     /note="*Name aes"
+                     /note="*gbkey: Gene"
+                     /gene="aes"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="G6M90_00g009850"
+     mRNA            10686..11729
+                     /note="*gbkey: mRNA"
+                     /gene="aes"
+                     /locus_tag="G6M90_00g009850"
+                     /note="*orig_protein_id: gnl|ncbi|G6M90_00g009850.m01"
+                     /note="*orig_transcript_id:
+                     gnl|ncbi|G6M90_00g009850.m01_mrna"
+                     /product="Acetyl esterase"
+     exon            10686..11729
+                     /note="*gbkey: mRNA"
+                     /gene="aes"
+                     /locus_tag="G6M90_00g009850"
+                     /note="*orig_protein_id: gnl|ncbi|G6M90_00g009850.m01"
+                     /note="*orig_transcript_id:
+                     gnl|ncbi|G6M90_00g009850.m01_mrna"
+                     /product="Acetyl esterase"
+     CDS             10686..11729
+                     /db_xref="GO:0008152"
+                     /db_xref="GO:0016787"
+                     /db_xref="GO"
+                     /db_xref="InterPro:IPR013094"
+                     /db_xref="PFAM:PF07859"
+                     /db_xref="NCBI_GP:QLI64615.1"
+                     /note="*Name QLI64615.1"
+                     /note="*gbkey: CDS"
+                     /gene="aes"
+                     /locus_tag="G6M90_00g009850"
+                     /note="*orig_transcript_id:
+                     gnl|ncbi|G6M90_00g009850.m01_mrna"
+                     /product="Acetyl esterase"
+                     /protein_id="QLI64615.1"
+     gene            12525..14291
+                     /note="*Name MFS2_1"
+                     /note="*gbkey: Gene"
+                     /gene="MFS2_1"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="G6M90_00g009860"
+     mRNA            12525..14291
+                     /note="*gbkey: mRNA"
+                     /gene="MFS2_1"
+                     /locus_tag="G6M90_00g009860"
+                     /note="*orig_protein_id: gnl|ncbi|G6M90_00g009860.m01"
+                     /note="*orig_transcript_id:
+                     gnl|ncbi|G6M90_00g009860.m01_mrna"
+                     /product="MFS siderochrome iron transporter 1"
+     exon            12525..14291
+                     /note="*gbkey: mRNA"
+                     /gene="MFS2_1"
+                     /locus_tag="G6M90_00g009860"
+                     /note="*orig_protein_id: gnl|ncbi|G6M90_00g009860.m01"
+                     /note="*orig_transcript_id:
+                     gnl|ncbi|G6M90_00g009860.m01_mrna"
+                     /product="MFS siderochrome iron transporter 1"
+     CDS             12525..14291
+                     /db_xref="GO:0016021"
+                     /db_xref="GO:0055085"
+                     /db_xref="GO"
+                     /db_xref="InterPro:IPR011701"
+                     /db_xref="PFAM:PF07690"
+                     /db_xref="NCBI_GP:QLI66056.1"
+                     /note="*Name QLI66056.1"
+                     /note="*gbkey: CDS"
+                     /gene="MFS2_1"
+                     /locus_tag="G6M90_00g009860"
+                     /note="*orig_transcript_id:
+                     gnl|ncbi|G6M90_00g009860.m01_mrna"
+                     /product="MFS siderochrome iron transporter 1"
+                     /protein_id="QLI66056.1"
+ORIGIN
+        1 CTACCAAACA TGGCCCTTGC TTTGCTTTAT TCCAATCACA TTAATGTCTC GCCAAATCAT
+       61 GACCGATACG AGGCCAACAA CCCAAACCGA CGTGCCTACA GCCAGCATCC TCATCTGAGC
+      121 GTCTCCATAC GCATGCTGAA TTGCCAGGCG TGCCGGGGAG GCAACTGGAT AAGACAGTTG
+      181 GGTCGAGATA TTGGCATATA TTTTTTCCAG GTTAGGGAGC TCTTCAAGAG GAAGGTATTC
+      241 CCTCAGCTTA TTAGGAAAGA CACTTTGCCA GATTGCAGAG GCAATGGTCA GGCCGACGGC
+      301 ACCGCCAATG TTACCAAACA TCCCCAACAC TGCGAGACAA ACAGCGACAT GTTGGTGCGA
+      361 AGCGGCGGCC AGAATGGCGA CTTCGTCACA GACCATAATA GTGCCGGCAG CAATAGAAAT
+      421 CAGTATCTGG CACATGATGA TGTAGCCAAC ACTGCTTTCA ATTTTGCAAA AGTACATCAT
+      481 CAAGCCCGAA CCGAGGATGC TGAGCGGGAT TCCAATATAA AGACAGACTG GTTTAAACCG
+      541 TCCAGTGCAG TGAATCAAGG CGCCGACCAT GATGCCGCAC AGAACCGAGC AGACTGTGTA
+      601 GGACTGTACG ACGTAGCTAG CGTTTTCGAC GTTGAGGTCA TTAACAACTT GCAGGTacga
+      661 gctgaagaag ctaTTCCAGC ACCAGAAACT AACGAATAGC GTAGCCGACA GAATACAAGC
+      721 ACCTAAAACA GTGCGGTCAA GGAGCAGGGG AAACGGTATA AAAGTGATGG AGGCATAATA
+      781 CCTCTCCCAG ATGGCGAATG CAATGATGAG GAGAAGGCCA ATAAACAGCA TTGCGACGAC
+      841 AAGCGGGGAG TTCCAACCAT GAAGCGCATA TACGTTGAAC GGCATAAGAA GCACCGCGAC
+      901 ACCCGCCGAT AGCAAAACGA GGCCCACGGC GTCGAACTGC CGAGAGTAGT AAATGAGGGA
+      961 TTCCCAGGCG GTGCGGTCAC TCTCGCTGTC GCCTTTTGCC ACAAGGCCCA GGTCCTTGGC
+     1021 TTTTCGAAAG TTGGTCCATA AAAGGCCGAA AAGCGGGAGC GTAATAGACG GCACGAGAAT
+     1081 TGTGAACATT GCAAACGCCC AACGCCAGCT GGATCCGTTC AGGAACGCAG AGGATAtcgg
+     1141 cccagccagc caacagGTAA TCAAATTCGG AGAGCTCACG ATGGCCTGCA TGAGACCCCG
+     1201 ATTGCGCAGT GAAGAGGTAT CGGCGACGAA GACGGTCAGA CTATAGAGAA TGCCGTTGTT
+     1261 TCCAACTACT TGGAAGACCT GAGCGATGGC GTACGCCTGG ATACTGCGGC ATAGGGTCAT
+     1321 CATAATAAGC CCAGCCACGG CGACAACTAT GCAGAAGAGG TATCCCTGCG GCcggccaaa
+     1381 gacgtcgagg accttggcaA GAGTGAGATT GGTGACGCCG CCGATAACAT TGCTCAGGAT
+     1441 ACCAACGGTT GGTGTGAGGG AGTGCCTGGC AAAATCAGAC GTGACATAGG GCGTTAGGAT
+     1501 AGCCGTGGTG CCAGTCAACA TGCCCTCGAC GAAGTAAGTG AGCCATATCA TCACGTAGGC
+     1561 AAAGACCAGG GCGCTAGTGG TCCATGCCAC CGtcatggcc tcgacgtcCT GCACACCAGA
+     1621 CTGAATGTCA GAAGCCCGAA TGGCGTCttc attgccatca tcgtTTCTAT CGACATCGTG
+     1681 ATCGCTGAGG AGACTTGAGC TTTCGTCGCT GTCGAGGGCA GCGTAGGCTC TGGGTTGTGT
+     1741 GCCAACTTGA GAATTGACGG CCGACACCAT GCTCTTCTCG CTTTGCGCGG CAAAGCAGGC
+     1801 CTCGATTGAA TAAACAGCAC CAACAAGTGA GGTGGCCGGT CAAAggctca aggctgtcaa
+     1861 aTGTGAATCT GCTGGTGAGT GGAGAGGTGC CTGCGCGAGC AAGTTTATGC ACGAGTGAGT
+     1921 GAGCAAggga gaaaaggggg gggggctCAA CAGACGCCAG GCACAGTAAT AGCTATTGCT
+     1981 AGCCTCGCTA AAACTACGAC TCTCCCCGAT ATTTTTGTTG ACGCTGCCTG TTTTTTGTGA
+     2041 GTTGGGGGAT GCAAAGGGCA GCTCAGCTCA TGGCGTGGGG AGTGGGAATA GGAATGGCGG
+     2101 AGTAAAACTT GCTCACATCA CCCAAGATAA GCATAACTTG CTCAAGCGGC ATGGGTCGAG
+     2161 TCCGACTGTA TACGGAATTG TATCACCGCA GCCACCGGAA CGTTTGAGAG AAAATCTCAC
+     2221 CACGGTCGGA GAAGACGGGG TGATTTACAC AACATGTTGA AGACTACCTG GGAGCTCTAC
+     2281 CCGGAAGACG ATCTATACTG GTATAGTTGT CCATGACACC TTTTCAGTAT TTCAAGTTTT
+     2341 TACTCGCCCG GAACCATACA GAATCTGTAA CATGTTTATT TCACTTTTAT TTGAATAAAc
+     2401 tataaaatat aaattaCGCC CAACAGTCTA GTCCCTCGCT CCGTGTATCG TGTACATGAC
+     2461 CCAAACGTAG TTAGCAGCAA GTATCCACGA GATCCGCGTA CTTTGTAAAC TCCTCATCCG
+     2521 CATTCAGCAT GTCCAACTCC TCCGGGTGCG TGCCCAAAAC CAGCTCAACC CCCCCATCCT
+     2581 TCTTCATGGG AAAAATCACA AGAAACCTGA AGCGGCCGTT GCCACGCTCT ATCTGCGGCC
+     2641 GCATAGACTC AGGGGAACCC TGGTTGGCGA AGAACCCGTC TCCAAAGCAA ACCTCGCTCA
+     2701 TTGGGAACAG CATCATGTTG GATATCATGG CGTGCATGTG CTCGAGGCCC ATATTTGCAG
+     2761 TCGAGAATCT GCCATGGTCA GGGAGAGACT GCAAGAGCGT GAATGCATCA TGCACGAGAG
+     2821 AAGGGGTGAT GCGCGCGGCA GACTGACGCA ACAGGTACGC AACTTGCCCG ATACTTGTCT
+     2881 CCGGAGAGCA CAGTTCTCGT ATGGGCATGC TGGACCGATT CAAGATGAGA AGACTGCCCA
+     2941 TATAAGTCGA TGGTAGTAGT GAGGAAAAGT AGGGCCGGCC GTCGGTAGGC AGCTCGAGGA
+     3001 TGGACATGTC TTCAGGACCA AAGGTTTGTC TACGAATTTC CGTAGCAACG CGGTATCGCG
+     3061 CCCGAATAGC TGCTCGCCAG AAAAAGGCTT GCAAGATGTC GCTGATGGAC GTGATGAccc
+     3121 ccttggcctc ggggtCTGCC ACGACGTCCT GCTTCATCTG CTCCAGCTTG TCGGGCCCGA
+     3181 TCGAAAACAA CGTAGTCTTC AGGCATCTCT CAGCGCGAGG AAGGGGCCAT ACGGAGTGCA
+     3241 GGGGGAATAC AGGTCGAGGA CTCAGAGTCC ATTCGTTTGG CGCCTCCTGC CGAACGACGG
+     3301 GTTTGATAGC CATCGAGTTC TTCTCATCGG CCACGCGGGG AGACTCGTCC TCGGGGGGGA
+     3361 AGAATGGCAG AAAGCCCCAT GTGCCCGGGT CGATTTCGTC AAGAGGCCGA GTCCAACCTT
+     3421 CCTGCTCGTG AATTATCTCG GGCAGGCTGT GGTTGAAACT CTCTGGGTCG TACCAATCGC
+     3481 ACGTTGCCGA CTTGTCGCCC TGGAGATATC GGCAGTTCTC GGCCCAAGCC TTGATGGCGA
+     3541 CCatgacgcc gaggccgtcg agacAGCAGT GATTTAGctc gacggcgatg atgcaCCCCC
+     3601 CTGAAACGAA GTTGACCTGG CCGGCGAAGA TGTCGGCGGG CATCTTGGGG AAGGGGTCGT
+     3661 CTCGCAAAAC AAGACTGTCC TTGAAGGCGG ACGGTGCAAA TCCCGCTTCT CGCAGCTCTG
+     3721 CAAACGACGG AAGAACGCTG GAGAGATCCT TGTATTTCAG TCTGTTGCGG ACAGACGCCG
+     3781 CCATGGGTAA AGAGGGAATG GTGACGCAGA GGTCTCCCTT GGTGTACCCG ATTTCTTGCT
+     3841 CCGAGCGGTT CATCATCTTG CCGCTCAGAG CCGGGATCAT ATCGAATGTC CGGTTCAGAC
+     3901 CTTCTTGCAA GTTTGTAAAT ACTTGCTCGC AGCTGACTCC TTCTTGTAAT GAAAAGTAAA
+     3961 ACACAAGGCC CATGCCGTGG TTTGGGTTAA CATAGTCCAA TGCGTTCAAG GGAAATGATT
+     4021 GTCGAGCTTT GTGCTTGGCA ATCATGTTTC GCATCTTAAA GACcccatcg tcatcattgT
+     4081 GTGGGACAGA CTCGTTTGCT GTCTTCACTG TATCCGCTAT GCGTGCAATA GTAGCAGACA
+     4141 GGCTGGCGAT TGTGGGATTG GCGTAGATAT GGCGAGGAGC AACATGTTCT CCCAACCCCG
+     4201 TGGCAGCCCG AATAGTCTTG ACGGCTGCAA AGACGCCCAG GGAGTCCAGC CCGAGATCAA
+     4261 ACAGATTCCA ATCTAACGGT ACTTCCTGAA TGTCGGGGAG TGACGATGTG AGAATCTCAC
+     4321 GGAGACAAGT CTGAATTGAT GTAGTTGATT CCaggtcgac gaggaagttG CCCGCAACAT
+     4381 CTTCGTTGCG AGAATCGTAG AAACGCTCAA TGTAGTCGGC GTAAAGGGCC AAGGTAGCAG
+     4441 TGCGCTTGAC AGTGCCTTTA TCCGTGAGAA TAAAAGGCTT GCTGGGCTCT GAAAAAGTAA
+     4501 CAAAGTCCTT CAGCAGCTGG TTTCTGTGTC TGGAGAGGGA GTTGGCCTTC TTGACCGTCT
+     4561 CCCAGATGCT GTCGAGAAGA CTGTCGGGTT TCGACAAGGG GTCCTTCAAC TCTACAAGCA
+     4621 GACCTGCCTG CGGCTTCCCG GTGCCGAAAA TAAGACACCC GCTGATTGCA GGGTGAGTAG
+     4681 TAATAAGAGC TTCCGTTTCC AAGGGGGTAA TCTTGTAGCC GTTGGACAAG ACCACCAGGT
+     4741 CATCGCTTCG TCCCTTGAAA GCCCATAGAT TCGGCTTGGT AGGATGTCTC GTGTACAAAT
+     4801 CTTTCAAGTT TATCGAGTCC TTGTCCGGAA AAGTGTGGAA GATGCCCTGA AATAAGAGCC
+     4861 AGTGTTGGTT GCGATGCACC CAATGCTCAT ATGTGCCCTC CTCGACTTCT TTGAACTCAA
+     4921 ACCCAGAGTA GGGATGGAAG CAGAACCAGA GCCAGTCCTC CCTCGAGGTC ACGAGGTTTC
+     4981 CTATAAACAG ACCCTCTGTT GTACCGGTCA AGTTCAGCAC TCTTATGACG TCGTTTACCT
+     5041 TGCTGGCACT TATCGGACTG ACGGGACCGC CGGATGCGCA GATGAATTTG GACGGCTTCA
+     5101 GCTTGCTCAA GACTTCGGGC GCTTCCCCAA CCTCGTCAAC AAGAGACGGA ACCAtgctcc
+     5161 agatgtcaat cTTGGCATGC TCTGCGAGAG TTTCGATGAC ATTGAGATTC GGCAAGACGC
+     5221 CCGCCGGTCC CAAGACACAG TGTAACTCGA ACAAGGCGGG CATTAGAATG TCCATTATAA
+     5281 TACCAGCACC CTGTATTTCA TCGGTCAGTC ACCAGGCATG TATCGTTTTA GAGTTAAGAA
+     5341 GAAAGGCGAA CGGGTATACA TACGTGGCTC ATAGGGAATG ACGAGTAGAT GGTATCGCCT
+     5401 GACCTCCAGT CAGatgtcca tggcagcaaa ttgtcatcac catcaacaGG CGGCAGCAGT
+     5461 CGCACCGCAT CCATGGTGCC GATCAAGCCA TGAGACCACG GAATAGGCTT CGGCACCCCT
+     5521 GTACTCCCAG AGGTATGCAG GAAACAAAAC GGCTCGTCGA CAGCCTCCTC GAACGACTTG
+     5581 GTATAGGGAA ACGGCGCAAC CGAATcgaca tcaagcagct catcGAGTAA AGGAAGCTGC
+     5641 AGCTCATCCA TGGGACGTTG CCGCAGGATT TCTTTAACCA GGGGCACTGG TGAGACTTCG
+     5701 CCCGCGGTAG CCCAGATGCT GCATTTTGTT GCCTCAAGGA CCGCCAATGC TCCCTCGGTA
+     5761 TTGTTCTTGG GTGATAGAAA CAAGGCCTGT GGTTGACGAG AGTTAGCCGG GCGATTCTAT
+     5821 GTTTTGATAG CAAAACTTAC TGCGTAGCCA ACTTTGACGC AAGCATAGGT CAACAAAATA
+     5881 TGTCGCAGGT CATCTTTGAA AGTTAGAGAG TTGGGCTATG GCTGCAACGC AAGACCAGTA
+     5941 TCGGGGAAAA TCTGGCTCAA CTTACGTGGT CCGATATATC CTATAGGTAG GACAGACTCG
+     6001 GGCTTGCCAA CACGGTTGTG AAGCCACCAT GCGGTCTTGt caacagcctt ggtgaACGTG
+     6061 AGAGCAGATA TTTGCTTGAA TTCAGGTGAG CCGCCGGACA ATGTCGTCAG CGAGAATACA
+     6121 GTACGGTCCG GCTCGGCAAC AGCCAAGCTG TCCATGATCT GAGGAATGAG CCTCTTTCCG
+     6181 TATGGAATCG AAGCAGCTCC ATTATTGCTT TCCAATAACA AATCACTATT CAActcatcc
+     6241 tcggcagcgg cgtcCCGACT GCAAGATGAA AGTGTCCGAG GAGACGGCGT CTTGGGCGTG
+     6301 GTGGCCGCAC TGCTCTTTTC GGTTGCTGGA GGTGTGAGAG AAAGACGACC AGGCGAAGTC
+     6361 TTAATGGGCG TAGATGCTCC GGTGAGATAG CCACTTGCGC TGAGAGgcct ggcttcttgg
+     6421 agatAGCTTG CTGTCGCCTC ACTGATGCCG AGGGCGTCTG GCTCCCGGGG CTTCTCCTTG
+     6481 AAGTAGCTGG GCTGGCCATC CATGTACATG AGCTCCAGCC TATCATCCTT GATGAACTCA
+     6541 CCCATGGGGG CGCTGATCCA TTCCCCATCG GCTAGCTGAG CAACACTGCA GTGCCATGGG
+     6601 GTCGTGAACC CGGTCTTGGT GTTGAGTAGG CAGATGGAAA CCTTGTTGCC AGCCACCGAC
+     6661 TCGTGGATTG AGAGCCGTAA ATGATTGGGG TAGGCGTTCT TGACAGCACC CGCGAAGGCC
+     6721 TGTGAGGGGC AACTATTTAG TGACGTGCTG AAAgggatga tgatgcggcT TCACTTACAT
+     6781 GGCCTCGGAT CAACATCTGC TTGGCGAGAT ACTTGCAATC CCTTCTGTAA CTATTTGCAG
+     6841 TCCTATCCGC CCCCCTGGGG AAGATGTACT TTAAATCAGA TTCCAAAAAC CTCTTGTACC
+     6901 CGAGGTAGGT TAGCTTCGTA TCGGGATTCG TGGCAATCTC ATGGTCAATA TCGAGGTCAG
+     6961 CTTTGCCGTA CTTGTTCAGC AGCAAGCGGC GGAAAGTAGT GCAGTTGGCA ACATAAGTAA
+     7021 TCTCGGTCAT CTTTTGGGGC AAGGGAAAGT CAAGGAGGTC TTTCATCCTG GAAAAGTTGA
+     7081 TAAAGCTGAA CTTGTTCTGG GCCGCCAACT TTCGCAGAGC CTCTCCATAA GCCCACGTGT
+     7141 CTTGGTCCGA TATACACAAC AAATCTAATT ACGAGACATA ATGTCACTGT ATCAGCATTG
+     7201 TTCCTCGTTC CTCAAATGGA TTTGTACGTG TTTCTGCGCA TTGTAGACTC ACCATTGTAT
+     7261 GTGATGCCAT CCGATATAAT GGTGACTTGC GCGCCAGGCT GGTACACCTC CTTTATGCGT
+     7321 GTACACATGG TGTTCAACCG GCAGAGAGCC AGCTCTTCAG CCTTGTCCGG CAGGTTACCA
+     7381 AGAACCTTGT ACACCTTGTT GGCAGACTTG AAGGGAAATG CGGGGAGACA TGCTTCTACC
+     7441 CGGGTCCCTG CAGCAACAAA GTGGTGTATA GACGACAGGA ACGTGTCTGC GCCCTTGGCC
+     7501 AGTCGCTCCT TTGAGTCGTC GAATTTGTTC AGGGCATACT CGACGATGAT ATCCAAGATT
+     7561 TGGCGAGATA TCTCTTCCGA TTCAGCGTTG GGCTTTGAAG AGTTGATGGG AAAGGAGCCC
+     7621 TGATCGTTCC CAACAAGGTC TTGTTTGGGA AGATCGTCTC TACGCCTCAT GTTGACGACG
+     7681 GCCAATTGCG ATGTTGTACT AGAAGAATTG AGTAATGATC CACTGCTTTG ACTCAGTTTA
+     7741 GGTTGTATTG TCCAACATCA GTGCACTGCT GATTGGCAAA GCGGTGGGTA GGCAAAGTCC
+     7801 TGGTTTATGC AGATGTGACA GCAGTCACAG GCAGATGTGC GGCCGGACAG TTAAATGGGA
+     7861 CTGAAACGGG AACTCTCCAT AGTATATgca aaaaggcaaa gatgtTTCGG TACTTGTTTT
+     7921 TTATAAGACA GTCCGTCCTG AGGGAGAAAG GCCGACCAAG GAATAGCGAG AGGTCTTTAA
+     7981 GCGAGCCGGG CAAGCCGTGT CCGATGATGA CTGACATGGC TGAGCAAGAA ACCCTTACAA
+     8041 TGGAGCACCT AGGTGTGACA CATGGGCCAT CGTGAGACAT AACGATTTAA CTGTGGTGAG
+     8101 CCTCGGGGCC ATCTGACACA TGGCGAGTTG GTCGGATTCG GCTGAGCACG TTTGAGGCAA
+     8161 ATGATAGTAG GAGACTAGGA GTAGCCCCGG CAGAGGAAGG ATATACATGC AGCCCTGGGA
+     8221 TTTCTAAAAC AAAATGAGCT TAATATCCCT CCGGCAGGGC GACCAGCCAT TCTTGGCATT
+     8281 AGTAATTCGC CGCCATTGGG CTTCGAACCC GATGTAAGAC GGGCTTGGGC TGAAAGTCGT
+     8341 CAAAAATCTC TGGTATATCA CAAACACCAT TCACCATGTT TTCAGAGCAG CCATTCGTAG
+     8401 CACAACCCTG ACGTTGTATC CGACTATTAA AATTCAGAAA TCAAGCTTCT CTCGCGCGGT
+     8461 CGCAGTCCTC GCTGACCACG ATGCGGCATC TGGAAAAGCT ACGCCCTTTG GGTATGTTGA
+     8521 TACCCCCGAG TAGATCTGCG ACGTAATGCC AAACTTCCCA AGTTAATGCG GCTCTACAGG
+     8581 CAAACTTGAG CAAGTCTCGG CATCTTGCCA CCACCTGGGT TTCTTCAACA ACATCGGACT
+     8641 CTCAGCTCAC TACGCTCTAT CCGGGTCTAC TTGTCCGGCT GGATTTGACC TGCGCCGTGT
+     8701 AATCTactcg gcggcaagag atGTGATCCG CAAACACGGC ATACTATTTG CCATTCCTGT
+     8761 CAACGAGGAC ACCCCAGATA CTAGTTACTT TGCGTCTCTT TCTTCGATTG ATCTCGACCA
+     8821 GAGCATTCAC TTCCTCCAAC GCTCTCTCCC CCTGGCTGCC GGTAcagacg gcgacgacaa
+     8881 ggaaCTAGAT GCCATCCTGG AGGACCAGCA CAATACCAAC TTCAAGTCCG ACTATGGCAC
+     8941 CTTGCCGTTC TGGCGCCTCG TCATCTTACA AGCACCCGGG GCGGAGACAG AGTTCACAGC
+     9001 CAGCTTCATC TACCATCACG CACTCGGGGA CGGAGTTTCt ggcctcgtct tccacaaGGC
+     9061 GTTCCAGACC GCCCTGGAAG CCGCGTgttc ctcctcgtca tcacaGTCCG AGGCCGAGTC
+     9121 CAGGGTCACG GCGGACGAGA AAGTCTCGGT CCTCCCACCG GTCGAAGACC TGCACCCTCA
+     9181 ACCACTTCCA CCTCATCATC CCAACCCCCC TGGCCCTGGA AGCAAGACCC GGAAAGAGTG
+     9241 GACCGCCAAT TCCATCCGCA TGCCTTGCAG GTCTCGCTGG GCGTCGTTTT GCCTCTCGCC
+     9301 GGGCGTGTCT CGAGCCTTCT TCCAGGAGTG CAAGGGGCAA GAGACATCGG TGACGGCCGC
+     9361 GCTGTCGTCC ATCGTGGCGT CGGTCCTGTT CACGACGCTC CCAGAGCCCG AGGACGCACT
+     9421 CACTTGTATC ATCCCCGTCA GCTTACGGCC GTGGCTGAGC CTGCCTGGCG ACGCTGCTCG
+     9481 TGATGCCATC GGGACGTACT TTGACGCCAC CAGGGTGTCG TTTACGCGGC CGCAtcagag
+     9541 cagcagcagc agtagcCCTT CCGGCTCGTC AACGGACATT TGGCCAGGGG CCCGGGAGGT
+     9601 ATCCGGGGCC TTGGGAGACT ATCTCGGCAA TGTATCGCCC ACGGGTGAGC CCTATACCGC
+     9661 CATTGCCGTC CTCAAAACCA TCCCAGACTT CTCCGTCGTC TGCAGATCCA TGCTCGGGAA
+     9721 GCCGCGCGAC GCCGCCTTTG AGGTGACCAA CATTGGcgtc ttctcgtcct ctCCTCAGAC
+     9781 GGGTGCTCCT CTTTGGCAGG TAGGGAGGGT GATGCTTAGT CGAAGTGCTC TTGCTTCTGG
+     9841 GGCCGCAGTC ACCGTTAGCA TCGCCACCGG GGGGGACGGC TCGATGACGG TAGGCTTTAG
+     9901 CTGGCAGGAC GGTGTTGTTG AGGATGGTGT TCTAGACGGT ATCCTGCGAG GAACCAAGAA
+     9961 GTACTTTGAC AGGTATCAAT GACTCATGTC GTAGTATAAG CACCAGTTGC CACATTTGTT
+    10021 TGCTAGGGGA GGTTGTACAA GTTCAACAAA GGGCGTCAGC TTTCTTTGTT GGGTGTCAGA
+    10081 CGACGGAGTA TTAGAGATTT GGCtgacggc cgccatggcc attttcCCGC AATGTATCAC
+    10141 AACGATggga tacggagtac tcacATGGAC ACTTGCCAAG ATGTGACGGG GTTGTACAGG
+    10201 CGTGGGCTTG GTCATGTTGA GGCGTCTGGG TTCCCGGGAG CCCGGTCTGG ATGTCAGACG
+    10261 GAAATCCcat gtgtacggag tagcagcCCA AGTCCTAAAT TGCGGTTAAC ACCCATGCTC
+    10321 AACATGCTTA TATCTCATAC TGGCGAGTAC CAATGGGGAA GCGGCCAGGG TTGCTTAAGC
+    10381 GCAGGGCCTG GCCGAGAATC TCCAAGTTGG CATGTCGATG GTATTCACCA ACAAAGAAAC
+    10441 GGCACCCACG ATGCCTGGCA CGCGGTACGC ACGTAGTCTC TTGCACAGCA TCATAGGCAT
+    10501 GCCAGGATAG TCCGGTACAC GTATCCACAT GGATATTGAC GCAAAAATGC GCACCTTACT
+    10561 CGGCAACCCA TCTCACGCCT CCACACGTCG ACCAGATAAC TATTACTTTG CTGCAACCGC
+    10621 CCATCGGATG CCTGGCCAGC GCAGCACAAC GCCCACCGAC TTTTCCACCG TTTCTAGAAG
+    10681 TGGCCATGAA ACTACCGGAA TACCCCTACG GCTACTCGCA GGCGGCGGAG CTGGACTCTA
+    10741 GAATCCGGAT GCCACGCCCG CCCATCGACC CGACGCTCGC ACCCATCATC GACTCATACC
+    10801 TGCTCCCCGA GGAACTGGAT CTCGGCTTCA TGCGCGGCCT GCCATCCTCG GACGGAGATG
+    10861 ACCAAGCCCC GTCGTACAAT GCTGGCACCA TTACAGACGG GCGGCCACAC CTCAAGCACA
+    10921 CGGAGCATCG CGTCCCCGGG CCCGACGGCA ACACAGTCAT CGTGTCCGCG TTCGCGCCCA
+    10981 AGGAGCCCAC GTCGGGCGCG CTACCAGCCG TGTACTACAT GCACGGGGGA GGCATGGTGT
+    11041 CGGGCGACCG CTTCGCCGGa gtcgacgagc tgctccatct cctcgCGGGC ATCGAGTGCG
+    11101 TCGTCCTGTC GGTCGAGTAC CGCCTCGCGC CCGAGACGCG CGCCCCAGGC CCAGCCGAGG
+    11161 ACTGCCACGC CGGGCTCGCG TGGGCGTCGG GCCACTCGTC ACAGCTGGGC ATCGACccgg
+    11221 cggccatggt ggtcGTCGGC GTGTCCGGCG GCGCggccct ggcggcggcg acgtgTCTCA
+    11281 TGGCCCGGGA CAGGCAGTCT CCCGCGACGC CCGTCCGCGC GCAGATGCTG CTGTCGCCCA
+    11341 TGCTGGACGA CCGCTGCCGG AGCGTCTCGG ACCAGCAGTT CGAGTACGGC AGCCCGTGGT
+    11401 GCGGCGTCAC GAACCGCGCG GCCTGGGCGC ACGttgtcgg cgacgaggcc cgGGGGTCCG
+    11461 CCGGCGTCTC GCCGTATCAG TCGCCGGCCC GCGAGCGCGA CCTGTCCCGT CTGCCCCAGA
+    11521 CCTACGTGGA CGTTGGTGAG TGCGAGGTAT TTCGCGATCC GGCTGTGAGG TTTGCCGCGG
+    11581 ACATGTGGCG GTGCGGCTCG ACGTGCGAAC TGCATGTCTG GCCGGGGGCG TTTCACCTGT
+    11641 TTGATGGCAT GGATAACCCT GGCGTGGCGC TTATCCGCGC CGCCATTGCG TCGAAGCAGG
+    11701 CCTGGCTGAG GAGGATTGTG CAGCAATGAG GGTGTGGAGC gggcttcggc ttcgggATGG
+    11761 TGAGGTTGTA TTGTAACTTG ATTTGTAGAG GCATCTGGCA GGTCTtggtg tttgtgttgg
+    11821 tTGACAACTT Gacaacttga cttgacttga cacaATCAAT GTTCCGAGCA CCTAAGCTCA
+    11881 TGGGGCGTAT CCACCCTCCA ATCAATACCC TGGAATGTCA CAGCAAGGGC CGAGTGAGTT
+    11941 AGATTGAGCT AATTAATATT CGGTGAGATC GAGCGGGAAC GCGCTTACAG ATCGTCCCTG
+    12001 TGCCTCCAAC TTGACGCCCA ACGTTCCGCT GGGGTTCGGA TATAGCCAGC CATAGACGGG
+    12061 ATGATCCTCG ACGTTTCATC CTTTCAAGAT GCTATCGATG TTATACAGGC ATTGCGTCCT
+    12121 AAACGTGCTC GAAACCGGCA TCAGTAGGCC CCCTATTTCG GTTGTCCTTC CTTGGCAGTC
+    12181 GTCCGGGTAA AAAGGCTGGG GAATTGGGCC AAGACCAGAT GGCGTATCAA CAAGATGCAA
+    12241 GGTTGCTCGA GTTGAGCAAG ATACTTGCTT ATCCAGTGCC GTTCATCCAC CCTCACTGGT
+    12301 GTGGGAATGC TCGAGTTTAT TGCTTATTTG CTCAACACTA TCTTTGCGCA GCTCGGGCCA
+    12361 GCGTCCTCGA GGGAGATGGC CCCCCAAGGT CGTACATAAC CAAGCACGCA TGGAACTATC
+    12421 ATGTACATAG TCCTCTAGAT GGTTGAATTT GAAAGTGTCT TCACTCCCCA GCCCTCGTCT
+    12481 TTGTCTATGC CACAAGTCGT CTTGCCTGCT CCCATCATCA TACCATGAGT GAGACTCAAC
+    12541 ACCCGCGGCC CATGCCGGCC CACGCCGACG AATATATGGA AAAGGGCCGC GACGGAGTCG
+    12601 TCCACGATGT CAGCAATGCC TTCGACAAGC CGGAGCACGG TGCGGGCGCA ACATCCGACA
+    12661 GGGAGGCCCA AGCCGGCGtc ctcgaggtcg aggccatcgc caCGGTCTGG TCCAAGACCA
+    12721 GCCTCATAGT CGCCTACGTG CTGATCTGGA TCGTCTACTT CATCATGCTG ACgcagcagg
+    12781 ccgccgaggc cgcgCTGAAC CCCTTCGTGA CGTCGGCCTT CCAGCAGCAC TCCCTCACGC
+    12841 CCACCGTCGG CATCCTCAGC agcatctttg gcggcgcgTG CAACCTGACC GTCGCCAAGG
+    12901 TGCTCGACGT CTTCGGCCGG CCGCAGGGCT ACATGGCGTC CCTGgtcgtc gtcaccgtcg
+    12961 gcctggtcat gatggcggcg acgacgagcg tGGAAATgta cgccgccgcc caggtcTTCT
+    13021 GGACCGTCGG CACGGCCGCC CTGCTCTACA GCGTCAACAT CTTTGTCGCC GACACGACGG
+    13081 CCCTGCGCAA CCGCGCGCTC ATGACGGCCC TGACGGCGTC GCccaacatc gtcaccacGT
+    13141 GGCTGGGCGG CCCGATCTCG CAGGGCTTCC TCGAGGGCCC cgggtggcgg tggtgcttcg
+    13201 gcgccctggc catcatcgtG CCCGTCCTGT GTCTCCCCCT GTTCGTCCTG CTGATGATGA
+    13261 ACTACTTCAA GGCGAAGAGG CAGGGCGTCA TCAAGCCGAG GGCCGGGTCG AGGGCGCCCT
+    13321 GGCAGTCTCT CCTCTACTAC TGTCGCGAGT TTGACGCCGT GGGCCTCTTG TTGATCACGG
+    13381 CCGGCCTGGC GCTGTTCCTC TTGCCCTTTA ACCTGTATAC GCAGCAGGCC CTGGGGTGGC
+    13441 GGTCGCCGCT GATTATTTGC CTGCTcgtct ttggcgtcgt cCTGCTGGCC CTGTTTGCCG
+    13501 TGTGGGAGAG GTTCTTTGCC CCCGTCACCT TTATCCCCTA CGCGCTGCTG CTCGACCGCA
+    13561 ACATGGTCGG CGCGTGCGTG CTTGGCTCCG TGCTTTTTAT CAGTTTCTGG TGCTGGAAta
+    13621 gcttcttcag ctcgtACCTC CAGGTTGTCC AGGACCTCAG CGTCACCGAG GCCAGCTACG
+    13681 TTGTCCAGAT ATATGGCCTC GGCAGCAGTC TGTTTtccat tgccgccggc gtcgccatTC
+    13741 GGTATACCGG Ccgcttcaag gccatgacgc TCTACGTCGC CATCCCCGTT TACACGCTGT
+    13801 TCATGGGGCT CATGATTTAC TTCCGGGACC CAAGCATGAG CGTGGGCTAT CTCATCATGT
+    13861 GTCAGATATT CATCTCCTTT GCCgctggca tcatcatcat gacgccgcag attgccgcca
+    13921 tgtccgccgc AGACCACCAG CACATTGCCG TTGTCATGGC CATCCTGTCC ATGTTTTCAT
+    13981 CCATTGGCGG CGCCATCGGC CTCACCGTTG CCGGTGCTAT CTGGCAGGCT GTTTTCCCCG
+    14041 TCAAGCTTGC TGAGTATTTG CCGCCGGAAG ATCTGCCGAA TCTCGTCAGC ATCTATGCCG
+    14101 CGCTCGATGT TCAGCTTAGT TACCCGATAG GAACGCCTAC ACGCACTGCG ATTCAGCACG
+    14161 CCTACTCAGA CGCCCAGTCC ATGATGTTGA CTGCTGGTAC GGCTATCTGG Gctgttggct
+    14221 ttgctgcGGT TGCCATCTGG CGAAACACTG ACGTGAAGAA CTTGAAGCAG GTCAAGGGAC
+    14281 AGGTCATTTA G
+//

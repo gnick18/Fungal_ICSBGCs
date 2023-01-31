@@ -1,0 +1,661 @@
+LOCUS       514mF-Z11              12223 bp    DNA     linear   UNC 16-DEC-2021
+DEFINITION  GCF_003426965.1 results based on the annotation PF05141 and  inputs.
+ACCESSION   GCF_003426965.1
+VERSION     1
+KEYWORDS    .
+SOURCE      ICSCreator.py written by Grant Nickles (gnickles@wisc.edu)
+ORGANISM    GCF_003426965.1
+FEATURES             Location/Qualifiers
+     gene            complement(1..1973)
+                     /db_xref="GeneID:54331961"
+                     /note="*Name ATNIH1004_009259"
+                     /note="*end_range: 3810452,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="ATNIH1004_009259"
+                     /partial
+                     /note="*start_range: .,380848"
+                     /note="*backbone: True"
+     mRNA            complement(1..1973)
+                     /db_xref="GeneID:54331961"
+                     /db_xref="Genbank:XM_033573857.1"
+                     /note="*Name XM_033573857.1"
+                     /note="*end_range: 3810452,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ATNIH1004_009259"
+                     /note="*orig_protein_id: gnl|WGS:QUQM|ATNIH1004_009259"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009259"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,3808480"
+                     /note="*transcript_id: XM_033573857.1"
+     exon            complement(1906..1973)
+                     /db_xref="GeneID:54331961"
+                     /db_xref="Genbank:XM_033573857.1"
+                     /note="*end_range: 3810452,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ATNIH1004_009259"
+                     /note="*orig_protein_id: gnl|WGS:QUQM|ATNIH1004_009259"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009259"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_033573857.1"
+     exon            complement(1539..1837)
+                     /db_xref="GeneID:54331961"
+                     /db_xref="Genbank:XM_033573857.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ATNIH1004_009259"
+                     /note="*orig_protein_id: gnl|WGS:QUQM|ATNIH1004_009259"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009259"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_033573857.1"
+     exon            complement(1098..1486)
+                     /db_xref="GeneID:54331961"
+                     /db_xref="Genbank:XM_033573857.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ATNIH1004_009259"
+                     /note="*orig_protein_id: gnl|WGS:QUQM|ATNIH1004_009259"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009259"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_033573857.1"
+     exon            complement(808..1017)
+                     /db_xref="GeneID:54331961"
+                     /db_xref="Genbank:XM_033573857.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ATNIH1004_009259"
+                     /note="*orig_protein_id: gnl|WGS:QUQM|ATNIH1004_009259"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009259"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_033573857.1"
+     exon            complement(182..311)
+                     /db_xref="GeneID:54331961"
+                     /db_xref="Genbank:XM_033573857.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ATNIH1004_009259"
+                     /note="*orig_protein_id: gnl|WGS:QUQM|ATNIH1004_009259"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009259"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_033573857.1"
+     exon            complement(1..41)
+                     /db_xref="GeneID:54331961"
+                     /db_xref="Genbank:XM_033573857.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ATNIH1004_009259"
+                     /note="*orig_protein_id: gnl|WGS:QUQM|ATNIH1004_009259"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009259"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,3808480"
+                     /note="*transcript_id: XM_033573857.1"
+     CDS             join(complement(1906..1973),complement(1539..1837),
+                     complement(1098..1486),complement(808..1017),
+                     complement(182..311),complement(1..41))
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="PFAM:PF05141"
+                     /db_xref="GeneID:54331961"
+                     /db_xref="Genbank:XP_033424409.1"
+                     /note="*Name XP_033424409.1"
+                     /note="*Note EggNog:ENOG410Q5BI~COG:Q"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="PFAM:PF05141"
+                     /db_xref="GeneID:54331961"
+                     /db_xref="Genbank:XP_033424409.1"
+                     /note="*Name XP_033424409.1"
+                     /note="*Note EggNog:ENOG410Q5BI~COG:Q"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="PFAM:PF05141"
+                     /db_xref="GeneID:54331961"
+                     /db_xref="Genbank:XP_033424409.1"
+                     /note="*Name XP_033424409.1"
+                     /note="*Note EggNog:ENOG410Q5BI~COG:Q"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="PFAM:PF05141"
+                     /db_xref="GeneID:54331961"
+                     /db_xref="Genbank:XP_033424409.1"
+                     /note="*Name XP_033424409.1"
+                     /note="*Note EggNog:ENOG410Q5BI~COG:Q"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="PFAM:PF05141"
+                     /db_xref="GeneID:54331961"
+                     /db_xref="Genbank:XP_033424409.1"
+                     /note="*Name XP_033424409.1"
+                     /note="*Note EggNog:ENOG410Q5BI~COG:Q"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="PFAM:PF05141"
+                     /db_xref="GeneID:54331961"
+                     /db_xref="Genbank:XP_033424409.1"
+                     /note="*Name XP_033424409.1"
+                     /note="*Note EggNog:ENOG410Q5BI~COG:Q"
+                     /note="*gbkey: CDS"
+                     /locus_tag="ATNIH1004_009259"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009259"
+                     /product="uncharacterized protein"
+                     /protein_id="XP_033424409.1"
+     gene            5861..6178
+                     /db_xref="GeneID:54331962"
+                     /note="*Name ATNIH1004_009260"
+                     /note="*end_range: 3814657,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="ATNIH1004_009260"
+                     /partial
+                     /note="*start_range: .,3814340"
+     mRNA            5861..6178
+                     /db_xref="GeneID:54331962"
+                     /db_xref="Genbank:XM_033573858.1"
+                     /note="*Name XM_033573858.1"
+                     /note="*end_range: 3814657,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ATNIH1004_009260"
+                     /note="*orig_protein_id: gnl|WGS:QUQM|ATNIH1004_009260"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009260"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,3814340"
+                     /note="*transcript_id: XM_033573858.1"
+     exon            5861..6178
+                     /db_xref="GeneID:54331962"
+                     /db_xref="Genbank:XM_033573858.1"
+                     /note="*end_range: 3814657,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ATNIH1004_009260"
+                     /note="*orig_protein_id: gnl|WGS:QUQM|ATNIH1004_009260"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009260"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,3814340"
+                     /note="*transcript_id: XM_033573858.1"
+     CDS             5861..6178
+                     /db_xref="GeneID:54331962"
+                     /db_xref="Genbank:XP_033424410.1"
+                     /note="*Name XP_033424410.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="ATNIH1004_009260"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009260"
+                     /product="uncharacterized protein"
+                     /protein_id="XP_033424410.1"
+     gene            complement(7837..8470)
+                     /db_xref="GeneID:54331963"
+                     /note="*Name ATNIH1004_009261"
+                     /note="*end_range: 3816949,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="ATNIH1004_009261"
+                     /partial
+                     /note="*start_range: .,3816316"
+     mRNA            complement(7837..8470)
+                     /db_xref="GeneID:54331963"
+                     /db_xref="Genbank:XM_033573859.1"
+                     /note="*Name XM_033573859.1"
+                     /note="*end_range: 3816949,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ATNIH1004_009261"
+                     /note="*orig_protein_id: gnl|WGS:QUQM|ATNIH1004_009261"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009261"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,3816316"
+                     /note="*transcript_id: XM_033573859.1"
+     exon            complement(8338..8470)
+                     /db_xref="GeneID:54331963"
+                     /db_xref="Genbank:XM_033573859.1"
+                     /note="*end_range: 3816949,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ATNIH1004_009261"
+                     /note="*orig_protein_id: gnl|WGS:QUQM|ATNIH1004_009261"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009261"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_033573859.1"
+     exon            complement(8147..8281)
+                     /db_xref="GeneID:54331963"
+                     /db_xref="Genbank:XM_033573859.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ATNIH1004_009261"
+                     /note="*orig_protein_id: gnl|WGS:QUQM|ATNIH1004_009261"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009261"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_033573859.1"
+     exon            complement(8015..8101)
+                     /db_xref="GeneID:54331963"
+                     /db_xref="Genbank:XM_033573859.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ATNIH1004_009261"
+                     /note="*orig_protein_id: gnl|WGS:QUQM|ATNIH1004_009261"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009261"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_033573859.1"
+     exon            complement(7837..7967)
+                     /db_xref="GeneID:54331963"
+                     /db_xref="Genbank:XM_033573859.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ATNIH1004_009261"
+                     /note="*orig_protein_id: gnl|WGS:QUQM|ATNIH1004_009261"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009261"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,3816316"
+                     /note="*transcript_id: XM_033573859.1"
+     CDS             join(complement(8338..8470),complement(8147..8281),
+                     complement(8015..8101),complement(7837..7967))
+                     /db_xref="GeneID:54331963"
+                     /db_xref="Genbank:XP_033424411.1"
+                     /note="*Name XP_033424411.1"
+                     /note="*Note EggNog:ENOG410PSQM"
+                     /db_xref="GeneID:54331963"
+                     /db_xref="Genbank:XP_033424411.1"
+                     /note="*Name XP_033424411.1"
+                     /note="*Note EggNog:ENOG410PSQM"
+                     /db_xref="GeneID:54331963"
+                     /db_xref="Genbank:XP_033424411.1"
+                     /note="*Name XP_033424411.1"
+                     /note="*Note EggNog:ENOG410PSQM"
+                     /db_xref="GeneID:54331963"
+                     /db_xref="Genbank:XP_033424411.1"
+                     /note="*Name XP_033424411.1"
+                     /note="*Note EggNog:ENOG410PSQM"
+                     /note="*gbkey: CDS"
+                     /locus_tag="ATNIH1004_009261"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009261"
+                     /product="uncharacterized protein"
+                     /protein_id="XP_033424411.1"
+     gene            complement(9183..9788)
+                     /db_xref="GeneID:54331964"
+                     /note="*Name ATNIH1004_009262"
+                     /note="*end_range: 3818267,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="ATNIH1004_009262"
+                     /partial
+                     /note="*start_range: .,3817662"
+     mRNA            complement(9183..9788)
+                     /db_xref="GeneID:54331964"
+                     /db_xref="Genbank:XM_033573860.1"
+                     /note="*Name XM_033573860.1"
+                     /note="*end_range: 3818267,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ATNIH1004_009262"
+                     /note="*orig_protein_id: gnl|WGS:QUQM|ATNIH1004_009262"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009262"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,3817662"
+                     /note="*transcript_id: XM_033573860.1"
+     exon            complement(9591..9788)
+                     /db_xref="GeneID:54331964"
+                     /db_xref="Genbank:XM_033573860.1"
+                     /note="*end_range: 3818267,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ATNIH1004_009262"
+                     /note="*orig_protein_id: gnl|WGS:QUQM|ATNIH1004_009262"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009262"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_033573860.1"
+     exon            complement(9468..9525)
+                     /db_xref="GeneID:54331964"
+                     /db_xref="Genbank:XM_033573860.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ATNIH1004_009262"
+                     /note="*orig_protein_id: gnl|WGS:QUQM|ATNIH1004_009262"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009262"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_033573860.1"
+     exon            complement(9333..9419)
+                     /db_xref="GeneID:54331964"
+                     /db_xref="Genbank:XM_033573860.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ATNIH1004_009262"
+                     /note="*orig_protein_id: gnl|WGS:QUQM|ATNIH1004_009262"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009262"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_033573860.1"
+     exon            complement(9183..9283)
+                     /db_xref="GeneID:54331964"
+                     /db_xref="Genbank:XM_033573860.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ATNIH1004_009262"
+                     /note="*orig_protein_id: gnl|WGS:QUQM|ATNIH1004_009262"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009262"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,3817662"
+                     /note="*transcript_id: XM_033573860.1"
+     CDS             join(complement(9591..9788),complement(9468..9525),
+                     complement(9333..9419),complement(9183..9283))
+                     /db_xref="PFAM:PF18648"
+                     /db_xref="GeneID:54331964"
+                     /db_xref="Genbank:XP_033424412.1"
+                     /note="*Name XP_033424412.1"
+                     /note="*Note EggNog:ENOG410PQPP"
+                     /db_xref="PFAM:PF18648"
+                     /db_xref="GeneID:54331964"
+                     /db_xref="Genbank:XP_033424412.1"
+                     /note="*Name XP_033424412.1"
+                     /note="*Note EggNog:ENOG410PQPP"
+                     /db_xref="PFAM:PF18648"
+                     /db_xref="GeneID:54331964"
+                     /db_xref="Genbank:XP_033424412.1"
+                     /note="*Name XP_033424412.1"
+                     /note="*Note EggNog:ENOG410PQPP"
+                     /db_xref="PFAM:PF18648"
+                     /db_xref="GeneID:54331964"
+                     /db_xref="Genbank:XP_033424412.1"
+                     /note="*Name XP_033424412.1"
+                     /note="*Note EggNog:ENOG410PQPP"
+                     /note="*gbkey: CDS"
+                     /locus_tag="ATNIH1004_009262"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009262"
+                     /product="uncharacterized protein"
+                     /protein_id="XP_033424412.1"
+     gene            10904..12223
+                     /db_xref="GeneID:54331965"
+                     /note="*Name ATNIH1004_009263"
+                     /note="*end_range: 3820702,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="ATNIH1004_009263"
+                     /partial
+                     /note="*start_range: .,3819383"
+     mRNA            10904..12223
+                     /db_xref="GeneID:54331965"
+                     /db_xref="Genbank:XM_033573861.1"
+                     /note="*Name XM_033573861.1"
+                     /note="*end_range: 3820702,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ATNIH1004_009263"
+                     /note="*orig_protein_id: gnl|WGS:QUQM|ATNIH1004_009263"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009263"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,3819383"
+                     /note="*transcript_id: XM_033573861.1"
+     exon            10904..11120
+                     /db_xref="GeneID:54331965"
+                     /db_xref="Genbank:XM_033573861.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ATNIH1004_009263"
+                     /note="*orig_protein_id: gnl|WGS:QUQM|ATNIH1004_009263"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009263"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,3819383"
+                     /note="*transcript_id: XM_033573861.1"
+     exon            11177..11280
+                     /db_xref="GeneID:54331965"
+                     /db_xref="Genbank:XM_033573861.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ATNIH1004_009263"
+                     /note="*orig_protein_id: gnl|WGS:QUQM|ATNIH1004_009263"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009263"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_033573861.1"
+     exon            12110..12223
+                     /db_xref="GeneID:54331965"
+                     /db_xref="Genbank:XM_033573861.1"
+                     /note="*end_range: 3820702,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="ATNIH1004_009263"
+                     /note="*orig_protein_id: gnl|WGS:QUQM|ATNIH1004_009263"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009263"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_033573861.1"
+     CDS             join(10904..11120,11177..11280,12110..12223)
+                     /db_xref="GeneID:54331965"
+                     /db_xref="Genbank:XP_033424413.1"
+                     /note="*Name XP_033424413.1"
+                     /db_xref="GeneID:54331965"
+                     /db_xref="Genbank:XP_033424413.1"
+                     /note="*Name XP_033424413.1"
+                     /db_xref="GeneID:54331965"
+                     /db_xref="Genbank:XP_033424413.1"
+                     /note="*Name XP_033424413.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="ATNIH1004_009263"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:QUQM|mrna.ATNIH1004_009263"
+                     /product="uncharacterized protein"
+                     /protein_id="XP_033424413.1"
+ORIGIN
+        1 TCAAGCGACT TCTAATCCGG AGGATTTGGC CTCTACCACG GCTATGTTAT TATGTCAGTC
+       61 GACCTTCCCC CTCTGTCTAT CTCACTCCTC TCCCtacata tataataata aagtatattC
+      121 TCCTTATGCG TTGGCTCCTC CACCGCCCTC GGAGCCGAAT AATCCGTACT CAGCAACCTA
+      181 CTGATGATGA GACTTCCGTC CACGGCGCCA GGGGTGGAAC CGCTGCGTGT CGTCGCCACG
+      241 GCGCGACGGA GATCAGGAAG ATTTTCGCAG GGGATGCGAT AGAGGGTATT GTAGATGcgt
+      301 atctgtttgt tctACGCGCC GTGTTTTTGA TTGTTAGGGC TCATGCGAGA GTTGCGGTTT
+      361 GATGATTTTT GGGAATAGGT GCGAGAGGTT GCAGTTGTAA ACATCATATA TTGTACGTAT
+      421 ACGTATTTAT ATCTTGATGT ATGATATATT TAAATGTCTA TATATGTTAA ATTTATACAT
+      481 TTATGTGGTT TTGTGTTTTG GTTGTGGAAG GGTTGAGATT GTACCGGATG TGACTTGTAC
+      541 ATTGTCTGAG AATCGTTACT CCCGGCGTGT TAACCCTTCA AGAAGCTGTA CTATGATACA
+      601 ATATGGAATA TACTCCTAAA AATGTCagat agtataaata tagcaaTAGG ATCCACTAAA
+      661 CCTCAATCAA CAATCATGCA GAGATAAAAT AGATACAGGA ATAACAGACT CAACAGACAA
+      721 AGATATAAGC TAATAGATAT AAGACAGTAT AAGTCAAGTC TAAATAGCCA CCTCCCTGAA
+      781 ATAGCTCGGT CTCCCATTTT CACAAACCAG CTCATACCTC GGATCGTCCT CAAATTCCCC
+      841 CTTAGGCCGA CTGATCAGAC TTCCATCAGC CAGGAACGCT ACGCTGCAGT GCCACGGCGT
+      901 CGTGTACGAC GTGCGTGTCG GCAACAGACT AATAGACACC TTGTGCTCGC CTGTTGACTG
+      961 GTGGATACTG AGACGGAGAT AGTCAGGGAA ATTATGCTTG ACAGCTGCTC CGAATGCCTT
+     1021 TTCATTATTA Gcaaaaaata taaaggaaag aaagaaaagg gaagaaaaaa aaaaaggaca
+     1081 agaagaGGGA AACTTACATA TCCTCGTGCA ATCATCTGCT TAGCCAAATA CTTAACATCC
+     1141 TTCCGATACT TCATCCCACT ACGATTCTCT CCCCGTTCGA AGATATGCCG CAGGTCGTTC
+     1201 TCCAGGAATC GTGTATACCC ATAGTACGTC AGTCTGGTGT CCTCCTTCTC TGCGATCTCC
+     1261 TTGGTCACGT TGAGATCCGA CTTTTCGAAC TGATTCAGCA GCGCCCGTCG GAAATTTGAA
+     1321 GCGTTAGCCA CGTAGGTGAT TTCCTCCAGT GGATCCGGCA GACCCGGCAT ATGCACCAGA
+     1381 TCCTTGAGTC GACTAAATCG GAGATGCGTA CATTCTTTCT CAACAGCCAT AGCCCGTAGT
+     1441 CCTTCTCCGT AGGCCCATAC ATCACGGTCG GGGATCGTCA GGAGGTCTTC CAGCATTAAC
+     1501 ACCATCGACA TAAATCTTGT TAGAGAGAGA TGGCACACCA TTATACACCA ACCCATCGGA
+     1561 AATAACCAGC AACTCCGCAC CAGGTTTATA CACCCTCCCC ATTTCCTCAC AGATAGTATT
+     1621 CATCCGTTTG AGAGCCACCT CCTCCGCCTT ATCCGGCAAA ACCCCCAGCA CCTTGTACAC
+     1681 CTTATTTGCC GATTTCCACG GGAACGCAGG CAGACACATC TGCACGGGGA GGTCGTTTTC
+     1741 GACGAAGCGA CGAATGATGG AGACGAATCG AGCGGCGCCC TGGGCCCAGC GATCGTGGGC
+     1801 ATTGGGCGAT AGGGCTTCAG CACGGCGAGG AGGGTCTCTG CCGTTTGTGT GTGTTCGTCC
+     1861 ACTGGAAATG AGGGAGTGGT ATTGGATGCT ATCTCCTTCA CGGACACGGT CATGGATTTG
+     1921 GGCTCGGGTA TGGCGAGGGG GGTTGTGGGG TTGTCAGTGA TCATAGGGGA CATATTGATC
+     1981 AAATTATATG ATATTATTGG AGATAGGGAT GGACGTATTG GACTCATTTT TGGTGCGATG
+     2041 GCGTTTCAGG CCTTTCAGGT GTAAATTATA CTGGGTCCGA TTGATGTGTA TTCAGTTGAA
+     2101 GAGGTCGAAG TCGAATACAT ACAACTCATG AGTACAGCAT CATCTAGCGC TCTCACAACA
+     2161 GGTACAAAAA TCATGGCTAA ACGTGGCATG TGGATAATCA CGGTGTGTTC AGTGGAGGGC
+     2221 TGGGATTTGG CCGCGGAGTA TTTTGCTCAT GGTGTTTCAA ATTGTCCTAA TTATGGCCTG
+     2281 ATATGAGTCT ATTATTGGTC CATATACTCC GGTCTTAGTA TTATCCGTAG ATAAAGTTAA
+     2341 GGTTATCGTG GAATTAATAT ACTCCGATTC CTAGAATAGA CATGTGGAAG TAACTACCTC
+     2401 TATGTCATGT CTTTTTACAT AATTTTCCAA CCTAGGTTCT AGTTCTTTAA AAAGTAATGG
+     2461 TTATATTAGG CTATATAGTT ATTctctata atattatttt agttatatat tcttttaatc
+     2521 CTTGGATAAT AGGGTCAGAG ATATTTGAGG CTCACAtcta ggctggccgt tgggagggga
+     2581 ttttcccttg ggatttccct cccgaatggg accgggacgg gaacgggacc aatttcagga
+     2641 tatttatggg aattagggat tttagggaat atcccattcg ggaatgggac gggaaacggg
+     2701 aacGAGCTta tagatgggaa gggagtggga atatcccgat tCCTAGGAAA ATCCCATGGT
+     2761 AATTttttaa tcacgtgata atTAACTACT TTATGTTACT Ttacatagta atattttata
+     2821 tttttatgct ataaaaattt ttagaCTATA CCATATTAGG Aagtgggacg ggattcggaA
+     2881 TCTTAGGTta agaaatggga cgggaaacgg gacgtgattt ttaagataag agggaatggg
+     2941 aatatcccct cccgaatccc atataatggg aatcccttcc caaatagcgt ggcatgggaa
+     3001 gggaatcaaa atttaattcc cattgggaat atgggacggg acttgaaccc tttcgggatc
+     3061 ccgaatccct cccaacggtc agcctacgAG TCACATCTGT CAgggggctg aacccgtaga
+     3121 acctataaca tgtcaaataa tatggccgtt ggtggaccag aatcatgtga ctagatcggg
+     3181 gtaacccccg cggagcactc aacaagaata accaagaaga ataatcaaga agagcccaac
+     3241 cagctcaatt cattcaaata agaccttttt accaatcgta ctctatttcc tcttcgcgac
+     3301 tagccgtata tctgacataa gataggctat gtgcaaaaag gaatcgttga aggaaaggaa
+     3361 agaaaggacg GTAAACAAAT ACGAATGAAA TCACGTGGGT CTTCGAGtgt gttagggacc
+     3421 taccatattc ggtatgatca cgtggcctca cttagtcacc catctagata gtcagctcgc
+     3481 ccgagctcct gaattgaaga gaattgtgcc tcgcgaacag aGGGCCAATA GGgccaatag
+     3541 ggacaacagg gacaacaggg acaaaTGGGT AATTGGCCCG AGAGTCAAAT TTGAAACAAC
+     3601 TGCCCCTTAT ATATCAAGAA GCGTTATCAT CATAAGCCAT ATTAGGATTC ATATATAGCT
+     3661 GGTAAactat ttttctttca gaCTCCAACA TACTAATTTC TCCTCTGTTC TGTGTTTCAA
+     3721 GGCGCATTGA CACGACCACG TTCTTTAAGT ggcgggcgag caggaaGTGT ATGTTGGCCT
+     3781 CGATAGGGCT GGCTATACAA GAAATTACTG GGGGTTTCTG GCGAGCCCAA GATGGCAAGT
+     3841 GGCTTATGCg gcattattat tatgaatGAC TAGAGTAAAT CCATTTGATa catacgacca
+     3901 cagggtgtgg agaacagggc ttcccgtccg ctcagccgta cttaagccac acgccggccg
+     3961 gttagtagtt gggtgggtga ccaccagcga atcccggctg ttgtatgtcC GTCTTCACCA
+     4021 GCTTTTTTTG ACTCGTCGGG TTTAGCGCCC GTGCCGCCCT ACCTTCACCC TCCTTCACCC
+     4081 CTTCACCTGA AGTCCCCTGA AGCTGACTGA ACCGCTTGAT GCCCTCTCTA TTCTGTACTC
+     4141 AACCAGCCAT ATGATCCTGG AAGGGTTGAC GTGtccttta atttcttttt tttgcccacG
+     4201 CCCCTTTTTT GCGTTGCATT TTTCGCTTGG CTGTTTGTTG CCAAAATGCT TTTACGTATC
+     4261 AAACTAacaa taattatttt tagGCTGGAA AGTGTTAACT AATAAATCCG GGAATTAGTT
+     4321 AGGATACaca ataattaatt taaagaGGTA CTAAGCCTAG CTCATTTCAG ACTCCTAACC
+     4381 TGATCATTAT ATCTGGTCGC ACCTTGAATT TGTAGTTGGG TTCGACTAAG ATATAAGCGT
+     4441 CACTAGTTTA TTGGCTACTC CCCATTGTCG ATGTGGGTCA TGCTGACTGT TGATGGAGCC
+     4501 TGCCTGGATA CCTACCCCGC TTCACCGTTC ACACTCTGGA GTTTCATTAT TTGTTGGTCA
+     4561 CTTTTTACGG CCCTCTGGAT CCGGAGTggt atacggagta ctccataACG CGTCGAAATA
+     4621 TGTCTAGTAT TGGTTCTACC TCTACGCAAG ACCCTGTATA TTTCTGTTGG CGACAGCAAG
+     4681 ATTCTGTCCA CAGTTATTTC CAAAAGGATG GTCCACTACC CAACGGGGGC TTCTTTCATT
+     4741 GTCATCTATG CCCACGCCAA TTCCGCAAGG CTTATTCGCT AAAGAGACAC TTAACGACTC
+     4801 GTGAGGCTCC CACCAACAAA CTGAAATAGT ATTACTGATA GGGGCTGCGC ACTAGATGAC
+     4861 CCAAAGAGGT TCCGTTGCCC AAGTTGCAGG AAGCTATTTC AACAGCAATG CAATGTTATT
+     4921 GAGCACCTAC ACAAGCACCG ATGCCAGGGC CTAAgacaag agaaaaggaa agtGGGAAAG
+     4981 GCCAAAGGGA TCAGCGGTAC TGTTCTTGGT ATTTTCGAAT TTCTAAAATG GATTCTAATT
+     5041 GATCTCGCAG ATTATGCTTC GGTTATATGT TTCCAAGCTC GTCCAGTCGA GACCAGTACA
+     5101 GATAAGCAAA CTGCCGAATG TCCGAAGAGT ATTCAAAATT TGCCCAGTGA AGACCAATTC
+     5161 GCGTCAGTGA ATCAATTTAG TATGTGCAAT GTCCTTAGTA ACATTGCCAG ATATGTTAAC
+     5221 ACTATACTTA ATTTTAATAG GCTTGAATGG TCTAAAGATA TCTTCTCATG ATGTTCAGCT
+     5281 TCCTCTGCAT GTCGGAGGAA CACAACCCTT CCATGAGGTG CTTAATCAGC GACCTGAAAT
+     5341 GGATCCATTT GAGCCAGATC CCGGTATAAA CAATACCCTG TTCAATAGAT CCATTGTCCA
+     5401 CAGTAAAGGG GCAGGTTCTA CGTACACTAG CCATGGAAAG CCTGAACCCG CTATATTCAG
+     5461 CTCCGTCTTC AGCAAATCTA TTGAAGATAC GGCTCCAACA TATGAGTCCT CCCATACTTT
+     5521 GAACCAAAGT TTTGAACCAG ACCCCGCTAT CAATAACTCT TTGTTCAACC AATTAATGAA
+     5581 CAATACTACT TCAAACTGTG TACTAGACTA TTCTTGTACT GGTCACAATC TATTTGAACC
+     5641 GGACCCCGGA ATTAACAATT CCCTATTTAG CCAGTGCATT AATAATACTC CTCTAAGTTA
+     5701 CGGACTTTCT GGAAGTATTG GTCACAATAT TTTTGAGCCT GACCCTTGCA TAAACAACTC
+     5761 TCTATTTAAC CAGTCTGCTC CAAACCAACA ATTCCCTGGG CTGACTTCTG TTGTTTCTGA
+     5821 ACTGAATAAT TTCCGAAATC CATATGTTCC TACACCAACA ATGGATGTCC CTTCTTTTAA
+     5881 TAGTTCCAGT GACAGCCATA CTACAAGCAG CCAACTACCT GTGTTAAACC CCCTATATTC
+     5941 TGATTCCTAT AATGGTCAAA ATGCGCCGTA CGGGTCCACG CCTGCTGCAA ATCATTCGCT
+     6001 GCCTGGAATG AGTTTTTACC TTTCTGATCT TCGCAACGGT CACGAATCCT CACAGCCTGA
+     6061 GCCCACGGTG GACAATAATT CATTTGACCC GTTTAGTAGT GACCCGTCTA TTTCAGGGGC
+     6121 ACTCTTCACC CAGTTCGAGG CAGATCCTGC TATAATGAAC ACGCTTTTTC AATCCTAAAC
+     6181 CTGTTGACTT CCTAATGCGA AAACTCCATT TAATGTCCTA TATGCTAAGG TGGAACAATg
+     6241 cgaaaaaata aaaaagaaaa taaacaaaga aagcatTTAT CTGTGAGATT TTTTCATGAT
+     6301 TCCCTGCAGC ATAAAAACGC CACCTCCTGT TTTGGGCCAT CTGATAACCA GATCTCCATC
+     6361 CATCACGAGC ACCTTATCTA GCCCAACATG AATGCTTCTC TCGCGCAAAT TTTCTATTGA
+     6421 AGCTCCCTTT TGTGATCCCT GGAAGCACTT CAGGAACCCA ACTTCTTCAC TTAATACATG
+     6481 GTCTATCGGT TTGAAGAGCA GGACTTTTCC AGGTCCCGCT CTCCATGGCG GAAGCTGCGG
+     6541 TTCATTCGTA acagttaaaa aaatagcttC ATCTTTAGCT GCGTCATCGT ATGGGCCACA
+     6601 TTGTTTGATA ATAAACTCGT TACTAGTCAG CTTCGAGTAG TTAGTAAGGT GAACCAATGC
+     6661 CAACTTTAGA GGTGTGTAGG TATCTTACAT CTATACCATG ATAAAACAAT TTTCGGCAGG
+     6721 AGGGACCAAA TTTGTCTATT GCAACGCAAC CGCTCTTGGA TGAATGTTTT TCAGACGCTT
+     6781 GTAGTGAACT CTGAAACTCT GCTTTTGCCG CCATAATGAG GTCAGGATCT GCCGGCGCGC
+     6841 AATCGATGAT GCCAAAGCCA TGTTCCTCCA TTGCCTCAAG CGCGGATCCG GGGGAAATTA
+     6901 ATATTCACTT AGAGATAATA AACCCAGTAT TTTTAACTTG TTTGAAAGAT TGTGCTTCTT
+     6961 GTTCTGATTT GCACTCAGGT TTTCTAGGTA AATTATTATC GGAGGGGCAG TAGCGCGGGG
+     7021 TTAGGCTCAG GAGGATCTTT CCGTTAAGGT GGTGATAAat aaatcacgtg atttatGGTC
+     7081 ATATGAGCAT CTTTTTTGGG AAAAAATTTA AGTATCTCGA AACACTCGAG GTACGCGGGC
+     7141 TGCTGATTGC Atgcactttt tttttttttt ttttggttta atattattcc tcGAGCTCCT
+     7201 GACTAATGCA TGCTACGTTA GGCCGAATTG GGAACTGATG CACAGTCAAT AAATACAGGG
+     7261 AGGCTATGTG CACACTGTTG GCTCGGAGAC CTGGTGATAC ACGTGTATGT TTCATGCTAT
+     7321 CTCCCCGGAT AACCTCATCT TTTCCATTCT AGGTAATCTG TTAATCTGAA GCACAATCAA
+     7381 TGTAAGTACA ATAGTTTATT CCCAGGTTAC TGCTACTTGC CAATACTCTA GGTGCTTTGA
+     7441 ACAGTTAAAG TCCTTAGTAT TAGTTCTTTC TAACTTGCAA GGAGTTAAGC GTGTGACACA
+     7501 TGCCTATAGC ATACCTAGCA CAGTTGCTAT GGGTGCAAGA ATATACATTC TAGTATCCTT
+     7561 GATGAATAGC GACCACACTC TTGGACATAG ATAATAGCTA CATTACTATC TTGGAACAAG
+     7621 AGGGGACCGC ATTTGTTTCC AGAACGTTGT CAAACATAGT gacctctttt cttttcctcg
+     7681 taTTCCATTT ACATCAATTT GATGATACTG TCTAGGTTTT AACCTCGACA ACGTGGTTCT
+     7741 TAAACTTGGC GACTTGCGAT ATGACTTGGG AAACGTATGG ACTGAAGTTG CGCCTAGGAT
+     7801 AGAAAGAGGC TTAAACCAAG AAAACAAGAT AAATGCTCAG TGTTGTATCC AAACCTCCTC
+     7861 TGCATTGTCC GCAAAAGCGT TGTGATATTC ATGCGTTTCC ATCCAATCAG CCGCATTAGT
+     7921 TAAGATGGCG GATGTTGAGT AGAACTCATC TAGTATGTTG TTGAAATCTT AATAAGTTAG
+     7981 TAGATAGAAT GTCATACTCG GTGCATTAAC TTACCATCCA GTAACAATGG GCGTGACGGT
+     8041 TGAAGTGAGA ACCGAGAGGA ATCTTCGCGG AAGAGCACTA Aactttcggg tatttccgTT
+     8101 CCTATTAAAG TTAGACACCA AATCACGTAC AGTGTTGGAT TATAACCTTT TTTAATAGAC
+     8161 ACAACTTGCG GATCAGCAGG AGAATAACCa ccttccactt cttcatCATA GCGATCGTAG
+     8221 TCGGTTCGAA GTAATTCCTG CATTAAACAA GTATTAGGCC TAAACACCGG ACCATTTGAG
+     8281 TCTGCAAGTG ATTAGATATT AATGGTACTA ATAAGGTAGT GTAAAGCCCG TTCATACAAG
+     8341 GAAAAGACCC AGAGAGTTTA GGAAAAACCA GGCCACCTTC TGATACTACT AGGCTGTCTC
+     8401 GCACATAACG TCCCTGCTGT TTTTCGAAGT CGAAGAGTTG CGATTTTGGT TGCATCTGGA
+     8461 AGCGATGCAT TGTTGCTGGG AAACTGGAGT GCACAGATAT CAAAGAGAAT TTCCGCTGGC
+     8521 GCTCAGCAGT GGCCCGTAAA AATCGAGTGC GATGAGACCA AATGTTGGTT CTTGTGAGCA
+     8581 TTGTATGAGG TGCAGAGTTA AGtcttaata attaattaaa taagcGTCCA GATTCAATAT
+     8641 GTAGATACCA CAAGGTCAGA GAGAAATTTG GAGGCAGGGA AGAAAGTGTg aatggaagga
+     8701 gaggaaTGGT AGTTATAAAT ATGCGACTTA TGGGGATTGG GGGACTCGGG GTGGTTTGAT
+     8761 GCAAACACCA CAAACATCTA ACTTAATAAT GCCAAGCGGC GAAACTAGCC TAGATGTCTC
+     8821 CACAAAACTT TACCAGCCTA CATGGAAGAC CTGACAAAGA ATAGTAGTAC CGCCGCCTAT
+     8881 CATACCTACC ACTAAATCTT CATATCCGAA GGATTTGACC GTCAGACACT AGGTAGGCGG
+     8941 CGTGCAAAGA CAAATCAGGG GTTCAAATAT TTTTCGCCCC ACTGCACAAG GATAGTACTA
+     9001 CAGCCGAAGA TAAGAtattc tttttattgc tCTCTTATGA GCCCTCGATA TAACAAACAA
+     9061 GTTCCCGCTG TCCAAACCAA CTTTTCGGCA AGTGTCCTAT GTCTCATAAC TTTACTATGG
+     9121 CCTGTTTATC TAAAAACTGC GGCGATTTCG CATCAACGAT TTTCGAAGAC ATGTCCGCCG
+     9181 ATTTAAGCTG TTTCCGAAGG TGACGGATAG GCCTCGAGCC ATTGCTCCCT TGTGAATTGC
+     9241 TTCGCTGACA TTCTATAAAA CTCGTTAATT TTCGAATTAA ATTCTATAAG CACCGTTAGC
+     9301 ATGATTATTA GGAAGGAGCA TAAGACTCAG ACCTTCTAAA GTCATTTCTC TTGTTGGTTG
+     9361 GAGAGAGAAA TGGTCTCCTT TTTCATGAAC GAGAGTCAAG TCGTCAGGGA GCTTGGTACC
+     9421 TATGGGTACT TAGCACCGAT CTGATGGTTC GCCATACTGT ACCATACCTA AGGGAACGGA
+     9481 ATAGACAATC ATATCCTTGC CAATGAAGTT CTTGACAAGG TCGTGCTGTG TTTTAGTGTT
+     9541 TGGTCTCATC GAGGCACCGT TTGGTGCTGT ATGTTATTAG TTTATATCAC CCATAAGATT
+     9601 AAAGATCTCG TACGCTGGTA TGTGTCAGGG TGATCAACAG CTTTTGGCTT CACCTTTCCA
+     9661 TCTTCAGTTG TCACATCAAA ACTGCCAACC CGCTTGACAG CTCGGTCACG GATCCGGATT
+     9721 GTGTTACCGT TATTTAGACG GAAAAGTTCC TTGGGAAAGA TACTGAAGCG AGCTATAAAC
+     9781 CTGGACATAT TTTGTAAGAG AAGAACCGTG ATAGGTAAAT TGGATTGGCT AGGGAAAAGT
+     9841 AGAGTGACGG AAACTGATAT ATCTCTATAC ACAAGACCGG GCGATCTATG GATTAATATA
+     9901 CTCATTCACA GGATACCAGA TCTCTTCAAG TACGCTAAAT GCACTATGGG TATATGCAAT
+     9961 CAAATAGTCG GTATCCAGCT CTGCTTTCAG CGGTGACCCT AGTTACAGCC CAATAGTACT
+    10021 AGATGTAAGT TGGGAGCTGG TGTTTCATCT ACTCAGGTAA ACCAGTCACA ATCGAACAGT
+    10081 CTCACTCTAA CCTATTCTGG GGCACAAACA AGTTCACGAT CTAACCCATT CTGGGCTGTA
+    10141 AACCAGTCCA CGAACTAACC AATTCTGGGC CATAAACCAG TAACGATCTA AACCATTCTG
+    10201 GGCCGTAAAC CCGTCACGAT CTAACCTATT ATGGGCTGTA AACCAGTGCG CGGTCTAACT
+    10261 TTTTCTGGCC CATAAACCAG TCACTTTCTA ACCTATTCTG GGCCATAAGC TAGTCACTCT
+    10321 CTAACCTATT CTGGGCAGTA AACTGATGCA CGATCTAACC TATTCTGGAC CGTAAACCAG
+    10381 TACATGATTT AACCTATTCT GGGCCGTAAA CCAGTCACTA TCTAACCTAT CCCAGCCTAC
+    10441 AAACCAATTA TAGAGTATTC CTAATGATTT TGAAGGTGGA TGTTGTTTGC CATGTCCTAC
+    10501 ATTCATCCTA AGTGCAAGCA TAGATTGATT AATTTAAGTT TCCACTAACT ATATCATTCA
+    10561 CCTATCAATT GACCAGTTTC CGACGATGGG ATTGGCTACT AAGTCAAGTT GCTATACAGA
+    10621 TTAAGGGTTC GAGATTTCTT TTATGCGTCC TGCATCACAA TACTGAATAG CACGCGGTAC
+    10681 CAGGAATCAC AAATGCCCAG ATAATCTATT CCTATACGAG AAAACGCATA TGAAGATATA
+    10741 AGACAGAGGT AAGCCCGAAT TGCTCACCGC ATGTTCGTCC TAGGTACAAG GCAGGATTAG
+    10801 TCCAGTTACT TGACAGTACG TTCAGATCTG CTCCTCTACA CAGCATAATT GGCTCTTGTC
+    10861 TTGACGAATC ATGCCTTGCT TGAACATCCA ATTCCTGCAT GTTATGATTC TACGCTGGTT
+    10921 GAGGCAGTTT CTCCCTGGCA CTTGCCGCTC AGAGGACATA ACTGACTTAG AACGGCACCT
+    10981 GGACAATGGC CTGGATAACG CGACGCCGTT GCCGTTCGGA CAAGATGACG CTCGCCATCC
+    11041 GATTCCTGCT CCTGGCCAGG TCCAGTGCGC TGACCCACAG AGTGAGCCAA CCAATGAACG
+    11101 GAGCTATTCT TTGTTCCCTC GTAAGTTCTT CTACCATCGG TTTTCGGATG AGGCGAAGTA
+    11161 ATTAACGTTG CTAAAGGATC AGGCATATGC ATGGACAAGG CCCCATCAGC TGCCTCTACT
+    11221 GCCAGGACGT CATCAGTAGA AAGTGACAGG ACGATCATAC TCCCAAGTCT TTCCGAGATG
+    11281 GTAAGTGAGT CATGCATGGG TATTTTAATC GAGAAGCTAA Cttagaaaaa gcaaaataGA
+    11341 GAGAGCTGCA TCttggataa aaatatctGC AACAAGATCC AGTTTTGGTT TGGCTATGGG
+    11401 GGAGTGTGTT ATGGTCCTGA TTTGGAGCCA TTCTTGGTAT TTAAAGTGAA ATATTTCGAT
+    11461 CAAACTACTG GAAGAGTGCT CTGCCCATTA CCATTTTTTA AAGAGGAGGA GCAAGCTGGA
+    11521 TTAAGAAAAA ACCTCCGgcg tcttctttcc cccaAAGCAT TGATTCACAG TAGTAGGTAT
+    11581 GGATTTTACT GGTAATTCTT TATTTATCTG ATGTAAATTG TTCGAGTCTT CTGAGAGGCT
+    11641 CAAATTGGAG TCCTAGGTAG TTTACTGGTT CTCGTGAAAT ATCTCCGTTA TCCAAGATCC
+    11701 TCGCAAAAGT CTAATAATGG ATTTCAGAGA CAAATAAATA TAAGCTATAC ATACCATCCA
+    11761 CATGGTAGAG AACTGCGTCC AATCGAACCA TATAGTCAAG ATAGGATTTT CACAGCTATC
+    11821 TCGATGGAAT CTCTCCTAGA GTTGGTGTTg gttttttggt ttctttttgt taTTGTTGCC
+    11881 CTCCTTTCCT ACTCTTTCAG AGAACAGTCA GATATAAGTT CAGCTGGCCT TCCTCTACCT
+    11941 GTGACAAGGT TTGAATACTT CTAGCTCGAG TTGATCCTAT GCTTGACCTA ATCATACGAA
+    12001 AGTTGAAATC TATCTAGAAG GTAGTGCGGT GAAAAATGGC GCAGAATAAA GAGACAAACA
+    12061 AGGCAGGATA GGCCACAAAA TCTAAGCTAA AGTTGCTGAC CGGGTTTAGG GTGTCTTATG
+    12121 CTGGAATGAA GATTTTAAAG ATCCAGGAAA TGTGCGCGGC GCCTACGATA CCCCTGGTGT
+    12181 TACGAAGCCA GAagcaccac ctccaccgcc CACAACGGGA TGA
+//

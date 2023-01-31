@@ -1,0 +1,372 @@
+LOCUS       707mF-Z12               8501 bp    DNA     linear   UNC 16-DEC-2021
+DEFINITION  GCA_000338995.1 results based on the annotation PF05141 and  inputs.
+ACCESSION   GCA_000338995.1
+VERSION     1
+KEYWORDS    .
+SOURCE      ICSCreator.py written by Grant Nickles (gnickles@wisc.edu)
+ORGANISM    GCA_000338995.1
+FEATURES             Location/Qualifiers
+     gene            1..1562
+                     /note="*Name COCSADRAFT_39282"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="COCSADRAFT_3928"
+                     /note="*backbone: True"
+     mRNA            1..1562
+                     /note="*gbkey: mRNA"
+                     /locus_tag="COCSADRAFT_39282"
+                     /note="*orig_protein_id: gnl|jgi|COCSADRAFT_39282"
+                     /note="*orig_transcript_id: gnl|jgi|COCSADRAFT_mRNA39282"
+                     /product="hypothetical protein"
+     exon            1..594
+                     /note="*gbkey: mRNA"
+                     /locus_tag="COCSADRAFT_39282"
+                     /note="*orig_protein_id: gnl|jgi|COCSADRAFT_39282"
+                     /note="*orig_transcript_id: gnl|jgi|COCSADRAFT_mRNA39282"
+                     /product="hypothetical protein"
+     exon            641..1026
+                     /note="*gbkey: mRNA"
+                     /locus_tag="COCSADRAFT_39282"
+                     /note="*orig_protein_id: gnl|jgi|COCSADRAFT_39282"
+                     /note="*orig_transcript_id: gnl|jgi|COCSADRAFT_mRNA39282"
+                     /product="hypothetical protein"
+     exon            1082..1562
+                     /note="*gbkey: mRNA"
+                     /locus_tag="COCSADRAFT_39282"
+                     /note="*orig_protein_id: gnl|jgi|COCSADRAFT_39282"
+                     /note="*orig_transcript_id: gnl|jgi|COCSADRAFT_mRNA39282"
+                     /product="hypothetical protein"
+     CDS             join(114..594,641..1026,1082..1498)
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="JGIDB:Cocsa1_39282"
+                     /db_xref="NCBI_GP:EMD61568.1"
+                     /note="*Name EMD61568.1"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="JGIDB:Cocsa1_39282"
+                     /db_xref="NCBI_GP:EMD61568.1"
+                     /note="*Name EMD61568.1"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="JGIDB:Cocsa1_39282"
+                     /db_xref="NCBI_GP:EMD61568.1"
+                     /note="*Name EMD61568.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="COCSADRAFT_39282"
+                     /note="*orig_transcript_id: gnl|jgi|COCSADRAFT_mRNA39282"
+                     /product="hypothetical protein"
+                     /protein_id="EMD61568.1"
+     gene            complement(1620..3739)
+                     /note="*Name COCSADRAFT_123388"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="COCSADRAFT_123388"
+     mRNA            complement(1620..3739)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="COCSADRAFT_123388"
+                     /note="*orig_protein_id: gnl|jgi|COCSADRAFT_123388"
+                     /note="*orig_transcript_id: gnl|jgi|COCSADRAFT_mRNA123388"
+                     /product="hypothetical protein"
+     exon            complement(3412..3739)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="COCSADRAFT_123388"
+                     /note="*orig_protein_id: gnl|jgi|COCSADRAFT_123388"
+                     /note="*orig_transcript_id: gnl|jgi|COCSADRAFT_mRNA123388"
+                     /product="hypothetical protein"
+     exon            complement(1938..3353)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="COCSADRAFT_123388"
+                     /note="*orig_protein_id: gnl|jgi|COCSADRAFT_123388"
+                     /note="*orig_transcript_id: gnl|jgi|COCSADRAFT_mRNA123388"
+                     /product="hypothetical protein"
+     exon            complement(1620..1874)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="COCSADRAFT_123388"
+                     /note="*orig_protein_id: gnl|jgi|COCSADRAFT_123388"
+                     /note="*orig_transcript_id: gnl|jgi|COCSADRAFT_mRNA123388"
+                     /product="hypothetical protein"
+     CDS             join(complement(3412..3724),complement(1938..3353),
+                     complement(1678..1874))
+                     /db_xref="InterPro:IPR000120"
+                     /db_xref="JGIDB:Cocsa1_123388"
+                     /db_xref="NCBI_GP:EMD61569.1"
+                     /note="*Name EMD61569.1"
+                     /db_xref="GO:16884"
+                     /db_xref="InterPro:IPR000120"
+                     /db_xref="JGIDB:Cocsa1_123388"
+                     /db_xref="NCBI_GP:EMD61569.1"
+                     /note="*Name EMD61569.1"
+                     /db_xref="GO:16884"
+                     /db_xref="InterPro:IPR000120"
+                     /db_xref="JGIDB:Cocsa1_123388"
+                     /db_xref="NCBI_GP:EMD61569.1"
+                     /note="*Name EMD61569.1"
+                     /db_xref="GO:16884"
+                     /note="*gbkey: CDS"
+                     /note="*go_function: carbon-nitrogen ligase activity, with
+                     glutamine as amido-N-donor |16884||"
+                     /locus_tag="COCSADRAFT_123388"
+                     /note="*orig_transcript_id: gnl|jgi|COCSADRAFT_mRNA123388"
+                     /product="hypothetical protein"
+                     /protein_id="EMD61569.1"
+     gene            5169..6502
+                     /note="*Name COCSADRAFT_96100"
+                     /note="*end_range: 792995,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="COCSADRAFT_96100"
+                     /partial
+                     /note="*start_range: .,791662"
+     mRNA            5169..6502
+                     /note="*end_range: 792995,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="COCSADRAFT_96100"
+                     /note="*orig_protein_id: gnl|jgi|COCSADRAFT_96100"
+                     /note="*orig_transcript_id: gnl|jgi|COCSADRAFT_mRNA96100"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,791662"
+     exon            5169..5272
+                     /note="*gbkey: mRNA"
+                     /locus_tag="COCSADRAFT_96100"
+                     /note="*orig_protein_id: gnl|jgi|COCSADRAFT_96100"
+                     /note="*orig_transcript_id: gnl|jgi|COCSADRAFT_mRNA96100"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,791662"
+     exon            5335..5935
+                     /note="*gbkey: mRNA"
+                     /locus_tag="COCSADRAFT_96100"
+                     /note="*orig_protein_id: gnl|jgi|COCSADRAFT_96100"
+                     /note="*orig_transcript_id: gnl|jgi|COCSADRAFT_mRNA96100"
+                     /partial
+                     /product="hypothetical protein"
+     exon            5999..6502
+                     /note="*end_range: 792995,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="COCSADRAFT_96100"
+                     /note="*orig_protein_id: gnl|jgi|COCSADRAFT_96100"
+                     /note="*orig_transcript_id: gnl|jgi|COCSADRAFT_mRNA96100"
+                     /partial
+                     /product="hypothetical protein"
+     CDS             join(5169..5272,5335..5935,5999..6502)
+                     /db_xref="InterPro:IPR011701"
+                     /db_xref="JGIDB:Cocsa1_96100"
+                     /db_xref="NCBI_GP:EMD61570.1"
+                     /note="*Name EMD61570.1"
+                     /db_xref="InterPro:IPR011701"
+                     /db_xref="JGIDB:Cocsa1_96100"
+                     /db_xref="NCBI_GP:EMD61570.1"
+                     /note="*Name EMD61570.1"
+                     /db_xref="InterPro:IPR011701"
+                     /db_xref="JGIDB:Cocsa1_96100"
+                     /db_xref="NCBI_GP:EMD61570.1"
+                     /note="*Name EMD61570.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="COCSADRAFT_96100"
+                     /note="*orig_transcript_id: gnl|jgi|COCSADRAFT_mRNA96100"
+                     /partial
+                     /product="hypothetical protein"
+                     /protein_id="EMD61570.1"
+                     /note="*start_range: .,791662"
+     gene            7235..8501
+                     /note="*Name COCSADRAFT_96868"
+                     /note="*end_range: 794994,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="COCSADRAFT_96868"
+                     /partial
+                     /note="*start_range: .,79372"
+                     /note="*backbone: True"
+     mRNA            7235..8501
+                     /note="*end_range: 794994,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="COCSADRAFT_96868"
+                     /note="*orig_protein_id: gnl|jgi|COCSADRAFT_96868"
+                     /note="*orig_transcript_id: gnl|jgi|COCSADRAFT_mRNA96868"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,793728"
+     exon            7235..7574
+                     /note="*gbkey: mRNA"
+                     /locus_tag="COCSADRAFT_96868"
+                     /note="*orig_protein_id: gnl|jgi|COCSADRAFT_96868"
+                     /note="*orig_transcript_id: gnl|jgi|COCSADRAFT_mRNA96868"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,793728"
+     exon            7628..8019
+                     /note="*gbkey: mRNA"
+                     /locus_tag="COCSADRAFT_96868"
+                     /note="*orig_protein_id: gnl|jgi|COCSADRAFT_96868"
+                     /note="*orig_transcript_id: gnl|jgi|COCSADRAFT_mRNA96868"
+                     /partial
+                     /product="hypothetical protein"
+     exon            8076..8501
+                     /note="*end_range: 794994,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="COCSADRAFT_96868"
+                     /note="*orig_protein_id: gnl|jgi|COCSADRAFT_96868"
+                     /note="*orig_transcript_id: gnl|jgi|COCSADRAFT_mRNA96868"
+                     /partial
+                     /product="hypothetical protein"
+     CDS             join(7235..7574,7628..8019,8076..8501)
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="JGIDB:Cocsa1_96868"
+                     /db_xref="NCBI_GP:EMD61571.1"
+                     /note="*Name EMD61571.1"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="JGIDB:Cocsa1_96868"
+                     /db_xref="NCBI_GP:EMD61571.1"
+                     /note="*Name EMD61571.1"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="JGIDB:Cocsa1_96868"
+                     /db_xref="NCBI_GP:EMD61571.1"
+                     /note="*Name EMD61571.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="COCSADRAFT_96868"
+                     /note="*orig_transcript_id: gnl|jgi|COCSADRAFT_mRNA96868"
+                     /product="hypothetical protein"
+                     /protein_id="EMD61571.1"
+ORIGIN
+        1 ACATTACCTT CTCATCACTT AGTTTGTAAT ATATATACCC ATTAACACAT TTCACGATAT
+       61 ATCTTTCTCT ACATAATACA CTTCGAAAAT AAGTCTTTTA TACATACCCA AAGATGTCCC
+      121 AGACTTTGGT TTCCACTGCA CCAGTCCAGA TTGGACTGCA ACCATTCTCG CGACCTTCTC
+      181 TACCTGCGGA AGAGCACACT GTTCGGATCC CACAGTCTTC CAGCAACGAC TTGATCAAGG
+      241 CTGCGCTTAA TGAGGGCATC AAAAAGGGAC AGAAGATCGA CGAGACAGTC GCTTCCATCA
+      301 TGGATATCCT AGAGAAGTTC AGTCTTCAGC AGTATGGCAA CGACGTTTTT ATGGGAAGAA
+      361 AGGTCTTCGG GCCAAAAGTC CACCTGCATG TATCTGAGCA CAGGAAGCTC CCTATGGTTC
+      421 TTCCAGCCTT CCCGGCAAAA AGCATCAATA CACAAGACAA GGTTCTTGGC ACCAGCCCTG
+      481 ACCTTGGAGA AGAGCTTGCT TTGGATCGAT TGAACGACTT GTGCACCCAA ATCAGCCGCG
+      541 TCTATGAGCC TGGTGCCATG ATTCTTATTG CGACTGATGG TGCTTGTTAT AATGGTGAGT
+      601 AAATTTCTGT GATTGAAAAA GTACTAGCTG ATGAAACAAG ATCTCACAGG TGTTACGGAG
+      661 GATAGCCTCT GGGAGTACGG AGTTACTCTG CGCAAGATGG TCGCAGAGAA AGGCTACGAC
+      721 TGCATCAAGT TTGTCCGCAT TATGAATCTT TTAGGATTGC ACACGGATGA GCAAATCTCC
+      781 AAGGAGGACT TTGTTCATCT ACTTGAGCCT TCCCGTCGCA TCATGATGAC CCGCTACGGC
+      841 GATTCTGAGT TCGATGCGAA TTGGTATATT CAGAACGATC CGGACTACAA GTCGACCTAT
+      901 GACGGCTACT CCAAGTTTCT GAAGAAGGAT CTTGCTTTTA GTCCTTTCCG ACAGAATGCG
+      961 GCTAGTGGGA AGAAGTGGAA AGCTCTGGTA CATAATACGG CCAAAGCAAT GATTGCTCGT
+     1021 GGTGTGGTAA GAAATAATCC CCGTATCGAT CGATGTTGTG CATGCTAATA CGAAACTCTA
+     1081 GGCTTTTGCA GCCTTAATCC GTGAGAGATA CCCCGACTAC GTCCGTCTCT CCATTCATCC
+     1141 TTCGACTGGA CTCACAAAGA TTTCCATGCC GATGATTCCC CAACCCGACT CATTCTCCAT
+     1201 GACCCCATGG CACTGCGCAG TGGCTGTGGA TGTGAACGGA AAGTTCAAGA CAGCACATGC
+     1261 GGGAGTCCTG CGGGAGACTC ACGATCTAGT GCTGAAGGGT GGTGTGCCTT ACTGCTTCCG
+     1321 CGAGAGATCC TCATTGTATT CATGGGATGC CAAGGTAGAG TTCACCCATC TTTACGGCGG
+     1381 TGGTATGATT GTGCGAAATG TTGGGGGAAA TTCCAAAGAG CCCTTGTCGG ATGCTGACCA
+     1441 GGAGAAACTC GCTAAACTGA GGAGTCTCCA AGGAAATGTA ACTTTGGAAG GATTCTGAAA
+     1501 GGCGATGTCA AGCTGGGGTT GTTGTTTGTT GGTGAAAAGT CATTCTATTA GTTCATTGTG
+     1561 TATAATATAC TTAATAAAAG TAATTTGTAA ATGTTTTGAA TTCTCATTTC GATGAATACC
+     1621 TGCTGTGAAT CATATCTAAA TTTCAGAATT GACTTGTTAT TGACTCTCAC TATCTATCTA
+     1681 CCTTTTTTGC AGTATCTCCC CACCGTCGAC AAGACTTGCT CCGACTTCTG AGACCTTTAG
+     1741 CACACCTGCA TGATAAAGCT TCGTGACCAA TTCTAATAAA GTAGCATCGC ATCCTTTGGC
+     1801 AACCGTCAAG TTTATCGACA CAGGTAATTG TTCCGTGTGA TTTGTCGTTG TAGAATGGTA
+     1861 AGACATCTGA CCAACTGCAT CATGCTCATT AGCGGATCTA TTCAAGCTAG TCGTAATCGT
+     1921 CCGACCGGAC CACTTACTTG GAACGGTTAT ATCGGGTACC TCAGCCATGA CGCTAAAGTA
+     1981 CTGGTTTGTG AACCCTGAGG GCGCCTGTGG TGGGCTTCTG TAGGTGCTTC TGTATTGCAC
+     2041 AATTGGCGCA CTAACGTAAG CCAGCACCGC CGATGTGCAG CTGCGGCGAT CCTCCTTGAG
+     2101 CACATGGTCC TGGAACCAGT CCATGAATAG AGTTTTGTTC GTGAGCGCAT CAGTCAATGT
+     2161 CGTCGATGGT TGCGCATCCG CAAAAGCCCA TCGCACCAAT GGAACTGGGT TTACAGCGGG
+     2221 CAACCTTCCG TCATGCATGG ATGCGTACTT GGCGTAGAAG GGGTCACGCA CTAATTCTGT
+     2281 TTGACGTTGG CCAATAATTG TTGCGTAAAC ATTTCCTAGC AATGATTGTA TATCCATCGG
+     2341 TGCGGACTGG GGTCGAGACT GCTGCCAGGC GGTTGTTACG TTGAACCAGT CGGTCTTCTT
+     2401 GATGCCAAGA ACATTCTTCA TCGCATCGAG AAATCGATCG ATAATCATGG TTGTCTCATT
+     2461 TGACAATCCG GCTGGAAACG GTTCGACTAA CAATTGAGTT GGGAGAAAAT CATGAAAGCT
+     2521 GTTACGAGAT AGCCCATATA TCTCAGTAGC TGCATATTGG AGAAGCAACG GATCCCTTGC
+     2581 AATGAGCCCA GCGGTGTCTA GTTCAGGAGC AAGTGCGAGT GCAAGTTGTA AAGGTGCGGC
+     2641 CCCATGTGAC GGCCTCAATC CGTAAAGGCC GTTGGATCGA GCAGGACCGC GAATGCTACC
+     2701 GCCTGTATCT GATCCCAATG CAAAATCCAA CCAGTCATAC GATGCAACGC TAGCACCGGC
+     2761 TCCTGCGGAA GAAAAGTTGG GCTCCTGGTA ACCGTCACCG CGTGGATTGA AAGGTGAGTG
+     2821 ATAATCGACC CAATCTGAAG TTGAGTACTC TCCGTTGGCA AACTGAGCAG TCTTTTGCTT
+     2881 GCCCACTATG ATCGCGCCTG CGTCTAGCAA CCGCTGTACT ACGGGTGCTG TCGCATTAGC
+     2941 CCGAGGATAT AGGTTGTACC ACGCTCTGTT GCCGTTGCCA GTTTTTATGC CAGTTACGTC
+     3001 AAAAATATCT TTGATACCAA TACGCATGCC AGCAAGCGGG GTAGTCGGTG TCTGCGTGTA
+     3061 GTAAAGTCTA GACGGAACAG CGATTGTAAG ACTATTTCCT GTTACATGCG CTGGAAGGAC
+     3121 AGAATGTTTG CCAGAAGAAT TTGTATAGAC AGATTCAGTG AAAGCTTCTT GGTGATCAGA
+     3181 GTAAAGTCGG TAAGCCCGAT AAATGCTACC TTGAGACGAC AGGAAGTAAG GGCCCTGAGG
+     3241 AATGATCTCA TCTACTTTCT TTGGAGCAAA TAAGATAGTT TTGTTACCCC AACTTTGCAT
+     3301 GGAGTCGGCC CCAGAATTTT CACGTCTCTG ATCCGTTGCT TGAAGATAAA CCACTAAGGA
+     3361 CTTATTAATA CGTTTCGAAA AATCGAAGAA GATAGTTTAA GGAATTCATA CGCTTGGCAA
+     3421 AACCTTCGCT CCAAACATCA TCGTTTTCCC TAAACTGGGA GAGTTCACGC TCAAGAGAAG
+     3481 CATCCGAATA AGCATCTGGA CCGGGAGATA CTATGGACAT TGGCACGAAA CCACTCAAAG
+     3541 CAAGCCTCTT CGATTCGAAG AATGAGGTTG CAAAATCGCT TTGAAGAGAT CCGACTGCAT
+     3601 CTGGCGGGAT CCAGTAAGGA ATGTCATCGA GATATGCAGT AGTGCCAGTG ATTTGGAGAG
+     3661 CTTGCGCCAA CGACGAAACA GTAGCGACTA GGGCTACCCA AAAATATGGG GATCCGAAAG
+     3721 CCATGATCTA CTATGAAAGA TACTGAAGTA AAGATGGGCA TGGGATTCTT TTAGGACCAA
+     3781 TACGTTCAAT AAATCAGGCA AAGTAATGCG CACTGTCAGT GCACTGCAGC AAGGGGAGTG
+     3841 GGGCTACGTA AAAAGCAAGA GCCAAAGTGA GAGTGTTAGA ACACCAGCGC GTAAATGTAT
+     3901 CCCGATGAAC ATAGGGCCCT TCTTTATGTA GAACAGTGCT CCTCTCCCAA GATTTGTATG
+     3961 AATGCAAGCA AATTCAAATG AATGCAGCTT ATGTGTAATA TCTCAGCTAC ATTTCTGCCG
+     4021 GATTTTGACT GTATGGTGCT GAAGTGGGAT AAGATAGTAA TCTAGAAAGC TAGTTCTCAC
+     4081 CCCCATTTCT CAAAAGGGCA CGGAGAATTG TAGAAATGCT AAGAGCCATT CATGAAAAAG
+     4141 GTTGCAATAA AAGTCAGATT TAGGCACCTG TATTGCATAG GAGAGAACAT AAGGGCGAGG
+     4201 TACTACCTAG TGATAGATGC CCGAGGGGGT AATTCACATT CTAAGCAAGC CTCAATACAA
+     4261 CCATCATGCT ATGTAAAACA GCTTGGATTA AGTTTCATCA CTGATTCATA ACTGGCCTTT
+     4321 AACAACACGA AGAGAATGCA CAGTGTTTAC CTATTTGATT GTATATCGGC CGATTGCACA
+     4381 TTCTAGTGCA ATGTTGACCA AGCGGATATG TCCGCTCGGC GCGCACCTTG TGCTCAGCAC
+     4441 TGCAAGTACA CTATAATAGG CCCAGTGTGT ATTCAATATT GTCAAGATAG CTTGAAATAT
+     4501 CAACACATTA CGCTAGGCAC ATCCCGGCTG CAGCATGTTT ACTTCTTTCT GTTGAGGGGG
+     4561 GATGCGCATA TGACGTCTGG CCCAGTGCGC GCACGATCTC AACGAAAAGA AAGTGAGCTT
+     4621 TGTACATCAT CGCGATACGA TCATCTCGAT GACGCATGTT TACGTCTTTC TGCTAGAGTG
+     4681 GTGAGCGCAT GGTATCCAAA ACAGGGCCTA AGGTATGGTC CGGCGTCATA TCTTGTTCGG
+     4741 CGTTGAACTC AATCTAGTAT TGGATCGATC GCACTAGTGT GTAGATCATC TAAGTTTGTC
+     4801 TTTTTGTAAC TACCTAAAAA CGCTGTTTTG TGACTATGCA TGGCTCTTAC AAGTGATATG
+     4861 CCATGGCCTC CAAGTTCCGT CTTTTACCAA ATCGAGATGT TCATCTCTTT GCATTAAGAT
+     4921 AGCGCGAACC GTTCTCTACT ACTATATGTT CAATTCCGAT CCCGGTTTGA TTGCTGAAGT
+     4981 TATCCAAGAG GATCTTTGAT ATACTTGTTG AGTAGACCCA TCAACCAATT TCACTTGGAA
+     5041 TCATTCTCCT CTAGTAAACT ACAATGGGTA TTCATTTCGC ACGCAGTGAC TAGAACTCGA
+     5101 CTAATCTACA GTGTTTAGAC AACGAGACAA TAGAGAAAAC TTCTGCACAA GATCGATCAA
+     5161 CGTCCCCCGA AGACCTAAAG CATGAAGAAA TACCAGATGG AGGTCTTTTG GCATGGACGC
+     5221 AAGTCATCAT GGGCCATCTG GTCATCTTCA ACTGCTGGGG ATACATTACA TCGTAGGTTT
+     5281 TTCCAAGGCT TAAACATGAT TACCAATCGT ACTTGATTCT AAACGCGCAT CCAGTTTCGG
+     5341 CTTCTTTCAG CAATACTATG TCGAAAACCT GGGTATATCA TCATCAGACT CTGCCTGGAT
+     5401 AGGCGGTTTG CAGATGTTTC TGCTGAATTT CGTCGGCGTC TTCTCCGGAA GGACAGTCGA
+     5461 CATGGGGTAC TTCAGACAAA CCCTCCTTCT CGGGTGCACA CTGCAAGTCT TGGGTATCTT
+     5521 CATGACTGCC CTATCAACAA AATACTGGCA GTTGTTTCTC GCACAAGGCC TCTGCAGCGG
+     5581 TCTTGGGCAC GGCTTTTTGT TTGCACCAAT CGTCTCTATC CTGCCGACAT ATTTCAAGAA
+     5641 GCATAGAGCG GTTGCTGTTT CTCTGGCCAC CTGTGGAGCC TCAACTGGTG GTATGGTATT
+     5701 CCCACTCATT GCCTACTCTT GCCTCAATCG CGTAGGATTT CGATGGACCG TCCTGATTAT
+     5761 GTCCTTTGTT GTAACATTCA ATGCTGCTAT GATTCTCAGC TTTACCAAGA CACGTGTTCC
+     5821 GGTCCGTAAA CCACGTTCGA TTCTTGATAC GCGGGCGTTT AAGGAAAGAT CCTTCACGCT
+     5881 ATTTACGGTA GGCTCGTTTC TCGCTCTATG GGGGTTGTAT TTCGCCTACT TCTATGTGAG
+     5941 TCTTCCTATT TTCCTCCTAC GATGCGGAAC ATATTTGTCA GTAGACTAAC GTGACCAGAT
+     6001 TGGTGTCTTC GGGCGCACAA TACTTAATTT CTCCCAAACA CAATCTTTGT TGTTCATTGT
+     6061 CGTAATGAAT GGTGTGGGAT TGCTTGGCCG GGTCATTCCG GCATTTCTGG CTGATAGATA
+     6121 CTTTGGAATA CTGAGAACAC TTATCCCCGC GGCTGGGATT AGTGGATTGC TGCTATTTGG
+     6181 TTGGGCAGGT GTATCTTCTA CTGAGGGGCT ATTTGGATGG GCTGTCGTCT ACGGCATTGC
+     6241 GGCCAATGCT ACCCAGAGTC TCTTTCCAGC AGCAACTGGA GACTTAAGTA CTGATCCGAC
+     6301 AAGAGTGGGC ACCAAGGTTG GCATGGTCTT TGGTATCGTG AGTATATCAT GTCTCACAGG
+     6361 GCCGGTTATT GGAGCACGAC TTGTTGCGAT TCATGATGGG AACTTTTTAT ATGCTCAGTT
+     6421 GTTTGGAGGC GCCACGCTAT TGGCGGGCTG CTTGGCCTAC GTGTTAGCAG CCATAACGAA
+     6481 GCCAAAACCA AACCCCAGTT AGTGTTCACG GCTGCAAATT TCTAGAAAAT AAACTTTGAT
+     6541 GAGTTCTCTT ACACCACTGT GATCTATCAT GACTGCAACG ACTTTTCTCG CACCGTTATG
+     6601 GAAGACTGAC TCCATTAGTA TAAATGTCAC CTTGCTCCAA TGCTGATACT GGCTGGTATG
+     6661 AATTGCTCCA GGTTTTTTCT GCTCCTTTTG GGCAAACTAA AACCTCGATT CTCAATGAGA
+     6721 TATGTGTAGC TGTAGCTGAA AAGTGCCTGT AGGCGAGTCG TTTGCATCAC AATGTGGGTT
+     6781 GTCAGCGTCA AAGCTTTGTG TTTCTTCTTT TTCGAAAAGT AAAAAACCAA TAAATCATAA
+     6841 GGTTCTTCAA CATCCAACGT GTCTCAGATT CGTATCCCAT GATTTACTTA TTTCGGTGTT
+     6901 TGTTTTACAC ACTGTTCTGG ACGAAGTTGT CGGATTGGGC CTTACTAGAT GAGGCATAGC
+     6961 ATCTTGGCTC AGTATCCTGT ACTTAGGCCA GCTGCCGCTG CCCCGCCACC ATGATTATCG
+     7021 ATTGTGCAAT ACTCATTTTG ACCTGCTGGC TCTCCTTGGT TTGTGTATTC AGCCACGACA
+     7081 AACGCCCGGG TCCTCAAAGT ATCTTTGTTC TTGATAGAGA ATAGCGAATA GGTTCTCCTA
+     7141 CGCCGTCTTT CCTCCCCTGC CTCTCAAAGA TCCGCTATTA GATTCATATA TGTAAACAAA
+     7201 TTGGTTCGCT ATATCCTTTC AAAATCTCCC AACCATGGCC AGTGGCGAAT CACTAAATAT
+     7261 CGATGCAATT CTCGCTGTTC TTCGACGCTT CTCTCAACTT GAAGGCCAGA AGCAACCAAA
+     7321 CGAAACGCAC GGCTACGGAA CTGTTGCTTC TTCCAAGATT GAACTCAGTT ATACATCTAG
+     7381 GAGTCCAATC CCATTACTCT TGCCCGCGGC CCCATTCAAG AACTCTTCCC CATTGAAAGT
+     7441 TCTGGACACT AAAAACCCAG ATTTTGCGGA AGAGCTGGGT TTGGCAAGAC TCGATCATCT
+     7501 CTGCAATGAG TTAGCGAAGG TGTATCGTTA TGGTGCGGAG CTTACTATAG TATCTGATGG
+     7561 TCCTGTCTAC AACGGTGAGC TATACTCGAT GGAAAATGTG TGCGTTATGC TAATCCTTCC
+     7621 TTGTTAGATC TGCTGTGTAT ACCTGGTTCT GATTTCTATG ATTACGGTAT CAAACTACGA
+     7681 AAGATTGCAG CAGATCAAGG ATTCACGCGC ATCCGATTTA GACGCCTGGC GGACGTACTC
+     7741 GGGATCGCTA ATGGAGATTC CTTATCTAAG GATGAATATA TAGCCTTGGC TGGTACTTGC
+     7801 CGAGCCGAAA TGGAGGCCAG ATTTCTGCCC GATCAGGCAG AGATCAAGGA AAAGATTGAA
+     7861 ACCCACAAAG ACACAAACCT CACATACCAA GCATACGTCA AGCTCACGGA TGAGGATTTG
+     7921 CGATGGGGCC CTGATCTTGA TCCAGAAGTC AAGAATGATA AGGAGAGATA CGCCGAAGAG
+     7981 ACTAAGAAGG TTGCAGTCAA GATGACTGAG CGCCTGCTTG TGAGTTTGTG TCCTTGTTTT
+     8041 CGATCTTAGT TTTAGTCTCA CATTGTACCC TCTAGGCTTA TGAGAGAGCC TTAGAAGCTG
+     8101 CCTTTCCTGA TCACATTAGA CTTTCTATTC ACCGATCCAC AGGCGAATCC AAGATCCCGG
+     8161 TTCCTTTGAT ACCTCAACTG GATGGTTTTG GACTTCAACC TTGGCACTGT TGTGTTGTAG
+     8221 TAACAGCTCA AGGGCGGTAC GTAACTGGCC ACTTCAAAGA TTACCAACAC AACGACAACT
+     8281 ATGAAATCAT TCAAAAGGAT GGAAGACCTT TTCTCGTACG GGAGAAGAAT GACGATTTCA
+     8341 ACTGGCCCGA ACATATTAAG CTACATCATA CGTATGGAGG CAAAGTGATG GTTGAGAATA
+     8401 CGCTGCTGGA AGATATGGAA CTCACTACGG AGTGGAAAGT GAAACTTGCT AATCTCGCAC
+     8461 TGAGATTCAA AACTGTGGAA GTACGAGGGT TTCAGATCTA A
+//

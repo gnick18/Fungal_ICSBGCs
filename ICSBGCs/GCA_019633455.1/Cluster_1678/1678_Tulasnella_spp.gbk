@@ -1,0 +1,373 @@
+LOCUS       3056mF-Z165             6887 bp    DNA     linear   UNC 16-DEC-2021
+DEFINITION  GCA_019633455.1 results based on the annotation PF05141 and  inputs.
+ACCESSION   GCA_019633455.1
+VERSION     1
+KEYWORDS    .
+SOURCE      ICSCreator.py written by Grant Nickles (gnickles@wisc.edu)
+ORGANISM    GCA_019633455.1
+FEATURES             Location/Qualifiers
+     gene            complement(1..497)
+                     /note="*Name FRC03_000852"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="FRC03_000852"
+     mRNA            complement(1..497)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="FRC03_000852"
+                     /note="*orig_protein_id: gnl|WGS:WSUA|FRC03_000852-T1"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:WSUA|FRC03_000852-T1_mrna"
+                     /product="hypothetical protein"
+     exon            complement(222..497)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="FRC03_000852"
+                     /note="*orig_protein_id: gnl|WGS:WSUA|FRC03_000852-T1"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:WSUA|FRC03_000852-T1_mrna"
+                     /product="hypothetical protein"
+     exon            complement(109..163)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="FRC03_000852"
+                     /note="*orig_protein_id: gnl|WGS:WSUA|FRC03_000852-T1"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:WSUA|FRC03_000852-T1_mrna"
+                     /product="hypothetical protein"
+     exon            complement(1..47)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="FRC03_000852"
+                     /note="*orig_protein_id: gnl|WGS:WSUA|FRC03_000852-T1"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:WSUA|FRC03_000852-T1_mrna"
+                     /product="hypothetical protein"
+     CDS             join(complement(222..497),complement(109..163),
+                     complement(1..47))
+                     /db_xref="NCBI_GP:KAG8948008.1"
+                     /note="*Name KAG8948008.1"
+                     /note="*Note SECRETED:SignalP(1-21)"
+                     /db_xref="NCBI_GP:KAG8948008.1"
+                     /note="*Name KAG8948008.1"
+                     /note="*Note SECRETED:SignalP(1-21)"
+                     /db_xref="NCBI_GP:KAG8948008.1"
+                     /note="*Name KAG8948008.1"
+                     /note="*Note SECRETED:SignalP(1-21)"
+                     /note="*gbkey: CDS"
+                     /locus_tag="FRC03_000852"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:WSUA|FRC03_000852-T1_mrna"
+                     /product="hypothetical protein"
+                     /protein_id="KAG8948008.1"
+     gene            3853..4432
+                     /note="*Name FRC03_000853"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="FRC03_000853"
+     mRNA            3853..4432
+                     /note="*gbkey: mRNA"
+                     /locus_tag="FRC03_000853"
+                     /note="*orig_protein_id: gnl|WGS:WSUA|FRC03_000853-T1"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:WSUA|FRC03_000853-T1_mrna"
+                     /product="hypothetical protein"
+     exon            3853..3858
+                     /note="*gbkey: mRNA"
+                     /locus_tag="FRC03_000853"
+                     /note="*orig_protein_id: gnl|WGS:WSUA|FRC03_000853-T1"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:WSUA|FRC03_000853-T1_mrna"
+                     /product="hypothetical protein"
+     exon            3917..3938
+                     /note="*gbkey: mRNA"
+                     /locus_tag="FRC03_000853"
+                     /note="*orig_protein_id: gnl|WGS:WSUA|FRC03_000853-T1"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:WSUA|FRC03_000853-T1_mrna"
+                     /product="hypothetical protein"
+     exon            4015..4055
+                     /note="*gbkey: mRNA"
+                     /locus_tag="FRC03_000853"
+                     /note="*orig_protein_id: gnl|WGS:WSUA|FRC03_000853-T1"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:WSUA|FRC03_000853-T1_mrna"
+                     /product="hypothetical protein"
+     exon            4115..4195
+                     /note="*gbkey: mRNA"
+                     /locus_tag="FRC03_000853"
+                     /note="*orig_protein_id: gnl|WGS:WSUA|FRC03_000853-T1"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:WSUA|FRC03_000853-T1_mrna"
+                     /product="hypothetical protein"
+     exon            4277..4432
+                     /note="*gbkey: mRNA"
+                     /locus_tag="FRC03_000853"
+                     /note="*orig_protein_id: gnl|WGS:WSUA|FRC03_000853-T1"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:WSUA|FRC03_000853-T1_mrna"
+                     /product="hypothetical protein"
+     CDS             join(3853..3858,3917..3938,4015..4055,4115..4195,
+                     4277..4432)
+                     /db_xref="PFAM:PF10200"
+                     /db_xref="NCBI_GP:KAG8948009.1"
+                     /note="*Name KAG8948009.1"
+                     /note="*Note EggNog:ENOG410PSKJ~COG:C"
+                     /db_xref="PFAM:PF10200"
+                     /db_xref="NCBI_GP:KAG8948009.1"
+                     /note="*Name KAG8948009.1"
+                     /note="*Note EggNog:ENOG410PSKJ~COG:C"
+                     /db_xref="PFAM:PF10200"
+                     /db_xref="NCBI_GP:KAG8948009.1"
+                     /note="*Name KAG8948009.1"
+                     /note="*Note EggNog:ENOG410PSKJ~COG:C"
+                     /db_xref="PFAM:PF10200"
+                     /db_xref="NCBI_GP:KAG8948009.1"
+                     /note="*Name KAG8948009.1"
+                     /note="*Note EggNog:ENOG410PSKJ~COG:C"
+                     /db_xref="PFAM:PF10200"
+                     /db_xref="NCBI_GP:KAG8948009.1"
+                     /note="*Name KAG8948009.1"
+                     /note="*Note EggNog:ENOG410PSKJ~COG:C"
+                     /note="*gbkey: CDS"
+                     /locus_tag="FRC03_000853"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:WSUA|FRC03_000853-T1_mrna"
+                     /product="hypothetical protein"
+                     /protein_id="KAG8948009.1"
+     gene            5002..6887
+                     /note="*Name FRC03_000854"
+                     /note="*end_range: 7016,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="FRC03_000854"
+                     /partial
+                     /note="*backbone: True"
+     mRNA            5002..6887
+                     /note="*end_range: 7016,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="FRC03_000854"
+                     /note="*orig_protein_id: gnl|WGS:WSUA|FRC03_000854-T1"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:WSUA|FRC03_000854-T1_mrna"
+                     /partial
+                     /product="hypothetical protein"
+     exon            5002..5028
+                     /note="*gbkey: mRNA"
+                     /locus_tag="FRC03_000854"
+                     /note="*orig_protein_id: gnl|WGS:WSUA|FRC03_000854-T1"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:WSUA|FRC03_000854-T1_mrna"
+                     /partial
+                     /product="hypothetical protein"
+     exon            5091..5202
+                     /note="*gbkey: mRNA"
+                     /locus_tag="FRC03_000854"
+                     /note="*orig_protein_id: gnl|WGS:WSUA|FRC03_000854-T1"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:WSUA|FRC03_000854-T1_mrna"
+                     /partial
+                     /product="hypothetical protein"
+     exon            5260..5300
+                     /note="*gbkey: mRNA"
+                     /locus_tag="FRC03_000854"
+                     /note="*orig_protein_id: gnl|WGS:WSUA|FRC03_000854-T1"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:WSUA|FRC03_000854-T1_mrna"
+                     /partial
+                     /product="hypothetical protein"
+     exon            5353..5518
+                     /note="*gbkey: mRNA"
+                     /locus_tag="FRC03_000854"
+                     /note="*orig_protein_id: gnl|WGS:WSUA|FRC03_000854-T1"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:WSUA|FRC03_000854-T1_mrna"
+                     /partial
+                     /product="hypothetical protein"
+     exon            5794..5901
+                     /note="*gbkey: mRNA"
+                     /locus_tag="FRC03_000854"
+                     /note="*orig_protein_id: gnl|WGS:WSUA|FRC03_000854-T1"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:WSUA|FRC03_000854-T1_mrna"
+                     /partial
+                     /product="hypothetical protein"
+     exon            5966..6396
+                     /note="*gbkey: mRNA"
+                     /locus_tag="FRC03_000854"
+                     /note="*orig_protein_id: gnl|WGS:WSUA|FRC03_000854-T1"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:WSUA|FRC03_000854-T1_mrna"
+                     /partial
+                     /product="hypothetical protein"
+     exon            6452..6577
+                     /note="*gbkey: mRNA"
+                     /locus_tag="FRC03_000854"
+                     /note="*orig_protein_id: gnl|WGS:WSUA|FRC03_000854-T1"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:WSUA|FRC03_000854-T1_mrna"
+                     /partial
+                     /product="hypothetical protein"
+     exon            6636..6887
+                     /note="*end_range: 7016,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="FRC03_000854"
+                     /note="*orig_protein_id: gnl|WGS:WSUA|FRC03_000854-T1"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:WSUA|FRC03_000854-T1_mrna"
+                     /partial
+                     /product="hypothetical protein"
+     CDS             join(5002..5028,5091..5202,5260..5300,5353..5518,
+                     5794..5901,5966..6396,6452..6577,6636..6887)
+                     /db_xref="PFAM:PF05141"
+                     /db_xref="NCBI_GP:KAG8948010.1"
+                     /note="*Name KAG8948010.1"
+                     /note="*Note EggNog:ENOG410PGRP~COG:Q"
+                     /db_xref="PFAM:PF05141"
+                     /db_xref="NCBI_GP:KAG8948010.1"
+                     /note="*Name KAG8948010.1"
+                     /note="*Note EggNog:ENOG410PGRP~COG:Q"
+                     /db_xref="PFAM:PF05141"
+                     /db_xref="NCBI_GP:KAG8948010.1"
+                     /note="*Name KAG8948010.1"
+                     /note="*Note EggNog:ENOG410PGRP~COG:Q"
+                     /db_xref="PFAM:PF05141"
+                     /db_xref="NCBI_GP:KAG8948010.1"
+                     /note="*Name KAG8948010.1"
+                     /note="*Note EggNog:ENOG410PGRP~COG:Q"
+                     /db_xref="PFAM:PF05141"
+                     /db_xref="NCBI_GP:KAG8948010.1"
+                     /note="*Name KAG8948010.1"
+                     /note="*Note EggNog:ENOG410PGRP~COG:Q"
+                     /db_xref="PFAM:PF05141"
+                     /db_xref="NCBI_GP:KAG8948010.1"
+                     /note="*Name KAG8948010.1"
+                     /note="*Note EggNog:ENOG410PGRP~COG:Q"
+                     /db_xref="PFAM:PF05141"
+                     /db_xref="NCBI_GP:KAG8948010.1"
+                     /note="*Name KAG8948010.1"
+                     /note="*Note EggNog:ENOG410PGRP~COG:Q"
+                     /db_xref="PFAM:PF05141"
+                     /db_xref="NCBI_GP:KAG8948010.1"
+                     /note="*Name KAG8948010.1"
+                     /note="*Note EggNog:ENOG410PGRP~COG:Q"
+                     /note="*gbkey: CDS"
+                     /locus_tag="FRC03_000854"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:WSUA|FRC03_000854-T1_mrna"
+                     /partial
+                     /product="hypothetical protein"
+                     /protein_id="KAG8948010.1"
+ORIGIN
+        1 CTAACACTTA CCATGGGATT GATCCTTGTA CTTGGGGCTA TAGTAATCTA AGAGATGATT
+       61 CCATGGGTTA TCAAATAGTA TCGAACCATA CTAGCAAGAA TATCTTACCA TTTCCTTTGG
+      121 TGGCCAAGAT GTATGCGAAC TTGtacttct tccaatcaac GTGCTGGATA ACCGGTGGTC
+      181 ATTAGCGTAC AATACCAGGG AGTATTGGAG AATCAACTTA CATCCGTCTC GTAAGTTACG
+      241 TCAATACCTT TGACGCGACA TTTGCCTTTG TGATCATCAT CGCAGTCATC ATCGCACTTA
+      301 TCGCACTTGT CGTCGTCGCA CTTGTCGCAC TTGTCATCAT CGCATTTGTC TTTGCACTTG
+      361 GGTTTTTCGT CCCAGCACTT GGGATCGTTA TCGCAACCTT TGTCTCTAGC TTGCAAGCCG
+      421 TTACCGGTTG GAGCGGCCGA AGTGAATGGC AAGAGGGTGG TGGCAGCTgc gaggaagagg
+      481 acagtGGAGA ATCGCATGGT TGAGACTTGT AAGGctggag atgaggaggt gAGGGATGGT
+      541 TTGAACGAGC TGAAATTCTA CACCATTTAT ACCACGGCAG GAGGCAGTAT CAGGTCAAGA
+      601 GCTATGCTTT TTGCGCCCAT AATTTGTGTT GGTTGATTGA GCGATGTCCA CATAGAACTC
+      661 TCCATTGGTG ATGGGACACA GGAGAGGAAA TGCGATCCGT AATTCCGTCT AGGTGTAAAG
+      721 CCATAACTGG AAGCCGTATC AGCGGTGCAA AGCTGTGAGG AATAGGTTAA CTTCAGATTA
+      781 AGCATATTTT TCCATCAAAG GAATCCAATC ATGGGACTGC TTACCCGGAA TGGACAAGGC
+      841 TTTGGCTGCC TAATTAAACT TTGAGGTGGC TGTTATGGCG AACTGAGCCC AATTCAGAAA
+      901 TTACGAATCG GACGGGAGTA TTTTCTATGG CATTGCTGTC TTGGAGCTGT GTGGCGCCAT
+      961 CTTAAATGAT AGGAGATAAT TAACCGCTCA TGGAATACTC GCTCCGTGGC GGATGTATGT
+     1021 AAAAATTGCA TCAATAGGGT AACTCTGATT ATAGAATAGG AGGCCAGGAT GATCCATGAA
+     1081 GTCTGGGCAA ATTACAGAGA ATACGGTCGC GCTGACGCTG CTAAGAAGTA AGCGATATGA
+     1141 GATTAACTTG GTCATTATTT CAATCGAGAG CTCTACAGAA GCTCACGAAC CAcagaatgg
+     1201 atggagaaga ctGATGTGAA CGAGTATCAA GGGTGAGGCT GAACAATTGA CATGAGGAAC
+     1261 CTGTCCTAGG ATGACCAAAA AGGTTATACC CAATTCTACT ACCGGAAAGA GAATTGGGCG
+     1321 CTCATGTGAG AGGGCAGTTG GTTGAAGGAC TTACTGCAAG CAATTCTTGG CTGGGCTATG
+     1381 TTGCCACGTG ATCTCCCCCC TTTTTACAGA TAGAATAGAG CTTAGTATTG TGGGCCAACT
+     1441 ATTACTTCGA GCGGTGTCTT CAAAATTTCG CTAGGGCAGT ACGGGCAGTA CTCAATCTGA
+     1501 GCATGCATAG CAGTTTGGTT GATAGTTTGC ATATTAACCC TTGAACTTGA AGGCCCCCGG
+     1561 TTCGAGGGTG AACTGCATTT CGTTGGAACC CTGCTTGTAT TGGAATAATT TTCAAGTATT
+     1621 GCTCGTGAGT AATAGTGCTA TAATCTTCAG CTGAATGGCG GAATACGCAG ATTAGAGAGT
+     1681 CCTGTGTCGA ACACGCGTCG AGGTTCTAGT CAACTGCAAA CTTTACGTCG ATGTTCCTTA
+     1741 cgtcatccaa ctcttcagGC AAGCTTAAGG ACTCACACAG GTCGGACACC CAGTGGGCGC
+     1801 TTTTTTTAAC CCTAGAACCA TCAAGGTCGC CGTAAGTTGA TGGACCGGGA ATGGAGAGCA
+     1861 ATATATGGTT CTCGCATTGT CTCACTCGGA CTCGGTACCG ACTCGACAAA TAGGTACAGC
+     1921 CTCCAACAAT AAGCTTTACA GTCAACCTAG ATCCAGTACA TAGTTAATGC AGATCGCGGT
+     1981 CGGCTCCTCG GCGCTGGATG GCACTTGGCA GGCCCAGCAT AGCCTATGTC ATGAAATAAC
+     2041 GTATTCTACT CTAGTCCAAA TTCCTAGTTC AGCCTCCCCA TACACTAACA GCCTTCCACA
+     2101 GGCCGATTTT GGAGTGAAGC AAATCAGCAT GAATATTCCA CCCCTAAAGC TGGACGTCCA
+     2161 GACGATTGCA GATGGGGGGA GCCTGGGATT TATTACCGTA CTGGATTCTA CACCGTCAAA
+     2221 TACCCAAGAA CCTCCGGAAA GTTCTCTGAG TTACACTTCA GTTGTACAGT AGGAAAACTA
+     2281 CCTACATACA AAGAGTAATT GTGCCAGGCC CTTACAAAGC CCTCCATGGC ATCTCAGTCG
+     2341 TAAAGTCAAG ACTGGTATCG GGGGAGGTTG GCGATAGCTT TCCAAAATTA TACATCAGTT
+     2401 AACCAACGAA CCCCTAACGT GGTTGGTCAC CTACCGCCCA GAAGTATTTC GGCATCGCTT
+     2461 CCTTTATGCC AGTCAGCAGG GAAGAGCTCA GAGCCTATGT AAACATTAGT CTAGGATACA
+     2521 AAATAATGGC TCATGCGTCC TACATCTTAA GCTAAGTTGG TCGGCGGTCC ACTTCTCATA
+     2581 GACCACACAA GCGATTGCAA ATAGATGGAC TTGAACTCCG GGAATTGACG AATGACAAGC
+     2641 ATTGGGACGC TGACTGTCTG AATGTGCTGA ATGGACGAGG CAATATACGC TTTTGGTTTG
+     2701 ATGAGATGAC CCACCTCTTG CACGAGCTTG TAGAGATCAC TGGTTTTCAT GAGACATCAA
+     2761 TGAGCGAAGT AAGTACCTTC CGCAGAAAAG CTCTTCATAA AATACTGGAT GCTTACCCTC
+     2821 CATTGGTGTG GCATCGTGAA ATCGGGTTCT GGTGATTTGC GAGCGATATC TGGTGTATTA
+     2881 TCCCCATCTA GAGTAACGTC ATTCAGGGAA ACTTGATAAC AGAAAGTGAA TATTGGATTA
+     2941 CAGATCGGAA CACCAGGAAA AGGGCTACCA ACTTGAGAAG GGTATAAAGA CGGTGCTGTG
+     3001 TATGAAAAAG GCAAAAGGGT TCCGGAGATC TCGGCACAGG ATATACCTTT ATGACAGTCA
+     3061 TGAAATTAAA ACCGCACAAA ATGCACGTAG GTATCTAACA GCTTACCTAT AACGGTCAAC
+     3121 GTCTTATTGC AATGCTCCTC TGCAGGGGAT ATCCCCTTGT TACTCCTGTC CTAACATGAT
+     3181 GGCTATGCCG CTTAAATCCG CGTAATTCGA TCAATTTTTC GCCTCCATGG CTCGCCAATC
+     3241 CCCCGACATC TTCCAAGATA ATCCTCTCCG GTTCTGGGAC TTGAGATGGA ATTTCCTTGA
+     3301 GTTATGTAAG TATTGGTCGA AAAGGAGATC CCCTTCGCAA TGACCATGTA GATAGCCTGA
+     3361 ACGAAGCCAG GTAAAACACG TCCAGTTGCC TGGACGAATT CGTGGTCGAT GCGGCCGGTT
+     3421 AAActctctt caacttcata tGAGGGGAAG TTTCAGCCTA CTGAGCTGAA ACTATTTTAT
+     3481 AGTGGGTTCT TGGGCATCCT TAAGTCGCAA CCAGGCGTCG TTACAGGTAG TGCATACAAG
+     3541 ATCGTAACCT AGACGATTGC GAGACAGAGC CTAAGAACCA CTTTATGTGA CGGTGGAGAG
+     3601 GACATACCGC ACCACTCAAT AGGCAAGAAT ATTTTTCGAA TAAATGTCTG TTCACTGATA
+     3661 TATCTTGATG TGTTCCAAGC TACGATACCT TTTTGTCTAG GTGTCGTGGG ATAAGTGGAT
+     3721 TTCGCTTGAA ACAGGAACCG TGAGAATACC AGACATCGAG TGTTCCCAGG GAATGTTGAA
+     3781 TTCCACATTG AACTGGCCGC CGCCAAATAG ATTTTGCTTT CCGCCGTCTC GAGCAGTAAC
+     3841 TCACAATATA ATATGGCAGT AAGTGATCCC TATTGAATTA TGCCCCGCAG ATACTGAGCA
+     3901 TATCCGATGC TTTTAGTCAG GATACGGATA CTCTGGAGGT GCTGAACTTG GTTGTTTCAA
+     3961 CTGAACATGC AAATGCTGAC GTATTATGAA ATCTGCTCTG AATCTGACCT TCAGGCCGTG
+     4021 CACGGTGTTT TGCTTTTTGG CAAGAGTTCT CAAAGGTGTG CAAGCTCACT CGAGGTCCAT
+     4081 CATAACATTC ATCAACAACC TTACGTTTCT TCAGTGCTAC GCCTCAGCAG ACACTCCATC
+     4141 ACAATGCACG TCTCAGGTCG AAGATTACAT AGAGTGTCTC CATCACAGAA AAGAGGTCTG
+     4201 TGATCTATCT CTCCCTTTAC TGGCTCAATT AAAGTGTTTT GACATCATCT CGTCTCTCTT
+     4261 CCCACACTCT CGCCAGATCG CACGGGCgtt tgaaatcaaa gagcAACATA TGAAGAACGT
+     4321 CGCCCACCAA AACAAGGAAA GCCGAAAGGT TGCTCAAGTA CTCTCTGAAG GTGTCATCAC
+     4381 CAACGTTGGT CTGATATCGA AACGGGAAGA CGAGGGCAGT ACCAAAGAAT AGACCTTCAC
+     4441 TTTCATTCGT TCCGTGTACA TGACGAGACG TTTTGGACAA TTAGAGTCTT TAAGCTTCAA
+     4501 ATCAATTGAT GCTCATATCC CTCTAGTTTG AACTTCAACG ACGTTGCAGT GCTTCGCTCT
+     4561 TATCCACTTC AACATCTTGT GGTCCTCGGG AACCTGAATC tcaggagaag gtggtgggCT
+     4621 CAGTTCAGAA CTTCCCTCAA TTCGCAAGCC ACGTTCCGTC CCCTTCATAC ATCACAACCT
+     4681 CTTCGCTATG GATTCGGATA TCACTGAAAA TATACAGCCA TTTATACCGG CTTTTTCCCC
+     4741 AGGCTTCTAC TTCGGTGATT GAATTAACCT ACTTAAGCTT GACGGGAGAC TGCGCCTCAT
+     4801 TGCTATTCAG GTGGTCTCAG TCTGCAAGCC GTCTCGCTCG CCAATTCCCT AAGAACAATC
+     4861 GTCAATACAA TACTGACCGA GCCGACATCG CTAACACTTT CCTCGCTAAT AATAGTTGTC
+     4921 AACGGTTGAG GTTAGTTCGG CGCTAATCCC CTCACAGTCT CTCACAGATA CACAATGGGA
+     4981 GCTCGGCACC ACACCGCTTT CATGTCCAGT TTTGTACAAA CTCCCGAGGT AAGCCACTCC
+     5041 AAACACGTTG TTCGCTACAG TTCCCCCAGC TTCCACTGAT TGATTTCAAG AACAAAGATG
+     5101 TGATTGCCGT CGGAAATATT TGGGGTTCCA CCAATGGATG CACTCTGTCA GAAGCCGGGG
+     5161 TTACTCTCTC CGTGATGGAG GTCGAAGAGT TTCGCCTCCT CAGTAGGTGA TACCTTCATT
+     5221 TTCAGTAACC GTTATATGGT TGTTTTTTCT CCGATATAGA GCGATCAAAA GGGTTTAAAA
+     5281 TGTCAGCTAG TCCAAGCCAg gtcagcatca tcagcaacTT CCTTCAGTAc ttttctcatc
+     5341 ttctctctAC AGTTTCCTAT CGTCTCTTCA ATTTTCTGCG CCGCGTACCG CATATTTCGA
+     5401 CCGTTCAGCC TTATAGACGT CATTTATCCA CTACATTTAT CCACTACTTC GTACCCACTT
+     5461 CTATTACCTA AATCCTATAT TCTCAAATCA GCATGCCCGT CCCCGTTCAA GTCGTCAAGT
+     5521 CTGTCCCAGC TGCCTCCAAG ATCGGCAACA CGTACTGGGC TCCGTNNNNN NNNNNNNNNN
+     5581 NNNNNNNNNN NNNNNNNNNN NNNNNNNNNN NNNNNNNNNN NNNNNNNNNN NNNNNNNNNN
+     5641 NNNNNNNNNN NNNNNNNNNN NNNNNNNNNN NNNNNNNNNN NNNNNNNNNN NNNNNNNNNN
+     5701 NNNNNNNNNN NNNNNNNNNN NNNNNNNNNN NNNNNNNNNN NNNNNNNNNN TTCAAGAGTC
+     5761 CAAGTCGTGC CAAGGTCCTT GGAGCACTCC CAGATCTGGC TGAAGAAGTC GTTTTGAGGA
+     5821 GACTTGAAGG TTTATGCCGA GCCATTGAGG ATGTATGGTC AAAAGGAGCA GTGCTGCATA
+     5881 TCGTTTCGGA TGGTGTTGTC TGTGAGTATT GCCTGTTGAC GTTAACAAGT GCCACGTTGG
+     5941 ATCTCAACAC ACTCCTATCT TGTAGATGCT GAGCTCTTAG GAGTATCTGA TACGACAGTT
+     6001 TATCGTTATA ACGCTGAACT GAGAAGACTC GCCAAGGAAt acaatctcaa ccacatCTCA
+     6061 TTCGTCCGTG TCTCCGACAT GCACCGTTCA GCGGAATCTC CTGCAGATCA TCCAGTTCCA
+     6121 GTATTCCAAA CTGATCTCAC AGAATCAGAA TACGTTGAAA GCGCGCCAAA GGATAGAGCC
+     6181 AAATTCATTG CTCGAGACAT TGGAGAATAC Tcgttggaga agttgcttgC GGAGGATGTG
+     6241 GGTGCATTGA GGACTTACAG AGGCTATctg aagttcttga agcttGACTT GGCGGAGAGT
+     6301 CATCTGTTGC GCGATGAGAA TGGGAAGCTG CTATCAAACA AGCAGAGGGA GAGGATCATG
+     6361 GGTTGTATTG CAAAGGACAT GATGAGAAAC GGTACTGTGA GTAATATCAC TAGGTCCCCA
+     6421 TTCACCACCa attctcatca tctacgGTTA GAAATTCTCG CACCTTGTAC AAGCTGCCTT
+     6481 CCCCCACGCT CTGAGACTGA GTATTCATCC ACACAACAAT GCCGGACCGA AGTTGGCTCT
+     6541 GAAGGTGTTC CCATACGTGG ACATTATTTG TACACCAGTA AGTGAATCCG AACCCACTCC
+     6601 CATTTTCACT GTAACTCACA GCCTTCATTT ATAAGTGGCA CAATGTGCTA TGTCAGAAAG
+     6661 CTGACGGGAG CACGACCGTG GGGCAAGTGT CTCGGTTTGA TGACAATAAC CACGAAATCG
+     6721 TGTACAAATA CGGTCGTCCA TACTATGTCC GAGAAAAGGA CGCAGATATG GCTTGGGAAG
+     6781 GAGAACTCTC CAGTGTCACA TTTGAGCGGA TATATCCATT TGGATTGAGG ATTACTGCTC
+     6841 CTGAGAATGG AGACAAGCCC GATTTCGCCA AGGTGCCGAT GGACAAG
+//

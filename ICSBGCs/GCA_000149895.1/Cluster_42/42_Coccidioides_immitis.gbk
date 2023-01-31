@@ -1,0 +1,1568 @@
+LOCUS       962mF-Z25              42401 bp    DNA     linear   UNC 16-DEC-2021
+DEFINITION  GCA_000149895.1 results based on the annotation PF05141 and  inputs.
+ACCESSION   GCA_000149895.1
+VERSION     1
+KEYWORDS    .
+SOURCE      ICSCreator.py written by Grant Nickles (gnickles@wisc.edu)
+ORGANISM    GCA_000149895.1
+FEATURES             Location/Qualifiers
+     gene            complement(1..1415)
+                     /note="*Name CIRG_09690"
+                     /note="*end_range: 880884,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="CIRG_09690"
+                     /partial
+                     /note="*start_range: .,87947"
+                     /note="*backbone: True"
+     mRNA            complement(1..1415)
+                     /note="*end_range: 880884,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09690"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09695"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09695"
+                     /partial
+                     /product="pyoverdine biosynthesis"
+     exon            complement(920..1415)
+                     /note="*end_range: 880884,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09690"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09695"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09695"
+                     /partial
+                     /product="pyoverdine biosynthesis"
+     exon            complement(458..846)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09690"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09695"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09695"
+                     /partial
+                     /product="pyoverdine biosynthesis"
+     exon            complement(1..371)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09690"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09695"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09695"
+                     /partial
+                     /product="pyoverdine biosynthesis"
+     CDS             join(complement(920..1415),complement(458..846),
+                     complement(75..371))
+                     /db_xref="NCBI_GP:KMP09520.1"
+                     /note="*Name KMP09520.1"
+                     /db_xref="NCBI_GP:KMP09520.1"
+                     /note="*Name KMP09520.1"
+                     /db_xref="NCBI_GP:KMP09520.1"
+                     /note="*Name KMP09520.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="CIRG_09690"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09695"
+                     /product="pyoverdine biosynthesis"
+                     /protein_id="KMP09520.1"
+     gene            2477..10256
+                     /note="*Name CIRG_09691"
+                     /note="*end_range: 889725,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="CIRG_09691"
+                     /partial
+                     /note="*start_range: .,881946"
+     mRNA            2477..10256
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09691"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09696"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09696"
+                     /product="GTPase-activating protein GYP7"
+     exon            2477..2680
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09691"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09696"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09696"
+                     /product="GTPase-activating protein GYP7"
+     exon            2773..4138
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09691"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09696"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09696"
+                     /product="GTPase-activating protein GYP7"
+     exon            4226..4488
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09691"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09696"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09696"
+                     /product="GTPase-activating protein GYP7"
+     exon            4551..4869
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09691"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09696"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09696"
+                     /product="GTPase-activating protein GYP7"
+     exon            4953..10256
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09691"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09696"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09696"
+                     /product="GTPase-activating protein GYP7"
+     CDS             join(2525..2680,2773..4138,4226..4488,4551..4869,
+                     4953..5350)
+                     /db_xref="NCBI_GP:KMP09521.1"
+                     /note="*Name KMP09521.1"
+                     /db_xref="NCBI_GP:KMP09521.1"
+                     /note="*Name KMP09521.1"
+                     /db_xref="NCBI_GP:KMP09521.1"
+                     /note="*Name KMP09521.1"
+                     /db_xref="NCBI_GP:KMP09521.1"
+                     /note="*Name KMP09521.1"
+                     /db_xref="NCBI_GP:KMP09521.1"
+                     /note="*Name KMP09521.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="CIRG_09691"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09696"
+                     /product="GTPase-activating protein GYP7"
+                     /protein_id="KMP09521.1"
+     gene            complement(6276..9607)
+                     /note="*Name CIRG_09692"
+                     /note="*end_range: 889076,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="CIRG_09692"
+                     /partial
+                     /note="*start_range: .,885745"
+     mRNA            complement(6276..9607)
+                     /note="*end_range: 889076,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09692"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09697"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09697"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,885745"
+     exon            complement(9493..9607)
+                     /note="*end_range: 889076,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09692"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09697"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09697"
+                     /partial
+                     /product="hypothetical protein"
+     exon            complement(6276..9430)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09692"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09697"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09697"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,885745"
+     CDS             join(complement(9493..9607),complement(6276..9430))
+                     /db_xref="NCBI_GP:KMP09522.1"
+                     /note="*Name KMP09522.1"
+                     /db_xref="NCBI_GP:KMP09522.1"
+                     /note="*Name KMP09522.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="CIRG_09692"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09697"
+                     /product="hypothetical protein"
+                     /protein_id="KMP09522.1"
+     gene            10490..13161
+                     /note="*Name CIRG_09693"
+                     /note="*end_range: 892630,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="CIRG_09693"
+                     /partial
+                     /note="*start_range: .,889959"
+     mRNA            10490..13161
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09693"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09698"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09698"
+                     /product="hypothetical protein"
+     exon            10490..10672
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09693"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09698"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09698"
+                     /product="hypothetical protein"
+     exon            10725..10843
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09693"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09698"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09698"
+                     /product="hypothetical protein"
+     exon            10903..11701
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09693"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09698"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09698"
+                     /product="hypothetical protein"
+     exon            11787..11863
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09693"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09698"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09698"
+                     /product="hypothetical protein"
+     exon            11919..13161
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09693"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09698"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09698"
+                     /product="hypothetical protein"
+     CDS             join(10627..10672,10725..10843,10903..11701,11787..11863,
+                     11919..11945)
+                     /db_xref="NCBI_GP:KMP09523.1"
+                     /note="*Name KMP09523.1"
+                     /note="*Note NUV101 protein"
+                     /db_xref="NCBI_GP:KMP09523.1"
+                     /note="*Name KMP09523.1"
+                     /note="*Note NUV101 protein"
+                     /db_xref="NCBI_GP:KMP09523.1"
+                     /note="*Name KMP09523.1"
+                     /note="*Note NUV101 protein"
+                     /db_xref="NCBI_GP:KMP09523.1"
+                     /note="*Name KMP09523.1"
+                     /note="*Note NUV101 protein"
+                     /db_xref="NCBI_GP:KMP09523.1"
+                     /note="*Name KMP09523.1"
+                     /note="*Note NUV101 protein"
+                     /note="*gbkey: CDS"
+                     /locus_tag="CIRG_09693"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09698"
+                     /product="hypothetical protein"
+                     /protein_id="KMP09523.1"
+     gene            complement(12149..18421)
+                     /note="*Name CIRG_09694"
+                     /note="*end_range: 897890,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="CIRG_09694"
+                     /partial
+                     /note="*start_range: .,891618"
+     mRNA            complement(12149..18421)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09694"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09699"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09699"
+                     /product="hypothetical protein"
+     exon            complement(13376..18421)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09694"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09699"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09699"
+                     /product="hypothetical protein"
+     exon            complement(12149..13320)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09694"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09699"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09699"
+                     /product="hypothetical protein"
+     CDS             join(complement(13376..17975),complement(12767..13320))
+                     /db_xref="NCBI_GP:KMP09524.1"
+                     /note="*Name KMP09524.1"
+                     /db_xref="NCBI_GP:KMP09524.1"
+                     /note="*Name KMP09524.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="CIRG_09694"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09699"
+                     /product="hypothetical protein"
+                     /protein_id="KMP09524.1"
+     gene            18898..22748
+                     /note="*Name CIRG_09695"
+                     /note="*end_range: 902217,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="CIRG_09695"
+                     /partial
+                     /note="*start_range: .,898367"
+     mRNA            18898..22748
+                     /note="*end_range: 902217,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09695"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09700"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09700"
+                     /partial
+                     /product="transporter"
+                     /note="*start_range: .,898367"
+     exon            18898..20704
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09695"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09700"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09700"
+                     /partial
+                     /product="transporter"
+                     /note="*start_range: .,898367"
+     exon            20761..22658
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09695"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09700"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09700"
+                     /partial
+                     /product="transporter"
+     exon            22698..22748
+                     /note="*end_range: 902217,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09695"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09700"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09700"
+                     /partial
+                     /product="transporter"
+     CDS             join(18898..20704,20761..22658,22698..22748)
+                     /db_xref="NCBI_GP:KMP09525.1"
+                     /note="*Name KMP09525.1"
+                     /db_xref="NCBI_GP:KMP09525.1"
+                     /note="*Name KMP09525.1"
+                     /db_xref="NCBI_GP:KMP09525.1"
+                     /note="*Name KMP09525.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="CIRG_09695"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09700"
+                     /product="transporter"
+                     /protein_id="KMP09525.1"
+     gene            complement(23370..24089)
+                     /note="*Name CIRG_09696"
+                     /note="*end_range: 903558,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="CIRG_09696"
+                     /partial
+                     /note="*start_range: .,902839"
+     mRNA            complement(23370..24089)
+                     /note="*end_range: 903558,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09696"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09701"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09701"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,902839"
+     exon            complement(23370..24089)
+                     /note="*end_range: 903558,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09696"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09701"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09701"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,902839"
+     CDS             complement(23370..24089)
+                     /db_xref="NCBI_GP:KMP09526.1"
+                     /note="*Name KMP09526.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="CIRG_09696"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09701"
+                     /product="hypothetical protein"
+                     /protein_id="KMP09526.1"
+     gene            24442..26624
+                     /note="*Name CIRG_09697"
+                     /note="*end_range: 906093,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="CIRG_09697"
+                     /partial
+                     /note="*start_range: .,903911"
+     mRNA            24442..26624
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09697"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09702"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09702"
+                     /product="hypothetical protein"
+     exon            24442..24655
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09697"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09702"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09702"
+                     /product="hypothetical protein"
+     exon            24732..24845
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09697"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09702"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09702"
+                     /product="hypothetical protein"
+     exon            24911..25135
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09697"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09702"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09702"
+                     /product="hypothetical protein"
+     exon            25209..26624
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09697"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09702"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09702"
+                     /product="hypothetical protein"
+     CDS             join(24512..24655,24732..24845,24911..25135,25209..25406)
+                     /db_xref="NCBI_GP:KMP09527.1"
+                     /note="*Name KMP09527.1"
+                     /db_xref="NCBI_GP:KMP09527.1"
+                     /note="*Name KMP09527.1"
+                     /db_xref="NCBI_GP:KMP09527.1"
+                     /note="*Name KMP09527.1"
+                     /db_xref="NCBI_GP:KMP09527.1"
+                     /note="*Name KMP09527.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="CIRG_09697"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09702"
+                     /product="hypothetical protein"
+                     /protein_id="KMP09527.1"
+     gene            complement(25624..26932)
+                     /note="*Name CIRG_09698"
+                     /note="*end_range: 906401,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="CIRG_09698"
+                     /partial
+                     /note="*start_range: .,905093"
+     mRNA            complement(25624..26932)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09698"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09703"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09703"
+                     /product="MAK16 protein"
+     exon            complement(26804..26932)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09698"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09703"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09703"
+                     /product="MAK16 protein"
+     exon            complement(25624..26701)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09698"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09703"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09703"
+                     /product="MAK16 protein"
+     CDS             join(complement(26804..26865),complement(25780..26701))
+                     /db_xref="NCBI_GP:KMP09528.1"
+                     /note="*Name KMP09528.1"
+                     /db_xref="NCBI_GP:KMP09528.1"
+                     /note="*Name KMP09528.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="CIRG_09698"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09703"
+                     /product="MAK16 protein"
+                     /protein_id="KMP09528.1"
+     gene            complement(27894..28398)
+                     /note="*Name CIRG_09699"
+                     /note="*end_range: 907867,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="CIRG_09699"
+                     /partial
+                     /note="*start_range: .,907363"
+     mRNA            complement(27894..28398)
+                     /note="*end_range: 907867,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09699"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09704"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09704"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,907363"
+     exon            complement(28264..28398)
+                     /note="*end_range: 907867,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09699"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09704"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09704"
+                     /partial
+                     /product="hypothetical protein"
+     exon            complement(27894..28109)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09699"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09704"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09704"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,907363"
+     CDS             join(complement(28264..28398),complement(27894..28109))
+                     /db_xref="NCBI_GP:KMP09529.1"
+                     /note="*Name KMP09529.1"
+                     /db_xref="NCBI_GP:KMP09529.1"
+                     /note="*Name KMP09529.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="CIRG_09699"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09704"
+                     /product="hypothetical protein"
+                     /protein_id="KMP09529.1"
+     gene            28463..28794
+                     /note="*Name CIRG_09700"
+                     /note="*end_range: 908263,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="CIRG_09700"
+                     /partial
+                     /note="*start_range: .,907932"
+     mRNA            28463..28794
+                     /note="*end_range: 908263,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09700"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09705"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09705"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,907932"
+     exon            28463..28535
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09700"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09705"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09705"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,907932"
+     exon            28616..28794
+                     /note="*end_range: 908263,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09700"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09705"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09705"
+                     /partial
+                     /product="hypothetical protein"
+     CDS             join(28463..28535,28616..28794)
+                     /db_xref="NCBI_GP:KMP09530.1"
+                     /note="*Name KMP09530.1"
+                     /db_xref="NCBI_GP:KMP09530.1"
+                     /note="*Name KMP09530.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="CIRG_09700"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09705"
+                     /product="hypothetical protein"
+                     /protein_id="KMP09530.1"
+     gene            complement(29212..31396)
+                     /note="*Name CIRG_09701"
+                     /note="*end_range: 910865,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="CIRG_09701"
+                     /partial
+                     /note="*start_range: .,908681"
+     mRNA            complement(29212..31396)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09701"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09706"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09706"
+                     /product="acetamidase"
+     exon            complement(30868..31396)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09701"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09706"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09706"
+                     /product="acetamidase"
+     exon            complement(30683..30795)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09701"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09706"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09706"
+                     /product="acetamidase"
+     exon            complement(30401..30623)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09701"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09706"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09706"
+                     /product="acetamidase"
+     exon            complement(30066..30340)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09701"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09706"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09706"
+                     /product="acetamidase"
+     exon            complement(29829..30004)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09701"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09706"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09706"
+                     /product="acetamidase"
+     exon            complement(29471..29753)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09701"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09706"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09706"
+                     /product="acetamidase"
+     exon            complement(29212..29406)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09701"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09706"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09706"
+                     /product="acetamidase"
+     CDS             join(complement(30401..30438),complement(30066..30340),
+                     complement(29829..30004),complement(29471..29753),
+                     complement(29300..29406))
+                     /db_xref="NCBI_GP:KMP09531.1"
+                     /note="*Name KMP09531.1"
+                     /db_xref="NCBI_GP:KMP09531.1"
+                     /note="*Name KMP09531.1"
+                     /db_xref="NCBI_GP:KMP09531.1"
+                     /note="*Name KMP09531.1"
+                     /db_xref="NCBI_GP:KMP09531.1"
+                     /note="*Name KMP09531.1"
+                     /db_xref="NCBI_GP:KMP09531.1"
+                     /note="*Name KMP09531.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="CIRG_09701"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09706"
+                     /product="acetamidase"
+                     /protein_id="KMP09531.1"
+     gene            32026..33247
+                     /note="*Name CIRG_09702"
+                     /note="*end_range: 912716,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="CIRG_09702"
+                     /partial
+                     /note="*start_range: .,911495"
+     mRNA            32026..33247
+                     /note="*end_range: 912716,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09702"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09707"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09707"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,911495"
+     exon            32026..32913
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09702"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09707"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09707"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,911495"
+     exon            33179..33247
+                     /note="*end_range: 912716,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09702"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09707"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09707"
+                     /partial
+                     /product="hypothetical protein"
+     CDS             join(32026..32913,33179..33247)
+                     /db_xref="NCBI_GP:KMP09532.1"
+                     /note="*Name KMP09532.1"
+                     /db_xref="NCBI_GP:KMP09532.1"
+                     /note="*Name KMP09532.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="CIRG_09702"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09707"
+                     /product="hypothetical protein"
+                     /protein_id="KMP09532.1"
+     gene            35153..35414
+                     /note="*Name CIRG_09703"
+                     /note="*end_range: 914883,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="CIRG_09703"
+                     /partial
+                     /note="*start_range: .,914622"
+     mRNA            35153..35414
+                     /note="*end_range: 914883,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09703"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09708"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09708"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,914622"
+     exon            35153..35301
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09703"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09708"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09708"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,914622"
+     exon            35375..35414
+                     /note="*end_range: 914883,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09703"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09708"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09708"
+                     /partial
+                     /product="hypothetical protein"
+     CDS             join(35153..35301,35375..35414)
+                     /db_xref="NCBI_GP:KMP09533.1"
+                     /note="*Name KMP09533.1"
+                     /db_xref="NCBI_GP:KMP09533.1"
+                     /note="*Name KMP09533.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="CIRG_09703"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09708"
+                     /product="hypothetical protein"
+                     /protein_id="KMP09533.1"
+     gene            complement(36453..41630)
+                     /note="*Name CIRG_09704"
+                     /note="*end_range: 921099,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="CIRG_09704"
+                     /partial
+                     /note="*start_range: .,915922"
+     mRNA            complement(36453..41630)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09704"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09709"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09709"
+                     /product="pro22"
+     exon            complement(40522..41630)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09704"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09709"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09709"
+                     /product="pro22"
+     exon            complement(40297..40469)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09704"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09709"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09709"
+                     /product="pro22"
+     exon            complement(40150..40238)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09704"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09709"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09709"
+                     /product="pro22"
+     exon            complement(39296..40102)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09704"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09709"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09709"
+                     /product="pro22"
+     exon            complement(39120..39238)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09704"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09709"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09709"
+                     /product="pro22"
+     exon            complement(38905..39056)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09704"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09709"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09709"
+                     /product="pro22"
+     exon            complement(38731..38860)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09704"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09709"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09709"
+                     /product="pro22"
+     exon            complement(36453..38668)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09704"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09709"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09709"
+                     /product="pro22"
+     CDS             join(complement(40522..41372),complement(40297..40469),
+                     complement(40150..40238),complement(39296..40102),
+                     complement(39120..39238),complement(38905..39056),
+                     complement(38731..38860),complement(37828..38668))
+                     /db_xref="NCBI_GP:KMP09535.1"
+                     /note="*Name KMP09535.1"
+                     /db_xref="NCBI_GP:KMP09535.1"
+                     /note="*Name KMP09535.1"
+                     /db_xref="NCBI_GP:KMP09535.1"
+                     /note="*Name KMP09535.1"
+                     /db_xref="NCBI_GP:KMP09535.1"
+                     /note="*Name KMP09535.1"
+                     /db_xref="NCBI_GP:KMP09535.1"
+                     /note="*Name KMP09535.1"
+                     /db_xref="NCBI_GP:KMP09535.1"
+                     /note="*Name KMP09535.1"
+                     /db_xref="NCBI_GP:KMP09535.1"
+                     /note="*Name KMP09535.1"
+                     /db_xref="NCBI_GP:KMP09535.1"
+                     /note="*Name KMP09535.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="CIRG_09704"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09709"
+                     /product="pro22"
+                     /protein_id="KMP09535.1"
+     gene            36556..37626
+                     /note="*Name CIRG_09705"
+                     /note="*end_range: 917095,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="CIRG_09705"
+                     /partial
+                     /note="*start_range: .,916025"
+     mRNA            36556..37626
+                     /note="*end_range: 917095,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09705"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09710"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09710"
+                     /partial
+                     /product="malate dehydrogenase"
+                     /note="*start_range: .,916025"
+     exon            36556..37626
+                     /note="*end_range: 917095,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09705"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09710"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09710"
+                     /partial
+                     /product="malate dehydrogenase"
+                     /note="*start_range: .,916025"
+     CDS             36556..37626
+                     /db_xref="NCBI_GP:KMP09534.1"
+                     /note="*Name KMP09534.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="CIRG_09705"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09710"
+                     /product="malate dehydrogenase"
+                     /protein_id="KMP09534.1"
+     gene            41707..42401
+                     /note="*Name CIRG_09706"
+                     /note="*end_range: 921870,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="CIRG_09706"
+                     /partial
+                     /note="*start_range: .,921176"
+     mRNA            41707..42401
+                     /note="*end_range: 921870,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09706"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09711"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09711"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,921176"
+     exon            41707..41809
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09706"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09711"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09711"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,921176"
+     exon            41907..42147
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09706"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09711"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09711"
+                     /partial
+                     /product="hypothetical protein"
+     exon            42254..42401
+                     /note="*end_range: 921870,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CIRG_09706"
+                     /note="*orig_protein_id: gnl|WGS:AATX|CIRT_09711"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09711"
+                     /partial
+                     /product="hypothetical protein"
+     CDS             join(41707..41809,41907..42147,42254..42401)
+                     /db_xref="NCBI_GP:KMP09536.1"
+                     /note="*Name KMP09536.1"
+                     /db_xref="NCBI_GP:KMP09536.1"
+                     /note="*Name KMP09536.1"
+                     /db_xref="NCBI_GP:KMP09536.1"
+                     /note="*Name KMP09536.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="CIRG_09706"
+                     /note="*orig_transcript_id: gnl|WGS:AATX|mrna_CIRT_09711"
+                     /product="hypothetical protein"
+                     /protein_id="KMP09536.1"
+ORIGIN
+        1 TGAAGCAAAC GGCTCATCAA TGTAGTTTAG ATAGGCAAAT TCAAAACCAT CAAAAAGGCC
+       61 CAAGTACCTA TCACTCAAGT CTTTTCTACT GAAACTTTCT CTACTACAGC TTCGTTTACC
+      121 CTCTCCCTGA AGTGAGTTGG TCTCCCATCT TCGTCCCGGA CGAGTTCGAG CCTCGGATCC
+      181 TCCTCAAAAT CTCCCTTTGG CCCGCTGATG ATGTTCCCGT CCGCCAGAAT CGCCACGCAG
+      241 CAGTGCCAGG GTGTCGTGTA AGAAGTGCTT GTCGGCAACA GGCTAATGGA AACTTTGTGT
+      301 TCGCCCGTGG AGTGGTGGAT GCTCAGGCGG AGGTAATCCG GGAAGTTGTG CTTAACAGCA
+      361 CCCGCGAATG CCTGATAGGC TAAAGGTCAG CGTGTCATCC CATCGACGTT GGTCAAGGTA
+      421 ATAAACGAGT AAAAACAAAA CAGGCTCCTA AACTTACATG TCCGCGGCTG ATCATCTGCT
+      481 GGGCCACATA CTTGACGTCC TTGCGATATT TGTTGACACT CCTGTTCTTG CCTAGGGGAA
+      541 AGATGTACCG GAGATCGTTC TCCAGGAAGC GCTTGTAGCC GCAGTACGTC AATCTCGTGT
+      601 CCTCGTTCTC AGCGATCTCT TTGGGCACGT CTAGATCCGG CTTGCTGAAC TTATTTAGCA
+      661 GCGCTCGTCG AAAGTTCGTC GCATTAGCGA TGTATGTGAC TTCGTCAAGC TTCTCTGGGA
+      721 GGCCGGGGAC GTCAATGAGG TCCCTTAGGC GAGTGAAGCG AATGTGAGTA CACTTCGTCT
+      781 CGACGGCGAG GGCGCGCAGA GCTTCACCGT ATTCCCAAAC GTCGCGGTCC GGGATGGTGA
+      841 AGAGATCTGG AAATGCCTAG TTAGCATTGG GACCAACGCG CAGGGGATAA AAAGAGCTAT
+      901 GAGGTTTAGA TCGGATCACC ATTGTAAACC AGCCCATCGG AAATGATGAG CAGCTCCGCC
+      961 CCGGGATTGT AGACATCGCC AATGGCCTCG CACAGGTCAT TTAAGCGTTT CAGGGACACC
+     1021 TCCTCGGCCT TGTCCGGCAG AGTGCCGAGC ACCTTGTGGA CCTTATTGGC AGACTTCCAA
+     1081 GGGAAGGCCG GCAGGCACAT CTGCACCACT TGGCCCTTCT CAACGAAATT GCGGATCACT
+     1141 GAAATGAATT TTGGGGCACC CCGGACCCAG AGATCATGAG CGTCGGGTGA TTTGGCGAGG
+     1201 AGGTATGGCT TGAGGACAGA AAGGATTCTC TCCGAGGTGT GTGTATGAAC GTCATATTGC
+     1261 TGCCCCTCAT CGAGGATGCC ATCGACGGGG ACCGGGGTCA GGCATGGTTC TTGCACAGGC
+     1321 TCTAACTTCG GGGCCTCTTG AACCGAAGCC ACCTTGGCTT TGGGCCCTGT GAACGTTGGC
+     1381 TCCTCAGAGC AGATTTCAGT CCGGCTGGGC GACATGTTCA GATAATAATA TGATAGGGGG
+     1441 TCGGAAAATC AAACGGTGAT CCTTGATTCG GTAGCAGGAG CAAAAAAAAA AAAAAGGAGA
+     1501 AAAAGTTGAA GTATATAAAG GCGGCTCGTT CACGGTGAGG CCTCACGCAC AAAATGAGAA
+     1561 CCAACAAAAA CGGTCAGCCC CCTAGAGAAA TGGTGGCAAA GCTGACCGGG AGAATTGTCA
+     1621 TAGGTACTTT ACTGAGTGAA TAGGACCTAA CTGAATAGTT CTCGGCATGC GCGTGAGATT
+     1681 TCTTGAAATC GGGCCACGGA GGATTTCTGG CCAATTTCTT TTCAGCTCAG GCATGGCGTT
+     1741 CCCAATGAAC CGAAAATTAC AAAGCCAGGT ACATTGACCC GCTCGGCCAA ATATAATAAT
+     1801 GCGAGCGAAA GCTGATGCAG AGTCCTTGTC GGCAGATTTT GTATCCTGGC AAGCCGCCAT
+     1861 ATCTCCGTGG CCTCCCAGAT CATAGGACTG ATTCTCCAAT CCCTATTCGT GCGGGATTTG
+     1921 GTTAGAAGAG ATCTTAGGCC ACATATTTCG GATTGCTTGC ACTCTTTGGT CTCTCTGTCA
+     1981 CATAAGAGAG CCCAGGTGGA CTAACAGAGA AAGTTCCAAT AAGAAAAAGA GAGACATAAA
+     2041 TCTCCTTCTC TTGATTGTGC AGCCCGAAAG CTGTCGCAGC AAAGAAAGAA GGCCCAATTC
+     2101 GCTATAGCGA AAGTAGCGCA AAGCATAGCA CTTGATAAAG GAAAATGGAA AAGAAAACAC
+     2161 GGTGCAGCGA TATCAGAGGG CAAATACAGA GTAGACCAGC CAGAGTCAGG GGCATCAAGC
+     2221 CGGCAGAGTC CATCATGAAG AGAAAAGCTG GCTGCCTGGG CGGTGAGGTC GAGGCCAGAA
+     2281 AAGAGGGCAA GATAACCGAA GCAGCGACAT GGAATCCGTA TAACTCTACT GGGACTGGTA
+     2341 CGGAACGGCT CAAGTTAGAC GCGGAATGTC CGGTTGCGTC ACTGCGTCAC ATGCCGCGAT
+     2401 CATCGTCAGC CAACGACAAC CTTGCCAGCC AGCAATATTC CGTCTGAGAG ATCAATTAAC
+     2461 TACTTTGTAC ATATTTATCA ATCTGGTTGA CCGTTTGAGA CAACCCGATC AAACCAGCCA
+     2521 GGCCATGGCT GGCCGTTCCA CCCAGTTCAC TCCGCCGCCT TCCCCGCCTT CTCCATCAGC
+     2581 ATCGTTCTAT GATATCAGCG ACGATGAAGA GGGCGAGTAC AACACCATCA CCCATACAAA
+     2641 GACGGGGAAG GGGGTCAAGC TGTTGTTCTC TAAGAGCAAG GTCTGCGATT TCGGGCTATT
+     2701 GGCCATCCCT TTCCCACACA ATCACACCAA GTATTCGAAT GAATACCTAT GGCTGATGCC
+     2761 TTGACAATCT AGGTCTACGT ACACCCTACT CCCTCTTCGA AAGACAACAT ACCGGGGTTT
+     2821 ATAGCCCTGA TTCAGCAGAA GCCCTCTCCA ACCGACGATG GGAATAGACC TAGTTCGTCA
+     2881 TCCTCTTCAA CATCGGTCAG TGCCGCTTCA TATCTTCTCG CTTGGGTCCC CGAATCGTCT
+     2941 TTGGGGGATG CCTACAACAC ATATGTAAAA GTCGATCTTT CAGATAGCTC TTCCCCTCCG
+     3001 CGCCAGTCAT ATCTTGTGCC ACCGTTGCCA ACCACGACGT CTCATGGCGA TTCCATCGGT
+     3061 TTATATGCCC TTGCCATCCC CTTGACCCAG ATATACTCGC TGTTGGTACG CCCACCAAGT
+     3121 CTGGGTTGGT GGTTTGGAAG CGTTGTTATA AATACAAAGG CCGGGGATAG CTCTCCGGCT
+     3181 CTATTTTTCC ATGACAGTGA ATGTGAATCA ACCATTCTAC AGAAAAAGAA GAAAACAAAG
+     3241 GAGAGCTTTG ACCCATTTGA AGATGGCCAT ATGTTCTGGG GAGGCGACGA GGTTCTGAGA
+     3301 TGGTTGAAAA GATATGTGGA AGTCTACCGC TCAGGCGTGG ATCCAAATGT CTATCTCATT
+     3361 AACCCATCAG AAGAAGACAA GACCTCATTT GGAAATCTGC CTGGAATAGA CAAGGCGTCC
+     3421 CGGCCTCCTG GAAGTACTCA AACGGCTCCC AAGCCACAAA GGGACGCAGG AATGGACCCA
+     3481 ATCACCAAAG CTTTAAAAGA AACGAGATGG AAGGTTTTGG AACAATTCAG CAAAATCACC
+     3541 ACGTTCACCA GACGGACGGC GCAGGATCTA GCCGAAAACC CCAGGGTACC ACCGCAGGTG
+     3601 AGGCGACTCA TGAGAAATCC AGAAATCCAG ACGCTTCAGG ATGAATTCGA CAGTGCCAGA
+     3661 TTGTATCTTG CTAGGTGGGC CATGGGCATC GCGGAACAGA GCGAGCGTGA GAGAAATCAG
+     3721 CGAATATGGA CTGCAAAGGA CGTATTAGCC ATGGAAGATA GCTCTGTTGG CGAATTTGAA
+     3781 ATATTGAATA TGGAAGCAGC AAATATGACA ATAAGCGAGA GGCGGAAGAC TGTTACAAAG
+     3841 GAAGAATGGA ACAGCTGGTT CGACTCGATT ACTGGGCGGC TGCAGATTAC CCCTGATGAG
+     3901 GCGAAAGAGC GCATCTTCCA TGGTGGACTT GATCCCAACG ATGGAGTGCG AAAGGAAGCT
+     3961 TGGCTATTCC TACTCGGAGT ATACTCTTGG GATAGCGGCG AAGATGAACG AAAGGCGATG
+     4021 ATGAATTCGA AAAGGGATGA ATATGTGCGA CTTAAAGGAG GCTGGTGGGA ACGCATGATC
+     4081 GAAAGTACCT CGACCGCAGA GGATTATGAA TGGTGGAAGG AGCAAAAGAA TCGAATAGGT
+     4141 GGGTAATCTT AGTTTTATCC ATGGGTTCAG AATCTACACA GTCAGAAGGC TAACCGACAA
+     4201 CCATCCTTGG GGATTCGACA TGCAGAGAAA GATGTTCATC GCACGGACCG TACTATACCG
+     4261 CTCTTTGCGG GAGAGGACAT TCCTCACCCA GACCCAGACT CTCCATTTGC GGAGACAGGA
+     4321 ACAAACGTCC ATTTAGAACA GATGAAAGAC ATGCTTCTTA CGTACAACGA ATATAACCGC
+     4381 CACCTGGGTT ATGTTCAAGG AATGAGTGAT CTCCTTGCAC CGATATATGC TGTCATGCAA
+     4441 GACGATGCTG TGGCATTTTG GGGCTTTGTC GGCTTCATGG ATAGAATGGT AATGTCTACA
+     4501 GCCCCTAATT CTTCTTAAAA TGCAGGATTA AGCATCTAAC GACCTTTAAG GAGCGGAATT
+     4561 TCCTTCGCGA TCAATCTGGT ATGCGGGAGC AGCTGCTTAC TCTCGACCAA CTTGTCCAAC
+     4621 TCATGGACCC ACAGCTTTAC ATCCACCTCC AAAAGACAGA TAGCACGAAT TTCTTTTTCT
+     4681 TCTTCCGCAT GTTCCTTGTA TGGTTCAAGC GAGAGTTTGA GTGGGTAGAT GTCTTACGGC
+     4741 TGTGGGAAGC CCTCTGGACG GATTATTTGT CCAGCAGCTT TCATATTTTC GTTGCACTCG
+     4801 CTATATTAGA CAAACACCGG GATATCATCA TTGCTCACCT GCAACACTTC GACGAAATCT
+     4861 TGAAATACGG TACGTTGCTG TCTCAGTTTG CCATGGTTTC GTTTCCACCT CACATCTTGT
+     4921 CGCCTGGAAG CTAACCGTAA ATGCACATGC AGTAAACGAG CTCTCGAACA CAATAGACCT
+     4981 AATCCCCATC CTAAGTAGAG CAGAAGCACT TTTTTACCGC TTCCAGAAAA AAGTCGAGAC
+     5041 CATCGATAAG AAATACAATT TTCCCAGCGC ACCTGTGCGT CAACGCAAGC CTATTCCGTC
+     5101 CGGGTCCGCC AGGGCATCCC AATCGCAATC CCCCCCATCA CAGCAATCCA ACCCTCCACA
+     5161 GCCCTCACCA TCAGCCCCGC AAGTGATTTC CGCCAGCGGT GTCCAGGGCC TTTCCAGGCG
+     5221 TGATTCCAGC AATCGACAGT CTCCAAGCGC CGGCGATGAT ACTGTCCAAG TTATCTCACC
+     5281 GCTGCTTCGG AAGCTGTTGG GTAAAGAAGT GTCGCGTCTC GAGAGAGGTG AACGCAGCTC
+     5341 TGGGCAATAG AGATGGCTCA ATCGCGGCTC TAGTTATTCT AATTGTATTA GTCATTGGAG
+     5401 ATGGATCTCG AAGTATCCGG AACGAGGGGC GTTTGCGGCT ACTCAGGGTG GTTTTCTGAG
+     5461 TATGATTGTC TTGGTAGCAA TTTATGCATA CATACAGTTT CTAGTTAAAT GTGTTGCTTG
+     5521 GATCATAGGC TATGGGGATT GTTACGATTA TGCTAAAGCG GTTCTGATTT CTCTTTACTA
+     5581 CTAATTCTGA GATGAGAGTA TTCTAGATAT AATTGCTTGT ATTAATTATT TGCCACTATA
+     5641 TCGGCTAACT GAGGCATGAA AGATAACCGC CACTCTAATC TCTTATGGAC AATTGAAAAA
+     5701 GCACACCTTA AAATCAATAA CGCCAAAGGA GCCGGTTGGT TTCACAGGGT ATAGAGTGAG
+     5761 GATGCAGCAG CTGGTTTGAA TGTCAATGCA CCTTGCGGAA TGGAAGAAGC AGGTTCAGGC
+     5821 AAAATGGATG AAAAGAAATA TCCTCCCATA AAAACAAGGC CTAGCGGAGA CAAAAAGGAT
+     5881 ATCTTGTTGA AAAGCCAGAG GAGAGCCCAG GCAATTTTGT CGTCTGGACG AGAAACCCGA
+     5941 ACACACAGGA AAAAAATATA AAACAGCTAC AGCATGCACC AGGCAAATGT AAGTAAAATC
+     6001 AGCCAATATG AAAAGAAACC ACAAATAAAA AAGAAATGTT CCTGCAATGC CCGAACCTGA
+     6061 TCAAACCTCT GGCCCGTCAA CGCCAGCTAT GTGACCGCAA ATTCTAGTGT TTAAGAACCC
+     6121 GCTTAACAAC AAATATGCCG AAATAAAAGG AAACGCAAGA AAATGCAAGA GGAAAGGTGA
+     6181 GTATGCAATA GAAGAGAGAC AGTAAGCATT CTTCACTAAG TAGGAGGTAT GTAGGGAGCG
+     6241 AATCACGGAT TATTACGGGG AGCCATTATG AATTTTCAAA CCCTTGCCTT GTTCAACCCT
+     6301 TTCAAAAAGA CCCGTTTATT CGCAGAGACC CCGGTGCCAA TCGACGGGCC AGCAAAATCG
+     6361 CTAACACGTC TGGTGTTTGG GTCGGTGCGG CCTTTAAATT GTGGCGCATT TTCTGCCATC
+     6421 GGCGATTGGC GATAACCCCG TAAAGATCCT GTAGATAATT TGGACTTGAG AGTCGCAGAC
+     6481 GTCTTGCGTG CTTGACCCAT GACGTCTTCT ACCCAAGCTT CACTTTCGGG GCTCATGGAA
+     6541 ACGTTCCTCG ATTTGGGAAT TGGGCCGGCG AGCCCCAGTG GAGTAGGATG TGCAAACATT
+     6601 GAGGTTGTGG AGGAGACAGA TAATCGGCGC TGAGAAAGTA GGAAAGAGCC GGACTCGGCT
+     6661 GCATTAGAGG CCTTTTCGAC ATTCGCAGCA GTCAATCTGG GACGTGTGGA CGTATTAGAA
+     6721 GCCCGAGTCT TGCGGACAGC TAGAGGGGAG GGAGGTCGGG TATCAAATGC TGATCCTGGC
+     6781 CGAGAGATTG GAGTTATACG ACCATTGTTC ATGGCTCTAC CCGGAGAACG ATGAGGAGAA
+     6841 CGGTGGGAAG GCGAAGAACG ATGAGACGGT GACGTATTAG GAATTTCCTG GACTTCCAGC
+     6901 TTGCTCTCTG ACATTCTTCG TCGTCCATGG TGCATCACGT ACGACCTTAG GTACTCAGCT
+     6961 AGATCTGCCC AGCCGCCCCC AACACGTACC ATAACTCTCT CCCCCTCTTC GCCAACCATG
+     7021 CGTACGAAAA GCTTCAACGG TGGTAGCTTC CCCCCGCGAT GGAGATGGTA GAGCCGGACG
+     7081 GGATTTTCGT CATCCATACG TGCACGTCGT CGCTTTTGGC GCTCGTAGGC GGGCGTAATA
+     7141 GTAAGCGTGT TTGTAGGGGT ACTTGGCCGA GTAGGGAAGG GAGAGGACGA CTGTTCTCCG
+     7201 CTAAGTTGCT GCCCAGCCTG TGAGCGACTC CCGACAGTTG AGGCAGCGGA ACTAACTGGG
+     7261 GTGGAGCTCA GATGGATGCG ACCGGGAATG CTGGTGAGGA TAGAACTGAT TTTTTCTTCC
+     7321 AGATGGTCTT CGGGTGATTT GCTTGGAGTT ATATATGGCA CTTGAGAAGC GGATTTAACC
+     7381 ACAGTCGAAG GCAACAGAGT GGTGAACGAG CTTGAAGGGG TTACAGGCTG GCCCGAATTT
+     7441 GGAGGGGTCG GTAACACAGG GGCCGGGCTG GGAGGACTGG ACATTTCTCG AATTGAGGGA
+     7501 GTAGAGCCTC GCGTGCTACT TGTAAAATCC ACCGGGCTAG GTGAAATGGA AGGGGATTCG
+     7561 TCGGAAGTGA TACCACCGCG AGAACGAGGT TTATTTAAAT CCGAAACGTT CTTTGAAGGT
+     7621 ATACCGACGA GCGACTTGCC TTTTGGAGAT GGAAGTCCAT CACCACACGC TTTGGGTTCC
+     7681 TGCTGTAACT TTGAACGCTC TTCAGCGTAG GTGGGAGTCT GCTCAGAGTT GGGTGCAGGG
+     7741 GGAGCATTGC AGATGCCATT GTCATCACAT ACAGGAGCGG ACTGGAAATT ATATTGCTCG
+     7801 AGCGGTAAGC TTTTGCTTCG TCGGACGCTT CGCTGATTGC TTTCCATAAT TCTTGAAACT
+     7861 GAAGCCCATT CTTTAGCTGA CGGGGAAAGA TTACTTCTTT CGCCAACATT ATATCTAATA
+     7921 ACACTAGCGG GAGAGTCTGC GACAATTGGG CTCCCGGAAT GATTAGCAAT TGGGATATGG
+     7981 CCAGCTTTTT CATCGGGGCT AAAATATCGA ACTGGGGAGG CAACAGGCGT GAATGACTCA
+     8041 GTATGACAAT GAATATGGTT TTCCGCATCT GGTATTGCAG CATGAGGCGT TTGCTCCATA
+     8101 TCATGCCCTT TTGAGAAACA CTTGATTGCT TTTGCTTGCG ACCCTGGAAG ACCACTGGTA
+     8161 GAAGGAGGCG CATGTTTTAG GTCTGTTGGG GGACTTGAAT GGGAGTCAAG AGTTTTTGAT
+     8221 TCACGGAAAA TGACGGTTTC ACTCGACTTT GCGCTGTTAA GAGCTTCAAG ATTGCTTGGC
+     8281 ACTTCCAGAG GAGTTATCTC GAGTTTGGGG TTCTTGGGCT GTTTGAACAC AGGCTGTTTT
+     8341 GGGTTAGCGA CTTTATTGCT GACATTGAAT GAGAGCGCAG ATGGGCTTGG TGTAGCAAGC
+     8401 GAATTATCAG CCCCAGCAAC GGTGTTATTA GAGACGGAAT GATGATCTGC TGGAGTTGGT
+     8461 GTTGCCAGTG GGTCGCGAGA CTCTAAGAGC GAGTTGGCGT CATTTGACCT GGTGTCAGGA
+     8521 ATTCGAGATT TGGGCGTGGA TGATGCGGGT AAGGATCTCC TCCACTCATT TTCAATGGCC
+     8581 ATTTTCTGCG CTTGAGAAGC CCAAGTTGCA AAATCCCCTT CAATCGCTTC CATCTCATCA
+     8641 ATCCAAGCTT CCGGAAGGGA GTCCGAGCGT CCTTCGAGTT CGTCAAGGAT TCTGTCCATT
+     8701 TGGCCTCCCA ACATCAAGAC CTTGCGTTCC AATTCTCGAC GAACTGTGGT AAATAATTCC
+     8761 CTAGAAAACA GTCGATCGTC ACGTCCGGGT AACAAACCGA GTTTTAGTCG ACCCAACGCC
+     8821 GCATCAACAT CTGTTCTTGC GAGTTTGATT CCTCGAAGCA ACCGAGGAAT TTGTCGTAGC
+     8881 ACGGTGAAAC GAACCTCCCA CGTAGCAAGT AGACTATTCA ACCTTGAGAG GATGGGCAGA
+     8941 GCCTGGAGAA TTGTCGCAGT CACAACTGCA GTAAAGTCAC TTAGCTGTAC ATAAGAAAGC
+     9001 GGTTTCATGT CAATGGACAC AGTGCTGTGC GATGATATCG GGCGCGAACG AGATGGTATA
+     9061 TGAACATTAA GGACGTGGTC CTTAAGTTCC TCAACGTCTA AGGCGTCCAT ATCGTCCCTG
+     9121 ATTTCTTCCA TCCTGGTTTC GTATTGTTCC ATAACATCTC TAGGGAGACT TCCAAAATGG
+     9181 GATTTTTCCA CTTCGTCGGC ATCCGTTTGA GATGCAGATG GGAGAAGGAA GCCTTTGCCG
+     9241 AGGCCAGCAT CGCGTCTTGA CGGCCATTGC CATGAAAGCA CTTCGGTGTA CCATTCTCTC
+     9301 AATTTCTGGG CAGTTAACGC GGCTCTTATC CCGAATGCTC GGTCGATAGT CGACACATTA
+     9361 GCAATGCTTT TCGTTAGAGC ATTCGAGGGT GTATTTTCTG TCGACGGAAC CGCGTCCGCG
+     9421 GCAGACAGCG CTCTTAGCGT GTACTCCGGA GATAAGTTTG ATAGCAAAGG GTCAAGTTCG
+     9481 AGGGCCAGGA ACCGGCTTCT CCGCTCAGGC GAACGAGGGC GCTGCGGAGA CTGTGGCCGC
+     9541 GTTCTCGAGG CCGAATGAGT AAGGCGAAGC GGCCGGTGGT CAACGGCTCA AATGGATTTT
+     9601 CAGCCATTTT CTCTGTCGGA GGAGGCGGCA TGGGCGGGGT ATAATTCAGG ACGCCTGATC
+     9661 GAAGGCGGAA ACGAAAGACG CCAGAAGACC CGAGAAGAAA CGTGGACCAA TCAACTGTAC
+     9721 TTTAAGATCG AAGCGATGTT ATCATGCCGC GTCAGGAATT CCGGAGCAAG GAACACTCGA
+     9781 TCGGCTCTCT GGCTTAAGGA ATGGGTCCAC AAACAAGTCC TGTTTTAACG ATAGTGAAAC
+     9841 GAGTGCAATT AAATTAGTTA GAGAGCGACA ATGGTTTATT CAAGATACGT CACGGATTGG
+     9901 AAATATGCGT AACAAAAGAA TGTCGGGGAA AAAGCGTTGG GTTAAAAGAG CGGAGGTGGA
+     9961 TGAATACATG AGAACGAGAG ATGATAAAGA ACGACGGGAA GTTCAACAAA CTGATGCAAG
+    10021 AAACCGCCTC CTCGGGTGCA ATTGACAAAG AAACGACACG GGGAACGAAA GATGAAGCGC
+    10081 AACGTCGACT GCAAAGCGAA GTGAAGCTAC AGGGATGCGA GCTTAGCTCA GCACGGGCGC
+    10141 GTGACGTTGA ATCAAGCTCG CGGAGCTAGC CGCTTCGGGT CAAGCACCGA AAGTCCTTGG
+    10201 CGCGACACAC AGACCACATC CTAATTGCTC GATGCAATGA AAGACGCGTC GGTGGGAGGG
+    10261 AGCTCAAGGG GCATGGGGGC TGTAAAAATA GGAGACGAGT GTCATCTTCC CTGAGAAACT
+    10321 ATCAACTACG TCACAGCAGA GACGGAGATA CCTTGGATAC TAGTTTCAGG ACCGGTCACT
+    10381 CCGGCTGCAA ATCATACGAT ACCCAGCCTC GATTAGTAAT CATATCGCGT CGGGAGATTC
+    10441 GCGGGCTGGA ACGCGACGTT ATCAGATCAA AGACGGGGAA GCGGTGGGCG ACCCTGATAC
+    10501 ACGGAGATGC CCATTCAAAG GTTCATGTTA TCAGTCACTG TGAGGATTTA GAGGTTTCTT
+    10561 TTCTTGTCCA GTGTGAATAA GAGGTACCAT TTTACCCTTT TCTCAAGGTC CAAGATATGA
+    10621 CTCGACATGA TGAGGTTTCG GAGCCAGTTG ACAAATATTG CCACGTTCAC TAGTATGTAA
+    10681 CCATTGTTTG GAAAAACACA ATCTAGGTAA CTAACTCCTC CTAGAATTCA CAGCGTCACT
+    10741 CTCATCTCTG GGGAAAATAT GCTGGGTGCG GCTTGAGGAA GAGCATGTAC GCTTCACAAT
+    10801 CATTCCCGAC CAAGGAACCC AGGTATGGGC GCAGTTACCA ATTGTGCGTG GATCACCCTA
+    10861 GCGTCCTCGA CCTTGAATTG GCATGATAAC AGCATTTCTT AGGAAACAAT ATTCGATTCC
+    10921 TACTCGTTCT CGGCTGCTGC AGGTGTGATC AACCTCGAAG TTCCGATAGC GGCTCTGCAC
+    10981 CGGGCCCTTA AATCGGCGAC TGATGCGGCG TCAGCAACTT TACGCCTGAC CAAAAAAGGA
+    11041 TCTCAGCCCC TTCTTGCTCT AACAATTGTC AGTTCCTCCT GGACAGATGG CAAAAACGCC
+    11101 CTTGGCGTTT CTCCTGCCCC CGGGTCCACC TCCCGAACTC AAACGGGAAA TCCTACGCAG
+    11161 CCACCATATT CCACGGAACA AGAAGGTCCC CAGCTAGGAC CACGCGAACG CGAGACATTA
+    11221 ATCACCCAAG AAGTACCCGT CCGCGTGCTC CATCCATCCG TCGTGGAGAC ACTCCACGAA
+    11281 CCACGTTGTC GCGAACCTGA CGTTCACATT ATTCTTCCCA GCTTAATCCA GCTCAAAAAC
+    11341 ATCTCTGAGC GATTCAACAG ATTAGCTGCA GACACCATGA AGAGTACCGG CTCCACTTTG
+    11401 GTCGGCGGCG TTAGCACCGG TCCAAAACTG GAGTTAAGTG CAAATATGCA CGGTTCATTG
+    11461 AGACTGGGGA TTGCGACGGA TACTCTGAAG ATCTCGAGTG TGTGGACAGG ATTGGTCAAT
+    11521 CCAGAGCTTG ATCCCGCGCA GGTATCCCAA GACGAGGCGC ATGTGCTACC CAGTGAGCGA
+    11581 ATGAGGGCAT TAGGTGGGGA GAATGGCGAA AACGAGGAGG GGTGGGCGAC TGTACGAATA
+    11641 GATGGTAAAG ACTGGGGACG CGTCTTAAGC GTCGGGCGAC TGAGCCCAAG GGTCGTTGCT
+    11701 TGTGAGTTTA TAGACGCACA GCCCAGAGTT TAAACTCTCA TTGGTTGCGT CTGCTTTTCG
+    11761 ATATCCACGC TTACTTTGGT CCCTAGGTTT CATTCATAAT ACCGCTTTGA TTCTATATGT
+    11821 ATATCTCCAG GATAGCTGTA GCGGAGACGA CTCCTGTTTA ACCGTAAGTA ATCGTCGAAA
+    11881 ATCAGCAATT GAGACCACAA AGGCTAACCA TGTGCTAGTA TTATATTAAT TCTTATGCCA
+    11941 CCTAAAACCG CAGTAAATCA ATACCTTCCC AAACTGCATA CCAAACACAC TAGCTGAAGA
+    12001 TATTTCTGGC GCTTACGGTG GATATAACAA AGACGAATAG GCTTCAGGTT TATGGCAAAG
+    12061 GGGGCGGCCT TTCTCGCACC CATGAGTTGG TCTGAGCTAG ATAAAATGTC TGCACGAGAC
+    12121 AAAAAAGACC ATCAGAGATT CAAAGGAACT CAAATCAGAA AGACATGTAG TGAAATGGTC
+    12181 TCTATGAAGA TTAAGTACAT GGTTATTTCT TTGGAAGCTT CGTATAATAC ACAGGCTGAA
+    12241 CTTCAAGTGC AAAAAAACAA ACGTCAAGTA GAAGGATATA AAACTAAGGG TCCGTAAGGA
+    12301 TGAACCCGAA TCTTCGAGAT CCCTTTTATT ACAAATGGTA TTCGAAATGA GAATTATAAT
+    12361 GCAACAGACT CCAGGGAACA AGCAAATAAC AATGGACCAA AAAAAAAGAA AAAAGAAAAA
+    12421 AAGAAAAATA ATACTTCCGC AAAGGAAACA TCAAGCCAAA GGACATGAGT TCCATGCCAT
+    12481 TGAATCACCA TCGCTCATCA AGACATATGT GCTTAGTATC CAAAAAGCTC GACTTAAAGT
+    12541 GTGGCCTAGG AATTTTAACA TGAAAAAAGG TCCAAAAGTT AGTAGCAATA CCCCCTGATA
+    12601 CATGCAGTTG ATATCTATGG TTCCTTTCAC CTCGAAGGAA CACCTGTAAG AAATAGTTTT
+    12661 GCTGTGAATG CCGCGCACTA AAATCATGCA TAGATGAGAC CGAAGCAGAG CAAAAGCTAA
+    12721 TGCAAGTGTG CATAATAACT CGTCAGATAG GATGAAAACA TTGAAATCAT TTCGCCATGA
+    12781 CATCAACATA ACCACGGCCC TTTCTCCGTG TTTTCATTGT ACCACCCTTT CGTGCTTGGG
+    12841 GGGCTCCAAG AAGATCATCA ATGGAGCTTG CATTACTCAA TGATGTACCA GGGCGTGATG
+    12901 GCGGTCCTGT GGGAGCGCCG GCCGATACAG ATCTTGGGAT TGCACGTGGG CTGTCGGATG
+    12961 GTGGTCCCAA GGAGCTTGAC GGCGGAGTGG GTAATGGTGC GATGCCTGGT GGAGGGGCTG
+    13021 ATAATGTCCC TCCTGGAACA GCTGAAGGAC CCGGTCGTCC ATTCGTAAGA TTGGGGGTTG
+    13081 TCGGTGTTTG GGAAGTGCTC ACAGACTGGC TTGATGGTGC AGAGCTCTTG GGCGGGGGTG
+    13141 GAGTAACCGC TGCAGTGGCG GCACTGCCGG GGTCTTTCTT ATTAACCCAC CTATTCAACT
+    13201 CTTTGTCAAA ATAGAATGAA TTCTCGTCGC CGAGGTCTGC GCGAACGGCA CCGCCGCTCT
+    13261 CTTTCTTTCC AAACCATCCA GAAAACCAAC CTTTCTTCTC CGTAGCAAGG GGTCGTTTGG
+    13321 CTACCGGCAA CTTAGTTAGC GATTGGTTTT CATCCCCGCG GAAGAAAACA CTTACCATCA
+    13381 GCTTCTGCAG CTTTTCTAAA GGCCTCAGCT GCCTCACGAT CCATTTTTTC CTTTTCAGAA
+    13441 GCTCGGAGTT GGGCTGCGCG AGCCATAAAA TCATCATCGT CATCATCCAT AAAGGACTTT
+    13501 TTCTTTGGTT TCTCTTCATC TGAATGCTCG TTGTCTTCAA CATTAGCAGA GTACGAGGGA
+    13561 GGTTCGTAGC CAGTACTGAA GGATGGCGGC TCATAAGTGG GTGGCTGGTA TCCGCTCTGT
+    13621 TCTGTTGTCG TCGTTTTAAG GTTTGTTTCG TCATCTCTTG TAACTTGCTC CGCTAATGGC
+    13681 ATGTATCCCG TCTGGTTTAT GCCAAAACCA TCAGGAAGGG TTTGTATAGC AGGCATTTCA
+    13741 CTAGTAGGAG ATTGAATTTG GGGAGAATAA ATTTCTTCTA CAGGTGCGAG AGGTGCATGA
+    13801 CTTGCTTGAG GAGGCGTTAT ATGAGAGCCG ATAGTGGCAG GTGACGCGTA AATATGATTT
+    13861 GGCATTGATC CGTAGGCATT GCCCTCTAAC GGCGTCGAAG GATCCTGAGA ATTGCGGCGC
+    13921 TGCGAATAGG AACGACCTGC AGTTTGGGGA GGGGACCTTT GGGCATCTAG GGATCGACGG
+    13981 CCACGAGACT GTTCGGGAGA AGAATAGGGA GCATAATACT GGCTATTAGG AGCATATCGA
+    14041 GAACCCGAGG ACGATGGAGC AACCGGCTGA GAAGGGAAGT ATGATCCATG TCCCTCCGCA
+    14101 ACTGAGGGAG ATCTGCTGAT AGGGGGAGTT CCCGCAATTT TGGCAAATGG GCCAATGTCT
+    14161 CCGTCTCCTC CCTTCCCTGA TCCATTGGAT GTCACCTCGT TATCATCACC GGAAACGAAA
+    14221 CTGTTAAATT TGGCCCACAT CGATCCGGAC ACTTTCTCCA TGCTAGGCTT TGATATCCAC
+    14281 GACGACGAAC CGTCCGTAGG AGCCTGTCTC AAACGGTGTG ACAGCTCATC CAATTCAGCA
+    14341 AAAAATCTTT GATGATAATA CGGTGATTTC ACGTTCGACT TCGAGGTTAC AATGGAAACA
+    14401 ATTGCTTCGC AGTATTGTTG AGCTTCGGAC TTATGACCCT CCTCAGCAAG ATACATCGCA
+    14461 TGCCGTAGCT TGAAAGCTTG AAGGTGCGCC AGGCTAGGGG AAGGTGAAGC GGCCAGAACA
+    14521 GATGTCGCGA ATTCGTACAC TTCTGTCAGC AAGCAAGCCT CACGTTCCAC CATGAAAGTT
+    14581 GTTGGGTTTC GCCAATGGTC GGCACCTAGA AGAACGATAC TAGCTTGGGG GTCGCGCGCA
+    14641 TCACCAAAGA TGGGGCCAGC CGCCGTCCCA GCCACTAAAG AGCAAATATG TGATGCCTCG
+    14701 ACTCTTCCGT AAGACGCAAG GAGTCGACCG AGCGCCCGGA GGGCCTGGTG GTCTTGGGCA
+    14761 CTTTTGTTTT GCAATATTAG GTTCACCGTA TCCCTCCATT TGTTTAAGCC TTCAAGAGCA
+    14821 TCCTTGGGGG CGCCCGTGCC AGCATGCACG CTGACCATCT GGAGACCAGC TCTTGCAGAG
+    14881 GGAGGTACGA GCTCGTCAAT GCTCTCTTCA AAATTGCCCG CAAATATCTC GTACAGGGCT
+    14941 GCTAAAGACT CTGTATTTTT GCCCAAAGAT CGAACTTCGC GACGAATGAA TTCTTGGGTA
+    15001 ACCTGCTTCC ACACCGATTT GTCTAGGGTA GATGAAATAA GCATTGCATG ACCCCACAAG
+    15061 CGATGATCGA CTGCGTCCCA TACGGCTTTT TGTCGATCGC CGGCCACGAG GCTTTTGTGG
+    15121 ATAACATCGA TCCCTAAACT GCTGGCAGAC TCAGATTTCA ATGACCCACT AACAGAGTCG
+    15181 CCGGTACTTG GGTATTCGAA TTGAGAATTC ATCGCCATGC TTCCAGGAGA GAATATACTT
+    15241 TGAAGACTAG CCTCTGCCGC TGTAGAACCT CTTAGTGCTC CATCATGTTC CACTAAAACT
+    15301 CTCACGACCT TCCAAAGTAA GATACCGTCT TCGCGGCGGT GTTGGTGCAC AGGATCGACA
+    15361 TGGCCATCAG TTGTTGATGG GGCACCTTCA AGGGCGGATA TCATGGTAGA GAGCCAGGTT
+    15421 AAGACGTCCT TCTTCTTAGA TTTGGACTTT AGGGGTCCTG GAAATTTGTC CAGTGGTTCG
+    15481 TTATGCGGGA GAATTTGGCT GATTGGGCAT GTTTTAATAT CACCAAGTGT GGGTTTGATC
+    15541 CGAGGGGTCA TCTGGCCTGT GGCATATCGG GGGATATGCT TTGGGAAAGT GGACAAGAGA
+    15601 GTTCCGCCGA ATCCAAATTT GAAAATCGGA GCCCCTTTCC AACGTTCAAG AGGATCGTGC
+    15661 TCCTGGCCAT CCGTTGGTAC AACAAAATCC AGAGCTTGAG TAGGACGATT GTTGGCAGCT
+    15721 GGGGCGTAGG CGGATTGCAA TAGGGGTGCC TGTATTGATG ATTTTGAACC ATGAGCTGAT
+    15781 GCCGGCCTGA CGTAGGCGTT TTGGTTCGAC GCAACGGAGC TTTGAAGAGG CATCATTCTC
+    15841 CCTGGGGACT GAGTCATGGA CCGTTTGGGT GGAACAATTT GTGAATCTGA TCCGAACTGG
+    15901 GGAACACTGG ACGTTGGAAT AATCGACGTA ACTGGTAAAG AGCCCCGTTT TCGTGGTGGA
+    15961 GATGGATATG ACTTGGCTGT TTCATGTTGG GCTAAGGGGC TTGAGGTTCG GGGTTGGAAT
+    16021 GGAAGTGCAT TGACAGAGGA TTGCACAGTA GGTGACTGCG ATACATACGT CGCTGAGCTT
+    16081 GTCATACATG CTGACTGAGG TGGGGCAGGG GAATAACGGG GAAAAGGGGC AGGTTTCGTG
+    16141 CCTGGCGGCG GAGGTTGGGG TGAATAACGA GAGGTTGTAG GAGCCGGTTG TGGAGGAGGC
+    16201 GCAGAGAGAT TTGAATACGG ATCCAAACGC GCAGGAGGTT GCAGTTGAAA TTGAGAATAA
+    16261 GGGTCACTAC TTTGTTGTGG GAGAGAAGGT GGTGGTGCCA CCGGCGCCAT CGGCAAATTA
+    16321 CTGGCCGGTT GAGACATATT TGGCTGCGGA GTGTAGCGCC CGCGAGTCGA CGGGCGGGAC
+    16381 CTTGACACCA CAGGAAGCTC TTCGAAAAAG CTTCCAGTCC TAACTGGTTC CTTGGTTGAT
+    16441 GGAGGGGTTG TATCGGGACC TGAAACGGGC GGCGGAGCTG CCACAGGAGA GAAGTTCGGG
+    16501 CCTGGAACCA TGTAGGATGA ACTTGGCGGG CGGGATCCTG ACATGGAGCT ACTGCGAGGT
+    16561 GGAGGATTTA CTCCGACCGG GGGAGCAATC TTGCGAGGAG GTGCATGCTT TGGGCGCATG
+    16621 TCAAATGGCA AGTCATACGG GGATTGGTAT CCAGCCTTGG ATTGATTTGA GAAGCTCTCG
+    16681 ACTTTCGATT TCTCTGGATT GGTTAAATTT CCGAGGGTCG AAGAGTAACC TGCCGCTGGT
+    16741 AAACCTCCAA GCATTTCTGA CGATGATGGC TGATGTGGAG TGTAAGTATT GACTGGAGGC
+    16801 TGTTCGGACC CAACCTGTGA TGCAGGCTGC ACCGGGTGGC GTTGGTACTC TGCTGTGTGC
+    16861 GTATTGGCGC CTTCAATTGA TCCGTCGAGG GTTTCATTTT CGATCAATAT ATCATCGTCT
+    16921 CCTAGAAATG CTTTCCACCG CTCAGCTAAT TCCTCCTCTC CAAGATTCTC GGCTACTCCA
+    16981 GGTTCAGCCG GACGTATTAC TTCTGGCTTT TCATCTTGGA CCACAGCCAC GGATTGGTGG
+    17041 TGAGGTAACT CTTTTCCGGG ATCAAGACTT GGCAACGGGT GGTCTTCTGG CATAGAATTG
+    17101 GGCTGCGTTT CAGACAGTAG CTCAAGACTA GGCTCTACGT GAGCCGGGCC CTGTGAATTG
+    17161 AAAAAGTCGG CCTCGCCTGT CGACTCATCC TCCTGAAATA GTGAGTCGAT CGCTTTGGTT
+    17221 TGCTGGCTTT CATTGGAAGG CTGGACATTG CCATTGATCA AGTGGGAAGC CATATCATCA
+    17281 GAACGTGGTT CAGACTCTAA GTGGGCGACC GTTGGTTTTG ATTGAGAGCT TATTTGGCTA
+    17341 AAAAAGTCAC CGCCACCTTC GTCGTCTGCG AATACGCTGT TCCACGAGTT GACCTTGTCA
+    17401 TTCTCTGCCG AATAAGGTTC GGTCACGAGC TGAGTAGATA GATCTTCCAC ATGGGCATCA
+    17461 GTAGACCGAT CCCAAACGTC CCTTGTATCG TCATGTGTTT GTCCGATCAT CGCCTGAAAG
+    17521 TCGATGTTGT CGTCAGGAAA GGTGTTTGTT CCCGTGTCAT CGTCTGATCC TTTGAAAGAA
+    17581 TCAATGAACG GTGAGCCATT GTTCGAGTCA ATAACAGCAC CCTCTCGAGT CTTCTCAATT
+    17641 GATTGCATAT ACTCAGAGCC AGTTATATCC ACATGGCCAC TATTTTCTAA CCTTGTCGGA
+    17701 GCCTCAGGGA ATGCCTGTAG GTATTCCACA TCCTTAGTCT CATCGAGAAC GTTATCAGGA
+    17761 GGGGACGCTT CTGGATCGCG GTGTTCTAGT TCAAATTCTG TAGGTGGGCA CGGGGCAAGA
+    17821 TCTGGAGTTT GGATAGGGAC GGAGGTTTGG GTAGCGACCT CATGTAGAAC GGAGTCAGAA
+    17881 CAATCTTCGG GCCTGTGCGC CGGATTCCAT GCCCCGAGAT GGATCGCATC TGTGAACAGG
+    17941 CCGCTTTCAT GGCCCAACAC CCGATCTTCT GCCATCAAGA GTCGATATCT CGGCTCTGTG
+    18001 TCCCGTGTGC TTGAAGTTTT GTTCGCAGAG AAGGGGGCGA AAGAGCGACT GACGTAGCAG
+    18061 GAAGAGAAGC GCGACCAGCT TGAAGGAAGG ACGGTAACGC TGGCAACCCT CAGAACAAGG
+    18121 CAAGCCGGGA TTCGATCATG ATGATAAGTA GAGCGTCTCA CAAATGTGCC TCGTGAAGAA
+    18181 AATATCGGAC ACCTTGAAGA TCAGGAGGTT CCCGTCTTGT TGCTCGAGTC CGGCGTAAGA
+    18241 AAAGTGACGC TCTACCAATG AGAGGCGATG ACACGCGACG GAACAACAGC GGCCCGAAAC
+    18301 TGGCCAGGTA AACATTAAAT CACTAGGTTT CGAGGGTGGG AAGTCCGCAA AACCACTTCG
+    18361 AGAGATGGAA CAATAAAATA AGACTGCTAT TTCAAAAGAG GCCAAAATTG ACCCGAGCGA
+    18421 TCCTCTTCGC CCTCACAGCC CGCTGCTTCG CGTGCAAAAA TCTTTCAAAT TTGAAGCGTT
+    18481 TCAGCTCCTT GGAACATCAT AATTCCGCTC GGCCTTCGCT GCGCCACACA GAGCCTACGA
+    18541 ATCACGTGCT AGTTTAGTTG CATCCATGCC CAGTGTGTGG CACCGCTGTC GTTAACCAGC
+    18601 AGCGGATCGA AGCGCACCGC AGGCAGCTGG ACATCGCAAC CGCGACGCTG CTACGAATTC
+    18661 ACGAATGAGA CGATCGGTTG ACGTGTTCGG CTAAAAATAC GGTGGGTTTG GTTTTACGTT
+    18721 CCGCAAGCAT CTCTCGGTCA CCTCGCCCTA ATTAACTACT GCAAACAACG ACAACAAACT
+    18781 GCCTGCTGCA TGTCTTTGAA GCTCCTCTGA ACAGCCAAAC ACGGTCCGCC GGGACCGGGA
+    18841 TCCAATAATA TGAATATGAA TACTGTCTTC ATACTGCGAT AAATCTCGCC TCTCAATATG
+    18901 ACGTCTTCAC ACTCTCACCG TCCGCTCAAT TCGAGAACCC CCTCCGTCCT CTCAGACTCT
+    18961 GACGATGATC TCGATTTGGA GGAGCTCGGC GCCGGAACGT CGAGGCTACG ACCTGGTCAC
+    19021 GATTATGGAC CTTCACGAGG TCATGAAAGG AACTGGTCCA GCCCTGGGAT TGCCCTAAGG
+    19081 AATATCAGGA CCTCCGCTCG AAATCGCTTG AGAAATCGTG GCTTGGGAAG CAGGGGACAA
+    19141 CAGCTACAAG ATGATGATCT GGATGCCTTG CTCTTTGACC AAGAAGACGA TGGACGAAGG
+    19201 TTATCCCGTG CTGCGTCGAG TTCTGCAGAT GATAACGCCC CTCTCCTTAG CGGTCCGAAC
+    19261 CAGGACCCTC CTTCACGTCA TCCTCCAAAG CCGGACAGCT TCTATGCAAA TTTGGGCTCC
+    19321 AAGCTACGAA TTCCTGGATT TAACGCATAC TCTTCGCCCC AGGATCCCAG AGGCAGCCTT
+    19381 GCCAGACCTC CCTCTTCAGA GCCCAAGCCT ACTCGGTTAG TTCTCGTCGG CCAACAACAG
+    19441 AGCGTTCGAT ACCCCGCGAA CATTGTTTCA AATGCCAAAT ATACCGCCTG GAGTTTCCTT
+    19501 CCACGTACTT TGTATAATGA ATTCTCATTC TTTTTCAACA TTTACTTCCT TCTTGTCGCC
+    19561 CTGTCTCAGA TCATTCCCGT GCTGAGAATT GGTTATATGT CGTCTTACAT CGCCCCCTTA
+    19621 GCCTTCGTGG TAACCATATC CCTAGGCAAA GAAGCACTAG ACGATATCGC TCGCCGGAGA
+    19681 AGGGACGCAG AGGCAAACTC AGAGGAGTAC ACAGTTTTGA CATTTCAATT AAGCCCATCC
+    19741 CGTGCGGCCA CGGTTGATCC TCACGATGAA GGAAGCGGCC CTTTTGAGGT TGTGAAGAAA
+    19801 TCTAAGGATC TAAAAGTCGG GGATATTCTG AAGATACGAA AGAATCAACG TCTTCCTGCC
+    19861 GACGTCGTTG TTTTGCAATC CCTACACCAC GAATCTTCAA CCTCCATCGC TTCAAACTCG
+    19921 ACTCCTAACA GCGAAGATGC CGCTCAAGAC GCTGTTTGCC AGGAAGCCGG TGGCTCTGTG
+    19981 GACACATTTA TTCGTACCGA TCAGTTAGAT GGCGAGACTG ACTGGAAGTT ACGAATTGCT
+    20041 TCTCCCCTTA CCCAAACTCT CCCCCTCTTA GAATTTCGGA GCATTCGAAT AACGGCTGGA
+    20101 GCTCCGGAGA GAAGCGTGAA TGAATTTGTT GGGAGAGTGG AACTGGCGCC CGCTTCCGTC
+    20161 TTATATGACT CTCCTATGGA AGCTGGTGAC GGTTCAGAAA ATAACAATGA ATCCTGCAAA
+    20221 ATCTCCCAAA CAAAATCCGC CCCTCTCACT ATCGATAATA CGGCATGGGC AAACACCGTT
+    20281 CTAGCCTCAA ATACTACAAC GCTTGCTTGT GTAATATATA CAGGCTCTCA GACTCGTTCA
+    20341 GCAATGTCGA CATCCCCTTC GCGATCCAAA GTTGGCCTCC TGGAATACGA AATCAACAGC
+    20401 CTAACAAAAA TATTGTGTGT CTTGACGTTA TCTCTGTCTA TCATTCTCGT TGCATTGGAA
+    20461 GGATTCCAAC CTACAAGCGA TAAGAAATGG TACATTGCTA TCATGGTCTA TCTCATTCTC
+    20521 TTCTCAACTA TCATTCCCAT GAGTCTGCGA GTGAATTTGG ATATGGCGAA GTCGGTATAT
+    20581 GGAAGATTTA TCGAACGAGA CAAAGGAATT CCCGATACAA TTGTGAGAAC TAGCACCATC
+    20641 CCCGAGGACC TAGGGAGGAT TGAGTATCTT CTTTCCGACA AAACGGGCAC CCTAACCCAA
+    20701 AATGGTAGGT TTGCTAGGAT GCCTCCAAGG AGATTTGTAC GTACGCTAAC CTTTCATCAG
+    20761 AGATGGAACT GAAAAAAATA CACGTTGGGA CCGTATCATA TGCAAATGAA GCGATGGAAG
+    20821 AAGTTGCAGC TTATGTTCGA CAAGGTTTCT CTACAGCATC TAATCCCAAC CACCCCCACT
+    20881 TGGCGGCCCT TGTTACGCCA TCCTCGGTGA ATACAGCCCA CTCTGGAATG GCTGGCAGTA
+    20941 CCCGGACGCG GCGAGAAATC AGTTCTCGAG TCAGGGATTT AATAATGGCT CTCGCCATAT
+    21001 GCCATAACGT TACACCGACA CTAGACGAGA AGGATGGCCA AGCAATCACG ACCTATCAAG
+    21061 CCTCATCTCC CGACGAAATA GCAATCGTAA AATATGCACA GGAAGTGGGT GTTCAGCTCG
+    21121 CATACCGCGA CAGGCAAAAG ATATTGCTGC GATCCGTGGA GACAGGCAAG GTTGTCGTGA
+    21181 GAGCCCAGAT CCTAGACATT TTCCCCTTTA CATCGGACAG CAAACGAATG GGTATAGTCG
+    21241 TTCAATTCTC CCACACTCAA GGGGTAGAAC AGGCCCAGGA CGAGATATGG TTTTTCCAGA
+    21301 AGGGCGCCGA TACGGTTATG TCTTCAATCG TAGCAACCAA TGACTGGCTT GATGAAGAAA
+    21361 CAGCCAATAT GGCTCGGGAG GGCTTAAGGA CACTGGTAGT TGGAAGAAAG AGGCTCTCAC
+    21421 AAGAACGGTA CCATGAATTT TCCAAGAACT ATAAACAAGC GTCCTTGTCG CTTAGTTCCC
+    21481 GGGATACCCT CATGGCAAAG GTAGTTCACA GCTACTTGGA GTGCGATTTG GAACTTCTTG
+    21541 GAGTAACTGG TGTGGAGGAC AAGCTTCAAA AGGATGTGAA ACCATCTCTT GAGCTCCTTC
+    21601 GAAACGCCGG CGTCAAGATA TGGATGCTTA CCGGTGATAA GATCGAAACC GCGCGATGCG
+    21661 TGGCTGTTTC TTCAAAGCTT GTGTCCCGTG GCCAATATAT CCACACGGTC TCAAAGCTAA
+    21721 AAGATCCAGA ATCAGCACAG GAAGCTCTTG ACTTTCTCCG GAACAAGACT GAGGCCTGCT
+    21781 TGCTCATCGA CGGTGATTCC TTAACGTTAA TGCTAAGCCA ATTCCGCACC ACTTTTATAT
+    21841 CCATCGCTGT TCTTTTACCA ACTGTGATTG CATGCCGTTG TTCTCCAACG CAAAAGGCAG
+    21901 AAATTGCGCT TCTTATTCGA CGACATACCA AGAAACGAGT CTGTTGCATC GGGGACGGTG
+    21961 GAAACGATGT CTCTATGATC CAAGCCGCGG ACGTTGGGAT TGGTATCGTG GGGAAGGAAG
+    22021 GCCGACAAGC GTCTCTCGCC GCTGATTTCA GCATCACCCA ATTCCACCAC CTCACGAAAC
+    22081 TTCTCGTATG GCATGGCCGT AATTCCTATA AACGGTCCGC GAAACTGGCC CAATTCATCA
+    22141 TGCACCGAGG CTTGATCATC AGCGCGTGTC AAACCATGTA TAGTATCGCG AAACACTTTG
+    22201 AGCCCAAAGG CCTTTTCATC AACTGGCTCC TCGTTGGGTA CGCAACGGTC TACACCAACG
+    22261 CACCCGTGTT CTCTCTGGTG CTTGATCGTG ACGTTGATGA AGAACTCGCA AATCTCTACC
+    22321 CAGAACTATA CAAAGAATTA AAATCAGGCC GCAGTCTCAG CTACCGATCG TTTTTCACAT
+    22381 GGGTGCTTGT ATCAGTATAT CAAGGCTCTG TCATCCAAGG CTTCTCCCAG ATTCTCGTCG
+    22441 ACGCGACTTC CGGACCCAGG CTCATCAGCG TCTCTTTCAC GGCTTTAGTT CTAAATGAAC
+    22501 TTGCCATGGT TGCCATTTCA ATCACAACAT GGCACCCGAT TATGATATTC TGCATCATCG
+    22561 GCACCGGATT AGTCTATGCT GCCAGCGTGC CGTTTTTGGG TGATTATTTT GATTTACGTT
+    22621 ACGTGGTCAC GGTAGGGTGG GTTTGGAGAG TCGCGGTTGT GTGTGCTATA TCGTTGATAC
+    22681 CTGTATGGGC TGTCAAGCTT ATCAGTAGGA CCTGGAGTCC TCCCAATTAT CGCAAGGTTA
+    22741 GAGGATAGCC TATGTGACCT TGCATAAAAC ATTGCACGGC GTTATTTTTG GGGAATTAAG
+    22801 ATGGGTGTCA GAATTGTTTT CGTAGCGTTG CGGTGAGTTA CCCCGATTTA CTTGATATTC
+    22861 AATGTACTAC TCCGTATCTG CTTTGGATTT AGATTTATAC ATCCCTGGTT TCATGTATTT
+    22921 TTTTATTCTT AGATTATACG GTGTCTCCAA GCAAAACTTC ATAAACAACG CCATTTAATA
+    22981 GTTCGATACG AGCCACATTA TGGCCCAATT TAGTTCAGAC CCCAACTGGT AACTTACAAG
+    23041 AATTGCAATG CATTCTAGCT GCACCTATCA ACAGCACATA TTCTACATTA GAAAAGGCAT
+    23101 GTATCATTAA GCTCCTGAAC ATATATACAG ATAAGGAACT AGAAGCATTA AAGGGTGCAG
+    23161 GAGAAATGTG ATGCAAAGGT AACGACGCAC GAACGCGGCA GAAGCTATCA GGCTCAAGTA
+    23221 TGGAGTACGG AGCAACCGGA TGGTAAAATG CAGTATGCGG GCTTGCCTCC AAATGCAAGG
+    23281 ATAAAGCCAC CATAACGCCA CGTGCAGTAG TTAAAATCAT AATGGAAAGG GAATAAAGGG
+    23341 TAGAGAAGAA ATTCGAGTAG GTGCCGCTTT CACCGAGGCC CTGTCAAAGG ATTGCGCGAA
+    23401 GCGTAGCCGC CGGAACCGCC TCCTCCATGG AGTCTCGCCC TCAACCTCTC CTGCGCCGAA
+    23461 GCAGCAGAAA GCGTACGGTC TGGCCCGGGA CGATTCTGCG CTGCTTGGGA TGCCTGATAA
+    23521 GAGCCCGCCA TTTGGCTTGG AAGCGGTCTC GCACCCCCTG TTGCATTCCC TGTATTACTT
+    23581 CCCGGCTGAC GTGCCGACTG CGATCGATCA AAAGGGTGGC GGGGAGTACT CGACGGCGAG
+    23641 GGACGGCTGG GCAAGCTCGA CGCGGATGGC TTGAACCCGG AAGACTGTGG TGTGTTTGCG
+    23701 CCTCGACCTA GTCGCAGACT CGAGGTTTGC GGTTGCGCTG GGGGTGCAGA AGACGGTGCG
+    23761 GAGTCGCTCC ACAGATCACC TAGACCACCG CGACCGCGGC CGGCTGGGGT ACTGGTTTGG
+    23821 CCTCCATAGC CTTGGAAAGA GGCCTGTGTG GCGACGGTGA GTGGTGGTGG TTGTTGTGGG
+    23881 GATTTCGGAT CAGGAGGAAG CCAGGGAGGA AGACGGCGAC CTTTTTCGGT GTAGTATGCC
+    23941 CGTAGGACGT GAGAAATGTG TGAGTTATCT TCATTTTCTG GGTCATCGGT TTCGTCGCCG
+    24001 GAGGAGATGG CGCGACGCAG TGACGTGAAG CGGGTGCTGA GGTTGGAGAT TGCAGAGGAG
+    24061 GAGGTGAAAG AGGAGAAATA TGAAGACATC TTTGCGATGT GGTATAGTTC CTGCTTCAAT
+    24121 GACCAACTCT TTCAGTTTAC TTTCTGCGGC AAGTCTTCTG TTCCGCCGTC AGAACGGATA
+    24181 ATTTCTGGCC GCTGCACAAT CTGAAATGCC TTCCAAGGAT CATGGAGGTT GTGAACGCGA
+    24241 GGTTGGCAGA AAAAATAACA AGTGGCTATT TTCGTATTGA ATGTGATATT TGAAGCAACT
+    24301 CGGATTGCTA TCTTGACGAT GTTTGCCCGT TCAAGATCTA TAATGCCTTT GCTGGTGGCT
+    24361 GTTTTGCATG GAGATATGAA GGGGTGCTGG TGGTGAAATT GAAACCGATG TCACGTCACA
+    24421 CCAAAGTCAA ACAGGCCTAT TCACAACCAC ATCCAGCAGT GTGTATCTCC CTGGCTACAA
+    24481 AAGCATGGAC TAAATATTTA CATGACTGCG AATGTCTTCG GATCCGTTGC CATCGTTTCC
+    24541 CTTTCTGAAC CCAGGAGAGT TCCGGTCAAT ATGCTCTTCG TTTGTAAACC GTGTCACTGG
+    24601 ATACTCGGGG GACCTTCGGA CATTGGGCTG GACCAATGTA AAGCAAGATT ACCAGGTACA
+    24661 GCGGATGGAT TGCACTGGGA TTAATCACAA GACAGTGTCG GCTAATGTTT CACTTCTCTC
+    24721 GTCCTCCCCA GGATGGAAGT GCTATGTTGA TTATCTCTCG GATCATCGAC TTGCCTCAAT
+    24781 GGGCCAATGG CGAACAGAAT GATGAAGGAA GCTGTCTCCA AGATGATATA GAAGATGATG
+    24841 ATCCTGTGGG CATACCATAT TCCTCGTACT CGTCTATTGA TGTCGGAGCC TACTAACACC
+    24901 TCTTTCACAG GAAATGTTGA TTAGGCCGTC ATCTATTTCG GGGACGAGCA AGGTAGAAAT
+    24961 GGAATATCAC ATCCTTCTAT CTCCGACTTA TCAAGTTCCT GTTTTACATT TCTTTTTCAA
+    25021 AAATACCCTA TATTCTGGTC CAAATGCACT GGAGATCGTA TACGAGCATC TTGTTCCTCC
+    25081 AGCCTATCGA TCGGACCTGA AGCAGGTGGG AGTGATGGGC GGGATTAGCA TGACCGTGCG
+    25141 TAGATCCACG ACAAGGGGCA CCATTAGCCA GGTAACAAGC CGCGCGATCA AAGCTGATAA
+    25201 TGACACAGAA CCATCCGATA TCAGGTATCC CAGTATATTT TATTCACCCT TGCAATACAG
+    25261 CAAGTGCCTT GCAAACTGTC CAAGGGAAGG AAGCTCCCAC AGCAGAAACA TACCTGCCAC
+    25321 TGTGGTTAGG ATTAATTGGT AACTGTGTCG GCCTCTATAT ACCGAAGGAG TTGTTTGCGT
+    25381 CCCTAAGAAA TAACTCGGAC GATTAACAAG TAGTCGTCGA TAGAACTTTT TAAGCAGCAA
+    25441 AAGCTCTACG GGCTATCTAG GCGCTACCAA TAGGACATAT TTCTCGCATC AAGGGCTCCA
+    25501 GTTGAAGTGC CCTCTCTAAT GACCACGTAT CTGGCTTTAC CCCTTGATTC GGTTCCAATG
+    25561 ATATATGATA CTCGATAACA TGTGGCCCAA GAGGCAAGGC ACAGGGAGGT GAGAAGCAAA
+    25621 TTATTGCTTT CAAACTGGTT CATATTGTCT AAGATCTGGT AGCCATAGAT ATCATAGTCC
+    25681 AATGAAATAA CAGTGCTATC AACAATCCCC ATAAACGCCA GGCCATATTC AAAGTTCACT
+    25741 TGAAGTAATT GAAACACTTT TCTATGCCCA TAAAGATTAT CATGCAAAGA TGCTTTCTTT
+    25801 CGCCGGACCC TCCGTTTCGT ATTCGATCTC GATCCGAGCG CCCTTTTTGC GTGCCGTAGG
+    25861 AGTAGGGGCT CCACGTTTCC TCTTGGTTCC GGGAGTAGGC TTCTTTCGCT GCGCATCATC
+    25921 TTCGCTATCC TCCTCATCTC CTTCACTACT TTCTTCGTCA CTTTCCTCCT CGTCGTCCTC
+    25981 GTCGAAACTG TCATCTCCGC TTCCCTCACC AATCCAGTCC TCGATATCCT CCAGGTCCTC
+    26041 ATCTTCATCA AAGTCGCTAA CGTATTCAAC TTGACCAACG CCTTCCTCCT CTTCCTCCTC
+    26101 CTCCAGGTCT GCCTCAATAC CCTCATCCAA ATCTTCGTCA CGTTCACCTT CGCCTTGGCG
+    26161 CTCCAGTCCC CTCAGTACCT TCTTCCAGAT ATTCTCTTCG ACATTCAGTG GTCGATCACC
+    26221 ATAAGCTCCA CTCCTTAGAC GCTCAATAAG CTCTCTTTCT ATAGCTCTTT CCACCTTCGC
+    26281 AGCAGCTTCC GCCTTTCGCT CCCTGGTCGC TTCTCTATGT CTAATCTTTG GCGCAAGTTT
+    26341 CGGTACTATC TTCTCTCCTA ACCGTTCTTC CTCCTTGGCA AGCCGTTTCA TCCGAATGCT
+    26401 CACCTGCGTG AGGCGCGTGA GACGCTGCTT GCATTTGTGG ATCAAAAATT TCGGCCAATA
+    26461 GATGAGTCGC TCATCAAGTT GTTCCAGAGC TTTTGTGTAG TTCGACGATA ACCGTATTCG
+    26521 CTCCCACCAT TTGTTCGGCA TATGAGACCG TTCAATTGTT TTCATATAAA GGTACATTGC
+    26581 GCCGGTCGCA GGATCAGAGC GCACGGTGGC GTAACGGGAA TTTGCGAGCG GACATGATTG
+    26641 ACGGTTGCAG AGACCAGTGA CATTGTATTC ATTTCGACAG AAGTTTTGTC CTTTGGTTGT
+    26701 CCTAGATGAA AATAGGGTCA GAATGCAGCC CGTCAGACAT TCGCGACTGT GAGAGCTCAT
+    26761 CAAGACGTCC TAAGCAAAAG GAGGTCAAGA ATGGGGAGCT TACTTCAACT TAAAGGAACA
+    26821 AAACTGCTGG TTGATCACCT GCCATACAAT TTCGTCTGAA GCCATATTTA CGTGTGGTCT
+    26881 GACTACCTGA CCCCAAAATA TGCCTCGGTG CGCAGAAAGA ATGTGGATGC GCTCCTTCAC
+    26941 AGGCTGTTCA GTCCGGCAGC TGCAAAATTA TTTTGATAAA CACAAAGTTT TTAAAGTTTC
+    27001 GATTATATAA TATTACTGCC CAATCACGTG ATGAATCCAC ACCCCCTTAA AACTCAAATT
+    27061 CGACTTCATC CCAGCTGTTT TTCTCTCTCG ACTTCCACCT CCCGTCGACC TGGTCTTGAG
+    27121 AAGCACATTC TCAAGCTATT CTTATGTTTA TTTTGTTAAG GAAGAAAACA CTAATGATAT
+    27181 CGCCCAGCCA TTCATGAATG AGGGATTGAT GATGTGTCGT CAATCCCTAT GTACGGGAGT
+    27241 ACCGTGGGTG AAAACCATGG TGTATCTCGA ATGACTTGTC CTCATTGCAT TGATATGCCG
+    27301 GAGCAATATA TCTCTTCCAT TTGCCTGGTA TGAGGCTTTG ATAACAAGAT CTGGTGTCCG
+    27361 TGACCCCCCC ACATGTGGCC GGTCCCTCTC GAAGCCAGTT TAACTTTCCA GATACCCTTC
+    27421 CGATGTTCTT TGTTAGAGAT ATTAAGAGAA GAACCATAAG TATTGGAGTC AAATTCTGCT
+    27481 TGCTGCCTTA GCATTATTTT CATCTGTTGT GAGATTTGAG ACCGGTTTTA TTAATCATAT
+    27541 CATATCATGA TGATCTGGCA ATGTGAGTCG CTGTTCACTC AGTCAAGTGA ACATGTTCTC
+    27601 CCACTCTTTC TTGATCAATT CTCTCCCATT CACCTTAGGG GCCAGCAGGC ATCGGGAACT
+    27661 CCCACCAACT TCAATCTTTT TGTTTTCGTT ACACTCAAAA TATCCACATG CCAGGCACAT
+    27721 GGATATCAGC TTTCTGTATT CTTCCTTCTT TCTCCAGGAG TCTCGTGCAA CCTTGATAGG
+    27781 TTTTGGCCTT ACCAAAACCC AACTTACCCG ATTTTTTTTT TAGCTCAGTT TCCTTTTGAA
+    27841 AGCTGTAGCG GAACCGCTCG AACACCGACA CCTTGTTGCC CTGTTCACCC CAGTTAGACC
+    27901 TTGTGGTATT TCTCAGTGAA GACATAATGG TCAATCATAT CCGCACCAAT ACTCCTCGGG
+    27961 CCCAATCCTT TCACTGCCAC AGGTGCCGAC TCGACTTTGC CAATCGAGTG GAGTATAGTC
+    28021 GTCATATCAA TAATTCTTTT GACCACCACC CTTGTAACCT CTGCCGGCAT CGAACGGATT
+    28081 TCAATTCTTT TACAGGGCTC CAGCGGCACC TGGAAGCTTT TCATTTATAC TGCGAACCAT
+    28141 GCCAGTGGTT TGCTCCGTCT ACCCAGGGCC TGCGGCAACA TAATACTTCA AGGCACTTCA
+    28201 TGTGTGTCAC CTGCGGGGAT TATTTTAACA ACCAGCATCA GCTCAGTGTG GTGAGGCACT
+    28261 TACACATCCC ATTAAATCCG GATCACATAA CGCTAATTCT CCTGAACCTT CCAGCATGCT
+    28321 TTTGTCCACA GGCCATTTGG TGTCCGCTGC TTTGGCTGTA ATTTTCAGTT TCCCATCCTT
+    28381 TCGGCATTGT ATGGCCATTT CGAGTCAAAT CGCTGCCCTT CAGGCATAAC CTCTGAGGAT
+    28441 ATCCAAAATA TCGCGGCCGG CTATGTTCGC AACCTGGCCG ACAGCAATGG TTTCATTTTC
+    28501 TATTGTCGAG ATTGTCAACG AGGATTCAAT AGGATGTGCG ACCTTCTTCA ACACTCAGAG
+    28561 ACAAGAACAT GTCCAGCAGG CTACTGGGGC GGTAGTGCAC GTGTTGGACT GTTAGTTCAA
+    28621 TACATGGAGA TTCGCCTTCG TAATATCGTG GAATCCCGTC GTGCGGCACC CACCAATGGG
+    28681 GATCCTACAG CTAAGGAGGA GGTTCAAAAT GAAAAAGGCG AGGCGAATGA TGCTCGGTGT
+    28741 CCTGCATACT CAATTCCTTC TATCGTTATA AGCAAGGTCC CGGATGACAG CTAACTTGTC
+    28801 CTTCAATAGC CATCTCTTGC TGGCCAGGTT CTTCGCTTAG CCTTCCTGTG ATTTAGGTCC
+    28861 TTCCACCCAT AGAAATTTTT AGTCTTTAGG GCCCCTGGAT TTTCTGCCTT TAAGGATAGA
+    28921 TGTGCATGCT TTCACTCCCT TAATGTAAAA ATTTCTTAAA AAAATGTCTT TCTGTGATAA
+    28981 TGATAATCAG TTTCGCTTCT TTCATTTTTC TTCACTCAGA TTTGGATTTT CACCAAAGCC
+    29041 TAAGGTTATT TAAGGGTCAT CTTCCCTTCT AAAGGGCCCA CATCCTTTTC CAGGCACTGA
+    29101 TGATTACAAA GTTAGATTAT TGATTCTCAG ATGGCTTGAC TTTGTTGGAA ATACCTCCTT
+    29161 GAAAGGTATG GAGTACAGAG AGAGATGATA AACTCTCCTT AGGCAAAAAG AGGTATGGTT
+    29221 AATACTGGTT CGGATTTATG CTGCTAAGGA TCAAATGATG TCTTATTAAC AAGGCTAGGA
+    29281 AGTAAACAAG TCCAAGACCT TAAAGGCTTT CCATGACCTT TGCGACTGCA ACAGCCTTTT
+    29341 CTTCACCAAA TCTGCCTGTA ATTATCTGAA CACAGATCGG CATGCCCTTC ACAAGATCCA
+    29401 AATCATCTGC GTTACGAGCA AATGTTAGCT CTAATATTTT CATATCTCCC ATTTGAGTAT
+    29461 TGTCACTTAC ATTGCTGGTG ATTAAATGCA TCGGATTCAT TCCTTGGCTT ATGGTTCTCC
+    29521 CATTCATCAC CTGGAACATC GAGGGATGGA TCTACTTTAG TCACTGGAAC AGTGGCTACT
+    29581 GCATAGTCTA ACAGGTTCCA GATAGCAGTA TACCCAAGCC ATTGCTTGCT TTCGACCCAG
+    29641 GTTTTCGGGG TATAGCCGAC CCAGGGCAAC ACAGGCATGA TCAGCGCATC GATGCCAGAT
+    29701 TCACTCCATT GACTGAGGAA TTCCGTGCGA TACTCGTGCT TCTCCTTGTC GAGCTTTTAA
+    29761 GATTTGGGAA AAGTCAGTAT CTAGCGCTAC ACAGTATTGA ATGCAAAGTC AGGTAATGGA
+    29821 ATAAGCACCT CTTGACGTTC AGCTCGGGAT AGGTTATCCT TTTCCCGGCC AACTAGCATT
+    29881 CCTTGGATGA GTGGCTCATT GACCAATTTA CATAATCTTT CACATTCGGC TCCACCGTCC
+    29941 GCGAGGACGG ATTTGAGCCA TAAATGGAGG CCCTTGACGT GGGAAGATGT GTCCCACTCC
+    30001 ACAACTACCA AAGGCGATAT ATGTTAGCCG TTCGAATATT CACATTTGAC CGCCATGCGA
+    30061 CATACCTTCA TGTCCAGCTC TGCGGAAATT TTCTGCCACT TCGCGAAGCG CGCGCGCCAC
+    30121 GGGGGGCTGT GGTTTGACGA CCCCGTCATC GAAAACGATT CCTATTTTAA GCGGGCGATC
+    30181 AGGGACCTTG GCGAGGTCTT TCCGCCATGG AATTGGCAGA GCTCGATGTT CCCGTTCCCA
+    30241 GGGTTTGTCA GAAATAAATG CGTCCATGAA AAACTCCAAG CTGTTTAAAG TGGTTGTCAG
+    30301 GGGGCCGGGG ACCGGTGGCA CGATATGGGC TTGGTTGCTC CTAAGAATAC CTCGTTAGAA
+    30361 TACAAGACCT TTTTCGAATA TGGTAAAAGA CGCATCATAC ATAGATTTCT CCCATGGGAT
+    30421 GCGGCCGACG GACGGCATCA TGCTGTACAG CCCTGCAGCG TTGCGGGAAT CCGAATAGAT
+    30481 CCACCAATAT CGGTTCCGAT TCCAATGATG CTGCCTTGCG CACCAATGAT GGCTCCTTCG
+    30541 CCCCCGGAAC TGCCACCAGA TATGAGCTTT ATGTTGAAAG CGTTCACTGA TTGCCCAAAC
+    30601 ACATGGTTGT ATGAATCCGA CATCTATATT CTAGCTGTCA ATAGCCATAG TTTTGCGAGG
+    30661 GTGCTGGGGC GTATGAACGT ACCATGAGGG ACTGGGGTAT ATTGGTCTTA CAATATATTA
+    30721 CTGCCCCCAT TGAGAGAAGC AACTCTGCCA CGCAACCATT TCTTGGAGCA GGCTTGCCAA
+    30781 TCATTCCAAC CCATCCTAAC TCGATATTAG AAACAAAAGG ATTAATTTGC TACAGCGGCA
+    30841 GAGGTGATCG GTAGAAAAAT CACATACCCA ACGTGGTATC TATTCCTTCA ACGTCAAATC
+    30901 CATCTTTTAT GGAAATTGGT AATCCATGTA ACGGCCCTTT AAGCTTCCCC GTCTTCTCTA
+    30961 AATGTTCGTC GAGGGCCTTT GCGCAAGCCA GTGCTCGATC AAAGAACAGC TCCGTACAGC
+    31021 AGTTAATTAG TTGATGAGCA ATAGCAGCTC TCTTGCAAAA TGCCAGTGCA ATCTGTTCGC
+    31081 TGGATAGCTC GCGGCTGGCG ATCTTAGACA GGAGGACTGT TGCATCTTGG ATACTGGTTA
+    31141 TAGCTTTCTC GTCTGGGGTG AGCAAATTAG AGGAATCTAT GAACTCTTTG GCGTCCGTTA
+    31201 CGTTTGGTGG AACGGAAGAG GAGAGATGCC ATTCTCTGGG AATGGCAGTC TTCTGCTGGG
+    31261 CTCGCTTTTC TAAGACGGCC GGTTTCCAAT GAGGCTGCGT CATTATCTTC GGTGTAGAAG
+    31321 AGCTCCGCTC TATATCTACT GTTAACAACT TTTTACTGGG AAAACGTGAA TCTAAGGGAC
+    31381 GGAAGTCAAA GAAACCAAAA AATGAATTGC TATATAAAGA GCTTTAATCA AACTTGGAAG
+    31441 AAGAAAAACA AGGTGTATGC ATTCCGGTGG TGTGGGGGAG CTTGGGGTTG ACTTGTTACG
+    31501 AGCTTCGGCA TTTCGGTCGT TTGAGAGCAT CAGCCCGGCG GGGTAGACCC GATTTTCGGC
+    31561 TAGTTAAACA CGAGCAGCGA GTGCACATAA CTACTCTATA CACAACTGGA ACTCGAATTA
+    31621 CGGTCATACT ACGGAGAGTT GAATAGAAGA TTTTGTATTT TCAAAATCAT TGTTGGTACG
+    31681 AAATGCTAGT CACGAGCAGG CGACTCGATC TCGGAAGTGC GGGGATCATC GGTAGTTAAT
+    31741 GGGGTGGCCT GGACGGAGTA CGGAGTAGAT TACGGACAAA TGCAAATATA ACTAACTAGT
+    31801 TAACTCTCCC GCTAATAGCA ACGCCACTAC CAACACATTG GTTTTGGTGT TCCACTCTGG
+    31861 CGAAGGATCA AGTCTTATGT TTGGCAGCTC TATTATTGTC TACACGGAAG CAAGGCGTTC
+    31921 TCTGGATATA TCCCCCAACA TAGACCTGTG CTTTTGAGAT ATCCTTACAT CCTTGTGGAC
+    31981 TGGATAGAAA ACAGCGATGC TCAGATGCGC TCTAATGTAT TTACCATGCC GCACACCGAA
+    32041 GTGCAGACCC GGAATCTTTA TCGAAGCATT TCAAAGATCA TGATCTCCCT TGCCAAAATT
+    32101 TCACAGCCCC GAATTGGTTC CTGGACGATT GATAACGATG GACGAATTAG CCTATCCATT
+    32161 CGTCCCATGT ATTGTCATCT CCACCAACTA GAGAATTACG CTATTCCTTC TGGTATTCCA
+    32221 CGGAATATGA CTTACACGGG CGCTGATGGT TTCTATCTTG ACTTACTTAC TGGCCACGAC
+    32281 AACCGTCTCC GGCATCAGGC GAATGCTGCT TTTGACGAAG CAGATGCACG TGGACAAGCC
+    32341 AAAGACCTAG TCCTTATGAG AGCGCTCCTT CATCTGTTTA CTGACCGGCA TCTTCATAAC
+    32401 AGTCCATTTG TCATGCAACT GGCAGATATG CATGCTAGCA ATATCTTTGT TGACGAGGAT
+    32461 TGGAACATCA AGCATGTTGT TGACCTTGAA TGGGCATGCT GCCTGCCCCT GGGGAACCTG
+    32521 TTGCCTCCAT TTTGGCTAAC TGGACAAAGT GTTGATGGAC TTGATGGCCC AGAGTATGAA
+    32581 CAGTTCAAAG CATGCTATGA GCAATTTACA ACAATATTTG AACAAGAGGA GACAGACACA
+    32641 CCATTACACC ACAAAGGAAG TTTCTACTCC CGTGCAAAAG TCATGAAGCG GGCTTTAGAT
+    32701 GATGGGCAAA ACTGGTACCT GAATGCGCTG CAAACCCCAA AGGGTTTGTT TAACCTTTTC
+    32761 AGAACACACC TTCAGCCATT CTTTGACGAA GTACCTAAAG AGTCCCTCCG CGCAGCTGTA
+    32821 TCTCCATATT GGACACCTGG AATGACATCA AATTCATCAA TTGTGGAATC AAAGCTAAGA
+    32881 GACTATGCCA ACTATCGCAA AGACGTTCAC AATGTCTGTT TTACAGTAAA TACAGCGGAA
+    32941 AGGCATATTG ATAAACTACA ATAGCCAGTG GAGGAAAGGG CAGCAAATCT GGATATTAGT
+    33001 AAGAGATCTT TGTATTCCCT TGGTTTTCTT TCCTCCAAGC TTGTGCCTGG CGGCCGAAAG
+    33061 ATGGTGGGGG TCGCACCTAA CCTTGACTAA AATTTCAGAA CAACTATTCT GCGGTAATGA
+    33121 TAAGTGGGAA TGACCTGGAT TAGCCAAAAG AACTTTCAGT TCACTGACTT GATAACAGAG
+    33181 AAAACCAGCT TCGTGGCTGA TTGCGGCACT GGGACATCAG ACGGAGTCAG AAGCCTACAA
+    33241 AGAGTGACGA ACCATCAATG CAACCTGGAC CCCCCCCCCC TGGCAACCTG TCCCTGGTCC
+    33301 TATGGAATTG GCCTGGAAAA AAGAGGCAAT GAAACGGTGC TGTGTTGCAA GTCGTGTTCA
+    33361 TGACATACTA CTTCAGGCCG GTGATACACT TATTTTTTAC AGAAATGTGA GAGTTCCTCA
+    33421 AACAATACAA GGCATCACTG ACTTATTGGT GGGAGCTCCG GCCATGCTTG GCACACAGCA
+    33481 CTAGTGGAAT AAGTGTTTTT CCATCACCTC ATGACATTCT GTATAGCCCC GTGTGCTTCA
+    33541 CCTCCTCCCT GAGTCTTCTT CCTGTGATCT CGCATTTCCC CTGGCTGAAA CACCAGAATT
+    33601 CACAACAATC CAGCCCAGCT CTGTTTCAAT ATGACGACCC TTTCAGAAGA TGATTGGAAC
+    33661 ACCATCAAAA AATATCCTTT AAACAACTCC CTTGATCAAT TACAAGACTT ACTTCAAGAC
+    33721 ACGGAAGACT CCTATACACT ACACCTAATT TCTGATGATG GTGCTCGCCT TGACAAGGCC
+    33781 TGTCAAATGA CAATATCACA GCTTCTCTCT GCTTTGCAAG GTACGGGAGC AGCTTTTGCT
+    33841 CTTCGGTCAA AGACAAGCAG TCATGACATA TTGTTGGAAA TAGCAATTCT TTTTGAGCAT
+    33901 GTTTGAAACA GTGACTTCAG CTACACCCAC TACTGCCCGC TAGTGAAGCT TGTCATCCAA
+    33961 AAAGAATCTG ACTTTGACAT CTGGAACACC ATCCTTACCC TCATTACAGA TGTCTCACCA
+    34021 GCTACTTCTC CACCCTGCTC TATCACACCC CTTCAACAGA CTCCCTGGCT GTACAACACA
+    34081 AGCAGTTTCA GTGCTAGGCT GGTATTCGGG ACCGGGACGG GATCCCATTT CCCATTGAAG
+    34141 CTGGTCCCGG TCCCGAATTT CGAAACAGCC GGGATCCCAA ATATGAAATC TCAGTCCCAT
+    34201 GTCCCATCCC ACCCAAGAGC TTGAGGTCCC ATTCCTGTCC CTATCTCATA AACTATTTCC
+    34261 CGGTCCCATC CTCAAATAGA AAATTATGTC CCACGTCCCA TCTCAGCAGA GAAGGGAGGC
+    34321 TCCCATTTCC TGTCCCGGCC GGGTCCATAG TGGGACCGGG ATGGGACCAG GTTTCCCGGC
+    34381 CCCATTATGT CAAATTCATA GAGAAGAGTC AAACTGATCA AATTTTGCGT GGACTGTTAC
+    34441 CAAATTTCAT TATCTTTTGA CAACACAAAT GGGACCAGGA TTCCCAGTCC CATCCTACAC
+    34501 TTTACTGGTC CCGTCCCATA TACAATATTG AAATCCTGGT CCTATCCCAT TTTGTCACGC
+    34561 CAGGTCCCGG GCCTGTCCTA CAAGCTAGAT TTTGATCCTG GTCCCAATCC CATCCTGATC
+    34621 TCAGCTCCCA CAGAACCATC TCAATATGCT GTTAAACAAC CTAGTCCCAT TCTGTTGAGC
+    34681 TGAGCTTCAA CCTGATCCCG TCCTTGGGAC AGGAATTGGG ACGGGAATCC GGGACCGGGT
+    34741 CGGGAAATCC CGGAACCGGA TACCACTCTA TTTTCTCTCT GCATGCCAGC ACATTCATCA
+    34801 CATCTCTTCC AGCCTCTTGA TGTCAGTATT TTTGCAGTCT TGAAGCAATG GCATATGGGG
+    34861 CTCTAGTTGA ACAGCAAATG CGGCTTGGAT TCAATACTAT TTACTAGAGG CCTATCTTGC
+    34921 AGCGCGTACA GAGGTCTTCA AGACTCAGAA CATTCAAAAC AGCTTTATTG CTACTGGTAT
+    34981 AGCTCCATTT GACCCAGATC AGGTCATCCA GCGGCTCAAT ATTCAACTCA GAACTCCTAC
+    35041 CCCTCCTCCC CCCCGCGCCA GCAGATCCAG CAATTCTCAG TCATCCTGGG TTCTTCAAAC
+    35101 ACCTAGCAAC CTTCGCCAAT TACACCAGCA GGCGAATAAG GTCAAGAATC TTATGGGACA
+    35161 GGGGCTTGGG AGCCCACCTC ATGGCCTAGT GGAAGGTCTT GATCAAATTA TCAAGGCCTG
+    35221 TGAATATGGG ATGGTCAACG CCACTATAAT GAAGAAGCAA TATCAGGATA TATTTGCTGC
+    35281 AAATGAGAAA GAGAAGCAAA AGTATACAAG ATTTCCTCGT CGCGCTCGGG GGTGGATTAG
+    35341 TTAACTACGT TTAGTTAACT TAGGTAATCC ACAGCGAAAG ATCGCAAGCA CGAAAGTTTA
+    35401 CTGCAGAAGC CTGAACATAT TGGACGCGGT TGAACATCCA TAATATATGC GACGTCAGAA
+    35461 AGGATCTGAC AATCAGGGCT AGACTGATAA AGTAGATATT TTAATTATTT TTTCCAAATT
+    35521 TCTGCTGCTA TTGAACGGAT ACACTATTTA GTACGCTATA TGACTTTGTG AAATCGTTCC
+    35581 AATACCTGAC TATGAGACTT TCTGAAATGC TTCCACCTTC AAAAATTGAC TTAACGAGTT
+    35641 ATGGCCGTAG AATGCCTAAC TCGAAGACAA GTCTTCTCTC CGAAAATCCA CACAGTCCGA
+    35701 ACCGCATCAT CGAATGATCG GTGCTCTCCT CCGAGGAAAA ATGGTGACTA GACGTCAATA
+    35761 TTTTCTACTT ATCACTCAGT TAGCACCAGA AGGACACTCT GTGACGAGGA AAGAAATCAA
+    35821 TTGGTATACA ATTGGCATTC AGAAACACGG GGTGCTGGGG TACAGCATCG CTAGATCTCA
+    35881 GGCTTTATAT CTGATACTCC TATCATAAAG CCCGAGGCTA TGTTTACCAG ACTAGGTATA
+    35941 ATCACTGCAC CACAGCAATG GGCTTATAGG GAAGAGAACA ATGAAATTCA ACACTTACCC
+    36001 ATGGCATTAA TTTGATATCC TCGAGCTTTT AGTTATATTA TGACAGTGCC TTTGAGCCAA
+    36061 ACGCTCAACG GTCCATGTAG AATCCGTCAT AGCAACACAG GATGTCATAC CTGTCGACGA
+    36121 GCTTCTGTGG CTCTCGGCAA AGAGCTATCA CTGATTTCAC GCTCGTCACT GTTTTCCAGG
+    36181 ATCCATGAAA TCTATTTGAA ACGGTTGATT CGTGACTTAT ATTCGCTTCT TCAAGAGCTC
+    36241 AAACCAAGCC GTGTATGAGG TCATACTGGG CTTGGCGAAC GTGAAAGAGC CGCTGCGCGT
+    36301 TTAATTTATC CAATAGAAGA TCGAATCTAA ACGTATTATT ATTATTCCTA ATTTGGAAAG
+    36361 TGCGATCTTG GAGGCGGTCC GGCGAATCTA ATATTCCGGG TATGTGGATA AATGTTATTC
+    36421 CATGCGAGCC CGGGCGCCAC CGCCTTGGAA GCTTTGCAGA TTGTAAGTGC ACCCTGAGCA
+    36481 CCAAAAGGGC TGGGTTTAAT CAAATGCCAC TAATCGCTAT AAGATAATAC GCTCCAAGAC
+    36541 GCCAGCAAAA CACACATGCC CTCTCCGCTG CAACTTATCC GGGTTTCAGC CTCCGCGGCC
+    36601 CGCCACTTTG TCCAATCTCT CCTCCAGAAA TATAATGTCC CCAGCCAAAA CGGGGCAATA
+    36661 GTAGCAAAAT GCCTCGTAGA GGCCGATCTC CGTGGTGTAG ACTCCCACGG CATCAATCGA
+    36721 ATCCCCTCAT ACCTAGCCCG TATCCGCCAG AAAGTCCTTG ATCCCTCCGT CTCGCCCGTA
+    36781 GTCAACAAAA TCACTCCCGT GGTAACCCAG ATCGATGCTC AGAACGGCTT CGGCTTTATC
+    36841 GCGGCCAACG AAGCCATGAA TACAGCTATC AAGATAGCAC AAGTCTACGG AATCGGAATG
+    36901 GTCTCCGTAA AGCACTCCAA CCACTTCGGC ATGTCGGCGT CGTTCGTCCA GCAAGCCATC
+    36961 GATGCGGACA TGCTTAGTTT AGTTTTCACC AATTCGTCTC CCGCACTACC GGTCTGGGGT
+    37021 GGAAAGGATA AACTCATGGG CGTATCCCCC ATTGCATGTG GTGCGCCCGC CGGAGAAAAC
+    37081 TCAATCCCTT TCATCCTCGA TATGTGCCCT TCTATAGCCG CGCGGGGTAA AATATACAAA
+    37141 GCGCTCCGTC GCGGTGATCA AATACCGCCA GGCTGGGCTC TTGACAAAGA TGGGTTGCCA
+    37201 ACCACCGATC CCGCTTCAGC GTTGAAAGGC GTAATGCTAC CTATGGGCGG AGCCAAGGGA
+    37261 TCCGCGTTAT CTATAATGAT GGACGTGTTT TCTGGTGTGT TATCTGGCTC TGCGTTCGCA
+    37321 GGACACGTCA TTAATCCGCA CGACCCATCT GAACCGGCTG ATGTGGGCCA TTTCTTCGTA
+    37381 GCAATCAAGC CTGACCTATT CATGACGCTA GAGGAGTTCA AAGGGCGGAT GGATTATTTA
+    37441 TACCGTCGGG CCGTGGAATG TGAGAAGATG AATGGGGTAG AAAGAATTTA TTATCCGGGG
+    37501 GAGATTGAGC TTCTGACGGC GAAAGAAAGG GAAAGAGAGG GGATTCCGTA CGTTCGGGCG
+    37561 GAAATTGAGG CGTTGAATCG CGAGGCCGAT TTGGTTGGCG AGTATCATCT CAAAGGATTT
+    37621 GGATAGATTG GGAAGACACA TTCATATTTG CTTATCGTGC TATATGAGCG TGCTTAGGCG
+    37681 AAGTGCTGTG GTGACCAAGG GCTCTAAGCA GTCACCATGC AGTTGAAATT CGGAGCCTAA
+    37741 ATCGAGAAGC TCGGATTGGG AATAAAAACA ATGAATATAT TGAAAGAGAG TGCGGCGAAT
+    37801 AGGTCGAATT TTCCCAAACA TCATGTCCTA TGACTCCATT TGTAACGGGG CACCTTCCAG
+    37861 CTGATTGGGA CCACTACCGG GCATTGCAGA ACCAACGTTT CCGTCCTCCA CAGCGCCGAC
+    37921 ATCACCGTCC TCGTCTACCA AACCCCAACC CATATTCTCC AGTTCTCGCG AAAAGAAATC
+    37981 TCTCTCTTCG TCCATCATTG CCTGGCCTCC TTCCACAGCC ATGGCATCCT TGTAGCGTCT
+    38041 TAAATGCCAC CAATGCGTCA ACCCTCTCAA GGCTTGCTCC ATCGGCAGTG AATCTTCCAC
+    38101 TTCGGCATCA ATGTCCGCAC CAGCGAGCCA GTCATCACGC AACTCTGGAC GGCAGTAAAG
+    38161 ATAAATCGCA GTGATAATGC GCATATGAGT TTGACGCCAT TTGCGACCGC AGTAAGGGAC
+    38221 TTGGGATTTA AAGAGTTTCA ATGTGTACAG GCGGAGATGA GGGTTAGGGA TCTTAATCCC
+    38281 TTTGCGTAGG ACAGCGCTGG ATTTATATTG TACGAGAAGA AGGCATCGGT GAGCTTTGTT
+    38341 TCGGGTGATC TTTTGCATGA TGTGTAGGTA ATTAATCGCG GAAAAGAAAT TCCTAAAGGA
+    38401 AAACTCAGTG ATGGGCGCAT CAGGGAGAGG CGCAGTTGGA AAGCCTAATT CGTCAACTTC
+    38461 AGGGAGGTAC GGGCCTTCTG CAAGCGCCTG TGAATCTTGA CTTCTCTCAC TGGGGGCTGC
+    38521 GGAAATATTG AGTACCGATA ATGAAGATCG GCTTCGAGAG ATTGGAGGAG GCACCGCTTC
+    38581 TTCTTCGCTA TCCTCTACCC GTTCTGGCTC AGGTGGCGCA GAAGGCTGCG GTGCATGGTC
+    38641 CGAGTGAATG TGGCAAAAAT GGAAAAAGCT ACCATCTTGA TTAAAAAAAA AATGCAATAA
+    38701 CTCAGTGTAT AGAAAGTGGG CTTTCCTCAC CTTAGGTCGT CGCGGTCGTT CCTCTTGGCT
+    38761 ACAGCTTTAT CGACATCTTC GTGTATAAAC ATTTTTAGAA TCAATGGTAA ATAATTCGAA
+    38821 TCAAGCAACA GCTGCGTCAT ATATTCGAAT TGTAAAACAT CTATTAGAAA TTAGCGGCGT
+    38881 ACTTCGGAAC AGGGGTAAAC GTACGGGATC TTTTAAACCA CTTCAATAAT AACAATAGTG
+    38941 TGCCCGAAAT GGCCTTCGAC TTGATTTCGC GGCATCTAAC AGCATCAAGG TCGTCCAGGC
+    39001 TCTCTGAGAC ATCATTAGAT GGAACTTGAG ATTCCCTTGT TCCGTTCGTC ATCATTCTAC
+    39061 CGGGGTCAGC GAATCCGGTA TGCAAAGTAG ATTAATTATC CCAAATAGGG CATACATACC
+    39121 CAGGCTTATG CCCATTTTGG CCATTCCCAT TTAAATGACC AGCTGTCGCA GTAATATTTG
+    39181 TTAATATTTC CTTGAGCAGG ACAATGACAA TGGATTGGAG ATGCGGCAAT ATTTGGCTCT
+    39241 AAGACACCGT CAGCTTGTAG GCTTCATTAA TTTGAACCGA CATTGGAACA CATACATAAA
+    39301 AGCTCTCAAC TGCATCCAAA CGCCGCTGTA CGTCTTTATC TTCAGTTTGC TTTGCCGGCG
+    39361 GCGTCGCCTC TCCTGGAGAC CTCTCAACGG AAGACGAGGC TTCCTCATTG GACCTCCTAA
+    39421 GAGTTTCATT CGCATCCCAA CCCCTATCGT ACTTCATAAA CTTCTCGCGC TCATCCCAGA
+    39481 GCTGTTTAAG GGCTCTCGTC ATGCGCATCC TGCTGGAAAA CAGCTTCCCT GCCTCGATGA
+    39541 TCGATGACGG GACATCACTG CCTTCCCACT TGTGACCCAC CAACACGTCT TGAAGGACGC
+    39601 TCGAGCCTTT TCCACCGATA TTGTTGCTTG TGCTATCAAG CGGAGGGTAC ATGAAGGGAA
+    39661 AATTCTGGTT TGTCTGATAG TTCTGTTTTT TGCCGGCTTT TCCTGGCCCA CCAGGTGAAG
+    39721 GAGGAGGAGA CGGTGCCGGC GTTGCGATGT GAACGGATTT ATGAAGTATT GAGCCATTAC
+    39781 CTGACGCGGA GGACACGGAG GTGCCTGAAA ACAGTGTCGG CGTATTAACT CGATTAGATA
+    39841 CGTTAGGAAA TGGAGGAAGG ATTGAATTAT GTTCCAGCTC TAAAGGAAAA AGGGGAGGGG
+    39901 GGGGATTATA AGCGGGATAT TTTGATGTAA GTTCCTGTCG AAATGCATGG TAGTCGAGAG
+    39961 GAGAAGCTGT CAAAACTGGT AGCGGTGAAT TCGAGCTGAT TTGCTTCTCA TCGTACTCTG
+    40021 GTTCCAATAC CGTTTTAGCA CGATGGAGGT CATTGGAGCC GCCAAAGAGC AGCAAAACAG
+    40081 ATTTCCAGAA CAGGAGAATA AGCTATGTCT GTTAATGATC GTTTCACCTG GAAATGGCGC
+    40141 TTGACTTACT CTTGTCAACG GAAAATTTGT GACATCTTCC CAGCGCAACC CCGCAATGAT
+    40201 CTGGGCGATC ACGACAAGAT AGCTCGGATT CAATGCAGCT GTAGGTCAGA CGTTGTCAGC
+    40261 AGATTTAATT GGCATAATAG AGTAGGCATT ACGTACCAAA ACACTCTCTT AATTGAGGGT
+    40321 TATCAGGGCG AAGTTTCTCC TGCCTCCGGG CAACTTCCAC AAGGAAATAA AAAATAGTGA
+    40381 GAATTAGATT GACCTCACGA TCCCGTGCCG CAAAATACGC GGCTGTGTTG TTTTCTCCAT
+    40441 TGAAAACCTT TACATCATCA CCAGCCATTC TGGATAAGTT AGAAAAATAC ATCAGTGTGA
+    40501 GAACCAATGT GGATTACTCA CTTGTCACTG TCAAAGACGC GCTGCAAGTA GCTAAATAGT
+    40561 ATAGGCAATC CATTGACCTG CTGGAAAAGG TCCACGTTTC TCTCTATCCA TTGAATTTGT
+    40621 AACGACCTTT CTTTAGGCGT TTCAGCCGCC TCTGTTTCGG TTGGTTCCTG AGGGTAGTCA
+    40681 TCAGTGGCCC TTCCCGCTGT AACACCCCAG ACGCCAGTAA CAAGATAGCA GATGTTTTGG
+    40741 AGAGCTTCAA TTCGTGCTAG GATATCAACT CCCTTTGACA AAGTCGAGAT TGTGCCACCG
+    40801 AGGTAAGTTT TTTTCAAATC TTCGGTGGCA TTGAGCCACG TAATTTCCGA CCCGTTGCCT
+    40861 TCTGGAAGTG AACAAGTAAA GTGAGACCAG TTTTGTTCAA ACGAATCCTT TGATCCAAGC
+    40921 AGGAGCAGCC GATCAGATTC GTTATATTGA AACCATTCAT CCAACTCGTC CGGGAAGGGC
+    40981 TGGCAATCCG CGTAGCTGAA AGCATACGCG GGCTGCTGTT CAGCTTTGGG AAGGTCCTGA
+    41041 ACAATTTTCC GCAATTGAGC CAGGCTTAAA GAGTCGGTCG CGGGGTCCAA ACTCTCTGGA
+    41101 GCCGGGGCAG GTGGGGGTGG TTGCAGCGGT GGTGGTGGTG CAACTGCATC ACGCCTCAAT
+    41161 TCCGGACGCG CCGGCTGTCT TGGATGACGC TGGGGAAACT CTGGAAACTC TTCATCCTGT
+    41221 TTTCTAGACA ATTCTTCTTT GAAATCGCGG AATAGACTCG GCATGAGCTG CTCGTCTGGG
+    41281 ACAGGCGATA TATCTGTCCC CGTCTGATCA ACCTCATCTG CGCGAACAAT ATGGTGGCCT
+    41341 TGCTGATTTT CTTCTGACGA AGCCATTGGC ATCAGGTGGC CGTGCAGAGT CCTAAATCAA
+    41401 TATCCTCAAC TGAGTTGTAA ATTTCTGTCT GCTCTTAGAG AACTTGAGGG TATCTTCTGG
+    41461 AAGAGCAAAA GAGCAAACAT TCACCTAATT TGGCTACAAA GATGAACAAT TTTTAAGCAA
+    41521 AGAATCACAA GCGGCACTCA GGGTGTAAAG AAGAGCCAAA TGAGACCACG AGAGATCTTT
+    41581 TTTCTCCGGC TGTCGCATGC CAGTTCACTT TCGTCTGTTG TTGATGTAAG TCCACGCCCA
+    41641 TCTGAGTTTG GACCCGCCGT CCGCTTGCAT CCATCCATCT GACAACCAGC CGGGTTCGGG
+    41701 AATACGATGT TCCTCAGCAG TTGCATTGAG CGCGGAATTA ACTCTGAATC TCAGCCGCAA
+    41761 ATTGTCGGAC CTTCGACGTC GACAACTTTT GCTATGGTTC ACAGCGAATG TTCGCAGCCA
+    41821 ATGCCACAAC TTCTCTTACA ACTATCAATT GAACAGAAAG AGCAAATGTT ATTTTACCTT
+    41881 GGATTGTGAT AGGTCAACTG GCGCAGTTAA CCATCCTAAT GGCGCAGAGC ACCTCCCAGT
+    41941 AGCCCCGTTG GCGTATCCTG CATATATCCC ACCAACAAAA AGGGTCAGCG CCAGCCGATC
+    42001 CACTCGTAAA TCTCGGGTCA CAAGCTGCAT AACTTGGAGT ACCTCGCAAT TGTCTGTTAA
+    42061 CTTTCTCCGA TCGGCCGCCG AAGGCACGGG ATTGTTATGC TTATTCCATA ACTTCCGTCC
+    42121 CCAGATGACA GAGACCACCC ATCAAAGGTA GGAGGGATAT ATGTAAAGAT AAAAGGCGTT
+    42181 AAAGGAATCA GCTTTGTACG TTTGTATGCC CTATTATTTA CAGGAGCTTT GCTCTATGAA
+    42241 TATTTCTCCA TAGTTCGCAT CATTGGAATA TAACGCTTAC TCGAGCCAGC AGGGTTACGC
+    42301 TGAAAACTAA AGAGCGTCAA GTCATCTATG ACTGCCGCTT GCGTCTCTCT AAATTCAATT
+    42361 ATGTTGAGGG CCCGGTGCAT ATATCGATCC ATCAGCAGTG A
+//

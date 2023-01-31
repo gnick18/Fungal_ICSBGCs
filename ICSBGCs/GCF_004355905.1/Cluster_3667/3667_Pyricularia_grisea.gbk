@@ -1,0 +1,476 @@
+LOCUS       2442mF-Z6               6871 bp    DNA     linear   UNC 16-DEC-2021
+DEFINITION  GCF_004355905.1 results based on the annotation PF05141 and  inputs.
+ACCESSION   GCF_004355905.1
+VERSION     1
+KEYWORDS    .
+SOURCE      ICSCreator.py written by Grant Nickles (gnickles@wisc.edu)
+ORGANISM    GCF_004355905.1
+FEATURES             Location/Qualifiers
+     gene            complement(1..264)
+                     /db_xref="GeneID:41955161"
+                     /note="*Name PgNI_00164"
+                     /note="*end_range: 707100,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="PgNI_00164"
+                     /partial
+                     /note="*start_range: .,706837"
+     mRNA            complement(1..264)
+                     /db_xref="GeneID:41955161"
+                     /db_xref="Genbank:XM_031120247.1"
+                     /note="*Name XM_031120247.1"
+                     /note="*end_range: 707100,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PgNI_00164"
+                     /note="*orig_protein_id: gnl|WGS:RRCK|PgNI_00164-RA"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:RRCK|PgNI_00164-RA_mrna"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,706837"
+                     /note="*transcript_id: XM_031120247.1"
+     exon            complement(1..264)
+                     /db_xref="GeneID:41955161"
+                     /db_xref="Genbank:XM_031120247.1"
+                     /note="*end_range: 707100,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PgNI_00164"
+                     /note="*orig_protein_id: gnl|WGS:RRCK|PgNI_00164-RA"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:RRCK|PgNI_00164-RA_mrna"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,706837"
+                     /note="*transcript_id: XM_031120247.1"
+     CDS             complement(1..264)
+                     /db_xref="GO:0016491"
+                     /db_xref="GeneID:41955161"
+                     /db_xref="Genbank:XP_030987197.1"
+                     /note="*Name XP_030987197.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="PgNI_00164"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:RRCK|PgNI_00164-RA_mrna"
+                     /product="uncharacterized protein"
+                     /protein_id="XP_030987197.1"
+     gene            complement(679..1195)
+                     /db_xref="GeneID:41955162"
+                     /note="*Name PgNI_00165"
+                     /note="*end_range: 708031,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="PgNI_00165"
+                     /partial
+                     /note="*start_range: .,70751"
+                     /note="*backbone: True"
+     mRNA            complement(679..1195)
+                     /db_xref="GeneID:41955162"
+                     /db_xref="Genbank:XM_031120248.1"
+                     /note="*Name XM_031120248.1"
+                     /note="*end_range: 708031,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PgNI_00165"
+                     /note="*orig_protein_id: gnl|WGS:RRCK|PgNI_00165-RA"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:RRCK|PgNI_00165-RA_mrna"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,707515"
+                     /note="*transcript_id: XM_031120248.1"
+     exon            complement(889..1195)
+                     /db_xref="GeneID:41955162"
+                     /db_xref="Genbank:XM_031120248.1"
+                     /note="*end_range: 708031,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PgNI_00165"
+                     /note="*orig_protein_id: gnl|WGS:RRCK|PgNI_00165-RA"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:RRCK|PgNI_00165-RA_mrna"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_031120248.1"
+     exon            complement(679..857)
+                     /db_xref="GeneID:41955162"
+                     /db_xref="Genbank:XM_031120248.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PgNI_00165"
+                     /note="*orig_protein_id: gnl|WGS:RRCK|PgNI_00165-RA"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:RRCK|PgNI_00165-RA_mrna"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,707515"
+                     /note="*transcript_id: XM_031120248.1"
+     CDS             join(complement(889..1195),complement(679..857))
+                     /db_xref="GO:0003674"
+                     /db_xref="GO:0022607"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="PFAM:PF05141"
+                     /db_xref="GeneID:41955162"
+                     /db_xref="Genbank:XP_030987198.1"
+                     /note="*Name XP_030987198.1"
+                     /db_xref="GO:0003674"
+                     /db_xref="GO:0022607"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="PFAM:PF05141"
+                     /db_xref="GeneID:41955162"
+                     /db_xref="Genbank:XP_030987198.1"
+                     /note="*Name XP_030987198.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="PgNI_00165"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:RRCK|PgNI_00165-RA_mrna"
+                     /product="uncharacterized protein"
+                     /protein_id="XP_030987198.1"
+     gene            2440..2880
+                     /db_xref="GeneID:41955163"
+                     /note="*Name PgNI_00166"
+                     /note="*end_range: 709716,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="PgNI_00166"
+                     /partial
+                     /note="*start_range: .,709276"
+     mRNA            2440..2880
+                     /db_xref="GeneID:41955163"
+                     /db_xref="Genbank:XM_031120249.1"
+                     /note="*Name XM_031120249.1"
+                     /note="*end_range: 709716,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PgNI_00166"
+                     /note="*orig_protein_id: gnl|WGS:RRCK|PgNI_00166-RA"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:RRCK|PgNI_00166-RA_mrna"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,709276"
+                     /note="*transcript_id: XM_031120249.1"
+     exon            2440..2880
+                     /db_xref="GeneID:41955163"
+                     /db_xref="Genbank:XM_031120249.1"
+                     /note="*end_range: 709716,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PgNI_00166"
+                     /note="*orig_protein_id: gnl|WGS:RRCK|PgNI_00166-RA"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:RRCK|PgNI_00166-RA_mrna"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,709276"
+                     /note="*transcript_id: XM_031120249.1"
+     CDS             2440..2880
+                     /db_xref="GO:0003674"
+                     /db_xref="GO:0005575"
+                     /db_xref="GO:0008150"
+                     /db_xref="GeneID:41955163"
+                     /db_xref="Genbank:XP_030987199.1"
+                     /note="*Name XP_030987199.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="PgNI_00166"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:RRCK|PgNI_00166-RA_mrna"
+                     /product="uncharacterized protein"
+                     /protein_id="XP_030987199.1"
+     gene            3717..5189
+                     /db_xref="GeneID:41955164"
+                     /note="*Name PgNI_00167"
+                     /note="*end_range: 712025,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="PgNI_00167"
+                     /partial
+                     /note="*start_range: .,710553"
+     mRNA            3717..5189
+                     /db_xref="GeneID:41955164"
+                     /db_xref="Genbank:XM_031120250.1"
+                     /note="*Name XM_031120250.1"
+                     /note="*end_range: 712025,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PgNI_00167"
+                     /note="*orig_protein_id: gnl|WGS:RRCK|PgNI_00167-RA"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:RRCK|PgNI_00167-RA_mrna"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,710553"
+                     /note="*transcript_id: XM_031120250.1"
+     exon            3717..3724
+                     /db_xref="GeneID:41955164"
+                     /db_xref="Genbank:XM_031120250.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PgNI_00167"
+                     /note="*orig_protein_id: gnl|WGS:RRCK|PgNI_00167-RA"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:RRCK|PgNI_00167-RA_mrna"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,710553"
+                     /note="*transcript_id: XM_031120250.1"
+     exon            3758..3989
+                     /db_xref="GeneID:41955164"
+                     /db_xref="Genbank:XM_031120250.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PgNI_00167"
+                     /note="*orig_protein_id: gnl|WGS:RRCK|PgNI_00167-RA"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:RRCK|PgNI_00167-RA_mrna"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_031120250.1"
+     exon            4021..4258
+                     /db_xref="GeneID:41955164"
+                     /db_xref="Genbank:XM_031120250.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PgNI_00167"
+                     /note="*orig_protein_id: gnl|WGS:RRCK|PgNI_00167-RA"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:RRCK|PgNI_00167-RA_mrna"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_031120250.1"
+     exon            4299..4392
+                     /db_xref="GeneID:41955164"
+                     /db_xref="Genbank:XM_031120250.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PgNI_00167"
+                     /note="*orig_protein_id: gnl|WGS:RRCK|PgNI_00167-RA"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:RRCK|PgNI_00167-RA_mrna"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_031120250.1"
+     exon            4447..4845
+                     /db_xref="GeneID:41955164"
+                     /db_xref="Genbank:XM_031120250.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PgNI_00167"
+                     /note="*orig_protein_id: gnl|WGS:RRCK|PgNI_00167-RA"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:RRCK|PgNI_00167-RA_mrna"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_031120250.1"
+     exon            4865..5189
+                     /db_xref="GeneID:41955164"
+                     /db_xref="Genbank:XM_031120250.1"
+                     /note="*end_range: 712025,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PgNI_00167"
+                     /note="*orig_protein_id: gnl|WGS:RRCK|PgNI_00167-RA"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:RRCK|PgNI_00167-RA_mrna"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_031120250.1"
+     CDS             join(3717..3724,3758..3989,4021..4258,4299..4392,
+                     4447..4845,4865..5189)
+                     /db_xref="GO:0003674"
+                     /db_xref="GeneID:41955164"
+                     /db_xref="Genbank:XP_030987200.1"
+                     /note="*Name XP_030987200.1"
+                     /db_xref="GO:0003674"
+                     /db_xref="GeneID:41955164"
+                     /db_xref="Genbank:XP_030987200.1"
+                     /note="*Name XP_030987200.1"
+                     /db_xref="GO:0003674"
+                     /db_xref="GeneID:41955164"
+                     /db_xref="Genbank:XP_030987200.1"
+                     /note="*Name XP_030987200.1"
+                     /db_xref="GO:0003674"
+                     /db_xref="GeneID:41955164"
+                     /db_xref="Genbank:XP_030987200.1"
+                     /note="*Name XP_030987200.1"
+                     /db_xref="GO:0003674"
+                     /db_xref="GeneID:41955164"
+                     /db_xref="Genbank:XP_030987200.1"
+                     /note="*Name XP_030987200.1"
+                     /db_xref="GO:0003674"
+                     /db_xref="GeneID:41955164"
+                     /db_xref="Genbank:XP_030987200.1"
+                     /note="*Name XP_030987200.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="PgNI_00167"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:RRCK|PgNI_00167-RA_mrna"
+                     /product="uncharacterized protein"
+                     /protein_id="XP_030987200.1"
+     gene            6448..6871
+                     /db_xref="GeneID:41955165"
+                     /note="*Name PgNI_00168"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="PgNI_00168"
+                     /partial
+                     /note="*start_range: .,713284"
+     mRNA            6448..6871
+                     /db_xref="GeneID:41955165"
+                     /db_xref="Genbank:XM_031120251.1"
+                     /note="*Name XM_031120251.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PgNI_00168"
+                     /note="*orig_protein_id: gnl|WGS:RRCK|PgNI_00168-RA"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:RRCK|PgNI_00168-RA_mrna"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,713284"
+                     /note="*transcript_id: XM_031120251.1"
+     exon            6448..6588
+                     /db_xref="GeneID:41955165"
+                     /db_xref="Genbank:XM_031120251.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PgNI_00168"
+                     /note="*orig_protein_id: gnl|WGS:RRCK|PgNI_00168-RA"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:RRCK|PgNI_00168-RA_mrna"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,713284"
+                     /note="*transcript_id: XM_031120251.1"
+     exon            6670..6871
+                     /db_xref="GeneID:41955165"
+                     /db_xref="Genbank:XM_031120251.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PgNI_00168"
+                     /note="*orig_protein_id: gnl|WGS:RRCK|PgNI_00168-RA"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:RRCK|PgNI_00168-RA_mrna"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_031120251.1"
+     CDS             join(6448..6588,6670..6852)
+                     /db_xref="GO:0003674"
+                     /db_xref="GO:0005575"
+                     /db_xref="GO:0008150"
+                     /db_xref="GeneID:41955165"
+                     /db_xref="Genbank:XP_030987195.1"
+                     /note="*Name XP_030987195.1"
+                     /db_xref="GO:0003674"
+                     /db_xref="GO:0005575"
+                     /db_xref="GO:0008150"
+                     /db_xref="GeneID:41955165"
+                     /db_xref="Genbank:XP_030987195.1"
+                     /note="*Name XP_030987195.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="PgNI_00168"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:RRCK|PgNI_00168-RA_mrna"
+                     /product="uncharacterized protein"
+                     /protein_id="XP_030987195.1"
+ORIGIN
+        1 TCACGGCAGC GGCTTGCCTG GCTCATTGGC CTTGGCAATC AGCCCATGAC GCGGCTTGAT
+       61 TCCGTTGAAC CCGCGTAAGA CGATGGGCGA GTTTATCTCG CTTAGCGCTC GCACCTTGGT
+      121 CGCGTCGATA TCGAAAATGT TCATAGTTGC AGGTGTGGTC GGCCGGATTA GCCAACCGGA
+      181 TGGATAGATG GGCTCTGCGA AGATGGTGCC CTTTTGATCG CCCCAGGTTA TCAGGTCTGT
+      241 TTTCTCGCGG AAGTAGCTTG GCATTCCTTG CGCGTCATGT AGATGCCGTC TGTCGGCAGC
+      301 GGGCTGATTG AAATCTTATT GCTCCCCGTA CTGGGGTGAA TACTGAGATG GATACAGTCC
+      361 CCTCCAAACT TTGTTCTGAT GGAGTGGGCG ACAAAGACGT CACCTCGATG CAACCTTCGT
+      421 TGGCTGTCTT TTCAACCCAC TTCTTGTATG AAGATTTAGA ACGAGTGTCT GACAACGGCA
+      481 GGACATGGTC GAGGGACGGT CTGCAGGAAG CGAATGTAGA CTCTATACGT CATGCAGGTA
+      541 TCATCGCTCT GGGATATTCC GAGGTTCGTG TCTCATGAAT CTTCATTGTA CGCTTCGATA
+      601 AATGCCGAGC AGATGGCCTC GGGTTCTCAA CGTATGTCTT CTCGTGGACA TGAGCGGGCA
+      661 GGTTGACACT GTGTGGCATC AAGTCCTGGG CCGTGAGAAC TCAATGCGGC GGAAACTAGC
+      721 GGCGCCCAAC ATGTTACATA GGGCGTTTCC ATAGTTCCAG ATGTCACGGT CCGGCGCACC
+      781 CAGGAGGTAG TTGTACACAA GCCCGTCCGA GATAATGCAG AGGGCAGAGC CGAGTGGGTA
+      841 GACGTCCTTT ATGGCGGCTG GGTGAGTTGA ATGGGAAGGC GGGTAGACAC ATTGATATGT
+      901 GCTGGTTGGC GGTGATTCTA GCACAGATCT GGGAGAGAAC CTTGAACCCA TTGACGGTAA
+      961 GGTCATAGCT GCCGGGTCGG GTGGTTAGTT TGTATCTATG AATGATATCG AGAATCTTGC
+     1021 TGGGCTTTGG CGAGGTGAGT GGGATCTGAG TCTGCCGATA AGGATTCAAA GGGTGCTTTT
+     1081 TGTTGATGGA CGGGATCTCG TGGAGGAATG TTTTTGGGTC AATTGTCAGC TTCTGGAGCT
+     1141 GTGGAGTATT CGTCTCATCG GTAACCGGAG ATGCGTTGGG AGTTACTGAA GGCATGATGA
+     1201 CTTGATGGGA GCTACGACTG ATATGTAGAC AAGAGGACAT GTTAATTCAA GAGTTATGGC
+     1261 GTATCTTTGT CTTATAGAAG CAGAAGGAAT GGGGTATGAA AAGGTGTCGC ATCCCTTCAA
+     1321 CAGACTGACT GTGATGACAT TCCTAGTTGT CAGGAGCATC CCTAGTCTTC TCAATCTGAA
+     1381 CCTATTTTAG TACCTGCCTC ACAGGTATAC TCAAGTGGCC GTTTCTGGCA GGTGCAGTGA
+     1441 CAAGGTACGC CAGAGGGGAA CGTCACTTCC ACCACCCAAT GACATCAGCA AAGTTCAGCT
+     1501 CGGATTTTCA AACTTGCATC AGCACAATAG AAGTCTATGT AGTCGGAGCA TTGATATTGT
+     1561 TACATTGAAG CCGACGGCAT TTCTGACGTA ATTGGCTCAC ATTTGAGATT TTGTTCAAAT
+     1621 TCGGACTTGC TTGGGCTCCA TGATATTGCG GCTCTATCCT ATCTGGTCCG TGAACCCTGC
+     1681 AAGCTGGGGA GAGCGAAAGA TAATGGGCCT AGATCAAGTG AATCCATGAA CAACATATGC
+     1741 CAAATGCGTA AAACTAGTCT ATAAATGCTT GGGCAAAGCT GTTTGGGAGT CGGCGCTTAA
+     1801 TACTTTGTAT GTTGTGTTTT CCCGGCATTG ATATTGTCCA CAGCTCTAAT CCCTTGAAGC
+     1861 TTCTCTATTG TCATCATATT TGACATCACA GCCTGCATAT TTCTTGCTCC GTGCCTTTTT
+     1921 TTCCTCCCAG CTTGTGGTAC GGTACAACTG GCCAAACTCG AATGTCAATT GAAGAAAGGC
+     1981 TGGGGTAGAT TCGAACGCGT GCAAAATGAA GTTGTTTTGA AGAGCAGGTC CATATTTAGA
+     2041 TTACTTTTCT CACCATACCA TTCCCGTTCC GCTTGCGTTT CCCCAACTGC CTTCACGATC
+     2101 ATCTTGTTTT TTTTGAAAGC AGAAACTTGC CCATGCAACC AGTCAACATG GCATCAGGTC
+     2161 GCAAGGGAAC ACCGCCTCAT TCGTGTGGCT GATGACTGCC CGCTCTGCCC CGACAAGAAA
+     2221 CCAATGAGAG CCTCGCGGTC ACGATTGGAT ACCAAGGCCT CCTCAGGTCA GGCTCATATC
+     2281 AACCTGCGCT GACTGTACCA CCTCGAGGCT TTACCCCACC TCTCGTCAAG ACACTGATCT
+     2341 GCTTTCAACA CAACAAACTA CAACCGTCCA CGGGATACAT CGATGACTCT TACTAATACC
+     2401 CCTTTCAACC CACCAATTCA TACTGCTGAA CATAAAACCA TGTCTGGCCT CGAGCCCCTG
+     2461 GCGGCTATGG GATTTGCCTG CAGCGTCCTC CGGCTCGTCG AAGCTGGCGG CAAAATCTTC
+     2521 AACATCGCCC AAACAGCCTA CCAACAAGGT ACCATCGACC GCAAGACGGC AAAAGAATAC
+     2581 ACCTCGATCC TGTTTCAACT ATCAAACGAG ATGTTAAGTA AAAGTGCAAC GGCGCCAGCA
+     2641 AAGCCAGCCC ACTGCGAGGT AGAGCTCCTC AAGACGGCCA AGACTTGTCG AGATGTTTCC
+     2701 CGTGACCTTT CTGAAGACCT CACGTACCTT GATAGTCTGG CGAGCAAGGG TGAGCTGCTT
+     2761 GCAGCGGTAA AGTTGGCAGC CAAGGTCAGT TGGAGACAGA GGAGACTCAA GAGGCTTGAG
+     2821 CAGAACCTGA AAGACGTGGA GAGTAGGATG CAAAAGTTAA TTTTGGGGCG TGTCTTGTAA
+     2881 GTCGCCAACA TATTTCCCGT TATACTCGTG ACTATGTCTT TTACTGCATT TCTTTCTACA
+     2941 CCATATACTG CATCCTGTGT TGTTCAGTTC ACTAAAACCT ACATTACGTC CCTCATGTAA
+     3001 TCTTTCGTTT TCCTTTCATG GCCCTGGTTC TGCTAATATT GGAGCGGCAT GCTGATCTGT
+     3061 CGGCAAAGCA TAATAATTAC GGACTGGTCT CTAAAAGACC TCAAGGCACT TATATTGGAA
+     3121 GTTATCGCAA GTTTCCCGTC GTCTCTTTGC ATCTTTCTGG ACGGCCTGGA TAAGCTAGAT
+     3181 CCACAAGAGA GTTTTCTAGA TCCATGGGAC CTGGTTTGCG AAATAAAGAT AGCAGGTCTT
+     3241 GTTAAGATCT ACTTGGCTTT TCGACCCGAG CTACAAATCA AAAAGGAGCT GAGCATCTTT
+     3301 CCGTGCCTTC GGTTGCAAGA TCTGAATTTT TCAGGACCTG AGAGACTACG CAGAGGCAAG
+     3361 ACTCGAGCTG AAGCTATACG CGCACATGGA TCCCAAAAGG AAATTAAAAA TGAGCGAAAG
+     3421 AAGCCGTTGT GTCTCGACTG GCCTCCAAGG CCGAAGGCAT ATTTCTGTGG CTTTGTATCG
+     3481 TCACGAAGCG TGTCCGAGAC GACCCGCATC AAGAATTTGG CCTTGAAGAC ATTATCAGAT
+     3541 GGATCGATCT TGTACCTGAT GAGGTTAAGA AGCTTTATGA AGAAATGTAG ACGAAATCAG
+     3601 AAAAGGGCAA GCGAGGAAAA AGACGTGCTC TGGCCGCCCT ATACTTGCAC AGAGCTCTTA
+     3661 AATTTAGCAC TACACTCCGC ACTCGTGCTT TTAACTTTCG GCTTAATCCC CTGATGATGA
+     3721 CCCTGTGAAC CGAGGGAACG GATCTCCATT TACCAAGGTC CCAAAGCGAC ATCCAAGATC
+     3781 GAGCAAGGGA GCTTGTTCGT TTATGCAAGC AACCTGAGCG CTATGTTGAG CTTAGCTGTG
+     3841 CAGGCCTGCT CGAGCTAAGG CTTCAATCTG GATTTCAGGG ACCAAGTCAT CTTTTTAACT
+     3901 CGGTAGACGT CTCGGCTGGG AGTCCACTTA TCTGGGACCC CTGGGACGAA GGCTGCAACC
+     3961 CAGACAGCGC AGATCACCAG CGAAGAAGAG TCAAACGTCT TCATCAGTGG GGGGATATAG
+     4021 CGAGGTTGCG AGGAACGAGC GGATTTGATC CTCCTCGGCC CGCCCCATAC AGAAAGCCTG
+     4081 GGACTTGACA GCTTCTGGAA CTGGGACGAA GAATACCGAC TGAGAGCAGC AGCAGCGGGA
+     4141 TTCGACCACA GACTACTCGA TCCAGGATTG CATCGCCCGA GCCAGTTGTC GCGTTTGATG
+     4201 CTTGCGGCAA TTCGGTCCAA GCAGCCTGGC TCGCTCTCGT ACAGCATTGG GTTATTGAGT
+     4261 AGCCTGTCGA GGAACGGGCT TGACCTGTCA CTGGTCAGTC AGGGAGCTGG CCTTTACAGA
+     4321 CCATTACAAG AGCCCCTTTG GTAAGGAATG GTTTTACCTC GAGACGCCTT TGACGTTGAC
+     4381 CTTGGGCAAG CTGTATGATT AATTCCTTTA CCTCAATCGG ACAGGCTTCA CTTACACTTC
+     4441 CGCCAGGGGA CCTGGAGTTC TCGAGGAGAT CCTTGACCTC AGTATCACTT TACTGGAGCT
+     4501 CGGGGCACCG CTCAACTCCC ATGTGTTTGT AACCTTGACC CAGAACCCCA ACGTTCAACT
+     4561 CATCAAGGGC ACATTGTTTC ATGGCTGTCA TGGTGATTTT GATCGTCTTC CGTCCGACGC
+     4621 ACTTAAAATA CATATATCGC CGTCTCCTCT GGAACTGTCG ACTGGGTTGA TGGCAGCTTT
+     4681 CTCTGTCGCC GCAAAGACCC TTGTTCGATA CATTTTACAG CGTCTCAGAG CATCGAAGCT
+     4741 GCCTCCGGAG TCTCTCGCGC GAGTAGAAAA CCTGAAAGCC TTGATCGATA AAGATGTTTG
+     4801 CAAATATAAC ACTCTCGACA TGGATATGGG TACTGAGCCT TTGATGTTTG CCTCCGAGCT
+     4861 CAAGTATGCG GATGTGGACG GTTGGGCCTC GACACTATAT AACGAGGAAA AAGCTCAAAG
+     4921 AGGTTGCGGG GGCAAGACGA CGGGAAGAGT TGCAGAAGCA CTTGCTTGAA TCCATGCTTG
+     4981 GTACAAAAGT GGAAGACCGT GATGAAGCTA TGGAGAAGGT CCATCAACTA CTGGAAAGCA
+     5041 TATTCTCAGA ATCAAAACCT TCAAGCCTGA TAACGGCGGC CGGGGTACAT AGTAGAGTGG
+     5101 AAATGGCCGG TTATATTTGC CAGGGATTCA AGAAAGTCTT CGACGAGGAC CCAAGTCTCT
+     5161 GGGTAGGAGA TCGAAATGTT CATGCGTAGG CGTGCCTAGG TATGTTGAAA GCATGATACT
+     5221 CGTGTTGAAC AACGAGATAG ATGAGACTTT TAGGGAAGTT CTCGCGAAAA GAAAACCTTG
+     5281 CTAGGTTTCT TTTTGGTTGC TGTACTCTGC AAACACGATA CGTTGAATAG ACTAAAGTTT
+     5341 TTCACAGTCA CGATGGCTCT TGAATAGGAC CGCCCAGGGT CTTGCTCAGA TTGTTCAACC
+     5401 TTTTGCTACC ATCTAATAAT AGGACTGTGC CTTCCAAGCC CCGTGGTCGT TCCGCTTGAA
+     5461 GTAAGAATCT AGAACAGACA CTTTCATTTT TGACAAGGAA CAGTCTCCTA AGCTCCTGGA
+     5521 CGAGGCGAAG GGAGATGTTA TCGTATGACC AGTCCAGAGG CCCTCAGGCC ACAGTGCGAA
+     5581 ACCCTCCACT CACCAAATGT CAATCCTTTC GCCGCTGCTG TGCGCAGTGA ATGGGCTTAT
+     5641 TTTGGGCATT ACTTGACCAA TAAAAAACGG ATATGCATAA TAAAATCGTT GTCTCATTAG
+     5701 GCTTCAGTGC GGTCGCACAG CATTTTTCAA CCGCGATTCC CTCGGTCCCG ACAGAGTTCC
+     5761 CGGTCGTACA AAATAGCCTG TCAGAATAAG CTTCCCTTTT GTTTGCTTGT GGGCGGTGTT
+     5821 GCTTATGGCT GATGTTTCGT GTAATCTTTC ATTCGAGGAG GGCTTTTGGT CATGGTTCCA
+     5881 TCTAGACAGC AGATTCCTTG TTGCGGCGCT GAAATAGATC TTTTCTGATT CTATCGTCCG
+     5941 ATTTGTGGCT TACCTCAAGC CCTTCATAGC CACTGCTTTG GCCCCCAACG GCAAAAGCCA
+     6001 CAACGGGGAG AAGTACTTTT GGACCGTCTC ATCTTTTACT TTGGATTCGC TGGGGTTCTG
+     6061 CATGACGGGC GTGGGATCCA AAAAAAGATA TACTCAACTG CCTACAGGAC TGGCGTTGGG
+     6121 GCAGGGTAGA AGTTTAGCCT TGTGATATGC TGCACAGTCA TGATGGATTG TGTCTTTCAT
+     6181 CAAGCATCGT ACAGATGCTG CCTGTCATTG TTGTACTGCT TTCATGGTAC AGCCTCAAAT
+     6241 TGTGGACGAG CCTGCTGGAT GCACGATAGA ATCTCAGGTA TTAATATCTG GCCTCTCGTC
+     6301 ATCAGGTTGG AGGATAATTA CAGTATAACA CATCACTCAT CAAACAATCT ACCATCATCA
+     6361 TCAAGACTCA CTACAAAGTT TCTCTTCCAC ATATCACATC AAATCCAACC TCCAAACTTA
+     6421 CCAGCCAACA ACCAACCAAA CATCAACATG AAGACCGCCG CAACCATCAT CATCCTCGCC
+     6481 ATCCAGGCCC TCGGGGCCTT CACCGCCACC GCCGCCAGCC CCGCAGACCT TCCCCTAGGG
+     6541 ATCGAAGTGA TCGAGGACAG CCCCGGTAAC CTCGTCGTTC GTGAGGTGGT AAGAAACCTG
+     6601 CAACAGTGTT TTTTTTTTTC CTTCTGCACC ATCCAACCAT GCAAGACTAA CAAAAACCAA
+     6661 AATATACAGT CTTCCAACTC CAACCCTCTG CAGAAGAGGT GCCGTGAGTG CGTGCACCTC
+     6721 GCCGGCAAGT GCACCATCGG TCACGGCAGC TGCTACGCCC GCGAAAAGGC GAGCTGCACC
+     6781 TGGTGCGGCG ACAAGTGCGG ATCCATCTGC GTCATGAGTG GCACCAAGTG TTCTGACTGG
+     6841 TGCAGCAAGT AGAATGGAGT TGGAAACTGG G
+//

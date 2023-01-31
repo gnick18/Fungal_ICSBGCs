@@ -1,0 +1,610 @@
+LOCUS       444mF-Z117             11391 bp    DNA     linear   UNC 16-DEC-2021
+DEFINITION  GCA_009176345.1 results based on the annotation PF05141 and  inputs.
+ACCESSION   GCA_009176345.1
+VERSION     1
+KEYWORDS    .
+SOURCE      ICSCreator.py written by Grant Nickles (gnickles@wisc.edu)
+ORGANISM    GCA_009176345.1
+FEATURES             Location/Qualifiers
+     gene            1..72
+                     /note="*Name BDV29DRAFT_t171"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: tRNA"
+                     /locus_tag="BDV29DRAFT_t171"
+     tRNA            1..72
+                     /note="*Note Anticodon: CTC"
+                     /note="*anticodon: (pos:77831..77833)"
+                     /note="*gbkey: tRNA"
+                     /locus_tag="BDV29DRAFT_t171"
+                     /product="tRNA-Glu"
+     exon            1..72
+                     /note="*Note Anticodon: CTC"
+                     /note="*anticodon: (pos:77831..77833)"
+                     /note="*gbkey: tRNA"
+                     /locus_tag="BDV29DRAFT_t171"
+                     /product="tRNA-Glu"
+     gene            complement(580..2456)
+                     /note="*Name BDV29DRAFT_159218"
+                     /note="*end_range: 80253,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="BDV29DRAFT_159218"
+                     /partial
+                     /note="*start_range: .,78377"
+     mRNA            complement(580..2456)
+                     /note="*end_range: 80253,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_159218"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_159218"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA159218"
+                     /partial
+                     /product="monooxygenase"
+                     /note="*start_range: .,78377"
+     exon            complement(2339..2456)
+                     /note="*end_range: 80253,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_159218"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_159218"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA159218"
+                     /partial
+                     /product="monooxygenase"
+     exon            complement(2145..2264)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_159218"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_159218"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA159218"
+                     /partial
+                     /product="monooxygenase"
+     exon            complement(1670..2087)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_159218"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_159218"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA159218"
+                     /partial
+                     /product="monooxygenase"
+     exon            complement(1472..1608)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_159218"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_159218"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA159218"
+                     /partial
+                     /product="monooxygenase"
+     exon            complement(1083..1403)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_159218"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_159218"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA159218"
+                     /partial
+                     /product="monooxygenase"
+     exon            complement(580..1001)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_159218"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_159218"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA159218"
+                     /partial
+                     /product="monooxygenase"
+                     /note="*start_range: .,78377"
+     CDS             join(complement(2339..2456),complement(2145..2264),
+                     complement(1670..2087),complement(1472..1608),
+                     complement(1083..1403),complement(580..1001))
+                     /db_xref="InterPro:IPR002938"
+                     /db_xref="JGIDB:Asplep1_159218"
+                     /db_xref="NCBI_GP:KAB8071722.1"
+                     /note="*Name KAB8071722.1"
+                     /db_xref="InterPro:IPR002938"
+                     /db_xref="JGIDB:Asplep1_159218"
+                     /db_xref="NCBI_GP:KAB8071722.1"
+                     /note="*Name KAB8071722.1"
+                     /db_xref="InterPro:IPR002938"
+                     /db_xref="JGIDB:Asplep1_159218"
+                     /db_xref="NCBI_GP:KAB8071722.1"
+                     /note="*Name KAB8071722.1"
+                     /db_xref="InterPro:IPR002938"
+                     /db_xref="JGIDB:Asplep1_159218"
+                     /db_xref="NCBI_GP:KAB8071722.1"
+                     /note="*Name KAB8071722.1"
+                     /db_xref="InterPro:IPR002938"
+                     /db_xref="JGIDB:Asplep1_159218"
+                     /db_xref="NCBI_GP:KAB8071722.1"
+                     /note="*Name KAB8071722.1"
+                     /db_xref="InterPro:IPR002938"
+                     /db_xref="JGIDB:Asplep1_159218"
+                     /db_xref="NCBI_GP:KAB8071722.1"
+                     /note="*Name KAB8071722.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="BDV29DRAFT_159218"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA159218"
+                     /product="monooxygenase"
+                     /protein_id="KAB8071722.1"
+     gene            4165..6564
+                     /note="*Name BDV29DRAFT_178754"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="BDV29DRAFT_17875"
+                     /note="*backbone: True"
+     mRNA            4165..6564
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_178754"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_178754"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA178754"
+                     /product="putative pyoverdine/dityrosine biosynthesis
+                     protein"
+     exon            4165..4767
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_178754"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_178754"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA178754"
+                     /product="putative pyoverdine/dityrosine biosynthesis
+                     protein"
+     exon            4825..5210
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_178754"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_178754"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA178754"
+                     /product="putative pyoverdine/dityrosine biosynthesis
+                     protein"
+     exon            5268..5911
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_178754"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_178754"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA178754"
+                     /product="putative pyoverdine/dityrosine biosynthesis
+                     protein"
+     exon            5997..6564
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_178754"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_178754"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA178754"
+                     /product="putative pyoverdine/dityrosine biosynthesis
+                     protein"
+     CDS             join(4353..4767,4825..5210,5268..5911,5997..6462)
+                     /db_xref="InterPro:IPR003819"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="JGIDB:Asplep1_178754"
+                     /db_xref="NCBI_GP:KAB8071723.1"
+                     /note="*Name KAB8071723.1"
+                     /db_xref="GO:0016491"
+                     /db_xref="GO:0055114"
+                     /db_xref="InterPro:IPR003819"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="JGIDB:Asplep1_178754"
+                     /db_xref="NCBI_GP:KAB8071723.1"
+                     /note="*Name KAB8071723.1"
+                     /db_xref="GO:0016491"
+                     /db_xref="GO:0055114"
+                     /db_xref="InterPro:IPR003819"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="JGIDB:Asplep1_178754"
+                     /db_xref="NCBI_GP:KAB8071723.1"
+                     /note="*Name KAB8071723.1"
+                     /db_xref="GO:0016491"
+                     /db_xref="GO:0055114"
+                     /db_xref="InterPro:IPR003819"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="JGIDB:Asplep1_178754"
+                     /db_xref="NCBI_GP:KAB8071723.1"
+                     /note="*Name KAB8071723.1"
+                     /db_xref="GO:0016491"
+                     /db_xref="GO:0055114"
+                     /note="*gbkey: CDS"
+                     /note="*go_function: oxidoreductase activity|0016491||"
+                     /note="*go_process: oxidation reduction|0055114||"
+                     /locus_tag="BDV29DRAFT_178754"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA178754"
+                     /product="putative pyoverdine/dityrosine biosynthesis
+                     protein"
+                     /protein_id="KAB8071723.1"
+     gene            complement(6845..9115)
+                     /note="*Name BDV29DRAFT_13501"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="BDV29DRAFT_13501"
+     mRNA            complement(6845..9115)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_13501"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_13501"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA13501"
+                     /product="hypothetical protein"
+     exon            complement(8855..9115)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_13501"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_13501"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA13501"
+                     /product="hypothetical protein"
+     exon            complement(8593..8795)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_13501"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_13501"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA13501"
+                     /product="hypothetical protein"
+     exon            complement(8479..8539)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_13501"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_13501"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA13501"
+                     /product="hypothetical protein"
+     exon            complement(8080..8429)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_13501"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_13501"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA13501"
+                     /product="hypothetical protein"
+     exon            complement(6931..8025)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_13501"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_13501"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA13501"
+                     /product="hypothetical protein"
+     exon            complement(6845..6867)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_13501"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_13501"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA13501"
+                     /product="hypothetical protein"
+     CDS             join(complement(8855..8969),complement(8593..8795),
+                     complement(8479..8539),complement(8080..8429),
+                     complement(6985..8025))
+                     /db_xref="InterPro:IPR000467"
+                     /db_xref="InterPro:IPR001876"
+                     /db_xref="JGIDB:Asplep1_13501"
+                     /db_xref="NCBI_GP:KAB8071724.1"
+                     /note="*Name KAB8071724.1"
+                     /db_xref="InterPro:IPR000467"
+                     /db_xref="InterPro:IPR001876"
+                     /db_xref="JGIDB:Asplep1_13501"
+                     /db_xref="NCBI_GP:KAB8071724.1"
+                     /note="*Name KAB8071724.1"
+                     /db_xref="InterPro:IPR000467"
+                     /db_xref="InterPro:IPR001876"
+                     /db_xref="JGIDB:Asplep1_13501"
+                     /db_xref="NCBI_GP:KAB8071724.1"
+                     /note="*Name KAB8071724.1"
+                     /db_xref="InterPro:IPR000467"
+                     /db_xref="InterPro:IPR001876"
+                     /db_xref="JGIDB:Asplep1_13501"
+                     /db_xref="NCBI_GP:KAB8071724.1"
+                     /note="*Name KAB8071724.1"
+                     /db_xref="InterPro:IPR000467"
+                     /db_xref="InterPro:IPR001876"
+                     /db_xref="JGIDB:Asplep1_13501"
+                     /db_xref="NCBI_GP:KAB8071724.1"
+                     /note="*Name KAB8071724.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="BDV29DRAFT_13501"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA13501"
+                     /product="hypothetical protein"
+                     /protein_id="KAB8071724.1"
+     gene            complement(9181..9669)
+                     /note="*Name BDV29DRAFT_13497"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="BDV29DRAFT_13497"
+     mRNA            complement(9181..9669)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_13497"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_13497"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA13497"
+                     /product="hypothetical protein"
+     exon            complement(9181..9669)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_13497"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_13497"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA13497"
+                     /product="hypothetical protein"
+     CDS             complement(9260..9616)
+                     /db_xref="JGIDB:Asplep1_13497"
+                     /db_xref="NCBI_GP:KAB8071725.1"
+                     /note="*Name KAB8071725.1"
+                     /note="*Note expressed protein"
+                     /note="*gbkey: CDS"
+                     /locus_tag="BDV29DRAFT_13497"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA13497"
+                     /product="hypothetical protein"
+                     /protein_id="KAB8071725.1"
+     gene            10220..11391
+                     /note="*Name BDV29DRAFT_197200"
+                     /note="*end_range: 89188,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="BDV29DRAFT_197200"
+                     /partial
+                     /note="*start_range: .,88017"
+     mRNA            10220..11391
+                     /note="*end_range: 89188,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_197200"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_197200"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA197200"
+                     /partial
+                     /product="S-adenosyl-L-methionine-dependent
+                     methyltransferase"
+                     /note="*start_range: .,88017"
+     exon            10220..10260
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_197200"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_197200"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA197200"
+                     /partial
+                     /product="S-adenosyl-L-methionine-dependent
+                     methyltransferase"
+                     /note="*start_range: .,88017"
+     exon            10308..10446
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_197200"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_197200"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA197200"
+                     /partial
+                     /product="S-adenosyl-L-methionine-dependent
+                     methyltransferase"
+     exon            10476..10720
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_197200"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_197200"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA197200"
+                     /partial
+                     /product="S-adenosyl-L-methionine-dependent
+                     methyltransferase"
+     exon            10795..10897
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_197200"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_197200"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA197200"
+                     /partial
+                     /product="S-adenosyl-L-methionine-dependent
+                     methyltransferase"
+     exon            10927..11391
+                     /note="*end_range: 89188,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BDV29DRAFT_197200"
+                     /note="*orig_protein_id: gnl|WGS:SWBU|BDV29DRAFT_197200"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA197200"
+                     /partial
+                     /product="S-adenosyl-L-methionine-dependent
+                     methyltransferase"
+     CDS             join(10220..10260,10308..10446,10476..10720,10795..10897,
+                     10927..11391)
+                     /db_xref="JGIDB:Asplep1_197200"
+                     /db_xref="NCBI_GP:KAB8071726.1"
+                     /note="*Name KAB8071726.1"
+                     /db_xref="JGIDB:Asplep1_197200"
+                     /db_xref="NCBI_GP:KAB8071726.1"
+                     /note="*Name KAB8071726.1"
+                     /db_xref="JGIDB:Asplep1_197200"
+                     /db_xref="NCBI_GP:KAB8071726.1"
+                     /note="*Name KAB8071726.1"
+                     /db_xref="JGIDB:Asplep1_197200"
+                     /db_xref="NCBI_GP:KAB8071726.1"
+                     /note="*Name KAB8071726.1"
+                     /db_xref="JGIDB:Asplep1_197200"
+                     /db_xref="NCBI_GP:KAB8071726.1"
+                     /note="*Name KAB8071726.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="BDV29DRAFT_197200"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:SWBU|BDV29DRAFT_mRNA197200"
+                     /product="S-adenosyl-L-methionine-dependent
+                     methyltransferase"
+                     /protein_id="KAB8071726.1"
+ORIGIN
+        1 TCCGATGTGG TGTAATGGTT AACATCGCTG TCTCTCACAC AGCAGCTCGG GGTTCGATTC
+       61 CCCGCATCGG AAACGCATTC TTTTTTGTGG ATTGTTTTTC GCCCCTCTGC ACTCCTGGAC
+      121 GCAAAAAAAA AGATGGGCCT GTTTGTTGCT AAGAGATTGA TTGGGTGACT AAACAAGTTA
+      181 GTTAGCCCTA CTCACTGCTC TTAACCATTC TTTAGGCAAT TATTCACCGA GCTGGCATTG
+      241 GATGAAGGTC TTCAGCTCCC CTTGAGTTTA TCTATACGTT TGTTCTTATG TAATAAGCCT
+      301 AGATCAAGAT ATCAGATTCA ACACTGTTGT TTCTGCCATT AGTGAAGGCG TTTTTACACA
+      361 GGGCCTATCG CGTTACCAAT TAGCAGCGAC AGGTGGATTT GCTGAGTAGC CATTCAGTGG
+      421 TAAGTTGAAC TGGAAAACGG AGTATGCAAG GTATCAGAAG GCAACAGACA TGCCTCAATA
+      481 CGTGACGGTG ATACGACTTT CTGGATTTAG ATGATTGTCT GTTATACTGA GGTCATACCC
+      541 AACTTATAAC ACGATGTAAA ATGAAATCTA TTTTATCTAT TAAACAAATA CCGACGCCAA
+      601 GTATTGAACC CAATCCTTCC CAACATAACC GATATACATA TCGGGTCTTA CGACCACAAT
+      661 TGTGCCCTCA TCACCCTTCA CCCATCCTGC ACTGTATTCA TGAATGAGGG TAGTGAGCCG
+      721 ACAATTCTGG TCGTGAATGT GCCATACCTC TACTTTTTGT TGTAGTTCAA TAGCCAGCTC
+      781 GAAAGAGGCC GGTTTCTCGG TGCCAAGGAA AAGGACTTTG AACTTTCCAT ATTCGACCAA
+      841 CTCGTATAGA CGGGCACGAG ATGGCTCGCC GGGTTGGGTT TGAAATGATG TTTCAGGGAG
+      901 TGTGGTAAGC CATAGGTCAG GGCAGCGATG ACCAGCCACG AAATCTCCAT AGCTCGAGTC
+      961 GACCACCAAG GGTGTAGTAG AGGTGTAGGA GACTCCCATG CCTGTGGGTT GCAAGGTCTT
+     1021 GGGTCAGCCG ATACTTCGCA AAGAGAAAGA AACTAAGGAA AGATAGAGTA ATGAACTCGT
+     1081 ACCTGTGATG TAACCCGCAT TCTTTTCAAT TGTTTCTACA TACTCCAACG CAGTTTTCAC
+     1141 GGTCGTCCGC ACGAGTTTAG CAGCAACCTC AATAACGGCT GTGGCTGTGG CCCGCCGCTC
+     1201 TTCATCGTAA CTCTTCAGCA GAGTGGATCC CCCATGCCCC TTGACCACGA ATGCGACTCT
+     1261 CCATATGAGG TTGAACGCGT CTGCGATTCC GGTATTCAAG CCTTGACCAC CATTGACGGC
+     1321 GTGGACGTGA GCAGCGTCGC CGGCAAGCAG GATGCGACCA TCTCCATTAT TAGAAATGAA
+     1381 TGTGCTGGCC ACTCTTTCCT TGACTAAACA GCTGCATTAA TAATGGTATC CGTAACTCGG
+     1441 AAATTTGGAC GGCAAAATGA TGGCCACATA CTCTCAAAGG TGCTGAACCA TTCGGTCTTT
+     1501 TTGAACTCGA TCTTGTGTGG AGCCATATGT TCTCGAATGG AGGTCTCGGC CTTTTCCTGC
+     1561 GTGATCTTTC CATCGAGAAG AATGTAGAAG CGATTCATGC CCCGTTCCCT TTACCGCCTG
+     1621 AAGTTAGAAC AATGCGACTC GGTGCTGTAA GCGAAGAGTC GATACATACC TGGGGATCCA
+     1681 CGCAACTCGT GATTGTCCAT CCTTCTGGAA GGTGATGATC TCAGGACATG TAGGAAAATC
+     1741 AGTTTCAATG AAGGTATCCA AGACGGCCCA CACCATCTCG GGCTTAGTCC CGGTGAATGG
+     1801 AATCCCAAGC GTAGTGCGCA CGAACGAGCG CGCACCATCT GCCGCAATGG CAAACTTGGC
+     1861 CACCACTGTT CTTCCTTGGT CTGTCTTTAC CAAGACACCT GATTTAGTCT CTTGGATTTC
+     1921 ATTGACACGG GTATTGTAGT CGACAGGGAT GTCGAGTTGA CGGAGCAGAA CATCCTCAAC
+     1981 GCGTGACTGG CCTATCATGA GGAAATTGGG ACGATGGGTA TGCTTTAAAG ACGTCCACCA
+     2041 ATGGTTTTGC TGGGAGGTGA ATTCTCCTCC TTCGAATGTC GAGCTCGCTG AGGGACGGGT
+     2101 GTTAGCTAGA TATGAGATCT TTGTCAAAAT GGGGTTAAAC GAACTATTGC ATTTCAGGCC
+     2161 GAAGGGCTCG AGGAAGGATA ATGTTTTTGT CACTTCGAGA TACTGTTGGG TTCTAGCGTT
+     2221 CAATGCATCC GCACGGCCGA GATCTAGAGG ACCGTCTTTT GCATCTGGAG GTCGAAATGA
+     2281 TTAGCTCTAT CGCTTTCATT CACTCTATAT GCTAGTTGAG TGTGCAGAGT ATTCTTACCG
+     2341 ATGATATACA CCGAGAGCCC TAAGGATCTT GCGAGGACAC CAGACAGTAA ACCTGTTGGG
+     2401 CCGCCCCCAA TAATGACCAG GTCAACCTCG AAGGGTGATT GTAAGTTGTT CTTCATAGTG
+     2461 AAATAGAAAG ATATTTTTAC TGATGACACA CTTTGGCAAG AAGGAAAGCG AGGAGATTTA
+     2521 TTAACAGAGC CCAAGACACG AAAGGGAATG AAATCGTATG ATGCACTCAA CAATACATTC
+     2581 TCTTTCCGAC CCTGAGGGAA TAAGGCAATA TACATCTTCA GGGCTGGAAA TCGGTATATG
+     2641 GGCCCGTGCT GTAGCTCTGC CAAGAGACCG GCACATTGAT CACTGATTAA TATTCCACTC
+     2701 CACCCCAATC CTTCGAGTGC GGCGATATTC CGCTAGTGGA TTGTCTTATC TGATGGAATT
+     2761 CAACCAGTGA TTACAAATGC AGAAATCGCA CGATTTATTT GTTTCAATTA AAAGTCTAAA
+     2821 TTAGCTAATT AAGGCTTTAT TAGGCTCCCA TTTTCTCTGT TGCCGATATG GGTCCATGGT
+     2881 AGGGTCGCTT CTAGATCGTG GGTGGATCAA GGCTCGACGT TTGTCTACAC TGACTGAGAG
+     2941 GGTAATCCGC CAGCTGTCTG AAATCAGGTG GGTTGAGAGG GAGGACAGAG CGGGATGCTG
+     3001 ATTGCAATGA ATCTGACACG GACATCTCCA TGTACTCCAG GTAAAGAAAA TCTCTACTGC
+     3061 CGGCTCGGAC CCTGCCATAC TCCATAGCGC TTTTGCAGAA ATTGCAGGCA CGAATCAGGT
+     3121 GGAGTACAGT TGCATTTGGT GCGCGGGTTT AGCGGGCCCT AAAGCTTAGC ATTTAAACTT
+     3181 AACCCAGTTA GACTATACGC TAACAAACGC CCAGTGAACC CTAGGCAAAA GTTTCCCCTA
+     3241 TCGCTTAACC CAAAACCTGC ATTAGCCCGA CATTGGAGAC CGTCGGTCTC CTGAGGTCCT
+     3301 AATGTCAATT ATATTAAAAT GTAAGGGCCT TCTCCGACTA CCGGAAGCGC TCTGCGGTGG
+     3361 CTTGAAAAGC GGGCATGGTA AATAAATCCT CCGTCACTTA AATCTGACTT TCAGCTCTGA
+     3421 TAGAGATGAC GGACAGCCTA AGCTGTATGT CCCCCGGCTG TTGCACTGAA ACGGTTCAAA
+     3481 CCTGAGACAC TTTCTATTTA GGTAATAGAA TCTACTCTGA TACTTAGGGC ATATCTTTAT
+     3541 TTAGGGGTCA GAGTTGTGCC AAGGCTCAAC ATCCCTGGTC TTTTGCCTGT GGCGCAACAT
+     3601 TAAGCTGTCC TGGATGCTAC CACAGCCCAG GACACGCTCC TTCCGTAATA AATGACGCAA
+     3661 ATAATACCTC TATTATTATC TCGTCGACAT TGCCTCTTGC TGACACTGGG TCATACAGCT
+     3721 AGGAGGCTTG GTAACAACTC TAAACTCTCT TTTCGTGGAT TGTTCTTACC AGCTCTTCTG
+     3781 CACTTCATGA AAATGTAACT TGCAGTGGAC GCTTTGGTAT GAATACCTGC CCATAGTCAT
+     3841 GTTGAAGGCT AGTTGAAGGG TAGGTACTAT GAACTGACCC TCAAAAGTAG CGCCTCACCT
+     3901 CGTATGCATG TATATAACTC TCTATAAGAG TTCCTCGCAT GACGGTAGGG CCTGCACAGG
+     3961 GTCCCCAGAC TGTGAGACCT CCACTCCTAG TTCGAGCCTT AACGTGGTCC GTTTAGGGTT
+     4021 CGCCACCGTA GCTGAGGCGA GCGGAAATGT GCCGCTAGTT GCAGGTTCTA TGCAAAACTG
+     4081 CAGAATCTAA CATCATATGA TACCTGTTAT CTGCCTAAGC TCGCTTCAGT TAATATGCTT
+     4141 GGTAATATTT GATTAAATTT GATTATTCTT GGCAGCTTAT GTGAATTTCG ATATTGAATT
+     4201 GATGTTGAGG GTTTGTCTTT CAGTTGAGAA CAATATATAT ATATATCTAT CACCTACCAA
+     4261 GATGTCGGCC TACTTGTTGT CGCAGAGACA AAATCGGTTC ATATCTGATC CTGTCCACTT
+     4321 CATTCTTCAA TTCCAGAGAA CATCCTCCCA CCATGAGTGC AGCAGCGGTC CAGACTATAT
+     4381 TAGCTACGTC AAGTTTTCCG GCTTTTCCTT TAGCCGACAC TATCTTATTT GATACAAAGG
+     4441 CACTTCAGAA AGCAACCGAG ATCTTGAATG TCATCTACCG TTATCGTGCG CCGGTTCCTG
+     4501 AGTTCGTGAC GGATCGCAGC GACGAGGGAA CCTTGAAATT CCTCCCTCTC ATCTACACCC
+     4561 AGGTGAAGGC ACAGCAGGAG ATTCAGCTGA TCCTACCGGC ATTTCCGTTC AAGTCCCCTA
+     4621 ATCGCCAGAA CAAGGTCCTG GGCGCCTTGC CGGATAAGGG AGAGGAAATT GCCCTATCTC
+     4681 ACCTGAATGG CTTGTGTGCG GCTATCACGG ATGTTTATGA GCCGGGCGCT GTGCTGACCA
+     4741 TTGCTTCTGA TGGTCTCGTG TACAACGGCA AGAGCGGCTT GATCAGTAGA TTACCTAAAC
+     4801 TATACTAGGG CTAACGGACA GCAGATCTCT TAGGAGTACA CGACTCAGAA GTCTACGCAT
+     4861 ACGGCGAGTC CCTTCGGCAA CTCGTTCGTG ACCAAGAATA CAAGCATATC CAGTTCATTC
+     4921 GGCTTCAGCA CCTCCTCCAT GTGCACGAGG AGATATCGCT TGATGCAGCT ACTTACGAGA
+     4981 GCCTGGCGGG AAAATTTCGC CAGAGATTGA TCGAACACTA TACTCCCCTG GATTATGATT
+     5041 GTGCAGACAG CATTAGGTCA GACAAGGATG TGTGTGCTAC CTATCGAGGC TACATTAAGT
+     5101 TCCTTACGAA AGACTTGGAA CATACCTTCC TCGATGATGG AAGCGTCTCG AAGCGGTCCC
+     5161 ACAAACAGAA ACTAGAGTCG ACAGCTAAGA AGATGATTGT TCGTGGAAAG GTATGTTTGT
+     5221 AGTCTAGGGA AAAGTAAAAG ATATGGCACG CTAATTCCCT TGTCCAGGCC TTTGCCGAAG
+     5281 CAATTCGGAA AAACTACGCA GACCACATTC GTCTCTCGAT TCACCCATCC TGCGGGTCTA
+     5341 CAAAGATCTC TATCAAAGTG TTGCCTCTGG CTCGCTATGC CATAACTCCC TGGCACTCCT
+     5401 CACCTTGCTT CACCGTTGAT GGTCGAATTG AGTACGGTAT GCGGGAGATT TATGACAATA
+     5461 GGGAAGATGT GGAATTGGTA CACAAGGATG GAAGGCCATG GTACTACCGC GTTAAATCGG
+     5521 ATTTGTATTC TTGGGCCCAA CCTGTGGATA TCGAACCCCA ATATCCCTGT GGCCTGATCA
+     5581 TCCGGCCTAA AGAGACAGAG AGTATATCCG CTGCGGATCT AGACATGCTC AAGCTTCGCG
+     5641 AACTTGCCCA GGAGAACTCT CCCCTGATCC TTCGTGGTTT CAACGATACT CGTAACAGGG
+     5701 AACTATTTGT CAAGAAGGCA GAAGAAATGG GTACACCCCT ACCTTGGAAA TTCGGCCTGA
+     5761 TACTCGAGGT CAAGGATCAC GGCACCGAAT CCCAAGGGTT GAACAATGTG CTATCTGCCG
+     5821 AATGGATGCC TTTCCATTAT GACGGGTTGT TCAAGATCAG CAAAGAAAAA GACGCCGATG
+     5881 GAAAAGAGGT CATTATCTCC TGCCCTCCCA AGTAAGTGCA ATAGGAAGCC TCAGCTCTAA
+     5941 TTCTTCTGGT CTCCCTACCT TTTATTCTCT AACCAGCTAA CCAATTCCGT TACCAGATTC
+     6001 CAATTCTTCA CCGGAATGAC CCCCTCCCCA AAAGACACAG GCTTTACCCT CTTCAGCGCC
+     6061 TCCCACCTGA TATGGCACTA CCTCCCAGCA AACTACTCCC TAGACCAGCT CGAAAAGCTC
+     6121 TCCTGGACAG TAGAAACCGC CTCCTTCAAC GAGGCCAAAG TCACCGACTT ACCCCTCGTC
+     6181 GTGCCTCACT TCGCTCACCA GAGACCTTGT CTCCGGTACC ACGAGCCATG GCCCCAGGAG
+     6241 AAAACGGTTT TCGACCCCAC ATACATCACT ATCCAGGATG CTCCCAATTC TGCGGAGATA
+     6301 TGTCGAACCC TGGACTCTCT GCTTCATGAT CGGAGGGTCG CGTATTGGCA CTCTTGGGAG
+     6361 GAGGGAGATT GGGTGATTAG TGATAATGTC ACTATGATGC ATACGAGGAG CTCTTTTACG
+     6421 GCCAAGTCGG ATCGGTGCTT GAGGAGGATT CATGTTGACT AGAGAGTTTT GTTTTCTCCG
+     6481 CTCTTTTCGT TTTGTGATAT GTGCTTGGTT GTAAAGTATG GCTTTTTGTC TGTTTCGTTT
+     6541 TGTACTGTTT TTCTTGTGAA AGACGTTAAA CTACTACTGT ATTGGAAATA GATGTTTGAT
+     6601 AGCTATGGGT AACTTTTATA TTATCCACAA CTTCGAAACA GTAGAGGATA TAAAAAATAG
+     6661 CGTATTATCG CCAGGAAGCA GCAAAGTCCA TTACTGAAAC TTCCCTCTAG TGTGAGGATT
+     6721 CCCGGTTCGT ATAGCGCTTA TATGGCTCCC CTTTGGTGCC ACCTTAATCT ATTCTAGTGT
+     6781 TTGCTTGGTT ACTCGGTTGC TTGATTGTGC TTGGCTAGTT CCTGGCTGAT AATAGGCCCA
+     6841 GCCTCATGGC CTGGCCTAAT AGTGTTCCTA TTTAGTGCAT GAAGTCAGTG ATGTAGCGAG
+     6901 CCAGTATACA GCGGACACTG GAGGGCATGC CTCAAATTTT GGTATCATAA GTTTCATTGT
+     6961 AGATATTGTA CAAACATATT ACAGCTATCG ATCCATCTGC TCATAGCGTT CTCGCGCAGT
+     7021 CTGCCTTGTT TTCTCCAGGA ACTCATCGTA TCTGCCCCGT GTATTGCGCC CGGCTTCTTC
+     7081 GGCCGCATCC CCCAGTTTGC TTCCTTGCGC ACCTAGACCA ACGCCTTGAG CGTAGACCTC
+     7141 GGTGGCGATG GGAGCGGTCA TGCCCGTGCC CTGAGCACCC AGTCCTGTTC CGGCAGACCA
+     7201 GCCCATCTTA CTAAGAAGTG AAGCGCCTTT GGATGTGGTT TCCACTTGGG GCTCTTCTTC
+     7261 CTTCGGTGCA GGCGCACTCT TCTTAACAGA AACAGCCTTG GAATTGCCGA AAGCCTGCCG
+     7321 ACGTTCTCTC GCACGGTCCC GATATTCAGG CGGTTGCTGG ACAATACCGT GTTTGATCAG
+     7381 TTTGCCCATC GCCTTGGATG TCAATTCATC ATTCTGCAAA TTGATATGGT GCAACTGACT
+     7441 GAGGCGTTCG TGGCGGTTGA CTTCTGCGGA GTTCGAGAAT TGGCGCATAC AGAGATAGCA
+     7501 GCAGTTTCGG CTTGGATCCG CATATGACTG GGCTGGCGGA GCGCTGGAAT CCATCAGGGA
+     7561 ATCTCCGTGA TCTGAGCCGC TTCCCGCCTC TTCTGGATTC TTCTTCTGAA TTCCATGTAG
+     7621 CTCAGCATGA CGGTTGCTCC AAAACTGCAA GTGCGACGGC ATCGCAAGCT TCTTGGAGCC
+     7681 GGCGACGGCC GAGATATCCG CTTTCCTTTT CTTGGTTTTA TCCGCATCTT TCTGACCTTT
+     7741 CCCATGACTT TCCGGCTGGC CTGCTTGGTC GCTCTTCGAC TGTGCTTGAA TATTATCACT
+     7801 ATCGCCAGGA GACACTGTGA GCTCCGAGAC ATAAGCCTCC TCGTCCCAGT ACATAAGCTT
+     7861 CAAGGATGGG TTATTCAAAG GGCTAAACGT GAATTTCTCT GTGCTTGCCG AAGGATTGAT
+     7921 CACAGGAACG AATACACCAG CGTGAATATA GCTCACAAGC ACGGGCCTCG ATGATATAGT
+     7981 AAACTTCTCG AAAGAATTCA GCCGTGTAAC GGCCGCTTGA GCATCCTGAA AAGCCTTGTA
+     8041 AGACAGAATG CTAAGGAAAC AGCAGAGCAT GTTTCATACC TGAATTGTCG CAAATTCCGC
+     8101 GAATCCGTAG CGCCAGCTGT CGTTGCTTTT ACGATCTCTG ACCAGTAGCA CACGGCGAAT
+     8161 AGAACCATCC CGAGCTCCGA GGTTGGAATC ACCGGTAGTA GAAGCTACTT TAGCCCCTTT
+     8221 TCTTTGATTG CCGGATGTAG TGTCCGAAGA ATTAGGTGCC GGTCGGTATA ATTTTGCAAC
+     8281 GCCCTTGGCC AGAAGCTCTT CTGTAACGGA TGGCTCCAGC CCTCGGAACA AAAGAAACTG
+     8341 AGATGCCTGG TTTTCAGGCG CAGCATCATT GTCACCGTTG TTCTCGACCT TGGGAGCAGC
+     8401 TATTCCAGGA GGCCCCGTTG GGCCAGGTTC TTGTGTCTGT CAGTGCGATG AAATTGTCGG
+     8461 CGAGGCGGAG ATACATACCG GGCCGCGGGG CTTGACACCG GAAACATTTC GAACGTGTGG
+     8521 AGTAATTGAC AATCGCACAC TGCAGATTTA TATGTTAGCT TCATACCCGC CAGCATAGTG
+     8581 TAGATCACTC ACGTTTTTAC AAGTCCAATC GCCTTCAGCT CTAGCACGAG CACGGTCCTC
+     8641 TCTCTCCCGG CTATATGCAA TGCGAACCTT GGTACCACGG CCATCCCGGC CGGCACTTGG
+     8701 ACCGTACAAG AAGATGGATG GAAAGTTGCG CTCAAGGAAT GCGCGCGAAT GATTGAGGTC
+     8761 TCGGAATCGG AGAAAGCCCA GCTGGCGCGA CAATTCTGCA GAACGTCAGG ACATCCAACC
+     8821 CATGTATGTT GCAGCAAGAG ACGAGGGGTC TTACTAGTTT GCCGATCGCG AATCACCCGA
+     8881 ACCTCCTCCA AACCTTCAAT ATGATAACCG TCTCTGAGTT CATTCGTAAT CTGTTCAACA
+     8941 CGTCGACCGG AACCACCGGT GACATGCATA TCTCAGCCTC TTGTTATCAA ACAGTGGTTT
+     9001 GTGGAGCGCA GCTCTGAGCC TCCACGTGTA ATGAAATCTC AGGGGGGAAG GAGTGTTCCA
+     9061 ACGTCTTCTT CCGCCATATC CACCGGCAAA CCATCCATCA TAACCTCTCT GCTTTCTTGT
+     9121 CCGTAATAGC GGCTTCGTCG CGGGCTTCGA CTCCGGCTGC GACTGTGACT TCTAGTTCGG
+     9181 CTGCGGTATC CCGGTGAACG ATAACCTTCT CGGTCACGAT CCCTATACGC TGGCCTCCCC
+     9241 CGCCGGGGTG GAGGCGACCT TAATGACCGT CGTCGGAAAT CATCGCCGTC TCGACTTCGG
+     9301 TAACGGGGTC TTGAGTCCGG GTGGTCTCTG GAATAATCGG GTCTTCTATC CGAAGCAGGG
+     9361 CCTCGTGGGG GAGAGTGCGA ATGATCTTTT GAGCCGAGAA TATGGTTAGC ATTTGCCGGG
+     9421 TCGGAAAAAG AAACTGCACT GCTCTATTAA AAGCATCCAC GCCTATGCTA CCGTGCGGGA
+     9481 GGAGCGTATT ACCGCCAGGC GAGCGCGAGG GCGAACGATC GTCATACATG CGGCCGTCCC
+     9541 TATCATCACG GCGCGGATAA GGCCGATAGG AAGGACCTTG GGGGTACCTA TTTTCTTCCG
+     9601 GGGGCAAGCT GGACATGGTA GAGAGATATA AGAGAGGAAG AAGGATGCAT ACGCAGAACT
+     9661 TGGGCTCGAG GGCAACCAAT CGACAGGATA ATGAATGGAT AAGGTCTCGG GCAGAAATAC
+     9721 CACACCGCCT TCTTCCGCTC GGGTATCGCT TACACTTCCC ATTTCGAGGG GGAATATAAA
+     9781 TACATATTGT CGTATATGCC TCAAGATACA GAAGAACAGT CATCAATAAG TTCGATCTCG
+     9841 ACGGATTTCA ACCCAGACTC CTTCTTTGAT GACCCCGATT CTGACAGACT TATGACTTTG
+     9901 TTCAATGTAT GATATCTTGG TATTGTTTCT TTCTTTCTTT TTTTTTTTTT GGCCTATCTT
+     9961 TGCCTCAAAA GTCATTTAAG CACCAACATT AAGGCTTCAC TTATCTATCT TCATTTCATG
+    10021 AAAGTGGGTA TTCCATCCAA TAGAGATCAT ATGTCCACTC ACTATGCCGT TACCCCTGAG
+    10081 GATTGGGGAC GGTAGTGCTT GTTCCATGTA AATATTATGC TCCGTGCTTC GGTAATGCTA
+    10141 ACTCAGGTAA CCCCGAGCAG GGAAAGATGA AACGGTACTT TTTTAGCCAG TTCAAACATT
+    10201 GACTGTTGCT GCTGGATTTA TGGCCATAAG CCATTCTCCT TCTTGTGTTC CCTCACAAAA
+    10261 GTAGTTGTCC GTCCACCCAC CGACACACAC GCACACAAGA TCGCGAGCTA TCATACCATG
+    10321 GCGGCTGTCC CGTTGCAAGG GCCTGCCATT GGAGCTGAAA GTCGAGTATC TGACATTGGT
+    10381 TCGGCCCTTG GTGACAGTGA TGTGTCATCT TTCACCACAT CCATTGCATC GAGGATAAGG
+    10441 GATTATGTGT ACGAAGACGG CCGCCGCTAT CATAGGTTTC GAGACGGCGA ATACTTTACT
+    10501 TGTTCCCGAA CGACGAGGCC GAGCAAGCTC GTATAAATAT ACTCCACCAT ATCTATTGTC
+    10561 TAATGCTAAG AAGGGAGCTC TATAAAGCTC CAATTACTCA GACACCACAA TGTATCCTGG
+    10621 ATATCGGGCC TGGGACCGGC ATCTATGCGC TCGACGTCGC AGATGAATTT CCAGGCGCGG
+    10681 AGGTCCTTGG GATTGACTTG AGCCCAATTC AGCCATATTG GTACGAAAAC ATCATACTCT
+    10741 TGGGCTGATA AAGGCATTTG GTATACACAA ACATGTCTCT TACCTTGCCT TGAGGGTCCC
+    10801 AGCCAACTGT AAGTTCGTCG TTGATGATGT TGAGGCCGAG TGGATTTACT CAGAACGCAA
+    10861 GCAATTCGAC TACATTCATC AACGAAAATG GCAGGCAGTA TTTCAGATTG GGATCGACTC
+    10921 TTTCAGCAAG CGTTCCATAA CACCAAGTCT GGTGGCTGTA TAGAGATACA GGAGTTCCGT
+    10981 GTCGGGTTTT ACACCCAAGG CGGCGAGCTT CCAAATGACT CCAATATTCG GCAATGGAAT
+    11041 CGTTATCTCG TGGACGGCAT GGTTGCATTT GGAAAACCCA TAAATATTGT CGAGGAGCTC
+    11101 GCAGAGAAGC TGAAAGCGGC TGGCTTTGCA GATGTGCATG AAGACGTGCT GAAAGTTCCC
+    11161 GTTGGACTTT GGCCCAAGGA TCCTGCTCTC AAGGAACTTG GCCAGTGGAT GCAGTTACAC
+    11221 ACGATGGATG CCATCGAGCC ATTATCACTG GCTCTGTTTA CCCGCGTTTT AGGGTGGACT
+    11281 GAGCATGGCA GCCGCGTACT CTTCGAGAAG GCTCGTAAAG AATTCAAGGA GTCCGGAAGG
+    11341 CAGTTTTATG TTTATACGCA CTTCATCCAC GGTTGGAAAC CCGAAGCCTA G
+//

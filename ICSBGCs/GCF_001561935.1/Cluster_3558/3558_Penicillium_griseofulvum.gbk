@@ -1,0 +1,1215 @@
+LOCUS       2229mF-Z72             21905 bp    DNA     linear   UNC 16-DEC-2021
+DEFINITION  GCF_001561935.1 results based on the annotation PF05141 and  inputs.
+ACCESSION   GCF_001561935.1
+VERSION     1
+KEYWORDS    .
+SOURCE      ICSCreator.py written by Grant Nickles (gnickles@wisc.edu)
+ORGANISM    GCF_001561935.1
+FEATURES             Location/Qualifiers
+     gene            1..2271
+                     /db_xref="GeneID:63703930"
+                     /note="*Name PGRI_009170"
+                     /note="*end_range: 2726227,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="PGRI_009170"
+                     /partial
+                     /note="*start_range: .,2723957"
+     mRNA            1..2271
+                     /db_xref="GeneID:63703930"
+                     /db_xref="Genbank:XM_040788630.1"
+                     /note="*Name XM_040788630.1"
+                     /note="*end_range: 2726227,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009170"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009170"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009170"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,2723957"
+                     /note="*transcript_id: XM_040788630.1"
+     exon            1..2271
+                     /db_xref="GeneID:63703930"
+                     /db_xref="Genbank:XM_040788630.1"
+                     /note="*end_range: 2726227,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009170"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009170"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009170"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,2723957"
+                     /note="*transcript_id: XM_040788630.1"
+     CDS             1..2271
+                     /db_xref="GeneID:63703930"
+                     /db_xref="Genbank:XP_040652402.1"
+                     /note="*Name XP_040652402.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="PGRI_009170"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009170"
+                     /product="uncharacterized protein"
+                     /protein_id="XP_040652402.1"
+     gene            complement(3773..4819)
+                     /db_xref="GeneID:63703931"
+                     /note="*Name PGRI_009180"
+                     /note="*end_range: 2728775,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="PGRI_009180"
+                     /partial
+                     /note="*start_range: .,2727729"
+     mRNA            complement(3773..4819)
+                     /db_xref="GeneID:63703931"
+                     /db_xref="Genbank:XM_040788631.1"
+                     /note="*Name XM_040788631.1"
+                     /note="*end_range: 2728775,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009180"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009180"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009180"
+                     /partial
+                     /product="Pyoverdine biosynthesis"
+                     /note="*start_range: .,2727729"
+                     /note="*transcript_id: XM_040788631.1"
+     exon            complement(4321..4819)
+                     /db_xref="GeneID:63703931"
+                     /db_xref="Genbank:XM_040788631.1"
+                     /note="*end_range: 2728775,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009180"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009180"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009180"
+                     /partial
+                     /product="Pyoverdine biosynthesis"
+                     /note="*transcript_id: XM_040788631.1"
+     exon            complement(3984..4247)
+                     /db_xref="GeneID:63703931"
+                     /db_xref="Genbank:XM_040788631.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009180"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009180"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009180"
+                     /partial
+                     /product="Pyoverdine biosynthesis"
+                     /note="*transcript_id: XM_040788631.1"
+     exon            complement(3773..3930)
+                     /db_xref="GeneID:63703931"
+                     /db_xref="Genbank:XM_040788631.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009180"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009180"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009180"
+                     /partial
+                     /product="Pyoverdine biosynthesis"
+                     /note="*start_range: .,2727729"
+                     /note="*transcript_id: XM_040788631.1"
+     CDS             join(complement(4321..4819),complement(3984..4247),
+                     complement(3773..3930))
+                     /db_xref="GeneID:63703931"
+                     /db_xref="Genbank:XP_040652403.1"
+                     /note="*Name XP_040652403.1"
+                     /db_xref="GeneID:63703931"
+                     /db_xref="Genbank:XP_040652403.1"
+                     /note="*Name XP_040652403.1"
+                     /db_xref="GeneID:63703931"
+                     /db_xref="Genbank:XP_040652403.1"
+                     /note="*Name XP_040652403.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="PGRI_009180"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009180"
+                     /product="Pyoverdine biosynthesis"
+                     /protein_id="XP_040652403.1"
+     gene            complement(5813..8381)
+                     /db_xref="GeneID:63703932"
+                     /note="*Name PGRI_009190"
+                     /note="*end_range: 2732337,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="PGRI_009190"
+                     /partial
+                     /note="*start_range: .,2729769"
+     mRNA            complement(5813..8381)
+                     /db_xref="GeneID:63703932"
+                     /db_xref="Genbank:XM_040788632.1"
+                     /note="*Name XM_040788632.1"
+                     /note="*end_range: 2732337,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009190"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009190"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009190"
+                     /partial
+                     /product="Major facilitator superfamily domain, general
+                     substrate transporter"
+                     /note="*start_range: .,2729769"
+                     /note="*transcript_id: XM_040788632.1"
+     exon            complement(8128..8381)
+                     /db_xref="GeneID:63703932"
+                     /db_xref="Genbank:XM_040788632.1"
+                     /note="*end_range: 2732337,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009190"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009190"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009190"
+                     /partial
+                     /product="Major facilitator superfamily domain, general
+                     substrate transporter"
+                     /note="*transcript_id: XM_040788632.1"
+     exon            complement(7474..8074)
+                     /db_xref="GeneID:63703932"
+                     /db_xref="Genbank:XM_040788632.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009190"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009190"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009190"
+                     /partial
+                     /product="Major facilitator superfamily domain, general
+                     substrate transporter"
+                     /note="*transcript_id: XM_040788632.1"
+     exon            complement(6985..7417)
+                     /db_xref="GeneID:63703932"
+                     /db_xref="Genbank:XM_040788632.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009190"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009190"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009190"
+                     /partial
+                     /product="Major facilitator superfamily domain, general
+                     substrate transporter"
+                     /note="*transcript_id: XM_040788632.1"
+     exon            complement(5813..6732)
+                     /db_xref="GeneID:63703932"
+                     /db_xref="Genbank:XM_040788632.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009190"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009190"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009190"
+                     /partial
+                     /product="Major facilitator superfamily domain, general
+                     substrate transporter"
+                     /note="*start_range: .,2729769"
+                     /note="*transcript_id: XM_040788632.1"
+     CDS             join(complement(8128..8381),complement(7474..8074),
+                     complement(6985..7417),complement(5813..6732))
+                     /db_xref="GeneID:63703932"
+                     /db_xref="Genbank:XP_040652404.1"
+                     /note="*Name XP_040652404.1"
+                     /db_xref="GeneID:63703932"
+                     /db_xref="Genbank:XP_040652404.1"
+                     /note="*Name XP_040652404.1"
+                     /db_xref="GeneID:63703932"
+                     /db_xref="Genbank:XP_040652404.1"
+                     /note="*Name XP_040652404.1"
+                     /db_xref="GeneID:63703932"
+                     /db_xref="Genbank:XP_040652404.1"
+                     /note="*Name XP_040652404.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="PGRI_009190"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009190"
+                     /product="Major facilitator superfamily domain, general
+                     substrate transporter"
+                     /protein_id="XP_040652404.1"
+     gene            8741..10066
+                     /db_xref="GeneID:63703933"
+                     /note="*Name PGRI_009200"
+                     /note="*end_range: 2734022,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="PGRI_009200"
+                     /partial
+                     /note="*start_range: .,273269"
+                     /note="*backbone: True"
+     mRNA            8741..10066
+                     /db_xref="GeneID:63703933"
+                     /db_xref="Genbank:XM_040788633.1"
+                     /note="*Name XM_040788633.1"
+                     /note="*end_range: 2734022,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009200"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009200"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009200"
+                     /partial
+                     /product="Pyoverdine biosynthesis"
+                     /note="*start_range: .,2732697"
+                     /note="*transcript_id: XM_040788633.1"
+     exon            8741..9086
+                     /db_xref="GeneID:63703933"
+                     /db_xref="Genbank:XM_040788633.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009200"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009200"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009200"
+                     /partial
+                     /product="Pyoverdine biosynthesis"
+                     /note="*start_range: .,2732697"
+                     /note="*transcript_id: XM_040788633.1"
+     exon            9159..9553
+                     /db_xref="GeneID:63703933"
+                     /db_xref="Genbank:XM_040788633.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009200"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009200"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009200"
+                     /partial
+                     /product="Pyoverdine biosynthesis"
+                     /note="*transcript_id: XM_040788633.1"
+     exon            9623..10066
+                     /db_xref="GeneID:63703933"
+                     /db_xref="Genbank:XM_040788633.1"
+                     /note="*end_range: 2734022,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009200"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009200"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009200"
+                     /partial
+                     /product="Pyoverdine biosynthesis"
+                     /note="*transcript_id: XM_040788633.1"
+     CDS             join(8741..9086,9159..9553,9623..10066)
+                     /db_xref="GeneID:63703933"
+                     /db_xref="Genbank:XP_040652405.1"
+                     /note="*Name XP_040652405.1"
+                     /db_xref="GeneID:63703933"
+                     /db_xref="Genbank:XP_040652405.1"
+                     /note="*Name XP_040652405.1"
+                     /db_xref="GeneID:63703933"
+                     /db_xref="Genbank:XP_040652405.1"
+                     /note="*Name XP_040652405.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="PGRI_009200"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009200"
+                     /product="Pyoverdine biosynthesis"
+                     /protein_id="XP_040652405.1"
+     gene            complement(10695..12019)
+                     /db_xref="GeneID:63703934"
+                     /note="*Name PGRI_009210"
+                     /note="*end_range: 2735975,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="PGRI_009210"
+                     /partial
+                     /note="*start_range: .,2734651"
+     mRNA            complement(10695..12019)
+                     /db_xref="GeneID:63703934"
+                     /db_xref="Genbank:XM_040788634.1"
+                     /note="*Name XM_040788634.1"
+                     /note="*end_range: 2735975,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009210"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009210"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009210"
+                     /partial
+                     /product="Mitochondrial 18kDa protein"
+                     /note="*start_range: .,2734651"
+                     /note="*transcript_id: XM_040788634.1"
+     exon            complement(11871..12019)
+                     /db_xref="GeneID:63703934"
+                     /db_xref="Genbank:XM_040788634.1"
+                     /note="*end_range: 2735975,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009210"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009210"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009210"
+                     /partial
+                     /product="Mitochondrial 18kDa protein"
+                     /note="*transcript_id: XM_040788634.1"
+     exon            complement(11098..11638)
+                     /db_xref="GeneID:63703934"
+                     /db_xref="Genbank:XM_040788634.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009210"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009210"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009210"
+                     /partial
+                     /product="Mitochondrial 18kDa protein"
+                     /note="*transcript_id: XM_040788634.1"
+     exon            complement(10695..11027)
+                     /db_xref="GeneID:63703934"
+                     /db_xref="Genbank:XM_040788634.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009210"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009210"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009210"
+                     /partial
+                     /product="Mitochondrial 18kDa protein"
+                     /note="*start_range: .,2734651"
+                     /note="*transcript_id: XM_040788634.1"
+     CDS             join(complement(11871..12019),complement(11098..11638),
+                     complement(10695..11027))
+                     /db_xref="GeneID:63703934"
+                     /db_xref="Genbank:XP_040652406.1"
+                     /note="*Name XP_040652406.1"
+                     /db_xref="GeneID:63703934"
+                     /db_xref="Genbank:XP_040652406.1"
+                     /note="*Name XP_040652406.1"
+                     /db_xref="GeneID:63703934"
+                     /db_xref="Genbank:XP_040652406.1"
+                     /note="*Name XP_040652406.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="PGRI_009210"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009210"
+                     /product="Mitochondrial 18kDa protein"
+                     /protein_id="XP_040652406.1"
+     gene            12683..13129
+                     /db_xref="GeneID:63703935"
+                     /note="*Name PGRI_009220"
+                     /note="*end_range: 2737085,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="PGRI_009220"
+                     /partial
+                     /note="*start_range: .,2736639"
+     mRNA            12683..13129
+                     /db_xref="GeneID:63703935"
+                     /db_xref="Genbank:XM_040788635.1"
+                     /note="*Name XM_040788635.1"
+                     /note="*end_range: 2737085,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009220"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009220"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009220"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,2736639"
+                     /note="*transcript_id: XM_040788635.1"
+     exon            12683..12730
+                     /db_xref="GeneID:63703935"
+                     /db_xref="Genbank:XM_040788635.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009220"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009220"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009220"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,2736639"
+                     /note="*transcript_id: XM_040788635.1"
+     exon            12849..12976
+                     /db_xref="GeneID:63703935"
+                     /db_xref="Genbank:XM_040788635.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009220"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009220"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009220"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_040788635.1"
+     exon            13075..13129
+                     /db_xref="GeneID:63703935"
+                     /db_xref="Genbank:XM_040788635.1"
+                     /note="*end_range: 2737085,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009220"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009220"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009220"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_040788635.1"
+     CDS             join(12683..12730,12849..12976,13075..13129)
+                     /db_xref="GeneID:63703935"
+                     /db_xref="Genbank:XP_040652407.1"
+                     /note="*Name XP_040652407.1"
+                     /db_xref="GeneID:63703935"
+                     /db_xref="Genbank:XP_040652407.1"
+                     /note="*Name XP_040652407.1"
+                     /db_xref="GeneID:63703935"
+                     /db_xref="Genbank:XP_040652407.1"
+                     /note="*Name XP_040652407.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="PGRI_009220"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009220"
+                     /product="uncharacterized protein"
+                     /protein_id="XP_040652407.1"
+     gene            13844..14326
+                     /db_xref="GeneID:63703936"
+                     /note="*Name PGRI_009230"
+                     /note="*end_range: 2738282,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="PGRI_009230"
+                     /partial
+                     /note="*start_range: .,2737800"
+     mRNA            13844..14326
+                     /db_xref="GeneID:63703936"
+                     /db_xref="Genbank:XM_040788636.1"
+                     /note="*Name XM_040788636.1"
+                     /note="*end_range: 2738282,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009230"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009230"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009230"
+                     /partial
+                     /product="phosphopantetheine-protein transferase"
+                     /note="*start_range: .,2737800"
+                     /note="*transcript_id: XM_040788636.1"
+     exon            13844..14326
+                     /db_xref="GeneID:63703936"
+                     /db_xref="Genbank:XM_040788636.1"
+                     /note="*end_range: 2738282,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009230"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009230"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009230"
+                     /partial
+                     /product="phosphopantetheine-protein transferase"
+                     /note="*start_range: .,2737800"
+                     /note="*transcript_id: XM_040788636.1"
+     CDS             13844..14326
+                     /db_xref="GeneID:63703936"
+                     /db_xref="Genbank:XP_040652408.1"
+                     /note="*Name XP_040652408.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="PGRI_009230"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009230"
+                     /product="phosphopantetheine-protein transferase"
+                     /protein_id="XP_040652408.1"
+     gene            14940..15997
+                     /db_xref="GeneID:63703937"
+                     /note="*Name PGRI_009240"
+                     /note="*end_range: 2739953,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="PGRI_009240"
+                     /partial
+                     /note="*start_range: .,2738896"
+     mRNA            14940..15997
+                     /db_xref="GeneID:63703937"
+                     /db_xref="Genbank:XM_040788637.1"
+                     /note="*Name XM_040788637.1"
+                     /note="*end_range: 2739953,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009240"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009240"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009240"
+                     /partial
+                     /product="Histidinol phosphate phosphatase, HisJ"
+                     /note="*start_range: .,2738896"
+                     /note="*transcript_id: XM_040788637.1"
+     exon            14940..15098
+                     /db_xref="GeneID:63703937"
+                     /db_xref="Genbank:XM_040788637.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009240"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009240"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009240"
+                     /partial
+                     /product="Histidinol phosphate phosphatase, HisJ"
+                     /note="*start_range: .,2738896"
+                     /note="*transcript_id: XM_040788637.1"
+     exon            15149..15685
+                     /db_xref="GeneID:63703937"
+                     /db_xref="Genbank:XM_040788637.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009240"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009240"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009240"
+                     /partial
+                     /product="Histidinol phosphate phosphatase, HisJ"
+                     /note="*transcript_id: XM_040788637.1"
+     exon            15733..15936
+                     /db_xref="GeneID:63703937"
+                     /db_xref="Genbank:XM_040788637.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009240"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009240"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009240"
+                     /partial
+                     /product="Histidinol phosphate phosphatase, HisJ"
+                     /note="*transcript_id: XM_040788637.1"
+     exon            15986..15997
+                     /db_xref="GeneID:63703937"
+                     /db_xref="Genbank:XM_040788637.1"
+                     /note="*end_range: 2739953,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009240"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009240"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009240"
+                     /partial
+                     /product="Histidinol phosphate phosphatase, HisJ"
+                     /note="*transcript_id: XM_040788637.1"
+     CDS             join(14940..15098,15149..15685,15733..15936,15986..15997)
+                     /db_xref="GeneID:63703937"
+                     /db_xref="Genbank:XP_040652409.1"
+                     /note="*Name XP_040652409.1"
+                     /db_xref="GeneID:63703937"
+                     /db_xref="Genbank:XP_040652409.1"
+                     /note="*Name XP_040652409.1"
+                     /db_xref="GeneID:63703937"
+                     /db_xref="Genbank:XP_040652409.1"
+                     /note="*Name XP_040652409.1"
+                     /db_xref="GeneID:63703937"
+                     /db_xref="Genbank:XP_040652409.1"
+                     /note="*Name XP_040652409.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="PGRI_009240"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009240"
+                     /product="Histidinol phosphate phosphatase, HisJ"
+                     /protein_id="XP_040652409.1"
+     gene            16156..16896
+                     /db_xref="GeneID:63703938"
+                     /note="*Name PGRI_009250"
+                     /note="*end_range: 2740852,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="PGRI_009250"
+                     /partial
+                     /note="*start_range: .,2740112"
+     mRNA            16156..16896
+                     /db_xref="GeneID:63703938"
+                     /db_xref="Genbank:XM_040788638.1"
+                     /note="*Name XM_040788638.1"
+                     /note="*end_range: 2740852,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009250"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009250"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009250"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,2740112"
+                     /note="*transcript_id: XM_040788638.1"
+     exon            16156..16289
+                     /db_xref="GeneID:63703938"
+                     /db_xref="Genbank:XM_040788638.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009250"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009250"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009250"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,2740112"
+                     /note="*transcript_id: XM_040788638.1"
+     exon            16348..16418
+                     /db_xref="GeneID:63703938"
+                     /db_xref="Genbank:XM_040788638.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009250"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009250"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009250"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_040788638.1"
+     exon            16476..16536
+                     /db_xref="GeneID:63703938"
+                     /db_xref="Genbank:XM_040788638.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009250"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009250"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009250"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_040788638.1"
+     exon            16598..16618
+                     /db_xref="GeneID:63703938"
+                     /db_xref="Genbank:XM_040788638.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009250"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009250"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009250"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_040788638.1"
+     exon            16744..16785
+                     /db_xref="GeneID:63703938"
+                     /db_xref="Genbank:XM_040788638.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009250"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009250"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009250"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_040788638.1"
+     exon            16857..16896
+                     /db_xref="GeneID:63703938"
+                     /db_xref="Genbank:XM_040788638.1"
+                     /note="*end_range: 2740852,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009250"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009250"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009250"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*transcript_id: XM_040788638.1"
+     CDS             join(16156..16289,16348..16418,16476..16536,16598..16618,
+                     16744..16785,16857..16896)
+                     /db_xref="GeneID:63703938"
+                     /db_xref="Genbank:XP_040652410.1"
+                     /note="*Name XP_040652410.1"
+                     /db_xref="GeneID:63703938"
+                     /db_xref="Genbank:XP_040652410.1"
+                     /note="*Name XP_040652410.1"
+                     /db_xref="GeneID:63703938"
+                     /db_xref="Genbank:XP_040652410.1"
+                     /note="*Name XP_040652410.1"
+                     /db_xref="GeneID:63703938"
+                     /db_xref="Genbank:XP_040652410.1"
+                     /note="*Name XP_040652410.1"
+                     /db_xref="GeneID:63703938"
+                     /db_xref="Genbank:XP_040652410.1"
+                     /note="*Name XP_040652410.1"
+                     /db_xref="GeneID:63703938"
+                     /db_xref="Genbank:XP_040652410.1"
+                     /note="*Name XP_040652410.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="PGRI_009250"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009250"
+                     /product="uncharacterized protein"
+                     /protein_id="XP_040652410.1"
+     gene            complement(17158..19422)
+                     /db_xref="GeneID:63703939"
+                     /note="*Name PGRI_009260"
+                     /note="*end_range: 2743378,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="PGRI_009260"
+                     /partial
+                     /note="*start_range: .,2741114"
+     mRNA            complement(17158..19422)
+                     /db_xref="GeneID:63703939"
+                     /db_xref="Genbank:XM_040788639.1"
+                     /note="*Name XM_040788639.1"
+                     /note="*end_range: 2743378,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009260"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009260"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009260"
+                     /partial
+                     /product="Carboxylesterase, type B"
+                     /note="*start_range: .,2741114"
+                     /note="*transcript_id: XM_040788639.1"
+     exon            complement(18893..19422)
+                     /db_xref="GeneID:63703939"
+                     /db_xref="Genbank:XM_040788639.1"
+                     /note="*end_range: 2743378,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009260"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009260"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009260"
+                     /partial
+                     /product="Carboxylesterase, type B"
+                     /note="*transcript_id: XM_040788639.1"
+     exon            complement(18680..18794)
+                     /db_xref="GeneID:63703939"
+                     /db_xref="Genbank:XM_040788639.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009260"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009260"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009260"
+                     /partial
+                     /product="Carboxylesterase, type B"
+                     /note="*transcript_id: XM_040788639.1"
+     exon            complement(18499..18617)
+                     /db_xref="GeneID:63703939"
+                     /db_xref="Genbank:XM_040788639.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009260"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009260"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009260"
+                     /partial
+                     /product="Carboxylesterase, type B"
+                     /note="*transcript_id: XM_040788639.1"
+     exon            complement(18377..18444)
+                     /db_xref="GeneID:63703939"
+                     /db_xref="Genbank:XM_040788639.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009260"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009260"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009260"
+                     /partial
+                     /product="Carboxylesterase, type B"
+                     /note="*transcript_id: XM_040788639.1"
+     exon            complement(18262..18325)
+                     /db_xref="GeneID:63703939"
+                     /db_xref="Genbank:XM_040788639.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009260"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009260"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009260"
+                     /partial
+                     /product="Carboxylesterase, type B"
+                     /note="*transcript_id: XM_040788639.1"
+     exon            complement(17926..18179)
+                     /db_xref="GeneID:63703939"
+                     /db_xref="Genbank:XM_040788639.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009260"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009260"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009260"
+                     /partial
+                     /product="Carboxylesterase, type B"
+                     /note="*transcript_id: XM_040788639.1"
+     exon            complement(17571..17857)
+                     /db_xref="GeneID:63703939"
+                     /db_xref="Genbank:XM_040788639.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009260"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009260"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009260"
+                     /partial
+                     /product="Carboxylesterase, type B"
+                     /note="*transcript_id: XM_040788639.1"
+     exon            complement(17355..17490)
+                     /db_xref="GeneID:63703939"
+                     /db_xref="Genbank:XM_040788639.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009260"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009260"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009260"
+                     /partial
+                     /product="Carboxylesterase, type B"
+                     /note="*transcript_id: XM_040788639.1"
+     exon            complement(17158..17297)
+                     /db_xref="GeneID:63703939"
+                     /db_xref="Genbank:XM_040788639.1"
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009260"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009260"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009260"
+                     /partial
+                     /product="Carboxylesterase, type B"
+                     /note="*start_range: .,2741114"
+                     /note="*transcript_id: XM_040788639.1"
+     CDS             join(complement(18893..19422),complement(18680..18794),
+                     complement(18499..18617),complement(18377..18444),
+                     complement(18262..18325),complement(17926..18179),
+                     complement(17571..17857),complement(17355..17490),
+                     complement(17158..17297))
+                     /db_xref="GeneID:63703939"
+                     /db_xref="Genbank:XP_040652411.1"
+                     /note="*Name XP_040652411.1"
+                     /db_xref="GeneID:63703939"
+                     /db_xref="Genbank:XP_040652411.1"
+                     /note="*Name XP_040652411.1"
+                     /db_xref="GeneID:63703939"
+                     /db_xref="Genbank:XP_040652411.1"
+                     /note="*Name XP_040652411.1"
+                     /db_xref="GeneID:63703939"
+                     /db_xref="Genbank:XP_040652411.1"
+                     /note="*Name XP_040652411.1"
+                     /db_xref="GeneID:63703939"
+                     /db_xref="Genbank:XP_040652411.1"
+                     /note="*Name XP_040652411.1"
+                     /db_xref="GeneID:63703939"
+                     /db_xref="Genbank:XP_040652411.1"
+                     /note="*Name XP_040652411.1"
+                     /db_xref="GeneID:63703939"
+                     /db_xref="Genbank:XP_040652411.1"
+                     /note="*Name XP_040652411.1"
+                     /db_xref="GeneID:63703939"
+                     /db_xref="Genbank:XP_040652411.1"
+                     /note="*Name XP_040652411.1"
+                     /db_xref="GeneID:63703939"
+                     /db_xref="Genbank:XP_040652411.1"
+                     /note="*Name XP_040652411.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="PGRI_009260"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009260"
+                     /product="Carboxylesterase, type B"
+                     /protein_id="XP_040652411.1"
+     gene            complement(20112..21905)
+                     /db_xref="GeneID:63703940"
+                     /note="*Name PGRI_009270"
+                     /note="*end_range: 2745861,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="PGRI_009270"
+                     /partial
+                     /note="*start_range: .,2744068"
+     mRNA            complement(20112..21905)
+                     /db_xref="GeneID:63703940"
+                     /db_xref="Genbank:XM_040788640.1"
+                     /note="*Name XM_040788640.1"
+                     /note="*end_range: 2745861,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009270"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009270"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009270"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,2744068"
+                     /note="*transcript_id: XM_040788640.1"
+     exon            complement(20112..21905)
+                     /db_xref="GeneID:63703940"
+                     /db_xref="Genbank:XM_040788640.1"
+                     /note="*end_range: 2745861,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="PGRI_009270"
+                     /note="*orig_protein_id: gnl|WGS:LHQR|PGRI_009270"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009270"
+                     /partial
+                     /product="uncharacterized protein"
+                     /note="*start_range: .,2744068"
+                     /note="*transcript_id: XM_040788640.1"
+     CDS             complement(20112..21905)
+                     /db_xref="GeneID:63703940"
+                     /db_xref="Genbank:XP_040652412.1"
+                     /note="*Name XP_040652412.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="PGRI_009270"
+                     /note="*orig_transcript_id: gnl|WGS:LHQR|mrna.PGRI_009270"
+                     /product="uncharacterized protein"
+                     /protein_id="XP_040652412.1"
+ORIGIN
+        1 ATGCGTCCCG ACGCCATCTC CGTTCTCGCG GCCTTCCTCA CTGTAGGCGG CCTCCAGCTC
+       61 GTCGCAGCTC AAGATGCCCC CGAAGCGCAC GTCCAGCGGC CGCGCTGGTA CTTCCCGCAG
+      121 GAAGTCAAGC GAACGATTCG CAGAAGTGCG GAGGCTAACC CTGAATTGAG CCTCGACGAC
+      181 CTATTCGACA ACTCGAGACC TACCCAGGTC TCTTCCTCCA CCACTACTAC CACCCCCGGA
+      241 AACTCTGCCA CGGCTCAGCC CCAGAAGGGA CAGGAGGTCG TTGTTGTAAC CATCTCGATC
+      301 GACCCCAAGA ACCCCGAGAT CACACACCGT ATTACCGGTA CTACGGTCAT TGGCGGTGAA
+      361 CCGACCGCCA CCACCACGAC GATTACGCAG CACACCGAGG GTTCGAGCAC GGAGATCACA
+      421 AGTAAGAAGA GCTCTGAGGC CGCATCTACC GATGCGGAAA CCACACGGAA ACAGGGATCG
+      481 GCGGTCGACT CCTCCGTCCA GACTTCGACT AAAACCTCTA GTAACGGTCT CGTTGGTGGC
+      541 CTGGCCTCAG ACCTGGGTCT TGTCGGCGAA TCAACAACCA ACAGCCCCGT CTCTGCGACA
+      601 TCGACTGGCT CCTCTAGCGC CAACAAGATC AGTAGCTCAA GCACGGCAAG CTCAAGCACG
+      661 GCAAGCTCAA GCACGACCAG CTCAAGCACG GCGAGCTCAA GCACGGCGAG CTCGGGGTTA
+      721 GATCTCACTG AGCTTTTGGG TCTAGGTGAT AAGTCTTCCA CCGGCAACAG CACTAGTGCT
+      781 ACCTTGTCCT CTGGGGCTTT TAGTTCACCG ACCATTCCCG TCAGCGTGCC TGCTTCCGCT
+      841 ACCAGCTCAC CGTCGACCAC CCCCACGGGA ACTGCAACTT CGACTTCCGG CGACCTCATC
+      901 GGCAGTCTCG TTTCAAGCGT GGATTCCCTG GTTGGTGTCA CATCTACTAG CACTGGCAGC
+      961 ACTGCTTTGA TTTCGAGCAC GTCCATGTCC AGTGGTGGTA GTCTTCTGCC ACCTAAATCG
+     1021 ACTGGCATCA TTCCTACCCT GCCAGGTACC AATACCGGTG TCATTCCCAC CCCGACGAAC
+     1081 CCACTTGGGT CAGTTCCTGT CCCACACTCG ACCAGCTCTG GATCTTCCTC TACTTCTGGA
+     1141 TCTGAAACTG TCTCTGGTTC TACCACGGCC TCGGCTCCTC TGTTCGGCAC TACCACTACC
+     1201 GCCTCTCTTC CTGGTTATCA CGAGAGCTCC AAGGTTCCCA TATCCAACTC TCGCCCAGCC
+     1261 TCCACACCCC TTCCCTTGTC GACTTCCACA ACTTCGACGA GCGAAGAAGT GAGCACGACC
+     1321 AAGACCACTA TGGAGCCTCA GACAACTGCG GAGACGGTTA CACCCCCCAC CTCCAATGAC
+     1381 AACGACTGGA TGCCATCTAC AATCCTTATC GTGCCTACCG TCAGTACCAC CCAGAGCTCT
+     1441 GCCTCCGGTG AGACCGCGAA GCCCACGGCA CCGCCATCGC TTCCCGGCTC TATTACTCCA
+     1501 TCGCACCAGG TGAATGAGCC TCCTTCTGAC TCTATGTTGC TCCAACTCGG TTTCAACAGC
+     1561 TTGCTGCCCT GGTCGTTTGT TGCAACCACT CCCTTGTCGT CGTCGCAGAT CTTCAACTAT
+     1621 ACCCCTCAGG CTATTGAATA CGCTTTGCCA GGCCTCTCTG CTAAGGATAG CCCAGTCATG
+     1681 TTTGCCATTG AGCCTTACTA TAACTGGAAG TCCACTGGCT ATAATGCTAC CATTGCTATC
+     1741 TTCTATTTCC CTCGTGACAA GGTCGACGCC CTGCAAGCAC TCAAGGTTAA CCCCAATTCC
+     1801 GCTCTCTACA ACCAGGCCAG CAACTCCACC CGCTCATTAA TGGCAATGGT TGACCCCACA
+     1861 ATTCCCCTCG AGTTCTCTGG AAACTACCCT AGTGGTAACA GCGACTCGAC AGGtggcaac
+     1921 aacaacagcG GCAGTGACGA TGGCCCGGAT AATGGCAACA ACGACAACAC CGATGGCTCT
+     1981 GGCGGTAGCT CCAAGGCTAA AGCTAGCTCT GTTGGAATTG GAGTAGGTGT TGTGGCCGGT
+     2041 GCTGCCGCGT ACGGTGCTGG TATGTTCTGG GTTGCGCGCC GCTACCGCAA GAGAAAGCAG
+     2101 CTGCACCAGC GCTCAAGCTC GACCGTTGAG CAGATGAGCC AGGGAGGTTC CGCCGCTGGC
+     2161 TCCATGTTCG CTGCCGGTGG CCGTGTCCCT AGCCATGGTA GCCGTGGGAC TGCTCGCTCT
+     2221 CAGATGATCA GCGCCCCCGT TATGGCGGAG AACTCATTGG GATGGAACTA GACATGCTTT
+     2281 CGATAATAAG ACGTTCACAC TACTCCTTCC GTCACACCTC CCTTTTTGGA CCCTACGACA
+     2341 ATAAGAGAGC ACCGGGCCTT GGAAGACTCT TATTTCTTCT GAGATAACTG CTTCTTTCAA
+     2401 CGCACCCATG CTCTCCCCAC CCTCCGACAG AGGTAGGGAC AGAGAGACTG CACAAagctt
+     2461 cattttcatt gtcCATCCAC CAAGGACTTC CATGTCATAT ATCAcgtatc tcttcttttt
+     2521 gtgcAATTTT TGACCACTTT TCTTCTCAAA CATGATACTC CGAGCGACGG TTGGTCGTCA
+     2581 CTGCGTGTGT CGcgttatct ttttttttcc ctcccttTCT TGACATATTC CCCCTTTTGT
+     2641 TCACcaaata ctttttttta tcccctttac ttctctcaaT GGCGCTGGGA CAACAAAATT
+     2701 TGGGATGAAA GCTCTTCTCT AATTTTGGCT CCTGCTTTAA AGCTCTGATG AACTATTGGT
+     2761 CATTCCGTCT TGGATTTGCA CATTAATATT GGATTTGGGt ggcatttttt tttcacagAG
+     2821 CTGACGGCTT CTTCCCTGCC CTTATTTCAT CTCCATCTAT TCCTGTTTGT GATCAATTGT
+     2881 TTGCgtttct gttttctttt gtacAGATGT ATGAAATGTG TCCAAGTGTG GTCTTGTAGA
+     2941 TGTGGACGTG AGCCTGTGAA TGAGATGAGT Agaatctttc tttttaaagT CTTATAGAAT
+     3001 TAAATTGTAA TTGTAAGCTT TGAATTTGGA AAGTTTTTAG TCCCAGAATG TAGTATAACT
+     3061 CATTGGATTG AGGCTTTCAT AGATCAATGC CCGATGTGGT GTACAAAGAA ACATGGACAA
+     3121 CACATATCCC TGCTATTTGA TAGCATCCAA CATATTAGGA ATCTGAATAC ATAACAAGAG
+     3181 AAATGTCAAC ACCGCCAGGT TCCTGGTAAA GTGCCCTCTA TGATACCGTG GATATTGCAT
+     3241 CTTTCGTATA TTGTGTGGGT TCATGAAAAT TGGTAGATTT GTATGACTAC ATCTATCAAA
+     3301 CCCTAAGACA ATAGCCAACA TGGTATTTCT GTCAGGATAT TGGAGTTATA GAGACAAAAG
+     3361 ATACACTATT CTGTTGAATA GCCAAAAGTG CCAACTTGTC CAAGTCTGAG TCAGATAGTT
+     3421 CTTGATCATT CGGTTTATGC GCCCTAATAA CCAGGTTTCT CCCATAATTG TGCTCAAAGT
+     3481 CAACTCTGGT ATTCCAATCA AAGAGTGGTG AGCTCTCACG GAAGAAATAG GGTTGACCAT
+     3541 TCTTCGTAAT GAGGTCAAAC TTCTGCCGGT GTGTAGCTTG GTGAGCTGTT ATAAATTCCC
+     3601 CTGCAGTTGT CACTGCAACA CTACAGTGCC AAGGGCTCAT TGAAAATGAG TTCTTTTGTG
+     3661 GGATAAGGGG ACACGATAGC TTTGTTTGAC CTGATGAAGG ATGAATGGAG AGACGCAATG
+     3721 AGTCAGGGTA AATTTGGCGT ACTAGGTCCG CGTACTCCTA TGATCCACCA AGTCAGACTT
+     3781 GTTCTATATA GCTCTCGAAA TAACCTACCA CTCCGCGTAC AATCATTGCC TTCGCAATGA
+     3841 TCTTGATCCT CTTCTTATAT TGCTTGGGAC CAGCGCAGTC TTTAGTCACT GGGCTGAATT
+     3901 TCAGGTCAAC TTTCATGAAT TTGTCGTATC CTGCAATCAA TCAGCCATGA GACATTGGCT
+     3961 AGACTTAAAT GCCATCCACC TACCATTATA AGTTCTCAGG TAATCCTCAT CGCTTTTCAA
+     4021 AAACTtatca acatcaaatc cCGGCCGTCC ACACCGTCGA TAAAGTTCAG TCCTTGATAT
+     4081 ACCGCAAAGC TTCACATAAT CCGACTTGGA GATATGCGCC CCAGTATAAA GACCAAGCAT
+     4141 ATTCATAATG CGATGGAACT GAATACAAGC ATATCCCTTC TCGAGAGCGA TCTTCCGCAG
+     4201 TCGATTCCCA TATTCCCAGA CCTCCTCATC GGAAATCCCT GTAAGATCTA AAATCAGATA
+     4261 TCAAATTAGC ATTAGATCCT ATATGTGATA CCCAAACAAG AAAGATAGTT TATATCTCAC
+     4321 CATTGTAACA AATCCCATCT GTAACAATAA CCACAACCGC ACCAGGAGGA TAAAcagcct
+     4381 tgatatcctg aCAAAGATTC ACCAACCGTG CCAATCCAAG CTCATCTCCC AAATCTGGAA
+     4441 GTGAACCTAG CACTTTGTCC ATGCGATTAT TACTCTTCAT TGGAAAAGCA GGTAGAACCA
+     4501 TAGGAATAGC CCTGTTGGCA GCGATGTGTG TCTGCACGCG TGGCATGAAC GAGGACCGGC
+     4561 CCAGCCATTC ACCGTCAGCG GTTGTGCGCT CATGGGAGCC GTAACGTTCC ACGATGTTCA
+     4621 TTATTTCATC TGCCTTTAGG CGGTTTAATA TGGGACATAT TTCCGGTGTG TCGAAATGGT
+     4681 TGTCAGTGGC GGCTTCAGGT TTGGGGACTG GGTGTGGTGT TGAGAGGAAG GATACTTGGG
+     4741 TCTTTGAGGT GGAAGTGATG CGGTCTAAAG AGATCAGGTC TAGGCGAGGG GTGACTTCCA
+     4801 CTACCGTCGG TGCTAgcatt ttgatatagt tCATGATAGA CTGGGGCAGG GTTGCAGCCA
+     4861 GGGATTGGGA AGGGGTAAAT TCAGTTTTCG AATGCACTCG TAATTTATAG GGATGGTATC
+     4921 CTCAAGTCCT GTGTTGGAAT TTGGGGGCTT TCTATTGCCA CGCTTAACTC CCAGTCTCTT
+     4981 ATGCTCTGGG TTAAAGGATG TATTCATCCT TCCATGTGCC CCCTCGTCAT TTTTGCACCT
+     5041 CTGATAGTTT CTGTTCGGTT CAATGGGAAC TATGCTGTTG CAcaagaaat ataaaattaa
+     5101 attCTAATGT CTGACTATTT GTGTACTGAA ACCAGTGCAT GACTCGGAGT ACGACTGTTT
+     5161 TCGTATATCT GGGTTAGGTT TTTCATCCAA GAGCCCTAAA GAACAATAAT ATGGataata
+     5221 tactccgtag atactccgta gatagaTACG CTGTATCGTA AACAATGTTG GTACTATTTG
+     5281 GCCAGTCAAA GATGTTATTC CAAAGAATTC TATGGTTGTT GAGCTGATTG TTCAACCATG
+     5341 ATTTGGTATA TGCTGTCTCC AGGGCTAAAT TTAGGAATAT CTTACACGAG AGGTCGGGAT
+     5401 AGATGGGAGC CATTATATGT CTCTGGTAAA AGCTTTCTCG GGCAAAGGTA ACATGTAGAC
+     5461 GTAATATTAC ATTGGTTCTG ATAACTGAAA GCTGATACAT CGCGAGAAGT GAAGGTCAAA
+     5521 TCGCTCCAAC TTCACGGctt aactatattt atactaaaac CGGGGGGTAT TCCACTCCCA
+     5581 AAGCTCCGTC ATTCCCCATC GGGTCAGAGT TATGTAGCCA GTTAGATCTC CTCTCCTGTT
+     5641 CATTTCTTTC CCTATCTGCC TCGCTACGTG GTGAATACAA CAGACGCTTC CACTATATAG
+     5701 AGATCCCATT ACGTAGGATT AGAGATTCGC ACCGAGTATT ACCTCCGAAG CGATGATCAA
+     5761 GAAAAATAGA GCCCATCTGT AAGCTTGGTA AATTTTTTTG TGGCAACCCC ATTCACAAGA
+     5821 AGTAAGAAGC TTCCTTTTCT CGCTCCCAGC GATACTCCAT CCGCTTCGCA GTCTCCCTCC
+     5881 CTACTGCAAT ACCACCATAA TGGGCCGAAA TAAACTCCAA CATCACATCC ATCCCTGCAG
+     5941 TGATCCCAGC AGACGACCAG ATCTCAATTC CAGGTAGCAA CGACAGGCCG TCAGGCACCA
+     6001 CATCCTTAGG AACACTATCA CGTAGCCACC GTCTGTTACG TTGCCATCTC ACTTCGCTCG
+     6061 TTTGGCTAGT GACATCGTCA TAGCGGGCTG AGTTTGTAGT TACTTGGCGT CCATCCAGAA
+     6121 GCCCAGTCTG CGAGAGGACA TGGCTACCCG TGCAAACAGT AATGATACTG TGGCGGACAT
+     6181 AGGGCGCAAC GGCAGTCAGA AAGTCCTGAA CCTCCTGCGT GTTAGAAACT TTGATTTCAT
+     6241 TGGATGTATT AGTGCCGTAA ATACGGTTCA GACGTGTCCC TGGGCCACCT GGGATGATCA
+     6301 ATACATCGAT AGGTTTGAAT TCACCACTCC CATCCTCGGC AACTTTCCCC GCTTTCAGGG
+     6361 CAGAGATCAT GTCATTGAAG GTACATTGTG GCAACATTTG CTGATTGCAA GCTGTATTGA
+     6421 TGTTGGGTAG ATCAAATCGC CATTGTGCCT TAGCGGGTGG AATTGGTTTC ACCGAGACTG
+     6481 GGTCCAAAGT TGCGGCTGAT ACAGTCAGGG TGATGTTTGA TGTGTCAGGA TACTGTGTGC
+     6541 GGATGTTGAG AATGTCCAGT GGGGCCGCCA CGTCCAGTAA TTGGAATCCA GGGAATAATG
+     6601 GAAGGTGGTA ATGGAGAGGT TTGAGGAACA TCTTGTGTAA TACTCCGTTG GAAAAGTCCC
+     6661 GTGAGATGGG GAGAAATCGT AGGAAGGTCA TTCCGAAATA GAGAGGGGTC ACGTTTTGGT
+     6721 CACGCTTTTT GACTCAAATG AGGTATCCCA AGCCTTCAAG CCTGATTAAC CAGGAAtgta
+     6781 tttatatttt catGTGAGAA TAATAACAAA ATTAATGGGA CATACTAAAC AGGTTTATGT
+     6841 TATTACTACc taattttaaa taagattcTG TAAGACACAA TGTCTATAAA CAAAGTACAA
+     6901 TCATGTATAG TAATTTTAAG CCAATTTAAG CCCCCGAAAA GTGAGACCCG ATTACGAACA
+     6961 ATGCTCCAGT TAGGATACAA ATACCCCCGA ACAATTGTGC GTACAGGTAA TCGCCTCCCC
+     7021 CTAACGCGAT CAGCTGTCCT GCGATATAAG GTCCAGTCAG CAGCGGAATG CTATTGATAG
+     7081 TGGTAATCAT CCCAACACGT GTGCCGGATT TTTCTGGGTC TTTGGATCCA AAGTAGGCAT
+     7141 TTGCAGCCGG CAATTGACTT TGCGCACAAT TCACCAGTAA TCCATAGACT GTAGCCCAAA
+     7201 TGAACATGCC AACCTGGGTG TGTACACCAA TCCACCCTAG AATGACGATG CCGCAAGGGA
+     7261 TTGAGACTGC AATGCAAGTC CTTACTGCAC CCAGCCACCG GTCCGCCACG AACGCCGAGG
+     7321 CGATGCGGGA CGGAACACCC ACGCCATTCA Ttaggatgag gaggaggagt gAATCAGATG
+     7381 CTGTAAATCC TGTGTGAGCC TGGGCATATT GTCGAAGCTG CGAGTGTTAT TAGTTAGGTT
+     7441 GCCAACCCAA TGtggaacaa agaaataaCT TACATAGATG TACGCAAAGT AAATTCCCTC
+     7501 AAAGATCAGG AATGAGCCGA TTGAAAAAAT CAGGTAAGGG CGTTCGCGGA ACGCGCTGAA
+     7561 GTCAACCCAG GGAGGAGGAC GACGAGGTAT AATCCGAGAC CTGGTAAACT TGATAATTAT
+     7621 AACGCTGTTG AATAGGATAA TGGCCGCCAT GATTCGGACA GTCCATGCGA AGCCAATATT
+     7681 GTTGAAACAC TTATAAGCAA CCACTGGGAA AACCATCCCT CCAGTCGCTG CCCCACAAGA
+     7741 AGCCAGCGAG ACGGCCATCA CTCGCTTGGA GTTGAAGTAT GTCGCATATA GCGAGATTAT
+     7801 GGGGCTGAAG ACGAGTCCGT GGCCAATTCC ACTGACGATA CCTTGCGCTA GCCAAAAATG
+     7861 CCATAACTTT GTGCCGAATG AGGTCGCGAA TGCTCCAGTA ACTTGAAGAA GGCACCCAAG
+     7921 GGTAATGCAT TGTCTCAGAT AACCCGCGTC CATTGCTCTG CCTGAGAAAG TGGCCAGGAA
+     7981 ATGGACGAGG AACATCTGCA CCGCTCCGAT CCAAGACGCA TTTGCTGGGC TGACATCAAG
+     8041 AGTTTTGACG TAGTATTCCT GAAAGAATCC ATATCTATAT CGCATCAACG GGTGAGATTG
+     8101 GCATCAGGTT TGACAGGGGC CCCTTACGAT GTGATATAGC CCCATACATT GAACACAACC
+     8161 AGGTGTCCGG TCAGAACTTG GGTCCAGGCC ACCAGACCTC CATCAGGGAT CTCATTGTTC
+     8221 TCAGCTTTGC GGTTTTCGTC TTGTTGGCGA GGATCTGGGG GAATAAATAG AGGGGATTCT
+     8281 TCGGTGAGAG TAGTATAGGT AGTGGCCGGC GGCGTTGAGT GAGATGTACC AGTCGTCGAG
+     8341 CATCCAGTTG CATTGCTCTG GGATATGTTT GGCTGGCCCA TGCTGGTTGA CAAGACTCCA
+     8401 AAtaacaaaa aggaaatatc tcCCAAAATT TGGAAAATAG AGGAATGCTG GTAGTGTATG
+     8461 AGGCTTGAAT TCTAAAATGT GACTCCTCAG GTGTTAGTTA CATTGTGGAG TTACCCGCTC
+     8521 CGTGTAGAAA TCTTGTAGAT ACGTTCTGGa tttgtacaga gtacaggTAT TGCTTCAGGT
+     8581 AACAATACAT ATAAAGTGTG TAGGCAACTA AATAAAATAC TGTACGTAGT AAACTATATC
+     8641 TGCACTGGGA TGTTGATCTT GTCACGAGGG ATAACAATAA CATCCGAACC CTTACGGCCC
+     8701 CATTCACTAC ACACATCCAC CAATTCCCAT TCTACTAACA ATGAAATTTG AATACGATCC
+     8761 AGACGAAGTA CCTCAAAAGG TTATCGAGGT GTTAAAGCGG TTTTGCTTGC ATTCGAGCAA
+     8821 AGATGGCCAT CAGAAAGACG TCGGAAGGGT ATTCGAGTCC ATGCCTGAGA AGTTAAAGAT
+     8881 TAATATCACG GCAAACCGGC CGATAACTAT GGTTTTACCT GCATTTCCAT GGAAAAGTCC
+     8941 GAACCAGGAT AAAGTGCTAG CAGATGGGGC AGATCTAGGA GAAGAACTGG GTTTGGCGAA
+     9001 ATTGAACCAC CTGTGCGAGG ATATCTCGAA GATCTATCCT TACGGTGCAC GACTAATCCT
+     9061 CATTTGTGAT GGCCCAGTAT ATAATGGTAT GGCATTCCTT GTTCTTTCTA AGGAGGAATA
+     9121 TCATTATCGA GAATGGAATA AATAGACTGA CGGTGTAGAC CTGGTCGGTG TCCCTGACGA
+     9181 CGAATGTTAC GACTATGGCA TTGAGATACG CAAAATCGCC CAAGAGAAac atttttcttc
+     9241 tatcCAGTTT GTCCGGCTGA TGAACTTGCT GGGACTAGGA GATGGCGAGA AAATCTCCAA
+     9301 GGCAGATTAT CTCCGTCTCG TCGCCACTGT CAGGGAGAAA CTGATGTCAC CCACATACTT
+     9361 CGACCCCAAA TTTGACATTG AACTTGAGTT GAAGACAAAT CCAGATACCA GAACAACATA
+     9421 CGAGAGCTAT TTTAGTCGCA TCTCAGAGGA TCTAAAATGG GCCAAGGGGC TTGACCCTAT
+     9481 TGTCGCGGCC GACCCGGCGC TCTACGCGGC TGAGGTGTCC AAGATGGCGA AAACCATGAT
+     9541 CAACCGGCTC ATCGTAAGTC TTAATGCTAT GACATATTTG ATGCTTTATT TTTCCTGGAA
+     9601 TGTCTGGCTC CCTGGCTCAC AGTTTTCCCA GGCATATGAA GCCGTCATTA ACGATACACT
+     9661 CGGAAAATAC ATCCGTCTCT CGATTCACCC TTCATTAGGG CTAAACAAGG TCTCTATTCC
+     9721 CTTGCTGGGC CAAGGTGATC TGTTTGGTGA TATGCCGTGG CATGCAAGTG TGGCGGTACT
+     9781 GTCAAATGGG GAGATCAAGA CCGGAAAATC GCGGGAATTT CGCAAACTGT ACGAGGTCGT
+     9841 TGTGAGGCAT GGCCGGCCTT ATTACTTCAG AGAACGGAGC CCAATGTACG AATGGGAGGC
+     9901 AGATGTGGAG TTTCAGCATG ACTACGATGG GTTGATTGTG AAGAACCCTT TACAGAGAGC
+     9961 TCAGACGCTT GGTAGGGATG ATCGCTTAAA GCTAGCTCGC TTGATTGTGC AGTATCAGAC
+    10021 CAAGTCGGTT CGAGTGGAGG GGTTTGAAGT GTTGAATGAC GCATGACTGT TTAGATTTCA
+    10081 CCCGTTCACT TAGTAGCATA TGCGGCTAGA AAAGAGAATA CAAAATCTAG TGGCAGGTCC
+    10141 TACTCTTATA AGCATAAATT GTTGGAAGGT GTGGGTCTAC CCCACGTTCT GGAACCATGG
+    10201 GTTCTCGAGT AAGACTAACC CGACTCTGTC TAGGGTAAAC GGTATTCAGA TATTCTATTG
+    10261 TTTTGAGCAG CATCGGAGAG CTGGATTGTA CAGGTGAAGT CTAGCAAGAT ATTTCAACGC
+    10321 TCACTGTTTT CTGTGAGAGC TGTTGGCCAT GTCATTGATC TTCTAGGGCA GCAGGGAAGA
+    10381 TATGACATCA AGACAATCTT CACTAGCCAC ATCTATGACG ATACAAATCG GAAAGGGGCC
+    10441 CTCACTACCT TCAGAGATAT GAGCAAAAGA CTATAACGAG GTAGGAAAAT GGAGATAATG
+    10501 TGTATTTTTG TCTATAACAG GCAGGTGTAG ATACATCAGA AATCCCAGTG GATATCAGAA
+    10561 GGAATAGGAG GTTAGAGAGT GGGAAATGAT ATGTACAATA AGTGGTAGGG GAGATGCGCC
+    10621 CATCCGCAAC AGGCAGAAGC AGCCAGAAGA AAACATCTCA GTCAGAGTGA TGAATATAAA
+    10681 TTGGTGTATT TGCCtcattc cttcttcttc ttatctgACT CCGATTCAGG CTTTCCAAAC
+    10741 CAGCTCGTCA GCGCTGCAAT TCCACCGCTG CCGGCCGGGT TAGTTGACTG GCGGCGGAGT
+    10801 TCACGCGCTC GCTCCCGCTC AGCCTTGTAC TCGTCCCAGG AGAGAtctgc cgctgctgct
+    10861 gcacgaactt cctcctcttc ccgGGCAGGG AGGCTCTTGC CTGGTAGTGG GCGAACGGCT
+    10921 GCTTCGCCGC CGTAAGCACG AAGACCAGTG CGGAAGACCC ATTCAACGGC CTCATCAACG
+    10981 GGGTGATCGA AGATATAGGG AAGGAAGGGG ACAACGGCAA GACCAAGCTA TAAGAGACAG
+    11041 TGTTTAGCAT CGTATTCACC AATTTACGTT CTCACCCAAA AGGAAAACGG TACTTACCCC
+    11101 AACCGGCGTC CAGGTACGGA TAAATGCAAT CTTGACATCC TTTACCATCC GCCCAGAATA
+    11161 GCGGACCACA CTGTGAATTG TGAACGCAGG CAATCCCATA CTCGCGATAC TCTGGAATAC
+    11221 TGCGCGCTTA GCCATGACCA TGCGGTAGTC CTCCGCGAGC GGGATCTCGG GGGTCGGCCA
+    11281 GGTTGGTTGC TGATCTTTGG AATCGGCTGA GTTGCCAATC GTCAAGTTAC CTGTCACCAT
+    11341 GCCCTTGATA ATCTGGTTCT GCGAAGGCTG CCTAGCGTCC TTGTATGTCT CATCTGTGGG
+    11401 AGCTAGTGCG TTCCAGTTTC GGAGATAGGC CTTGTAGCCT TCATGACCAA CATCACCAAG
+    11461 CAGGTATGAC CAGGAGATAG CGTAGGCAGA GCGGACAAGC CATGGGTGTG CGATCGGACG
+    11521 GAAGGACTCG CCGATGTCTG AGGTGTAAGC GACATAGCGA TGAGCGGACA GGAGGATCGT
+    11581 GCGGATGCGA TTAGCGTACG CAGCATAGCG GAACGGTGTG TCTGTAGAGT TGACCGAGCT
+    11641 GCCGTCAATC GAGGTGCCCA TCATTAGTTT Ctattttgtc ttttcttgct tttggcGCTG
+    11701 GGTTGATTTG CTCGAGGTGA GTTGGCGAAG CTCTGGAGTG TTACATGTAG TATGTCATCG
+    11761 ACTCAAACCG GGAAGTACCG TGGATTACTC CATCTCTCCA CTCCGAGCAC GCGACAACAA
+    11821 TTTCCTTGCG ACCAAAAAGA TAAATTTTGA AGAGTTAGAA TTTCACATAC TATTGGGAGT
+    11881 AGAGGTCATC GTAGAATTCA TCCTCGCGAT CAACCAGCTG TTGCAATTTT GTGGGGAGCT
+    11941 TCTCTCGGAC TACAGGCTTA TCCAATAACT CCTGCGGGGG AGATTGTGGT TCATCCTGTT
+    12001 GACGATCGCC CCTGACCATT GCGAAAGTAG TATGATATGT CAGTTATGGG TTATGTAGTC
+    12061 GTTTTGAACA AGCAACGCTT ATTTGCGTGC CAAGTGAGAT CAAGACAAAG GGGGTATATA
+    12121 ATACAAAAAG Aatgtgaaga agaaaaacgA GCGAAAGCAA TGCAAGGGAA GAAACAAGTT
+    12181 ATTATTAGGA GATTCTCATA TTAACCGcac actactccgt acagccGGAA GACACAGCCA
+    12241 TAGCCGGAAT ATACAGCATT AGCTATGAGA TATTTCCCCC GAGGTACCGT TGGTATCTCT
+    12301 CCCGGTTCGG AATATGGAAC AGAATGTAAT ATACGGAATA TCTCAGGGCC AAACTCGACA
+    12361 TCTATTGTTC ATTGTCAAAA GCTTCCGGTC TAAGTTTTGT CGCTCCTTTG TTTCCAAGCC
+    12421 AAATCTTCGG TGTTCTCGTG TGTAAATTGA TCTTCATATG CCAATGCTCT TGTGACGCTC
+    12481 GTTTCGGGAT GTCACATGAT ATCGGATACA TCCGGGTGCC CGAGCGTCCT TATATAATCA
+    12541 TACACAGAGT CATGTGAATT ATCTAACCAA ATTAGGAAAG GCGGTATCCG TGCCGACCTC
+    12601 GTCGTTTGGT CCAAGCCTGA GGATTCCGTC CACATCGCTG CCAATTGAAC CTCTCGTTAT
+    12661 ACCTCAATTC CAACCCTACA AAATGGTTGT CTACTACCAA ATCGCCGGCA AGAAGGTCGG
+    12721 CTCCCACGTC GTAAGTTTTC ATCTTTCCAA AAATGCCGCT GCGCGCTCGG CATCCCTTTC
+    12781 TCTTCGCGCT TCGTGCGGGT ACTAGTGAAA CATGAAAGTT GACCGGGTTC TCTTCAACCT
+    12841 CTTATTAGCT CGCCATGGCC ACCCTCGGCA GTATGTTTGC TGGTTCCTGG CTCGCCATGT
+    12901 CTGGCGGTGA GAAGCCCAAG ACCGCTCAGG GTCCTCCTAT CAACGCCTCC TCGAAGGATG
+    12961 AGGAGAACTT CGTCCAGTAT GTCCAACACC ATCGCGGAGA ACAGAGCCAC TGCCGACCAC
+    13021 GAATCTGATC TCAATATCAG CTCCCGAATG TCTTACTGAC TGCTTATTTT ACAGGAACTT
+    13081 Catgaaggag gttgatggcG GCGAGAAGAA GCCCGCCGCT AGCCACTAAA CCACCCTTCG
+    13141 ATACCATTAA TATTGATGGA GCGGTCGAAG ATGAGCAGCT AGCGTTCTGG ATTCAAACAA
+    13201 ACTGTCTCCG CTCTCGCGCC CCGCGCAACG ATGTGTATCC GCCCTTCCGC AGCGTTTTTT
+    13261 TGTGACCACG ATTTTTTCGA GAAGCTACAC GGACCGATCT TGGATGTCGG CGGATGAGGT
+    13321 TGATTGATCT GTACATAGGA GACGTGTACA CTGCATAGAA AATTATCCTC TTGACATTGT
+    13381 TTGTCTGGTC TGCTTTTCTC CCTACCACTG AGCAAGATTA ATCAcgggag aagaaagacg
+    13441 aGCAATACGA TTGCTTTGCT GCGATCCCCA GTGGGCCTGG AGTCTATGCT TGACAAAAGC
+    13501 CTTTAAACTT TTAGTCCAGC AAGCGCATTG CTCTCTATAG CTCCGATCAA CTCGCTCGCC
+    13561 AAGCCGAAGG AGATGCTGTA GCAATGAGGG ACTGTAGAGG GAAACGAGAA GGTGTAGATG
+    13621 TAAACCGCAT AGAAGAAGCA TTGTCTGAAA ACCAACCTAA TATTCACGCA TGACCTCCAT
+    13681 CCACAACCAA TGACTTTTTA GTGAATTAAG CAATTCCAGT GCTGCTCAAC TGAAGCTTAA
+    13741 AAAAGCTAGA TGGCTATCCC GAGTCTCGTG CCGCAACCCT CTTACTTACC ACTTCGCCCT
+    13801 CACAACAACC CAAACACccc catcaacaac cagAAATCCC AAAATGAAAC CCCTCCCCTT
+    13861 CCCATTCCCC TTGAACATTG GCACAGACAT CGTCCACATC CCACGAATAA CCCGCCTCCT
+    13921 CACTCGACCG AACTACCTCC CACGATTCAC GCGCCGTATC CTCTGCGACC AAGAACAGCA
+    13981 TGATTTCCAC ACACGCTTCA GCGATGTCAT CAAAGACCGT GTCATATACC ACGAACAGCA
+    14041 TTCACCTGTA CCAGCGGATA TAACACGCTG GCTGGCGGGA CGCTTCGCAG CGAAGGAGGC
+    14101 GGCGCGGAAA GCGGCGCCGT CTGGTGCGGC TTCAATTGGC TGGAAGGATG TCATGGTCCG
+    14161 GATTCAGGAA GATGGGGGCA GGTTTGGCGA GGGTGTAAGT CGGAAGCCTG AGATCGTTTA
+    14221 TCTTGGAAAT GCGCTGGATG GGGATGCGGG TGAGGGGAGG GTTGCGAAGT TGTCAATCTC
+    14281 GCATGATGGG GAGTACGTTA TTGCTACTGT TTTGGCTGCT GGCTGAATTG TGGGTTTAAT
+    14341 GGGCTATGCT TTGTTGATTG GATCTCATTG CAATTACTGA GGACGGTTCA CTTGCTCTCT
+    14401 GGGCCTGTGA CTGGCTCACC ACCAGACGGC GAACAGATAC TTGTCTCTGA GGGTTCCAGT
+    14461 GTGTAACCAC TAGGGACTAC AAGGGGCCTA TCCTCTTCTA GAGAGGGTCT AGGGAGACAA
+    14521 TGCGCCTCAC TCAGGGACAT CATCATTAGT GTCTGTTATG AGTCCTTCGC ACGCTTGTGG
+    14581 TAGCGAAACC TGGGTGCCAG GGATAGGCTG GAAACCGAGA GCATATAACT TATATTGAAC
+    14641 GAGTCAATTA TGAAAACAAC GAGGTCCTAG AAATTGTATA TTGAGATATT TGCTATTTTT
+    14701 AGTTGTTACT TGTGACCCTA CGCTATAAAG CGGCACAGAA ATCCTTATCG TCTATCAACT
+    14761 TTCGACCTTG GTGACTCCTC GACGTAACCG GCATATTCCC ATATTCTTCA GAACACAAGT
+    14821 GTAAGTATGG GATCTATTCA CTGTTTGAGA AAAAATACCG TTGCCTATCC CTGTCCATCT
+    14881 AACAGATTGG CCTTCATTTC GGATATTGTG CTAACCAGTC GCAGTGACAT CCACAAAACA
+    14941 TGCCATTCTC GCATCACAGC CATTCGGGCC AATTCTGCCC TGGCCATGCC CAGAACCCCC
+    15001 TGGAGGATAT TATCAAAACT GCTATCAATA AGAAGATGCA AGTCTTCTGT CTGACTGAGC
+    15061 ATATGCCCCG CCATAAAGAA GATTTCTACC CCGAGGAAGT GTGTAAGGAT AAACCTACTG
+    15121 CAGTATCCTG AATTAACCGA TCATTCAGTT TGAATCTGGC ACTACCGAAG AAAGCCATGC
+    15181 TGCAAATGAA GCCGCATACT GGAAGGAAGC AGTCTCTCTC CGCGAGAAAT ACGCCTCCCA
+    15241 GATCAAGATC ATCATTGGCT TCGAGGGTGA CTGGATCCGA CCCGCCTCTA AAGATTTGAT
+    15301 CGAGCGCTCA CTTTCCCGGT TTCCATTTGA ATTCTTCATT GGCTCAGTTC ATCATATGCA
+    15361 CACTATTCCA ATCGACTATG ACCGACCTAT GTACGAACAA GCTCGAGAGC AAGCCGGCGG
+    15421 AACAGATGAG CGACTATTCG AGGACTACTT CGATGCCCAA TTAGATATGT TGGAGCAACT
+    15481 CAAACCACTC GTTGTGGGAC ATTTTGATTT AATTCGTCTG AAGAGCGATG ACATGGAGCG
+    15541 CAGCTTTACT ACCTGGCCTG GTGTCTGGAG TAGAATTCTA CGGAATTTGG ACTTTATTGC
+    15601 CTCGTACGGT GGTATCCTGG AGCTCAATTC GGCTGCATTG CGCAAGGGAA TGACTGAACC
+    15661 GTATCCCAAA GCGGAGATTT GCAAGGTAAG AATGCAATCT TTCGTTATGT ATCTCGCGAC
+    15721 TAATCTTTTT AGGAATTTGT GGCACGTAAG GGCCGCTTCT GTCTGTCTGA TGACAGCCAT
+    15781 GGCATCAACC AGGTTGCTTT GAACTTCCGC CCTGTgcttg atttcttgga tCGTGCTGGT
+    15841 ATTTCAAAGC TACATTATCT ACAATTGGAA ACGTCGTCAT CTCCGCCCGA TTCTCGGTTT
+    15901 CCTAATACCC ATATTGCGGA GATTTCAGTG GAAGACGTGA GAAAGATGGC ATTTTGGTCA
+    15961 TGAATTTAAT GCTTATGTTA AGTAGACTGT CAAGTAATTA AGAATGTGAA TATGAATGTG
+    16021 ATTATGTTCA GTGTCAAATG TCAATATATT ACGTCGTGTC CCGCCCTGGA AGAAAAGTGG
+    16081 ATAATCTTGC CCCTCCCGAG CTCCcgttcc tttttctctt cacaTCTCTC TCATATTCCT
+    16141 AACATTACAT TCACAATGGG CGTTGAAAAG AAGACTCTGG TCGAGGGCAA CGGTGTTGAC
+    16201 TACCCTAAGA AGGGTGAACA CGTTGCCATT CACTACACTG GTTGCTTGTA TGATGCCGAA
+    16261 AAGGCTGACA ACCACTTCAT GGGCAGCGTG TAAgccaaac cttggaatat ccaTGCTCAC
+    16321 CTCGAtttat ctaatatata tccatagaTT TGATACCTCC CGCAAGCCCG GCCGTGGTCC
+    16381 CCTTGCCACC CCCATCGGTG TCGGTCGTCT CATCCGCGGT GCGTTTCAAT ATATCTTGTG
+    16441 TAAGATAGCT TTCAGTTGAC TAATTTGATG AATAGGCTGG GACGAGGGTG TTCCCCAGAT
+    16501 GTCCCTTGGC GAGAAGGCCA TCCTGACCAT CAGCTCGTGA GTTGCGACCT TTGGACTTTT
+    16561 ATAATGAACT GAAACACTAA TATTCGATTC TCAACAGTGA CTACGGCTAT GGCGACCGGT
+    16621 ACGTACCAAC CAAGTCCGAT GCTGAATCAA CATATTGAAA CTTTTGCGAT ACTTCCAATG
+    16681 CCTCGCAACC CACCTTACAC TTTAATTCTC CCTATGAGAT TTGTGCTGAT CAAATCATTT
+    16741 TAGTGGCTTC CCCAACCTGA TCCCCGCCAA TTCTAAGCTT GTCTTGTGAG TAACCCGTCT
+    16801 CTTTTCTTAC TTCATACAAC GAACCTATAg cgaagaacta aactaacTGT TCACAGCGAG
+    16861 GTCGAGCTTG TCAAGATCGG CACCAAGAGT GTTTAAATCA ATCGCTATTA CCGACTTTCC
+    16921 GGCGACATAG GATATGGAAA TACTACacga gaaaagaaga gaatcCGCAT GGGTCATTCC
+    16981 TGCTCGTCTC ATACGGTCGA CGGGCTACTT GGATAGCAAA ATCAAAGTTG GGTATTTTTG
+    17041 CTGTTGATTT GACTCGTTAT CCAACGGAGA AAGTCATCTG GACTAGCACA TATCTACCAT
+    17101 CTGTTTCCCT TCTTCATGCA CACACCGTAG ATGCTAGCCT AACTTGCCTC ATCCACATCA
+    17161 CCGTGCGATG CTGTTGATAT AATCAATCCC GTCGACACGG TACGTGTCGG CCTCGATATA
+    17221 ACTATCATTC CGGGGTAAGC GGAAAACAAA GTTCGCCGCG CGGGACGAAT AATTCGGCCA
+    17281 TTTGGCAACA TCAGACACTA GAAGACAGTC AGCTTACAGG CAGTAGTATC AAGTACAACG
+    17341 CGTATTCTAC TAACCACCAT GTCCATTGGG GTCCAGGTCC GCCACGAATG ACATCCACAT
+    17401 CCGCGCTGCC ATCTGTCCCA GTTCCAAGCG CGCTGGGTCG ACTCCGAGCG GTGTGATAGT
+    17461 CTGCACTGAG TTTGCAAAGA CGAAAGGAAT CTGTATAACC GGATGCAGGC ATTAGTTCAT
+    17521 CTTGCAGGCC AGAAACTCAA GTACCCAAGA CCAGGTGGAT TATCACGTAC CTCTGCAAAA
+    17581 TGTTGCACCC CAATCGTTGT CGAGCTATTC AACGCCGCCA CATCCCATCT GTATGAATAT
+    17641 ACATTGTCGC GCAAGCTGGC CATACGTTGT GCCAGCATGC GCCGTGGCCC TACCATGGTC
+    17701 AGATCCCCAG CTATGGATTC ATAGCGCTTG TACATGAGTC CCTGTGAGGG CCAGGTGGTA
+    17761 TTTCCCCAGC CATAGGGGCA CCCGATGGCG GGGATATTAG GGTAATAAGA TAGCAGCTGC
+    17821 GTAGCTTGAG AACGGTCAAG GACCCAGCGC TTGGACGCTG TGATGATCAC TTAGTCCAAC
+    17881 ATCGTTATAT ATGATGGCTT AAAAGGATCC GCAGCAGGCA CTTACTAGTC AATTCGTTAA
+    17941 TGCAGTCCTC ATCTGTGTCT GTGCCTGTTG TCCCGAAACT GGTGCCCTCA TCGGTATTCG
+    18001 TTCCTATCAA GATAGGTACC CGGGTCAATT TCCCCTGTTT ATAACTTATC TGGGGGTACT
+    18061 GGGTTATAAA TGAGCCGTCG ACAGTAGCAA ACCATTCCAG ATCCTCATTT GCAGTGTTGT
+    18121 ATAAGGTTTC GTAGGGTAGC TCACGGAGAC ATTGTAGGGT ATTCACAGAA TTGGTGCATC
+    18181 TAGGCATAGT ATATTAGTTT TATGTTTATA GAAACTCGTT CGACCTAGAC TTGCTCAGCT
+    18241 CTGTCGACGA GTCGGTTGTA CATTGGCTGG TGCCATTCTG TTCCATTGTA TGGGGGCCCG
+    18301 ACAGCGTTTC CAGACTCCAT GATTGCTAGT CAATTTTAGT CCGGTGTTAA AAGGAAATGG
+    18361 TAGAATTGGA CTATACCAGC TCTGAAAAGG CCCTCATTAT CACCATTGTT GGTGACCAGA
+    18421 TGGGCTCCGA CACTATATGC ACCGCTATTT ATTCTCAAAT AAGCAGATTA TATACCGAGT
+    18481 ATATTTGCAG TGACTCACGC AGACTCGCCC CAGATAGTGA TTTTGTTAGG ATCACCACCG
+    18541 Aacactttga tattcttctt CACCCAGCGC ATGGCTGTAC GCTGATCACG CAGTGCTAGA
+    18601 TTCGTGTTCC CTTCGGCCTG GGATCAGCGT CAGTCCACGA GAATGTGCCG CATCCAAGTA
+    18661 TATAGTGCCA CTGCCTTACC CTTACTTCCT CTGAGTCAAG GAATCCGAAT GCTGCCAGAC
+    18721 GGTAGTTGAT AGAAACACCT ATGACTGGCT TGCCATTTAA TGCACTCTGT TCAACAATAT
+    18781 AGCTCATATT ATATCTGTAG ACAGTGCGCA ATGTTAACCA CAGCCATCAA GCGTCTTTCC
+    18841 CCGGTTTGAA TATTCGTATC ATGCCCAGCC CTATTTTCCT CAAACAACAT ACCTTGGATC
+    18901 TGCAGTAGCG CCCTGTGCCC ACCCACCACC GAAAATCCAG ATCATAACTG GAAGCAGCCC
+    18961 ATGACTCTCG TCGGCATTAG GTCGGATTAT GTTCAAGTTA AAACAGTCTT CATTCAAAGT
+    19021 GATCAGACCT TTATTAACCA GAGTTGTGGT ATCGGATCCA TACGCAGGGC AGTCGCTACC
+    19081 ATACTCCGTC GCATTGTAGT ATACTGACTT GGAAGAAGGG CTGAGTCCTG CGTGGGATAG
+    19141 ATCATAAGAA CCAGAATTAC TATCCTTAGA TGCATAGGCG TTCTTGAGCT CGACTGGCGT
+    19201 GAAGCGGATG GGCTTGTCGG CATACTTGAT ACCTAGGAAG AGATCTTGGT TGAACCCTGG
+    19261 AAGAGAGCGA CCTATAAAGA TGGTCTTCGG GCTTTTGTTG TTTGTTGATA GGGTTGCTGT
+    19321 TGGGGGTTTC GACGTGGTCC CTGTTGGTTT GGGGGAGAGC GGGTTGGATA TTACTCCAGG
+    19381 AATTATAGAG AGACATAAGG TCGAAATAAG TAAGGTGATC ATTAACTGCA TCTTCTAGGA
+    19441 AGTTCGAGAG CCTACGGGAA TCAAAAGGGG AATCAAAAGT GCAACAGCCA CATCACTTTT
+    19501 ATATAGTTCC CTACCCCATT TTCGGGAAAT TGTATCATCC AACTATATCA TTGGGGATGT
+    19561 GATATTTGGT GCTCCTGTGT GCTTATAGGt gggaaaataa aatagaaact CCGGGCAGTG
+    19621 GAGATCTTTC AGCATTTGAC TATACTTGAT AGTAATCAGA AATATTTACA GATGAAAAGG
+    19681 CACATATCAC TGCAAAAGTA AAgtctattt ataaactaTT GTTCTAAATT GTGCAAGCTG
+    19741 AAAGCCCGga tatagaaaaa gaaatatgtT GCAGTTCGAA Gagtgttgaa gatattgtaC
+    19801 ATTCAACATG CCAGATGGCA AGAGAAATGC TTTCAGTCCA ACAAATCCAG CAACAGCCTG
+    19861 GTCATTCGAT ACATTGGCCG TCCAATCAGG TGGGCTGTAT GCAATAGCGT CGAAGATGCT
+    19921 GTATACGAAC TTCTCATACG ATGCTCCAAT GCCCAATATT ATGACTTGGC ATAAAGAAAA
+    19981 TGGCACCCAA GTGAGAAAAG CACCTCGCtc aagggaaaag aaaaaatggG CGAAAAATGC
+    20041 AAAAATCTTG AACTCCGAAG GATACACACA CGTGGAGACT CTTATTATGT ACGCTTGGAA
+    20101 ATTCAAACAC ATTAATCATC CTTGACCCGA TCGCCATAGG CCGATGAACC GGAGCTCGCA
+    20161 CCAAATCCAA TTGCACGAGA CCTGCTCGCT GCCACCACCG AAGGGCTGTT GTATTGGtta
+    20221 gatgaggatg aggatgaggt gcCCTGTAGC TCGGACCTCC GTGATGAACC CTTGAGTGGG
+    20281 CTAGGGGAGT TCCGGCCATC CACCATCCCA TCATCAAGCT CGATTAGGTC GTCCATCCGC
+    20341 CACATATTGC GACCCCTGCT GCTACCCTGC TGGATGGGTG GCCCTTGCTG CAGTTCATTG
+    20401 ATGCCGGCCT TAGCGCGCGT TGCTACCTTT CGAACCCACC CCTCAAATAC CCCGCCAATG
+    20461 TTCTCGAGGC TAGTAGATGC ATTGGATGTG GCAGTGGATG TGGAGTCAAA GGAAGCTTCC
+    20521 GTGGCATTAT CTGGGGGTAG TGCCGGGGTG AGATTCGGCA TGTGCTGCGC GAAGAATCGG
+    20581 GTGAACCCAT CTAATGCAGG CCCCGGGCCA GTCGAGGTGG GGTCAAGGGT TCCCACCCCA
+    20641 GTGCCAGACA GCTGGATGCT ACTACGCTGG CGGCGATGTC GAGGACGAGC AGGGTGTGTC
+    20701 ATTTTGGGCT TGGGCTGGTC GCCGTTCGGT CGAGTCCGTG GCAGTATGCC AAAGGATAAA
+    20761 GGTGGAGGGG GTGATCCAGT AGGAGACGGA GGAGTGATTG TTTCTCTGTA AGAATCAGGA
+    20821 GGTTCTGCAT CTgaataaga tatagatttt CGACGCGTAC GCGGAAAGAA TCCCAATGCT
+    20881 CTTCGAGGAA CACGGCCAAT TTGCACTGGT CTGGGAAACC CATCCATGTG CACCCACGAT
+    20941 TCATGCTTCC AAGCATGATT GCTATCCGCC CCAGACGGGG TTATAGACGT ATCCTGTTCA
+    21001 ATGGAGGTAT CATCGGCAGA GGCAGCGGCG GGGGCGATCG AGCTGTCACT GGGATCTTCG
+    21061 TCATTGTTGC TCAAAAGATC CACAGGCTCT TTGGGAATAG GCCGGCCTTT CACAGAGCAC
+    21121 GCATCGACTG GTAGGAGAAC AGTGTTTCTG CTCTGAATGT TGTCGTTGGG CCAGAAACCA
+    21181 TTCGCCTTCC GGAACACTGC AGCCTGGCAG CCATATTTGA TTGTCACGCC GGTGATAGTG
+    21241 TCCGTGGGTT GCACTTTGTG GATATAGGCT AGAGCGTCTT CATCTTGCTC CGACTCAACC
+    21301 GTTTGGTATG AAATGTCGCC AGAATCGCGT CTTTTGTGAG GGAGCGTGCG GCTTGCGATT
+    21361 GGATCACTAT CAGCGAGGAG CAGcgcttct ctctttttgG CCTGCACCAA AGCCTGTCGC
+    21421 TCCTCCTTTG TCCCAGTTCC GTATTGCGGA GCGGTCGGCG CTGATGGACC CCACGTAGAC
+    21481 CTAGGGGTAC TCTTGATATA TACGTCCGAC CGAGATGGTT TCCTTCGCGT GTGTGTTTTT
+    21541 GGCACATTAT TTGGACTGAC TCTTCCAGCA TCACTGCCCA GTACTGAAGA TGCCAAGCTT
+    21601 TGAAGAGAGG ACCATGAGGA GTCCAGAAAT TCTACAGCGC CTCCCGATGA AGCCTTTGAT
+    21661 GATCCACTCC AAGGAAATGA TGTTGGCCCA TTTCGAGTAC CACGGTTGGT CAATTCGGTC
+    21721 GCGCGTGACG GGTGCTTCAT TGGAAGTGGT GACGCTCCAC GGGATGACAA TGGCGAGGGA
+    21781 GTCGCTCCGC GGGACCGACT CGTTCCACCC TCAGAGGGAG CAAGAGTCGT TGACAGTCCG
+    21841 GAGGAAAAGG GTTGGGGGTC GTCCTGGTAG GAGTTTGTAA CATTATTGtt gtcatcttcg
+    21901 tccat
+//

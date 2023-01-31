@@ -1,0 +1,93 @@
+LOCUS       997mF-Z6                1937 bp    DNA     linear   UNC 16-DEC-2021
+DEFINITION  GCA_001672515.1 results based on the annotation PF05141 and  inputs.
+ACCESSION   GCA_001672515.1
+VERSION     1
+KEYWORDS    .
+SOURCE      ICSCreator.py written by Grant Nickles (gnickles@wisc.edu)
+ORGANISM    GCA_001672515.1
+FEATURES             Location/Qualifiers
+     gene            1..1937
+                     /note="*Name CH63R_04247"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="CH63R_0424"
+                     /note="*backbone: True"
+     mRNA            1..1937
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CH63R_04247"
+                     /note="*orig_protein_id: gnl|WGS:LTAN|CH63R_04247"
+                     /note="*orig_transcript_id: gnl|WGS:LTAN|mrna.CH63R_04247"
+                     /product="Pyoverdine/dityrosine biosynthesis protein"
+     exon            1..727
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CH63R_04247"
+                     /note="*orig_protein_id: gnl|WGS:LTAN|CH63R_04247"
+                     /note="*orig_transcript_id: gnl|WGS:LTAN|mrna.CH63R_04247"
+                     /product="Pyoverdine/dityrosine biosynthesis protein"
+     exon            782..1221
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CH63R_04247"
+                     /note="*orig_protein_id: gnl|WGS:LTAN|CH63R_04247"
+                     /note="*orig_transcript_id: gnl|WGS:LTAN|mrna.CH63R_04247"
+                     /product="Pyoverdine/dityrosine biosynthesis protein"
+     exon            1301..1368
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CH63R_04247"
+                     /note="*orig_protein_id: gnl|WGS:LTAN|CH63R_04247"
+                     /note="*orig_transcript_id: gnl|WGS:LTAN|mrna.CH63R_04247"
+                     /product="Pyoverdine/dityrosine biosynthesis protein"
+     exon            1439..1937
+                     /note="*gbkey: mRNA"
+                     /locus_tag="CH63R_04247"
+                     /note="*orig_protein_id: gnl|WGS:LTAN|CH63R_04247"
+                     /note="*orig_transcript_id: gnl|WGS:LTAN|mrna.CH63R_04247"
+                     /product="Pyoverdine/dityrosine biosynthesis protein"
+     CDS             join(1..727,782..1221,1301..1368,1439..1937)
+                     /db_xref="NCBI_GP:OBR11951.1"
+                     /note="*Name OBR11951.1"
+                     /db_xref="NCBI_GP:OBR11951.1"
+                     /note="*Name OBR11951.1"
+                     /db_xref="NCBI_GP:OBR11951.1"
+                     /note="*Name OBR11951.1"
+                     /db_xref="NCBI_GP:OBR11951.1"
+                     /note="*Name OBR11951.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="CH63R_04247"
+                     /note="*orig_transcript_id: gnl|WGS:LTAN|mrna.CH63R_04247"
+                     /product="Pyoverdine/dityrosine biosynthesis protein"
+                     /protein_id="OBR11951.1"
+ORIGIN
+        1 ATGGAATTCT CAAACGACGG GAACTCCATC TTTCACCGCT TCCAGGCCGC CTTCGTCCAC
+       61 GACGGACAAG GGCAGCTCCT GTACTGCAGC GGGCCGCAAA AGGGCACGGT ACACGAGCAC
+      121 TGGGACTCAA TCAGCCGGTG TCTTCCCAGC CAAGTCCGGA CGGCAATGGG CGAGAGACAA
+      181 CAGGTCGGGT CCGTGGACCT GGACGGAGCC CTCCGGGGCT CGAGGCTCTA CGAGAGACAG
+      241 CGATTCGGCG CCTGTCCCAC GGGCATTATC CTCAACGCCG CGGCTCAGAA CAGCAACGCC
+      301 CTCAGCGTAC AATTCGAGGA GTTCTTTGCC GAACTACTCC TCGACCAAGC AGACTTTGCC
+      361 ATCCGCGGCC CCGAGCTAAT GGCATCGCCG TCCAGCGAAT CCCTGGCCGC TACCGAACAG
+      421 ATCGTCAACC TGTTTGACAG CTTCCTCAGG TACCAGGGGA AGGACGACCA GTGGGAGGCC
+      481 AGCGGCAGAG TCTACTTCAC AGACCGCGTC CGTCACTTCA CCTCGCAAAA CGCCAGGATC
+      541 GATTTTTGCT TGCCAGCGTT CCCCTGCAAA TCGTCCAACA CCAACAAGGT CCTCGGCAAA
+      601 GCCCCTGATC GCGGAGAACA GCTTGCTCTC GAGCGCCTGC ACGGTTTCGT GGAGGCTATC
+      661 GAGAAGATCT ATCCGCCGGG TGCCAAGATG TGGATCATCA GTGACGGCCA CGTCTTCAGT
+      721 GATTGCAGTG AGTCTACTTG ACATTTCGCT GTTGGCGTGT GAGGTTACTA ACACCGCCCA
+      781 GTCGGAGTCG ATGATGCCGA TGTCGACACA TACGGCGAGC AGCTGAAGGA GATGAACCGT
+      841 GCCGTCGGCG TCAGCAGAGG AAACACCGAC CGCGTCGGCT TTCGATCGCT CGTCGACCTC
+      901 TTTGAGCTGA ACGAGGCAAA GTCGCAGCAC AAACTCTCCG AGCTCCAGAG CCGGCTCGAC
+      961 ATCCCCAACA TTGACCACCA CGTCGAGACC AGGTTGACGG TCGAGGCCGA GCTCTGCAGA
+     1021 CAGATCCTCA TGGCCGGCTG TCAGCCCCAG GAGTCGGCGG TGCGTGCCCA GATCAAGTCG
+     1081 CAGAACGCGG CGATCCTGGC TTTGTACCGC GGCTTCTCGC GGTTCATGCT CGAGGACCTC
+     1141 GAGCTGCACC CCTTTACACA GAAAATGACC CGCAGCCAGA GGAAGAAATT GTCAACCAAG
+     1201 GTGGCTTTCG AGATGATTAT GGTACGCTAT ACCTGCACCA ATGAGATTTT GCGGCACGTC
+     1261 CGTTTTCGAC CACGGATGAG AACGCTAACA TGTGGTGTAG AGGAACCAAT CATATTCCAA
+     1321 TCTTGTCGAA TTGCTCCTCC CCAACTACGT CCGCCTTTCT ATTCATGCGT AAGCACCGCC
+     1381 CTCTATGCAA TCAATGTCAT GTTGGCAGTT GAGACAAACG TCTGACAAAC TATTCCAGCC
+     1441 ACAACAACGC CGGACCCAAG TTCGGCATTC AACTCTTCGA CCCCGCCGTC GTCCGCGCCG
+     1501 TCGAGGGCCT CTCGCCCGAC GGCACGCCGA TGACCTCCCG AGACCTGCTC CACATTCCCA
+     1561 CGCCGTGGCA CAACTGCCTC GTCGAGGTCC AAGGCAGCCC TTACCTCCTT GTGACCAAGG
+     1621 CCAGCGTGCC ACGGGAGGCG GTTTCGTTGG GCGCCGTGAC AGTAGAGATT TCAACCAAGA
+     1681 ACGCACCCTG CTTTGTTCTA CGGCCAAAAA AGGGCGGCGT TGCCACCGTC GACAACAGAG
+     1741 AGGAAAAGAA GAAGTCAGCC CCACTGTTGG TCATTGAGGA GAAGCCCACG CCGGCTTTGA
+     1801 TACAGAGCCC CGTTCAGAGG CCGAAGGCGC CCAAGAGCCA GGGACGGTTC GACTGGGCTC
+     1861 GGAGGCTGGC CGCCTTCCCT GTCTTATGCT GGCTGGGGGT GGTGTTCTAC CACCGGGTTG
+     1921 TTGAGGCATT TGTTTGA
+//

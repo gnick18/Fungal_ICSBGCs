@@ -1,0 +1,104 @@
+LOCUS       3119mF-Z560             1912 bp    DNA     linear   UNC 16-DEC-2021
+DEFINITION  GCA_018994095.1 results based on the annotation PF05141 and  inputs.
+ACCESSION   GCA_018994095.1
+VERSION     1
+KEYWORDS    .
+SOURCE      ICSCreator.py written by Grant Nickles (gnickles@wisc.edu)
+ORGANISM    GCA_018994095.1
+FEATURES             Location/Qualifiers
+     gene            complement(1..1912)
+                     /note="*Name HYQ45_016671"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="HYQ45_01667"
+                     /note="*backbone: True"
+     mRNA            complement(1..1912)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="HYQ45_016671"
+                     /note="*orig_protein_id:
+                     gnl|WGS:JAEMWZ|vl32-au4.g17152.t1.CDS4"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAEMWZ|vl32-au4.g17152.t1"
+                     /product="Isocyanide synthase xanB like protein"
+     exon            complement(1693..1912)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="HYQ45_016671"
+                     /note="*orig_protein_id:
+                     gnl|WGS:JAEMWZ|vl32-au4.g17152.t1.CDS4"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAEMWZ|vl32-au4.g17152.t1"
+                     /product="Isocyanide synthase xanB like protein"
+     exon            complement(1254..1630)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="HYQ45_016671"
+                     /note="*orig_protein_id:
+                     gnl|WGS:JAEMWZ|vl32-au4.g17152.t1.CDS4"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAEMWZ|vl32-au4.g17152.t1"
+                     /product="Isocyanide synthase xanB like protein"
+     exon            complement(548..1194)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="HYQ45_016671"
+                     /note="*orig_protein_id:
+                     gnl|WGS:JAEMWZ|vl32-au4.g17152.t1.CDS4"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAEMWZ|vl32-au4.g17152.t1"
+                     /product="Isocyanide synthase xanB like protein"
+     exon            complement(1..472)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="HYQ45_016671"
+                     /note="*orig_protein_id:
+                     gnl|WGS:JAEMWZ|vl32-au4.g17152.t1.CDS4"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAEMWZ|vl32-au4.g17152.t1"
+                     /product="Isocyanide synthase xanB like protein"
+     CDS             join(complement(1693..1912),complement(1254..1630),
+                     complement(548..1194),complement(1..472))
+                     /db_xref="NCBI_GP:KAG7114313.1"
+                     /note="*Name KAG7114313.1"
+                     /db_xref="NCBI_GP:KAG7114313.1"
+                     /note="*Name KAG7114313.1"
+                     /db_xref="NCBI_GP:KAG7114313.1"
+                     /note="*Name KAG7114313.1"
+                     /db_xref="NCBI_GP:KAG7114313.1"
+                     /note="*Name KAG7114313.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="HYQ45_016671"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:JAEMWZ|vl32-au4.g17152.t1"
+                     /product="Isocyanide synthase xanB like protein"
+                     /protein_id="KAG7114313.1"
+ORIGIN
+        1 CTAATCGAAA TGAATCCTCC AAAGCTCCCG CGGCGCGCCT GACTTGAAGT CGCTCCGCGT
+       61 GTGCATGGCC AGCATGTTAT CGCTCACGAG CAGGTCGCCG TTCTCCCACG AGTGCCAGAG
+      121 CGTGTTCCGC CTGTCGTGCA GCagcgcgtc gaggacggcg cagATCTCGG CGCTCTCCTC
+      181 GGCCGAGACG CCCTCGATGG CAACGTCGGT GGCGTCAAAC GTCGTCTTGC TCTGGGGCCA
+      241 GGGCTCGTGG TAGCGGAAGC AGGGCTCGCC CGTCGTCGGG TGGGGGACGA CGAGCGGCAG
+      301 GCCCGTCATG GTCGTGGCGT tgaaggacga ggtcgagacg CGCCAGGTCA GCTGCGAGAG
+      361 GCGCGAAAGC GGCAGCCAGG CCAGCAGATT CTGGAAGACG AGGCGCGAGG GCGTGAAGAG
+      421 GGTGAAGCCT GTGTCTTTTG GCGAGGGGGT GACGGCGGTG AAGAACTGGA ACCTGTGGCA
+      481 ATGCGCATGT GAGCCTCTTG TCTGTCACTG CTTTTGCAGC CTGTTCTCCT TCATGACTGG
+      541 GACTTACTTT GGAGGGTTGG GCAGCATTCT CTCCGTGCCG TCTTCGAGCa ccttcttctc
+      601 cgtcttGAAG AGCCCGTCAA AGTGGAAAGG CATCCATTCG GCTGAGAGGA CATTGTTGAG
+      661 GCCCCGAGAG TCGGCTCCTT GATCCTTGAC TTCGAGCACG AGTCCGAACT TCCAAGGCAG
+      721 CGGTGTTCCG AATTCGTGAG CCTTGTCCAC GAACAGGTCA CGATTCCTCG TTTCCGTGAA
+      781 ACCGCGCAGG ATGACGGGCG AGTTGCGCTC CGATAGCGCG CGcaccttgg cggcgtcgac
+      841 attGCGAATG GACAGGGTCT TGGGCCCTGC CGCGGGTCGG ATCATCAAGC CGGATGGGTA
+      901 TAGAGGCTCG CACGCGACGT CCGCGTCCCA TGCGAGGAGA TCGCTCCGCT CGCGGTAGTA
+      961 GCTGGGCTTG CCGTCCTCCA GGACCAGCTC GTAAGCGGGG TCGTTGTCGA ACACGGCCCT
+     1021 AGGACCAGTG GTCGAGGAGC CGTCAAGCCT GAATGCGATG CTGCAGTGCC ATGGCGTGGT
+     1081 Gtagctcgtc gtcgttggca GGGTGTTGAT GGAGAGCTTC GTACGGCCGG TGGAGGGGTG
+     1141 GATGGAGAGG CGCAAGTGGT CGCGGTAGTT TTCGCGGACA GCACGCGCAA AGGCCTAACA
+     1201 TGACCAGGTC AGTCAAACCA AGCAGTGACG CTCTGTGAGG TGGGAGGACG CACGTCACGG
+     1261 CGCTGGAGCA TCTGCTTCGA CTTGTAGCTG GACTTGGAAC GTCCGTTGTC CTCGCCGACT
+     1321 GGATAAACGA GCGCAAGATC GGTTTCGAGG AACTTGATGT AGCCTCTATA TGTTTGGCAG
+     1381 GTGTCTTCGT TCTTGGTGAT TTCCGTTGAG GGGTCATAGT CGCTGCGGCC GAATGTGTTG
+     1441 AGAAGTTGTC GACGGAAGTT GGTGGCGTTC GCGACATATG TGATCTCATT CAGCGAGCTG
+     1501 GGCAGGTTGG GCAGGTGCAC GAGATCCTGG AGCCGCGAAA ATCTGATGTG CTCGAACCCT
+     1561 TTGGCCCAGG CCATCTGGCG AAGTGCCTCG CCATAGGCCC AGACATCTCG GTCCGGCACG
+     1621 CTGAGCAGGT CTAAGGATGA CTGGTCAGCC ACGCGTTTGG GGTGATTATC CATGGGAGCA
+     1681 CTGGACCTTT ACCGTTATAT ACCAGTCCGT CGGAAACGAT TGTGAGACTG GCGCCTGGCG
+     1741 CATAAATGTC TCCGATGGCG GCGCAGAGAC CATTGAGATG AGCGAGGGCA AACTCCTCGG
+     1801 CCTTATCAGG CAGGCGGCCT AGGACTTTAT CTCGAGAGTT GGGCGACTTG AACGGGAAGG
+     1861 TGGGCAGGCA CATGAGGATA GGGGAGTTGG CCCTGACATG TCCATAGACC AT
+//

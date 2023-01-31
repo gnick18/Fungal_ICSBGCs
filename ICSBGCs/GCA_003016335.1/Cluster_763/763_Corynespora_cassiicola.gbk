@@ -1,0 +1,718 @@
+LOCUS       1057mF-Z13             15833 bp    DNA     linear   UNC 16-DEC-2021
+DEFINITION  GCA_003016335.1 results based on the annotation PF05141 and  inputs.
+ACCESSION   GCA_003016335.1
+VERSION     1
+KEYWORDS    .
+SOURCE      ICSCreator.py written by Grant Nickles (gnickles@wisc.edu)
+ORGANISM    GCA_003016335.1
+FEATURES             Location/Qualifiers
+     gene            1..1616
+                     /note="*Name BS50DRAFT_500900"
+                     /note="*end_range: 91625,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="BS50DRAFT_500900"
+                     /partial
+                     /note="*start_range: .,90010"
+     mRNA            1..1616
+                     /note="*end_range: 91625,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_500900"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_500900"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA500900"
+                     /partial
+                     /product="cytochrome P450 3A3"
+                     /note="*start_range: .,90010"
+     exon            1..293
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_500900"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_500900"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA500900"
+                     /partial
+                     /product="cytochrome P450 3A3"
+                     /note="*start_range: .,90010"
+     exon            350..739
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_500900"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_500900"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA500900"
+                     /partial
+                     /product="cytochrome P450 3A3"
+     exon            788..1616
+                     /note="*end_range: 91625,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_500900"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_500900"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA500900"
+                     /partial
+                     /product="cytochrome P450 3A3"
+     CDS             join(1..293,350..739,788..1616)
+                     /db_xref="InterPro:IPR001128"
+                     /db_xref="JGIDB:Corca1_500900"
+                     /db_xref="NCBI_GP:PSN62949.1"
+                     /note="*Name PSN62949.1"
+                     /db_xref="GO: 4497; iron ion binding"
+                     /db_xref="InterPro:IPR001128"
+                     /db_xref="JGIDB:Corca1_500900"
+                     /db_xref="NCBI_GP:PSN62949.1"
+                     /note="*Name PSN62949.1"
+                     /db_xref="GO: 4497; iron ion binding"
+                     /db_xref="InterPro:IPR001128"
+                     /db_xref="JGIDB:Corca1_500900"
+                     /db_xref="NCBI_GP:PSN62949.1"
+                     /note="*Name PSN62949.1"
+                     /db_xref="GO: 4497; iron ion binding"
+                     /note="*gbkey: CDS"
+                     /note="*go_function: monooxygenase activity | 4497; iron
+                     ion binding || 20037"
+                     /locus_tag="BS50DRAFT_500900"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA500900"
+                     /product="cytochrome P450 3A3"
+                     /protein_id="PSN62949.1"
+     gene            complement(2345..4240)
+                     /note="*Name BS50DRAFT_637509"
+                     /note="*end_range: 94249,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="BS50DRAFT_637509"
+                     /partial
+                     /note="*start_range: .,9235"
+                     /note="*backbone: True"
+     mRNA            complement(2345..4240)
+                     /note="*end_range: 94249,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_637509"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_637509"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA637509"
+                     /partial
+                     /product="Clavaminate synthase-like protein"
+                     /note="*start_range: .,92354"
+     exon            complement(3901..4240)
+                     /note="*end_range: 94249,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_637509"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_637509"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA637509"
+                     /partial
+                     /product="Clavaminate synthase-like protein"
+     exon            complement(2345..3849)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_637509"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_637509"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA637509"
+                     /partial
+                     /product="Clavaminate synthase-like protein"
+                     /note="*start_range: .,92354"
+     CDS             join(complement(3901..4240),complement(2345..3849))
+                     /db_xref="InterPro:IPR003819"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="JGIDB:Corca1_637509"
+                     /db_xref="NCBI_GP:PSN62950.1"
+                     /note="*Name PSN62950.1"
+                     /db_xref="GO: 16491"
+                     /db_xref="InterPro:IPR003819"
+                     /db_xref="InterPro:IPR007817"
+                     /db_xref="JGIDB:Corca1_637509"
+                     /db_xref="NCBI_GP:PSN62950.1"
+                     /note="*Name PSN62950.1"
+                     /db_xref="GO: 16491"
+                     /note="*gbkey: CDS"
+                     /note="*go_function: oxidoreductase activity | 16491||"
+                     /locus_tag="BS50DRAFT_637509"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA637509"
+                     /product="Clavaminate synthase-like protein"
+                     /protein_id="PSN62950.1"
+     gene            5096..6407
+                     /note="*Name BS50DRAFT_500397"
+                     /note="*end_range: 96416,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="BS50DRAFT_500397"
+                     /partial
+                     /note="*start_range: .,95105"
+     mRNA            5096..6407
+                     /note="*end_range: 96416,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_500397"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_500397"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA500397"
+                     /partial
+                     /product="MFS general substrate transporter"
+                     /note="*start_range: .,95105"
+     exon            5096..5160
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_500397"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_500397"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA500397"
+                     /partial
+                     /product="MFS general substrate transporter"
+                     /note="*start_range: .,95105"
+     exon            5210..6407
+                     /note="*end_range: 96416,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_500397"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_500397"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA500397"
+                     /partial
+                     /product="MFS general substrate transporter"
+     CDS             join(5096..5160,5210..6407)
+                     /db_xref="InterPro:IPR011701"
+                     /db_xref="JGIDB:Corca1_500397"
+                     /db_xref="NCBI_GP:PSN62951.1"
+                     /note="*Name PSN62951.1"
+                     /db_xref="InterPro:IPR011701"
+                     /db_xref="JGIDB:Corca1_500397"
+                     /db_xref="NCBI_GP:PSN62951.1"
+                     /note="*Name PSN62951.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="BS50DRAFT_500397"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA500397"
+                     /product="MFS general substrate transporter"
+                     /protein_id="PSN62951.1"
+     gene            7262..9362
+                     /note="*Name BS50DRAFT_558685"
+                     /note="*end_range: 99371,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="BS50DRAFT_558685"
+                     /partial
+     mRNA            7262..9362
+                     /note="*end_range: 99371,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_558685"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_558685"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA558685"
+                     /partial
+                     /product="FAD/NAD(P)-binding domain-containing protein"
+     exon            7262..7397
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_558685"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_558685"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA558685"
+                     /partial
+                     /product="FAD/NAD(P)-binding domain-containing protein"
+     exon            7587..7811
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_558685"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_558685"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA558685"
+                     /partial
+                     /product="FAD/NAD(P)-binding domain-containing protein"
+     exon            7863..8295
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_558685"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_558685"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA558685"
+                     /partial
+                     /product="FAD/NAD(P)-binding domain-containing protein"
+     exon            8364..8500
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_558685"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_558685"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA558685"
+                     /partial
+                     /product="FAD/NAD(P)-binding domain-containing protein"
+     exon            8554..9362
+                     /note="*end_range: 99371,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_558685"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_558685"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA558685"
+                     /partial
+                     /product="FAD/NAD(P)-binding domain-containing protein"
+     CDS             join(7310..7397,7587..7811,7863..8295,8364..8500,
+                     8554..9362)
+                     /db_xref="InterPro:IPR002938"
+                     /db_xref="JGIDB:Corca1_558685"
+                     /db_xref="NCBI_GP:PSN62952.1"
+                     /note="*Name PSN62952.1"
+                     /db_xref="GO: 4497"
+                     /db_xref="GO: 6725"
+                     /db_xref="InterPro:IPR002938"
+                     /db_xref="JGIDB:Corca1_558685"
+                     /db_xref="NCBI_GP:PSN62952.1"
+                     /note="*Name PSN62952.1"
+                     /db_xref="GO: 4497"
+                     /db_xref="GO: 6725"
+                     /db_xref="InterPro:IPR002938"
+                     /db_xref="JGIDB:Corca1_558685"
+                     /db_xref="NCBI_GP:PSN62952.1"
+                     /note="*Name PSN62952.1"
+                     /db_xref="GO: 4497"
+                     /db_xref="GO: 6725"
+                     /db_xref="InterPro:IPR002938"
+                     /db_xref="JGIDB:Corca1_558685"
+                     /db_xref="NCBI_GP:PSN62952.1"
+                     /note="*Name PSN62952.1"
+                     /db_xref="GO: 4497"
+                     /db_xref="GO: 6725"
+                     /db_xref="InterPro:IPR002938"
+                     /db_xref="JGIDB:Corca1_558685"
+                     /db_xref="NCBI_GP:PSN62952.1"
+                     /note="*Name PSN62952.1"
+                     /db_xref="GO: 4497"
+                     /db_xref="GO: 6725"
+                     /note="*gbkey: CDS"
+                     /note="*go_function: monooxygenase activity | 4497||"
+                     /note="*go_process: aromatic compound metabolic process |
+                     6725||"
+                     /locus_tag="BS50DRAFT_558685"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA558685"
+                     /product="FAD/NAD(P)-binding domain-containing protein"
+                     /protein_id="PSN62952.1"
+     gene            complement(10326..11786)
+                     /note="*Name BS50DRAFT_101049"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="BS50DRAFT_101049"
+     mRNA            complement(10326..11786)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_101049"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_101049"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA101049"
+                     /product="cystathionine gamma-lyase-like protein"
+     exon            complement(11571..11786)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_101049"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_101049"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA101049"
+                     /product="cystathionine gamma-lyase-like protein"
+     exon            complement(11434..11519)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_101049"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_101049"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA101049"
+                     /product="cystathionine gamma-lyase-like protein"
+     exon            complement(10326..11373)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_101049"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_101049"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA101049"
+                     /product="cystathionine gamma-lyase-like protein"
+     CDS             join(complement(11571..11696),complement(11434..11519),
+                     complement(10350..11373))
+                     /db_xref="InterPro:IPR000277"
+                     /db_xref="JGIDB:Corca1_101049"
+                     /db_xref="NCBI_GP:PSN62953.1"
+                     /note="*Name PSN62953.1"
+                     /db_xref="GO: 30170"
+                     /db_xref="GO: 6520"
+                     /db_xref="InterPro:IPR000277"
+                     /db_xref="JGIDB:Corca1_101049"
+                     /db_xref="NCBI_GP:PSN62953.1"
+                     /note="*Name PSN62953.1"
+                     /db_xref="GO: 30170"
+                     /db_xref="GO: 6520"
+                     /db_xref="InterPro:IPR000277"
+                     /db_xref="JGIDB:Corca1_101049"
+                     /db_xref="NCBI_GP:PSN62953.1"
+                     /note="*Name PSN62953.1"
+                     /db_xref="GO: 30170"
+                     /db_xref="GO: 6520"
+                     /note="*gbkey: CDS"
+                     /note="*go_function: pyridoxal phosphate binding |
+                     30170||"
+                     /note="*go_process: amino acid metabolic process | 6520||"
+                     /locus_tag="BS50DRAFT_101049"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA101049"
+                     /product="cystathionine gamma-lyase-like protein"
+                     /protein_id="PSN62953.1"
+     gene            complement(12540..14196)
+                     /note="*Name BS50DRAFT_500396"
+                     /note="*end_range: 104205,."
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="BS50DRAFT_500396"
+                     /partial
+                     /note="*start_range: .,102549"
+     mRNA            complement(12540..14196)
+                     /note="*end_range: 104205,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_500396"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_500396"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA500396"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,102549"
+     exon            complement(13539..14196)
+                     /note="*end_range: 104205,."
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_500396"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_500396"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA500396"
+                     /partial
+                     /product="hypothetical protein"
+     exon            complement(12540..13486)
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_500396"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_500396"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA500396"
+                     /partial
+                     /product="hypothetical protein"
+                     /note="*start_range: .,102549"
+     CDS             join(complement(13539..14196),complement(12540..13486))
+                     /db_xref="JGIDB:Corca1_500396"
+                     /db_xref="NCBI_GP:PSN62954.1"
+                     /note="*Name PSN62954.1"
+                     /db_xref="JGIDB:Corca1_500396"
+                     /db_xref="NCBI_GP:PSN62954.1"
+                     /note="*Name PSN62954.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="BS50DRAFT_500396"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA500396"
+                     /product="hypothetical protein"
+                     /protein_id="PSN62954.1"
+     gene            14586..15833
+                     /note="*Name BS50DRAFT_576797"
+                     /note="*gbkey: Gene"
+                     /note="*gene_biotype: protein_coding"
+                     /locus_tag="BS50DRAFT_576797"
+     mRNA            14586..15833
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_576797"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_576797"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA576797"
+                     /product="hypothetical protein"
+     exon            14586..15185
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_576797"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_576797"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA576797"
+                     /product="hypothetical protein"
+     exon            15256..15314
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_576797"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_576797"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA576797"
+                     /product="hypothetical protein"
+     exon            15384..15448
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_576797"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_576797"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA576797"
+                     /product="hypothetical protein"
+     exon            15505..15833
+                     /note="*gbkey: mRNA"
+                     /locus_tag="BS50DRAFT_576797"
+                     /note="*orig_protein_id: gnl|WGS:NSJI|BS50DRAFT_576797"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA576797"
+                     /product="hypothetical protein"
+     CDS             join(14844..15185,15256..15314,15384..15448,15505..15569)
+                     /db_xref="JGIDB:Corca1_576797"
+                     /db_xref="NCBI_GP:PSN62955.1"
+                     /note="*Name PSN62955.1"
+                     /db_xref="JGIDB:Corca1_576797"
+                     /db_xref="NCBI_GP:PSN62955.1"
+                     /note="*Name PSN62955.1"
+                     /db_xref="JGIDB:Corca1_576797"
+                     /db_xref="NCBI_GP:PSN62955.1"
+                     /note="*Name PSN62955.1"
+                     /db_xref="JGIDB:Corca1_576797"
+                     /db_xref="NCBI_GP:PSN62955.1"
+                     /note="*Name PSN62955.1"
+                     /note="*gbkey: CDS"
+                     /locus_tag="BS50DRAFT_576797"
+                     /note="*orig_transcript_id:
+                     gnl|WGS:NSJI|BS50DRAFT_mRNA576797"
+                     /product="hypothetical protein"
+                     /protein_id="PSN62955.1"
+ORIGIN
+        1 ATGTTCCTCG CAGAGGTGCT GTCGCCCTGG GCGATCCTCC TGCTCCCCGT CCTCTACTAT
+       61 GTCCTCCCGT ACATTAAAAA CTGGTCCATC CGCGATATTC CCGCCCCGTT CCCCGCGGCC
+      121 TGGACCAATC TCTGGCTCAT GTGGCAGTGC CGAAAGGGCA CACGCTATCT CGCAGTCCAC
+      181 GAAGCGCACA AAAAGTACGG CACTCTGGTT CGGATCCAGC CGCACCACGT TTCAATTGCA
+      241 GACGCGGATG CGATCCCGCA CATTTATGGC CATGGGAATG GATTTTTGAA GAGGTATGTG
+      301 GTTGGCCACG TGATCTGTAA TGAAGACCGG ACTGACAAGA ATCCAACAGC GAGTACTACG
+      361 ATGCTTTCGT CTCGATCCGT CGTGGACTTT TCAACACGCG GGATCGCGCG GAACACACGC
+      421 GCAAGCGAAA GACTGTGTCA CATACCTTTT CCGCCAAATC CGTCGGCCAG TTTGAGCAGT
+      481 ACATGCATCA CAACCTGGAA GAGCTGCAGA CGCAATGGGA CAAGTTTGCC AAGAATTCAA
+      541 AGGGCGACTA CTACCAGATG GATGCCCTGA ACTGGTTCAA CTACCTTGCT TTCGATGTCA
+      601 TTGGTGATTT AGCTTTTGGT GCGCCCTTTG GTATGCTCAA GGAGGGAAGG GACTTTGCAG
+      661 AAGTCAGGGC TACCCCTGAC AGCGAGCCGA CATATGCGCC CGCCATCGAG GTGTTGAACA
+      721 GGAGGGGTGA AGTTTCGGGG TCAGTATAGA ACGAATTTCT CCATCCGCGC ATGCTGACGA
+      781 ACAACAGAAC CATTGGCATC TTCCCTCAAA TCAAGCCTAT TGCCAAGTAT CTCCCAGACC
+      841 CCTTCTTCAG CAACGGAATC AAGGCCGTCG AGAACCTCGC TGGAATTGCC GTTGCCCGTG
+      901 TGAATGCCCG CCTCCAAAAG CCCGACACCG ACCGCGTCGA TCTTCTCGCC CGCCTCATGG
+      961 AAGGCCGCGA CGAAACCGGC AACAAGCTCG GCCGCGAAGA ACTCACCGCC GAAGCCCTCA
+     1021 CCCAGCTCAT CGCCGGCTCA GACACCACCT CCAACACATC CTGCGCCCTC CTGTACCACT
+     1081 GCCTCCGCAA CCCCCAAGTC GTCAAGAAGC TCCAGGTCGA GCTCGACGCC GCCCTCCCCG
+     1141 ACGCAGACGC CGTGCCCCAA TTCGCCGCCG TAAAAGACCT CCCCTACCTC GACGCCGTCA
+     1201 TCAAAGAGAC GATGCGCATC CACAGCACCT CCTCCCTCGG CCTCCCCCGC ATCATCCCCC
+     1261 CAGGCCCCGG CATCACCCTC AACGGCCACC ACTTCCCCCA GGGCACCGTG CTGTCCGTCC
+     1321 CCGCATACAC GATCCACCAC TCCAAGCAGA TTTGGGGGCC CGACGCCGAC GAGTTCCGCC
+     1381 CCGAGCGATG GGAGAAGGTC ACGGAGCAGC AGAAGGCGGC CTTTATTCCT TTTAGCTATG
+     1441 GGCCCCGCGC TTGCGTGGGG AGGAATGTGG CTGAGATGGA GCTCGCGCTC ATTGTGAGTA
+     1501 CCGTATTTAG GCGGTATGAG TTTGAGCTTA GGCAGGGGGA GATGGAGACG AGGGAGGGGT
+     1561 TTTTGAGGAA GCCGCTTGGG TTGGAGGTTG GGATGAGGTT GAGGACGGAT GTTTGAGGGG
+     1621 CTGTATGAGT GGGGAAAAGA CTGGTGCACG GTTTCTTGTT TACGAACTGT ATGACATGGC
+     1681 TTCGGCATAT CTGAAATTTC TCAAGTAAGA CGCATTTCTA TCCAAGAGGA TAATTTTTCA
+     1741 AAACTTAATT CAAGGATTAT TTGATGAAAT CGCTTTGCAA CCACCTATGT CAGTCAATGC
+     1801 AATGCCTATA ATTGTCCTTA TCAAGCGGTC GGGGCTGGAG TCAAGATATA TTGATCCTCA
+     1861 TGCATGGATT CATTGATTCT GCATGGGGTT ATCGATGCGG GAATCCTTAT ATTATCGGAT
+     1921 GTTGTTCGCT TGCAATAGGA TAAATGTTGT AGTACAAGGC TTCATGCGAA TCCTTGGAAT
+     1981 CAGTAGTCGT TCCTCGCCAA CAACCTTTTA CAACCTTCAC CAGGCTAAAT ATTACAAGCT
+     2041 TGTTTCGATT TTTGTTTTCC CGTTCCGGAA AATCTTCTGT TATATTTAAG GTGGCCCTTC
+     2101 CTATGCTTTC AGTATTCGGG GCGATTTTGC AAGGCTAGCA TGCTGTATTT TAGTTGCATC
+     2161 GCATGTTCAA CACTTGGCCG TAAGAATAGT CGAGAAATTT ACACCAATAT GCTGCACAAT
+     2221 ATAGCTCTGG CATGTGCGTT CATGTTTGAA TCATGGACAA TTGAGAGAAC ACATGTGTAT
+     2281 CGATACGAAC GCTACGAGAA GAGAATACAG ATACACTGAA AACGTACAAC CCCTAATGTC
+     2341 CCTCTCAATC GAAATGAATA CGCCACAGTT CTCGATCTAC ACCCGCTTCG AATGAACTCC
+     2401 GCGTGTGCAA CATCAAAGTA TTGTCGCTTA TAAGCAAATC CCCTTCTTCC CAAGTGTGCC
+     2461 AATAACAAAC TCGCCTATCG TGCAGCAACG ATTCCAGTAC TTCGCAGATA TTCTGGTCCC
+     2521 CATTCTCAAT CTCAACGGTG GTCGGGTCGA ATCTCGTCTT CTCCTGCGGC CATCGCTCGT
+     2581 GATACTTGAG ACAAGGTTGG CCGGTTGTAG GGTGCTTGGT GACCAGCGGC ATTCCGTGAA
+     2641 TCTTGGACTG GTCGAATGAG GGGGTGCTGA CAGACCAAGT CAGAGTCTCC AGGTACTCTA
+     2701 GAGGCAGATG CTCCGGTAAA TGTCTGAAAA CTAGCTTTGA GCTTGCAAAT AGCGTGAAGC
+     2761 CAGTGTTCTT CGGGCTCGGT GTGACCGCAG TGAAGAGCTG GAATCTGGGC GGGTTCGGAA
+     2821 CGAGGTACTG GTTTCCGTCC TCCCGCACAT GGTTTTCGGT CTTGAACATG CCGTCAAAGT
+     2881 GAAACGGCAT CCATTCTTGG CTCAGCACAT TATTCAAGCC CTGGCCCTGC GATCCGCAGT
+     2941 CCTTGACCTC CAGCACGAGC CCAAACTTCC AAGGCGTCGG CTCACCCAGT TCGTATGACT
+     3001 TGGCGACAAA CCTCTCCCGA TCTTTGGTTC GCGAGAAACC GCGAAGTATG ACGGGCGAGT
+     3061 TGTGCTCCGA TAGCGCTCGA ACTCTTGACG CGTCAATGTC GTCGATTGAC AACGACTTCG
+     3121 GTCCATTTGT GGGTCGTACC AGGACACCGC ACGGGTACAG AGGTTCGAAA ATTACTTGAC
+     3181 CTGCGCCCCA TTCGTACACA TCTGACCGCT CGCGAAAGTA GGATGGCCTG CCGTTTTCAT
+     3241 ATACTAGCTC CATGTCGTCC ATTTGCTCAA ACATGCGACG GTGCCCCGCT ACAATGGTGC
+     3301 CGTCTAGTTT GAAGGCGACA GTGCTGTGCC ATGGCGTTAC GGTACTCGAT ACAGGAAGCA
+     3361 CGTTGACGGA AATCTTGTCC TCGCCGGTGG AAGGGTGGAT GGAAAGGCGG ACATGGTCTG
+     3421 GGAAGTTCTC GCGCACTGCG CGGGCAAAGG CCTCGCCGCG ACGGAGCATG CTCTTCGCAA
+     3481 TCTTCTCCAC GCCCTTTTTG AACTTGCTCT TTGACCTGGT CTCACCGATT GGGTACAGAG
+     3541 ATGCGAGGTC CAGCTCTAGG AATTTGAGAT ATCCGCAATA AGTCAGGCGC TTGTTCTCGT
+     3601 CATTCTTGAC ATAGGACTCG TTCTTGATTT CGTCCCACCC GTGACTTCCG TAGCGCTTCA
+     3661 TCAGAGCGAG CCGTATCGAA GAAGCCGTGG CTGCGTACGA CATGTCATCC AATTCCTCTT
+     3721 GGAGATACTC GATGGCAAGC AGGTCCTTGA GGCGTGCAAA CTCAATGTGG TGATAGTTGT
+     3781 GGTTCTTGGT GAGCGCGCGA AGTTCCTGGC CGTAGTTCCA AACTGTTGCG TCAGGAACAC
+     3841 CAAGCAAGTC TAGTCCCATT AACCAAGCGC TCATCGTACT TTATAAAGAT TGAGACTTAC
+     3901 CATTATACAC CAGACCGTCC GAGACAATGA CAAGCCTGGC CCCTGGAGGG TAGATTTGTT
+     3961 CAATGGCAGC ACACATGCCG TTCAGATGCG CCAAAGCCAC ATCCTCAGCC TTGTCCGGGG
+     4021 TTCTCCCCAG GACCTTGACT TCATTGTTCG GGCTCTTAAA GGGAAATGCA GGCAGAACCA
+     4081 TGCGCACTGG TTGGCTCAGC TTCACAGCAC GATAAATCAT GCCGAGAAAC GTGAGTGCGC
+     4141 CCTCATCGCT GCGATCCAGG ACATCCCGAG GCGGGGGACA TCTGTACTTG AAAATGATGT
+     4201 CCAGAATACG CTTCGAGGTC ACGACGGCGT CGGACTTCAT GGTGCTGGGA AGGCTGCCTT
+     4261 CCAGGCTCTG GGGAGCAGTT TCAAAAAGCA AAGGCATGCT GCAAGGATGC CCTCACAATA
+     4321 TAGTGCAGAT AAACGAGAGT AAACCAAGGG AATATCGGTA ATGCAAGAGC AATGCAATGT
+     4381 ACCCAGCGTA CCAGCGCCCC GGAGAGCCTT CTACAAATAC CCGTCTGGAG GTTGCAAACC
+     4441 TCTTCCTCGG CCATGCACCC TCTATCCAGA CGTGACCCCC GCCTGACCAA CTTGTCAACG
+     4501 GTCCGTGTGA TTGATAATCT AACGCAATGC AACGGAGACA TCCGACTTGC CCCAACCGTC
+     4561 AAAACGACGA TACAAAACAT GGAATCATAT CGCACGCCAC GCATGCTTGG CGCTCGCAGG
+     4621 GTCAAGCTTT GGAATGCCTT CCTGATCCAT CCAAATGGCC GTTGGCAAGG ATCCACAATT
+     4681 TGCGCCTGAT CCATCCCGCC AAAGCCCTTG CCGATCATCC GGCCTGTCTG GACGGATATG
+     4741 CACCATGAAA AGAGTCAAGT CTAAATGACG GACACATTCC GCCGTGCTTA GATAGATGCT
+     4801 CATCGCTCAT CTTCGAGACC GCTGCAAAAA AATCCCCCGA AAATTTTTTG CCCCGTCGAC
+     4861 GAATACTCTG TGGGTCTGAG AGATTTCAGG TGGTGCGAGG GCGTGATCTT TGTACTTGCG
+     4921 ATTCAAGTGA AAAGAAGGGC GCACTAGATT TGTCTATTGT TCATTTACGT TCCTCTGGGG
+     4981 TTTCCCGCAA AAGATTATCC GAGGTTTTGA AGGATTCGCA CGGCAAGTGA TCATGGCAGA
+     5041 GGGGAAAAGG GCAGCATCGA GCGATGGCTC CGAAAAACTT CCACTATCAA AGAGAATGGC
+     5101 CTCGAAGGTA GTCCCTTGGG TGCAAGTGGT TGCGGGGTTC TTCCTCATGT TCAATTCTTG
+     5161 GTAAGTCTGT TTCAATAACG AACACGGGCG CGGGTATTGA TCGGAAAAGG GGCCTCATTA
+     5221 ACGCATTTGG AGTCTTCCAA GAGTACTACA CGTCATTCGA CCCCCCTCTC TCGACACCCT
+     5281 CTTCGATTTC ATGGATTGGA TCTCTGCAGA CTTTTCTCCT CCTGATATGC GGTTCGGCCA
+     5341 CTGGATCTTT CGTCGACCGA GGCCATGCGC GACTCCTGGC CTTCGCAGGC TGCGCTCTGC
+     5401 TCACCCTGGG CCTACTGTTC ACGTCATTCA GCGGCGAATT CACCAATGAC AACCGCCCGG
+     5461 TATACTACCA AGTTCTCTTG TCGCAAGGCA TCCTCTCCGG GCTCGGCATG AGCCTCCTCC
+     5521 TTGTACCCTC GACAGCAATT GTGCCGACGT ACTTTACGCA TAACCGCGCT TTTGCCGTCG
+     5581 GACTGGCCAA TACGGGTGCC TCGGTCGGCG GCATCATCTA CCCCATCCTG GCGCGGCGCC
+     5641 TCATAGCCGC CGTAGGATTC AGCTGGTCGA TCCGAGCAGT GGCACTCGTC GTTCTCGTCA
+     5701 CTACTGGCAT CGGCGGACTC CTAGTGATGC AGCGGCCCGA GCTCACAAAG AACCCTGCTA
+     5761 AACGGACCCT CTACGAATTC AAGTGCCTAA AGGAGCCGGC CTACGCTTTG TTCATTGGTG
+     5821 GCGTCTTCCT GGTCTTTGCG GGTCTCTACA TCCCCTACTT TTACATGAGC GCCTGGGTCC
+     5881 GAGACACCGG CTTCCCTATG CATGGCCTGA ACCACTACTA CCTGCTCAGC ATCCTCAATG
+     5941 CAGGAGGTCT AGCCGGGCGT ATCATTCCAA ACTTCTTTGC CGACAAGTTC ATATCGGGCG
+     6001 CTGTCTTCAC GCAAGCAGCC ACTGCGATTG CCTGCGGTGC GCTAGCCGCG GGCTGGACCT
+     6061 ACATCGAGAC TTCGTTCGCA GGACTCATCG CATGGCTCGT AGCGTATGGA TTCGTTAGTG
+     6121 GGAGCGTCAT CAGCCTCATC CCCGCCAGCG CGGCGACCTT GACGCCAGAT CTGAGTAGGC
+     6181 TCGGGGGCAG GATAGGCGTG CTCTTCGCCG GCAATGCCAT TGCGAGTTTG GTCGGCAATC
+     6241 CGGTTGCTGG AGCCATCTTA CGTAACACTG CATCGGGGTG GAGGGGACTT GCGAGTTACT
+     6301 GCGCGGCTTT CAATTTGGTA GGCGGGTGCT TGCTGCTGGT GTGCTGGGTG TTGGATGTCT
+     6361 GGGGGAAGAA GAAAAGGGCC GAGGGGGAGG CAGGGGCAAA ACAATAGGGC CGAAGATGAC
+     6421 GACGGTGGCT CTGCCCATGG TGACATAGTG GTCAGATCCG AGGAACGGTA GATGAAGCAT
+     6481 AGATTGGAGG CGTCCTAGTT TTGTGAAAAT TCTGAAGATG GCATGCAAAG TCAGTGACAT
+     6541 CCTGGTGTCT TGCTCCAGTC GAGACTACAT CTGGTGACCG GAAGGTTAAC TGCATCAGGG
+     6601 ATCGGTTGGT CCTCGCCGAA ATTGGAGATC GGCTACGCCA TCGCCATGTT TGCGCAAACT
+     6661 ATCGGTACGG CCCGGTTTCT TGCCTTCCAA GGGTGTGGCG ACGTTCACGC AAGCGATCAC
+     6721 GCCGTTCTGT CACAGGTGCA ATCTAATCTA GATCTGAAGG GTGGCCCCGT TTGAAGCTGG
+     6781 ACATAGTTCG GAGGGTAACT GCCGACACAG CATACCAAAG AGATTGCAAC TCTATCAAGT
+     6841 CGCATCGCCG GCTGGACCCG CCCGTTGGCT AGTGATTTTT CCCTTGTGAC CTGCTTATTG
+     6901 GAGAATGCTC ATTTTAGGCT TGCCATTGTT TTTTCTTGCA CCTACCAAGT TGAGATGGTC
+     6961 GATCGACGGT GGCTCTCGTT CCCAAGGCCC TTGTATTTTC CTGCCTCGGT TGCTCGGCCG
+     7021 TTTCAAAGTG GGATCAAACA GGCGGGGACG ATAACTTCGC AAAATGTCGG GAGATTTTGA
+     7081 CAAAGTTTTT TGGTAAGCTA CGCGCGGAAT CGATCCGTAG TGGCGTGGGC ATGGTATCGG
+     7141 GCGTGTGAGC TGAGTTCATG TCTGCTTGCG AAAGCTTGGT CGGGTTGGAA GATGCAGGGC
+     7201 CGATGACTTG AAGGGGCAGG TATATTGAGC GCGTCGCGTC ATTAAGATTG TAAAAAGTCA
+     7261 CGATTTGTTC ATTTCTTTTT TTCCGAATAT TCTTGACCCG TATACAAACA TGGCTGTCTC
+     7321 TGAAGAGATT CTGAATGGTA CAACAAACAG TAGTGCAAAT GGTACAATTG AAGAGGTTGA
+     7381 CCTAGTCATC ATTGGAGGTG AGTCTTATTC AGTTAAATAT ATGAGAAAGA GTTACTTCCC
+     7441 TACGACTTGG TGGAAACTTT TCCTTCTCAT GAGAAAGAAA GTCGACAGGT TTGACCAAGA
+     7501 CCTCTGCAGA CTTCTCTCCA GGAGATGTAT ATTCTTTAGG AGAAGACTCT CTTCGCTACA
+     7561 TTGGACTGTG AATTAACATC TTTCAGCTGG TCCTACTGGA CTACTTTCTG GCCTTCTGGC
+     7621 CCGTCAATTA GGATTGAAGA TTTGCATCCT TGACGCAAAG GAAGGTCCAC TTCAAGTCGG
+     7681 TGGGGCAGAC GCCATCACAG CGCGAACGCA GCAATATCTT GAGGTAGCCA GCAACTTTCC
+     7741 CTACGATAGG GCCAGCCGGC AAGATGCTGG GATCCTTCCA GAGCTCATCA ACCGGGGAGT
+     7801 AAAATGTAAC AGTGAGTTTA TTCTTGGCTC GAGAAAATAT TCAAAACTTA CAAAAGAGCC
+     7861 AGCTAGCACG ACATACGCGG ATGGCACCTT TACATCCCGG CAATCCCACT GGTGGAACAG
+     7921 CCTCTCCCAC ACCTTTTACA ATAATCTCCT CATGATTGGT CAGCCCTTCA TCGAACGCCA
+     7981 CTTTGCTTCC TACCTCGACG TACCAGTGCA TTATGCCGAA CCCGCACTCT CCTTCTCACA
+     8041 CATCTTGAAC GACGATGGAA CACCTCAGAG CGTTACCGTG AAAACGGCAA AACGCACTGT
+     8101 AAAAGCCAAG TTCTGCCTCG CCTCCGACGG AGCAAAGAGT TTCGTGCGGA ATGAGCTGGA
+     8161 CATCGCATTC GAGGGCACCA AGCCCAACAT GGTCTGGGCA GTCCTGGACT GCTGGATTGA
+     8221 CTCGACATTC CCCGTCACTC GCGAGATTGT AACGCTACAA GTCGATGGAG AGAGCAGAAT
+     8281 GGCGTGGATC CCACGGTACG TCTTCCTTCA ATGCAAAACT ATTAATATCA AAACCAAGAA
+     8341 ACGACACTGA CAGAGGCGCA CAGCGAACGC GGAATGCAGC GTTTCTACAT CCTCCTCGAC
+     8401 GGTGAAATCA CCCAAGCCAA AGCCGAAGCC TCGATCCGCC GCCACATGGC CCCCCACCCC
+     8461 GTCGAATTCA CCCACGTAGA ATGGTTCAGC AAGTTTGAGA GTACGTCGCC ACCCCACCTC
+     8521 CCATAACAAA CGTCTCCTAA CCCCCCCAAC CAGTCAAAGA ACGCCTCGCA AGCACCTTCC
+     8581 TCCACCCCAC CCCCCTCGGC CCCTACATCC TCGCCGGCGA CTCCGCCCAC GTCCACTCCG
+     8641 TCAACGGCGG CCAGGGCATG AACACGGGCC TCAGCGACGC CTTCGCCCTA ATCTGGCGCC
+     8701 TCGCCCTCCT CACCCGGCAC CCGCACTTGC CCAGCGCGAC ACAGACCGCG CTGCTGCGCT
+     8761 CGTACGACAC CGAGCGCCGC GCCACGGCCA AGGAGGTCAT CGACGTGGCG GCCAAGCTCG
+     8821 TCCGCAGCAC CACGGCCGAG GCGAAGGGGT ACGTCGAGCT CATTGAGAAG AATGCGGGGT
+     8881 TTATCACGGG CATGGGGGTC AAGTATTGGG GGGTTGGGAG TGAGTGTGTG GTTGAGGGGG
+     8941 GGAAGAGGGG GGTGTTTGGG GCGGGGGGGA GGTGTCCGGA TCTTTGGGTG CAGGGGCCTG
+     9001 AGGCACAGAG ACTGTATCAG ATGTTTAGGT ATGGGAGATA TGTTTTGGTC ACCGTGGGGG
+     9061 AAGAAGTGGG GGAAGGCAAG AGGGCACAGA CGAGGAATGA GGAGGTTGTC AAAGTGGTCA
+     9121 GGTTGAGGCC GCTCAAGGCG TTGGGGATGG GGGTGGAGAG GGAGGTGGAG CGTATTGATG
+     9181 AGGGGGACTA TGCGGAGGAG TCGTTTGGGT GCTCGTACGT TAAGAAGGGG GAGAGGTATG
+     9241 CGGCGCTTGT CAGGCCAGAC TGTTATGTCG AGACTGTGGG CGAGATTGAG GATGTCGTGG
+     9301 AATACCTGGA GAGGAGGATT CCCGGTACAG TGGGTTTTGA AAAGACGACT AATGAGGTCT
+     9361 AAGGCTATGC TTGTTTGTAT TCGTTCATGT AGACTATATT TCGTTTTGAT TGAAGCTCAA
+     9421 TCTGTCCTTT AATGCCTTCA CCAGCTGCCG AGAATTCTGC CTGCGCAGTG CTGCACCGTT
+     9481 TGCCAACAGT TTCAACAGTT TGCTGTGTGC TTTTTGGTCA CTCTACCTGA TGATTATAAA
+     9541 TTAATTACTG AGCATTATTG ATATGAAAGC TAATAGCGTC TAGGTCGAAT CGAACAGTAT
+     9601 GGCTAAATTG TAAATAGATA AGAATTGCTG ACATCTAGGT TTTTTTTTTT GCAAAATATG
+     9661 CTAACGGCCA AGGTTCGAGC TAGTTGTACA TCAGATGACT TGTTTTCTAG CAAAGTGACT
+     9721 CTACTTGTCC GTTTGCTAAT TTGCAGAAAT AGGCCTGTAG AGTTTCTTTA ATATGTAGCA
+     9781 GGCACTGTGT TTACTGTGTT GTCCAAATTT CTTTCTCTAC AGTTACATAG TATTTGCCGA
+     9841 ATCAAATCAT TAGATTTGCT AATAGCGTCT AGGTCAAATC AAATATAGCC AAGTTATAAA
+     9901 TAGTTCAGAA TTGCTAACAT TTAGGTACCT TTTTTGGCCC GGTTATGGAC AACTGAGGTT
+     9961 CCAAGCAGGC AGGCATCAGC CTATCCCCCC CCCTTTGCTC TCCGATTTTG TTGTAAATGC
+    10021 CATCAACATA TGTTGCAGCA CGTAATGCAG GATGTCTTTG CAGGCCTCGC AGCTATAGCA
+    10081 TACTCGCTCG ACACAGATCT CAGCATCACC TCGCTGGCAC AGAGTCGGAC ATCATCACAA
+    10141 CCAAAAACTC GAAATTATCA TGCACAAGGA AATTCATTGG TATCTATGCT CGGTATAAGA
+    10201 CCAAGCGGGT TTGAAAATGC AAGCTCGCAT CACTCACATG CCCATTGCAT GGAGACCCAT
+    10261 AACGCCCAGA CCATCTATGT GTATACGTGG CCGAAGCCGT GATAAACTTT TCCAACCGAT
+    10321 ATTAAGCGCC GATGATGCAG GAACGACGAT TAGTTTCCAT TGGCCTTGAC CTTGGGGCCG
+    10381 TTGACCGCCT TCTCTAGTGC CTGCATCACA TCTGCGACGA GATCGGCCTC GTCTTCGATG
+    10441 CCGCAGCTCA CGCGGACAAG GTCGTCAAAG ACACCAGCCT CCTCACGCTG CTCCTTGGGG
+    10501 ATGCCGCCGT GGGTCATGGC ACTGGGAACC TCGACCAGGG ACTCGACACC ACCCAGGGAC
+    10561 TCTGCGAGGG TGAAGATCTT GGTGTGCTGG CAGAAGCGCT CGGCAGCCTC GTGTCCGCCC
+    10621 TGGATGCGGA AAGAGAGCAT ACCGCCACCC ATGCCATCGC GGTGCTGCTT CAATGCAACA
+    10681 GCACGCTGTG GGTGGGACGC AAGACCGGGG TAGTTGACCA AGATGACATT GGGGGAAGCC
+    10741 TGAAGCGCCT GGGCGACGCC AGTAGCGTTC TTGGTGGCCT CGCGAGCACG CAGGTGCAGC
+    10801 GTCTTCAAGC CTCGGTGTGC CAACCAGCAG TCAAAGGCCG AGGGAACCGC ACCAATGGCA
+    10861 TTCTGGAGGA ATGACAGCCT ATCATACAAC TCGGGCGAGT TGAAAGCAGC GGCTCCCATG
+    10921 ACCACATCCG AGTGTCCGTT GATGTACTTG GTGACCGAGT GCACGACAAT GTCGGCGCCG
+    10981 TGGTCGAGCG GGTTCTGGAC GTAGGGGGAC AAGAAGGTGT TGTCCACAAC GACCAGGATG
+    11041 CCGTGCTCGT GTGCAATTGT TGCGACCTTG CGAATGTCGA CGAGGGTCAG GGTCGGGTTG
+    11101 GAGGGAGACT CGATCCAGAT AAGCTTCGTC TCGGGGCGGA TAAGCTCGGC AATATCAATG
+    11161 TCGATCCTCG GGGTGAAGGT GACTTTGACA TCGTGCGTCA GGGCGACCTT GGTGAAGTAG
+    11221 CGGTGGGTTC CGCCGTAGAC GTCGGACACG GAGACGACGT GGGAGCCGGC AGCTAGCGAC
+    11281 TGCAAGATGT TGGCCGTGGT GGCGGAGCCG GAACTGAAGG CGAGGGCATA GCGGGCGTGC
+    11341 TCGAGGGCGG CAACTGCGCG CTCAAAGTTG TCTCTGCTCG GGGTATTAGC ATTCTGGCAG
+    11401 GCTTAAGCCG AGAGGGTGCG GGGCGGGGCA TACCGGTTGG GATTCGAGGA GCGCGAGTAC
+    11461 TCGTACTCGC CTACTGGCTT GCCGACGCTG GTCTGCGCAA ACGTGGTAGA GAGCGAAATC
+    11521 TAGGATTTGC ATTAGCAATC GCGTGCAGGG GAACGGTGAG AGATACGCAC TGGCTCAATG
+    11581 ACGGCGCCAG TCACCGGGTC ATGAGGGCTT CCGGCATGCA CGGCCAGCGT GCCGAACTTG
+    11641 TGCACTGGAG AGGGCGCGCG CGGGGGAGTC TCGATGGGGT GCTCAGCAAG CGTCATGATG
+    11701 ATGGTGTGTT CTTGGTCGAA TTGGTGGGTG GGCGAGGTTG GGTGTAGGTG GACGAGAGAC
+    11761 GGGGCCGAAG ACAGGCCTTT TAAACTCTGC AGGCTAGTAG AACCGAGCAG AGAAGCAAGG
+    11821 AGCGGGCAAT GGTGCAAGAG TTCTCAAGGT GGTGTTGACG TTTGTCAAAT ACTTTTTTAG
+    11881 CGTCGTCGGC GGCGGGGCGT ACTCGGGCGG TCCTTTGTCG CAGGTGCGAT GGCGCAATCG
+    11941 AGTCTCTCGC GATTGTTGGT GGTGGGAGGC ATGGTCATGG CGGCAGCGGT GGCCCTCTTA
+    12001 TAGCCAGGTA GAGTCCAGGA CGTGGCGCGC TGCGTGCTGC GGTCTGAATA ATCGGTTGAT
+    12061 GAGAAATGCT GGAAGTTTGT CGACGCTCGC CCGACCATGA TGGTCAGTCT GGGGTTAGCT
+    12121 CGGATGATGC CATCAAATTC TCCGGCACCT TGCACGCCTT GCGCCGGCCT AACAGTGGCC
+    12181 CGGAGGGTCC AGAGTGGCCT GCCCACATGC TGCACACGGC CTGCCCCCAG CATGCCCCTC
+    12241 GGATCCGCGA CCAGGGTGGG AAGGTCAGTC GGCTACACGT TCCTGGCTGC CAGATTGCCC
+    12301 ATCACGGCCT GCCGTATCTC GCGTCTGCTG CCACGACAAG CCCGCGTTGG GCCGGATGAT
+    12361 GCGGATTTAG CGACCCTCAC GTGCTCGGTC TGCGTCATGC TCAAGACGGC CCCAAAGCAA
+    12421 AGAGTAGCGT GCCCCCTGCT GATTAATTAT ACATCTATCG GATATAACGA GCTAGGGTAT
+    12481 GGAGGTCTAT GGCAAAAAGT GCTATGCATG CAAGTGCTGT CATCATCTCT TACACATCCT
+    12541 CATTCTGCCG CCTTCTTCGC GCCCTCCTCG TTCCGGCTCT TGAGCTTGGT CCAGCCGTTG
+    12601 ACCCCTCGCT TCTTATCGTC GGGTCTGGGG TCCGGGCTCT GCCTGTTGCT GGTGGTGCTC
+    12661 GTCAGGTAGC TGCGCCCGTC GTCGAGCCCT GCATTGTCCT GTCGCCTAGC GCCAATTAAG
+    12721 ATGGGATCCT CAGCAATGAG ATTCTCCATC TGCTCCATCT CGCTCTCCGG AATGATGTCC
+    12781 CACTCGCGAT TCTGTTGCTC GCCCAGCAGA TAGGCCTTAG TCTCATCGAT GATCTTGGTG
+    12841 GGAGATAGGC CCCATCCACT CAGGTACTGT ACGTTCTCGG CAGTATTCAA GAACGAGTGC
+    12901 GAAGTCGCAT GAGACAGCTC CCCAAAAGCG ACCGGAGCCC TTCTTAGTGG GGCCTTGGAG
+    12961 TTGGTCTTGG TAGCGACGAT GTCCTTATCG AGTGGATTTT CGGGCCGTTG AGGGTGGTGG
+    13021 GTTTCTTGAG CGATAAGCAG GCGATACAGG TTTGGCCCCA TTGGACAGAC GTCTTCCCAG
+    13081 ACTTTGAATT CATCCTTCAT CCCTTGCGTA CGGCAGAGCC AGGCCACATT GTACGCCAGC
+    13141 AGGGAGACGC CTTCCACAAA CGACGAATAG GCGGGGGGAT CTTCAGCATA GAGGTGATAC
+    13201 AGCGGGCGGT CAATGAAAAG CGCCCGAGGC TTGGGGAGGT GGATGCGGGG ATCGAGGGTA
+    13261 CGTGAGGCCT CCGGGCTATT GCTGGAGGAA TGTGATGGCG TAGTGCCCGG GAAAGGCACC
+    13321 TTTTTGCCTT GGTATGACGA TGTAGGGCTG AAAATAGTAG GTTGGGGGTA ATCCGTATGT
+    13381 GGAGGGGTGA TTTCTGCAGG AAGACGAACG CCCAAATATG CAGCAACTCG AACGAGTAGG
+    13441 TTTGCGACAG CAGCAAGCGA TGCTGAAAGA TGGTCAGGCG GAGCATCTGC AGTCACGTCA
+    13501 GCACTCGAGT CTCCTAGGAG CATTGGAAGA TGCCTTACCA CTCATGTCCC GCAGGTCAAA
+    13561 TATGCGCATG CGGGTGCCTG GACCTATGCA GTAAATGTCC TTAACTCCGC CGTCTTTGGT
+    13621 CTTGCGTTTC TGCGTCTTGA GTCCAGCCAG CCTGGCAGCC GTCGTACAGA GCGATATCCG
+    13681 CATCTCTATC GTATCGTGAT GAACCTTGTC CGACTTGTAG TCCATGCGTT TAACGTTTTG
+    13741 CTGCACCTTG TCCAGTTCAT TCGCGCGCCT CGAGTCTATA CCGTAGGTGG CAGACGACAA
+    13801 GTCCGACTTC TTTTGCTCAT TTAGCGCCCG TTTCTCTTCG ATGAGTCTCT TGGTAACTTC
+    13861 CATCTGCTGG CGGAGCAAGT CTGCCTGCTC GGTTATAAGC TGGATACGCT CTTCGACCTC
+    13921 GGCCGTCTCA GCCTTGGTGC GCTGCAGTTC GATATTGTTT GTGCATTCTT GGCGGTCGAC
+    13981 AAGGAAGCCG CCTTTCGAGT CCTTGAGCGA GACCTGCTGG CTTGCCCTCT CCTGTGAACC
+    14041 CTCTATGACA GCCGTAACAT GTCTCGCCAC GCCGTCCCGC TCTATTAGCG CCTTTGCGAG
+    14101 CTCGATGCGG GGCGCTTCTA TGGCGCTGCG GGCGCAGGTA ATACAGCGAA GGGGGCAGTT
+    14161 GAGGCTGCCG GAATTTCCGC AAATGTCGCA CTCCATGTTG GGTGGGGTCC GGTTAGGTGT
+    14221 TGTCTCCTCC GGGTGGTACG TAGGGAAGCG GACGGCAGTG GGGGCGCATG GTGAGGGTGC
+    14281 TAAGTCCGCG CGGGTGCTCA GCGGGATATT TACGACTCCA TAAGGGCAGC TGTTGGTGGT
+    14341 GCGGAAGTGA ATAGAAGGGC GTCGAAGCGG AAACGGTGCG CAAGGCGTTC GTTCACAGGA
+    14401 GTTGCGAGGA GGAAGCGTCA CTGAGTGAGG GCGGACGTGG GCGGTGAATG CCAGTGGCTG
+    14461 GCAGGCAGTC ACTGCGTCGC GAGTCAGGCA CCCACCCACG GGATGACTTC AGCGGTGCAG
+    14521 CCGACCAGCT CGCAAGCGGA TTAGCGCACC TTCCACGTGA TGTGTTCACC TTCACCCTCC
+    14581 GCCACCATTC GTCTCGTCTC AGGCCAACGA CAAGCCAATG TCTTTACTAA ACGCTTTATG
+    14641 AACAAAAGGG CGAGACTTGT GAACTGCATA CTCACCTCCA GCACTAATCT CCCACACAGC
+    14701 ACCTGCCTTG CCCTGCTGCT TGGCCGTCTA TGGCCAGCCC TCCTCCAATC CCCTCCTCCG
+    14761 TGCCATCAGA ACCAGCGCAA CCGTCGTCAT ATTTCTCCTC ATCTCCACCT CTCTTCTCAA
+    14821 ACAACATTCT TCCACCCAAC GCCATGGAAA ACGATTCCGC CCCAAGTGCA AACCCACCAG
+    14881 CCCCCGCCCC AGACCCAAGC AAACACCTGC GCCAAAACTC CACCGACACC GAACGGCCCA
+    14941 CCAGCGCCCA GCGCATCCGA CCAGAATCCC CAAGCTCCTC CAAGTCCACC TCAGACGATG
+    15001 AAACGGCCGA GCCCAGCAAA GAAGCCGCCA TAAAGGCAGA AACCGAACAA GACGACGAGT
+    15061 CGGACCCCGC CGAGAAGATC CCTGACTACG ACTGGGACGA CCTCGCCAAG CGCTACCACG
+    15121 ACGCCATCAG AGAATGCTCG GCCGAAGAGG AGCAGCTTGC CGACGAGTTC GCAAAGCTCA
+    15181 TGGATGTGCG TAGCAGCCCC ACTACCGTGT TCGGACATGT GTGGAGGGTT CCGTTTCCGC
+    15241 TGACGCACGG TCTAGTTCTT CAAGGTGTGG GCGCAGTCGG GACATGATGG GGAGACGGGG
+    15301 AGGACGCATT TGCGGTGAGT CTTTTCCGCA GAGTGGCTGC TCGGTTTTCG AGGGGCACGT
+    15361 CTGAGCTGAC TTTTCGGATC TAGGCTCAAG GCGAGGATGG AGCATGTTCA GCATTCCGAG
+    15421 GAGGTGCTCG AGCAAAAGAG AGAGCACTGT AAGACCATCC TCCCTCCCGG TTCTTCGGAT
+    15481 CGTATCATCG ACTCACAGCT GCAGATATCA GAGTGGTCAA GGCCTTTGAG AGTGCGCTCA
+    15541 ATCTCCTCAA TGCGCAAATG GGGACCTGAA TGATTGACTG TTCATCCGCT TAGACGCCAT
+    15601 ACATCTTGCG CATCTTCAGT CACCGCCAGC ACCACCAGCA CCACCATCAC GTGGGCCCTT
+    15661 TGTAGGCATC TTTGAGTCAT GGCCTGTCCG TGGGGTTGCG CAGGGCGGTA ATACAGGACA
+    15721 CAGGGAGAGG CATCCTTCGC CAGACTACCA GGTGCATGTT ATGCGCTGCG CAATCTTGTA
+    15781 GCATATCTAC CTGGATATAT CAGTCGAAAG GGGTCGCCTC TCCAGCCCTG GGC
+//
