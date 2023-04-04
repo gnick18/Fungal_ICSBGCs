@@ -1,0 +1,377 @@
+IQ-TREE multicore version 2.0.3 for Mac OS X 64-bit built Dec 19 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Nymeria-Keller-Lab.local (AVX512, FMA3, 8 GB RAM)
+Command: iqtree -s FcC_supermatrix.fas -p Partition_Dit1Dit2.txt -m TEST -B 1000
+Seed:    376099 (Using SPRNG - Scalable Parallel Random Number Generator)
+OMP: Info #270: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+Time:    Thu Dec  8 14:13:27 2022
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading partition model file Partition_Dit1Dit2.txt ...
+Reading alignment file FcC_supermatrix.fas ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 171 sequences with 795 columns, 791 distinct patterns
+729 parsimony-informative, 34 singleton sites, 32 constant sites
+                                                       Gap/Ambiguity  Composition  p-value
+   1  Alternaria_panax                                         0.50%    passed     90.09%
+   2  Beauveria_brongniartii                                   2.52%    passed     95.11%
+   3  Alternaria_gaisen                                        0.88%    passed     97.37%
+   4  Xylona_heveae                                            1.64%    passed     51.35%
+   5  Claviceps_sp._Clav50_group_G5                            1.26%    passed     72.88%
+   6  Ascochyta_lentis                                         1.01%    passed     27.13%
+   7  Exserohilum_turcicum                                     1.38%    passed     80.06%
+   8  Aspergillus_bombycis                                     1.89%    passed     16.15%
+   9  Colletotrichum_tropicale                                 4.15%    passed     98.45%
+  10  Aspergillus_burnettii                                    8.68%    passed     26.00%
+  11  Endocarpon_pusillum_2                                    2.01%    passed     94.87%
+  12  Dendryphion_nanum_2                                      0.88%    passed     99.76%
+  13  Rhizodiscina_lignyota                                    1.51%    passed     99.60%
+  14  Phaeosphaeria_sp._MPI-PUGE-AT-0046c_1                    0.63%    passed     48.72%
+  15  Halenospora_varia_1                                      1.89%    passed    100.00%
+  16  Colletotrichum_tanaceti                                  0.75%    passed     95.50%
+  17  Aspergillus_sergii                                       2.14%    passed     35.11%
+  18  Boeremia_exigua                                          1.01%    passed     21.74%
+  19  Zygotorulaspora_mrakii                                   1.26%    failed      0.16%
+  20  Lentithecium_fluviatile                                  1.13%    passed     99.93%
+  21  Colletotrichum_viniferum                                 4.15%    passed     98.50%
+  22  Colletotrichum_fructicola                                1.76%    passed     97.76%
+  23  Stemphylium_lycopersici                                  0.50%    passed     99.50%
+  24  Zopfia_rhizophila                                        1.26%    passed     98.99%
+  25  Colletotrichum_fioriniae                                 0.75%    passed     96.89%
+  26  Penicilliopsis_zonata                                    4.91%    passed      9.08%
+  27  Candida_albicans                                        14.72%    failed      1.95%
+  28  Aspergillus_hancockii                                   15.35%    passed     70.09%
+  29  Macrophomina_phaseolina                                  1.89%    passed      7.04%
+  30  Colletotrichum_scovillei                                 3.02%    passed     83.86%
+  31  Aspergillus_coremiiformis                                1.89%    passed     63.93%
+  32  Monosporascus_sp._5C6A                                   2.52%    passed     60.11%
+  33  Torulaspora_sp._CBS_2947                                 1.89%    passed     13.17%
+  34  Claviceps_pazoutovae                                     2.14%    passed     80.63%
+  35  Aspergillus_arachidicola                                 2.14%    passed     21.05%
+  36  Aspergillus_transmontanensis                             2.64%    passed     62.03%
+  37  Alternaria_sp._MG1                                       0.88%    passed     96.06%
+  38  Metarhizium_humberi                                      9.94%    passed     38.90%
+  39  Didymosphaeria_enalia                                    1.01%    passed     98.10%
+  40  Paraphoma_chrysanthemicola                               0.50%    passed     47.37%
+  41  Saccharomyces_cerevisiae_x_Saccharomyces_kudriavzevii    2.39%    passed      9.41%
+  42  Monosporascus_ibericus                                   1.01%    passed     61.95%
+  43  Aspergillus_minisclerotigenes                            2.14%    passed     27.48%
+  44  Claviceps_aff._purpurea                                  2.14%    passed     72.22%
+  45  Colletotrichum_truncatum                                 1.76%    passed     74.49%
+  46  Aspergillus_bertholletiae                                2.14%    passed     40.47%
+  47  Didymella_keratinophila                                  1.01%    passed     29.44%
+  48  Colletotrichum_musicola                                  1.89%    passed     78.24%
+  49  Diplodia_corticola                                       1.89%    passed     22.53%
+  50  Colletotrichum_incanum                                  10.06%    passed     92.35%
+  51  Metarhizium_robertsii                                   20.13%    passed     47.45%
+  52  Alternaria_burnsii                                       0.88%    passed     97.69%
+  53  Claviceps_capensis                                       1.38%    passed     91.95%
+  54  Monosporascus_cannonballus                               2.52%    passed     45.38%
+  55  Aspergillus_oryzae                                       2.14%    passed     21.91%
+  56  Colletotrichum_higginsianum                             10.19%    passed     88.24%
+  57  Moelleriella_libera                                      6.04%    passed     80.37%
+  58  Epicoccum_nigrum                                         1.01%    passed     43.54%
+  59  Diplodia_seriata                                         7.30%    passed     52.13%
+  60  Zygosaccharomyces_parabailii                             2.14%    passed      8.45%
+  61  Botryosphaeria_dothidea_2                                1.51%    passed     98.45%
+  62  Vanderwaltozyma_polyspora                                1.89%    failed      0.00%
+  63  Alternaria_tenuissima                                    0.88%    passed     98.38%
+  64  Hirsutella_rhossiliensis                                 1.89%    passed     62.46%
+  65  Saccharomyces_cerevisiae                                 2.14%    passed      7.44%
+  66  Colletotrichum_tofieldiae                                4.03%    passed     61.45%
+  67  Botryosphaeria_dothidea_1                                0.88%    passed     66.85%
+  68  Claviceps_sp._LM218_group_G6                             2.14%    passed     72.23%
+  69  Clathrospora_elynae                                      0.50%    passed     49.44%
+  70  Bipolaris_zeicola                                        0.50%    passed     87.41%
+  71  Ophiobolus_disseminans                                   0.50%    passed     68.31%
+  72  Beauveria_bassiana                                       2.26%    passed     92.28%
+  73  Aspergillus_sclerotiicarbonarius                         3.90%    failed      0.02%
+  74  Emergomyces_pasteurianus                                 2.14%    passed     22.99%
+  75  Kluyveromyces_marxianus                                  2.01%    failed      0.18%
+  76  Kluyveromyces_lactis                                     2.01%    failed      0.71%
+  77  Kazachstania_unispora                                    1.38%    failed      0.09%
+  78  Claviceps_sp._LM219_group_G6                             2.14%    passed     74.24%
+  79  Kazachstania_barnettii                                   2.14%    failed      0.02%
+  80  Monosporascus_sp._CRB-8-3                                4.65%    passed     47.62%
+  81  Aspergillus_leporis                                      2.52%    passed     51.65%
+  82  Neofusicoccum_parvum                                    27.92%    passed     44.17%
+  83  Macroventuria_anomochaeta                                1.01%    passed     17.25%
+  84  Alternaria_arborescens                                   0.88%    passed     96.34%
+  85  Metarhizium_majus                                       31.70%    passed     47.21%
+  86  Lasiodiplodia_theobromae                                 1.89%    passed     76.00%
+  87  Eremothecium_gossypii                                    3.40%    passed     63.34%
+  88  Xylaria_hypoxylon                                       10.57%    passed     74.11%
+  89  Colletotrichum_siamense                                  1.76%    passed     97.95%
+  90  Amniculicola_lignicola                                   0.75%    passed     97.94%
+  91  Bipolaris_maydis                                         0.50%    passed     96.08%
+  92  Metarhizium_brunneum                                    15.60%    passed     19.80%
+  93  Candida_glabrata                                         6.42%    failed      0.02%
+  94  Dendryphion_nanum_1                                      1.89%    passed     73.01%
+  95  Saccharomyces_paradoxus                                  2.14%    passed     26.65%
+  96  Ashbya_aceris                                            3.40%    passed     45.26%
+  97  Blastomyces_silverae                                     1.13%    passed     54.83%
+  98  Didymella_heteroderae                                    1.01%    passed     57.80%
+  99  Aspergillus_brunneoviolaceus                             7.04%    failed      0.04%
+ 100  Trematosphaeria_pertusa                                  0.75%    passed     99.96%
+ 101  Kazachstania_exigua                                      2.26%    failed      0.00%
+ 102  Aspergillus_alliaceus                                    1.89%    passed     38.50%
+ 103  Parastagonospora_nodorum                                 1.51%    passed     76.12%
+ 104  Bipolaris_sorokiniana                                    0.50%    passed     88.16%
+ 105  Drechmeria_coniospora                                    1.51%    passed     37.39%
+ 106  Aspergillus_pseudonomiae                                 2.14%    passed     16.75%
+ 107  Aspergillus_fijiensis                                    1.64%    failed      0.04%
+ 108  Pyrenochaeta_sp._DS3sAY3a                                0.50%    passed     43.71%
+ 109  Aspergillus_pseudocaelatus                               2.14%    passed     17.08%
+ 110  Torrubiella_hemipterigena                                2.26%    passed     77.65%
+ 111  Colletotrichum_karsti                                    9.56%    passed     78.85%
+ 112  Hyphopichia_burtonii                                     2.64%    failed      0.04%
+ 113  Coccidioides_immitis                                     0.63%    passed     98.83%
+ 114  Aspergillus_pseudotamarii                                1.89%    passed     10.84%
+ 115  Histoplasma_capsulatum                                   1.13%    passed     51.96%
+ 116  Hirsutella_minnesotensis                                 2.01%    passed     85.17%
+ 117  Ophiocordyceps_sinensis                                  2.01%    passed     22.93%
+ 118  Scheffersomyces_stipitis                                 4.65%    failed      0.00%
+ 119  Blastomyces_gilchristii                                  1.13%    passed     59.51%
+ 120  Torulaspora_globosa                                      1.89%    passed     56.36%
+ 121  Dothidotthia_symphoricarpi                               0.63%    passed     30.27%
+ 122  Endocarpon_pusillum_1                                    0.88%    passed     48.52%
+ 123  Phaeosphaeria_sp._MPI-PUGE-AT-0046c_2                    1.51%    passed     96.29%
+ 124  Claviceps_sp._Clav32_group_G5                            1.26%    passed     69.67%
+ 125  Pochonia_chlamydosporia                                  1.38%    passed     99.98%
+ 126  Metarhizium_anisopliae                                   8.68%    passed     32.03%
+ 127  Aspergillus_tanneri                                     14.59%    passed     26.39%
+ 128  Plenodomus_tracheiphilus                                 0.63%    passed     39.77%
+ 129  Ascochyta_rabiei                                         1.51%    passed     34.92%
+ 130  Claviceps_sp._LM454_group_G7                             2.14%    passed     77.55%
+ 131  Aspergillus_flavus                                       2.14%    passed     32.73%
+ 132  Aspergillus_tamarii                                      1.89%    passed     10.20%
+ 133  Metarhizium_guizhouense                                  6.29%    passed     58.07%
+ 134  Colletotrichum_camelliae                                 1.76%    passed     97.78%
+ 135  Helicocarpus_griseus                                     2.26%    passed     67.81%
+ 136  Colletotrichum_orchidophilum                             1.13%    passed     92.90%
+ 137  Emmonsia_crescens                                        1.13%    passed     13.04%
+ 138  Saccharomyces_boulardii                                  2.14%    passed      9.72%
+ 139  Saccharomyces_arboricola                                 2.14%    passed     23.91%
+ 140  Claviceps_purpurea                                       2.14%    passed     87.47%
+ 141  Westerdykella_ornata                                     1.38%    passed     54.98%
+ 142  Cucurbitaria_berberidis                                  0.50%    passed     90.71%
+ 143  Aspergillus_nomiae                                       2.14%    passed     19.22%
+ 144  Aspergillus_parasiticus                                 15.60%    passed     43.01%
+ 145  Aspergillus_caelatus                                     2.14%    passed     17.90%
+ 146  Claviceps_arundinis                                      2.14%    passed     84.31%
+ 147  Amylocarpus_encephaloides                                1.13%    passed     98.42%
+ 148  Blastomyces_dermatitidis                                 1.13%    passed     59.51%
+ 149  Lophiostoma_macrostomum                                  0.75%    passed    100.00%
+ 150  Colletotrichum_nymphaeae                                 1.26%    passed     94.60%
+ 151  Candida_tropicalis                                       3.14%    failed      0.20%
+ 152  Candida_subhashii                                        3.77%    failed      0.22%
+ 153  Colletotrichum_gloeosporioides                           1.76%    passed     98.30%
+ 154  Delitschia_confertaspora                                 1.76%    passed     17.53%
+ 155  Colletotrichum_plurivorum                                1.76%    passed     87.80%
+ 156  Madurella_mycetomatis                                    4.15%    passed     78.31%
+ 157  Colletotrichum_sublineola                                2.52%    passed     96.89%
+ 158  Xylaria_multiplex_1                                      1.89%    passed     99.50%
+ 159  Decorospora_gaudefroyi                                   0.88%    passed     76.37%
+ 160  Staphylotrichum_longicolle                               5.91%    passed     12.79%
+ 161  Stagonospora_sp._SRC1lsM3a                               0.63%    passed     31.62%
+ 162  Alternaria_atra                                          0.63%    passed     93.59%
+ 163  Aspergillus_ibericus                                     3.02%    failed      0.01%
+ 164  Aspergillus_clavatus                                     1.26%    failed      3.29%
+ 165  Uncinocarpus_reesii                                      4.65%    passed     55.07%
+ 166  Setomelanomma_holmii                                     0.50%    passed     59.57%
+ 167  Suhomyces_tanzawaensis                                   2.64%    failed      0.42%
+ 168  Bipolaris_oryzae                                         0.50%    passed     88.85%
+ 169  Ampelomyces_quisqualis                                   0.50%    passed     92.31%
+ 170  Alternaria_alternata                                     0.88%    passed     96.39%
+ 171  Aspergillus_uvarum                                       1.64%    failed      0.22%
+****  TOTAL                                                    3.07%  20 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: No CharPartition defined, use all CharSets
+
+Loading 2 partitions...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1		171	293	260	13	TEST	FinalDit1_aln_trimmed
+2		171	502	469	19	TEST	FinalDit2_aln_trimmed
+Degree of missing data: 0.000
+Info: multi-threading strategy over partitions
+
+NOTE: Blastomyces_dermatitidis is identical to Blastomyces_gilchristii but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.179 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Initial log-likelihood: -88124.269
+Current log-likelihood at step 1: -87585.192
+Current log-likelihood at step 2: -87563.122
+Current log-likelihood at step 3: -87561.976
+Parameters optimization took 2 rounds (10.461 sec)
+
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+Initial log-likelihood: -87454.033
+Current log-likelihood at step 1: -87453.905
+Partition-specific rates:  0.782 1.127
+Parameters optimization took 0 rounds (1.963 sec)
+
+Time for fast ML tree search: 17.812 seconds
+
+NOTE: ModelFinder requires 57 MB RAM!
+Selecting individual models for 2 charsets using BIC...
+ No. Model        Score       TreeLen     Charset
+   1 LG+I+G4      59042.781   26.155      FinalDit1_aln_trimmed
+   2 LG+I+G4      115900.719  37.673      FinalDit2_aln_trimmed
+Full partition model BIC score: 177205.153 (LnL: -87453.902  df:344)
+Partition information was printed to Partition_Dit1Dit2.txt.best_scheme.nex
+Partition information in Raxml format was printed to Partition_Dit1Dit2.txt.best_scheme
+
+All model information printed to Partition_Dit1Dit2.txt.model.gz
+CPU time for ModelFinder: 355.545 seconds (0h:5m:55s)
+Wall-clock time for ModelFinder: 363.651 seconds (0h:6m:3s)
+Generating 1000 samples for ultrafast bootstrap (seed: 376099)...
+
+NOTE: 91 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -87453.902
+Current log-likelihood at step 1: -87453.898
+Partition-specific rates:  0.782 1.127
+Parameters optimization took 0 rounds (1.604 sec)
+
+Computing ML distances based on estimated model parameters... 9.860 sec
+Computing BIONJ tree...
+0.032 seconds
+Log-likelihood of BIONJ tree: -87869.353
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 10.338 second
+Computing log-likelihood of 98 initial trees ... 40.167 seconds
+Current best score: -87453.898
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -87453.898
+Current log-likelihood at step 1: -87453.898
+Parameters optimization took 0 rounds (2.143 sec)
+
+BETTER TREE FOUND at iteration 1: -87453.898
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -87436.596
+Current log-likelihood at step 1: -87436.586
+Parameters optimization took 0 rounds (2.821 sec)
+
+BETTER TREE FOUND at iteration 2: -87436.586
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -87435.053
+Current log-likelihood at step 1: -87434.910
+Current log-likelihood at step 2: -87434.902
+Parameters optimization took 1 rounds (7.497 sec)
+
+BETTER TREE FOUND at iteration 9: -87434.902
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -87431.800
+Current log-likelihood at step 1: -87431.793
+Parameters optimization took 0 rounds (1.705 sec)
+
+BETTER TREE FOUND at iteration 10: -87431.793
+Iteration 10 / LogL: -87431.793 / Time: 0h:6m:23s
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -87431.519
+Current log-likelihood at step 1: -87431.472
+Parameters optimization took 0 rounds (1.991 sec)
+
+BETTER TREE FOUND at iteration 12: -87431.472
+Iteration 20 / LogL: -87440.991 / Time: 0h:8m:11s
+Finish initializing candidate tree set (15)
+Current best tree score: -87431.472 / CPU time: 475.093
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -87426.771
+Current log-likelihood at step 1: -87426.750
+Parameters optimization took 0 rounds (1.856 sec)
+
+BETTER TREE FOUND at iteration 22: -87426.750
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -87425.223
+Current log-likelihood at step 1: -87424.686
+Current log-likelihood at step 2: -87424.683
+Parameters optimization took 1 rounds (8.585 sec)
+
+BETTER TREE FOUND at iteration 23: -87424.683
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -87423.882
+Current log-likelihood at step 1: -87423.870
+Parameters optimization took 0 rounds (5.028 sec)
+
+BETTER TREE FOUND at iteration 26: -87423.870
+Iteration 30 / LogL: -87511.768 / Time: 0h:10m:47s (0h:35m:42s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -87417.986
+Current log-likelihood at step 1: -87417.895
+Parameters optimization took 0 rounds (2.224 sec)
+
+BETTER TREE FOUND at iteration 37: -87417.895
+Iteration 40 / LogL: -87417.912 / Time: 0h:13m:11s (0h:32m:49s left)
+Iteration 50 / LogL: -87428.916 / Time: 0h:14m:58s (0h:26m:35s left)
+Log-likelihood cutoff on original alignment: -87483.214
+Iteration 60 / LogL: -87417.911 / Time: 0h:16m:50s (0h:21m:58s left)
+Iteration 70 / LogL: -87428.503 / Time: 0h:19m:11s (0h:18m:38s left)
+Iteration 80 / LogL: -87419.508 / Time: 0h:20m:56s (0h:15m:6s left)
+Iteration 90 / LogL: -87498.427 / Time: 0h:23m:7s (0h:12m:12s left)
+Iteration 100 / LogL: -87418.449 / Time: 0h:24m:35s (0h:9m:11s left)
+Log-likelihood cutoff on original alignment: -87483.214
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -87418.706 / Time: 0h:26m:21s (0h:21m:45s left)
+Iteration 120 / LogL: -87496.398 / Time: 0h:27m:48s (0h:18m:41s left)
+Iteration 130 / LogL: -87417.914 / Time: 0h:29m:13s (0h:15m:51s left)
+TREE SEARCH COMPLETED AFTER 138 ITERATIONS / Time: 0h:30m:33s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -87417.895
+Current log-likelihood at step 1: -87417.891
+Partition-specific rates:  0.798 1.118
+Parameters optimization took 0 rounds (3.165 sec)
+
+Partition information was printed to Partition_Dit1Dit2.txt.best_model.nex
+BEST SCORE FOUND : -87417.891
+Creating bootstrap support values...
+Split supports printed to NEXUS file Partition_Dit1Dit2.txt.splits.nex
+Total tree length: 33.292
+
+Total number of iterations: 138
+CPU time used for tree search: 1508.647 sec (0h:25m:8s)
+Wall-clock time used for tree search: 1816.975 sec (0h:30m:16s)
+Total CPU time used: 1529.135 sec (0h:25m:29s)
+Total wall-clock time used: 1838.652 sec (0h:30m:38s)
+
+Computing bootstrap consensus tree...
+Reading input file Partition_Dit1Dit2.txt.splits.nex...
+171 taxa and 515 splits.
+Consensus tree written to Partition_Dit1Dit2.txt.contree
+Reading input trees file Partition_Dit1Dit2.txt.contree
+Log-likelihood of consensus tree: -87417.897
+
+Analysis results written to: 
+  IQ-TREE report:                Partition_Dit1Dit2.txt.iqtree
+  Maximum-likelihood tree:       Partition_Dit1Dit2.txt.treefile
+  Likelihood distances:          Partition_Dit1Dit2.txt.mldist
+  Best partitioning scheme:      Partition_Dit1Dit2.txt.best_scheme.nex
+           in RAxML format:      Partition_Dit1Dit2.txt.best_scheme
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Partition_Dit1Dit2.txt.splits.nex
+  Consensus tree:                Partition_Dit1Dit2.txt.contree
+  Screen log file:               Partition_Dit1Dit2.txt.log
+
+Date and Time: Thu Dec  8 14:50:16 2022
