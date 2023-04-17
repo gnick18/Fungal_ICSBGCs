@@ -2,6 +2,8 @@
 
 # Reproducible Code
 
+[More information on CHTC at UW-Madison](https://chtc.cs.wisc.edu/)
+
 ## Flowplan
 
 | **Step** | What this step does                                          | Where it was ran                                       |
@@ -17,12 +19,14 @@
 | Misc     | Expansion and Contraction analysis and scripts               | My local computer                                      |
 | Misc     | Kendall's Tau Correlation Analysis                           | My local computer                                      |
 
-*<u>Important note!</u>* Many of the scripts the can be found in this script, aka `.sub` and parts of `.sh`, are only pertentent to supercomputer users at UW-Madison (CHTC). They are copied here for reproducibility and transparency but were not designed to be run locally on your own personal computer. **To avoid the need to re-run the entire pipeline, all of the raw predictions, groupings, and meta-data tables are available in the supplemental and publication GitHub repo!** To make skimming this document easier, key lines of code with pertanenet parameters have been seperated and placed into their relavent steps within the pipeline. If trying to replicate part or all of the code at your own University or Institutation, the raw scripts would need to be adapted or edited depending on your computer's specifications/dependencies. 
+*<u>Important note!</u>* Many of the scripts found in this reproducible-script, aka `.sub` and parts of `.sh`, are only pertentent to supercomputer users at UW-Madison (CHTC). They are copied here for reproducibility and transparency but were not designed to be run locally on your own personal computer. **To avoid the need to re-run the entire pipeline, all of the raw predictions, groupings, and meta-data tables are available in the supplemental data and publication GitHub repo! Additionally, we have designed a publically available [web-server](https://isocyanides.fungi.wisc.edu/) to aid in the exploration of all data generated with this publication** To make skimming this document easier, key lines of code with pertanenet parameters have been seperated and placed above the raw scripts for each step detailed in this document. If trying to replicate part or all of the code at your own University or Institutation, the raw scripts would need to be adapted or edited depending on your computer's specifications/dependencies. 
 
 ### Overall constant dependencies, versions, etc
 
-- Python 3.7.9 was used 
-- The programs were all run on OS operating systems and thus will not work on the Windows operating systems!
+- Python 3.7.9 was used throughout the entire project
+- The Anaconda package manager was used to install and mainintain many of the related python and R-packages
+- All programs run locally were done so on Mac-OS operating systems and thus are not guarenteed to work on the Windows operating systems!
+- The CHTC supercomputer runs on a Linux distribution ([CentOS Stream 8](https://chtc.cs.wisc.edu/uw-research-computing/os-transition-htc)) 
 
 ## Step 1: Obtaining and annotating the fungal genomes
 
@@ -100,7 +104,7 @@ antismash --taxon fungi --genefinding-gff "$Name".gff "$Name".fna --output-dir "
 
 ### Raw scripts
 
-*Note!* All of these scripts are designed to work specifically on UW-Madison's supercomputer cluster and would fail if trying to run locally. They are copied here for reproducibility and transparency but were not designed to be run locally on your own personal computer. **To avoid the need to re-run the entire pipeline, all of the raw predictions, groupings, and meta-data tables are available in the supplemental and publication GitHub repo!** Editing this code to work locally will simply produce the same output as is provided with this publication, unless adding additional genomes. If trying to replicate part or all of the code, some editing will be needed before running it locally.
+*Note!* All of these scripts are designed to work specifically on UW-Madison's supercomputer cluster and would fail if trying to run locally. They are copied here for reproducibility and transparency but were not designed to be run locally on your own personal computer. If trying to replicate part or all of the code, some editing will be needed before running it locally.
 
 **ConvertSummaryToJson.sub**
 
@@ -808,7 +812,7 @@ else
 fi
 ```
 
-Requesting 4 GB of disk was sufficient for a vast majority of the genomes, however 103 runs on the supercomputer ran out of disk space. Once the rest of the genomes complete I'll re-run the one's that failed with 8 GB of disk. There was also one genome that ran out of memory, so I'll pump up the memory request to 4 GB. This is likley overkill but disk/memory is not nearly as hard to obtain as a lot of CPU's with the CHTC facility. 
+Requesting 4 GB of disk was sufficient for a vast majority of the genomes, however 103 runs on the supercomputer ran out of disk space. Once the rest of the genomes completed, l re-ran the one's that failed with 8 GB of disk. 
 
 **Running the last 103**
 
@@ -828,7 +832,7 @@ Submitting job(s)...............................................................
 103 job(s) submitted to cluster 14518870.
 ```
 
-Once again several ran out of disk usage so I ran one last batch with a lot of resources requested
+11 of the genomes ran out of disk usage so I ran one last batch with a lot of resources (overkill for a vast majority of the genomes).
 
 ```sh
 # CHANGES IN THE SUBMIT SCRIPT
