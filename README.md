@@ -1,4 +1,4 @@
-DOI: 10.5281/zenodo.7834839
+[![DOI](https://zenodo.org/badge/595311431.svg)](https://zenodo.org/badge/latestdoi/595311431)
 # *Explanation of repository's organization:*
 Reproducible code and data repository for the fungal ICS BGC prediction publication. All of the core code used in the publication in addition to the raw prediction files can be found here. 
 
