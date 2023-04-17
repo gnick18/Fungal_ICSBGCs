@@ -5,6 +5,9 @@ The metadata for the genomes in addition to tables that include more information
 
 ![ICS_FungalTreeFigure](./Images/ICS_FungalTreeFigure.png)
 
+## **ReproducipleScripts.md**
+This markdown file contains all of the major scripts used within this publication. It is sectioned by different key chunks of code, and includes a key on the top of the file. If an outside program or algorithm was used, the parameters used to run said program is listed above the Raw Scripts to make it easier to locate.
+
 ## **Folder: ICSBGCs**
 
 This folder stores all of the raw ICS BGC predictions in genbank, gff, and fasta format. The BGC predictions for each genome is organized in a nested folder structure by the the NCBI accession of the genome it was found in.
