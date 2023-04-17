@@ -2,6 +2,10 @@
 
 # Reproducible Code
 
+Author of document and code: Grant Nickles (gnickles@wisc.edu)
+
+- Dr. Milton Drott generated the BiG-SCAPE dereplication pipeline found under Step 5
+
 [More information on CHTC at UW-Madison](https://chtc.cs.wisc.edu/)
 
 ## Flowplan
@@ -17,7 +21,6 @@
 | 7        | Running clinker on dereplicated folders (GCFs, GCCs)         | CHTC supercomputer at UW-Madison                       |
 | 8        | Investigating gene conservation and domain conservation      | CHTC supercomputer at UW-Madison and my local computer |
 | Misc     | Expansion and Contraction analysis and scripts               | My local computer                                      |
-| Misc     | Kendall's Tau Correlation Analysis                           | My local computer                                      |
 
 *<u>Important note!</u>* Many of the scripts found in this reproducible-script, aka `.sub` and parts of `.sh`, are only pertentent to supercomputer users at UW-Madison (CHTC). They are copied here for reproducibility and transparency but were not designed to be run locally on your own personal computer. **To avoid the need to re-run the entire pipeline, all of the raw predictions, groupings, and meta-data tables are available in the supplemental data and publication GitHub repo! Additionally, we have designed a publically available [web-server](https://isocyanides.fungi.wisc.edu/) to aid in the exploration of all data generated with this publication** To make skimming this document easier, key lines of code with pertanenet parameters have been seperated and placed above the raw scripts for each step detailed in this document. If trying to replicate part or all of the code at your own University or Institutation, the raw scripts would need to be adapted or edited depending on your computer's specifications/dependencies. 
 
@@ -857,6 +860,12 @@ The following is the largest step in terms of custom code scripted for this publ
 
 https://github.com/gnick18/Fungal_ICSBGCs
 
+Because this step of the program doesn't contain any programs with key parameters, there is so "summary" section for this code. However, broadly the Code works as follow:
+
+![ICSCreatorPipeline](./Images/ICSCreatorPipeline_Flowchart.png)
+
+
+
 ### Obataining the dependencies with miniconda or anaconda
 
 ```sh
@@ -1025,7 +1034,9 @@ for gbk in os.listdir(rootDirectory):
 
 When examining the outputs, **the networks that had the biosynthetic tags grouped more things together.** By putting an emphasis on the biosynthetic genes in the prediction the program puts more emphasis on these alignments. Since antismash was making these calls, I knew somewhere in their code repo must be the information to determine if something should be called biosynthetic or not. After doing a lot of digging I found the file which is used by the code to color the known bioynsthetic genes on the html file. This is perfect as it can be levereged to label the gbk files in this publication. 
 
-[biosynthetic pfam file from AntiSmash](./BiosyntheticDomains/pfam_biosynthetic.txt)
+[biosynthetic pfam file from AntiSmash](./BiosyntheticDomains_List/pfam_biosynthetic.txt)
+
+[biosynthetic pfam file, with pfam labels added](./BiosyntheticDomains_List/pfam_biosynthetic_wLabels.tsv)
 
 As a result of this test, I created a final script that loops over each gbk file, and using the HMMer generated protein domain predictions, adds the `/gene_kind="biosynthetic` flag to the relavent CDS regions.
 
@@ -1200,9 +1211,9 @@ def CassisToCluster(genomeFolder, rootDirectory):
                 # There are some situations where two rows are pulled back due to two mRNA transcripts on the same gene being annotated
                 # in this case I only take the one with the larger boundry which should match the parent gene on the gff file
                 if len(firstGeneRow) > 1:
-                    firstGeneRow = FindLargstRow(firstGeneRow)
+                    firstGeneRow = FindLargestRow(firstGeneRow)
                 if len(lastGeneRow) > 1:
-                    lastGeneRow = FindLargstRow(lastGeneRow)
+                    lastGeneRow = FindLargestRow(lastGeneRow)
                 ###########
                 # MAKING SURE THE CONTIGS ARE THE SAME, if they are not the program fixes it by making a fake new contig
                 ###########
@@ -1359,7 +1370,7 @@ def ContigsDontMatch(firstGeneRow, lastGeneRow, pathOfFasta, pathOfGFF, newFolde
         return [firstGeneRow, lastGeneRow]
 
 
-def FindLargstRow(rows):
+def FindLargestRow(rows):
     rows['length'] = rows['stop'] - rows['start']
     largestRowIndex = rows['length'].idxmax() #finding the row with the largest length
     largestRow = rows.loc[[largestRowIndex]]
@@ -2389,7 +2400,7 @@ Importing GenBank files
 
 The error ended up being from the supercomputer. Perplexingly if I individually downloaded a truncated genome and re-ran Step 3 locally the output was non-truncated. 
 
-In the end, to resolve this niche issue I had to generate a bunch of small scripts that delt with organizing, re-naming, and downloading for these 130 problem genomes. I then ran this small subset locally. To prevent confusion from duplacte genomes of the same species having similar BGC predictions, **this script also changed the name of each BGC to a unique identifying number (1-3800), which can be found in the Supplmental Tables and GitHub repository.** It is unlikley that a reader of these Supplemental Methods will find these raw scripts useful as they are designed for my personal laptop and how the data was organized on my personal hard-drive (which is why they aren't extensively documented with comment lines like other code I made), but parts might be good to reference for reproducibility.
+In the end, to resolve this niche issue I had to generate a bunch of small scripts that delt with organizing, re-naming, and downloading for these 130 problem genomes. I then ran this small subset locally using the same code in Step 3. To prevent confusion from duplacte genomes of the same species having similar BGC predictions, **this script also changed the name of each BGC to a unique identifying number (1-3800), which can be found in the Supplmental Tables and GitHub repository.** It is unlikley that a reader of these Supplemental Methods will find these raw scripts useful as they are designed for my personal laptop and how the data was organized on my personal hard-drive (which is why they aren't extensively documented with comment lines like other code I made), but parts might be good to reference for reproducibility if trying to analyze a similarly large fungal genome.
 
 **3300GenomeOrganization.py**
 
@@ -3019,26 +3030,21 @@ To run this the user has to have a folder called `anti_parsed-new` (this can be 
 **Step1.sh**
 
 ```sh
-#Step 1
 #assumes that you have the parsed_new files in a folder called anti_parsed_new within the current directory
 #get gene counts
-#GN-EDIT: ./anti_parsed_new/*_parsed_new_hybrids_anti_fix --> *_parsed_anti
-cat ./anti_parsed_new/*_parsed_anti | awk -F'\t' '{print $2"\t"$10}' | awk '{if ($3=="") print $1"\t"$2"\t"1; else print $1"\t"$2"\t"1"\t"1}' | awk '{count[$1]++} END {for (word in count) print word, count[word]}' | sort -k1,1> temp2
+#
+for file in ./anti_parsed_new/*_parsed_new_hybrids_anti_fix_ncbi;do cat $file;done | awk -F'\t' '{print $2"\t"$11}' | awk '{if ($3=="") print $1"\t"$2"\t"1; else print $1"\t"$2"\t"1"\t"1}' | awk '{count[$1]++} END {for (word in count) print word, count[word]}' | sort -k1,1> temp2
 #
 #get bb gene counts
-#GN-EDIT: ./anti_parsed_new/*_parsed_new_hybrids_anti_fix --> *_parsed_anti
-cat ./anti_parsed_new/*_parsed_anti | awk -F'\t' '{print $2"\t"$10}' | awk '{if ($3=="") print $1"\t"$2"\t"1; else print $1"\t"$2"\t"1"\t"1}' | awk -F '\t' '{a[$1"\t"$2"\t"]+= $4} END{for (i in a) print i, a[i]}' | sort -k1,1 > temp
+for file in ./anti_parsed_new/*_parsed_new_hybrids_anti_fix_ncbi;do cat $file;done | awk -F'\t' '{print $2"\t"$11}' | awk '{if ($3=="") print $1"\t"$2"\t"1; else print $1"\t"$2"\t"1"\t"1}' | awk -F '\t' '{a[$1"\t"$2"\t"]+= $4} END{for (i in a) print i, a[i]}' | sort -k1,1 > temp
 #
 join temp temp2 | awk '{print $1"\t"$2"\t"$4"\t"$3}'> all_bgc_types_with_counts
 #
-#GN-EDIT: Changed this to the directory of the network file
-Network='/Volumes/T7/ICSProject/ConsolidatedResults_3300Genomes/BigScapeResults/Run_BiosynGBKs/EditedNetwork_Clans/EDITED_Others_clans_0.35_0.50.tsv'
-#Network=$1
+Network="/Users/mdrott/Desktop/Projects/LD_light/new_fungi/consensus/consensus_other.net"
 #get all bgcs
 #
 #note the “grep mF” may have ot be changed for other projects
-#GN-EDIT:changed grep mf to grep GC
-awk 'NR>1 {print $1"\n"$2}' "$Network" | grep GC | sort -u > allbgcs
+awk 'NR>1 {print $1"\n"$2}' "$Network" | grep mF | sort -u > allbgcs
 #
 Counter="1"
 REPLY=`head -1 allbgcs`
@@ -3048,9 +3054,9 @@ Rlength=`echo -e "$REPLY" | wc -c| sed 's/ //g'`
 while [ "$Rlength" -gt 2 ]; do
 #
 #get nearest neighbors and find their nearest neighbors
-grep -w "$REPLY" "$Network" | awk '{print $1"\n"$2}' | sort -u > round1
+awk -v bgc="$REPLY" '{if ($1==bgc || $2==bgc) {print $1"\n"$2}}' "$Network" | awk '{print $1"\n"$2}' | sort -u | grep . > round1
 #
-grep -w -f round1 "$Network" | awk '{print $1"\n"$2}' | sort -u > round2
+awk 'NR==FNR{a[$1];next} ($2 in a || $1 in a)' round1 "$Network" | awk '{print $1"\n"$2}' | sort -u > round2
 #
 #determine if nearest neighbors have more clusters than second nearest neighbors
 Count1=`cat round1 | wc -l | sed 's/ //g'`
@@ -3061,8 +3067,8 @@ echo -e "$Counter""\t""$Count1""\t""$Count2"
 #if nearest and second nearest are diff continue on until nth neighbor is same as n+1
 while [ "$Count1" -lt "$Count2" ]; do
 #
-grep -w -f round2 "$Network"| awk '{print $1"\n"$2}' | sort -u > round1
-grep -w -f round1 "$Network"| awk '{print $1"\n"$2}' | sort -u > round2
+awk 'NR==FNR{a[$1];next} ($2 in a || $1 in a)' round2 "$Network"| awk '{print $1"\n"$2}' | sort -u > round1
+awk 'NR==FNR{a[$1];next} ($2 in a || $1 in a)' round1 "$Network"| awk '{print $1"\n"$2}' | sort -u > round2
 #
 Count1=`cat round1 | wc -l | sed 's/ //g'`
 Count2=`cat round2 | wc -l | sed 's/ //g'`
@@ -3075,14 +3081,11 @@ cat round2 > "$Counter"family
 #
 #
 #remove the BGCs that just got nearest neighbored above
-#note the “grep mF” may have to be changed for other projects
-#GN-EDIT: grep mF --> grep GC
-cat "$Counter"family "$Counter"family allbgcs | sort | uniq -u | grep GC> temp
+awk 'NR==FNR{a[$1];next} !($1 in a)' "$Counter"family allbgcs > temp
 mv temp allbgcs
 #
 #grab out the backbone gene types for counterfamily
-#
-grep -w -f "$Counter"family all_bgc_types_with_counts > "$Counter"family_with_type
+awk 'NR==FNR{a[$1];next} ($1 in a)' "$Counter"family all_bgc_types_with_counts > "$Counter"family_with_type
 #
 #lets identify rare bgc combos:
 awk '{print $2}' "$Counter"family_with_type | awk '{count[$0]++} END {for (type in count) print type, count[type]}' > temp
@@ -3102,42 +3105,36 @@ Rlength=`echo -e "$REPLY" | wc -c| sed 's/ //g'`
 Counter=$[Counter + 1]
 done
 mkdir family_with_type
-rm temp* warn_bb zemp round*
 mv *family_with_type ./family_with_type/
 ```
 
 **Step2.sh**
 
 ```sh
-#Step 2
+
 #this script will print same_gcfs and finalsecond rm errors every time, this was done out of an abundance of caution as
-#on the first run if these are present they could be problematic.
+#on the first run if these are present they could be problematic. 
 #
-#Network="/Volumes/HardDrive/ICSProject/Eurotiales_all/BigScape/7500AllCopy/network/Others_c0.30.network"
-#Clans="/Volumes/HardDrive/ICSProject/Eurotiales_all/BigScape/7500AllCopy/clans/Others_clans_0.30_0.70.tsv"
-Network='/Volumes/T7/ICSProject/ConsolidatedResults_3300Genomes/BigScapeResults/Run_BiosynGBKs/EditedNetwork_Clans/EDITED_Others_c0.30.network'
-Clans='/Volumes/T7/ICSProject/ConsolidatedResults_3300Genomes/BigScapeResults/Run_BiosynGBKs/EditedNetwork_Clans/EDITED_Others_clans_0.35_0.50.tsv'
+Network="/Users/mdrott/Desktop/Projects/LD_light/new_fungi/consensus/consensus.net"
+Clans="/Users/mdrott/Desktop/Projects/LD_light/new_fungi/consensus/consensus.clans"
 #
 mkdir neighbor_info
 #where I is the number of dereplicated clusters if you want to do all fo them)
-#GN-EDIT: works with the LStep2.sh script for automation
-# for i in $(seq 1 "$3");do
-#### THIS IS THE LINE TO EDIT
-for i in {1..210};do
+for i in {1..10909};do
 echo "$i"
 #
 rm *nn
 #
 awk '{print $1}' ./family_with_type/"$i"family_with_type > iso_in_network
 #
-grep -w -f iso_in_network "$Clans" | awk '{print $3,$1}'| sed 's/_alignment.fasta.*>/ /' > iso_with_gcf
+awk 'NR==FNR{a[$1];next} ($2 in a || $1 in a)' iso_in_network "$Clans" | awk '{print $3,$1}'| sed 's/_alignment.fasta.*>/ /' > iso_with_gcf
 #
 awk '{print $1}' iso_with_gcf | sort -u > all_gcfs
 #
-grep -w -f iso_in_network "$Network" > reduced_net
+awk 'NR==FNR{a[$1];next} ($2 in a || $1 in a)' iso_in_network "$Network" > reduced_net
 #
 #grab out all the isos in a gcf and place them and their nearest neighbors into a file
-while read;do grep -w "$REPLY" iso_with_gcf | awk '{print $2}' >tempz; grep -w -f tempz reduced_net | awk '{print $1"\n"$2}' | sort -u > "$REPLY"nn;done < <(cat all_gcfs)
+while read;do grep -w "$REPLY" iso_with_gcf | awk '{print $2}' >tempz; awk 'NR==FNR{a[$1];next} ($2 in a || $1 in a)'  tempz reduced_net | awk '{print $1"\n"$2}' | sort -u > "$REPLY"nn;done < all_gcfs
 #
 #
 while read;do
@@ -3154,23 +3151,21 @@ common=`cat "$REPLY"nn "$f" | sort | uniq -d | wc -l | sed 's/ //g'`;
 common_source=`cat "$REPLY"nn "$f" | sort | uniq -d | grep -w -f source_iso |wc -l | sed 's/ //g'`;
 common_target=`cat "$REPLY"nn "$f" | sort | uniq -d | grep -w -f target_iso |wc -l | sed 's/ //g'`;
 source_nn_count=`cat "$REPLY"nn | wc -l | sed 's/ //g'`;
-target_nn_count=`cat "$f" |  wc -l | sed 's/ //g'`;
+target_nn_count=`cat "$f" |  wc -l | sed 's/ //g'`; 
 echo -e "$REPLY""nn""\t""$f""\t""$sourcecount""\t""$source_nn_count""\t""$common_source""\t""$common""\t""$common_target""\t""$targetcount""\t""$target_nn_count";
 done;
-done < <(cat all_gcfs) > neighbors
+done < all_gcfs > neighbors 
 #
 #
-#Filter neighbors to require proportions of all columns to be greater than 15% -- now changed to 50% for various reasons
-#the higher this filter is the the less likley the program will concider something as like
-#
-awk '$7>0 && $1!=$2 {print}' neighbors | awk '{portion_source=$5/$3}{portion_target=$7/$8}{portion_nn_source=$6/$4}{portion_nn_target=$6/$9} {print $1,$2,$3,$4,$5,$6,$7,$8,$9,"|",portion_source,portion_nn_source,portion_target,portion_nn_target}' | awk '$11>0.15 && $12>0.15 && $13>0.15 && $14>0.15 {print}' | column -t > filtered_neighbors
+#Filter neighbors to require proportions of all columns to be greater than 15% -- now changed to 30% for various reasons also tried… 50%!
+awk '$7>0 && $1!=$2 {print}' neighbors | awk '{portion_source=$5/$3}{portion_target=$7/$8}{portion_nn_source=$6/$4}{portion_nn_target=$6/$9} {print $1,$2,$3,$4,$5,$6,$7,$8,$9,"|",portion_source,portion_nn_source,portion_target,portion_nn_target}' | awk '$11>0.3 && $12>0.3 && $13>0.3 && $14>0.3 {print}' | column -t > filtered_neighbors
 #
 awk '$7>0 && $1!=$2 {print}' neighbors | awk '{portion_source=$5/$3}{portion_target=$7/$8}{portion_nn_source=$6/$4}{portion_nn_target=$6/$9} {print $1,$2,$3,$4,$5,$6,$7,$8,$9,"|",portion_source,portion_nn_source,portion_target,portion_nn_target}' | column -t > z
 mv z neighbors
 #
 rm same_gcfs
 #
-cat all_gcfs >temp_gcfs
+cat all_gcfs >temp_gcfs 
 gcf_count=`cat all_gcfs|  wc -l | sed 's/ //g'`
 #
 while [ $gcf_count -gt 0 ];do
@@ -3185,15 +3180,15 @@ echo -e "$gcf""nn" >> same
 cat same | sort -u > tempz
 mv tempz same
 #
-grep -w -f same filtered_neighbors | awk '{print $1"\n"$2}'| sort -u > secondsame
+awk 'NR==FNR{a[$1];next} ($2 in a || $1 in a)'  same filtered_neighbors | awk '{print $1"\n"$2}'| sort -u > secondsame
 #
 Count1=`cat same | wc -l | sed 's/ //g'`
 Count2=`cat secondsame | wc -l | sed 's/ //g'`
 #
 while [ "$Count1" -lt "$Count2" ]; do
 #
-grep -w -f secondsame filtered_neighbors | awk '{print $1"\n"$2}'| sort -u > same
-grep -w -f same filtered_neighbors | awk '{print $1"\n"$2}'| sort -u > secondsame
+awk 'NR==FNR{a[$1];next} ($2 in a || $1 in a)' secondsame filtered_neighbors | awk '{print $1"\n"$2}'| sort -u > same
+awk 'NR==FNR{a[$1];next} ($2 in a || $1 in a)' same filtered_neighbors | awk '{print $1"\n"$2}'| sort -u > secondsame
 #
 Count1=`cat same | wc -l | sed 's/ //g'`
 Count2=`cat secondsame | wc -l | sed 's/ //g'`
@@ -3210,14 +3205,14 @@ echo -e "$firstsame" >> same_gcfs
 cat same temp_gcfs | sort | uniq -u > tempz
 mv tempz temp_gcfs
 gcf_count=`cat temp_gcfs|  wc -l | sed 's/ //g'`
-done
+done 
 #tidy1
 rm finalsecond secondsame same temp_gcfs
 #
 #
 mv neighbors ./neighbor_info/"$i"neighbors
 mv filtered_neighbors ./neighbor_info/"$i"filtered_neighbors
-mv same_gcfs ./neighbor_info/"$i"same_gcfs
+mv same_gcfs ./neighbor_info/"$i"same_gcfs 
 #
 #tidy2
 rm reduced_net all_gcfs iso_with_gcf iso_in_network
@@ -3229,48 +3224,48 @@ done
 ```sh
 #STEP3 WITH DEREPLICATION OF SPECIES DURING/BEFORE MODAL BGC DETERMINATION
 #ASSUMES YOU HAVE HYRBIDS ANTI PARSED
-#will print various errors about awk not finding zzemp2 and failing to remove various directories – haven’t gone over/tidied this yet.
-mkdir dereplicated
 #
-grep hybrid ./anti_parsed_new/*parsed_anti | awk -F'\t' '{print $2,$10}' |sort -u> all_bgc_hybrids
-#Network="/Volumes/HardDrive/ICSProject/Eurotiales_all/BigScape/Window7500All/bigscape/network_files/2021-03-09_09-37-08_hybrids_glocal/Others/Others_c0.30.network"
-#Clans="/Volumes/HardDrive/ICSProject/Eurotiales_all/BigScape/Window7500All/bigscape/network_files/2021-03-09_09-37-08_hybrids_glocal/Others/Others_clans_0.30_0.70.tsv"
-Network='/Volumes/T7/ICSProject/ConsolidatedResults_3300Genomes/BigScapeResults/Run_BiosynGBKs/EditedNetwork_Clans/EDITED_Others_c0.30.network'
-Clans='/Volumes/T7/ICSProject/ConsolidatedResults_3300Genomes/BigScapeResults/Run_BiosynGBKs/EditedNetwork_Clans/EDITED_Others_clans_0.35_0.50.tsv'
-master_access="/Volumes/T7/ICSProject/ConsolidatedResults_3300Genomes/all_access.txt"
+mkdir dereplicated 2> /dev/null
+#
+for file in ./anti_parsed_new/*hybrids_anti_fix_ncbi;do grep hybrid $file | awk -F'\t' '{print $2,$11}' |sort -u;done > all_bgc_hybrids
+Network="/Users/mdrott/Desktop/Projects/LD_light/new_fungi/consensus/consensus.net"
+Clans="/Users/mdrott/Desktop/Projects/LD_light/new_fungi/consensus/consensus.clans"
+master_access="all_access_fixed.txt"
 #
 #while read parent_gcf;do
-#GN-EDIT: changed for the LStep3.sh script
-# for parent_gcf in $(seq 1 "$3");do
-for parent_gcf in {1..210};do
-#for parent_gcf in {1..24};do
+for parent_gcf in {1..10909};do
 echo -e starting "$parent_gcf"
+date +%H":"%M":"%S
+echo -------------------------
 #
 awk '{print $1}' ./family_with_type/"$parent_gcf"family_with_type > iso_in_network
-grep -w -f iso_in_network "$Clans"| awk '{print $3,$1}'| sed 's/_alignment.fasta.*>/ /' > iso_with_gcf
+awk 'NR==FNR{a[$1];next} ($1 in a)' iso_in_network "$Clans"| awk '{print $3,$1}'| sed 's/_alignment.fasta.*>/ /' > iso_with_gcf
 #
 #output the combined gcfs into a single file
 Counter="1"
+#
 while read;do
 echo "$REPLY" | tr ',' '\n'|grep . > gcfs
-grep -w -f gcfs iso_with_gcf | awk '{print $2}' > ttemp
-grep -w -f ttemp ./family_with_type/"$parent_gcf"family_with_type | awk '{print $1"\t"$2"\t"$3"\t"$4}' > "$Counter"_combo"$parent_gcf"_withtype
+awk 'NR==FNR{a[$1];next} ($1 in a)' gcfs iso_with_gcf | awk '{print $2}' > ttemp		
+awk 'NR==FNR{a[$1];next} ($1 in a)' ttemp ./family_with_type/"$parent_gcf"family_with_type | awk '{print $1"\t"$2"\t"$3"\t"$4}' > "$Counter"_combo"$parent_gcf"_withtype
     Counter=$[Counter + 1]
-done < <(cat ./neighbor_info/"$parent_gcf"same_gcfs)
+done < ./neighbor_info/"$parent_gcf"same_gcfs
 #
 #
-#then iterate through..
-ls -lh *_combo"$parent_gcf"_withtype | awk '{print $9}' | sed 's/_combo.*//' > combo_gcfs
+#then iterate through.. after combining above.
+ls -lh *_combo"$parent_gcf"_withtype | awk '{print $NF}' | sed 's/_combo.*//' > combo_gcfs
+#
+rm gcf_summary_ttemp 2>/dev/null
 while read -r combo_gcf;do
 #
 #add in hybrid designation
 #
-while read -r bgc type gene_count bb_count; do
+while read -r bgc type gene_count bb_count; do 
 myhybrid=`grep -w "$bgc" ./all_bgc_hybrids  | grep hybrid| wc -l | sed 's/ //g'`
-hybrid=`grep "$bgc" ./all_bgc_hybrids | wc -l | sed 's/ //g'`
+hybrid=`grep -w "$bgc" ./all_bgc_hybrids | wc -l | sed 's/ //g'`
 #
 echo -e "$myhybrid""\t""$hybrid" | awk -F'\t' -v bgc="$bgc" -v type="$type" -v gene_count="$gene_count" -v bb_count="$bb_count" '{if ($1==1) print bgc"\t"type"\t"gene_count"\t"bb_count"\t""hybrid"; if ($1==0 && $2==1) print bgc"\t"type"\t"gene_count"\t"bb_count"\t""maybe_hybrid"; if ($1==0 && $2==0) print bgc"\t"type"\t"gene_count"\t"bb_count"\t""not_hybrid"}'
-done < <(cat "$combo_gcf"_combo"$parent_gcf"_withtype)> bemp
+done < "$combo_gcf"_combo"$parent_gcf"_withtype > bemp
 mv bemp "$combo_gcf"_combo"$parent_gcf"_withtype
 #
 #
@@ -3286,60 +3281,54 @@ awk 'FNR==NR{SUM+=$2;next} {if (SUM>=5 && $3<20){print $1}}' zzemp zzemp >warn_b
 #
 # below will add warnings to the ones that have weird bbgene content etc. based on 20% above.
 while read;do cat "$combo_gcf"_combo"$parent_gcf"_withtype| awk -v var="$REPLY" '{if ($2==var) print $1"\t"$2"\t"$3"\t"$4"\t"$5"\t""DANGER_type!!"}'>> zzemp2;done <warn_bb
-awk '{print $1}' zzemp2 > zzemp3
+awk '{print $1}' zzemp2 > zzemp3 2> /dev/null
 awk '{print $1}' "$combo_gcf"_combo"$parent_gcf"_withtype > names
 cat names zzemp3 | sort | uniq -u > add_back
 #at this point add_back contains all of the isolates that did not get a type warning
 #
 #grab out gene counts and add WARNINGS
-grep -w -f add_back "$combo_gcf"_combo"$parent_gcf"_withtype | sort -n -k3,3 | awk '{print $3}' > ttemp
+awk 'NR==FNR{a[$1];next} ($1 in a)' add_back "$combo_gcf"_combo"$parent_gcf"_withtype | sort -n -k3,3 | awk '{print $3}' > ttemp
 #add warnings to those that have 50% more or less gene than the mean gene count.
 Mean=`cat ttemp | awk '{sum+=$1}END {print sum/NR}' `
 #
 UpperLim=`echo -e "$Mean" | awk '{half=$1/2} {print $1+half}'`
 LowerLim=`echo -e "$Mean" | awk '{half=$1/2} {print $1-half}'`
 #
-grep -w -f add_back "$combo_gcf"_combo"$parent_gcf"_withtype | awk -v var="$UpperLim" '{if ($3>var) print $1"\t"$2"\t"$3"\t"$4"\t"$5"\t""DANGER_count!!"; else print $1"\t"$2"\t"$3"\t"$4"\t"$5}'| awk -v var="$LowerLim" '{if ($3<var) print $1"\t"$2"\t"$3"\t"$4"\t"$5"\t""DANGER_count!!"; else print $1"\t"$2"\t"$3"\t"$4"\t"$5}' >>zzemp2
+awk 'NR==FNR{a[$1];next} ($1 in a)' add_back "$combo_gcf"_combo"$parent_gcf"_withtype | awk -v var="$UpperLim" '{if ($3>var) print $1"\t"$2"\t"$3"\t"$4"\t"$5"\t""DANGER_count!!"; else print $1"\t"$2"\t"$3"\t"$4"\t"$5}'| awk -v var="$LowerLim" '{if ($3<var) print $1"\t"$2"\t"$3"\t"$4"\t"$5"\t""DANGER_count!!"; else print $1"\t"$2"\t"$3"\t"$4"\t"$5}' >>zzemp2
 rm ttemp
 #
-# GN-EDIT: this change was made so the grep -v lines were unable to remove any of the warning files. This is becuase i want to not remove any of the warnings files.
-# mv zzemp2 "$parent_gcf"combo_"$combo_gcf"_withtype_warnings
-cat zzemp2 | sed 's/DANGER/MANGER/g' > "$parent_gcf"combo_"$combo_gcf"_withtype_warnings
+mv zzemp2 "$parent_gcf"combo_"$combo_gcf"_withtype_warnings
 #
 # and for backbone gene counts… too many may be multiple clusters together, too few may be fragmented
 grep DANGER "$parent_gcf"combo_"$combo_gcf"_withtype_warnings > add_back
 #
-Modebb_count=`grep -v DANGER "$parent_gcf"combo_"$combo_gcf"_withtype_warnings | awk '{a[$4]++} END {for (i in a) if (a[i] > freq) {most=i; freq=a[i]} printf("%s\n", most)}'`
+Modebb_count=`grep -v DANGER "$parent_gcf"combo_"$combo_gcf"_withtype_warnings | awk '{a[$4]++} END {for (i in a) if (a[i] > freq) {most=i; freq=a[i]} printf("%s\n", most)}'` 
 #
 grep -v DANGER "$parent_gcf"combo_"$combo_gcf"_withtype_warnings | awk -v var="$Modebb_count" '{if ($4!=var) print $1"\t"$2"\t"$3"\t"$4"\t"$5"\t""DANGER_bb_count!!"; else print $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6}' > zzemp2
 cat add_back >>zzemp2
 mv zzemp2 "$parent_gcf"combo_"$combo_gcf"_withtype_warnings
 #
 #Okay now what about dereplicating ones in the same species..
-grep -v DANGER "$parent_gcf"combo_"$combo_gcf"_withtype_warnings  | awk '{print $1}' | sed 's/_/ /g' | awk '{print $2"_"$3}' > isos
-'s/GC.*/GC/'
+grep -v DANGER "$parent_gcf"combo_"$combo_gcf"_withtype_warnings  | awk '{print $1}' | sed 's/mF-.*/mF/' > isos
 #
-rm "$parent_gcf"iso_spp"$combo_gcf"
-while read -r iso;do
-access=`grep -w "$iso" "$master_access" |awk '{print $2}'`;
+rm "$parent_gcf"iso_spp"$combo_gcf" 2> /dev/null
+while read -r iso;do 
+access=` awk -F'\t' -v iso=$iso '$1==iso {print}' "$master_access" |awk '{print $2}'`;
 #
 Access_check=`echo -e "$access" | wc -c | sed 's/ //g'`
 #
 #
 if [ $Access_check -gt 2 ];then
 #
-species=`grep -w "$access" "$master_access"| awk -F'\t' '{print $7}' | awk -F',' '{print $7}'`;
-#GN-EDITS: removed the -w in the grep command because using accesssions and not mF nomenclature
-# removing the danger grep section
-grep "$iso" "$parent_gcf"combo_"$combo_gcf"_withtype_warnings | grep -v DANGER| awk -v var="$species" '{print var"\t"$1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6}' >> "$parent_gcf"iso_spp"$combo_gcf"
-# grep "$iso" "$parent_gcf"combo_"$combo_gcf"_withtype_warnings | awk -v var="$species" '{print var"\t"$1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6}' >> "$parent_gcf"iso_spp"$combo_gcf"
+species=` awk -F'\t' -v iso=$iso '$1==iso {print}' "$master_access"| awk -F'\t' '{print $7}' | awk -F',' '{print $7}'`; 
+grep -w "$iso" "$parent_gcf"combo_"$combo_gcf"_withtype_warnings | grep -v DANGER| awk -v var="$species" '{print var"\t"$1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6}' >> "$parent_gcf"iso_spp"$combo_gcf"
 #
 else
 #this would indicate that the same accession is occurring more than once.
 echo -e  something odd with "$iso" in "$combo_gcf" from parent gcf "$parent_gcf"
 #
 fi
-done< <(cat isos)
+done< isos
 #
 awk '{print $1}' "$parent_gcf"iso_spp"$combo_gcf" | sort -u> species
 #
@@ -3349,8 +3338,8 @@ while [ $mode_counter -lt 11 ]; do
 #
 #this randomly selects one representative of eachspecies and then calculates modal bb type across species (repeating many times to make sure we get the #right answer even if multiple reps of same species.
 #
-while read -r species;do grep -w "$species" "$parent_gcf"iso_spp"$combo_gcf" | shuf -n 1 ;done< <(cat species) | awk '{a[$3]++} END {for (i in a) if (a[i] > freq) {most=i; freq=a[i]} printf("%s\n", most)}'
-    mode_counter=$[mode_counter + 1]
+while read -r species;do grep -w "$species" "$parent_gcf"iso_spp"$combo_gcf" | shuf -n 1 ;done< <(cat species) | awk '{a[$3]++} END {for (i in a) if (a[i] > freq) {most=i; freq=a[i]} printf("%s\n", most)}' 
+    mode_counter=$[mode_counter + 1] 
 #
 done > modal_bb
 #
@@ -3363,7 +3352,7 @@ awk -v var="$final_mode_bb" '$3==var {print}' "$parent_gcf"iso_spp"$combo_gcf" >
 #The following will take the iso spp and select a single representative from each species containing modal bb
 #identify the unique isolates
 awk '{print $1}' "$parent_gcf"iso_spp"$combo_gcf"_modal | sort -u > "$parent_gcf"iso_spp_uniq
-while read;do awk -v var="$REPLY" '$1==var {print}' "$parent_gcf"iso_spp"$combo_gcf"_modal | shuf -n 1;done < <(cat "$parent_gcf"iso_spp_uniq) > "$parent_gcf"cluster_spp_dereplicated"$combo_gcf"
+while read;do awk -v var="$REPLY" '$1==var {print}' "$parent_gcf"iso_spp"$combo_gcf"_modal | shuf -n 1;done < "$parent_gcf"iso_spp_uniq > "$parent_gcf"cluster_spp_dereplicated"$combo_gcf"
 #
 echo -e "$combo_gcf""\t""$final_mode_bb" >> gcf_summary_ttemp
 #
@@ -3375,28 +3364,30 @@ mv "$parent_gcf"iso_spp"$combo_gcf" ./dereplicated/"$parent_gcf"iso_spp_NEW"$com
 mv "$parent_gcf"cluster_spp_dereplicated*"$combo_gcf" ./dereplicated/"$parent_gcf"cluster_spp_NEW_dereplicated"$combo_gcf"
 mv "$parent_gcf"combo_"$combo_gcf"_withtype_warnings ./dereplicated/"$parent_gcf"combo_"$combo_gcf"_withtype_warnings_NEW
 #
-done < <(cat combo_gcfs)
+done < combo_gcfs
 #
 #add warnings if multiple files share a modal backbone as these maybeshould be combined…
-while read -r gcfnum bb;do
+#currently the warnings are disabled..
+#
+while read -r gcfnum bb;do 
 echo -e "$bb" | tr ',' '\n' |grep . > bbs
 awk -v var="$gcfnum" '$2!=var {print}' gcf_summary_ttemp > others
 species_count=`cat ./dereplicated/"$parent_gcf"cluster_spp_NEW_dereplicated"$gcfnum" | wc -l | sed 's/ //g' `
 #warning=`grep -w -f bbs others | wc -l | sed 's/ //g'|awk '{if  ($1>=2) print "WARN"; else print "fine"}'`
-echo -e "$gcfnum""\t""$bb""\t""$species_count"
-done < <(cat gcf_summary_ttemp) > "$parent_gcf"gcf_summary
+echo -e "$gcfnum""\t""$bb""\t""$species_count" 
+done < gcf_summary_ttemp > "$parent_gcf"gcf_summary
 #
 #
 mv "$parent_gcf"gcf_summary ./dereplicated/"$parent_gcf"gcf_summary_NEW
 #
 #tidy
-rm spp_dereplicated isos add_back names zzemp3 warn_bb zzemp ttemp "$parent_gcf"iso_spp_uniq bbs others gcf_summary_ttemp "$parent_gcf"same_gcfs isos
+rm spp_dereplicated isos add_back names zzemp3 warn_bb zzemp ttemp "$parent_gcf"iso_spp_uniq bbs others gcf_summary_ttemp "$parent_gcf"same_gcfs isos 2> /dev/null
 done
 ```
 
 ## Step 6: Getting protein domain statistics on the files
 
-In order to do this in the most efficient way, I wanted to generate a large tsv table that contained a row for each unique protein domain in every gene in every cluster. This allowed for very easy subsetting, sorting, and analyzing in some of the more downstream analysis.
+In order to do this in the most efficient way, I wanted to generate a large tsv table that contained a row for each unique protein domain in every gene in every cluster. This allowed for very easy subsetting, sorting, and analyzing in some of the more downstream analysis. This entire section was a python script made just for this file. 
 
 **GenerateLargeTable.py**
 
@@ -3867,6 +3858,14 @@ if __name__ == '__main__':
 ```
 
 ## Step 7: Running clinker on the outputs
+
+### Condensed summary of the clinker command
+
+```sh
+clinker ./"$1"/*.gbk -s "$1".json -p "$1".html -j 4
+```
+
+### Raw scripts
 
 This step will be run on the CHTC supercomputer, as there are too many to resonably run on my local computer. And the large one's require a heavy amount of RAM (100GB +). The following is the submit script (the memory was adjusted up and down depending on the size of the GCF or GCC).
 
@@ -4647,7 +4646,7 @@ Group_1      33% conservation      PF00122.21_E1-E2_ATPase, PF00403.27_HMA, PF00
 
 
 
-## Expansion and Contraction analysis and scripts
+## Expansion and Contraction scripts
 
 This script could be modified for use on other projects. The only two inputs are 
 
