@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/595311431.svg)](https://zenodo.org/badge/latestdoi/595311431)
 
-![Publication Link](./Images/paperclip.svg)](https://academic.oup.com/nar/article/51/14/7220/7222084?guestAccessKey=1bd619c6-1128-4152-a152-d35fc03a702d&utm_source=authortollfreelink&utm_campaign=nar&utm_medium=email)
+[![Publication Link](./Images/paperclip.svg)](https://academic.oup.com/nar/article/51/14/7220/7222084?guestAccessKey=1bd619c6-1128-4152-a152-d35fc03a702d&utm_source=authortollfreelink&utm_campaign=nar&utm_medium=email)
 
 # *Explanation of repository's organization:*
 Reproducible code and data repository for the fungal ICS BGC prediction publication. All of the core code used in the publication in addition to the raw prediction files can be found here. 
